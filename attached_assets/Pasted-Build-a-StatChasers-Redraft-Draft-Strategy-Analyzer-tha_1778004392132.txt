@@ -1,0 +1,571 @@
+Build a StatChasers “Redraft Draft Strategy Analyzer” that studies the last 5 years of completed Sleeper redraft leagues and identifies which draft strategies produced the best fantasy results.
+
+IMPORTANT:
+Do this one step at a time. First build the backend/data pipeline and JSON outputs. Do not redesign the public UI until the data pipeline works.
+
+PROJECT GOAL
+Create a data-backed guide/tool that answers:
+
+“What is the optimal fantasy football redraft draft strategy based on real Sleeper draft results?”
+
+The analyzer should compare draft strategies by:
+- Draft slot
+- First-round position
+- First two picks
+- First five rounds
+- Scoring format
+- League size
+- 1QB vs Superflex
+- Final team success
+
+DATA SOURCE
+Use Sleeper public API.
+
+We need to analyze completed redraft leagues from the last 5 NFL seasons.
+
+Use only leagues that are:
+- Redraft leagues
+- Completed seasons
+- Not dynasty
+- Not keeper
+- Not best ball, unless clearly separated
+- Prefer 10-team and 12-team leagues
+- Prefer standard roster formats where possible
+
+For each league, pull:
+- League metadata
+- League settings
+- Scoring settings
+- Roster positions
+- Users
+- Rosters
+- Matchups
+- Winners bracket / playoff bracket if available
+- Draft IDs
+- Draft results / draft picks
+
+Sleeper endpoints likely needed:
+- GET /league/{league_id}
+- GET /league/{league_id}/users
+- GET /league/{league_id}/rosters
+- GET /league/{league_id}/matchups/{week}
+- GET /league/{league_id}/winners_bracket
+- GET /league/{league_id}/losers_bracket
+- GET /league/{league_id}/drafts
+- GET /draft/{draft_id}
+- GET /draft/{draft_id}/picks
+- GET /players/nfl
+
+INPUT METHOD
+Create a seed input file:
+
+data/input/sleeper_redraft_leagues.csv
+
+Columns:
+- season
+- league_id
+- notes
+
+The script should read this file and analyze every league_id listed.
+
+Later, we may add auto-discovery, but for now manual league_id input is fine.
+
+BACKEND FILE STRUCTURE
+Create or update the project with this structure:
+
+scripts/
+  fetch_sleeper_redraft_data.ts
+  analyze_redraft_strategy.ts
+  update_redraft_strategy.ts
+
+data/
+  input/
+    sleeper_redraft_leagues.csv
+  raw/
+    sleeper/
+      leagues/
+      drafts/
+      picks/
+      rosters/
+      matchups/
+      brackets/
+  output/
+    redraft_strategy_summary.json
+    redraft_strategy_by_slot.json
+    redraft_strategy_by_format.json
+    redraft_first_two_pick_combos.json
+    redraft_first_five_builds.json
+    redraft_round_value.json
+    redraft_strategy_recommendations.json
+    redraft_strategy_league_audit.json
+
+The main command should be:
+
+npx tsx scripts/update_redraft_strategy.ts
+
+That command should:
+1. Read data/input/sleeper_redraft_leagues.csv
+2. Fetch missing raw Sleeper data
+3. Cache raw data locally
+4. Analyze draft strategies
+5. Export clean JSON files into data/output/
+
+CACHING
+Do not refetch everything every time.
+
+Cache raw API responses under data/raw/sleeper/.
+
+If a cached file exists, use it unless a --refresh flag is passed.
+
+Support:
+
+npx tsx scripts/update_redraft_strategy.ts --refresh
+
+ERROR HANDLING
+The script should not crash if one league fails.
+
+For each league, log:
+- league_id
+- season
+- status: success / skipped / failed
+- reason if skipped or failed
+
+Export this to:
+
+data/output/redraft_strategy_league_audit.json
+
+LEAGUE VALIDATION
+Before analyzing a league, validate it.
+
+Skip league if:
+- League is dynasty
+- League is keeper
+- League has no draft
+- League has incomplete draft data
+- League has missing rosters
+- League has no matchup data
+- League size is less than 8 or greater than 14
+- Draft type appears to be auction, unless supported
+- Best ball is detected, unless separated
+
+For each valid league, classify:
+- season
+- league_size
+- scoring_format
+- roster_format
+- draft_type
+
+SCORING FORMAT CLASSIFICATION
+Classify scoring format based on receptions:
+
+- Standard: rec = 0
+- Half PPR: rec = 0.5
+- PPR: rec = 1
+- Other PPR: anything else
+
+ROSTER FORMAT CLASSIFICATION
+Classify roster format:
+
+- Superflex if roster_positions includes SUPER_FLEX or OP
+- 1QB if no SUPER_FLEX / OP and only one QB starter
+- 2QB if two QB slots
+- Other if unclear
+
+TEAM OUTCOME METRICS
+For each roster/team, calculate:
+
+- regular_season_wins
+- regular_season_losses
+- regular_season_ties
+- regular_season_points_for
+- regular_season_points_against
+- average_weekly_score
+- median_weekly_score
+- top_3_points_for: true/false
+- playoff_made: true/false
+- championship_made: true/false
+- champion: true/false
+- final_standing if available
+
+Use Sleeper roster settings when available:
+- wins
+- losses
+- ties
+- fpts
+- fpts_decimal
+- fpts_against
+- fpts_against_decimal
+
+If playoff bracket is available, use winners bracket to determine:
+- playoff teams
+- finalist teams
+- champion
+
+If bracket data is unavailable, fall back to standings and points for.
+
+DRAFT PICK DATA
+For each draft pick, store:
+
+- season
+- league_id
+- draft_id
+- roster_id
+- picked_by
+- draft_slot
+- pick_no
+- round
+- player_id
+- player_name
+- position
+- nfl_team
+
+Map player_id using /players/nfl.
+
+If player name or position is missing from draft pick metadata, fill it from the players file.
+
+TEAM DRAFT PROFILE
+For each drafted team, create a team-level draft profile.
+
+Include:
+- first_pick_position
+- first_pick_player
+- first_two_pick_combo
+- first_three_pick_combo
+- first_five_pick_combo
+- first_five_round_positions
+- first_eight_round_positions
+- rb_count_rounds_1_5
+- wr_count_rounds_1_5
+- qb_count_rounds_1_5
+- te_count_rounds_1_5
+- rb_count_rounds_1_8
+- wr_count_rounds_1_8
+- qb_count_rounds_1_8
+- te_count_rounds_1_8
+- first_qb_round
+- first_rb_round
+- first_wr_round
+- first_te_round
+- draft_slot_group
+
+DRAFT SLOT GROUPS
+For 12-team leagues:
+- Early: draft slots 1-4
+- Middle: draft slots 5-8
+- Late: draft slots 9-12
+
+For 10-team leagues:
+- Early: 1-3
+- Middle: 4-7
+- Late: 8-10
+
+For other league sizes, divide into thirds as evenly as possible.
+
+STRATEGY CLASSIFICATIONS
+Classify each team into strategy buckets.
+
+Zero RB:
+- 0 RBs selected in rounds 1-5
+
+Hero RB:
+- exactly 1 RB selected in rounds 1-5
+
+Robust RB:
+- 3 or more RBs selected in rounds 1-5
+
+WR Heavy:
+- 3 or more WRs selected in rounds 1-5
+
+Elite QB:
+- QB selected in rounds 1-4
+
+Elite TE:
+- TE selected in rounds 1-4
+
+Balanced Start:
+- through Round 5, team has:
+  - at least 1 RB
+  - at least 1 WR
+  - no more than 1 QB
+  - no more than 1 TE
+  - at least 4 total RB/WR picks
+
+Fragile RB:
+- exactly 2 RBs in rounds 1-5
+- no RBs in rounds 6-8
+
+Late QB:
+- first QB selected round 8 or later
+
+Late TE:
+- first TE selected round 8 or later
+
+Anchor TE:
+- TE selected rounds 1-3
+
+Double Hero RB:
+- exactly 2 RBs selected in rounds 1-5
+- at least 3 WRs selected in rounds 1-6
+
+Do not force teams into only one strategy. A team can belong to multiple strategy buckets.
+
+ANALYSIS OUTPUTS
+For every strategy bucket and combo, calculate:
+
+- sample_size
+- average_points_for
+- median_points_for
+- average_wins
+- playoff_rate
+- finals_rate
+- championship_rate
+- top_3_pf_rate
+- average_final_standing
+- confidence_level
+
+Confidence level:
+- High: sample_size >= 250
+- Medium: sample_size >= 75
+- Low: sample_size >= 25
+- Very Low: sample_size < 25
+
+Only show “recommended” strategies if sample size is at least 75.
+
+OUTPUT FILE 1:
+data/output/redraft_strategy_summary.json
+
+Include:
+- generated_at
+- seasons_included
+- total_leagues_analyzed
+- total_teams_analyzed
+- best_overall_strategies
+- worst_overall_strategies
+- best_first_round_positions
+- best_first_two_pick_combos
+- best_first_five_builds
+- key_takeaways
+
+OUTPUT FILE 2:
+data/output/redraft_strategy_by_slot.json
+
+Group by:
+- Early
+- Middle
+- Late
+
+For each group, show:
+- best strategies
+- worst strategies
+- best first two pick combos
+- best first five builds
+- recommended draft blueprint
+
+OUTPUT FILE 3:
+data/output/redraft_strategy_by_format.json
+
+Group by:
+- Standard
+- Half PPR
+- PPR
+- Other PPR
+- 1QB
+- Superflex
+
+For each format, show:
+- best strategies
+- best combos
+- biggest differences from overall baseline
+
+OUTPUT FILE 4:
+data/output/redraft_first_two_pick_combos.json
+
+For combos like:
+- RB/RB
+- RB/WR
+- WR/RB
+- WR/WR
+- WR/TE
+- WR/QB
+- TE/WR
+- QB/WR
+
+Calculate all success metrics.
+
+OUTPUT FILE 5:
+data/output/redraft_first_five_builds.json
+
+Group by first five round positional build.
+
+Example:
+- WR/RB/WR/RB/QB
+- RB/WR/WR/TE/RB
+- WR/WR/RB/WR/QB
+
+Calculate all success metrics.
+
+OUTPUT FILE 6:
+data/output/redraft_round_value.json
+
+For each round, calculate position-level success.
+
+Group by:
+- round
+- position
+
+Metrics:
+- sample_size
+- average_points_for
+- playoff_rate
+- championship_rate
+- top_3_pf_rate
+
+This helps answer:
+“Which positions are most valuable in each round?”
+
+OUTPUT FILE 7:
+data/output/redraft_strategy_recommendations.json
+
+Generate plain-English recommendations based on the data.
+
+Example structure:
+
+{
+  "overall": {
+    "headline": "WR-heavy starts produced the strongest playoff rate across the sample.",
+    "recommendations": []
+  },
+  "early_slot": {},
+  "middle_slot": {},
+  "late_slot": {},
+  "ppr": {},
+  "half_ppr": {},
+  "superflex": {}
+}
+
+Recommendation rules:
+- Do not make claims from low sample sizes.
+- Always include sample size.
+- Prefer playoff rate, top-3 PF rate, and championship rate over average wins alone.
+- Flag when championship rate and playoff rate disagree.
+- Include “confidence” for each recommendation.
+
+STATISTICAL BASELINES
+Calculate overall baseline rates:
+
+- overall playoff rate
+- overall finals rate
+- overall championship rate
+- overall top_3_pf_rate
+- average points for
+
+Then for each strategy, calculate lift vs baseline:
+
+- playoff_rate_lift
+- championship_rate_lift
+- top_3_pf_rate_lift
+- points_for_lift
+
+Example:
+If baseline playoff rate is 41.7% and WR/WR starts make playoffs 49.2%, playoff_rate_lift = +7.5 percentage points.
+
+IMPORTANT:
+Use percentage point differences, not relative percentage increases.
+
+PUBLIC GUIDE/UI
+After the data pipeline works, create a simple StatChasers guide page/component.
+
+The guide should have:
+
+1. Hero section
+Title:
+“The Optimal Redraft Draft Strategy: What 5 Years of Sleeper Drafts Reveal”
+
+Subtitle:
+“We analyzed real Sleeper redraft leagues to find which draft builds actually lead to playoff teams, high-scoring rosters, and championships.”
+
+2. Summary cards:
+- Leagues analyzed
+- Teams analyzed
+- Seasons included
+- Best overall strategy
+- Best early-slot strategy
+- Best middle-slot strategy
+- Best late-slot strategy
+
+3. Tabs or filters:
+- Overall
+- Draft Slot
+- Scoring Format
+- First Two Picks
+- First Five Rounds
+- Round Value
+
+4. Tables:
+Use clean StatChasers styling:
+- White cards
+- Navy text
+- Gold accents
+- Blue section headers
+- Mobile responsive
+- No internal iframe scrolling
+- Pagination if needed
+
+5. Each strategy table should show:
+- Strategy
+- Sample Size
+- Playoff Rate
+- Championship Rate
+- Top-3 PF Rate
+- Avg Points For
+- Lift vs Baseline
+- Confidence
+
+6. Add plain-English takeaways below each table.
+
+DESIGN STYLE
+Use StatChasers branding:
+- Primary navy/blue: #0B1F3A or existing StatChasers blue if already defined
+- Gold accent: #C9A227 or existing StatChasers gold if already defined
+- White background
+- Light gray page sections
+- Rounded cards
+- Clean modern sports analytics feel
+
+The UI should feel similar to a premium fantasy football analytics report.
+
+IMPORTANT DATA SAFETY / INTERPRETATION RULES
+Do not overstate causation.
+
+Use wording like:
+- “correlated with”
+- “performed best in this sample”
+- “produced the highest playoff rate”
+- “showed the strongest results”
+
+Avoid wording like:
+- “guarantees”
+- “proves”
+- “always draft this way”
+
+When sample size is low, show:
+“Low sample size — directional only.”
+
+COMMANDS
+Add package scripts if needed:
+
+"scripts": {
+  "redraft:update": "tsx scripts/update_redraft_strategy.ts",
+  "redraft:update:refresh": "tsx scripts/update_redraft_strategy.ts --refresh"
+}
+
+FINAL DELIVERABLES
+When done, I should be able to run:
+
+npm run redraft:update
+
+And get updated JSON outputs in:
+
+data/output/
+
+Then the public guide should read from those JSON files and display the results.

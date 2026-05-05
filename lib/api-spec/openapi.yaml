@@ -10,6 +10,8 @@ servers:
 tags:
   - name: health
     description: Health operations
+  - name: redraft
+    description: Redraft strategy analysis data
 paths:
   /healthz:
     get:
@@ -24,6 +26,167 @@ paths:
             application/json:
               schema:
                 $ref: "#/components/schemas/HealthStatus"
+
+  /redraft/summary:
+    get:
+      operationId: getRedraftSummary
+      tags: [redraft]
+      summary: Get overall redraft strategy summary
+      description: Returns high-level summary including best/worst strategies, seasons, totals
+      responses:
+        "200":
+          description: Summary data
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/RedraftSummary"
+        "404":
+          description: No data available yet
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/ApiError"
+
+  /redraft/by-slot:
+    get:
+      operationId: getRedraftBySlot
+      tags: [redraft]
+      summary: Get redraft strategy data grouped by draft slot
+      description: Returns best/worst strategies and blueprints for Early, Middle, Late draft slots
+      responses:
+        "200":
+          description: By-slot data
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/RedraftBySlot"
+        "404":
+          description: No data available yet
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/ApiError"
+
+  /redraft/by-format:
+    get:
+      operationId: getRedraftByFormat
+      tags: [redraft]
+      summary: Get redraft strategy data grouped by scoring/roster format
+      description: Returns strategy performance for Standard, Half PPR, PPR, 1QB, Superflex formats
+      responses:
+        "200":
+          description: By-format data
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/RedraftByFormat"
+        "404":
+          description: No data available yet
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/ApiError"
+
+  /redraft/first-two-picks:
+    get:
+      operationId: getRedraftFirstTwoPicks
+      tags: [redraft]
+      summary: Get analysis of first two pick position combos
+      description: Returns performance metrics for all RB/RB, RB/WR, WR/WR etc. first-two-pick combos
+      responses:
+        "200":
+          description: First two picks data
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/RedraftFirstTwoPicks"
+        "404":
+          description: No data available yet
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/ApiError"
+
+  /redraft/first-five-builds:
+    get:
+      operationId: getRedraftFirstFiveBuilds
+      tags: [redraft]
+      summary: Get analysis of first five round positional builds
+      description: Returns performance metrics grouped by first-five-round positional sequence
+      responses:
+        "200":
+          description: First five builds data
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/RedraftFirstFiveBuilds"
+        "404":
+          description: No data available yet
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/ApiError"
+
+  /redraft/round-value:
+    get:
+      operationId: getRedraftRoundValue
+      tags: [redraft]
+      summary: Get positional value by round
+      description: Returns which positions perform best when drafted in each round
+      responses:
+        "200":
+          description: Round value data
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/RedraftRoundValue"
+        "404":
+          description: No data available yet
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/ApiError"
+
+  /redraft/recommendations:
+    get:
+      operationId: getRedraftRecommendations
+      tags: [redraft]
+      summary: Get plain-English draft strategy recommendations
+      description: Returns data-backed recommendations for each slot and format type
+      responses:
+        "200":
+          description: Recommendations data
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/RedraftRecommendations"
+        "404":
+          description: No data available yet
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/ApiError"
+
+  /redraft/league-audit:
+    get:
+      operationId: getRedraftLeagueAudit
+      tags: [redraft]
+      summary: Get league processing audit log
+      description: Returns per-league processing status (success/skipped/failed) with reasons
+      responses:
+        "200":
+          description: League audit data
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/RedraftLeagueAudit"
+        "404":
+          description: No data available yet
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/ApiError"
+
 components:
   schemas:
     HealthStatus:
@@ -34,3 +197,379 @@ components:
       required:
         - status
 
+    ApiError:
+      type: object
+      properties:
+        error:
+          type: string
+        message:
+          type: string
+      required:
+        - error
+        - message
+
+    StrategyMetrics:
+      type: object
+      properties:
+        strategy:
+          type: string
+        sample_size:
+          type: integer
+        average_points_for:
+          type: number
+        median_points_for:
+          type: number
+        average_wins:
+          type: number
+        playoff_rate:
+          type: number
+        finals_rate:
+          type: number
+        championship_rate:
+          type: number
+        top_3_pf_rate:
+          type: number
+        average_final_standing:
+          type: number
+        confidence_level:
+          type: string
+        playoff_rate_lift:
+          type: number
+        championship_rate_lift:
+          type: number
+        top_3_pf_rate_lift:
+          type: number
+        points_for_lift:
+          type: number
+      required:
+        - strategy
+        - sample_size
+        - playoff_rate
+        - championship_rate
+        - confidence_level
+
+    RedraftSummary:
+      type: object
+      properties:
+        generated_at:
+          type: string
+        seasons_included:
+          type: array
+          items:
+            type: string
+        total_leagues_analyzed:
+          type: integer
+        total_teams_analyzed:
+          type: integer
+        baseline:
+          type: object
+          properties:
+            playoff_rate:
+              type: number
+            finals_rate:
+              type: number
+            championship_rate:
+              type: number
+            top_3_pf_rate:
+              type: number
+            average_points_for:
+              type: number
+          required:
+            - playoff_rate
+            - championship_rate
+        best_overall_strategies:
+          type: array
+          items:
+            $ref: "#/components/schemas/StrategyMetrics"
+        worst_overall_strategies:
+          type: array
+          items:
+            $ref: "#/components/schemas/StrategyMetrics"
+        best_first_round_positions:
+          type: array
+          items:
+            $ref: "#/components/schemas/StrategyMetrics"
+        best_first_two_pick_combos:
+          type: array
+          items:
+            $ref: "#/components/schemas/StrategyMetrics"
+        best_first_five_builds:
+          type: array
+          items:
+            $ref: "#/components/schemas/StrategyMetrics"
+        key_takeaways:
+          type: array
+          items:
+            type: string
+      required:
+        - generated_at
+        - total_leagues_analyzed
+        - total_teams_analyzed
+        - best_overall_strategies
+
+    SlotGroupData:
+      type: object
+      properties:
+        slot_group:
+          type: string
+        sample_size:
+          type: integer
+        best_strategies:
+          type: array
+          items:
+            $ref: "#/components/schemas/StrategyMetrics"
+        worst_strategies:
+          type: array
+          items:
+            $ref: "#/components/schemas/StrategyMetrics"
+        best_first_two_pick_combos:
+          type: array
+          items:
+            $ref: "#/components/schemas/StrategyMetrics"
+        best_first_five_builds:
+          type: array
+          items:
+            $ref: "#/components/schemas/StrategyMetrics"
+        recommended_draft_blueprint:
+          type: string
+      required:
+        - slot_group
+        - sample_size
+        - best_strategies
+
+    RedraftBySlot:
+      type: object
+      properties:
+        generated_at:
+          type: string
+        early:
+          $ref: "#/components/schemas/SlotGroupData"
+        middle:
+          $ref: "#/components/schemas/SlotGroupData"
+        late:
+          $ref: "#/components/schemas/SlotGroupData"
+      required:
+        - generated_at
+
+    FormatGroupData:
+      type: object
+      properties:
+        format:
+          type: string
+        sample_size:
+          type: integer
+        best_strategies:
+          type: array
+          items:
+            $ref: "#/components/schemas/StrategyMetrics"
+        best_combos:
+          type: array
+          items:
+            $ref: "#/components/schemas/StrategyMetrics"
+        biggest_differences_from_baseline:
+          type: array
+          items:
+            type: object
+            properties:
+              strategy:
+                type: string
+              metric:
+                type: string
+              lift:
+                type: number
+            required:
+              - strategy
+              - metric
+              - lift
+      required:
+        - format
+        - sample_size
+        - best_strategies
+
+    RedraftByFormat:
+      type: object
+      properties:
+        generated_at:
+          type: string
+        standard:
+          $ref: "#/components/schemas/FormatGroupData"
+        half_ppr:
+          $ref: "#/components/schemas/FormatGroupData"
+        ppr:
+          $ref: "#/components/schemas/FormatGroupData"
+        other_ppr:
+          $ref: "#/components/schemas/FormatGroupData"
+        one_qb:
+          $ref: "#/components/schemas/FormatGroupData"
+        superflex:
+          $ref: "#/components/schemas/FormatGroupData"
+      required:
+        - generated_at
+
+    RedraftFirstTwoPicks:
+      type: object
+      properties:
+        generated_at:
+          type: string
+        combos:
+          type: array
+          items:
+            $ref: "#/components/schemas/StrategyMetrics"
+      required:
+        - generated_at
+        - combos
+
+    RedraftFirstFiveBuilds:
+      type: object
+      properties:
+        generated_at:
+          type: string
+        builds:
+          type: array
+          items:
+            $ref: "#/components/schemas/StrategyMetrics"
+      required:
+        - generated_at
+        - builds
+
+    RoundPositionMetrics:
+      type: object
+      properties:
+        round:
+          type: integer
+        position:
+          type: string
+        sample_size:
+          type: integer
+        average_points_for:
+          type: number
+        playoff_rate:
+          type: number
+        championship_rate:
+          type: number
+        top_3_pf_rate:
+          type: number
+      required:
+        - round
+        - position
+        - sample_size
+        - playoff_rate
+
+    RedraftRoundValue:
+      type: object
+      properties:
+        generated_at:
+          type: string
+        rounds:
+          type: array
+          items:
+            type: object
+            properties:
+              round:
+                type: integer
+              positions:
+                type: array
+                items:
+                  $ref: "#/components/schemas/RoundPositionMetrics"
+            required:
+              - round
+              - positions
+      required:
+        - generated_at
+        - rounds
+
+    Recommendation:
+      type: object
+      properties:
+        headline:
+          type: string
+        body:
+          type: string
+        sample_size:
+          type: integer
+        confidence:
+          type: string
+        metrics:
+          type: object
+          additionalProperties:
+            type: number
+      required:
+        - headline
+        - confidence
+
+    RedraftRecommendationGroup:
+      type: object
+      properties:
+        headline:
+          type: string
+        recommendations:
+          type: array
+          items:
+            $ref: "#/components/schemas/Recommendation"
+      required:
+        - headline
+        - recommendations
+
+    RedraftRecommendations:
+      type: object
+      properties:
+        generated_at:
+          type: string
+        overall:
+          $ref: "#/components/schemas/RedraftRecommendationGroup"
+        early_slot:
+          $ref: "#/components/schemas/RedraftRecommendationGroup"
+        middle_slot:
+          $ref: "#/components/schemas/RedraftRecommendationGroup"
+        late_slot:
+          $ref: "#/components/schemas/RedraftRecommendationGroup"
+        ppr:
+          $ref: "#/components/schemas/RedraftRecommendationGroup"
+        half_ppr:
+          $ref: "#/components/schemas/RedraftRecommendationGroup"
+        superflex:
+          $ref: "#/components/schemas/RedraftRecommendationGroup"
+      required:
+        - generated_at
+        - overall
+
+    LeagueAuditEntry:
+      type: object
+      properties:
+        league_id:
+          type: string
+        season:
+          type: string
+        status:
+          type: string
+          enum: [success, skipped, failed]
+        reason:
+          type: string
+        notes:
+          type: string
+      required:
+        - league_id
+        - season
+        - status
+
+    RedraftLeagueAudit:
+      type: object
+      properties:
+        generated_at:
+          type: string
+        total_leagues:
+          type: integer
+        succeeded:
+          type: integer
+        skipped:
+          type: integer
+        failed:
+          type: integer
+        entries:
+          type: array
+          items:
+            $ref: "#/components/schemas/LeagueAuditEntry"
+      required:
+        - generated_at
+        - total_leagues
+        - entries

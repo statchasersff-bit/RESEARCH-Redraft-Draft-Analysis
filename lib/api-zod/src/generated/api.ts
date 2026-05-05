@@ -14,3 +14,943 @@ import * as zod from "zod";
 export const HealthCheckResponse = zod.object({
   status: zod.string(),
 });
+
+/**
+ * Returns high-level summary including best/worst strategies, seasons, totals
+ * @summary Get overall redraft strategy summary
+ */
+export const GetRedraftSummaryResponse = zod.object({
+  generated_at: zod.string(),
+  seasons_included: zod.array(zod.string()).optional(),
+  total_leagues_analyzed: zod.number(),
+  total_teams_analyzed: zod.number(),
+  baseline: zod
+    .object({
+      playoff_rate: zod.number(),
+      finals_rate: zod.number().optional(),
+      championship_rate: zod.number(),
+      top_3_pf_rate: zod.number().optional(),
+      average_points_for: zod.number().optional(),
+    })
+    .optional(),
+  best_overall_strategies: zod.array(
+    zod.object({
+      strategy: zod.string(),
+      sample_size: zod.number(),
+      average_points_for: zod.number().optional(),
+      median_points_for: zod.number().optional(),
+      average_wins: zod.number().optional(),
+      playoff_rate: zod.number(),
+      finals_rate: zod.number().optional(),
+      championship_rate: zod.number(),
+      top_3_pf_rate: zod.number().optional(),
+      average_final_standing: zod.number().optional(),
+      confidence_level: zod.string(),
+      playoff_rate_lift: zod.number().optional(),
+      championship_rate_lift: zod.number().optional(),
+      top_3_pf_rate_lift: zod.number().optional(),
+      points_for_lift: zod.number().optional(),
+    }),
+  ),
+  worst_overall_strategies: zod
+    .array(
+      zod.object({
+        strategy: zod.string(),
+        sample_size: zod.number(),
+        average_points_for: zod.number().optional(),
+        median_points_for: zod.number().optional(),
+        average_wins: zod.number().optional(),
+        playoff_rate: zod.number(),
+        finals_rate: zod.number().optional(),
+        championship_rate: zod.number(),
+        top_3_pf_rate: zod.number().optional(),
+        average_final_standing: zod.number().optional(),
+        confidence_level: zod.string(),
+        playoff_rate_lift: zod.number().optional(),
+        championship_rate_lift: zod.number().optional(),
+        top_3_pf_rate_lift: zod.number().optional(),
+        points_for_lift: zod.number().optional(),
+      }),
+    )
+    .optional(),
+  best_first_round_positions: zod
+    .array(
+      zod.object({
+        strategy: zod.string(),
+        sample_size: zod.number(),
+        average_points_for: zod.number().optional(),
+        median_points_for: zod.number().optional(),
+        average_wins: zod.number().optional(),
+        playoff_rate: zod.number(),
+        finals_rate: zod.number().optional(),
+        championship_rate: zod.number(),
+        top_3_pf_rate: zod.number().optional(),
+        average_final_standing: zod.number().optional(),
+        confidence_level: zod.string(),
+        playoff_rate_lift: zod.number().optional(),
+        championship_rate_lift: zod.number().optional(),
+        top_3_pf_rate_lift: zod.number().optional(),
+        points_for_lift: zod.number().optional(),
+      }),
+    )
+    .optional(),
+  best_first_two_pick_combos: zod
+    .array(
+      zod.object({
+        strategy: zod.string(),
+        sample_size: zod.number(),
+        average_points_for: zod.number().optional(),
+        median_points_for: zod.number().optional(),
+        average_wins: zod.number().optional(),
+        playoff_rate: zod.number(),
+        finals_rate: zod.number().optional(),
+        championship_rate: zod.number(),
+        top_3_pf_rate: zod.number().optional(),
+        average_final_standing: zod.number().optional(),
+        confidence_level: zod.string(),
+        playoff_rate_lift: zod.number().optional(),
+        championship_rate_lift: zod.number().optional(),
+        top_3_pf_rate_lift: zod.number().optional(),
+        points_for_lift: zod.number().optional(),
+      }),
+    )
+    .optional(),
+  best_first_five_builds: zod
+    .array(
+      zod.object({
+        strategy: zod.string(),
+        sample_size: zod.number(),
+        average_points_for: zod.number().optional(),
+        median_points_for: zod.number().optional(),
+        average_wins: zod.number().optional(),
+        playoff_rate: zod.number(),
+        finals_rate: zod.number().optional(),
+        championship_rate: zod.number(),
+        top_3_pf_rate: zod.number().optional(),
+        average_final_standing: zod.number().optional(),
+        confidence_level: zod.string(),
+        playoff_rate_lift: zod.number().optional(),
+        championship_rate_lift: zod.number().optional(),
+        top_3_pf_rate_lift: zod.number().optional(),
+        points_for_lift: zod.number().optional(),
+      }),
+    )
+    .optional(),
+  key_takeaways: zod.array(zod.string()).optional(),
+});
+
+/**
+ * Returns best/worst strategies and blueprints for Early, Middle, Late draft slots
+ * @summary Get redraft strategy data grouped by draft slot
+ */
+export const GetRedraftBySlotResponse = zod.object({
+  generated_at: zod.string(),
+  early: zod
+    .object({
+      slot_group: zod.string(),
+      sample_size: zod.number(),
+      best_strategies: zod.array(
+        zod.object({
+          strategy: zod.string(),
+          sample_size: zod.number(),
+          average_points_for: zod.number().optional(),
+          median_points_for: zod.number().optional(),
+          average_wins: zod.number().optional(),
+          playoff_rate: zod.number(),
+          finals_rate: zod.number().optional(),
+          championship_rate: zod.number(),
+          top_3_pf_rate: zod.number().optional(),
+          average_final_standing: zod.number().optional(),
+          confidence_level: zod.string(),
+          playoff_rate_lift: zod.number().optional(),
+          championship_rate_lift: zod.number().optional(),
+          top_3_pf_rate_lift: zod.number().optional(),
+          points_for_lift: zod.number().optional(),
+        }),
+      ),
+      worst_strategies: zod
+        .array(
+          zod.object({
+            strategy: zod.string(),
+            sample_size: zod.number(),
+            average_points_for: zod.number().optional(),
+            median_points_for: zod.number().optional(),
+            average_wins: zod.number().optional(),
+            playoff_rate: zod.number(),
+            finals_rate: zod.number().optional(),
+            championship_rate: zod.number(),
+            top_3_pf_rate: zod.number().optional(),
+            average_final_standing: zod.number().optional(),
+            confidence_level: zod.string(),
+            playoff_rate_lift: zod.number().optional(),
+            championship_rate_lift: zod.number().optional(),
+            top_3_pf_rate_lift: zod.number().optional(),
+            points_for_lift: zod.number().optional(),
+          }),
+        )
+        .optional(),
+      best_first_two_pick_combos: zod
+        .array(
+          zod.object({
+            strategy: zod.string(),
+            sample_size: zod.number(),
+            average_points_for: zod.number().optional(),
+            median_points_for: zod.number().optional(),
+            average_wins: zod.number().optional(),
+            playoff_rate: zod.number(),
+            finals_rate: zod.number().optional(),
+            championship_rate: zod.number(),
+            top_3_pf_rate: zod.number().optional(),
+            average_final_standing: zod.number().optional(),
+            confidence_level: zod.string(),
+            playoff_rate_lift: zod.number().optional(),
+            championship_rate_lift: zod.number().optional(),
+            top_3_pf_rate_lift: zod.number().optional(),
+            points_for_lift: zod.number().optional(),
+          }),
+        )
+        .optional(),
+      best_first_five_builds: zod
+        .array(
+          zod.object({
+            strategy: zod.string(),
+            sample_size: zod.number(),
+            average_points_for: zod.number().optional(),
+            median_points_for: zod.number().optional(),
+            average_wins: zod.number().optional(),
+            playoff_rate: zod.number(),
+            finals_rate: zod.number().optional(),
+            championship_rate: zod.number(),
+            top_3_pf_rate: zod.number().optional(),
+            average_final_standing: zod.number().optional(),
+            confidence_level: zod.string(),
+            playoff_rate_lift: zod.number().optional(),
+            championship_rate_lift: zod.number().optional(),
+            top_3_pf_rate_lift: zod.number().optional(),
+            points_for_lift: zod.number().optional(),
+          }),
+        )
+        .optional(),
+      recommended_draft_blueprint: zod.string().optional(),
+    })
+    .optional(),
+  middle: zod
+    .object({
+      slot_group: zod.string(),
+      sample_size: zod.number(),
+      best_strategies: zod.array(
+        zod.object({
+          strategy: zod.string(),
+          sample_size: zod.number(),
+          average_points_for: zod.number().optional(),
+          median_points_for: zod.number().optional(),
+          average_wins: zod.number().optional(),
+          playoff_rate: zod.number(),
+          finals_rate: zod.number().optional(),
+          championship_rate: zod.number(),
+          top_3_pf_rate: zod.number().optional(),
+          average_final_standing: zod.number().optional(),
+          confidence_level: zod.string(),
+          playoff_rate_lift: zod.number().optional(),
+          championship_rate_lift: zod.number().optional(),
+          top_3_pf_rate_lift: zod.number().optional(),
+          points_for_lift: zod.number().optional(),
+        }),
+      ),
+      worst_strategies: zod
+        .array(
+          zod.object({
+            strategy: zod.string(),
+            sample_size: zod.number(),
+            average_points_for: zod.number().optional(),
+            median_points_for: zod.number().optional(),
+            average_wins: zod.number().optional(),
+            playoff_rate: zod.number(),
+            finals_rate: zod.number().optional(),
+            championship_rate: zod.number(),
+            top_3_pf_rate: zod.number().optional(),
+            average_final_standing: zod.number().optional(),
+            confidence_level: zod.string(),
+            playoff_rate_lift: zod.number().optional(),
+            championship_rate_lift: zod.number().optional(),
+            top_3_pf_rate_lift: zod.number().optional(),
+            points_for_lift: zod.number().optional(),
+          }),
+        )
+        .optional(),
+      best_first_two_pick_combos: zod
+        .array(
+          zod.object({
+            strategy: zod.string(),
+            sample_size: zod.number(),
+            average_points_for: zod.number().optional(),
+            median_points_for: zod.number().optional(),
+            average_wins: zod.number().optional(),
+            playoff_rate: zod.number(),
+            finals_rate: zod.number().optional(),
+            championship_rate: zod.number(),
+            top_3_pf_rate: zod.number().optional(),
+            average_final_standing: zod.number().optional(),
+            confidence_level: zod.string(),
+            playoff_rate_lift: zod.number().optional(),
+            championship_rate_lift: zod.number().optional(),
+            top_3_pf_rate_lift: zod.number().optional(),
+            points_for_lift: zod.number().optional(),
+          }),
+        )
+        .optional(),
+      best_first_five_builds: zod
+        .array(
+          zod.object({
+            strategy: zod.string(),
+            sample_size: zod.number(),
+            average_points_for: zod.number().optional(),
+            median_points_for: zod.number().optional(),
+            average_wins: zod.number().optional(),
+            playoff_rate: zod.number(),
+            finals_rate: zod.number().optional(),
+            championship_rate: zod.number(),
+            top_3_pf_rate: zod.number().optional(),
+            average_final_standing: zod.number().optional(),
+            confidence_level: zod.string(),
+            playoff_rate_lift: zod.number().optional(),
+            championship_rate_lift: zod.number().optional(),
+            top_3_pf_rate_lift: zod.number().optional(),
+            points_for_lift: zod.number().optional(),
+          }),
+        )
+        .optional(),
+      recommended_draft_blueprint: zod.string().optional(),
+    })
+    .optional(),
+  late: zod
+    .object({
+      slot_group: zod.string(),
+      sample_size: zod.number(),
+      best_strategies: zod.array(
+        zod.object({
+          strategy: zod.string(),
+          sample_size: zod.number(),
+          average_points_for: zod.number().optional(),
+          median_points_for: zod.number().optional(),
+          average_wins: zod.number().optional(),
+          playoff_rate: zod.number(),
+          finals_rate: zod.number().optional(),
+          championship_rate: zod.number(),
+          top_3_pf_rate: zod.number().optional(),
+          average_final_standing: zod.number().optional(),
+          confidence_level: zod.string(),
+          playoff_rate_lift: zod.number().optional(),
+          championship_rate_lift: zod.number().optional(),
+          top_3_pf_rate_lift: zod.number().optional(),
+          points_for_lift: zod.number().optional(),
+        }),
+      ),
+      worst_strategies: zod
+        .array(
+          zod.object({
+            strategy: zod.string(),
+            sample_size: zod.number(),
+            average_points_for: zod.number().optional(),
+            median_points_for: zod.number().optional(),
+            average_wins: zod.number().optional(),
+            playoff_rate: zod.number(),
+            finals_rate: zod.number().optional(),
+            championship_rate: zod.number(),
+            top_3_pf_rate: zod.number().optional(),
+            average_final_standing: zod.number().optional(),
+            confidence_level: zod.string(),
+            playoff_rate_lift: zod.number().optional(),
+            championship_rate_lift: zod.number().optional(),
+            top_3_pf_rate_lift: zod.number().optional(),
+            points_for_lift: zod.number().optional(),
+          }),
+        )
+        .optional(),
+      best_first_two_pick_combos: zod
+        .array(
+          zod.object({
+            strategy: zod.string(),
+            sample_size: zod.number(),
+            average_points_for: zod.number().optional(),
+            median_points_for: zod.number().optional(),
+            average_wins: zod.number().optional(),
+            playoff_rate: zod.number(),
+            finals_rate: zod.number().optional(),
+            championship_rate: zod.number(),
+            top_3_pf_rate: zod.number().optional(),
+            average_final_standing: zod.number().optional(),
+            confidence_level: zod.string(),
+            playoff_rate_lift: zod.number().optional(),
+            championship_rate_lift: zod.number().optional(),
+            top_3_pf_rate_lift: zod.number().optional(),
+            points_for_lift: zod.number().optional(),
+          }),
+        )
+        .optional(),
+      best_first_five_builds: zod
+        .array(
+          zod.object({
+            strategy: zod.string(),
+            sample_size: zod.number(),
+            average_points_for: zod.number().optional(),
+            median_points_for: zod.number().optional(),
+            average_wins: zod.number().optional(),
+            playoff_rate: zod.number(),
+            finals_rate: zod.number().optional(),
+            championship_rate: zod.number(),
+            top_3_pf_rate: zod.number().optional(),
+            average_final_standing: zod.number().optional(),
+            confidence_level: zod.string(),
+            playoff_rate_lift: zod.number().optional(),
+            championship_rate_lift: zod.number().optional(),
+            top_3_pf_rate_lift: zod.number().optional(),
+            points_for_lift: zod.number().optional(),
+          }),
+        )
+        .optional(),
+      recommended_draft_blueprint: zod.string().optional(),
+    })
+    .optional(),
+});
+
+/**
+ * Returns strategy performance for Standard, Half PPR, PPR, 1QB, Superflex formats
+ * @summary Get redraft strategy data grouped by scoring/roster format
+ */
+export const GetRedraftByFormatResponse = zod.object({
+  generated_at: zod.string(),
+  standard: zod
+    .object({
+      format: zod.string(),
+      sample_size: zod.number(),
+      best_strategies: zod.array(
+        zod.object({
+          strategy: zod.string(),
+          sample_size: zod.number(),
+          average_points_for: zod.number().optional(),
+          median_points_for: zod.number().optional(),
+          average_wins: zod.number().optional(),
+          playoff_rate: zod.number(),
+          finals_rate: zod.number().optional(),
+          championship_rate: zod.number(),
+          top_3_pf_rate: zod.number().optional(),
+          average_final_standing: zod.number().optional(),
+          confidence_level: zod.string(),
+          playoff_rate_lift: zod.number().optional(),
+          championship_rate_lift: zod.number().optional(),
+          top_3_pf_rate_lift: zod.number().optional(),
+          points_for_lift: zod.number().optional(),
+        }),
+      ),
+      best_combos: zod
+        .array(
+          zod.object({
+            strategy: zod.string(),
+            sample_size: zod.number(),
+            average_points_for: zod.number().optional(),
+            median_points_for: zod.number().optional(),
+            average_wins: zod.number().optional(),
+            playoff_rate: zod.number(),
+            finals_rate: zod.number().optional(),
+            championship_rate: zod.number(),
+            top_3_pf_rate: zod.number().optional(),
+            average_final_standing: zod.number().optional(),
+            confidence_level: zod.string(),
+            playoff_rate_lift: zod.number().optional(),
+            championship_rate_lift: zod.number().optional(),
+            top_3_pf_rate_lift: zod.number().optional(),
+            points_for_lift: zod.number().optional(),
+          }),
+        )
+        .optional(),
+      biggest_differences_from_baseline: zod
+        .array(
+          zod.object({
+            strategy: zod.string(),
+            metric: zod.string(),
+            lift: zod.number(),
+          }),
+        )
+        .optional(),
+    })
+    .optional(),
+  half_ppr: zod
+    .object({
+      format: zod.string(),
+      sample_size: zod.number(),
+      best_strategies: zod.array(
+        zod.object({
+          strategy: zod.string(),
+          sample_size: zod.number(),
+          average_points_for: zod.number().optional(),
+          median_points_for: zod.number().optional(),
+          average_wins: zod.number().optional(),
+          playoff_rate: zod.number(),
+          finals_rate: zod.number().optional(),
+          championship_rate: zod.number(),
+          top_3_pf_rate: zod.number().optional(),
+          average_final_standing: zod.number().optional(),
+          confidence_level: zod.string(),
+          playoff_rate_lift: zod.number().optional(),
+          championship_rate_lift: zod.number().optional(),
+          top_3_pf_rate_lift: zod.number().optional(),
+          points_for_lift: zod.number().optional(),
+        }),
+      ),
+      best_combos: zod
+        .array(
+          zod.object({
+            strategy: zod.string(),
+            sample_size: zod.number(),
+            average_points_for: zod.number().optional(),
+            median_points_for: zod.number().optional(),
+            average_wins: zod.number().optional(),
+            playoff_rate: zod.number(),
+            finals_rate: zod.number().optional(),
+            championship_rate: zod.number(),
+            top_3_pf_rate: zod.number().optional(),
+            average_final_standing: zod.number().optional(),
+            confidence_level: zod.string(),
+            playoff_rate_lift: zod.number().optional(),
+            championship_rate_lift: zod.number().optional(),
+            top_3_pf_rate_lift: zod.number().optional(),
+            points_for_lift: zod.number().optional(),
+          }),
+        )
+        .optional(),
+      biggest_differences_from_baseline: zod
+        .array(
+          zod.object({
+            strategy: zod.string(),
+            metric: zod.string(),
+            lift: zod.number(),
+          }),
+        )
+        .optional(),
+    })
+    .optional(),
+  ppr: zod
+    .object({
+      format: zod.string(),
+      sample_size: zod.number(),
+      best_strategies: zod.array(
+        zod.object({
+          strategy: zod.string(),
+          sample_size: zod.number(),
+          average_points_for: zod.number().optional(),
+          median_points_for: zod.number().optional(),
+          average_wins: zod.number().optional(),
+          playoff_rate: zod.number(),
+          finals_rate: zod.number().optional(),
+          championship_rate: zod.number(),
+          top_3_pf_rate: zod.number().optional(),
+          average_final_standing: zod.number().optional(),
+          confidence_level: zod.string(),
+          playoff_rate_lift: zod.number().optional(),
+          championship_rate_lift: zod.number().optional(),
+          top_3_pf_rate_lift: zod.number().optional(),
+          points_for_lift: zod.number().optional(),
+        }),
+      ),
+      best_combos: zod
+        .array(
+          zod.object({
+            strategy: zod.string(),
+            sample_size: zod.number(),
+            average_points_for: zod.number().optional(),
+            median_points_for: zod.number().optional(),
+            average_wins: zod.number().optional(),
+            playoff_rate: zod.number(),
+            finals_rate: zod.number().optional(),
+            championship_rate: zod.number(),
+            top_3_pf_rate: zod.number().optional(),
+            average_final_standing: zod.number().optional(),
+            confidence_level: zod.string(),
+            playoff_rate_lift: zod.number().optional(),
+            championship_rate_lift: zod.number().optional(),
+            top_3_pf_rate_lift: zod.number().optional(),
+            points_for_lift: zod.number().optional(),
+          }),
+        )
+        .optional(),
+      biggest_differences_from_baseline: zod
+        .array(
+          zod.object({
+            strategy: zod.string(),
+            metric: zod.string(),
+            lift: zod.number(),
+          }),
+        )
+        .optional(),
+    })
+    .optional(),
+  other_ppr: zod
+    .object({
+      format: zod.string(),
+      sample_size: zod.number(),
+      best_strategies: zod.array(
+        zod.object({
+          strategy: zod.string(),
+          sample_size: zod.number(),
+          average_points_for: zod.number().optional(),
+          median_points_for: zod.number().optional(),
+          average_wins: zod.number().optional(),
+          playoff_rate: zod.number(),
+          finals_rate: zod.number().optional(),
+          championship_rate: zod.number(),
+          top_3_pf_rate: zod.number().optional(),
+          average_final_standing: zod.number().optional(),
+          confidence_level: zod.string(),
+          playoff_rate_lift: zod.number().optional(),
+          championship_rate_lift: zod.number().optional(),
+          top_3_pf_rate_lift: zod.number().optional(),
+          points_for_lift: zod.number().optional(),
+        }),
+      ),
+      best_combos: zod
+        .array(
+          zod.object({
+            strategy: zod.string(),
+            sample_size: zod.number(),
+            average_points_for: zod.number().optional(),
+            median_points_for: zod.number().optional(),
+            average_wins: zod.number().optional(),
+            playoff_rate: zod.number(),
+            finals_rate: zod.number().optional(),
+            championship_rate: zod.number(),
+            top_3_pf_rate: zod.number().optional(),
+            average_final_standing: zod.number().optional(),
+            confidence_level: zod.string(),
+            playoff_rate_lift: zod.number().optional(),
+            championship_rate_lift: zod.number().optional(),
+            top_3_pf_rate_lift: zod.number().optional(),
+            points_for_lift: zod.number().optional(),
+          }),
+        )
+        .optional(),
+      biggest_differences_from_baseline: zod
+        .array(
+          zod.object({
+            strategy: zod.string(),
+            metric: zod.string(),
+            lift: zod.number(),
+          }),
+        )
+        .optional(),
+    })
+    .optional(),
+  one_qb: zod
+    .object({
+      format: zod.string(),
+      sample_size: zod.number(),
+      best_strategies: zod.array(
+        zod.object({
+          strategy: zod.string(),
+          sample_size: zod.number(),
+          average_points_for: zod.number().optional(),
+          median_points_for: zod.number().optional(),
+          average_wins: zod.number().optional(),
+          playoff_rate: zod.number(),
+          finals_rate: zod.number().optional(),
+          championship_rate: zod.number(),
+          top_3_pf_rate: zod.number().optional(),
+          average_final_standing: zod.number().optional(),
+          confidence_level: zod.string(),
+          playoff_rate_lift: zod.number().optional(),
+          championship_rate_lift: zod.number().optional(),
+          top_3_pf_rate_lift: zod.number().optional(),
+          points_for_lift: zod.number().optional(),
+        }),
+      ),
+      best_combos: zod
+        .array(
+          zod.object({
+            strategy: zod.string(),
+            sample_size: zod.number(),
+            average_points_for: zod.number().optional(),
+            median_points_for: zod.number().optional(),
+            average_wins: zod.number().optional(),
+            playoff_rate: zod.number(),
+            finals_rate: zod.number().optional(),
+            championship_rate: zod.number(),
+            top_3_pf_rate: zod.number().optional(),
+            average_final_standing: zod.number().optional(),
+            confidence_level: zod.string(),
+            playoff_rate_lift: zod.number().optional(),
+            championship_rate_lift: zod.number().optional(),
+            top_3_pf_rate_lift: zod.number().optional(),
+            points_for_lift: zod.number().optional(),
+          }),
+        )
+        .optional(),
+      biggest_differences_from_baseline: zod
+        .array(
+          zod.object({
+            strategy: zod.string(),
+            metric: zod.string(),
+            lift: zod.number(),
+          }),
+        )
+        .optional(),
+    })
+    .optional(),
+  superflex: zod
+    .object({
+      format: zod.string(),
+      sample_size: zod.number(),
+      best_strategies: zod.array(
+        zod.object({
+          strategy: zod.string(),
+          sample_size: zod.number(),
+          average_points_for: zod.number().optional(),
+          median_points_for: zod.number().optional(),
+          average_wins: zod.number().optional(),
+          playoff_rate: zod.number(),
+          finals_rate: zod.number().optional(),
+          championship_rate: zod.number(),
+          top_3_pf_rate: zod.number().optional(),
+          average_final_standing: zod.number().optional(),
+          confidence_level: zod.string(),
+          playoff_rate_lift: zod.number().optional(),
+          championship_rate_lift: zod.number().optional(),
+          top_3_pf_rate_lift: zod.number().optional(),
+          points_for_lift: zod.number().optional(),
+        }),
+      ),
+      best_combos: zod
+        .array(
+          zod.object({
+            strategy: zod.string(),
+            sample_size: zod.number(),
+            average_points_for: zod.number().optional(),
+            median_points_for: zod.number().optional(),
+            average_wins: zod.number().optional(),
+            playoff_rate: zod.number(),
+            finals_rate: zod.number().optional(),
+            championship_rate: zod.number(),
+            top_3_pf_rate: zod.number().optional(),
+            average_final_standing: zod.number().optional(),
+            confidence_level: zod.string(),
+            playoff_rate_lift: zod.number().optional(),
+            championship_rate_lift: zod.number().optional(),
+            top_3_pf_rate_lift: zod.number().optional(),
+            points_for_lift: zod.number().optional(),
+          }),
+        )
+        .optional(),
+      biggest_differences_from_baseline: zod
+        .array(
+          zod.object({
+            strategy: zod.string(),
+            metric: zod.string(),
+            lift: zod.number(),
+          }),
+        )
+        .optional(),
+    })
+    .optional(),
+});
+
+/**
+ * Returns performance metrics for all RB/RB, RB/WR, WR/WR etc. first-two-pick combos
+ * @summary Get analysis of first two pick position combos
+ */
+export const GetRedraftFirstTwoPicksResponse = zod.object({
+  generated_at: zod.string(),
+  combos: zod.array(
+    zod.object({
+      strategy: zod.string(),
+      sample_size: zod.number(),
+      average_points_for: zod.number().optional(),
+      median_points_for: zod.number().optional(),
+      average_wins: zod.number().optional(),
+      playoff_rate: zod.number(),
+      finals_rate: zod.number().optional(),
+      championship_rate: zod.number(),
+      top_3_pf_rate: zod.number().optional(),
+      average_final_standing: zod.number().optional(),
+      confidence_level: zod.string(),
+      playoff_rate_lift: zod.number().optional(),
+      championship_rate_lift: zod.number().optional(),
+      top_3_pf_rate_lift: zod.number().optional(),
+      points_for_lift: zod.number().optional(),
+    }),
+  ),
+});
+
+/**
+ * Returns performance metrics grouped by first-five-round positional sequence
+ * @summary Get analysis of first five round positional builds
+ */
+export const GetRedraftFirstFiveBuildsResponse = zod.object({
+  generated_at: zod.string(),
+  builds: zod.array(
+    zod.object({
+      strategy: zod.string(),
+      sample_size: zod.number(),
+      average_points_for: zod.number().optional(),
+      median_points_for: zod.number().optional(),
+      average_wins: zod.number().optional(),
+      playoff_rate: zod.number(),
+      finals_rate: zod.number().optional(),
+      championship_rate: zod.number(),
+      top_3_pf_rate: zod.number().optional(),
+      average_final_standing: zod.number().optional(),
+      confidence_level: zod.string(),
+      playoff_rate_lift: zod.number().optional(),
+      championship_rate_lift: zod.number().optional(),
+      top_3_pf_rate_lift: zod.number().optional(),
+      points_for_lift: zod.number().optional(),
+    }),
+  ),
+});
+
+/**
+ * Returns which positions perform best when drafted in each round
+ * @summary Get positional value by round
+ */
+export const GetRedraftRoundValueResponse = zod.object({
+  generated_at: zod.string(),
+  rounds: zod.array(
+    zod.object({
+      round: zod.number(),
+      positions: zod.array(
+        zod.object({
+          round: zod.number(),
+          position: zod.string(),
+          sample_size: zod.number(),
+          average_points_for: zod.number().optional(),
+          playoff_rate: zod.number(),
+          championship_rate: zod.number().optional(),
+          top_3_pf_rate: zod.number().optional(),
+        }),
+      ),
+    }),
+  ),
+});
+
+/**
+ * Returns data-backed recommendations for each slot and format type
+ * @summary Get plain-English draft strategy recommendations
+ */
+export const GetRedraftRecommendationsResponse = zod.object({
+  generated_at: zod.string(),
+  overall: zod.object({
+    headline: zod.string(),
+    recommendations: zod.array(
+      zod.object({
+        headline: zod.string(),
+        body: zod.string().optional(),
+        sample_size: zod.number().optional(),
+        confidence: zod.string(),
+        metrics: zod.record(zod.string(), zod.number()).optional(),
+      }),
+    ),
+  }),
+  early_slot: zod
+    .object({
+      headline: zod.string(),
+      recommendations: zod.array(
+        zod.object({
+          headline: zod.string(),
+          body: zod.string().optional(),
+          sample_size: zod.number().optional(),
+          confidence: zod.string(),
+          metrics: zod.record(zod.string(), zod.number()).optional(),
+        }),
+      ),
+    })
+    .optional(),
+  middle_slot: zod
+    .object({
+      headline: zod.string(),
+      recommendations: zod.array(
+        zod.object({
+          headline: zod.string(),
+          body: zod.string().optional(),
+          sample_size: zod.number().optional(),
+          confidence: zod.string(),
+          metrics: zod.record(zod.string(), zod.number()).optional(),
+        }),
+      ),
+    })
+    .optional(),
+  late_slot: zod
+    .object({
+      headline: zod.string(),
+      recommendations: zod.array(
+        zod.object({
+          headline: zod.string(),
+          body: zod.string().optional(),
+          sample_size: zod.number().optional(),
+          confidence: zod.string(),
+          metrics: zod.record(zod.string(), zod.number()).optional(),
+        }),
+      ),
+    })
+    .optional(),
+  ppr: zod
+    .object({
+      headline: zod.string(),
+      recommendations: zod.array(
+        zod.object({
+          headline: zod.string(),
+          body: zod.string().optional(),
+          sample_size: zod.number().optional(),
+          confidence: zod.string(),
+          metrics: zod.record(zod.string(), zod.number()).optional(),
+        }),
+      ),
+    })
+    .optional(),
+  half_ppr: zod
+    .object({
+      headline: zod.string(),
+      recommendations: zod.array(
+        zod.object({
+          headline: zod.string(),
+          body: zod.string().optional(),
+          sample_size: zod.number().optional(),
+          confidence: zod.string(),
+          metrics: zod.record(zod.string(), zod.number()).optional(),
+        }),
+      ),
+    })
+    .optional(),
+  superflex: zod
+    .object({
+      headline: zod.string(),
+      recommendations: zod.array(
+        zod.object({
+          headline: zod.string(),
+          body: zod.string().optional(),
+          sample_size: zod.number().optional(),
+          confidence: zod.string(),
+          metrics: zod.record(zod.string(), zod.number()).optional(),
+        }),
+      ),
+    })
+    .optional(),
+});
+
+/**
+ * Returns per-league processing status (success/skipped/failed) with reasons
+ * @summary Get league processing audit log
+ */
+export const GetRedraftLeagueAuditResponse = zod.object({
+  generated_at: zod.string(),
+  total_leagues: zod.number(),
+  succeeded: zod.number().optional(),
+  skipped: zod.number().optional(),
+  failed: zod.number().optional(),
+  entries: zod.array(
+    zod.object({
+      league_id: zod.string(),
+      season: zod.string(),
+      status: zod.enum(["success", "skipped", "failed"]),
+      reason: zod.string().optional(),
+      notes: zod.string().optional(),
+    }),
+  ),
+});

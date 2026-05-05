@@ -13,7 +13,18 @@ import type {
   UseQueryResult,
 } from "@tanstack/react-query";
 
-import type { HealthStatus } from "./api.schemas";
+import type {
+  ApiError,
+  HealthStatus,
+  RedraftByFormat,
+  RedraftBySlot,
+  RedraftFirstFiveBuilds,
+  RedraftFirstTwoPicks,
+  RedraftLeagueAudit,
+  RedraftRecommendations,
+  RedraftRoundValue,
+  RedraftSummary,
+} from "./api.schemas";
 
 import { customFetch } from "../custom-fetch";
 import type { ErrorType } from "../custom-fetch";
@@ -92,6 +103,623 @@ export function useHealthCheck<
   request?: SecondParameter<typeof customFetch>;
 }): UseQueryResult<TData, TError> & { queryKey: QueryKey } {
   const queryOptions = getHealthCheckQueryOptions(options);
+
+  const query = useQuery(queryOptions) as UseQueryResult<TData, TError> & {
+    queryKey: QueryKey;
+  };
+
+  return { ...query, queryKey: queryOptions.queryKey };
+}
+
+/**
+ * Returns high-level summary including best/worst strategies, seasons, totals
+ * @summary Get overall redraft strategy summary
+ */
+export const getGetRedraftSummaryUrl = () => {
+  return `/api/redraft/summary`;
+};
+
+export const getRedraftSummary = async (
+  options?: RequestInit,
+): Promise<RedraftSummary> => {
+  return customFetch<RedraftSummary>(getGetRedraftSummaryUrl(), {
+    ...options,
+    method: "GET",
+  });
+};
+
+export const getGetRedraftSummaryQueryKey = () => {
+  return [`/api/redraft/summary`] as const;
+};
+
+export const getGetRedraftSummaryQueryOptions = <
+  TData = Awaited<ReturnType<typeof getRedraftSummary>>,
+  TError = ErrorType<ApiError>,
+>(options?: {
+  query?: UseQueryOptions<
+    Awaited<ReturnType<typeof getRedraftSummary>>,
+    TError,
+    TData
+  >;
+  request?: SecondParameter<typeof customFetch>;
+}) => {
+  const { query: queryOptions, request: requestOptions } = options ?? {};
+
+  const queryKey = queryOptions?.queryKey ?? getGetRedraftSummaryQueryKey();
+
+  const queryFn: QueryFunction<
+    Awaited<ReturnType<typeof getRedraftSummary>>
+  > = ({ signal }) => getRedraftSummary({ signal, ...requestOptions });
+
+  return { queryKey, queryFn, ...queryOptions } as UseQueryOptions<
+    Awaited<ReturnType<typeof getRedraftSummary>>,
+    TError,
+    TData
+  > & { queryKey: QueryKey };
+};
+
+export type GetRedraftSummaryQueryResult = NonNullable<
+  Awaited<ReturnType<typeof getRedraftSummary>>
+>;
+export type GetRedraftSummaryQueryError = ErrorType<ApiError>;
+
+/**
+ * @summary Get overall redraft strategy summary
+ */
+
+export function useGetRedraftSummary<
+  TData = Awaited<ReturnType<typeof getRedraftSummary>>,
+  TError = ErrorType<ApiError>,
+>(options?: {
+  query?: UseQueryOptions<
+    Awaited<ReturnType<typeof getRedraftSummary>>,
+    TError,
+    TData
+  >;
+  request?: SecondParameter<typeof customFetch>;
+}): UseQueryResult<TData, TError> & { queryKey: QueryKey } {
+  const queryOptions = getGetRedraftSummaryQueryOptions(options);
+
+  const query = useQuery(queryOptions) as UseQueryResult<TData, TError> & {
+    queryKey: QueryKey;
+  };
+
+  return { ...query, queryKey: queryOptions.queryKey };
+}
+
+/**
+ * Returns best/worst strategies and blueprints for Early, Middle, Late draft slots
+ * @summary Get redraft strategy data grouped by draft slot
+ */
+export const getGetRedraftBySlotUrl = () => {
+  return `/api/redraft/by-slot`;
+};
+
+export const getRedraftBySlot = async (
+  options?: RequestInit,
+): Promise<RedraftBySlot> => {
+  return customFetch<RedraftBySlot>(getGetRedraftBySlotUrl(), {
+    ...options,
+    method: "GET",
+  });
+};
+
+export const getGetRedraftBySlotQueryKey = () => {
+  return [`/api/redraft/by-slot`] as const;
+};
+
+export const getGetRedraftBySlotQueryOptions = <
+  TData = Awaited<ReturnType<typeof getRedraftBySlot>>,
+  TError = ErrorType<ApiError>,
+>(options?: {
+  query?: UseQueryOptions<
+    Awaited<ReturnType<typeof getRedraftBySlot>>,
+    TError,
+    TData
+  >;
+  request?: SecondParameter<typeof customFetch>;
+}) => {
+  const { query: queryOptions, request: requestOptions } = options ?? {};
+
+  const queryKey = queryOptions?.queryKey ?? getGetRedraftBySlotQueryKey();
+
+  const queryFn: QueryFunction<
+    Awaited<ReturnType<typeof getRedraftBySlot>>
+  > = ({ signal }) => getRedraftBySlot({ signal, ...requestOptions });
+
+  return { queryKey, queryFn, ...queryOptions } as UseQueryOptions<
+    Awaited<ReturnType<typeof getRedraftBySlot>>,
+    TError,
+    TData
+  > & { queryKey: QueryKey };
+};
+
+export type GetRedraftBySlotQueryResult = NonNullable<
+  Awaited<ReturnType<typeof getRedraftBySlot>>
+>;
+export type GetRedraftBySlotQueryError = ErrorType<ApiError>;
+
+/**
+ * @summary Get redraft strategy data grouped by draft slot
+ */
+
+export function useGetRedraftBySlot<
+  TData = Awaited<ReturnType<typeof getRedraftBySlot>>,
+  TError = ErrorType<ApiError>,
+>(options?: {
+  query?: UseQueryOptions<
+    Awaited<ReturnType<typeof getRedraftBySlot>>,
+    TError,
+    TData
+  >;
+  request?: SecondParameter<typeof customFetch>;
+}): UseQueryResult<TData, TError> & { queryKey: QueryKey } {
+  const queryOptions = getGetRedraftBySlotQueryOptions(options);
+
+  const query = useQuery(queryOptions) as UseQueryResult<TData, TError> & {
+    queryKey: QueryKey;
+  };
+
+  return { ...query, queryKey: queryOptions.queryKey };
+}
+
+/**
+ * Returns strategy performance for Standard, Half PPR, PPR, 1QB, Superflex formats
+ * @summary Get redraft strategy data grouped by scoring/roster format
+ */
+export const getGetRedraftByFormatUrl = () => {
+  return `/api/redraft/by-format`;
+};
+
+export const getRedraftByFormat = async (
+  options?: RequestInit,
+): Promise<RedraftByFormat> => {
+  return customFetch<RedraftByFormat>(getGetRedraftByFormatUrl(), {
+    ...options,
+    method: "GET",
+  });
+};
+
+export const getGetRedraftByFormatQueryKey = () => {
+  return [`/api/redraft/by-format`] as const;
+};
+
+export const getGetRedraftByFormatQueryOptions = <
+  TData = Awaited<ReturnType<typeof getRedraftByFormat>>,
+  TError = ErrorType<ApiError>,
+>(options?: {
+  query?: UseQueryOptions<
+    Awaited<ReturnType<typeof getRedraftByFormat>>,
+    TError,
+    TData
+  >;
+  request?: SecondParameter<typeof customFetch>;
+}) => {
+  const { query: queryOptions, request: requestOptions } = options ?? {};
+
+  const queryKey = queryOptions?.queryKey ?? getGetRedraftByFormatQueryKey();
+
+  const queryFn: QueryFunction<
+    Awaited<ReturnType<typeof getRedraftByFormat>>
+  > = ({ signal }) => getRedraftByFormat({ signal, ...requestOptions });
+
+  return { queryKey, queryFn, ...queryOptions } as UseQueryOptions<
+    Awaited<ReturnType<typeof getRedraftByFormat>>,
+    TError,
+    TData
+  > & { queryKey: QueryKey };
+};
+
+export type GetRedraftByFormatQueryResult = NonNullable<
+  Awaited<ReturnType<typeof getRedraftByFormat>>
+>;
+export type GetRedraftByFormatQueryError = ErrorType<ApiError>;
+
+/**
+ * @summary Get redraft strategy data grouped by scoring/roster format
+ */
+
+export function useGetRedraftByFormat<
+  TData = Awaited<ReturnType<typeof getRedraftByFormat>>,
+  TError = ErrorType<ApiError>,
+>(options?: {
+  query?: UseQueryOptions<
+    Awaited<ReturnType<typeof getRedraftByFormat>>,
+    TError,
+    TData
+  >;
+  request?: SecondParameter<typeof customFetch>;
+}): UseQueryResult<TData, TError> & { queryKey: QueryKey } {
+  const queryOptions = getGetRedraftByFormatQueryOptions(options);
+
+  const query = useQuery(queryOptions) as UseQueryResult<TData, TError> & {
+    queryKey: QueryKey;
+  };
+
+  return { ...query, queryKey: queryOptions.queryKey };
+}
+
+/**
+ * Returns performance metrics for all RB/RB, RB/WR, WR/WR etc. first-two-pick combos
+ * @summary Get analysis of first two pick position combos
+ */
+export const getGetRedraftFirstTwoPicksUrl = () => {
+  return `/api/redraft/first-two-picks`;
+};
+
+export const getRedraftFirstTwoPicks = async (
+  options?: RequestInit,
+): Promise<RedraftFirstTwoPicks> => {
+  return customFetch<RedraftFirstTwoPicks>(getGetRedraftFirstTwoPicksUrl(), {
+    ...options,
+    method: "GET",
+  });
+};
+
+export const getGetRedraftFirstTwoPicksQueryKey = () => {
+  return [`/api/redraft/first-two-picks`] as const;
+};
+
+export const getGetRedraftFirstTwoPicksQueryOptions = <
+  TData = Awaited<ReturnType<typeof getRedraftFirstTwoPicks>>,
+  TError = ErrorType<ApiError>,
+>(options?: {
+  query?: UseQueryOptions<
+    Awaited<ReturnType<typeof getRedraftFirstTwoPicks>>,
+    TError,
+    TData
+  >;
+  request?: SecondParameter<typeof customFetch>;
+}) => {
+  const { query: queryOptions, request: requestOptions } = options ?? {};
+
+  const queryKey =
+    queryOptions?.queryKey ?? getGetRedraftFirstTwoPicksQueryKey();
+
+  const queryFn: QueryFunction<
+    Awaited<ReturnType<typeof getRedraftFirstTwoPicks>>
+  > = ({ signal }) => getRedraftFirstTwoPicks({ signal, ...requestOptions });
+
+  return { queryKey, queryFn, ...queryOptions } as UseQueryOptions<
+    Awaited<ReturnType<typeof getRedraftFirstTwoPicks>>,
+    TError,
+    TData
+  > & { queryKey: QueryKey };
+};
+
+export type GetRedraftFirstTwoPicksQueryResult = NonNullable<
+  Awaited<ReturnType<typeof getRedraftFirstTwoPicks>>
+>;
+export type GetRedraftFirstTwoPicksQueryError = ErrorType<ApiError>;
+
+/**
+ * @summary Get analysis of first two pick position combos
+ */
+
+export function useGetRedraftFirstTwoPicks<
+  TData = Awaited<ReturnType<typeof getRedraftFirstTwoPicks>>,
+  TError = ErrorType<ApiError>,
+>(options?: {
+  query?: UseQueryOptions<
+    Awaited<ReturnType<typeof getRedraftFirstTwoPicks>>,
+    TError,
+    TData
+  >;
+  request?: SecondParameter<typeof customFetch>;
+}): UseQueryResult<TData, TError> & { queryKey: QueryKey } {
+  const queryOptions = getGetRedraftFirstTwoPicksQueryOptions(options);
+
+  const query = useQuery(queryOptions) as UseQueryResult<TData, TError> & {
+    queryKey: QueryKey;
+  };
+
+  return { ...query, queryKey: queryOptions.queryKey };
+}
+
+/**
+ * Returns performance metrics grouped by first-five-round positional sequence
+ * @summary Get analysis of first five round positional builds
+ */
+export const getGetRedraftFirstFiveBuildsUrl = () => {
+  return `/api/redraft/first-five-builds`;
+};
+
+export const getRedraftFirstFiveBuilds = async (
+  options?: RequestInit,
+): Promise<RedraftFirstFiveBuilds> => {
+  return customFetch<RedraftFirstFiveBuilds>(
+    getGetRedraftFirstFiveBuildsUrl(),
+    {
+      ...options,
+      method: "GET",
+    },
+  );
+};
+
+export const getGetRedraftFirstFiveBuildsQueryKey = () => {
+  return [`/api/redraft/first-five-builds`] as const;
+};
+
+export const getGetRedraftFirstFiveBuildsQueryOptions = <
+  TData = Awaited<ReturnType<typeof getRedraftFirstFiveBuilds>>,
+  TError = ErrorType<ApiError>,
+>(options?: {
+  query?: UseQueryOptions<
+    Awaited<ReturnType<typeof getRedraftFirstFiveBuilds>>,
+    TError,
+    TData
+  >;
+  request?: SecondParameter<typeof customFetch>;
+}) => {
+  const { query: queryOptions, request: requestOptions } = options ?? {};
+
+  const queryKey =
+    queryOptions?.queryKey ?? getGetRedraftFirstFiveBuildsQueryKey();
+
+  const queryFn: QueryFunction<
+    Awaited<ReturnType<typeof getRedraftFirstFiveBuilds>>
+  > = ({ signal }) => getRedraftFirstFiveBuilds({ signal, ...requestOptions });
+
+  return { queryKey, queryFn, ...queryOptions } as UseQueryOptions<
+    Awaited<ReturnType<typeof getRedraftFirstFiveBuilds>>,
+    TError,
+    TData
+  > & { queryKey: QueryKey };
+};
+
+export type GetRedraftFirstFiveBuildsQueryResult = NonNullable<
+  Awaited<ReturnType<typeof getRedraftFirstFiveBuilds>>
+>;
+export type GetRedraftFirstFiveBuildsQueryError = ErrorType<ApiError>;
+
+/**
+ * @summary Get analysis of first five round positional builds
+ */
+
+export function useGetRedraftFirstFiveBuilds<
+  TData = Awaited<ReturnType<typeof getRedraftFirstFiveBuilds>>,
+  TError = ErrorType<ApiError>,
+>(options?: {
+  query?: UseQueryOptions<
+    Awaited<ReturnType<typeof getRedraftFirstFiveBuilds>>,
+    TError,
+    TData
+  >;
+  request?: SecondParameter<typeof customFetch>;
+}): UseQueryResult<TData, TError> & { queryKey: QueryKey } {
+  const queryOptions = getGetRedraftFirstFiveBuildsQueryOptions(options);
+
+  const query = useQuery(queryOptions) as UseQueryResult<TData, TError> & {
+    queryKey: QueryKey;
+  };
+
+  return { ...query, queryKey: queryOptions.queryKey };
+}
+
+/**
+ * Returns which positions perform best when drafted in each round
+ * @summary Get positional value by round
+ */
+export const getGetRedraftRoundValueUrl = () => {
+  return `/api/redraft/round-value`;
+};
+
+export const getRedraftRoundValue = async (
+  options?: RequestInit,
+): Promise<RedraftRoundValue> => {
+  return customFetch<RedraftRoundValue>(getGetRedraftRoundValueUrl(), {
+    ...options,
+    method: "GET",
+  });
+};
+
+export const getGetRedraftRoundValueQueryKey = () => {
+  return [`/api/redraft/round-value`] as const;
+};
+
+export const getGetRedraftRoundValueQueryOptions = <
+  TData = Awaited<ReturnType<typeof getRedraftRoundValue>>,
+  TError = ErrorType<ApiError>,
+>(options?: {
+  query?: UseQueryOptions<
+    Awaited<ReturnType<typeof getRedraftRoundValue>>,
+    TError,
+    TData
+  >;
+  request?: SecondParameter<typeof customFetch>;
+}) => {
+  const { query: queryOptions, request: requestOptions } = options ?? {};
+
+  const queryKey = queryOptions?.queryKey ?? getGetRedraftRoundValueQueryKey();
+
+  const queryFn: QueryFunction<
+    Awaited<ReturnType<typeof getRedraftRoundValue>>
+  > = ({ signal }) => getRedraftRoundValue({ signal, ...requestOptions });
+
+  return { queryKey, queryFn, ...queryOptions } as UseQueryOptions<
+    Awaited<ReturnType<typeof getRedraftRoundValue>>,
+    TError,
+    TData
+  > & { queryKey: QueryKey };
+};
+
+export type GetRedraftRoundValueQueryResult = NonNullable<
+  Awaited<ReturnType<typeof getRedraftRoundValue>>
+>;
+export type GetRedraftRoundValueQueryError = ErrorType<ApiError>;
+
+/**
+ * @summary Get positional value by round
+ */
+
+export function useGetRedraftRoundValue<
+  TData = Awaited<ReturnType<typeof getRedraftRoundValue>>,
+  TError = ErrorType<ApiError>,
+>(options?: {
+  query?: UseQueryOptions<
+    Awaited<ReturnType<typeof getRedraftRoundValue>>,
+    TError,
+    TData
+  >;
+  request?: SecondParameter<typeof customFetch>;
+}): UseQueryResult<TData, TError> & { queryKey: QueryKey } {
+  const queryOptions = getGetRedraftRoundValueQueryOptions(options);
+
+  const query = useQuery(queryOptions) as UseQueryResult<TData, TError> & {
+    queryKey: QueryKey;
+  };
+
+  return { ...query, queryKey: queryOptions.queryKey };
+}
+
+/**
+ * Returns data-backed recommendations for each slot and format type
+ * @summary Get plain-English draft strategy recommendations
+ */
+export const getGetRedraftRecommendationsUrl = () => {
+  return `/api/redraft/recommendations`;
+};
+
+export const getRedraftRecommendations = async (
+  options?: RequestInit,
+): Promise<RedraftRecommendations> => {
+  return customFetch<RedraftRecommendations>(
+    getGetRedraftRecommendationsUrl(),
+    {
+      ...options,
+      method: "GET",
+    },
+  );
+};
+
+export const getGetRedraftRecommendationsQueryKey = () => {
+  return [`/api/redraft/recommendations`] as const;
+};
+
+export const getGetRedraftRecommendationsQueryOptions = <
+  TData = Awaited<ReturnType<typeof getRedraftRecommendations>>,
+  TError = ErrorType<ApiError>,
+>(options?: {
+  query?: UseQueryOptions<
+    Awaited<ReturnType<typeof getRedraftRecommendations>>,
+    TError,
+    TData
+  >;
+  request?: SecondParameter<typeof customFetch>;
+}) => {
+  const { query: queryOptions, request: requestOptions } = options ?? {};
+
+  const queryKey =
+    queryOptions?.queryKey ?? getGetRedraftRecommendationsQueryKey();
+
+  const queryFn: QueryFunction<
+    Awaited<ReturnType<typeof getRedraftRecommendations>>
+  > = ({ signal }) => getRedraftRecommendations({ signal, ...requestOptions });
+
+  return { queryKey, queryFn, ...queryOptions } as UseQueryOptions<
+    Awaited<ReturnType<typeof getRedraftRecommendations>>,
+    TError,
+    TData
+  > & { queryKey: QueryKey };
+};
+
+export type GetRedraftRecommendationsQueryResult = NonNullable<
+  Awaited<ReturnType<typeof getRedraftRecommendations>>
+>;
+export type GetRedraftRecommendationsQueryError = ErrorType<ApiError>;
+
+/**
+ * @summary Get plain-English draft strategy recommendations
+ */
+
+export function useGetRedraftRecommendations<
+  TData = Awaited<ReturnType<typeof getRedraftRecommendations>>,
+  TError = ErrorType<ApiError>,
+>(options?: {
+  query?: UseQueryOptions<
+    Awaited<ReturnType<typeof getRedraftRecommendations>>,
+    TError,
+    TData
+  >;
+  request?: SecondParameter<typeof customFetch>;
+}): UseQueryResult<TData, TError> & { queryKey: QueryKey } {
+  const queryOptions = getGetRedraftRecommendationsQueryOptions(options);
+
+  const query = useQuery(queryOptions) as UseQueryResult<TData, TError> & {
+    queryKey: QueryKey;
+  };
+
+  return { ...query, queryKey: queryOptions.queryKey };
+}
+
+/**
+ * Returns per-league processing status (success/skipped/failed) with reasons
+ * @summary Get league processing audit log
+ */
+export const getGetRedraftLeagueAuditUrl = () => {
+  return `/api/redraft/league-audit`;
+};
+
+export const getRedraftLeagueAudit = async (
+  options?: RequestInit,
+): Promise<RedraftLeagueAudit> => {
+  return customFetch<RedraftLeagueAudit>(getGetRedraftLeagueAuditUrl(), {
+    ...options,
+    method: "GET",
+  });
+};
+
+export const getGetRedraftLeagueAuditQueryKey = () => {
+  return [`/api/redraft/league-audit`] as const;
+};
+
+export const getGetRedraftLeagueAuditQueryOptions = <
+  TData = Awaited<ReturnType<typeof getRedraftLeagueAudit>>,
+  TError = ErrorType<ApiError>,
+>(options?: {
+  query?: UseQueryOptions<
+    Awaited<ReturnType<typeof getRedraftLeagueAudit>>,
+    TError,
+    TData
+  >;
+  request?: SecondParameter<typeof customFetch>;
+}) => {
+  const { query: queryOptions, request: requestOptions } = options ?? {};
+
+  const queryKey = queryOptions?.queryKey ?? getGetRedraftLeagueAuditQueryKey();
+
+  const queryFn: QueryFunction<
+    Awaited<ReturnType<typeof getRedraftLeagueAudit>>
+  > = ({ signal }) => getRedraftLeagueAudit({ signal, ...requestOptions });
+
+  return { queryKey, queryFn, ...queryOptions } as UseQueryOptions<
+    Awaited<ReturnType<typeof getRedraftLeagueAudit>>,
+    TError,
+    TData
+  > & { queryKey: QueryKey };
+};
+
+export type GetRedraftLeagueAuditQueryResult = NonNullable<
+  Awaited<ReturnType<typeof getRedraftLeagueAudit>>
+>;
+export type GetRedraftLeagueAuditQueryError = ErrorType<ApiError>;
+
+/**
+ * @summary Get league processing audit log
+ */
+
+export function useGetRedraftLeagueAudit<
+  TData = Awaited<ReturnType<typeof getRedraftLeagueAudit>>,
+  TError = ErrorType<ApiError>,
+>(options?: {
+  query?: UseQueryOptions<
+    Awaited<ReturnType<typeof getRedraftLeagueAudit>>,
+    TError,
+    TData
+  >;
+  request?: SecondParameter<typeof customFetch>;
+}): UseQueryResult<TData, TError> & { queryKey: QueryKey } {
+  const queryOptions = getGetRedraftLeagueAuditQueryOptions(options);
 
   const query = useQuery(queryOptions) as UseQueryResult<TData, TError> & {
     queryKey: QueryKey;

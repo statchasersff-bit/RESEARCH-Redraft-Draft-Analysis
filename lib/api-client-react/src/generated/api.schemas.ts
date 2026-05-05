@@ -8,3 +8,171 @@
 export interface HealthStatus {
   status: string;
 }
+
+export interface ApiError {
+  error: string;
+  message: string;
+}
+
+export interface StrategyMetrics {
+  strategy: string;
+  sample_size: number;
+  average_points_for?: number;
+  median_points_for?: number;
+  average_wins?: number;
+  playoff_rate: number;
+  finals_rate?: number;
+  championship_rate: number;
+  top_3_pf_rate?: number;
+  average_final_standing?: number;
+  confidence_level: string;
+  playoff_rate_lift?: number;
+  championship_rate_lift?: number;
+  top_3_pf_rate_lift?: number;
+  points_for_lift?: number;
+}
+
+export type RedraftSummaryBaseline = {
+  playoff_rate: number;
+  finals_rate?: number;
+  championship_rate: number;
+  top_3_pf_rate?: number;
+  average_points_for?: number;
+};
+
+export interface RedraftSummary {
+  generated_at: string;
+  seasons_included?: string[];
+  total_leagues_analyzed: number;
+  total_teams_analyzed: number;
+  baseline?: RedraftSummaryBaseline;
+  best_overall_strategies: StrategyMetrics[];
+  worst_overall_strategies?: StrategyMetrics[];
+  best_first_round_positions?: StrategyMetrics[];
+  best_first_two_pick_combos?: StrategyMetrics[];
+  best_first_five_builds?: StrategyMetrics[];
+  key_takeaways?: string[];
+}
+
+export interface SlotGroupData {
+  slot_group: string;
+  sample_size: number;
+  best_strategies: StrategyMetrics[];
+  worst_strategies?: StrategyMetrics[];
+  best_first_two_pick_combos?: StrategyMetrics[];
+  best_first_five_builds?: StrategyMetrics[];
+  recommended_draft_blueprint?: string;
+}
+
+export interface RedraftBySlot {
+  generated_at: string;
+  early?: SlotGroupData;
+  middle?: SlotGroupData;
+  late?: SlotGroupData;
+}
+
+export type FormatGroupDataBiggestDifferencesFromBaselineItem = {
+  strategy: string;
+  metric: string;
+  lift: number;
+};
+
+export interface FormatGroupData {
+  format: string;
+  sample_size: number;
+  best_strategies: StrategyMetrics[];
+  best_combos?: StrategyMetrics[];
+  biggest_differences_from_baseline?: FormatGroupDataBiggestDifferencesFromBaselineItem[];
+}
+
+export interface RedraftByFormat {
+  generated_at: string;
+  standard?: FormatGroupData;
+  half_ppr?: FormatGroupData;
+  ppr?: FormatGroupData;
+  other_ppr?: FormatGroupData;
+  one_qb?: FormatGroupData;
+  superflex?: FormatGroupData;
+}
+
+export interface RedraftFirstTwoPicks {
+  generated_at: string;
+  combos: StrategyMetrics[];
+}
+
+export interface RedraftFirstFiveBuilds {
+  generated_at: string;
+  builds: StrategyMetrics[];
+}
+
+export interface RoundPositionMetrics {
+  round: number;
+  position: string;
+  sample_size: number;
+  average_points_for?: number;
+  playoff_rate: number;
+  championship_rate?: number;
+  top_3_pf_rate?: number;
+}
+
+export type RedraftRoundValueRoundsItem = {
+  round: number;
+  positions: RoundPositionMetrics[];
+};
+
+export interface RedraftRoundValue {
+  generated_at: string;
+  rounds: RedraftRoundValueRoundsItem[];
+}
+
+export type RecommendationMetrics = { [key: string]: number };
+
+export interface Recommendation {
+  headline: string;
+  body?: string;
+  sample_size?: number;
+  confidence: string;
+  metrics?: RecommendationMetrics;
+}
+
+export interface RedraftRecommendationGroup {
+  headline: string;
+  recommendations: Recommendation[];
+}
+
+export interface RedraftRecommendations {
+  generated_at: string;
+  overall: RedraftRecommendationGroup;
+  early_slot?: RedraftRecommendationGroup;
+  middle_slot?: RedraftRecommendationGroup;
+  late_slot?: RedraftRecommendationGroup;
+  ppr?: RedraftRecommendationGroup;
+  half_ppr?: RedraftRecommendationGroup;
+  superflex?: RedraftRecommendationGroup;
+}
+
+export type LeagueAuditEntryStatus =
+  (typeof LeagueAuditEntryStatus)[keyof typeof LeagueAuditEntryStatus];
+
+export const LeagueAuditEntryStatus = {
+  success: "success",
+  skipped: "skipped",
+  failed: "failed",
+} as const;
+
+export interface LeagueAuditEntry {
+  league_id: string;
+  season: string;
+  status: LeagueAuditEntryStatus;
+  reason?: string;
+  notes?: string;
+}
+
+export interface RedraftLeagueAudit {
+  generated_at: string;
+  total_leagues: number;
+  succeeded?: number;
+  skipped?: number;
+  failed?: number;
+  entries: LeagueAuditEntry[];
+}
