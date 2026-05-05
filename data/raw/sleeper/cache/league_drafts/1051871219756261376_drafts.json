@@ -1,0 +1,116 @@
+[
+  {
+    "created": 1705716609736,
+    "creators": [
+      "78105767030702080",
+      "84309243473575936"
+    ],
+    "draft_id": "1054255508867162112",
+    "draft_order": {
+      "103413710143766528": 8,
+      "1052519139044114432": 2,
+      "343957887527194624": 4,
+      "410972475317288960": 1,
+      "451558339533336576": 5,
+      "521915437156036608": 9,
+      "75961199095070720": 11,
+      "78105767030702080": 3,
+      "82104011087822848": 6,
+      "837866575959793664": 10,
+      "84309243473575936": 12,
+      "942265971497078784": 7
+    },
+    "last_message_id": "1092841211041316864",
+    "last_message_time": 1714916158021,
+    "last_picked": 1714915982495,
+    "league_id": "1051871219756261376",
+    "metadata": {
+      "description": "",
+      "elapsed_pick_timer": "7754",
+      "name": "Offense Wins Championships",
+      "scoring_type": "dynasty_2qb"
+    },
+    "season": "2024",
+    "season_type": "regular",
+    "settings": {
+      "alpha_sort": 0,
+      "autopause_enabled": 1,
+      "autopause_end_time": 720,
+      "autopause_start_time": 120,
+      "autostart": 1,
+      "cpu_autopick": 1,
+      "enforce_position_limits": 1,
+      "nomination_timer": 60,
+      "pick_timer": 28800,
+      "player_type": 0,
+      "reversal_round": 0,
+      "rounds": 5,
+      "slots_bn": 25,
+      "slots_flex": 4,
+      "slots_qb": 1,
+      "slots_rb": 3,
+      "slots_super_flex": 1,
+      "slots_te": 2,
+      "slots_wr": 4,
+      "teams": 12
+    },
+    "sport": "nfl",
+    "start_time": 1714654819737,
+    "status": "complete",
+    "type": "linear"
+  },
+  {
+    "created": 1705148151108,
+    "creators": [
+      "78105767030702080",
+      "84309243473575936",
+      "768288368080760832"
+    ],
+    "draft_id": "1051871220595023872",
+    "draft_order": {
+      "103413710143766528": 11,
+      "1052519139044114432": 1,
+      "343957887527194624": 4,
+      "410972475317288960": 6,
+      "451558339533336576": 3,
+      "521915437156036608": 8,
+      "75961199095070720": 2,
+      "78105767030702080": 10,
+      "82104011087822848": 5,
+      "837866575959793664": 12,
+      "84309243473575936": 9,
+      "942265971497078784": 7
+    },
+    "last_message_id": "1051871220595023872",
+    "last_message_time": 1705148151108,
+    "last_picked": 1705603802240,
+    "league_id": "1051871219756261376",
+    "metadata": {
+      "description": "",
+      "name": "Offense Wins Championships",
+      "scoring_type": "dynasty_2qb"
+    },
+    "season": "2024",
+    "season_type": "regular",
+    "settings": {
+      "autostart": 0,
+      "cpu_autopick": 1,
+      "pick_timer": 120,
+      "rounds": 42,
+      "slots_bn": 25,
+      "slots_def": 1,
+      "slots_flex": 4,
+      "slots_k": 1,
+      "slots_qb": 1,
+      "slots_rb": 3,
+      "slots_super_flex": 1,
+      "slots_te": 2,
+      "slots_wr": 4,
+      "teams": 12
+    },
+    "sport": "nfl",
+    "start_time": null,
+    "status": "complete",
+    "type": "snake"
+  }
+]

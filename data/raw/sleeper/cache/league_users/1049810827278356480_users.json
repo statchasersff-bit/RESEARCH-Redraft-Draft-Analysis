@@ -1,0 +1,142 @@
+[
+  {
+    "avatar": "b3d4f620e3cede500b6b78e6618b2d21",
+    "display_name": "KingDustyn",
+    "is_bot": false,
+    "is_owner": false,
+    "league_id": "1049810827278356480",
+    "metadata": {
+      "allow_pn": "on",
+      "archived": "off",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "735580272581603328"
+  },
+  {
+    "avatar": "8eb8f8bf999945d523f2c4033f70473e",
+    "display_name": "cubsfan2",
+    "is_bot": false,
+    "is_owner": false,
+    "league_id": "1049810827278356480",
+    "metadata": {
+      "allow_pn": "on",
+      "allow_sms": "off",
+      "archived": "on",
+      "mention_pn": "on",
+      "team_name": "Team Apex "
+    },
+    "settings": null,
+    "user_id": "986806077826064384"
+  },
+  {
+    "avatar": "568026b7d559af09739ddaa13502dd5b",
+    "display_name": "KingWicked74",
+    "is_bot": false,
+    "is_owner": false,
+    "league_id": "1049810827278356480",
+    "metadata": {
+      "allow_pn": "on",
+      "archived": "off",
+      "mention_pn": "on",
+      "team_name": "Hakuna Matatta"
+    },
+    "settings": null,
+    "user_id": "993594935267938304"
+  },
+  {
+    "avatar": "15d7cf259bc30eab8f6120f45f652fb6",
+    "display_name": "coltmann123",
+    "is_bot": false,
+    "is_owner": false,
+    "league_id": "1049810827278356480",
+    "metadata": {
+      "allow_pn": "on",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "998059825072386048"
+  },
+  {
+    "avatar": "a499fdb7886939571d01d9ccf373f467",
+    "display_name": "Haydenthough",
+    "is_bot": false,
+    "is_owner": true,
+    "league_id": "1049810827278356480",
+    "metadata": {
+      "allow_pn": "on",
+      "archived": "off",
+      "avatar": "https://sleepercdn.com/uploads/0d57c7b15a4a1480feab9cac06dbed8c.jpg",
+      "league_report_pn": "on",
+      "mascot_message": "on",
+      "mention_pn": "on",
+      "player_like_pn": "on",
+      "player_nickname_update": "on",
+      "team_name": "Saquons thighs",
+      "team_name_update": "on",
+      "trade_block_pn": "on",
+      "transaction_commissioner": "on",
+      "transaction_free_agent": "on",
+      "transaction_trade": "on",
+      "transaction_waiver": "on",
+      "user_message_pn": "on"
+    },
+    "settings": null,
+    "user_id": "998593992210087936"
+  },
+  {
+    "avatar": "4de202f8be36912b6a81be2a14132b47",
+    "display_name": "OGtheScientist",
+    "is_bot": false,
+    "is_owner": false,
+    "league_id": "1049810827278356480",
+    "metadata": {
+      "allow_pn": "on",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "1002669065393000448"
+  },
+  {
+    "avatar": "b3338675f635c2c1f42b469621d38ec6",
+    "display_name": "Wcatkins",
+    "is_bot": false,
+    "is_owner": false,
+    "league_id": "1049810827278356480",
+    "metadata": {
+      "allow_pn": "on",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "1004813107895578624"
+  },
+  {
+    "avatar": "4f4090e5e9c3941414db40a871e3e909",
+    "display_name": "Cernaa",
+    "is_bot": false,
+    "is_owner": false,
+    "league_id": "1049810827278356480",
+    "metadata": {
+      "allow_pn": "on",
+      "archived": "off",
+      "mention_pn": "on",
+      "team_name": "Los chulos "
+    },
+    "settings": null,
+    "user_id": "1011182052338151424"
+  },
+  {
+    "avatar": "8eaa6260f5a177998fa4a784d8732510",
+    "display_name": "fantasymurderr",
+    "is_bot": false,
+    "is_owner": false,
+    "league_id": "1049810827278356480",
+    "metadata": {
+      "allow_pn": "on",
+      "allow_sms": "on",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "1017263257943666688"
+  }
+]

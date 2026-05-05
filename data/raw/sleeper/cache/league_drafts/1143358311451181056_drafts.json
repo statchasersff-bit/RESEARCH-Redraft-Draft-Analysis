@@ -1,0 +1,57 @@
+[
+  {
+    "created": 1726960373545,
+    "creators": [
+      "867877335167352832"
+    ],
+    "draft_id": "1143358312440872960",
+    "draft_order": {
+      "1109988537887277056": 7,
+      "1118678669683183616": 1,
+      "1129312807968743424": 5,
+      "1140109682415443968": 2,
+      "732877509833674752": 6,
+      "741532807431626752": 4,
+      "867877335167352832": 8,
+      "996166464296148993": 3
+    },
+    "last_message_id": "1143418185450782720",
+    "last_message_time": 1726974648395,
+    "last_picked": 1726974647874,
+    "league_id": "1143358311451181056",
+    "metadata": {
+      "description": "",
+      "name": "Best For Last",
+      "scoring_type": "ppr"
+    },
+    "season": "2024",
+    "season_type": "regular",
+    "settings": {
+      "alpha_sort": 0,
+      "autopause_enabled": 0,
+      "autopause_end_time": 1020,
+      "autopause_start_time": 300,
+      "autostart": 0,
+      "cpu_autopick": 1,
+      "enforce_position_limits": 1,
+      "nomination_timer": 60,
+      "pick_timer": 60,
+      "player_type": 0,
+      "reversal_round": 0,
+      "rounds": 15,
+      "slots_bn": 5,
+      "slots_def": 1,
+      "slots_flex": 2,
+      "slots_k": 1,
+      "slots_qb": 1,
+      "slots_rb": 2,
+      "slots_te": 1,
+      "slots_wr": 2,
+      "teams": 8
+    },
+    "sport": "nfl",
+    "start_time": 1726972229153,
+    "status": "complete",
+    "type": "snake"
+  }
+]

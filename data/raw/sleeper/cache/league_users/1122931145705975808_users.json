@@ -1,0 +1,192 @@
+[
+  {
+    "avatar": "44151d7305136186f4942e285ae06a8f",
+    "display_name": "leanneva1226",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1122931145705975808",
+    "metadata": {
+      "allow_pn": "on",
+      "allow_sms": "on",
+      "archived": "off",
+      "mention_pn": "on",
+      "team_name": "Breece Brown & Down"
+    },
+    "settings": null,
+    "user_id": "469281063277948928"
+  },
+  {
+    "avatar": "412e4ba70229fd9c095369f5cdf85dd8",
+    "display_name": "JennAy01",
+    "is_bot": false,
+    "is_owner": true,
+    "league_id": "1122931145705975808",
+    "metadata": {
+      "allow_pn": "on",
+      "archived": "off",
+      "league_report_pn": "off",
+      "mascot_message": "on",
+      "mention_pn": "on",
+      "player_like_pn": "on",
+      "player_nickname_update": "on",
+      "team_name": "Monty had a lil lamb ",
+      "team_name_update": "on",
+      "trade_block_pn": "on",
+      "transaction_commissioner": "on",
+      "transaction_free_agent": "on",
+      "transaction_trade": "on",
+      "transaction_waiver": "on",
+      "user_message_pn": "on"
+    },
+    "settings": null,
+    "user_id": "959585898750865408"
+  },
+  {
+    "avatar": "cd37a11b7b9dcf0c7c7270333c3ef288",
+    "display_name": "hexther",
+    "is_bot": false,
+    "is_owner": false,
+    "league_id": "1122931145705975808",
+    "metadata": {
+      "allow_pn": "on",
+      "mention_pn": "on",
+      "team_name": "Diggs in a blanket"
+    },
+    "settings": null,
+    "user_id": "995214101578121216"
+  },
+  {
+    "avatar": "7a83a718b68dd5e0b9a7535335439df7",
+    "display_name": "bewheelk",
+    "is_bot": false,
+    "is_owner": true,
+    "league_id": "1122931145705975808",
+    "metadata": {
+      "allow_pn": "on",
+      "archived": "on",
+      "league_report_pn": "on",
+      "mascot_message": "on",
+      "mention_pn": "on",
+      "player_like_pn": "on",
+      "player_nickname_update": "on",
+      "team_name_update": "on",
+      "trade_block_pn": "on",
+      "transaction_commissioner": "on",
+      "transaction_free_agent": "off",
+      "transaction_trade": "on",
+      "transaction_waiver": "on",
+      "user_message_pn": "on"
+    },
+    "settings": null,
+    "user_id": "998351532166918144"
+  },
+  {
+    "avatar": "cb9240996e8f24898de72ca2be384bf3",
+    "display_name": "wyxxtt",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1122931145705975808",
+    "metadata": {
+      "allow_pn": "on",
+      "allow_sms": "on",
+      "mention_pn": "on",
+      "team_name": "Ayuhuasca Rodgers"
+    },
+    "settings": null,
+    "user_id": "999521045956775936"
+  },
+  {
+    "avatar": "52311eaa1ca19664177cf2d48605d1d7",
+    "display_name": "Tarpop",
+    "is_bot": false,
+    "is_owner": false,
+    "league_id": "1122931145705975808",
+    "metadata": {
+      "allow_pn": "on",
+      "allow_sms": "on",
+      "archived": "off",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "1023413977743192064"
+  },
+  {
+    "avatar": "e7af4deab0289b4f5505646424895246",
+    "display_name": "grammapat",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1122931145705975808",
+    "metadata": {
+      "allow_pn": "on",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "1023780882244653056"
+  },
+  {
+    "avatar": "3f01644035252f5722a3be931b4fb437",
+    "display_name": "paingmng",
+    "is_bot": false,
+    "is_owner": false,
+    "league_id": "1122931145705975808",
+    "metadata": {
+      "allow_pn": "on",
+      "allow_sms": "on",
+      "league_report_pn": "on",
+      "mascot_message": "on",
+      "mention_pn": "on",
+      "player_like_pn": "on",
+      "player_nickname_update": "on",
+      "team_name": "Joe Buck Yourself",
+      "team_name_update": "on",
+      "trade_block_pn": "on",
+      "transaction_commissioner": "on",
+      "transaction_free_agent": "on",
+      "transaction_trade": "on",
+      "transaction_waiver": "on",
+      "user_message_pn": "on"
+    },
+    "settings": null,
+    "user_id": "1024388135142817792"
+  },
+  {
+    "avatar": "8eb8f8bf999945d523f2c4033f70473e",
+    "display_name": "TayBouge",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1122931145705975808",
+    "metadata": {
+      "allow_pn": "off",
+      "allow_sms": "on",
+      "league_report_pn": "on",
+      "mascot_message": "on",
+      "mention_pn": "on",
+      "player_like_pn": "on",
+      "player_nickname_update": "on",
+      "team_name_update": "on",
+      "trade_block_pn": "on",
+      "transaction_commissioner": "on",
+      "transaction_free_agent": "on",
+      "transaction_trade": "on",
+      "transaction_waiver": "on",
+      "user_message_pn": "on"
+    },
+    "settings": null,
+    "user_id": "1124845732051238912"
+  },
+  {
+    "avatar": "ff285d76efc730087458c64f8e396445",
+    "display_name": "Knightdad",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1122931145705975808",
+    "metadata": {
+      "allow_pn": "on",
+      "allow_sms": "on",
+      "mention_pn": "on",
+      "team_name": "Buffalo Guaranteed "
+    },
+    "settings": null,
+    "user_id": "1125488330138853376"
+  }
+]

@@ -60,27 +60,36 @@ async function main() {
     console.warn("  Will proceed with pick metadata only.\n");
   }
 
-  // Step 3: Fetch raw data for all leagues
-  console.log("Step 3: Fetching Sleeper league data...");
+  // Step 3: Fetch raw data for all leagues (parallel, capped at 50 concurrent)
+  console.log("Step 3: Loading Sleeper league data...");
+  const CONCURRENCY = 50;
   const fetchResults: Array<{
     data: FetchedLeagueData | null;
     input: typeof leagues[number];
     error?: string;
-  }> = [];
+  }> = new Array(leagues.length);
 
-  for (const league of leagues) {
-    process.stdout.write(`  League ${league.league_id} (${league.season})... `);
-    try {
-      const data = await fetchAllDataForLeague(league);
-      fetchResults.push({ data, input: league });
-      console.log("✓");
-    } catch (err) {
-      const message = (err as Error).message;
-      fetchResults.push({ data: null, input: league, error: message });
-      console.log(`✗ ${message}`);
-    }
+  let completed = 0;
+  for (let i = 0; i < leagues.length; i += CONCURRENCY) {
+    const batch = leagues.slice(i, i + CONCURRENCY);
+    await Promise.all(
+      batch.map(async (league, batchIdx) => {
+        const idx = i + batchIdx;
+        try {
+          const data = await fetchAllDataForLeague(league);
+          fetchResults[idx] = { data, input: league };
+        } catch (err) {
+          const message = (err as Error).message;
+          fetchResults[idx] = { data: null, input: league, error: message };
+        }
+        completed++;
+        if (completed % 50 === 0 || completed === leagues.length) {
+          console.log(`  Loaded ${completed}/${leagues.length} leagues...`);
+        }
+      })
+    );
   }
-  console.log();
+  console.log(`  Done — ${leagues.length} leagues loaded.\n`);
 
   // Step 4: Analyze
   console.log("Step 4: Analyzing draft strategies...\n");

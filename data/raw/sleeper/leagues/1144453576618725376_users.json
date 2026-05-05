@@ -1,0 +1,145 @@
+[
+  {
+    "avatar": null,
+    "display_name": "CodeBrown3",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1144453576618725376",
+    "metadata": {
+      "allow_pn": "on",
+      "mention_pn": "on",
+      "team_name": "I Ceedee Epiglottis "
+    },
+    "settings": null,
+    "user_id": "608517781335379968"
+  },
+  {
+    "avatar": "846c4123a8ecea05270d8aeebfcafd78",
+    "display_name": "ivanmo",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1144453576618725376",
+    "metadata": {
+      "allow_pn": "on",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "609844887256371200"
+  },
+  {
+    "avatar": "78fd14846ef602c67713c2ea00d6af7b",
+    "display_name": "HeirJordans",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1144453576618725376",
+    "metadata": {
+      "allow_pn": "on",
+      "archived": "on",
+      "avatar": "https://sleepercdn.com/uploads/e34ff5b7f12ec7d6e5140be8d135d469.jpg",
+      "mention_pn": "on",
+      "team_name": "Njigbas In Paris"
+    },
+    "settings": null,
+    "user_id": "854785777429753856"
+  },
+  {
+    "avatar": "ab56979983965842c9ddd9ee29143ca8",
+    "display_name": "1q2w3e0p",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1144453576618725376",
+    "metadata": {
+      "allow_pn": "on",
+      "archived": "on",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "982483033641033728"
+  },
+  {
+    "avatar": "b319fdf8b7b5b0359d3c78622ba4d70c",
+    "display_name": "eaglesfan777",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1144453576618725376",
+    "metadata": {
+      "allow_pn": "on",
+      "archived": "on",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "984601132649488384"
+  },
+  {
+    "avatar": "f0edbf4278f53f9425db175073df6584",
+    "display_name": "SlappersOnly",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1144453576618725376",
+    "metadata": {
+      "allow_pn": "on",
+      "allow_sms": "on",
+      "archived": "on",
+      "mention_pn": "on",
+      "team_name": "MyGasYourFace"
+    },
+    "settings": null,
+    "user_id": "998740553506402304"
+  },
+  {
+    "avatar": "8eb8f8bf999945d523f2c4033f70473e",
+    "display_name": "rorylion",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1144453576618725376",
+    "metadata": {
+      "allow_pn": "on",
+      "archived": "on",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "1000166013784694784"
+  },
+  {
+    "avatar": "7fab76f9d1e6b1bf5b7305da910d5723",
+    "display_name": "Dstreet312",
+    "is_bot": false,
+    "is_owner": true,
+    "league_id": "1144453576618725376",
+    "metadata": {
+      "allow_pn": "on",
+      "archived": "off",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "1124877828413063168"
+  },
+  {
+    "avatar": "15d7cf259bc30eab8f6120f45f652fb6",
+    "display_name": "SirSwan",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1144453576618725376",
+    "metadata": {
+      "allow_pn": "on",
+      "allow_sms": "on",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "1132769707729350656"
+  },
+  {
+    "avatar": "4a9e69a6b16e30fe34aaad88aeb0045d",
+    "display_name": "jesssaaa",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1144453576618725376",
+    "metadata": {
+      "allow_pn": "on",
+      "archived": "on",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "1133938442456453120"
+  }
+]

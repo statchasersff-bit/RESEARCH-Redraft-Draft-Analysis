@@ -1,0 +1,73 @@
+[
+  {
+    "created": 1723256499208,
+    "creators": [
+      "711697074571284480"
+    ],
+    "draft_id": "1127823137497915392",
+    "draft_order": {
+      "1007849418428649472": 7,
+      "1118714033298968576": 3,
+      "389535612560015360": 5,
+      "696443102537289728": 2,
+      "711697074571284480": 1,
+      "717422796610801664": 4,
+      "717896443842588672": 10,
+      "731974524387622912": 9,
+      "75015637831139328": 8,
+      "76820843732549632": 11,
+      "827553910347628544": 12,
+      "995015959754702848": 6
+    },
+    "last_message_id": "1128115490703851520",
+    "last_message_time": 1723326201658,
+    "last_picked": 1723326200722,
+    "league_id": "1127823136487096320",
+    "metadata": {
+      "description": "",
+      "highest_offer": "1",
+      "name": "6oku's $15 Auction Redraft",
+      "nominated_player_id": "8126",
+      "nominating_slot": "6",
+      "nominating_user_id": "995015959754702848",
+      "offering_slot": "6",
+      "offering_user_id": "995015959754702848",
+      "paused_pick_timer": "8",
+      "scoring_type": "2qb"
+    },
+    "season": "2024",
+    "season_type": "regular",
+    "settings": {
+      "afk_rounds_3": 11,
+      "afk_rounds_4": 12,
+      "afk_rounds_6": 8,
+      "afk_rounds_7": 9,
+      "afk_rounds_9": 1,
+      "alpha_sort": 0,
+      "autopause_enabled": 0,
+      "autopause_end_time": 900,
+      "autopause_start_time": 180,
+      "autostart": 0,
+      "budget": 250,
+      "cpu_autopick": 1,
+      "enforce_position_limits": 1,
+      "nomination_timer": 10,
+      "pick_timer": 10,
+      "player_type": 0,
+      "reversal_round": 0,
+      "rounds": 17,
+      "slots_bn": 7,
+      "slots_flex": 2,
+      "slots_qb": 1,
+      "slots_rb": 2,
+      "slots_super_flex": 1,
+      "slots_te": 1,
+      "slots_wr": 3,
+      "teams": 12
+    },
+    "sport": "nfl",
+    "start_time": 1723319335685,
+    "status": "complete",
+    "type": "auction"
+  }
+]

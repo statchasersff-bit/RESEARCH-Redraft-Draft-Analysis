@@ -1,0 +1,72 @@
+{
+  "created": 1721977201962,
+  "creators": [
+    "732004539489714176"
+  ],
+  "draft_id": "1122457375920869376",
+  "draft_order": {
+    "100908832284622848": 8,
+    "442273528767574016": 11,
+    "444399100457119744": 12,
+    "468279658211700736": 4,
+    "471529206140891136": 1,
+    "624818352170278912": 2,
+    "715623704297562112": 6,
+    "732004539489714176": 5,
+    "737046516736352256": 3,
+    "817156827639861248": 9,
+    "991248130614075392": 7,
+    "997001957258612736": 10
+  },
+  "last_message_id": "1125669736789839872",
+  "last_message_time": 1722743088484,
+  "last_picked": 1722743087377,
+  "league_id": "1122457374901628928",
+  "metadata": {
+    "description": "",
+    "name": "Sniper Chronicles #1 Superflex 08/03 9:30pm CST",
+    "scoring_type": "2qb"
+  },
+  "season": "2024",
+  "season_type": "regular",
+  "settings": {
+    "alpha_sort": 0,
+    "autopause_enabled": 0,
+    "autopause_end_time": 960,
+    "autopause_start_time": 240,
+    "autostart": 0,
+    "cpu_autopick": 1,
+    "enforce_position_limits": 1,
+    "nomination_timer": 60,
+    "pick_timer": 60,
+    "player_type": 0,
+    "reversal_round": 0,
+    "rounds": 16,
+    "slots_bn": 7,
+    "slots_flex": 2,
+    "slots_qb": 1,
+    "slots_rb": 2,
+    "slots_super_flex": 1,
+    "slots_te": 1,
+    "slots_wr": 2,
+    "teams": 12
+  },
+  "slot_to_roster_id": {
+    "1": 10,
+    "2": 9,
+    "3": 5,
+    "4": 11,
+    "5": 1,
+    "6": 3,
+    "7": 2,
+    "8": 4,
+    "9": 8,
+    "10": 6,
+    "11": 12,
+    "12": 7
+  },
+  "sport": "nfl",
+  "start_time": 1722739474832,
+  "status": "complete",
+  "type": "snake"
+}

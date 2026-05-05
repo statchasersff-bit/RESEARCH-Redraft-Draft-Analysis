@@ -1,0 +1,159 @@
+[
+  {
+    "avatar": "nfl_det",
+    "display_name": "greekdawg",
+    "is_bot": null,
+    "is_owner": null,
+    "league_id": "1118620781841367040",
+    "metadata": {
+      "allow_pn": "on",
+      "archived": "on",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "100908832284622848"
+  },
+  {
+    "avatar": "2a3b97c2f0bb8929c7b462785a97da84",
+    "display_name": "mutakalim09",
+    "is_bot": false,
+    "is_owner": true,
+    "league_id": "1118620781841367040",
+    "metadata": {
+      "allow_pn": "on",
+      "archived": "on",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "188504078232330240"
+  },
+  {
+    "avatar": "090205cf2ea48a3b5fb716d5111299ea",
+    "display_name": "sean1010",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1118620781841367040",
+    "metadata": {
+      "allow_pn": "on",
+      "archived": "on",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "464384809104306176"
+  },
+  {
+    "avatar": "4c8bd2010ee589d6adfc29fdeda9c22c",
+    "display_name": "rcahrens",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1118620781841367040",
+    "metadata": {
+      "allow_pn": "on",
+      "allow_sms": "on",
+      "archived": "on",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "466644816374001664"
+  },
+  {
+    "avatar": "5e116e40000c98c2b7091411ceace261",
+    "display_name": "DemiGod4lyfe",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1118620781841367040",
+    "metadata": {
+      "allow_pn": "on",
+      "archived": "on",
+      "mention_pn": "on",
+      "team_name": "🏆Champion Paid🏆"
+    },
+    "settings": null,
+    "user_id": "564866273379164160"
+  },
+  {
+    "avatar": "9358e202a12016560490d41fb0d5bc55",
+    "display_name": "TyrionLannisterIsGod",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1118620781841367040",
+    "metadata": {
+      "allow_pn": "on",
+      "archived": "on",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "596857056544210944"
+  },
+  {
+    "avatar": "05ec0d4662e125f738f92a373a167f89",
+    "display_name": "CoachBaker",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1118620781841367040",
+    "metadata": {
+      "allow_pn": "on",
+      "archived": "on",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "605258262991945728"
+  },
+  {
+    "avatar": "92d30a07757bbfa7566e9427126b1e4f",
+    "display_name": "ScarScar1",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1118620781841367040",
+    "metadata": {
+      "allow_pn": "on",
+      "archived": "on",
+      "mention_pn": "on",
+      "team_name": "XXXXXXXXXX"
+    },
+    "settings": null,
+    "user_id": "700175855137128448"
+  },
+  {
+    "avatar": "64ece7edbc417ff8ba5b478d39e98180",
+    "display_name": "andyrrt1",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1118620781841367040",
+    "metadata": {
+      "allow_pn": "on",
+      "archived": "on",
+      "mention_pn": "on",
+      "team_name": "andyrrt1 $30 🔴❌"
+    },
+    "settings": null,
+    "user_id": "714455613945495552"
+  },
+  {
+    "avatar": "75c9b1e31e4006fab62ff77570280689",
+    "display_name": "TarenCapel",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1118620781841367040",
+    "metadata": {
+      "allow_pn": "off",
+      "archived": "on",
+      "avatar": "https://sleepercdn.com/uploads/568a4184770f14ebde1e41d25b5f41f7.jpg",
+      "league_report_pn": "on",
+      "mascot_message": "off",
+      "mention_pn": "on",
+      "player_like_pn": "on",
+      "player_nickname_update": "off",
+      "team_name": "The Invasion of Time",
+      "team_name_update": "off",
+      "trade_block_pn": "on",
+      "transaction_commissioner": "on",
+      "transaction_free_agent": "on",
+      "transaction_trade": "on",
+      "transaction_waiver": "on",
+      "user_message_pn": "off"
+    },
+    "settings": null,
+    "user_id": "868360290927038464"
+  }
+]

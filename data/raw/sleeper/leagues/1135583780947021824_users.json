@@ -1,0 +1,152 @@
+[
+  {
+    "avatar": "4f4090e5e9c3941414db40a871e3e909",
+    "display_name": "Tua2Cheetah",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1135583780947021824",
+    "metadata": {
+      "allow_pn": "on",
+      "archived": "on",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "831649505077198848"
+  },
+  {
+    "avatar": "cee8d380b75efe3d333a4fce0242a42d",
+    "display_name": "Peterjj83",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1135583780947021824",
+    "metadata": {
+      "allow_pn": "on",
+      "archived": "on",
+      "mention_pn": "on",
+      "team_name": "Team MIA"
+    },
+    "settings": null,
+    "user_id": "836327110367879168"
+  },
+  {
+    "avatar": "4e13bd032b6c2310f37f30c8fec6dd0e",
+    "display_name": "laura95",
+    "is_bot": false,
+    "is_owner": true,
+    "league_id": "1135583780947021824",
+    "metadata": {
+      "allow_pn": "on",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "872598277781110784"
+  },
+  {
+    "avatar": "f0edbf4278f53f9425db175073df6584",
+    "display_name": "PoopSock299",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1135583780947021824",
+    "metadata": {
+      "allow_pn": "on",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "893231079711162368"
+  },
+  {
+    "avatar": "f0edbf4278f53f9425db175073df6584",
+    "display_name": "jeffbob2",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1135583780947021824",
+    "metadata": {
+      "allow_pn": "on",
+      "archived": "on",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "910738976771203072"
+  },
+  {
+    "avatar": "4de202f8be36912b6a81be2a14132b47",
+    "display_name": "OGtheScientist",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1135583780947021824",
+    "metadata": {
+      "allow_pn": "on",
+      "archived": "on",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "1002669065393000448"
+  },
+  {
+    "avatar": "15d7cf259bc30eab8f6120f45f652fb6",
+    "display_name": "roymdaily",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1135583780947021824",
+    "metadata": {
+      "allow_pn": "off",
+      "avatar": "https://sleepercdn.com/uploads/20a9bc352538985ebddcf7f02ab71aa1.jpg",
+      "league_report_pn": "off",
+      "mascot_message": "off",
+      "mention_pn": "off",
+      "player_like_pn": "off",
+      "player_nickname_update": "off",
+      "team_name": "Men-O-War",
+      "team_name_update": "off",
+      "trade_block_pn": "off",
+      "transaction_commissioner": "off",
+      "transaction_free_agent": "off",
+      "transaction_trade": "off",
+      "transaction_waiver": "off",
+      "user_message_pn": "off"
+    },
+    "settings": null,
+    "user_id": "1004549885758119936"
+  },
+  {
+    "avatar": "e7af4deab0289b4f5505646424895246",
+    "display_name": "RickTrash",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1135583780947021824",
+    "metadata": {
+      "allow_pn": "on",
+      "archived": "on",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "1130235099729084416"
+  },
+  {
+    "avatar": "82aec8e811b839b8ec25d7b458afd57b",
+    "display_name": "Jasondhammer122278",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1135583780947021824",
+    "metadata": {
+      "allow_pn": "on",
+      "archived": "on",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "1132873224221716480"
+  },
+  {
+    "avatar": "8eb8f8bf999945d523f2c4033f70473e",
+    "display_name": "BigZo440",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1135583780947021824",
+    "metadata": {
+      "allow_pn": "on",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "1135753203343187968"
+  }
+]

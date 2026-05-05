@@ -1,0 +1,62 @@
+[
+  {
+    "created": 1722353497517,
+    "creators": [
+      "479703696804933632",
+      "722480104340525056"
+    ],
+    "draft_id": "1124035673884971008",
+    "draft_order": {
+      "479703696804933632": 1,
+      "605816450837463040": 6,
+      "605914368399450112": 9,
+      "608392507356708864": 2,
+      "711697074571284480": 8,
+      "717094082610012160": 7,
+      "722480104340525056": 11,
+      "741482633783050240": 5,
+      "790760997454446592": 3,
+      "863279287330037760": 4,
+      "864391479068598272": 12,
+      "865447179878293504": 10
+    },
+    "last_message_id": "1126340783872692224",
+    "last_message_time": 1722903078576,
+    "last_picked": 1722903077572,
+    "league_id": "1113097808338415616",
+    "metadata": {
+      "description": "",
+      "name": "The Friendly Diktatership",
+      "scoring_type": "ppr"
+    },
+    "season": "2024",
+    "season_type": "regular",
+    "settings": {
+      "alpha_sort": 0,
+      "autopause_enabled": 0,
+      "autopause_end_time": 720,
+      "autopause_start_time": 180,
+      "autostart": 0,
+      "cpu_autopick": 1,
+      "enforce_position_limits": 1,
+      "nomination_timer": 60,
+      "pick_timer": 43200,
+      "player_type": 0,
+      "reversal_round": 0,
+      "rounds": 16,
+      "slots_bn": 6,
+      "slots_def": 1,
+      "slots_flex": 2,
+      "slots_k": 1,
+      "slots_qb": 1,
+      "slots_rb": 2,
+      "slots_te": 1,
+      "slots_wr": 2,
+      "teams": 12
+    },
+    "sport": "nfl",
+    "start_time": 1722354992311,
+    "status": "complete",
+    "type": "snake"
+  }
+]

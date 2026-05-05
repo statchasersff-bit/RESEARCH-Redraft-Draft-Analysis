@@ -1,0 +1,56 @@
+[
+  {
+    "created": 1724603565409,
+    "creators": [
+      "866939468932837376"
+    ],
+    "draft_id": "1133473142594318337",
+    "draft_order": {
+      "1002669065393000448": 2,
+      "1012400674702778368": 8,
+      "1012669749714636800": 7,
+      "1020737891527413760": 1,
+      "1133948955261411328": 3,
+      "866939468932837376": 5,
+      "960148676406476800": 6
+    },
+    "last_message_id": "1135711379215683584",
+    "last_message_time": 1725137202603,
+    "last_picked": 1725137202081,
+    "league_id": "1133473142594318336",
+    "metadata": {
+      "description": "",
+      "name": "Bad Mama Jamas",
+      "scoring_type": "ppr"
+    },
+    "season": "2024",
+    "season_type": "regular",
+    "settings": {
+      "alpha_sort": 0,
+      "autopause_enabled": 0,
+      "autopause_end_time": 900,
+      "autopause_start_time": 180,
+      "autostart": 0,
+      "cpu_autopick": 1,
+      "enforce_position_limits": 1,
+      "nomination_timer": 60,
+      "pick_timer": 30,
+      "player_type": 0,
+      "reversal_round": 0,
+      "rounds": 15,
+      "slots_bn": 6,
+      "slots_def": 1,
+      "slots_flex": 1,
+      "slots_k": 1,
+      "slots_qb": 1,
+      "slots_rb": 2,
+      "slots_te": 1,
+      "slots_wr": 2,
+      "teams": 8
+    },
+    "sport": "nfl",
+    "start_time": 1725136294708,
+    "status": "complete",
+    "type": "snake"
+  }
+]

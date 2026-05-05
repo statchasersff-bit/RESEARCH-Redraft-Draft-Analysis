@@ -1,0 +1,237 @@
+[
+  {
+    "avatar": "56cd96682900ca988af97eefd11924ae",
+    "display_name": "SheaButtaB",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1147322691259744256",
+    "metadata": {
+      "allow_pn": "on",
+      "archived": "on",
+      "avatar": "https://sleepercdn.com/uploads/be76b6c4feb33c488aa739f4976f422a.jpg",
+      "mention_pn": "on",
+      "team_name": "Basket Bangers"
+    },
+    "settings": null,
+    "user_id": "599351185438208000"
+  },
+  {
+    "avatar": "e1a68c9c236d9fc841fbf7100f1fda69",
+    "display_name": "RetiredFedDave",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1147322691259744256",
+    "metadata": {
+      "allow_pn": "off",
+      "archived": "on",
+      "league_report_pn": "off",
+      "mascot_message": "off",
+      "mention_pn": "off",
+      "player_like_pn": "on",
+      "player_nickname_update": "off",
+      "team_name_update": "off",
+      "trade_block_pn": "on",
+      "transaction_commissioner": "off",
+      "transaction_free_agent": "on",
+      "transaction_trade": "on",
+      "transaction_waiver": "on",
+      "user_message_pn": "on"
+    },
+    "settings": null,
+    "user_id": "857835167300075520"
+  },
+  {
+    "avatar": "44a66cdeee25a0bd577bbcb00bb64279",
+    "display_name": "NicholasPorter",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1147322691259744256",
+    "metadata": {
+      "allow_pn": "on",
+      "allow_sms": "on",
+      "archived": "on",
+      "mention_pn": "on",
+      "team_name": "KW3Hater"
+    },
+    "settings": null,
+    "user_id": "869026700112089088"
+  },
+  {
+    "avatar": "482f254cd6a4cee376c6710cc2229db1",
+    "display_name": "brysqi",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1147322691259744256",
+    "metadata": {
+      "allow_pn": "off",
+      "archived": "on",
+      "league_report_pn": "off",
+      "mascot_message": "off",
+      "mention_pn": "on",
+      "player_like_pn": "off",
+      "player_nickname_update": "off",
+      "team_name_update": "off",
+      "trade_block_pn": "off",
+      "transaction_commissioner": "off",
+      "transaction_free_agent": "off",
+      "transaction_trade": "off",
+      "transaction_waiver": "off",
+      "user_message_pn": "off"
+    },
+    "settings": null,
+    "user_id": "940160785744093184"
+  },
+  {
+    "avatar": "8eb8f8bf999945d523f2c4033f70473e",
+    "display_name": "zachbuster",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1147322691259744256",
+    "metadata": {
+      "allow_pn": "on",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "958250559578906624"
+  },
+  {
+    "avatar": "e50fe1ef62e1b412fb41735f0154d7b5",
+    "display_name": "GrittyGrinders",
+    "is_bot": false,
+    "is_owner": true,
+    "league_id": "1147322691259744256",
+    "metadata": {
+      "allow_pn": "off",
+      "archived": "on",
+      "league_report_pn": "on",
+      "mascot_message": "on",
+      "mention_pn": "on",
+      "player_like_pn": "on",
+      "player_nickname_update": "on",
+      "team_name": "Overpaid Underachievers 😂",
+      "team_name_update": "on",
+      "trade_block_pn": "on",
+      "transaction_commissioner": "on",
+      "transaction_free_agent": "on",
+      "transaction_trade": "on",
+      "transaction_waiver": "on",
+      "user_message_pn": "on"
+    },
+    "settings": null,
+    "user_id": "1000488762083733504"
+  },
+  {
+    "avatar": "e44eabf2f3488798303ee1e6017976aa",
+    "display_name": "CraneKicks",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1147322691259744256",
+    "metadata": {
+      "allow_pn": "off",
+      "allow_sms": "on",
+      "archived": "on",
+      "avatar": "https://sleepercdn.com/uploads/5845a19dac4dcbef5bfc91d4e82a26cb.jpg",
+      "league_report_pn": "on",
+      "mascot_message": "on",
+      "mention_pn": "on",
+      "player_like_pn": "on",
+      "player_nickname_update": "on",
+      "team_name": "Olave Garden",
+      "team_name_update": "on",
+      "trade_block_pn": "on",
+      "transaction_commissioner": "on",
+      "transaction_free_agent": "on",
+      "transaction_trade": "on",
+      "transaction_waiver": "on",
+      "user_message_pn": "on"
+    },
+    "settings": null,
+    "user_id": "1006749405976326144"
+  },
+  {
+    "avatar": "b3338675f635c2c1f42b469621d38ec6",
+    "display_name": "mt2molehill",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1147322691259744256",
+    "metadata": {
+      "allow_pn": "on",
+      "archived": "on",
+      "mention_pn": "on",
+      "team_name": "3 ROYs 👑"
+    },
+    "settings": null,
+    "user_id": "1026536629743251456"
+  },
+  {
+    "avatar": "3cbcbd38ac05c97b942af802636d1a5e",
+    "display_name": "OhSheriBayBay",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1147322691259744256",
+    "metadata": {
+      "allow_pn": "on",
+      "archived": "on",
+      "avatar": "https://sleepercdn.com/images/v3/avatars/avatar_default_pink.webp",
+      "mention_pn": "on",
+      "team_name": "❌❌BRBOUT2LUNCH❌❌"
+    },
+    "settings": null,
+    "user_id": "1050587737226592256"
+  },
+  {
+    "avatar": "4f4090e5e9c3941414db40a871e3e909",
+    "display_name": "churnmellow",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1147322691259744256",
+    "metadata": {
+      "allow_pn": "off",
+      "allow_sms": "on",
+      "avatar": "https://sleepercdn.com/uploads/3307212302a84e84e06c7c31d849356c.jpg",
+      "league_report_pn": "on",
+      "mascot_message": "on",
+      "mention_pn": "on",
+      "player_like_pn": "on",
+      "player_nickname_update": "on",
+      "team_name_update": "on",
+      "trade_block_pn": "on",
+      "transaction_commissioner": "on",
+      "transaction_free_agent": "on",
+      "transaction_trade": "on",
+      "transaction_waiver": "on",
+      "user_message_pn": "off"
+    },
+    "settings": null,
+    "user_id": "1095672138645725184"
+  },
+  {
+    "avatar": "c7601f667f04b29a3c4324e4f2fb1865",
+    "display_name": "loganwhit35",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1147322691259744256",
+    "metadata": {
+      "allow_pn": "on",
+      "allow_sms": "on",
+      "archived": "on",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "1147362567875198976"
+  },
+  {
+    "avatar": "7572250c2fb084c434fed0e82229e183",
+    "display_name": "ColinP713",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1147322691259744256",
+    "metadata": {
+      "allow_pn": "on",
+      "archived": "on",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "1155998870351097856"
+  }
+]

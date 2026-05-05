@@ -1,0 +1,158 @@
+[
+  {
+    "avatar": "nfl_det",
+    "display_name": "greekdawg",
+    "is_bot": null,
+    "is_owner": null,
+    "league_id": "1100312935647256576",
+    "metadata": {
+      "allow_pn": "on",
+      "archived": "on",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "100908832284622848"
+  },
+  {
+    "avatar": "f95db663e9af47bb142cd0f0ddd841e2",
+    "display_name": "praven1",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1100312935647256576",
+    "metadata": {
+      "allow_pn": "on",
+      "archived": "on",
+      "avatar": "https://sleepercdn.com/uploads/2d8d175c0b5fbee8390b2ef2a26f96f8",
+      "mention_pn": "on",
+      "team_name": "USS Defiant"
+    },
+    "settings": null,
+    "user_id": "300298499524689920"
+  },
+  {
+    "avatar": "a5208aa87c9cef75f3fbe544fb8c19f8",
+    "display_name": "FantasySavag3",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1100312935647256576",
+    "metadata": {
+      "allow_pn": "on",
+      "archived": "on",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "359882933542334464"
+  },
+  {
+    "avatar": "ef3dcd9099306eb43972af7c61ffa48b",
+    "display_name": "nicbush7",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1100312935647256576",
+    "metadata": {
+      "allow_pn": "on",
+      "archived": "on",
+      "mention_pn": "on",
+      "team_name": "Emergency room squad "
+    },
+    "settings": null,
+    "user_id": "474349884032413696"
+  },
+  {
+    "avatar": "abec93896d775b58ef262db3952f7845",
+    "display_name": "BmoreRavens74",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1100312935647256576",
+    "metadata": {
+      "allow_pn": "on",
+      "archived": "on",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "522513197997666304"
+  },
+  {
+    "avatar": "59fb195242caeab586e35606001a2806",
+    "display_name": "CaptainConstant",
+    "is_bot": false,
+    "is_owner": true,
+    "league_id": "1100312935647256576",
+    "metadata": {
+      "allow_pn": "on",
+      "archived": "off",
+      "mention_pn": "on",
+      "team_name": "Captain Constant"
+    },
+    "settings": null,
+    "user_id": "704220888010145792"
+  },
+  {
+    "avatar": "6add54c44bf7434e2267833bcfa433a5",
+    "display_name": "MookPook",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1100312935647256576",
+    "metadata": {
+      "allow_pn": "on",
+      "archived": "on",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "738584006135828480"
+  },
+  {
+    "avatar": "ec8d6c6bc0b89fc125862c7adbaa9871",
+    "display_name": "daduke31",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1100312935647256576",
+    "metadata": {
+      "allow_pn": "on",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "844047440393940992"
+  },
+  {
+    "avatar": "75c9b1e31e4006fab62ff77570280689",
+    "display_name": "TarenCapel",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1100312935647256576",
+    "metadata": {
+      "allow_pn": "off",
+      "archived": "on",
+      "avatar": "https://sleepercdn.com/uploads/2c62fd676d01906bb2841776bbb37462.jpg",
+      "league_report_pn": "on",
+      "mascot_message": "off",
+      "mention_pn": "on",
+      "player_like_pn": "on",
+      "player_nickname_update": "off",
+      "team_name": "The Mind of Evil",
+      "team_name_update": "off",
+      "trade_block_pn": "on",
+      "transaction_commissioner": "on",
+      "transaction_free_agent": "on",
+      "transaction_trade": "on",
+      "transaction_waiver": "on",
+      "user_message_pn": "off"
+    },
+    "settings": null,
+    "user_id": "868360290927038464"
+  },
+  {
+    "avatar": "b3338675f635c2c1f42b469621d38ec6",
+    "display_name": "TrueGutty",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1100312935647256576",
+    "metadata": {
+      "allow_pn": "on",
+      "mention_pn": "on",
+      "team_name": "Tampa bay tricks"
+    },
+    "settings": null,
+    "user_id": "961303469992755200"
+  }
+]

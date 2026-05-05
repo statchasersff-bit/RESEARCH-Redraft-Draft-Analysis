@@ -1,0 +1,57 @@
+[
+  {
+    "created": 1730296834842,
+    "creators": [
+      "587098788984823808"
+    ],
+    "draft_id": "1157352445354319873",
+    "draft_order": {
+      "1001603711564615680": 4,
+      "480060175525343232": 2,
+      "539683602128859136": 5,
+      "549730514500472832": 7,
+      "587098788984823808": 9,
+      "605613203451371520": 3,
+      "622860804420616192": 10,
+      "724718126746394624": 6,
+      "731048209337696256": 1,
+      "735673813991342080": 8
+    },
+    "last_message_id": "1157531593544609792",
+    "last_message_time": 1730339547099,
+    "last_picked": 1730339546383,
+    "league_id": "1157352445354319872",
+    "metadata": {
+      "description": "",
+      "name": "Stack City 2nd Chance",
+      "scoring_type": "ppr"
+    },
+    "season": "2024",
+    "season_type": "regular",
+    "settings": {
+      "alpha_sort": 0,
+      "autopause_enabled": 0,
+      "autopause_end_time": 1020,
+      "autopause_start_time": 300,
+      "autostart": 0,
+      "cpu_autopick": 1,
+      "enforce_position_limits": 1,
+      "nomination_timer": 60,
+      "pick_timer": 90,
+      "player_type": 0,
+      "reversal_round": 3,
+      "rounds": 16,
+      "slots_bn": 7,
+      "slots_flex": 2,
+      "slots_qb": 1,
+      "slots_rb": 2,
+      "slots_te": 1,
+      "slots_wr": 3,
+      "teams": 10
+    },
+    "sport": "nfl",
+    "start_time": 1730334623151,
+    "status": "complete",
+    "type": "snake"
+  }
+]

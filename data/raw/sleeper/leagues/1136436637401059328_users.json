@@ -1,0 +1,161 @@
+[
+  {
+    "avatar": "9b53e1193fb680610a9ee04e53bd2b32",
+    "display_name": "twoshottam",
+    "is_bot": null,
+    "is_owner": null,
+    "league_id": "1136436637401059328",
+    "metadata": {
+      "allow_pn": "on",
+      "archived": "on",
+      "mention_pn": "on",
+      "team_name": "280 / 70"
+    },
+    "settings": null,
+    "user_id": "96300915568820224"
+  },
+  {
+    "avatar": "nfl_det",
+    "display_name": "greekdawg",
+    "is_bot": null,
+    "is_owner": null,
+    "league_id": "1136436637401059328",
+    "metadata": {
+      "allow_pn": "on",
+      "archived": "on",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "100908832284622848"
+  },
+  {
+    "avatar": "f95db663e9af47bb142cd0f0ddd841e2",
+    "display_name": "praven1",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1136436637401059328",
+    "metadata": {
+      "allow_pn": "on",
+      "archived": "on",
+      "avatar": "https://sleepercdn.com/uploads/c0c61a365efa87bf45a3759bacbb10c1",
+      "mention_pn": "on",
+      "team_name": "Wonder Man"
+    },
+    "settings": null,
+    "user_id": "300298499524689920"
+  },
+  {
+    "avatar": "3ba9b13839d8aae42305608dfbb1bfe2",
+    "display_name": "dagley",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1136436637401059328",
+    "metadata": {
+      "allow_pn": "on",
+      "archived": "on",
+      "avatar": "https://sleepercdn.com/uploads/7d1875e22a03e962292397a6388ad263.jpg",
+      "mention_pn": "on",
+      "team_name": "ETN Ass"
+    },
+    "settings": null,
+    "user_id": "456309773839626240"
+  },
+  {
+    "avatar": "5fdbb149011019d403735859ebb80013",
+    "display_name": "Ashv27",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1136436637401059328",
+    "metadata": {
+      "allow_pn": "off",
+      "archived": "on",
+      "league_report_pn": "off",
+      "mascot_message": "off",
+      "mention_pn": "on",
+      "player_like_pn": "off",
+      "player_nickname_update": "off",
+      "team_name": "❌ Feel The Breece",
+      "team_name_update": "off",
+      "trade_block_pn": "off",
+      "transaction_commissioner": "on",
+      "transaction_free_agent": "off",
+      "transaction_trade": "off",
+      "transaction_waiver": "off",
+      "user_message_pn": "off"
+    },
+    "settings": null,
+    "user_id": "481389009403113472"
+  },
+  {
+    "avatar": "360e6d74d3c9a10c92884c1cb8a0287a",
+    "display_name": "SMoen",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1136436637401059328",
+    "metadata": {
+      "allow_pn": "on",
+      "archived": "on",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "636776673278332928"
+  },
+  {
+    "avatar": "59fb195242caeab586e35606001a2806",
+    "display_name": "CaptainConstant",
+    "is_bot": false,
+    "is_owner": true,
+    "league_id": "1136436637401059328",
+    "metadata": {
+      "allow_pn": "on",
+      "archived": "off",
+      "avatar": "https://sleepercdn.com/uploads/949d930590eb0b2f377d56407b73817b.jpg",
+      "mention_pn": "on",
+      "team_name": "War Machine"
+    },
+    "settings": null,
+    "user_id": "704220888010145792"
+  },
+  {
+    "avatar": "8a8c7a28055fbbe2a3e76ca9f8a6805a",
+    "display_name": "SidTodi20",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1136436637401059328",
+    "metadata": {
+      "allow_pn": "on",
+      "archived": "on",
+      "mention_pn": "on",
+      "team_name": "Pitts and Pass"
+    },
+    "settings": null,
+    "user_id": "777631422663032832"
+  },
+  {
+    "avatar": "fa18f14ffd5645bdfd68514b595b9736",
+    "display_name": "CeeGoods",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1136436637401059328",
+    "metadata": {
+      "allow_pn": "on",
+      "archived": "off",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "841401429070577664"
+  },
+  {
+    "avatar": "416b28e9e08eb8a71ad68eaf902a4b7a",
+    "display_name": "vlntox",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1136436637401059328",
+    "metadata": {
+      "allow_pn": "on",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "867461018350170112"
+  }
+]

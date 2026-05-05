@@ -1,0 +1,71 @@
+[
+  {
+    "created": 1722548858324,
+    "creators": [
+      "733172682257981440"
+    ],
+    "draft_id": "1124855076452585473",
+    "draft_order": {
+      "473154953423089664": 1,
+      "652345308910526464": 5,
+      "653828096532754432": 3,
+      "733172682257981440": 9,
+      "733857097858666496": 11,
+      "733873844816834560": 6,
+      "734222645121437696": 8,
+      "734231588090605568": 7,
+      "734238037378232320": 12,
+      "735185205387714560": 2,
+      "735960835444330496": 4,
+      "737473134231433216": 10
+    },
+    "last_message_id": "1135430188486967296",
+    "last_message_time": 1725070161509,
+    "last_picked": 1725070160646,
+    "league_id": "1124855076452585472",
+    "metadata": {
+      "description": "",
+      "highest_offer": "1",
+      "hovered_player_id": "7042",
+      "name": "League of Fantasy Fanatics(LAFF)",
+      "nominated_player_id": "7042",
+      "nominating_slot": "9",
+      "nominating_user_id": "733172682257981440",
+      "offering_slot": "9",
+      "offering_user_id": "733172682257981440",
+      "paused_pick_timer": "9",
+      "scoring_type": "2qb"
+    },
+    "season": "2024",
+    "season_type": "regular",
+    "settings": {
+      "alpha_sort": 0,
+      "autopause_enabled": 0,
+      "autopause_end_time": 840,
+      "autopause_start_time": 120,
+      "autostart": 0,
+      "budget": 200,
+      "cpu_autopick": 1,
+      "enforce_position_limits": 1,
+      "nomination_timer": 30,
+      "pick_timer": 10,
+      "player_type": 0,
+      "reversal_round": 0,
+      "rounds": 17,
+      "slots_bn": 6,
+      "slots_def": 1,
+      "slots_flex": 1,
+      "slots_k": 1,
+      "slots_qb": 1,
+      "slots_rb": 2,
+      "slots_super_flex": 1,
+      "slots_te": 1,
+      "slots_wr": 3,
+      "teams": 12
+    },
+    "sport": "nfl",
+    "start_time": 1725062439393,
+    "status": "complete",
+    "type": "auction"
+  }
+]

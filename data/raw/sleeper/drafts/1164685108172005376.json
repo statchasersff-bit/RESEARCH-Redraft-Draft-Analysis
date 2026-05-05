@@ -1,0 +1,69 @@
+{
+  "created": 1732045077876,
+  "creators": [
+    "1151674692361887744"
+  ],
+  "draft_id": "1164685108172005376",
+  "draft_order": {
+    "1082166568278147072": 6,
+    "1118678669683183616": 10,
+    "1136430394968641536": 2,
+    "1137539022278750208": 7,
+    "1137540003091816448": 3,
+    "1137876572704485376": 8,
+    "1151674692361887744": 1,
+    "1157035647597862912": 9,
+    "770042126875623424": 5,
+    "996983277934161920": 4
+  },
+  "last_message_id": "1164747820667015168",
+  "last_message_time": 1732060029716,
+  "last_picked": 1732060028973,
+  "league_id": "1164378475869196288",
+  "metadata": {
+    "description": "",
+    "name": "Mid draft never happen will happen",
+    "scoring_type": "ppr"
+  },
+  "season": "2024",
+  "season_type": "regular",
+  "settings": {
+    "alpha_sort": 0,
+    "autopause_enabled": 0,
+    "autopause_end_time": 900,
+    "autopause_start_time": 180,
+    "autostart": 0,
+    "cpu_autopick": 1,
+    "enforce_position_limits": 1,
+    "nomination_timer": 60,
+    "pick_timer": 60,
+    "player_type": 0,
+    "reversal_round": 0,
+    "rounds": 15,
+    "slots_bn": 5,
+    "slots_def": 1,
+    "slots_flex": 2,
+    "slots_k": 1,
+    "slots_qb": 1,
+    "slots_rb": 2,
+    "slots_te": 1,
+    "slots_wr": 2,
+    "teams": 10
+  },
+  "slot_to_roster_id": {
+    "1": 1,
+    "2": 9,
+    "3": 5,
+    "4": 8,
+    "5": 2,
+    "6": 10,
+    "7": 4,
+    "8": 7,
+    "9": 6,
+    "10": 3
+  },
+  "sport": "nfl",
+  "start_time": 1732057148912,
+  "status": "complete",
+  "type": "snake"
+}

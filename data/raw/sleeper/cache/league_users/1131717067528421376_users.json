@@ -1,0 +1,187 @@
+[
+  {
+    "avatar": "nfl_det",
+    "display_name": "greekdawg",
+    "is_bot": null,
+    "is_owner": null,
+    "league_id": "1131717067528421376",
+    "metadata": {
+      "allow_pn": "on",
+      "archived": "on",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "100908832284622848"
+  },
+  {
+    "avatar": "0b0c6764f4ca773e86260b43c1731dfe",
+    "display_name": "AJSilcott",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1131717067528421376",
+    "metadata": {
+      "allow_pn": "on",
+      "archived": "on",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "433331437169537024"
+  },
+  {
+    "avatar": "dc58aa6f125782ee9f5f2705b054e064",
+    "display_name": "mattshapshak",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1131717067528421376",
+    "metadata": {
+      "allow_pn": "on",
+      "archived": "on",
+      "mention_pn": "on",
+      "team_name": "Eliminated"
+    },
+    "settings": null,
+    "user_id": "442273528767574016"
+  },
+  {
+    "avatar": "5105be79ebd4710071bee85b4b031b8b",
+    "display_name": "MCZ28",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1131717067528421376",
+    "metadata": {
+      "allow_pn": "on",
+      "archived": "on",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "460250333956796416"
+  },
+  {
+    "avatar": "77e106340829e5725dfc8decf50039c0",
+    "display_name": "FrootLoopsvi",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1131717067528421376",
+    "metadata": {
+      "allow_pn": "on",
+      "archived": "on",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "468853131992625152"
+  },
+  {
+    "avatar": "dc3b39f77ffd6b27487d8ba41ec99767",
+    "display_name": "jdome31",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1131717067528421376",
+    "metadata": {
+      "allow_pn": "off",
+      "archived": "on",
+      "league_report_pn": "off",
+      "mascot_message": "off",
+      "mention_pn": "on",
+      "player_like_pn": "on",
+      "player_nickname_update": "off",
+      "team_name": "Elim",
+      "team_name_update": "off",
+      "trade_block_pn": "on",
+      "transaction_commissioner": "on",
+      "transaction_free_agent": "off",
+      "transaction_trade": "on",
+      "transaction_waiver": "off",
+      "user_message_pn": "off"
+    },
+    "settings": null,
+    "user_id": "604058045642772480"
+  },
+  {
+    "avatar": "7144db47aab477ec71905ee90de70778",
+    "display_name": "NeptuneNickel",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1131717067528421376",
+    "metadata": {
+      "allow_pn": "on",
+      "archived": "on",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "609543083360604160"
+  },
+  {
+    "avatar": "95f733f7e9cf81967596cdaa36e94f10",
+    "display_name": "El1gato1malo",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1131717067528421376",
+    "metadata": {
+      "allow_pn": "on",
+      "archived": "on",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "715894093032550400"
+  },
+  {
+    "avatar": "00dde01c84a96f750d46b6cc51ec540d",
+    "display_name": "WinnerCircle13",
+    "is_bot": false,
+    "is_owner": true,
+    "league_id": "1131717067528421376",
+    "metadata": {
+      "allow_pn": "on",
+      "archived": "on",
+      "avatar": "https://sleepercdn.com/uploads/f7a26505f1e60df4bd512503b20802b7.jpg",
+      "mention_pn": "on",
+      "team_name": "Joe Money, Joe Problems "
+    },
+    "settings": null,
+    "user_id": "732004539489714176"
+  },
+  {
+    "avatar": "82aec8e811b839b8ec25d7b458afd57b",
+    "display_name": "SMOOTHOPERATORPERSON",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1131717067528421376",
+    "metadata": {
+      "allow_pn": "on",
+      "mention_pn": "on",
+      "team_name": "SlprB&MyChat4MuslimH8Sry"
+    },
+    "settings": null,
+    "user_id": "740036069076127744"
+  },
+  {
+    "avatar": "8931ff8eea5600bb0c17fc80886774c3",
+    "display_name": "ChiBears45",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1131717067528421376",
+    "metadata": {
+      "allow_pn": "on",
+      "archived": "on",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "855252454231613440"
+  },
+  {
+    "avatar": "4d531426ebc73bf4c4a02fbb367ea225",
+    "display_name": "jimbo1964",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1131717067528421376",
+    "metadata": {
+      "allow_pn": "on",
+      "archived": "on",
+      "avatar": "https://sleepercdn.com/uploads/14e10bd7c4a8405e3a18612e49e5868e",
+      "mention_pn": "on",
+      "team_name": "Dumpster Fire"
+    },
+    "settings": null,
+    "user_id": "956962521917800448"
+  }
+]

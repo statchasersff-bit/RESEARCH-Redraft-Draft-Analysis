@@ -1,0 +1,71 @@
+{
+  "created": 1727800453437,
+  "creators": [
+    "695570010357178368"
+  ],
+  "draft_id": "1146881862909079552",
+  "draft_order": {
+    "1004975091907702784": 4,
+    "1037102495480680448": 1,
+    "1088987686163087360": 7,
+    "602206483702161408": 2,
+    "606301708296978432": 9,
+    "695570010357178368": 8,
+    "711310116036644864": 3,
+    "719405507307171840": 6,
+    "736673101693202432": 10,
+    "776168115028561920": 11,
+    "794742320498061312": 5
+  },
+  "last_message_id": "1147380967095427072",
+  "last_message_time": 1727919449164,
+  "last_picked": 1727919448341,
+  "league_id": "1146881860958715904",
+  "metadata": {
+    "description": "",
+    "name": "Reincarnated $20 guillotine",
+    "scoring_type": "2qb"
+  },
+  "season": "2024",
+  "season_type": "regular",
+  "settings": {
+    "alpha_sort": 0,
+    "autopause_enabled": 0,
+    "autopause_end_time": 840,
+    "autopause_start_time": 120,
+    "autostart": 0,
+    "cpu_autopick": 1,
+    "enforce_position_limits": 1,
+    "nomination_timer": 60,
+    "pick_timer": 60,
+    "player_type": 0,
+    "reversal_round": 3,
+    "rounds": 15,
+    "slots_bn": 6,
+    "slots_flex": 2,
+    "slots_qb": 1,
+    "slots_rb": 2,
+    "slots_super_flex": 1,
+    "slots_te": 1,
+    "slots_wr": 2,
+    "teams": 12
+  },
+  "slot_to_roster_id": {
+    "1": 7,
+    "2": 5,
+    "3": 3,
+    "4": 12,
+    "5": 4,
+    "6": 6,
+    "7": 9,
+    "8": 1,
+    "9": 2,
+    "10": 8,
+    "11": 11,
+    "12": 10
+  },
+  "sport": "nfl",
+  "start_time": 1727914250732,
+  "status": "complete",
+  "type": "snake"
+}

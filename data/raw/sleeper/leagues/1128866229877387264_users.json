@@ -1,0 +1,139 @@
+[
+  {
+    "avatar": "9119fa8896488a976a301166fa320a2e",
+    "display_name": "champaignpapi13",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1128866229877387264",
+    "metadata": {
+      "allow_pn": "on",
+      "archived": "on",
+      "avatar": "https://sleepercdn.com/uploads/ba572b9607bbe931c626535bf063984c.jpg",
+      "mention_pn": "on",
+      "team_name": "Washington Commies"
+    },
+    "settings": null,
+    "user_id": "513569730877472768"
+  },
+  {
+    "avatar": "15d7cf259bc30eab8f6120f45f652fb6",
+    "display_name": "Big1Steppa",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1128866229877387264",
+    "metadata": {
+      "allow_pn": "on",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "739293049141776384"
+  },
+  {
+    "avatar": "3e752fe5ec89bfc175a4ceaf25a3f580",
+    "display_name": "goodluckbaka",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1128866229877387264",
+    "metadata": {
+      "allow_pn": "on",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "825559751734734848"
+  },
+  {
+    "avatar": "cb231c72dd24d4579d881092388da6fa",
+    "display_name": "serbsyouright62",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1128866229877387264",
+    "metadata": {
+      "allow_pn": "on",
+      "archived": "off",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "872283650123816960"
+  },
+  {
+    "avatar": "8eb8f8bf999945d523f2c4033f70473e",
+    "display_name": "cam54",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1128866229877387264",
+    "metadata": {
+      "allow_pn": "on",
+      "archived": "on",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "989357749882413056"
+  },
+  {
+    "avatar": "b3338675f635c2c1f42b469621d38ec6",
+    "display_name": "alexk1713",
+    "is_bot": false,
+    "is_owner": true,
+    "league_id": "1128866229877387264",
+    "metadata": {
+      "allow_pn": "on",
+      "archived": "on",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "1003848271019790336"
+  },
+  {
+    "avatar": "f0edbf4278f53f9425db175073df6584",
+    "display_name": "808Mafia",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1128866229877387264",
+    "metadata": {
+      "allow_pn": "on",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "1128867409122721792"
+  },
+  {
+    "avatar": "15d7cf259bc30eab8f6120f45f652fb6",
+    "display_name": "reenski",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1128866229877387264",
+    "metadata": {
+      "allow_pn": "on",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "1128892163678519296"
+  },
+  {
+    "avatar": "f0edbf4278f53f9425db175073df6584",
+    "display_name": "StewNo87",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1128866229877387264",
+    "metadata": {
+      "allow_pn": "on",
+      "mention_pn": "on",
+      "team_name": "Offseason Felonies "
+    },
+    "settings": null,
+    "user_id": "1128927939829182464"
+  },
+  {
+    "avatar": "82aec8e811b839b8ec25d7b458afd57b",
+    "display_name": "BearPaule1986",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1128866229877387264",
+    "metadata": {
+      "allow_pn": "on",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "1129418213206482944"
+  }
+]

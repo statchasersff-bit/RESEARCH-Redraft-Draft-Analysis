@@ -1,0 +1,62 @@
+[
+  {
+    "created": 1723060596693,
+    "creators": [
+      "859571564784504832"
+    ],
+    "draft_id": "1127001462804004864",
+    "draft_order": {
+      "1071925321949196288": 7,
+      "1071925889434263552": 6,
+      "1071957667062620160": 4,
+      "1125349163333525504": 5,
+      "1129098498034491392": 9,
+      "814978471930499072": 3,
+      "857828160379695104": 8,
+      "859571564784504832": 2,
+      "870044238891683840": 1,
+      "969356642946961408": 10
+    },
+    "last_message_id": "1130180604202561536",
+    "last_message_time": 1723818563243,
+    "last_picked": 1723818278222,
+    "league_id": "1127001460794941440",
+    "metadata": {
+      "description": "",
+      "name": "Packers suck 2024",
+      "scoring_type": "dynasty_ppr"
+    },
+    "season": "2024",
+    "season_type": "regular",
+    "settings": {
+      "alpha_sort": 0,
+      "autopause_enabled": 0,
+      "autopause_end_time": 840,
+      "autopause_start_time": 120,
+      "autostart": 0,
+      "cpu_autopick": 1,
+      "enforce_position_limits": 1,
+      "nomination_timer": 60,
+      "pick_timer": 30,
+      "player_type": 0,
+      "position_limit_def": 1,
+      "position_limit_k": 1,
+      "position_limit_qb": 1,
+      "reversal_round": 0,
+      "rounds": 14,
+      "slots_bn": 5,
+      "slots_def": 1,
+      "slots_flex": 1,
+      "slots_k": 1,
+      "slots_qb": 1,
+      "slots_rb": 2,
+      "slots_te": 1,
+      "slots_wr": 2,
+      "teams": 10
+    },
+    "sport": "nfl",
+    "start_time": 1723816864205,
+    "status": "complete",
+    "type": "snake"
+  }
+]

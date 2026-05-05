@@ -1,0 +1,173 @@
+[
+  {
+    "avatar": "2d329463c2e3afcd9e5d94efb46e5e1b",
+    "display_name": "6oku",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1153457717483483136",
+    "metadata": {
+      "allow_pn": "on",
+      "archived": "on",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "711697074571284480"
+  },
+  {
+    "avatar": "e7af4deab0289b4f5505646424895246",
+    "display_name": "Sphelps94",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1153457717483483136",
+    "metadata": {
+      "allow_pn": "on",
+      "archived": "on",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "735682077416079360"
+  },
+  {
+    "avatar": "78fd14846ef602c67713c2ea00d6af7b",
+    "display_name": "HeirJordans",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1153457717483483136",
+    "metadata": {
+      "allow_pn": "on",
+      "archived": "on",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "854785777429753856"
+  },
+  {
+    "avatar": "850107b0004f2b8e33027e8343696c62",
+    "display_name": "Drv2013",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1153457717483483136",
+    "metadata": {
+      "allow_pn": "on",
+      "archived": "on",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "986227067589087232"
+  },
+  {
+    "avatar": "d737034abad0e51b805dacd96958468c",
+    "display_name": "Zack_Moss",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1153457717483483136",
+    "metadata": {
+      "allow_pn": "on",
+      "archived": "on",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "1000925658157035520"
+  },
+  {
+    "avatar": "9033d6d86de3b410a575dd2d2412d507",
+    "display_name": "bigdoom",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1153457717483483136",
+    "metadata": {
+      "allow_pn": "on",
+      "archived": "on",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "1009974433227939840"
+  },
+  {
+    "avatar": "3fa4c491befe83f441f92fb1b42d5bac",
+    "display_name": "33degree",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1153457717483483136",
+    "metadata": {
+      "allow_pn": "on",
+      "archived": "on",
+      "mention_pn": "on",
+      "team_name": "Cheeks"
+    },
+    "settings": null,
+    "user_id": "1041791284598038528"
+  },
+  {
+    "avatar": "8f6f8294999979cd303d341f2adfbdba",
+    "display_name": "jahswor",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1153457717483483136",
+    "metadata": {
+      "allow_pn": "on",
+      "archived": "on",
+      "mention_pn": "on",
+      "team_name": "Autopick McGee"
+    },
+    "settings": null,
+    "user_id": "1064668485038567424"
+  },
+  {
+    "avatar": "8b6465e65576db2693953fad737f4e07",
+    "display_name": "topspotpro",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1153457717483483136",
+    "metadata": {
+      "allow_pn": "on",
+      "archived": "on",
+      "mention_pn": "on",
+      "team_name": "ATL Hokage"
+    },
+    "settings": null,
+    "user_id": "1124093908050497536"
+  },
+  {
+    "avatar": "b73c560529f9605c4414308ebe03417b",
+    "display_name": "Geovanny7",
+    "is_bot": false,
+    "is_owner": true,
+    "league_id": "1153457717483483136",
+    "metadata": {
+      "allow_pn": "on",
+      "archived": "on",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "1128019987958030336"
+  },
+  {
+    "avatar": "4a9e69a6b16e30fe34aaad88aeb0045d",
+    "display_name": "jesssaaa",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1153457717483483136",
+    "metadata": {
+      "allow_pn": "on",
+      "archived": "on",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "1133938442456453120"
+  },
+  {
+    "avatar": "c7601f667f04b29a3c4324e4f2fb1865",
+    "display_name": "jzeal",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1153457717483483136",
+    "metadata": {
+      "allow_pn": "on",
+      "archived": "on",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "1144861221427187712"
+  }
+]

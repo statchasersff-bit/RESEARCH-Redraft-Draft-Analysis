@@ -1,0 +1,60 @@
+[
+  {
+    "created": 1722785330391,
+    "creators": [
+      "710332074363523072"
+    ],
+    "draft_id": "1125846912227295232",
+    "draft_order": {
+      "1002410896691474432": 9,
+      "461738555656368128": 2,
+      "468297563452207104": 1,
+      "495089427693957120": 6,
+      "710332074363523072": 3,
+      "717896443842588672": 5,
+      "723395430896996352": 7,
+      "746787816138276864": 4,
+      "855900851133341696": 10,
+      "971221647384428544": 8
+    },
+    "last_message_id": "1125891883932061696",
+    "last_message_time": 1722796052490,
+    "last_picked": 1722796051650,
+    "league_id": "1125846909123547136",
+    "metadata": {
+      "description": "",
+      "name": "DraftiN on The Lordz Day $20 ppr ",
+      "scoring_type": "2qb"
+    },
+    "season": "2024",
+    "season_type": "regular",
+    "settings": {
+      "alpha_sort": 0,
+      "autopause_enabled": 0,
+      "autopause_end_time": 1020,
+      "autopause_start_time": 300,
+      "autostart": 0,
+      "cpu_autopick": 1,
+      "enforce_position_limits": 1,
+      "nomination_timer": 60,
+      "pick_timer": 60,
+      "player_type": 0,
+      "reversal_round": 0,
+      "rounds": 17,
+      "slots_bn": 6,
+      "slots_def": 1,
+      "slots_flex": 2,
+      "slots_k": 1,
+      "slots_qb": 1,
+      "slots_rb": 2,
+      "slots_super_flex": 1,
+      "slots_te": 1,
+      "slots_wr": 2,
+      "teams": 10
+    },
+    "sport": "nfl",
+    "start_time": 1722792622856,
+    "status": "complete",
+    "type": "snake"
+  }
+]

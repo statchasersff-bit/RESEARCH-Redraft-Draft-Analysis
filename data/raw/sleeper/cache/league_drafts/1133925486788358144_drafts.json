@@ -1,0 +1,60 @@
+[
+  {
+    "created": 1724711412669,
+    "creators": [
+      "738291327560810496"
+    ],
+    "draft_id": "1133925486788358145",
+    "draft_order": {
+      "464352740781322240": 7,
+      "602411732236828672": 8,
+      "606707045651009536": 6,
+      "607333738078068736": 4,
+      "738291327560810496": 2,
+      "741738097800261632": 5,
+      "744999641166282752": 9,
+      "857742770331308032": 1,
+      "866970540986994688": 11,
+      "880350454885076992": 12,
+      "961839078129913856": 3,
+      "977050780119179264": 10
+    },
+    "last_message_id": "1136066395454259200",
+    "last_message_time": 1725221845070,
+    "last_picked": 1725221805833,
+    "league_id": "1133925486788358144",
+    "metadata": {
+      "description": "",
+      "name": "Gridiron Greats 👑",
+      "scoring_type": "ppr"
+    },
+    "season": "2024",
+    "season_type": "regular",
+    "settings": {
+      "alpha_sort": 0,
+      "autopause_enabled": 0,
+      "autopause_end_time": 840,
+      "autopause_start_time": 120,
+      "autostart": 0,
+      "cpu_autopick": 1,
+      "nomination_timer": 60,
+      "pick_timer": 30,
+      "player_type": 0,
+      "reversal_round": 0,
+      "rounds": 15,
+      "slots_bn": 5,
+      "slots_def": 1,
+      "slots_flex": 2,
+      "slots_k": 1,
+      "slots_qb": 1,
+      "slots_rb": 2,
+      "slots_te": 1,
+      "slots_wr": 2,
+      "teams": 12
+    },
+    "sport": "nfl",
+    "start_time": 1725217221267,
+    "status": "complete",
+    "type": "snake"
+  }
+]

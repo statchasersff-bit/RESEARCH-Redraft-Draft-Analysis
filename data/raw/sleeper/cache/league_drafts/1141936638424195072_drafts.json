@@ -1,0 +1,40 @@
+[
+  {
+    "created": 1726621420427,
+    "creators": [
+      "1140663633240952832"
+    ],
+    "draft_id": "1141936640018124800",
+    "draft_order": null,
+    "last_message_id": "1141936640018124800",
+    "last_message_time": 1726621420427,
+    "last_picked": null,
+    "league_id": "1141936638424195072",
+    "metadata": {
+      "description": "",
+      "name": "Td",
+      "scoring_type": "ppr"
+    },
+    "season": "2024",
+    "season_type": "regular",
+    "settings": {
+      "autostart": 0,
+      "cpu_autopick": 1,
+      "pick_timer": 120,
+      "rounds": 15,
+      "slots_bn": 5,
+      "slots_def": 1,
+      "slots_flex": 2,
+      "slots_k": 1,
+      "slots_qb": 1,
+      "slots_rb": 2,
+      "slots_te": 1,
+      "slots_wr": 2,
+      "teams": 10
+    },
+    "sport": "nfl",
+    "start_time": null,
+    "status": "pre_draft",
+    "type": "snake"
+  }
+]

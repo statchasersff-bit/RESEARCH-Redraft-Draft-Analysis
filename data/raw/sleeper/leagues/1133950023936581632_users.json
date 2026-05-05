@@ -1,0 +1,173 @@
+[
+  {
+    "avatar": "aebe47e302e42a4847b5c66d57f320af",
+    "display_name": "howard123",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1133950023936581632",
+    "metadata": {
+      "allow_pn": "on",
+      "allow_sms": "on",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "311763947852140544"
+  },
+  {
+    "avatar": "94ca95e06afa3af29d6b59b9862ac786",
+    "display_name": "Tussey13",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1133950023936581632",
+    "metadata": {
+      "allow_pn": "on",
+      "archived": "on",
+      "mention_pn": "on",
+      "team_name": "JJ The Jet Plane"
+    },
+    "settings": null,
+    "user_id": "449669804278673408"
+  },
+  {
+    "avatar": "d3b41bc0b5647335e1a0f90d859ce519",
+    "display_name": "Dre40",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1133950023936581632",
+    "metadata": {
+      "allow_pn": "on",
+      "archived": "on",
+      "mention_pn": "on",
+      "team_name": "Joker jesters "
+    },
+    "settings": null,
+    "user_id": "455097517923627008"
+  },
+  {
+    "avatar": "fd427d7543b3535a240d520471c454e8",
+    "display_name": "treyissac17",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1133950023936581632",
+    "metadata": {
+      "allow_pn": "on",
+      "archived": "on",
+      "mention_pn": "on",
+      "team_name": "Silence of the Lamb "
+    },
+    "settings": null,
+    "user_id": "467549338134900736"
+  },
+  {
+    "avatar": "1fe089e517448d9fe207b8607ca8e81b",
+    "display_name": "bostonbrawlr",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1133950023936581632",
+    "metadata": {
+      "allow_pn": "on",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "468437555088453632"
+  },
+  {
+    "avatar": "8fcf0e0e6a75e96a591d2a4a4a400f41",
+    "display_name": "Jschwartz1089",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1133950023936581632",
+    "metadata": {
+      "allow_pn": "on",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "469911098166865920"
+  },
+  {
+    "avatar": "4f4090e5e9c3941414db40a871e3e909",
+    "display_name": "lambomercy",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1133950023936581632",
+    "metadata": {
+      "allow_pn": "on",
+      "mention_pn": "on",
+      "team_name": "Nabers in Paris"
+    },
+    "settings": null,
+    "user_id": "656062578895687680"
+  },
+  {
+    "avatar": "8eb8f8bf999945d523f2c4033f70473e",
+    "display_name": "GodSquad11",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1133950023936581632",
+    "metadata": {
+      "allow_pn": "on",
+      "archived": "on",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "729560886448070656"
+  },
+  {
+    "avatar": "15d7cf259bc30eab8f6120f45f652fb6",
+    "display_name": "angelomad",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1133950023936581632",
+    "metadata": {
+      "allow_pn": "on",
+      "archived": "on",
+      "avatar": "https://sleepercdn.com/uploads/fcc71d963c88c3181589f7e69fe04a04",
+      "mention_pn": "on",
+      "team_name": "Finkle is Einhorn"
+    },
+    "settings": null,
+    "user_id": "734478395534123008"
+  },
+  {
+    "avatar": "f0edbf4278f53f9425db175073df6584",
+    "display_name": "blueline48",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1133950023936581632",
+    "metadata": {
+      "allow_pn": "on",
+      "archived": "on",
+      "mention_pn": "on",
+      "team_name": "ASS ETIENNE SEASON"
+    },
+    "settings": null,
+    "user_id": "905518324534910976"
+  },
+  {
+    "avatar": "7ea1f8f2fd1918263e7990eec90623d8",
+    "display_name": "feli3x",
+    "is_bot": false,
+    "is_owner": true,
+    "league_id": "1133950023936581632",
+    "metadata": {
+      "allow_pn": "on",
+      "archived": "on",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "970992586724806656"
+  },
+  {
+    "avatar": "ff61870eab26bd3c9745d6d76c256014",
+    "display_name": "Kentickle",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1133950023936581632",
+    "metadata": {
+      "allow_pn": "on",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "999508425065271296"
+  }
+]

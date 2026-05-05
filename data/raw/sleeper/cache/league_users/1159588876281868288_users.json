@@ -1,0 +1,67 @@
+[
+  {
+    "avatar": "44f089584f57b1cf21a21f8efa20f647",
+    "display_name": "everyoppshot",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1159588876281868288",
+    "metadata": {
+      "allow_pn": "off",
+      "archived": "off",
+      "league_report_pn": "off",
+      "mascot_message": "off",
+      "mention_pn": "off",
+      "player_like_pn": "off",
+      "player_nickname_update": "off",
+      "team_name_update": "off",
+      "trade_block_pn": "off",
+      "transaction_commissioner": "off",
+      "transaction_free_agent": "off",
+      "transaction_trade": "off",
+      "transaction_waiver": "off",
+      "user_message_pn": "off"
+    },
+    "settings": null,
+    "user_id": "868224190761852928"
+  },
+  {
+    "avatar": "2bb4cb8da07011fbcc9c26bcd49f788f",
+    "display_name": "zach378337",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1159588876281868288",
+    "metadata": {
+      "allow_pn": "on",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "871218760697262080"
+  },
+  {
+    "avatar": "8727d0fe102fa040b668a7f491dd8549",
+    "display_name": "jooster07",
+    "is_bot": false,
+    "is_owner": true,
+    "league_id": "1159588876281868288",
+    "metadata": {
+      "allow_pn": "on",
+      "archived": "on",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "871241037560123392"
+  },
+  {
+    "avatar": "e7af4deab0289b4f5505646424895246",
+    "display_name": "SamuelVDB25",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1159588876281868288",
+    "metadata": {
+      "allow_pn": "on",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "1125607336720027648"
+  }
+]

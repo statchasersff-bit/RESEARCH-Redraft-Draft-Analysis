@@ -1,0 +1,73 @@
+{
+  "created": 1725963196168,
+  "creators": [
+    "832816701459537920"
+  ],
+  "draft_id": "1139175847392559104",
+  "draft_order": {
+    "1006642212475908096": 3,
+    "1035382142127415296": 10,
+    "1061455605237522432": 4,
+    "1078808423510290432": 12,
+    "1135319799984230400": 8,
+    "1137666393082126336": 11,
+    "1137865571288281088": 5,
+    "622589114373480448": 6,
+    "733215254691061760": 7,
+    "736091885281628160": 2,
+    "832816701459537920": 1,
+    "871992211007528960": 9
+  },
+  "last_message_id": "1139719938375241728",
+  "last_message_time": 1726092917582,
+  "last_picked": 1726092894541,
+  "league_id": "1139175846029262848",
+  "metadata": {
+    "description": "",
+    "name": "Week 2 Start Join ASAP",
+    "scoring_type": "ppr"
+  },
+  "season": "2024",
+  "season_type": "regular",
+  "settings": {
+    "alpha_sort": 0,
+    "autopause_enabled": 0,
+    "autopause_end_time": 480,
+    "autopause_start_time": 1200,
+    "autostart": 0,
+    "cpu_autopick": 1,
+    "enforce_position_limits": 1,
+    "nomination_timer": 60,
+    "pick_timer": 60,
+    "player_type": 0,
+    "reversal_round": 0,
+    "rounds": 14,
+    "slots_bn": 5,
+    "slots_def": 1,
+    "slots_flex": 1,
+    "slots_k": 1,
+    "slots_qb": 1,
+    "slots_rb": 2,
+    "slots_te": 1,
+    "slots_wr": 2,
+    "teams": 12
+  },
+  "slot_to_roster_id": {
+    "1": 1,
+    "2": 2,
+    "3": 7,
+    "4": 12,
+    "5": 8,
+    "6": 5,
+    "7": 6,
+    "8": 10,
+    "9": 3,
+    "10": 9,
+    "11": 4,
+    "12": 11
+  },
+  "sport": "nfl",
+  "start_time": 1726088424053,
+  "status": "complete",
+  "type": "snake"
+}

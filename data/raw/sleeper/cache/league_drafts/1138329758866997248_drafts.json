@@ -1,0 +1,60 @@
+[
+  {
+    "created": 1725761473147,
+    "creators": [
+      "734916112734674944",
+      "1137184759320932352"
+    ],
+    "draft_id": "1138329759701741568",
+    "draft_order": {
+      "1137184759320932352": 9,
+      "464875639132909568": 10,
+      "465342050338861056": 6,
+      "467132839112994816": 12,
+      "483159398663843840": 4,
+      "556073486570704896": 7,
+      "598359420518326272": 1,
+      "716808722407567360": 5,
+      "732774426948550656": 11,
+      "734916112734674944": 2,
+      "737178831252750336": 3,
+      "982483033641033728": 8
+    },
+    "last_message_id": "1138368540047601664",
+    "last_message_time": 1725770719114,
+    "last_picked": 1725770718393,
+    "league_id": "1138329758866997248",
+    "metadata": {
+      "description": "",
+      "name": "Better late than Never $50 SF",
+      "scoring_type": "2qb"
+    },
+    "season": "2024",
+    "season_type": "regular",
+    "settings": {
+      "alpha_sort": 0,
+      "autopause_enabled": 0,
+      "autopause_end_time": 840,
+      "autopause_start_time": 120,
+      "autostart": 0,
+      "cpu_autopick": 1,
+      "nomination_timer": 60,
+      "pick_timer": 30,
+      "player_type": 0,
+      "reversal_round": 0,
+      "rounds": 16,
+      "slots_bn": 6,
+      "slots_flex": 3,
+      "slots_qb": 1,
+      "slots_rb": 2,
+      "slots_super_flex": 1,
+      "slots_te": 1,
+      "slots_wr": 2,
+      "teams": 12
+    },
+    "sport": "nfl",
+    "start_time": 1725766937334,
+    "status": "complete",
+    "type": "snake"
+  }
+]

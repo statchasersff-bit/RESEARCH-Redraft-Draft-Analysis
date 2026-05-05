@@ -1,0 +1,60 @@
+[
+  {
+    "created": 1725487180056,
+    "creators": [
+      "460912832242774016"
+    ],
+    "draft_id": "1137179291042775041",
+    "draft_order": {
+      "460912832242774016": 8,
+      "461331808982659072": 11,
+      "468301223523512320": 4,
+      "468897333048766464": 5,
+      "522513197997666304": 1,
+      "599022998053244928": 6,
+      "761451790360313856": 10,
+      "798823274166464512": 9,
+      "854475617490554880": 3,
+      "865060777718054912": 7,
+      "982483033641033728": 2,
+      "988657855425318912": 12
+    },
+    "last_message_id": "1137210949544173568",
+    "last_message_time": 1725494728030,
+    "last_picked": 1725494727379,
+    "league_id": "1137179291042775040",
+    "metadata": {
+      "description": "",
+      "name": "Nunchuk Skills",
+      "scoring_type": "2qb"
+    },
+    "season": "2024",
+    "season_type": "regular",
+    "settings": {
+      "alpha_sort": 0,
+      "autopause_enabled": 0,
+      "autopause_end_time": 960,
+      "autopause_start_time": 240,
+      "autostart": 0,
+      "cpu_autopick": 1,
+      "enforce_position_limits": 1,
+      "nomination_timer": 60,
+      "pick_timer": 90,
+      "player_type": 0,
+      "reversal_round": 0,
+      "rounds": 18,
+      "slots_bn": 8,
+      "slots_flex": 2,
+      "slots_qb": 1,
+      "slots_rb": 2,
+      "slots_super_flex": 1,
+      "slots_te": 1,
+      "slots_wr": 3,
+      "teams": 12
+    },
+    "sport": "nfl",
+    "start_time": 1725489337571,
+    "status": "complete",
+    "type": "snake"
+  }
+]

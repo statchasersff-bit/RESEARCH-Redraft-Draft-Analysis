@@ -1,0 +1,58 @@
+[
+  {
+    "created": 1725496968383,
+    "creators": [
+      "469948290444554240"
+    ],
+    "draft_id": "1137220346304094208",
+    "draft_order": {
+      "1004804707786825728": 4,
+      "1137221101027147776": 2,
+      "204770306680692736": 9,
+      "469948290444554240": 7,
+      "674490458159771648": 8,
+      "746571621086654464": 5,
+      "784672030338453504": 6,
+      "838662725742747648": 1,
+      "866791564519813120": 11,
+      "982483033641033728": 3,
+      "989013691632852992": 10,
+      "995741772833714176": 12
+    },
+    "last_message_id": "1137256456388182016",
+    "last_message_time": 1725505577707,
+    "last_picked": 1725505562704,
+    "league_id": "1137220344466817024",
+    "metadata": {
+      "description": "",
+      "name": "P Diddy's Night Club",
+      "scoring_type": "ppr"
+    },
+    "season": "2024",
+    "season_type": "regular",
+    "settings": {
+      "alpha_sort": 0,
+      "autopause_enabled": 0,
+      "autopause_end_time": 900,
+      "autopause_start_time": 180,
+      "autostart": 0,
+      "cpu_autopick": 1,
+      "nomination_timer": 60,
+      "pick_timer": 120,
+      "player_type": 0,
+      "reversal_round": 0,
+      "rounds": 14,
+      "slots_bn": 6,
+      "slots_flex": 2,
+      "slots_qb": 1,
+      "slots_rb": 2,
+      "slots_te": 1,
+      "slots_wr": 2,
+      "teams": 12
+    },
+    "sport": "nfl",
+    "start_time": 1725501306963,
+    "status": "complete",
+    "type": "snake"
+  }
+]

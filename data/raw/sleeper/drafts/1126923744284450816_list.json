@@ -1,0 +1,55 @@
+[
+  {
+    "created": 1723042067425,
+    "creators": [
+      "1004206457421721600"
+    ],
+    "draft_id": "1126923745391775744",
+    "draft_order": {
+      "1004206457421721600": 10,
+      "1126918156490088448": 9,
+      "1126969400386535424": 7,
+      "472239814532395008": 3,
+      "873435205577441280": 6,
+      "887502273998475264": 4
+    },
+    "last_message_id": "1128531214668697600",
+    "last_message_time": 1723425317974,
+    "last_picked": 1723425317390,
+    "league_id": "1126923744284450816",
+    "metadata": {
+      "description": "",
+      "name": "Brew Crew",
+      "scoring_type": "ppr"
+    },
+    "season": "2024",
+    "season_type": "regular",
+    "settings": {
+      "alpha_sort": 0,
+      "autopause_enabled": 0,
+      "autopause_end_time": 1020,
+      "autopause_start_time": 300,
+      "autostart": 1,
+      "cpu_autopick": 1,
+      "enforce_position_limits": 1,
+      "nomination_timer": 60,
+      "pick_timer": 90,
+      "player_type": 0,
+      "reversal_round": 0,
+      "rounds": 15,
+      "slots_bn": 5,
+      "slots_def": 1,
+      "slots_flex": 2,
+      "slots_k": 1,
+      "slots_qb": 1,
+      "slots_rb": 2,
+      "slots_te": 1,
+      "slots_wr": 2,
+      "teams": 10
+    },
+    "sport": "nfl",
+    "start_time": 1723422636193,
+    "status": "complete",
+    "type": "snake"
+  }
+]

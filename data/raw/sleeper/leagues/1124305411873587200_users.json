@@ -1,0 +1,236 @@
+[
+  {
+    "avatar": "514a914a0704dc15f8128d4ebac6ae54",
+    "display_name": "Bolmer",
+    "is_bot": null,
+    "is_owner": null,
+    "league_id": "1124305411873587200",
+    "metadata": {
+      "allow_pn": "on",
+      "archived": "on",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "76519561654321152"
+  },
+  {
+    "avatar": "91848ac30c424c1ba13421e0888eac08",
+    "display_name": "Kelsey72",
+    "is_bot": false,
+    "is_owner": false,
+    "league_id": "1124305411873587200",
+    "metadata": {
+      "allow_pn": "on",
+      "allow_sms": "on",
+      "archived": "on",
+      "mascot_message": "off",
+      "mention_pn": "on",
+      "player_like_pn": "off",
+      "player_nickname_update": "off",
+      "team_name_update": "off",
+      "trade_block_pn": "off",
+      "transaction_commissioner": "off",
+      "transaction_free_agent": "off",
+      "transaction_trade": "on",
+      "transaction_waiver": "off",
+      "user_message_pn": "off"
+    },
+    "settings": null,
+    "user_id": "212308992083357696"
+  },
+  {
+    "avatar": "f4ce3fa7338f0edea23e531eb2c37f3d",
+    "display_name": "Mohak45",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1124305411873587200",
+    "metadata": {
+      "allow_pn": "on",
+      "archived": "on",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "341414316114776064"
+  },
+  {
+    "avatar": "70ab560538c2e94f0624132484fd10be",
+    "display_name": "Steffmeff",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1124305411873587200",
+    "metadata": {
+      "allow_pn": "on",
+      "archived": "on",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "569327836233949184"
+  },
+  {
+    "avatar": "619528ceabe9cf26920270a77f74864a",
+    "display_name": "Follow27",
+    "is_bot": false,
+    "is_owner": true,
+    "league_id": "1124305411873587200",
+    "metadata": {
+      "allow_pn": "on",
+      "archived": "off",
+      "mention_pn": "on",
+      "team_name": "27ers"
+    },
+    "settings": null,
+    "user_id": "586917823004053504"
+  },
+  {
+    "avatar": "9de7d6c0321969513a4dbdd771df9c31",
+    "display_name": "AlbyMangels1",
+    "is_bot": false,
+    "is_owner": false,
+    "league_id": "1124305411873587200",
+    "metadata": {
+      "allow_pn": "on",
+      "archived": "on",
+      "mention_pn": "on",
+      "team_name": "Better Call Hall "
+    },
+    "settings": null,
+    "user_id": "597434549265285120"
+  },
+  {
+    "avatar": "dabdd74cfc91e2a34988697bed3adb81",
+    "display_name": "TioMigue",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1124305411873587200",
+    "metadata": {
+      "allow_pn": "off",
+      "allow_sms": "on",
+      "archived": "on",
+      "league_report_pn": "on",
+      "mascot_message": "on",
+      "mention_pn": "on",
+      "player_like_pn": "on",
+      "player_nickname_update": "on",
+      "team_name_update": "on",
+      "trade_block_pn": "on",
+      "transaction_commissioner": "on",
+      "transaction_free_agent": "off",
+      "transaction_trade": "on",
+      "transaction_waiver": "off",
+      "user_message_pn": "on"
+    },
+    "settings": null,
+    "user_id": "604119359505362944"
+  },
+  {
+    "avatar": "053ce5f1d523a11d2973b0c44e91ad5e",
+    "display_name": "Dezzy125",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1124305411873587200",
+    "metadata": {
+      "allow_pn": "on",
+      "archived": "off",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "612099625578463232"
+  },
+  {
+    "avatar": "d42f5fb06723a472468c080a2e24a3a1",
+    "display_name": "elbango",
+    "is_bot": false,
+    "is_owner": false,
+    "league_id": "1124305411873587200",
+    "metadata": {
+      "allow_pn": "off",
+      "allow_sms": "on",
+      "archived": "on",
+      "league_report_pn": "off",
+      "mascot_message": "off",
+      "mention_pn": "off",
+      "player_like_pn": "on",
+      "player_nickname_update": "off",
+      "team_name": "Purdy Boys",
+      "team_name_update": "off",
+      "trade_block_pn": "off",
+      "transaction_commissioner": "off",
+      "transaction_free_agent": "off",
+      "transaction_trade": "off",
+      "transaction_waiver": "off",
+      "user_message_pn": "off"
+    },
+    "settings": null,
+    "user_id": "737782701775540224"
+  },
+  {
+    "avatar": "ab56979983965842c9ddd9ee29143ca8",
+    "display_name": "1q2w3e0p",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1124305411873587200",
+    "metadata": {
+      "allow_pn": "on",
+      "archived": "on",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "982483033641033728"
+  },
+  {
+    "avatar": "eae0f9907743ac694679e0cd126d5176",
+    "display_name": "theMB7",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1124305411873587200",
+    "metadata": {
+      "allow_pn": "on",
+      "archived": "on",
+      "avatar": "https://sleepercdn.com/uploads/e53b19d1893a4b5652ca17518d52a4fa.jpg",
+      "mention_pn": "on",
+      "team_name": "MBob"
+    },
+    "settings": null,
+    "user_id": "995426981590220800"
+  },
+  {
+    "avatar": "e60683618829448c505280160e686cc4",
+    "display_name": "Broony193",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1124305411873587200",
+    "metadata": {
+      "allow_pn": "on",
+      "archived": "on",
+      "league_report_pn": "off",
+      "mascot_message": "off",
+      "mention_pn": "on",
+      "player_like_pn": "on",
+      "player_nickname_update": "off",
+      "team_name": "B93s",
+      "team_name_update": "off",
+      "trade_block_pn": "on",
+      "transaction_commissioner": "on",
+      "transaction_free_agent": "off",
+      "transaction_trade": "on",
+      "transaction_waiver": "on",
+      "user_message_pn": "on"
+    },
+    "settings": null,
+    "user_id": "996788845318344704"
+  },
+  {
+    "avatar": "af0ee7a7b1367a3c343845e76080fa75",
+    "display_name": "BielsaBob",
+    "is_bot": false,
+    "is_owner": false,
+    "league_id": "1124305411873587200",
+    "metadata": {
+      "allow_pn": "on",
+      "mention_pn": "on",
+      "team_name": ""
+    },
+    "settings": null,
+    "user_id": "1098608207724953600"
+  }
+]

@@ -1,0 +1,59 @@
+[
+  {
+    "created": 1714246725700,
+    "creators": [
+      "946554855789768704"
+    ],
+    "draft_id": "1090033408379629569",
+    "draft_order": {
+      "100908832284622848": 9,
+      "1116563807255531520": 1,
+      "599839814690344960": 2,
+      "661333930036781056": 3,
+      "744999641166282752": 7,
+      "749046637325840384": 5,
+      "946554855789768704": 10,
+      "946587461550047232": 4,
+      "947164881395015680": 8,
+      "947367309524451328": 6
+    },
+    "last_message_id": "1133570437608177664",
+    "last_message_time": 1724626762347,
+    "last_picked": 1724626761754,
+    "league_id": "1090033408379629568",
+    "metadata": {
+      "description": "",
+      "name": "Hold My Beer",
+      "scoring_type": "ppr"
+    },
+    "season": "2024",
+    "season_type": "regular",
+    "settings": {
+      "alpha_sort": 0,
+      "autopause_enabled": 0,
+      "autopause_end_time": 840,
+      "autopause_start_time": 120,
+      "autostart": 0,
+      "cpu_autopick": 1,
+      "enforce_position_limits": 1,
+      "nomination_timer": 60,
+      "pick_timer": 120,
+      "player_type": 0,
+      "reversal_round": 0,
+      "rounds": 17,
+      "slots_bn": 6,
+      "slots_def": 1,
+      "slots_flex": 3,
+      "slots_k": 1,
+      "slots_qb": 1,
+      "slots_rb": 2,
+      "slots_te": 1,
+      "slots_wr": 2,
+      "teams": 10
+    },
+    "sport": "nfl",
+    "start_time": 1724619631876,
+    "status": "complete",
+    "type": "snake"
+  }
+]

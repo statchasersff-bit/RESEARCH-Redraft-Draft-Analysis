@@ -1,0 +1,169 @@
+[
+  {
+    "avatar": "cfd75dc323307681d3c9cc443b725ab7",
+    "display_name": "MaxxGhost",
+    "is_bot": false,
+    "is_owner": true,
+    "league_id": "1143613515020095488",
+    "metadata": {
+      "allow_pn": "on",
+      "archived": "on",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "746793103188455424"
+  },
+  {
+    "avatar": "7b2da5987b6f5b13f773b0a3d3600678",
+    "display_name": "ghettothunder1",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1143613515020095488",
+    "metadata": {
+      "allow_pn": "on",
+      "archived": "on",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "867894327819526144"
+  },
+  {
+    "avatar": "d5a2da6f5e1d4fecbd497208405434fa",
+    "display_name": "3dyRuiz",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1143613515020095488",
+    "metadata": {
+      "allow_pn": "on",
+      "archived": "on",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "1000854149057064960"
+  },
+  {
+    "avatar": "b3338675f635c2c1f42b469621d38ec6",
+    "display_name": "Cobbjr",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1143613515020095488",
+    "metadata": {
+      "allow_pn": "on",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "1004252887251357696"
+  },
+  {
+    "avatar": "ad2825017f6fac3749d9fe858e034538",
+    "display_name": "GavinTyler511515",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1143613515020095488",
+    "metadata": {
+      "allow_pn": "on",
+      "archived": "on",
+      "avatar": "https://sleepercdn.com/uploads/b760a7eb78c8bcf60bd5eb261e3770ba.jpg",
+      "mention_pn": "on",
+      "team_name": "Worthy of the win"
+    },
+    "settings": null,
+    "user_id": "1050541773296226304"
+  },
+  {
+    "avatar": "b3338675f635c2c1f42b469621d38ec6",
+    "display_name": "Griffin1224",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1143613515020095488",
+    "metadata": {
+      "allow_pn": "on",
+      "archived": "on",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "1130647908564631552"
+  },
+  {
+    "avatar": "f0edbf4278f53f9425db175073df6584",
+    "display_name": "squadbuilder8",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1143613515020095488",
+    "metadata": {
+      "allow_pn": "on",
+      "archived": "off",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "1132550032743337984"
+  },
+  {
+    "avatar": "5cf0e60c47d3dca445f0b523df6881a8",
+    "display_name": "JMorris21",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1143613515020095488",
+    "metadata": {
+      "allow_pn": "on",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "1142931311544524800"
+  },
+  {
+    "avatar": "4a10f236649788c7191ea3d2c894fff8",
+    "display_name": "Relax15",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1143613515020095488",
+    "metadata": {
+      "allow_pn": "on",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "1143728863832616960"
+  },
+  {
+    "avatar": "95c1a12697898e61c9a8c624da172ce9",
+    "display_name": "AaronBadass",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1143613515020095488",
+    "metadata": {
+      "allow_pn": "on",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "1143851581880877056"
+  },
+  {
+    "avatar": "3e98f56c666f6c34e6fe8557442dd20a",
+    "display_name": "Luhhc5",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1143613515020095488",
+    "metadata": {
+      "allow_pn": "on",
+      "allow_sms": "on",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "1143968374679089152"
+  },
+  {
+    "avatar": "95c1a12697898e61c9a8c624da172ce9",
+    "display_name": "coke1212",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1143613515020095488",
+    "metadata": {
+      "allow_pn": "on",
+      "allow_sms": "on",
+      "archived": "off",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "1143987553213927424"
+  }
+]

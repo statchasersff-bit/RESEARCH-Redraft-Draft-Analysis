@@ -1,0 +1,148 @@
+[
+  {
+    "avatar": "b319fdf8b7b5b0359d3c78622ba4d70c",
+    "display_name": "harryv88",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1136156285865095168",
+    "metadata": {
+      "allow_pn": "on",
+      "archived": "on",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "701117346588217344"
+  },
+  {
+    "avatar": "82aec8e811b839b8ec25d7b458afd57b",
+    "display_name": "Snakebite24",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1136156285865095168",
+    "metadata": {
+      "allow_pn": "on",
+      "archived": "on",
+      "mention_pn": "on",
+      "team_name": "Snakebite24"
+    },
+    "settings": null,
+    "user_id": "707655620798533632"
+  },
+  {
+    "avatar": "b319fdf8b7b5b0359d3c78622ba4d70c",
+    "display_name": "RileyReadOption15",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1136156285865095168",
+    "metadata": {
+      "allow_pn": "on",
+      "archived": "on",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "868509172193501184"
+  },
+  {
+    "avatar": "e7af4deab0289b4f5505646424895246",
+    "display_name": "swampknight",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1136156285865095168",
+    "metadata": {
+      "allow_pn": "on",
+      "archived": "on",
+      "mention_pn": "on",
+      "team_name": "Easy Breecy"
+    },
+    "settings": null,
+    "user_id": "876261111002054656"
+  },
+  {
+    "avatar": "6b8c01db0140aac60430605c5973c937",
+    "display_name": "SubwayLover",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1136156285865095168",
+    "metadata": {
+      "allow_pn": "on",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "959562669143465984"
+  },
+  {
+    "avatar": "4f4090e5e9c3941414db40a871e3e909",
+    "display_name": "ACLBuster",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1136156285865095168",
+    "metadata": {
+      "allow_pn": "on",
+      "archived": "on",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "1134569999672373248"
+  },
+  {
+    "avatar": "82aec8e811b839b8ec25d7b458afd57b",
+    "display_name": "melindaderc",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1136156285865095168",
+    "metadata": {
+      "allow_pn": "on",
+      "allow_sms": "on",
+      "archived": "on",
+      "avatar": "https://sleepercdn.com/uploads/f2ad7ffc110acbe2bbac540071e5c057.jpg",
+      "mention_pn": "on",
+      "team_name": "Taylor Gangs of London"
+    },
+    "settings": null,
+    "user_id": "1135709787905236992"
+  },
+  {
+    "avatar": "e7af4deab0289b4f5505646424895246",
+    "display_name": "MattD_22",
+    "is_bot": false,
+    "is_owner": true,
+    "league_id": "1136156285865095168",
+    "metadata": {
+      "allow_pn": "on",
+      "mention_pn": "on",
+      "team_name": "Noisy Nabers"
+    },
+    "settings": null,
+    "user_id": "1136156150649184256"
+  },
+  {
+    "avatar": "b3338675f635c2c1f42b469621d38ec6",
+    "display_name": "ThomasMaxwell92",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1136156285865095168",
+    "metadata": {
+      "allow_pn": "on",
+      "allow_sms": "on",
+      "avatar": "https://sleepercdn.com/images/v2/avatars/avatar_default_orange.webp",
+      "mention_pn": "on",
+      "team_name": "Nashville Hot Chickens"
+    },
+    "settings": null,
+    "user_id": "1136431754337984512"
+  },
+  {
+    "avatar": "82aec8e811b839b8ec25d7b458afd57b",
+    "display_name": "panicking89",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1136156285865095168",
+    "metadata": {
+      "allow_pn": "on",
+      "allow_sms": "on",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "1136685860751130624"
+  }
+]

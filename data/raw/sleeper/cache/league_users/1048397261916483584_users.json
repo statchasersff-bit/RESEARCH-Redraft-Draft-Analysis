@@ -1,0 +1,200 @@
+[
+  {
+    "avatar": "e2538dbebdd2bcccf234964910eb8dff",
+    "display_name": "blawson1999",
+    "is_bot": false,
+    "is_owner": false,
+    "league_id": "1048397261916483584",
+    "metadata": {
+      "allow_pn": "on",
+      "archived": "off",
+      "mention_pn": "on",
+      "show_mascots": "off"
+    },
+    "settings": null,
+    "user_id": "300545863409729536"
+  },
+  {
+    "avatar": "34771069cea0bd6323e331790395f03c",
+    "display_name": "TheGambler",
+    "is_bot": false,
+    "is_owner": false,
+    "league_id": "1048397261916483584",
+    "metadata": {
+      "allow_pn": "on",
+      "archived": "off",
+      "mention_pn": "on",
+      "team_name": "50 TE1 S12"
+    },
+    "settings": null,
+    "user_id": "340172827158134784"
+  },
+  {
+    "avatar": "2733ca8f5e6fe75f5f60f429d247eeb8",
+    "display_name": "jeremylecraw86",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1048397261916483584",
+    "metadata": {
+      "allow_pn": "on",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "364638357529239552"
+  },
+  {
+    "avatar": "909ce93b2a386274c15d5c465ecf4657",
+    "display_name": "ckthomps",
+    "is_bot": false,
+    "is_owner": false,
+    "league_id": "1048397261916483584",
+    "metadata": {
+      "allow_pn": "on",
+      "allow_sms": "on",
+      "archived": "off",
+      "avatar": "https://sleepercdn.com/uploads/722a842d00dbe5ad22bd6fae337c2214.jpg",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "462505530619850752"
+  },
+  {
+    "avatar": "4fb394f49d806fbad75dd79ecc68f525",
+    "display_name": "chaffima",
+    "is_bot": false,
+    "is_owner": false,
+    "league_id": "1048397261916483584",
+    "metadata": {
+      "allow_pn": "on",
+      "archived": "off",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "480060175525343232"
+  },
+  {
+    "avatar": "83eb84c26dac460a688ac5536ff03a56",
+    "display_name": "jbd831",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1048397261916483584",
+    "metadata": {
+      "allow_pn": "on",
+      "archived": "off",
+      "join_voice_pn": "on",
+      "mascot_message": "on",
+      "mention_pn": "on",
+      "player_like_pn": "on",
+      "player_nickname_update": "on",
+      "team_name_update": "on",
+      "trade_block_pn": "on",
+      "transaction_commissioner": "on",
+      "transaction_free_agent": "on",
+      "transaction_trade": "on",
+      "transaction_waiver": "on",
+      "user_message_pn": "on"
+    },
+    "settings": null,
+    "user_id": "549730514500472832"
+  },
+  {
+    "avatar": "4cd377c306da19621012531d8c7b0066",
+    "display_name": "stangl22",
+    "is_bot": false,
+    "is_owner": false,
+    "league_id": "1048397261916483584",
+    "metadata": {
+      "allow_pn": "on",
+      "allow_sms": "off",
+      "archived": "off",
+      "mention_pn": "on",
+      "team_name": "Team Rookie Receivers"
+    },
+    "settings": null,
+    "user_id": "550027153032003584"
+  },
+  {
+    "avatar": "0b980dab8937c076f0ebb5fae14b6fdf",
+    "display_name": "SirHuthALot",
+    "is_bot": false,
+    "is_owner": true,
+    "league_id": "1048397261916483584",
+    "metadata": {
+      "allow_pn": "on",
+      "archived": "off",
+      "mention_pn": "on",
+      "team_name": "-9 lbs of Swingin’ Meat"
+    },
+    "settings": null,
+    "user_id": "587098788984823808"
+  },
+  {
+    "avatar": "c07d17737d77e1a3b1c15df28d463c43",
+    "display_name": "TheCandyManCan",
+    "is_bot": false,
+    "is_owner": true,
+    "league_id": "1048397261916483584",
+    "metadata": {
+      "allow_pn": "on",
+      "join_voice_pn": "on",
+      "mascot_message": "on",
+      "mention_pn": "on",
+      "player_like_pn": "on",
+      "player_nickname_update": "on",
+      "team_name": "Who can?",
+      "team_name_update": "on",
+      "trade_block_pn": "on",
+      "transaction_commissioner": "on",
+      "transaction_free_agent": "on",
+      "transaction_trade": "on",
+      "transaction_waiver": "on",
+      "user_message_pn": "on"
+    },
+    "settings": null,
+    "user_id": "598666994425856000"
+  },
+  {
+    "avatar": "b319fdf8b7b5b0359d3c78622ba4d70c",
+    "display_name": "Peteyboy12",
+    "is_bot": false,
+    "is_owner": false,
+    "league_id": "1048397261916483584",
+    "metadata": {
+      "allow_pn": "on",
+      "archived": "on",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "731846600011407360"
+  },
+  {
+    "avatar": "5d6e8653bfa8b5b71b191ca647a477c3",
+    "display_name": "VinnyG12",
+    "is_bot": false,
+    "is_owner": false,
+    "league_id": "1048397261916483584",
+    "metadata": {
+      "allow_pn": "on",
+      "archived": "on",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "807031195744550912"
+  },
+  {
+    "avatar": "e441045c54daf33c3e763873160fe733",
+    "display_name": "BAN1SH3D",
+    "is_bot": false,
+    "is_owner": false,
+    "league_id": "1048397261916483584",
+    "metadata": {
+      "allow_pn": "on",
+      "allow_sms": "on",
+      "archived": "off",
+      "mention_pn": "on",
+      "team_name": "Annexation of Puerto Rico"
+    },
+    "settings": null,
+    "user_id": "852764562901016576"
+  }
+]

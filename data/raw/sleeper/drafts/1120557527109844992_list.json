@@ -1,0 +1,58 @@
+[
+  {
+    "created": 1721524242912,
+    "creators": [
+      "704220888010145792"
+    ],
+    "draft_id": "1120557527965503488",
+    "draft_order": {
+      "100908832284622848": 5,
+      "300298499524689920": 10,
+      "457046569733058560": 9,
+      "470468200841080832": 7,
+      "649105426037837824": 8,
+      "698580510405890048": 3,
+      "704220888010145792": 2,
+      "714455613945495552": 4,
+      "844354120512028672": 1,
+      "868360290927038464": 6
+    },
+    "last_message_id": "1120587349303238656",
+    "last_message_time": 1721531352881,
+    "last_picked": 1721531352290,
+    "league_id": "1120557527109844992",
+    "metadata": {
+      "description": "",
+      "name": "Watchmen",
+      "scoring_type": "2qb"
+    },
+    "season": "2024",
+    "season_type": "regular",
+    "settings": {
+      "alpha_sort": 0,
+      "autopause_enabled": 0,
+      "autopause_end_time": 840,
+      "autopause_start_time": 120,
+      "autostart": 0,
+      "cpu_autopick": 1,
+      "enforce_position_limits": 1,
+      "nomination_timer": 60,
+      "pick_timer": 90,
+      "player_type": 0,
+      "reversal_round": 0,
+      "rounds": 17,
+      "slots_bn": 7,
+      "slots_flex": 2,
+      "slots_qb": 1,
+      "slots_rb": 2,
+      "slots_super_flex": 1,
+      "slots_te": 1,
+      "slots_wr": 3,
+      "teams": 10
+    },
+    "sport": "nfl",
+    "start_time": 1721527864497,
+    "status": "complete",
+    "type": "snake"
+  }
+]

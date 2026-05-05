@@ -1,0 +1,222 @@
+[
+  {
+    "avatar": "nfl_sea",
+    "display_name": "SeaBoss",
+    "is_bot": null,
+    "is_owner": null,
+    "league_id": "1135660751693561856",
+    "metadata": {
+      "allow_pn": "off",
+      "archived": "on",
+      "avatar": "https://sleepercdn.com/images/mascots_v2/15_Chum/idle-mobile-small.gif",
+      "league_report_pn": "off",
+      "mascot_message": "off",
+      "mention_pn": "on",
+      "player_like_pn": "off",
+      "player_nickname_update": "off",
+      "team_name": "Smells like Seabass",
+      "team_name_update": "off",
+      "trade_block_pn": "off",
+      "transaction_commissioner": "on",
+      "transaction_free_agent": "off",
+      "transaction_trade": "on",
+      "transaction_waiver": "off",
+      "user_message_pn": "off"
+    },
+    "settings": null,
+    "user_id": "89150523714191360"
+  },
+  {
+    "avatar": "7aa2c8cb80e34f039c8d1c5876597c2f",
+    "display_name": "tuan8806",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1135660751693561856",
+    "metadata": {
+      "allow_pn": "off",
+      "archived": "on",
+      "league_report_pn": "off",
+      "mascot_message": "off",
+      "mention_pn": "off",
+      "player_like_pn": "off",
+      "player_nickname_update": "off",
+      "team_name_update": "off",
+      "trade_block_pn": "off",
+      "transaction_commissioner": "off",
+      "transaction_free_agent": "off",
+      "transaction_trade": "off",
+      "transaction_waiver": "off",
+      "user_message_pn": "off"
+    },
+    "settings": null,
+    "user_id": "208441778062229504"
+  },
+  {
+    "avatar": "9b45494dd545aa3a42ff0341d78f0b3f",
+    "display_name": "Zay2403",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1135660751693561856",
+    "metadata": {
+      "allow_pn": "on",
+      "archived": "off",
+      "mention_pn": "on",
+      "team_name": "❌"
+    },
+    "settings": null,
+    "user_id": "438506447861444608"
+  },
+  {
+    "avatar": "69c86c33fe28e6ba78e1bdcd1f71c615",
+    "display_name": "Material",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1135660751693561856",
+    "metadata": {
+      "allow_pn": "on",
+      "archived": "on",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "464508703224098816"
+  },
+  {
+    "avatar": "a7edf17a1956ebe79017732156625301",
+    "display_name": "kevinpetersen4",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1135660751693561856",
+    "metadata": {
+      "allow_pn": "on",
+      "archived": "on",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "467080822764072960"
+  },
+  {
+    "avatar": "7fb450a5b9acf255a2a563067dcd7bbe",
+    "display_name": "rbest13",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1135660751693561856",
+    "metadata": {
+      "allow_pn": "on",
+      "archived": "on",
+      "avatar": "https://sleepercdn.com/uploads/6fd135097cb3bf396bbfabfdb8e3e65d.jpg",
+      "league_report_pn": "off",
+      "mascot_message": "off",
+      "mention_pn": "on",
+      "player_like_pn": "off",
+      "player_nickname_update": "off",
+      "team_name": "Tee’d Up",
+      "team_name_update": "off",
+      "trade_block_pn": "off",
+      "transaction_commissioner": "off",
+      "transaction_free_agent": "off",
+      "transaction_trade": "off",
+      "transaction_waiver": "off",
+      "user_message_pn": "off"
+    },
+    "settings": null,
+    "user_id": "470318482282508288"
+  },
+  {
+    "avatar": "79276dbca79e8912a3040adf46e8540c",
+    "display_name": "PattysDaddy15",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1135660751693561856",
+    "metadata": {
+      "allow_pn": "on",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "474803077723975680"
+  },
+  {
+    "avatar": "cf094921d93a4dd632ef3ef212cd6fca",
+    "display_name": "sleepydior",
+    "is_bot": false,
+    "is_owner": true,
+    "league_id": "1135660751693561856",
+    "metadata": {
+      "allow_pn": "off",
+      "archived": "off",
+      "league_report_pn": "off",
+      "mascot_message": "on",
+      "mention_pn": "on",
+      "player_like_pn": "off",
+      "player_nickname_update": "on",
+      "team_name_update": "on",
+      "trade_block_pn": "off",
+      "transaction_commissioner": "off",
+      "transaction_free_agent": "off",
+      "transaction_trade": "on",
+      "transaction_waiver": "off",
+      "user_message_pn": "on"
+    },
+    "settings": null,
+    "user_id": "479157902301458432"
+  },
+  {
+    "avatar": "26c413a38f91fd330abc0977e33d4d8a",
+    "display_name": "Sandman731",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1135660751693561856",
+    "metadata": {
+      "allow_pn": "on",
+      "archived": "on",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "734666381009772544"
+  },
+  {
+    "avatar": "f0edbf4278f53f9425db175073df6584",
+    "display_name": "blueline48",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1135660751693561856",
+    "metadata": {
+      "allow_pn": "on",
+      "archived": "on",
+      "avatar": "https://sleepercdn.com/uploads/082f098e4add55338b2eb10c2a79a023.jpg",
+      "mention_pn": "on",
+      "team_name": "TAYLOR MADE"
+    },
+    "settings": null,
+    "user_id": "905518324534910976"
+  },
+  {
+    "avatar": "82aec8e811b839b8ec25d7b458afd57b",
+    "display_name": "hunterances",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1135660751693561856",
+    "metadata": {
+      "allow_pn": "on",
+      "archived": "on",
+      "mention_pn": "on",
+      "team_name": "The justin jeffersons "
+    },
+    "settings": null,
+    "user_id": "996819343369420800"
+  },
+  {
+    "avatar": "8eb8f8bf999945d523f2c4033f70473e",
+    "display_name": "TitanUp2me",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1135660751693561856",
+    "metadata": {
+      "allow_pn": "on",
+      "archived": "on",
+      "mention_pn": "on",
+      "team_name": "🚽"
+    },
+    "settings": null,
+    "user_id": "1000984303343308800"
+  }
+]

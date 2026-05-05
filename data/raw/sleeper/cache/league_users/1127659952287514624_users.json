@@ -1,0 +1,206 @@
+[
+  {
+    "avatar": "nfl_atl",
+    "display_name": "extrastank",
+    "is_bot": null,
+    "is_owner": null,
+    "league_id": "1127659952287514624",
+    "metadata": {
+      "allow_pn": "on",
+      "allow_sms": "on",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "76531464128577536"
+  },
+  {
+    "avatar": "089e9b1f1996ffb1b20f3b511c929813",
+    "display_name": "DesperateEnuf",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1127659952287514624",
+    "metadata": {
+      "allow_pn": "on",
+      "archived": "off",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "391094148586844160"
+  },
+  {
+    "avatar": "e4d90bf3a010debbcbef6993d3a5df1c",
+    "display_name": "parsonam",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1127659952287514624",
+    "metadata": {
+      "allow_pn": "on",
+      "archived": "on",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "463136024457900032"
+  },
+  {
+    "avatar": "d102a3fc0ab6e0bce1167f027e699e08",
+    "display_name": "YoinkW77",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1127659952287514624",
+    "metadata": {
+      "allow_pn": "on",
+      "archived": "on",
+      "league_report_pn": "on",
+      "mascot_message": "on",
+      "mention_pn": "on",
+      "player_like_pn": "on",
+      "player_nickname_update": "on",
+      "team_name": "Gronky Punch",
+      "team_name_update": "on",
+      "trade_block_pn": "on",
+      "transaction_commissioner": "on",
+      "transaction_free_agent": "on",
+      "transaction_trade": "on",
+      "transaction_waiver": "on",
+      "user_message_pn": "on"
+    },
+    "settings": null,
+    "user_id": "465714712647036928"
+  },
+  {
+    "avatar": "40c122884bf86d285859788863c41eb2",
+    "display_name": "TheGrandEsquire",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1127659952287514624",
+    "metadata": {
+      "allow_pn": "on",
+      "archived": "on",
+      "avatar": "https://sleepercdn.com/uploads/21624fec3ec0c23465f0ca6ac9fcfe51.jpg",
+      "mention_pn": "on",
+      "team_name": "Kamehameha"
+    },
+    "settings": null,
+    "user_id": "578254031563042816"
+  },
+  {
+    "avatar": "4d56277fb84ab12a4d960bf2d66fc7c3",
+    "display_name": "chris11023",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1127659952287514624",
+    "metadata": {
+      "allow_pn": "on",
+      "archived": "off",
+      "avatar": "https://sleepercdn.com/uploads/7847314fedc9510a0c4ac8e8d624cfbf.jpg",
+      "mention_pn": "on",
+      "team_name": "The Flying Squirrels"
+    },
+    "settings": null,
+    "user_id": "608160157133787136"
+  },
+  {
+    "avatar": "9949981c0ac9a0e4e9f488906582bac2",
+    "display_name": "zfury",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1127659952287514624",
+    "metadata": {
+      "allow_pn": "on",
+      "archived": "on",
+      "avatar": "https://sleepercdn.com/images/mascots_v2/13_Pizza/idle-mobile-small.gif",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "609470711156793344"
+  },
+  {
+    "avatar": "91fc92e1f2c6f6a3810937cf27f9e683",
+    "display_name": "Bdood",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1127659952287514624",
+    "metadata": {
+      "allow_pn": "on",
+      "allow_sms": "on",
+      "archived": "off",
+      "avatar": "https://sleepercdn.com/uploads/91fc92e1f2c6f6a3810937cf27f9e683",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "740317258097852416"
+  },
+  {
+    "avatar": "e7af4deab0289b4f5505646424895246",
+    "display_name": "Rbarry27",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1127659952287514624",
+    "metadata": {
+      "allow_pn": "on",
+      "archived": "on",
+      "mention_pn": "on",
+      "team_name": "The trashboxes "
+    },
+    "settings": null,
+    "user_id": "740417854251397120"
+  },
+  {
+    "avatar": "b3338675f635c2c1f42b469621d38ec6",
+    "display_name": "tcherry13",
+    "is_bot": false,
+    "is_owner": true,
+    "league_id": "1127659952287514624",
+    "metadata": {
+      "allow_pn": "on",
+      "allow_sms": "on",
+      "archived": "off",
+      "mention_pn": "on",
+      "team_name": "Achane In The Membrane"
+    },
+    "settings": null,
+    "user_id": "863940790378942464"
+  },
+  {
+    "avatar": "d90e62daf3614930878cf07064526240",
+    "display_name": "DV918",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1127659952287514624",
+    "metadata": {
+      "allow_pn": "on",
+      "allow_sms": "on",
+      "archived": "on",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "868248871908855808"
+  },
+  {
+    "avatar": "d08c1da43db9857139f4195d4b98b129",
+    "display_name": "Makski0013",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1127659952287514624",
+    "metadata": {
+      "allow_pn": "on",
+      "archived": "on",
+      "avatar": "https://sleepercdn.com/uploads/dae15b9497de497ff8f4be8f258c807b.jpg",
+      "league_report_pn": "on",
+      "mascot_message": "on",
+      "mention_pn": "on",
+      "player_like_pn": "on",
+      "player_nickname_update": "off",
+      "team_name": "All You Need Is LOVE!",
+      "team_name_update": "on",
+      "trade_block_pn": "on",
+      "transaction_commissioner": "on",
+      "transaction_free_agent": "on",
+      "transaction_trade": "on",
+      "transaction_waiver": "on",
+      "user_message_pn": "on"
+    },
+    "settings": null,
+    "user_id": "917979475471015936"
+  }
+]

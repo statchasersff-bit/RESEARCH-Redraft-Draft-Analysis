@@ -1,0 +1,60 @@
+[
+  {
+    "created": 1727808817089,
+    "creators": [
+      "1000488762083733504"
+    ],
+    "draft_id": "1146916942641496064",
+    "draft_order": {
+      "1000460611857289216": 1,
+      "1000488762083733504": 2,
+      "1026536629743251456": 8,
+      "1143337907261075456": 6,
+      "482979385276624896": 11,
+      "628354627166896128": 10,
+      "857835167300075520": 3,
+      "940160785744093184": 12,
+      "958250559578906624": 7,
+      "993580599556325376": 4,
+      "996166464296148993": 5
+    },
+    "last_message_id": "1147405720241876992",
+    "last_message_time": 1727925350774,
+    "last_picked": 1727925349811,
+    "league_id": "1146916941186256896",
+    "metadata": {
+      "description": "",
+      "name": "Titanium Titans 🏈🤺🏆💰",
+      "scoring_type": "ppr"
+    },
+    "season": "2024",
+    "season_type": "regular",
+    "settings": {
+      "alpha_sort": 0,
+      "autopause_enabled": 0,
+      "autopause_end_time": 840,
+      "autopause_start_time": 120,
+      "autostart": 0,
+      "cpu_autopick": 1,
+      "enforce_position_limits": 1,
+      "nomination_timer": 60,
+      "pick_timer": 60,
+      "player_type": 0,
+      "reversal_round": 0,
+      "rounds": 16,
+      "slots_bn": 6,
+      "slots_def": 1,
+      "slots_flex": 2,
+      "slots_k": 1,
+      "slots_qb": 1,
+      "slots_rb": 2,
+      "slots_te": 1,
+      "slots_wr": 2,
+      "teams": 12
+    },
+    "sport": "nfl",
+    "start_time": 1727920823670,
+    "status": "complete",
+    "type": "snake"
+  }
+]

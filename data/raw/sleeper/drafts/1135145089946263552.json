@@ -1,0 +1,63 @@
+{
+  "created": 1725002188710,
+  "creators": [
+    "737288860140253184"
+  ],
+  "draft_id": "1135145089946263552",
+  "draft_order": {
+    "736922482963046400": 3,
+    "737288860140253184": 5,
+    "737294231479185408": 9,
+    "987016553461817344": 10
+  },
+  "last_message_id": "1137364825840840704",
+  "last_message_time": 1725531414998,
+  "last_picked": 1725531414180,
+  "league_id": "1135145088218226688",
+  "metadata": {
+    "description": "",
+    "name": "Aus Fantasy League",
+    "scoring_type": "ppr"
+  },
+  "season": "2024",
+  "season_type": "regular",
+  "settings": {
+    "alpha_sort": 0,
+    "autopause_enabled": 0,
+    "autopause_end_time": 0,
+    "autopause_start_time": 720,
+    "autostart": 0,
+    "cpu_autopick": 1,
+    "enforce_position_limits": 1,
+    "nomination_timer": 60,
+    "pick_timer": 30,
+    "player_type": 0,
+    "reversal_round": 0,
+    "rounds": 14,
+    "slots_bn": 5,
+    "slots_def": 1,
+    "slots_flex": 1,
+    "slots_k": 1,
+    "slots_qb": 1,
+    "slots_rb": 2,
+    "slots_te": 1,
+    "slots_wr": 2,
+    "teams": 10
+  },
+  "slot_to_roster_id": {
+    "1": 5,
+    "2": 6,
+    "3": 4,
+    "4": 7,
+    "5": 1,
+    "6": 8,
+    "7": 9,
+    "8": 10,
+    "9": 2,
+    "10": 3
+  },
+  "sport": "nfl",
+  "start_time": 1725530601730,
+  "status": "complete",
+  "type": "snake"
+}

@@ -1,0 +1,52 @@
+{
+  "created": 1725406166601,
+  "creators": [
+    "1136449126004449280"
+  ],
+  "draft_id": "1136839496047464448",
+  "draft_order": {
+    "1136449126004449280": 2
+  },
+  "last_message_id": "1136849014223065088",
+  "last_message_time": 1725408435926,
+  "last_picked": 1725408435456,
+  "league_id": "1136839494835204096",
+  "metadata": {
+    "description": "",
+    "name": "Eastons special",
+    "scoring_type": "ppr"
+  },
+  "season": "2024",
+  "season_type": "regular",
+  "settings": {
+    "autostart": 0,
+    "cpu_autopick": 1,
+    "pick_timer": 120,
+    "rounds": 14,
+    "slots_bn": 5,
+    "slots_def": 1,
+    "slots_flex": 1,
+    "slots_k": 1,
+    "slots_qb": 1,
+    "slots_rb": 2,
+    "slots_te": 1,
+    "slots_wr": 2,
+    "teams": 10
+  },
+  "slot_to_roster_id": {
+    "1": 2,
+    "2": 1,
+    "3": 3,
+    "4": 4,
+    "5": 5,
+    "6": 6,
+    "7": 7,
+    "8": 8,
+    "9": 9,
+    "10": 10
+  },
+  "sport": "nfl",
+  "start_time": 1725408155654,
+  "status": "complete",
+  "type": "snake"
+}

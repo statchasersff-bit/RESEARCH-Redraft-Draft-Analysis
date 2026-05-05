@@ -1,0 +1,59 @@
+[
+  {
+    "created": 1724967174149,
+    "creators": [
+      "447906112570650624"
+    ],
+    "draft_id": "1134998228224614400",
+    "draft_order": {
+      "100908832284622848": 10,
+      "305620467882934272": 11,
+      "384503592133926912": 1,
+      "442871832509411328": 6,
+      "447906112570650624": 2,
+      "454153178665971712": 7,
+      "454497464838254592": 8,
+      "475382980009783296": 3,
+      "519371133982003200": 9,
+      "601625236026228736": 5,
+      "813507879217778688": 4,
+      "831331178706468864": 12
+    },
+    "last_message_id": "1135036782958882816",
+    "last_message_time": 1724976366322,
+    "last_picked": 1724976365461,
+    "league_id": "1134998227109040128",
+    "metadata": {
+      "description": "",
+      "name": "Beastmodes Best Ball #5 2024 - $25",
+      "scoring_type": "ppr"
+    },
+    "season": "2024",
+    "season_type": "regular",
+    "settings": {
+      "alpha_sort": 0,
+      "autopause_enabled": 0,
+      "autopause_end_time": 840,
+      "autopause_start_time": 120,
+      "autostart": 0,
+      "cpu_autopick": 1,
+      "enforce_position_limits": 1,
+      "nomination_timer": 60,
+      "pick_timer": 10,
+      "player_type": 0,
+      "reversal_round": 0,
+      "rounds": 20,
+      "slots_bn": 11,
+      "slots_flex": 3,
+      "slots_qb": 1,
+      "slots_rb": 2,
+      "slots_te": 1,
+      "slots_wr": 2,
+      "teams": 12
+    },
+    "sport": "nfl",
+    "start_time": 1724973426966,
+    "status": "complete",
+    "type": "snake"
+  }
+]

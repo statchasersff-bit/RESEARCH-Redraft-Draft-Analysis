@@ -1,0 +1,171 @@
+[
+  {
+    "avatar": "e7af4deab0289b4f5505646424895246",
+    "display_name": "brownbear105",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1131351470831538176",
+    "metadata": {
+      "allow_pn": "on",
+      "archived": "on",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "732360863415119872"
+  },
+  {
+    "avatar": "7725e415f17c5e5d1bd1fb943d1d5986",
+    "display_name": "GavinZelko",
+    "is_bot": false,
+    "is_owner": true,
+    "league_id": "1131351470831538176",
+    "metadata": {
+      "allow_pn": "on",
+      "allow_sms": "on",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "746967368252788736"
+  },
+  {
+    "avatar": "8eb8f8bf999945d523f2c4033f70473e",
+    "display_name": "rdw2008",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1131351470831538176",
+    "metadata": {
+      "allow_pn": "on",
+      "archived": "on",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "757670555024535552"
+  },
+  {
+    "avatar": "d98840181a8c70dd7d90b1b81a2359fe",
+    "display_name": "jacksonu23",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1131351470831538176",
+    "metadata": {
+      "allow_pn": "on",
+      "archived": "on",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "848659758171942912"
+  },
+  {
+    "avatar": "8eb8f8bf999945d523f2c4033f70473e",
+    "display_name": "jacksonrice99",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1131351470831538176",
+    "metadata": {
+      "allow_pn": "off",
+      "allow_sms": "on",
+      "archived": "on",
+      "league_report_pn": "off",
+      "mascot_message": "off",
+      "mention_pn": "on",
+      "player_like_pn": "on",
+      "player_nickname_update": "off",
+      "team_name_update": "off",
+      "trade_block_pn": "on",
+      "transaction_commissioner": "off",
+      "transaction_free_agent": "off",
+      "transaction_trade": "on",
+      "transaction_waiver": "off",
+      "user_message_pn": "off"
+    },
+    "settings": null,
+    "user_id": "860981762866683904"
+  },
+  {
+    "avatar": "82aec8e811b839b8ec25d7b458afd57b",
+    "display_name": "WB333",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1131351470831538176",
+    "metadata": {
+      "allow_pn": "on",
+      "archived": "on",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "986833265162043392"
+  },
+  {
+    "avatar": "82aec8e811b839b8ec25d7b458afd57b",
+    "display_name": "kalypseaux",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1131351470831538176",
+    "metadata": {
+      "allow_pn": "on",
+      "allow_sms": "on",
+      "archived": "on",
+      "avatar": "https://sleepercdn.com/uploads/e112de1bf083b32cf737749cb9b05622.jpg",
+      "mention_pn": "on",
+      "team_name": "sweet hot dog nectar"
+    },
+    "settings": null,
+    "user_id": "988616130497437696"
+  },
+  {
+    "avatar": "d5d4eb13d65ed50ece55e15df0313ef3",
+    "display_name": "Punchbuggy5",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1131351470831538176",
+    "metadata": {
+      "allow_pn": "on",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "1004164278041075712"
+  },
+  {
+    "avatar": "22d0d7c9ad5316bed5b701ea06f30a77",
+    "display_name": "TheTrueToddfather",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1131351470831538176",
+    "metadata": {
+      "allow_pn": "on",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "1125162878480281600"
+  },
+  {
+    "avatar": "4f4090e5e9c3941414db40a871e3e909",
+    "display_name": "PackerDad2",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1131351470831538176",
+    "metadata": {
+      "allow_pn": "on",
+      "allow_sms": "on",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "1133532930552414208"
+  },
+  {
+    "avatar": "e7af4deab0289b4f5505646424895246",
+    "display_name": "Ethanblars",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1131351470831538176",
+    "metadata": {
+      "allow_pn": "on",
+      "archived": "on",
+      "avatar": "https://sleepercdn.com/uploads/f608efa1396620f96999d64bd2584721.jpg",
+      "mention_pn": "on",
+      "team_name": "PigskinPapi"
+    },
+    "settings": null,
+    "user_id": "1134720879549804544"
+  }
+]

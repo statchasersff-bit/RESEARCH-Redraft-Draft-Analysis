@@ -1,0 +1,56 @@
+[
+  {
+    "created": 1720975061196,
+    "creators": [
+      "710332074363523072"
+    ],
+    "draft_id": "1118254092897431552",
+    "draft_order": {
+      "1104519186686070784": 4,
+      "651102207088893952": 6,
+      "710332074363523072": 3,
+      "740208217933647872": 7,
+      "869707573174145024": 10
+    },
+    "last_message_id": "1118274614372786176",
+    "last_message_time": 1720979953905,
+    "last_picked": 1720979922141,
+    "league_id": "1118254088812220416",
+    "metadata": {
+      "description": "",
+      "name": "Wedontgivafucbiatch Free",
+      "scoring_type": "2qb"
+    },
+    "season": "2024",
+    "season_type": "regular",
+    "settings": {
+      "alpha_sort": 0,
+      "autopause_enabled": 0,
+      "autopause_end_time": 1020,
+      "autopause_start_time": 300,
+      "autostart": 0,
+      "cpu_autopick": 1,
+      "enforce_position_limits": 1,
+      "nomination_timer": 60,
+      "pick_timer": 60,
+      "player_type": 0,
+      "reversal_round": 0,
+      "rounds": 17,
+      "slots_bn": 6,
+      "slots_def": 1,
+      "slots_flex": 1,
+      "slots_k": 1,
+      "slots_qb": 1,
+      "slots_rb": 2,
+      "slots_rec_flex": 1,
+      "slots_super_flex": 1,
+      "slots_te": 1,
+      "slots_wr": 2,
+      "teams": 10
+    },
+    "sport": "nfl",
+    "start_time": 1720977576959,
+    "status": "complete",
+    "type": "snake"
+  }
+]

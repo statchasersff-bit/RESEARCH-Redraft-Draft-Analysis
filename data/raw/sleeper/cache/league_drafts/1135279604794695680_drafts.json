@@ -1,0 +1,165 @@
+[
+  {
+    "created": 1725501515030,
+    "creators": [
+      "453027305489428480"
+    ],
+    "draft_id": "1137239416277245952",
+    "draft_order": {
+      "100908832284622848": 4,
+      "1124832144246939648": 10,
+      "1134752865462943744": 3,
+      "453027305489428480": 9,
+      "464565448231350272": 7,
+      "597529667892727808": 2,
+      "602220509073055744": 1,
+      "738576480010924032": 5,
+      "741031920472883200": 6,
+      "913246500850102272": 8
+    },
+    "last_message_id": "1137279701212196864",
+    "last_message_time": 1725511119705,
+    "last_picked": 1725511119016,
+    "league_id": "1135279604794695680",
+    "metadata": {
+      "description": "",
+      "name": "Touchdowns Are Good 👍🏼 $10 superflex",
+      "scoring_type": "2qb"
+    },
+    "season": "2024",
+    "season_type": "regular",
+    "settings": {
+      "alpha_sort": 0,
+      "autopause_enabled": 0,
+      "autopause_end_time": 1020,
+      "autopause_start_time": 300,
+      "autostart": 0,
+      "cpu_autopick": 1,
+      "enforce_position_limits": 1,
+      "nomination_timer": 60,
+      "pick_timer": 60,
+      "player_type": 0,
+      "reversal_round": 0,
+      "rounds": 20,
+      "slots_bn": 10,
+      "slots_flex": 2,
+      "slots_qb": 1,
+      "slots_rb": 3,
+      "slots_super_flex": 1,
+      "slots_wr": 3,
+      "teams": 10
+    },
+    "sport": "nfl",
+    "start_time": 1725505808062,
+    "status": "complete",
+    "type": "snake"
+  },
+  {
+    "created": 1725501483674,
+    "creators": [
+      "453027305489428480"
+    ],
+    "draft_id": "1137239284760850432",
+    "draft_order": {
+      "1124832144246939648": 10,
+      "1134752865462943744": 3,
+      "453027305489428480": 1,
+      "464565448231350272": 6,
+      "597529667892727808": 7,
+      "602220509073055744": 9,
+      "738576480010924032": 5,
+      "741031920472883200": 8,
+      "913246500850102272": 4
+    },
+    "last_message_id": "1137239284760850432",
+    "last_message_time": 1725501483674,
+    "last_picked": null,
+    "league_id": "1135279604794695680",
+    "metadata": {
+      "description": "",
+      "name": "Touchdowns Are Good 👍🏼 $10 superflex ",
+      "scoring_type": "2qb"
+    },
+    "season": "2024",
+    "season_type": "regular",
+    "settings": {
+      "alpha_sort": 0,
+      "autopause_enabled": 0,
+      "autopause_end_time": 1020,
+      "autopause_start_time": 300,
+      "autostart": 1,
+      "cpu_autopick": 1,
+      "enforce_position_limits": 1,
+      "nomination_timer": 60,
+      "pick_timer": 120,
+      "player_type": 0,
+      "reversal_round": 0,
+      "rounds": 20,
+      "slots_bn": 10,
+      "slots_flex": 2,
+      "slots_qb": 1,
+      "slots_rb": 3,
+      "slots_super_flex": 1,
+      "slots_wr": 3,
+      "teams": 10
+    },
+    "sport": "nfl",
+    "start_time": null,
+    "status": "pre_draft",
+    "type": "snake"
+  },
+  {
+    "created": 1725034259761,
+    "creators": [
+      "453027305489428480"
+    ],
+    "draft_id": "1135279605708988416",
+    "draft_order": {
+      "1124832144246939648": 10,
+      "1134752865462943744": 3,
+      "453027305489428480": 1,
+      "464565448231350272": 6,
+      "597529667892727808": 7,
+      "602220509073055744": 9,
+      "738576480010924032": 5,
+      "741031920472883200": 8,
+      "913246500850102272": 4
+    },
+    "last_message_id": "1137144768493780992",
+    "last_message_time": 1725478949238,
+    "last_picked": 1725478948394,
+    "league_id": "1135279604794695680",
+    "metadata": {
+      "description": "",
+      "name": "Touchdowns Are Good 👍🏼 $10 superflex",
+      "scoring_type": "2qb"
+    },
+    "season": "2024",
+    "season_type": "regular",
+    "settings": {
+      "alpha_sort": 0,
+      "autopause_enabled": 0,
+      "autopause_end_time": 1020,
+      "autopause_start_time": 300,
+      "autostart": 1,
+      "cpu_autopick": 1,
+      "enforce_position_limits": 1,
+      "nomination_timer": 60,
+      "pick_timer": 120,
+      "player_type": 0,
+      "reversal_round": 0,
+      "rounds": 20,
+      "slots_bn": 10,
+      "slots_flex": 2,
+      "slots_qb": 1,
+      "slots_rb": 3,
+      "slots_super_flex": 1,
+      "slots_wr": 3,
+      "teams": 10
+    },
+    "sport": "nfl",
+    "start_time": 1725472827245,
+    "status": "complete",
+    "type": "snake"
+  }
+]

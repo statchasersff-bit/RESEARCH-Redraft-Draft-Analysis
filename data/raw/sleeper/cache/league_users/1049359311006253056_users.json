@@ -1,0 +1,218 @@
+[
+  {
+    "avatar": "2a528b0fe3ca39fef06bff8120b7f25d",
+    "display_name": "Hower",
+    "is_bot": false,
+    "is_owner": false,
+    "league_id": "1049359311006253056",
+    "metadata": {
+      "allow_pn": "on",
+      "allow_sms": "on",
+      "archived": "on",
+      "avatar": "https://sleepercdn.com/uploads/c2a8293a644d8224e13f68fab95acb6d.jpg",
+      "mention_pn": "on",
+      "team_name": "Njigbas in Paris"
+    },
+    "settings": null,
+    "user_id": "188826952549797888"
+  },
+  {
+    "avatar": "507cfca05e99f10f08d123d57075ac68",
+    "display_name": "JacobCollins69",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1049359311006253056",
+    "metadata": {
+      "allow_pn": "on",
+      "allow_sms": "on",
+      "avatar": "https://sleepercdn.com/uploads/e9f2cef583bf843a2190b5006f45574a.jpg",
+      "mention_pn": "on",
+      "team_name": "BoBandyLahey"
+    },
+    "settings": null,
+    "user_id": "453850661663010816"
+  },
+  {
+    "avatar": "67206d81d03c9ee856a4e7391699a24e",
+    "display_name": "ATXOrangeblood",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1049359311006253056",
+    "metadata": {
+      "allow_pn": "on",
+      "mention_pn": "on",
+      "team_name": "The Stroud Boyz"
+    },
+    "settings": null,
+    "user_id": "477675584256733184"
+  },
+  {
+    "avatar": "7e2ad4c3bda220c1f569d9fededd92c9",
+    "display_name": "ZekenDestroy8",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1049359311006253056",
+    "metadata": {
+      "allow_pn": "on",
+      "allow_sms": "on",
+      "archived": "on",
+      "mention_pn": "on",
+      "team_name": "Cardinal Sin"
+    },
+    "settings": null,
+    "user_id": "501604138732220416"
+  },
+  {
+    "avatar": "b814d2e42f9d05f2b2702390fcc92e14",
+    "display_name": "CRSP",
+    "is_bot": false,
+    "is_owner": false,
+    "league_id": "1049359311006253056",
+    "metadata": {
+      "allow_pn": "on",
+      "avatar": "https://sleepercdn.com/uploads/c5ca57bc5dfcef8bbbf12f47eea4cec6.jpg",
+      "mention_pn": "on",
+      "team_name": "M Vicks K9s"
+    },
+    "settings": null,
+    "user_id": "603012623843274752"
+  },
+  {
+    "avatar": "b9a2e446fdc1124162a1e28017dfc013",
+    "display_name": "smithalexander",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1049359311006253056",
+    "metadata": {
+      "allow_pn": "off",
+      "allow_sms": "on",
+      "archived": "on",
+      "league_report_pn": "on",
+      "mascot_message": "on",
+      "mention_pn": "on",
+      "player_like_pn": "on",
+      "player_nickname_update": "on",
+      "team_name_update": "on",
+      "trade_block_pn": "on",
+      "transaction_commissioner": "on",
+      "transaction_free_agent": "on",
+      "transaction_trade": "on",
+      "transaction_waiver": "on",
+      "user_message_pn": "on"
+    },
+    "settings": null,
+    "user_id": "787573971712344064"
+  },
+  {
+    "avatar": "15d7cf259bc30eab8f6120f45f652fb6",
+    "display_name": "JulioLibre",
+    "is_bot": false,
+    "is_owner": false,
+    "league_id": "1049359311006253056",
+    "metadata": {
+      "allow_pn": "on",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "868178493224206336"
+  },
+  {
+    "avatar": "8eb8f8bf999945d523f2c4033f70473e",
+    "display_name": "zachbuster",
+    "is_bot": false,
+    "is_owner": false,
+    "league_id": "1049359311006253056",
+    "metadata": {
+      "allow_pn": "on",
+      "archived": "on",
+      "mention_pn": "on",
+      "team_name": "Judge Jeudy"
+    },
+    "settings": null,
+    "user_id": "958250559578906624"
+  },
+  {
+    "avatar": "4cc2a830f37cdcc73df113dfd6484e0f",
+    "display_name": "WowItsRuck",
+    "is_bot": false,
+    "is_owner": true,
+    "league_id": "1049359311006253056",
+    "metadata": {
+      "allow_pn": "on",
+      "avatar": "https://sleepercdn.com/uploads/c8c9d2bb4a019429af7b70eceb298cae.jpg",
+      "mention_pn": "on",
+      "team_name": "Thaaaaaat's Olaaaaaave"
+    },
+    "settings": null,
+    "user_id": "959062751723294720"
+  },
+  {
+    "avatar": "d34f5d7d6e89ee3e7389ba6659c29a5c",
+    "display_name": "WilliamIV",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1049359311006253056",
+    "metadata": {
+      "allow_pn": "on",
+      "archived": "on",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "997037723045191680"
+  },
+  {
+    "avatar": "82aec8e811b839b8ec25d7b458afd57b",
+    "display_name": "LilDJack",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1049359311006253056",
+    "metadata": {
+      "allow_pn": "on",
+      "allow_sms": "on",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "1003804077995683840"
+  },
+  {
+    "avatar": "15d7cf259bc30eab8f6120f45f652fb6",
+    "display_name": "noahrr",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1049359311006253056",
+    "metadata": {
+      "allow_pn": "on",
+      "league_report_pn": "on",
+      "mascot_message": "off",
+      "mention_pn": "on",
+      "player_like_pn": "on",
+      "player_nickname_update": "off",
+      "team_name": "Damardiac Arrest",
+      "team_name_update": "off",
+      "trade_block_pn": "on",
+      "transaction_commissioner": "on",
+      "transaction_free_agent": "off",
+      "transaction_trade": "on",
+      "transaction_waiver": "on",
+      "user_message_pn": "on"
+    },
+    "settings": null,
+    "user_id": "1006112261238329344"
+  },
+  {
+    "avatar": "b8c5a82fac091200c719b0ec45d21e40",
+    "display_name": "jmarder03",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1049359311006253056",
+    "metadata": {
+      "allow_pn": "on",
+      "allow_sms": "on",
+      "avatar": "https://sleepercdn.com/uploads/537c64764d41c120733320b0567256c2.jpg",
+      "mention_pn": "on",
+      "team_name": "Bill Swerski's Superfans"
+    },
+    "settings": null,
+    "user_id": "1133881980501868544"
+  }
+]

@@ -1,0 +1,59 @@
+[
+  {
+    "created": 1729645988419,
+    "creators": [
+      "947164881395015680"
+    ],
+    "draft_id": "1154622597649399808",
+    "draft_order": {
+      "1003156321874567168": 2,
+      "100908832284622848": 8,
+      "1119734744289214464": 7,
+      "1133938442456453120": 11,
+      "727609561850118144": 3,
+      "737085875023900672": 9,
+      "744999641166282752": 4,
+      "854785777429753856": 10,
+      "895856609916731392": 1,
+      "947164881395015680": 5,
+      "947951002475388928": 12,
+      "979610977693908992": 6
+    },
+    "last_message_id": "1157197654968016896",
+    "last_message_time": 1730259929938,
+    "last_picked": 1730259920321,
+    "league_id": "1154622596659482624",
+    "metadata": {
+      "description": "",
+      "name": "Half season finale",
+      "scoring_type": "ppr"
+    },
+    "season": "2024",
+    "season_type": "regular",
+    "settings": {
+      "alpha_sort": 0,
+      "autostart": 0,
+      "cpu_autopick": 1,
+      "pick_timer": 120,
+      "position_limit_def": 2,
+      "position_limit_k": 2,
+      "position_limit_qb": 3,
+      "position_limit_rb": 7,
+      "position_limit_te": 3,
+      "position_limit_wr": 7,
+      "reversal_round": 0,
+      "rounds": 14,
+      "slots_bn": 5,
+      "slots_flex": 2,
+      "slots_qb": 1,
+      "slots_rb": 2,
+      "slots_te": 1,
+      "slots_wr": 3,
+      "teams": 12
+    },
+    "sport": "nfl",
+    "start_time": 1730253678219,
+    "status": "complete",
+    "type": "snake"
+  }
+]

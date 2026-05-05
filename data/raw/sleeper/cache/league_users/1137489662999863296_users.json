@@ -1,0 +1,184 @@
+[
+  {
+    "avatar": "nfl_la",
+    "display_name": "novae",
+    "is_bot": null,
+    "is_owner": null,
+    "league_id": "1137489662999863296",
+    "metadata": {
+      "allow_pn": "on",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "81865495145758720"
+  },
+  {
+    "avatar": "67206d81d03c9ee856a4e7391699a24e",
+    "display_name": "uclakid",
+    "is_bot": null,
+    "is_owner": false,
+    "league_id": "1137489662999863296",
+    "metadata": {
+      "allow_pn": "on",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "81881935475261440"
+  },
+  {
+    "avatar": "d4c41932b735ccd789523eb1fd2df21c",
+    "display_name": "cwizay",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1137489662999863296",
+    "metadata": {
+      "allow_pn": "on",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "588696179814998016"
+  },
+  {
+    "avatar": "3dd5a49b6e8b46b474e36af0acaf7914",
+    "display_name": "TheQuickster",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1137489662999863296",
+    "metadata": {
+      "allow_pn": "on",
+      "archived": "on",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "606527727016681472"
+  },
+  {
+    "avatar": "2c96a24c53caa6c734a119e589ad20e6",
+    "display_name": "willcurnutt",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1137489662999863296",
+    "metadata": {
+      "allow_pn": "on",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "609084666506444800"
+  },
+  {
+    "avatar": "e7af4deab0289b4f5505646424895246",
+    "display_name": "OnlyNameAvailable",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1137489662999863296",
+    "metadata": {
+      "allow_pn": "on",
+      "archived": "on",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "671647026185863168"
+  },
+  {
+    "avatar": "e7af4deab0289b4f5505646424895246",
+    "display_name": "jayfoozy",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1137489662999863296",
+    "metadata": {
+      "allow_pn": "on",
+      "archived": "on",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "734499336955785216"
+  },
+  {
+    "avatar": "e7af4deab0289b4f5505646424895246",
+    "display_name": "MediumRedRidingHood",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1137489662999863296",
+    "metadata": {
+      "allow_pn": "on",
+      "mention_pn": "on",
+      "team_name": "Allgeier Szn 🤧"
+    },
+    "settings": null,
+    "user_id": "741797608494059520"
+  },
+  {
+    "avatar": "78fd14846ef602c67713c2ea00d6af7b",
+    "display_name": "HeirJordans",
+    "is_bot": false,
+    "is_owner": true,
+    "league_id": "1137489662999863296",
+    "metadata": {
+      "allow_pn": "on",
+      "archived": "on",
+      "avatar": "https://sleepercdn.com/uploads/5937f7ff1d4873acc566e8813d8fff93.jpg",
+      "mention_pn": "on",
+      "team_name": "Rollin’ With Mahomes"
+    },
+    "settings": null,
+    "user_id": "854785777429753856"
+  },
+  {
+    "avatar": "af0c53c72f055bd44a656b1c0ffa2e75",
+    "display_name": "akolman",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1137489662999863296",
+    "metadata": {
+      "allow_pn": "on",
+      "archived": "on",
+      "mention_pn": "on",
+      "team_name": "Big Ole TDs"
+    },
+    "settings": null,
+    "user_id": "1021522582702526464"
+  },
+  {
+    "avatar": "f0edbf4278f53f9425db175073df6584",
+    "display_name": "mwhitfield",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1137489662999863296",
+    "metadata": {
+      "allow_pn": "on",
+      "archived": "on",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "1124085431668269056"
+  },
+  {
+    "avatar": "4ae8ca2a4dfe19894b545b2629433722",
+    "display_name": "NabersinParriss",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1137489662999863296",
+    "metadata": {
+      "allow_pn": "on",
+      "archived": "on",
+      "avatar": "https://sleepercdn.com/uploads/c81a09d5b6838025198253775b689ba0",
+      "mention_pn": "on",
+      "team_name": "NabersinParis"
+    },
+    "settings": null,
+    "user_id": "1136478038587527168"
+  },
+  {
+    "avatar": "ee083bb20e16e42fe5af03268de95edd",
+    "display_name": "VaqueroRG",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1137489662999863296",
+    "metadata": {
+      "allow_pn": "on",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "1137519570573340672"
+  }
+]

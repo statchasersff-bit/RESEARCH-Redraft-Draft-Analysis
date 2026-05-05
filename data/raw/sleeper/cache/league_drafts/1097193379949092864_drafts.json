@@ -1,0 +1,61 @@
+[
+  {
+    "created": 1715953796169,
+    "creators": [
+      "1007456301951107072"
+    ],
+    "draft_id": "1097193380926373888",
+    "draft_order": {
+      "1002053140398559232": 6,
+      "1003371091101941760": 5,
+      "1007456143096074240": 8,
+      "1007456301951107072": 3,
+      "1007456455898886144": 2,
+      "1007458370107875328": 11,
+      "1097207691862310912": 9,
+      "1097208500985438208": 4,
+      "1097212070329790464": 1,
+      "1099719343493038080": 12,
+      "1113006440475762688": 7,
+      "858101030297153536": 10
+    },
+    "last_message_id": "1118017323815690240",
+    "last_message_time": 1720918611056,
+    "last_picked": 1720918610413,
+    "league_id": "1097193379949092864",
+    "metadata": {
+      "description": "",
+      "name": "The Dirty Dozen",
+      "scoring_type": "dynasty_ppr"
+    },
+    "season": "2024",
+    "season_type": "regular",
+    "settings": {
+      "alpha_sort": 0,
+      "autopause_enabled": 0,
+      "autopause_end_time": 840,
+      "autopause_start_time": 120,
+      "autostart": 0,
+      "cpu_autopick": 1,
+      "enforce_position_limits": 1,
+      "nomination_timer": 60,
+      "pick_timer": 90,
+      "player_type": 0,
+      "reversal_round": 0,
+      "rounds": 23,
+      "slots_bn": 10,
+      "slots_def": 1,
+      "slots_flex": 2,
+      "slots_k": 1,
+      "slots_qb": 1,
+      "slots_rb": 2,
+      "slots_te": 1,
+      "slots_wr": 2,
+      "teams": 12
+    },
+    "sport": "nfl",
+    "start_time": 1720911650677,
+    "status": "complete",
+    "type": "snake"
+  }
+]

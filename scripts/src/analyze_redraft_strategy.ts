@@ -833,21 +833,11 @@ export function analyzeAll(
   const rounds: Array<{ round: number; positions: unknown[] }> = [];
   for (let round = 1; round <= 15; round++) {
     const positions = POSITIONS.map((pos) => {
-      const teamsWithPickAtRound = allTeams.filter((team) => {
-        const teamPicks = fetchedLeagues
-          .flatMap((e) => e.data?.draftPicks.flat() || []) as SleeperDraftPick[];
-        // We use enriched data from team records
-        return true; // simplified - compute via team's position sequences
-      });
-
-      // Simpler approach: teams that had this position in this specific round
       const matching = allTeams.filter((t) => {
         return t.first_eight_round_positions[round - 1] === pos;
       });
-
       return computeMetrics(matching, pos, baseline);
     });
-
     rounds.push({ round, positions });
   }
 

@@ -1,0 +1,61 @@
+[
+  {
+    "created": 1732243970774,
+    "creators": [
+      "1003881131223179264"
+    ],
+    "draft_id": "1165519325421473792",
+    "draft_order": {
+      "1003881131223179264": 1,
+      "1065132858706182144": 9,
+      "1118678669683183616": 7,
+      "1132852457908035584": 3,
+      "1137539022278750208": 6,
+      "1137540003091816448": 11,
+      "1137876572704485376": 5,
+      "1145113591797039104": 12,
+      "1151674692361887744": 8,
+      "1165530015187939328": 10,
+      "738956814745497600": 2,
+      "996983277934161920": 4
+    },
+    "last_message_id": "1165543987437027328",
+    "last_message_time": 1732249850666,
+    "last_picked": 1732249849950,
+    "league_id": "1165519324510404608",
+    "metadata": {
+      "description": "",
+      "name": "Superflex lol",
+      "scoring_type": "2qb"
+    },
+    "season": "2024",
+    "season_type": "regular",
+    "settings": {
+      "alpha_sort": 0,
+      "autopause_enabled": 0,
+      "autopause_end_time": 1080,
+      "autopause_start_time": 360,
+      "autostart": 0,
+      "cpu_autopick": 1,
+      "enforce_position_limits": 1,
+      "nomination_timer": 60,
+      "pick_timer": 90,
+      "player_type": 0,
+      "reversal_round": 0,
+      "rounds": 11,
+      "slots_bn": 4,
+      "slots_def": 1,
+      "slots_k": 1,
+      "slots_qb": 1,
+      "slots_rb": 1,
+      "slots_super_flex": 1,
+      "slots_te": 1,
+      "slots_wr": 1,
+      "teams": 12
+    },
+    "sport": "nfl",
+    "start_time": 1732247180968,
+    "status": "complete",
+    "type": "snake"
+  }
+]

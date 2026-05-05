@@ -1,0 +1,71 @@
+{
+  "created": 1724453381836,
+  "creators": [
+    "867584595800027136"
+  ],
+  "draft_id": "1132843227033341953",
+  "draft_order": {
+    "338103778249035776": 8,
+    "463770706455293952": 11,
+    "464188008082436096": 10,
+    "567994319854673920": 7,
+    "716750581951209472": 5,
+    "722822421454843904": 3,
+    "858506100104896512": 2,
+    "867584595800027136": 9,
+    "869107607355416576": 1,
+    "883889342815502336": 6,
+    "982483033641033728": 12,
+    "996903340560662528": 4
+  },
+  "last_message_id": "1132913172530139136",
+  "last_message_time": 1724470058141,
+  "last_picked": 1724470057559,
+  "league_id": "1132843227033341952",
+  "metadata": {
+    "description": "",
+    "name": "HOTD 🐉",
+    "scoring_type": "ppr"
+  },
+  "season": "2024",
+  "season_type": "regular",
+  "settings": {
+    "alpha_sort": 0,
+    "autopause_enabled": 0,
+    "autopause_end_time": 840,
+    "autopause_start_time": 120,
+    "autostart": 0,
+    "cpu_autopick": 1,
+    "enforce_position_limits": 1,
+    "nomination_timer": 60,
+    "pick_timer": 60,
+    "player_type": 0,
+    "reversal_round": 0,
+    "rounds": 16,
+    "slots_bn": 7,
+    "slots_flex": 3,
+    "slots_qb": 1,
+    "slots_rb": 2,
+    "slots_te": 1,
+    "slots_wr": 2,
+    "teams": 12
+  },
+  "slot_to_roster_id": {
+    "1": 7,
+    "2": 11,
+    "3": 5,
+    "4": 9,
+    "5": 10,
+    "6": 3,
+    "7": 6,
+    "8": 12,
+    "9": 1,
+    "10": 4,
+    "11": 2,
+    "12": 8
+  },
+  "sport": "nfl",
+  "start_time": 1724465707719,
+  "status": "complete",
+  "type": "snake"
+}

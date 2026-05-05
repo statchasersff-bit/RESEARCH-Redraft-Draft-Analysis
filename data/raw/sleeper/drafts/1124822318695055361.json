@@ -1,0 +1,72 @@
+{
+  "created": 1722541048266,
+  "creators": [
+    "464953635093082112"
+  ],
+  "draft_id": "1124822318695055361",
+  "draft_order": {
+    "1136916250338181120": 8,
+    "1137889651454304256": 3,
+    "331813821960175616": 2,
+    "337777938567020544": 6,
+    "354130475046146048": 5,
+    "374654156163571712": 11,
+    "444984888488095744": 10,
+    "464953635093082112": 9,
+    "658559611699265536": 4,
+    "733105034304299008": 7,
+    "749061700845703168": 1,
+    "854785777429753856": 12
+  },
+  "last_message_id": "1137931550873509888",
+  "last_message_time": 1725666532775,
+  "last_picked": 1725666531945,
+  "league_id": "1124822318695055360",
+  "metadata": {
+    "description": "",
+    "name": "12 DIRTBAGS",
+    "scoring_type": "2qb"
+  },
+  "season": "2024",
+  "season_type": "regular",
+  "settings": {
+    "alpha_sort": 0,
+    "autopause_enabled": 0,
+    "autopause_end_time": 840,
+    "autopause_start_time": 120,
+    "autostart": 0,
+    "cpu_autopick": 1,
+    "enforce_position_limits": 1,
+    "nomination_timer": 60,
+    "pick_timer": 60,
+    "player_type": 0,
+    "reversal_round": 0,
+    "rounds": 17,
+    "slots_bn": 7,
+    "slots_flex": 2,
+    "slots_qb": 1,
+    "slots_rb": 2,
+    "slots_super_flex": 1,
+    "slots_te": 1,
+    "slots_wr": 3,
+    "teams": 12
+  },
+  "slot_to_roster_id": {
+    "1": 10,
+    "2": 12,
+    "3": 11,
+    "4": 6,
+    "5": 3,
+    "6": 4,
+    "7": 8,
+    "8": 9,
+    "9": 1,
+    "10": 7,
+    "11": 2,
+    "12": 5
+  },
+  "sport": "nfl",
+  "start_time": 1725662222876,
+  "status": "complete",
+  "type": "snake"
+}

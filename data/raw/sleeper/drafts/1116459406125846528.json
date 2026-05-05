@@ -1,0 +1,67 @@
+{
+  "created": 1720547174526,
+  "creators": [
+    "710332074363523072"
+  ],
+  "draft_id": "1116459406125846528",
+  "draft_order": {
+    "204241967419236352": 4,
+    "623427899508211712": 10,
+    "710332074363523072": 2,
+    "748307492412530688": 6,
+    "780071756605095936": 1,
+    "863199642253381632": 9,
+    "900178711474212864": 5
+  },
+  "last_message_id": "1116479711938363392",
+  "last_message_time": 1720552015817,
+  "last_picked": 1720552015365,
+  "league_id": "1116459403667968000",
+  "metadata": {
+    "description": "",
+    "name": "Tuesday free loaders",
+    "scoring_type": "2qb"
+  },
+  "season": "2024",
+  "season_type": "regular",
+  "settings": {
+    "alpha_sort": 0,
+    "autopause_enabled": 0,
+    "autopause_end_time": 1020,
+    "autopause_start_time": 300,
+    "autostart": 1,
+    "cpu_autopick": 1,
+    "enforce_position_limits": 1,
+    "nomination_timer": 60,
+    "pick_timer": 30,
+    "player_type": 0,
+    "reversal_round": 0,
+    "rounds": 17,
+    "slots_bn": 6,
+    "slots_def": 1,
+    "slots_flex": 2,
+    "slots_k": 1,
+    "slots_qb": 1,
+    "slots_rb": 2,
+    "slots_super_flex": 1,
+    "slots_te": 1,
+    "slots_wr": 2,
+    "teams": 10
+  },
+  "slot_to_roster_id": {
+    "1": 9,
+    "2": 1,
+    "3": 2,
+    "4": 8,
+    "5": 4,
+    "6": 7,
+    "7": 3,
+    "8": 5,
+    "9": 10,
+    "10": 6
+  },
+  "sport": "nfl",
+  "start_time": 1720550420853,
+  "status": "complete",
+  "type": "snake"
+}

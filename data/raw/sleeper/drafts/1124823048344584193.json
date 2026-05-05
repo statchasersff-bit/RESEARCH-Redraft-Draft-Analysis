@@ -1,0 +1,72 @@
+{
+  "created": 1722541222228,
+  "creators": [
+    "464953635093082112"
+  ],
+  "draft_id": "1124823048344584193",
+  "draft_order": {
+    "1005228031041966080": 1,
+    "1083916606167818240": 12,
+    "1095228773655543808": 4,
+    "462432694408572928": 11,
+    "464953635093082112": 2,
+    "472677951763116032": 7,
+    "658559611699265536": 5,
+    "726555466552926208": 8,
+    "739389235924205568": 10,
+    "749061700845703168": 9,
+    "857638339505958912": 6,
+    "982483033641033728": 3
+  },
+  "last_message_id": "1138211681638576128",
+  "last_message_time": 1725733321154,
+  "last_picked": 1725733320464,
+  "league_id": "1124823048344584192",
+  "metadata": {
+    "description": "",
+    "name": "DIRTBAG DOZEN",
+    "scoring_type": "2qb"
+  },
+  "season": "2024",
+  "season_type": "regular",
+  "settings": {
+    "alpha_sort": 0,
+    "autopause_enabled": 0,
+    "autopause_end_time": 840,
+    "autopause_start_time": 120,
+    "autostart": 0,
+    "cpu_autopick": 1,
+    "enforce_position_limits": 1,
+    "nomination_timer": 60,
+    "pick_timer": 60,
+    "player_type": 0,
+    "reversal_round": 0,
+    "rounds": 17,
+    "slots_bn": 7,
+    "slots_flex": 2,
+    "slots_qb": 1,
+    "slots_rb": 2,
+    "slots_super_flex": 1,
+    "slots_te": 1,
+    "slots_wr": 3,
+    "teams": 12
+  },
+  "slot_to_roster_id": {
+    "1": 4,
+    "2": 1,
+    "3": 7,
+    "4": 8,
+    "5": 2,
+    "6": 6,
+    "7": 10,
+    "8": 11,
+    "9": 5,
+    "10": 3,
+    "11": 9,
+    "12": 12
+  },
+  "sport": "nfl",
+  "start_time": 1725728531032,
+  "status": "complete",
+  "type": "snake"
+}

@@ -1,0 +1,68 @@
+{
+  "created": 1714598571499,
+  "creators": [
+    "1028871970655424512"
+  ],
+  "draft_id": "1091509156651061248",
+  "draft_order": {
+    "1015767623528742912": 2,
+    "1018340556961128448": 10,
+    "1028871970655424512": 7,
+    "1050587737226592256": 8,
+    "1051706128935079936": 9,
+    "499297137159303168": 4,
+    "633787118912729088": 1,
+    "860193131520438272": 6,
+    "972580321071775744": 5
+  },
+  "last_message_id": "1092954623083565056",
+  "last_message_time": 1714943197559,
+  "last_picked": 1714943197196,
+  "league_id": "1091509154486829056",
+  "metadata": {
+    "description": "",
+    "name": "Redraft Frenzy!",
+    "scoring_type": "2qb"
+  },
+  "season": "2024",
+  "season_type": "regular",
+  "settings": {
+    "alpha_sort": 0,
+    "autopause_enabled": 0,
+    "autopause_end_time": 780,
+    "autopause_start_time": 60,
+    "autostart": 1,
+    "cpu_autopick": 1,
+    "enforce_position_limits": 1,
+    "nomination_timer": 60,
+    "pick_timer": 1800,
+    "player_type": 0,
+    "position_limit_qb": 3,
+    "reversal_round": 0,
+    "rounds": 17,
+    "slots_bn": 8,
+    "slots_flex": 2,
+    "slots_qb": 1,
+    "slots_rb": 2,
+    "slots_super_flex": 1,
+    "slots_te": 1,
+    "slots_wr": 2,
+    "teams": 10
+  },
+  "slot_to_roster_id": {
+    "1": 8,
+    "2": 3,
+    "3": 5,
+    "4": 2,
+    "5": 7,
+    "6": 6,
+    "7": 1,
+    "8": 4,
+    "9": 9,
+    "10": 10
+  },
+  "sport": "nfl",
+  "start_time": 1714773659761,
+  "status": "complete",
+  "type": "snake"
+}

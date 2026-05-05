@@ -1,0 +1,61 @@
+[
+  {
+    "created": 1724803017352,
+    "creators": [
+      "606291063203753984"
+    ],
+    "draft_id": "1134309704743964672",
+    "draft_order": {
+      "1134972617322123264": 1,
+      "1135001086554898432": 9,
+      "305433772172525568": 3,
+      "458071476105375744": 12,
+      "465613614653370368": 11,
+      "482005782078943232": 2,
+      "606291063203753984": 10,
+      "729396078943776768": 5,
+      "744999641166282752": 8,
+      "748580552591982592": 7,
+      "863249979693731840": 6,
+      "93379766446866432": 4
+    },
+    "last_message_id": "1136136178941362176",
+    "last_message_time": 1725238482750,
+    "last_picked": 1725238481923,
+    "league_id": "1134309703036571648",
+    "metadata": {
+      "description": "",
+      "name": "Agents of S.H.I.E.L.D.",
+      "scoring_type": "ppr"
+    },
+    "season": "2024",
+    "season_type": "regular",
+    "settings": {
+      "alpha_sort": 0,
+      "autopause_enabled": 0,
+      "autopause_end_time": 840,
+      "autopause_start_time": 120,
+      "autostart": 0,
+      "cpu_autopick": 1,
+      "enforce_position_limits": 1,
+      "nomination_timer": 60,
+      "pick_timer": 60,
+      "player_type": 0,
+      "reversal_round": 0,
+      "rounds": 17,
+      "slots_bn": 7,
+      "slots_def": 1,
+      "slots_flex": 1,
+      "slots_k": 1,
+      "slots_qb": 1,
+      "slots_rb": 2,
+      "slots_te": 1,
+      "slots_wr": 3,
+      "teams": 12
+    },
+    "sport": "nfl",
+    "start_time": 1725233423562,
+    "status": "complete",
+    "type": "snake"
+  }
+]

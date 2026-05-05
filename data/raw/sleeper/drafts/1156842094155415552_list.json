@@ -1,0 +1,46 @@
+[
+  {
+    "created": 1730175157843,
+    "creators": [
+      "1149822979036123136"
+    ],
+    "draft_id": "1156842095065518080",
+    "draft_order": {
+      "1149822979036123136": 9,
+      "459573337719304192": 3,
+      "644751718730534912": 5
+    },
+    "last_message_id": "1157197041378787328",
+    "last_message_time": 1730259783647,
+    "last_picked": 1730259783048,
+    "league_id": "1156842094155415552",
+    "metadata": {
+      "description": "",
+      "name": "late season ",
+      "scoring_type": "ppr"
+    },
+    "season": "2024",
+    "season_type": "regular",
+    "settings": {
+      "alpha_sort": 0,
+      "autostart": 0,
+      "cpu_autopick": 1,
+      "pick_timer": 120,
+      "reversal_round": 0,
+      "rounds": 15,
+      "slots_bn": 5,
+      "slots_def": 1,
+      "slots_flex": 2,
+      "slots_k": 1,
+      "slots_qb": 1,
+      "slots_rb": 2,
+      "slots_te": 1,
+      "slots_wr": 2,
+      "teams": 10
+    },
+    "sport": "nfl",
+    "start_time": 1730259189973,
+    "status": "complete",
+    "type": "snake"
+  }
+]

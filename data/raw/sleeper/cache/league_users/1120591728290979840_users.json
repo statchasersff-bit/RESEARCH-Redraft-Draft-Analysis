@@ -1,0 +1,218 @@
+[
+  {
+    "avatar": "nfl_det",
+    "display_name": "greekdawg",
+    "is_bot": null,
+    "is_owner": null,
+    "league_id": "1120591728290979840",
+    "metadata": {
+      "allow_pn": "on",
+      "archived": "on",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "100908832284622848"
+  },
+  {
+    "avatar": "5fdbb149011019d403735859ebb80013",
+    "display_name": "Ashv27",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1120591728290979840",
+    "metadata": {
+      "allow_pn": "off",
+      "archived": "on",
+      "avatar": "https://sleepercdn.com/uploads/6233061fa32b5ecdbc32fa9dfd375ce5.jpg",
+      "league_report_pn": "on",
+      "mascot_message": "off",
+      "mention_pn": "on",
+      "player_like_pn": "on",
+      "player_nickname_update": "off",
+      "team_name": "Amon on a Mission ✅",
+      "team_name_update": "off",
+      "trade_block_pn": "on",
+      "transaction_commissioner": "on",
+      "transaction_free_agent": "on",
+      "transaction_trade": "on",
+      "transaction_waiver": "on",
+      "user_message_pn": "off"
+    },
+    "settings": null,
+    "user_id": "481389009403113472"
+  },
+  {
+    "avatar": "728e790d05ede8d076102455a2e21acf",
+    "display_name": "Swipadafox",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1120591728290979840",
+    "metadata": {
+      "allow_pn": "on",
+      "archived": "on",
+      "avatar": "https://sleepercdn.com/uploads/cb51cbe10d316b80e82168dd438d4bd1.jpg",
+      "mention_pn": "on",
+      "team_name": "UNLIMITED"
+    },
+    "settings": null,
+    "user_id": "567853868400648192"
+  },
+  {
+    "avatar": "3f5b9b9b6d62c3a0289703f49f1d9e4e",
+    "display_name": "MileHighMoney",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1120591728290979840",
+    "metadata": {
+      "allow_pn": "on",
+      "archived": "on",
+      "avatar": "https://sleepercdn.com/uploads/8846d6fef36d5483615109b98de37638.jpg",
+      "mention_pn": "on",
+      "team_name": "More Than a Thielen"
+    },
+    "settings": null,
+    "user_id": "591066536618270720"
+  },
+  {
+    "avatar": "dc3b39f77ffd6b27487d8ba41ec99767",
+    "display_name": "jdome31",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1120591728290979840",
+    "metadata": {
+      "allow_pn": "off",
+      "archived": "on",
+      "league_report_pn": "off",
+      "mascot_message": "off",
+      "mention_pn": "on",
+      "player_like_pn": "on",
+      "player_nickname_update": "off",
+      "team_name": "Elim",
+      "team_name_update": "off",
+      "trade_block_pn": "on",
+      "transaction_commissioner": "on",
+      "transaction_free_agent": "off",
+      "transaction_trade": "on",
+      "transaction_waiver": "off",
+      "user_message_pn": "off"
+    },
+    "settings": null,
+    "user_id": "604058045642772480"
+  },
+  {
+    "avatar": "f0edbf4278f53f9425db175073df6584",
+    "display_name": "Jake_D8",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1120591728290979840",
+    "metadata": {
+      "allow_pn": "off",
+      "league_report_pn": "on",
+      "mascot_message": "off",
+      "mention_pn": "on",
+      "player_like_pn": "on",
+      "player_nickname_update": "off",
+      "team_name_update": "off",
+      "trade_block_pn": "on",
+      "transaction_commissioner": "on",
+      "transaction_free_agent": "on",
+      "transaction_trade": "on",
+      "transaction_waiver": "off",
+      "user_message_pn": "on"
+    },
+    "settings": null,
+    "user_id": "683500588830392320"
+  },
+  {
+    "avatar": "2687735b4cbd9e6beea3cabe0d57cb4f",
+    "display_name": "Mdavis212",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1120591728290979840",
+    "metadata": {
+      "allow_pn": "on",
+      "archived": "on",
+      "mention_pn": "on",
+      "team_name": "Heisenberg"
+    },
+    "settings": null,
+    "user_id": "717896443842588672"
+  },
+  {
+    "avatar": "00dde01c84a96f750d46b6cc51ec540d",
+    "display_name": "WinnerCircle13",
+    "is_bot": false,
+    "is_owner": true,
+    "league_id": "1120591728290979840",
+    "metadata": {
+      "allow_pn": "on",
+      "archived": "on",
+      "avatar": "https://sleepercdn.com/uploads/ab96bc797072da8742184fb85b449f6d.jpg",
+      "mention_pn": "on",
+      "team_name": "Lamb, Bam, Thank You Mam"
+    },
+    "settings": null,
+    "user_id": "732004539489714176"
+  },
+  {
+    "avatar": "57384b3052816047d8376440fc80df4a",
+    "display_name": "llerwick",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1120591728290979840",
+    "metadata": {
+      "allow_pn": "on",
+      "archived": "on",
+      "avatar": "https://sleepercdn.com/uploads/ca63db23c94ce8098f92637ceaf6c675.jpg",
+      "mention_pn": "on",
+      "team_name": "RUN CMC"
+    },
+    "settings": null,
+    "user_id": "737046516736352256"
+  },
+  {
+    "avatar": "4d531426ebc73bf4c4a02fbb367ea225",
+    "display_name": "jimbo1964",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1120591728290979840",
+    "metadata": {
+      "allow_pn": "on",
+      "archived": "on",
+      "avatar": "https://sleepercdn.com/uploads/7df312b55fa092c42f7675787e36a6cb",
+      "mention_pn": "on",
+      "team_name": "Lil Chubby"
+    },
+    "settings": null,
+    "user_id": "956962521917800448"
+  },
+  {
+    "avatar": "8e15f27246a394ab98208f6fd3c823c8",
+    "display_name": "Getpaper",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1120591728290979840",
+    "metadata": {
+      "allow_pn": "on",
+      "archived": "on",
+      "mention_pn": "on",
+      "team_name": "❌"
+    },
+    "settings": null,
+    "user_id": "964909141997285376"
+  },
+  {
+    "avatar": "8f79dad1333ec89f85eea8376bde3cc4",
+    "display_name": "nromero14",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1120591728290979840",
+    "metadata": {
+      "allow_pn": "on",
+      "archived": "on",
+      "mention_pn": "on",
+      "team_name": "Moore Bijan Please"
+    },
+    "settings": null,
+    "user_id": "993027344761761792"
+  }
+]

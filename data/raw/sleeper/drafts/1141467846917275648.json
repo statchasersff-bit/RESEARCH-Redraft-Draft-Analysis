@@ -1,0 +1,67 @@
+{
+  "created": 1726509651442,
+  "creators": [
+    "869258987273662464"
+  ],
+  "draft_id": "1141467846917275648",
+  "draft_order": {
+    "472677951763116032": 7,
+    "491293607496511488": 8,
+    "678455786812301312": 6,
+    "746571621086654464": 2,
+    "802067124179800064": 1,
+    "869258987273662464": 3,
+    "975654758461554688": 9,
+    "982483033641033728": 5,
+    "983775687733456896": 4,
+    "993580599556325376": 10
+  },
+  "last_message_id": "1141983395728130048",
+  "last_message_time": 1726632567868,
+  "last_picked": 1726632567074,
+  "league_id": "1141467846183329792",
+  "metadata": {
+    "description": "",
+    "name": "Wk 3 Redraft 10 Team PPR $15",
+    "scoring_type": "ppr"
+  },
+  "season": "2024",
+  "season_type": "regular",
+  "settings": {
+    "alpha_sort": 0,
+    "autopause_enabled": 0,
+    "autopause_end_time": 840,
+    "autopause_start_time": 120,
+    "autostart": 0,
+    "cpu_autopick": 1,
+    "enforce_position_limits": 1,
+    "nomination_timer": 60,
+    "pick_timer": 90,
+    "player_type": 0,
+    "reversal_round": 0,
+    "rounds": 17,
+    "slots_bn": 7,
+    "slots_flex": 4,
+    "slots_qb": 1,
+    "slots_rb": 2,
+    "slots_te": 1,
+    "slots_wr": 2,
+    "teams": 10
+  },
+  "slot_to_roster_id": {
+    "1": 5,
+    "2": 10,
+    "3": 1,
+    "4": 7,
+    "5": 2,
+    "6": 6,
+    "7": 4,
+    "8": 9,
+    "9": 3,
+    "10": 8
+  },
+  "sport": "nfl",
+  "start_time": 1726628041058,
+  "status": "complete",
+  "type": "snake"
+}

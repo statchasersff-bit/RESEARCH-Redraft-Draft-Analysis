@@ -1,0 +1,53 @@
+[
+  {
+    "created": 1725027626902,
+    "creators": [
+      "987449858262900736"
+    ],
+    "draft_id": "1135251785473798144",
+    "draft_order": {
+      "214494796155199488": 9,
+      "356859835012325376": 5,
+      "473986355467120640": 8,
+      "474796769708863488": 10,
+      "500469923441537024": 6,
+      "515252627089993728": 7,
+      "864956460369580032": 12,
+      "865810110583287808": 3,
+      "982483033641033728": 2,
+      "987449858262900736": 1,
+      "996581408581779456": 11,
+      "997614676370391040": 4
+    },
+    "last_message_id": "1135302406247366656",
+    "last_message_time": 1725039695849,
+    "last_picked": 1725039695123,
+    "league_id": "1135251784638820352",
+    "metadata": {
+      "description": "",
+      "name": "TTNB Redraft $65 ",
+      "scoring_type": "ppr"
+    },
+    "season": "2024",
+    "season_type": "regular",
+    "settings": {
+      "alpha_sort": 0,
+      "autostart": 0,
+      "cpu_autopick": 1,
+      "pick_timer": 120,
+      "reversal_round": 0,
+      "rounds": 14,
+      "slots_bn": 5,
+      "slots_flex": 3,
+      "slots_qb": 1,
+      "slots_rb": 2,
+      "slots_te": 1,
+      "slots_wr": 2,
+      "teams": 12
+    },
+    "sport": "nfl",
+    "start_time": 1725035593371,
+    "status": "complete",
+    "type": "snake"
+  }
+]

@@ -1,0 +1,165 @@
+[
+  {
+    "avatar": "1bf8ce9dbdda42d9d61c48776f5e0bfc",
+    "display_name": "fmn",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1154867972863938560",
+    "metadata": {
+      "allow_pn": "on",
+      "archived": "on",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "607685751630540800"
+  },
+  {
+    "avatar": "f0edbf4278f53f9425db175073df6584",
+    "display_name": "Jai305",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1154867972863938560",
+    "metadata": {
+      "allow_pn": "on",
+      "archived": "on",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "748719071813545984"
+  },
+  {
+    "avatar": "82aec8e811b839b8ec25d7b458afd57b",
+    "display_name": "Massimo12314",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1154867972863938560",
+    "metadata": {
+      "allow_pn": "on",
+      "archived": "on",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "870534163529379840"
+  },
+  {
+    "avatar": "a9c3e1629405666895bb4c7dadd94330",
+    "display_name": "nliv31",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1154867972863938560",
+    "metadata": {
+      "allow_pn": "on",
+      "archived": "off",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "872632159645786112"
+  },
+  {
+    "avatar": "9033d6d86de3b410a575dd2d2412d507",
+    "display_name": "bigdoom",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1154867972863938560",
+    "metadata": {
+      "allow_pn": "on",
+      "allow_sms": "on",
+      "archived": "on",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "1009974433227939840"
+  },
+  {
+    "avatar": "42a660795cbb80a3141a95f1d081a64a",
+    "display_name": "XavierRosario",
+    "is_bot": false,
+    "is_owner": true,
+    "league_id": "1154867972863938560",
+    "metadata": {
+      "allow_pn": "on",
+      "archived": "on",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "1082953138937606144"
+  },
+  {
+    "avatar": "4a9e69a6b16e30fe34aaad88aeb0045d",
+    "display_name": "jesssaaa",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1154867972863938560",
+    "metadata": {
+      "allow_pn": "on",
+      "archived": "on",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "1133938442456453120"
+  },
+  {
+    "avatar": "b319fdf8b7b5b0359d3c78622ba4d70c",
+    "display_name": "drew3769",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1154867972863938560",
+    "metadata": {
+      "allow_pn": "off",
+      "allow_sms": "on",
+      "archived": "on",
+      "league_report_pn": "off",
+      "mascot_message": "off",
+      "mention_pn": "on",
+      "player_like_pn": "off",
+      "player_nickname_update": "off",
+      "team_name_update": "off",
+      "trade_block_pn": "off",
+      "transaction_commissioner": "off",
+      "transaction_free_agent": "off",
+      "transaction_trade": "off",
+      "transaction_waiver": "off",
+      "user_message_pn": "off"
+    },
+    "settings": null,
+    "user_id": "1137242993162932224"
+  },
+  {
+    "avatar": "257c7e792a2f4ada7cd870a7b3b43901",
+    "display_name": "ThaBallMill",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1154867972863938560",
+    "metadata": {
+      "allow_pn": "on",
+      "archived": "on",
+      "league_report_pn": "on",
+      "mascot_message": "on",
+      "mention_pn": "on",
+      "player_like_pn": "on",
+      "player_nickname_update": "on",
+      "team_name_update": "on",
+      "trade_block_pn": "on",
+      "transaction_commissioner": "on",
+      "transaction_free_agent": "on",
+      "transaction_trade": "on",
+      "transaction_waiver": "on",
+      "user_message_pn": "on"
+    },
+    "settings": null,
+    "user_id": "1151945562519138304"
+  },
+  {
+    "avatar": "b7f840b8cb2aaf4cde9ef9f537f1dc22",
+    "display_name": "TrillyyMcNillyy",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1154867972863938560",
+    "metadata": {
+      "allow_pn": "on",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "1151997096535457792"
+  }
+]

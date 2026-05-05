@@ -1,0 +1,146 @@
+[
+  {
+    "avatar": "cfd75dc323307681d3c9cc443b725ab7",
+    "display_name": "MaxxGhost",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1142598274101243904",
+    "metadata": {
+      "allow_pn": "on",
+      "archived": "on",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "746793103188455424"
+  },
+  {
+    "avatar": "d947827a39e7eb6971a34d942b033499",
+    "display_name": "Chrisr9487",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1142598274101243904",
+    "metadata": {
+      "allow_pn": "on",
+      "allow_sms": "on",
+      "archived": "on",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "999839690318528512"
+  },
+  {
+    "avatar": "b3338675f635c2c1f42b469621d38ec6",
+    "display_name": "Ezyboy24",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1142598274101243904",
+    "metadata": {
+      "allow_pn": "on",
+      "archived": "on",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "1001687717329104896"
+  },
+  {
+    "avatar": "82aec8e811b839b8ec25d7b458afd57b",
+    "display_name": "ehischu",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1142598274101243904",
+    "metadata": {
+      "allow_pn": "on",
+      "archived": "on",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "1004252848193970176"
+  },
+  {
+    "avatar": "4f4090e5e9c3941414db40a871e3e909",
+    "display_name": "stefonDiggsmoney3",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1142598274101243904",
+    "metadata": {
+      "allow_pn": "on",
+      "archived": "on",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "1118678669683183616"
+  },
+  {
+    "avatar": "41c991a65b8e35e2e3669027f0cbc2f6",
+    "display_name": "Jones10GOAT",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1142598274101243904",
+    "metadata": {
+      "allow_pn": "on",
+      "archived": "on",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "1125221107545526272"
+  },
+  {
+    "avatar": "b319fdf8b7b5b0359d3c78622ba4d70c",
+    "display_name": "beardedbeast021",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1142598274101243904",
+    "metadata": {
+      "allow_pn": "on",
+      "allow_sms": "on",
+      "archived": "on",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "1133840562303574016"
+  },
+  {
+    "avatar": "8eb8f8bf999945d523f2c4033f70473e",
+    "display_name": "cmeverette",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1142598274101243904",
+    "metadata": {
+      "allow_pn": "on",
+      "allow_sms": "on",
+      "archived": "off",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "1134237850603716608"
+  },
+  {
+    "avatar": "3e98f56c666f6c34e6fe8557442dd20a",
+    "display_name": "allysonkathleen",
+    "is_bot": false,
+    "is_owner": true,
+    "league_id": "1142598274101243904",
+    "metadata": {
+      "allow_pn": "on",
+      "allow_sms": "on",
+      "archived": "on",
+      "mention_pn": "on",
+      "team_name": "Aristotle Balled Too "
+    },
+    "settings": null,
+    "user_id": "1142597567918858240"
+  },
+  {
+    "avatar": "c7601f667f04b29a3c4324e4f2fb1865",
+    "display_name": "1luustrike",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1142598274101243904",
+    "metadata": {
+      "allow_pn": "on",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "1142812363947814912"
+  }
+]

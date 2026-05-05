@@ -1,0 +1,44 @@
+[
+  {
+    "created": 1725918798224,
+    "creators": [
+      "1138984513297657856"
+    ],
+    "draft_id": "1138989628889026560",
+    "draft_order": {
+      "1123362478487941120": 5,
+      "1138984513297657856": 1,
+      "1139347936569171968": 2
+    },
+    "last_message_id": "1139357394212749312",
+    "last_message_time": 1726006480318,
+    "last_picked": 1726006479741,
+    "league_id": "1138989627953594368",
+    "metadata": {
+      "description": "",
+      "name": "SOUTHTEXASFOOOTBALL ",
+      "scoring_type": "std"
+    },
+    "season": "2024",
+    "season_type": "regular",
+    "settings": {
+      "autostart": 0,
+      "cpu_autopick": 1,
+      "pick_timer": 120,
+      "rounds": 15,
+      "slots_bn": 5,
+      "slots_def": 1,
+      "slots_flex": 2,
+      "slots_k": 1,
+      "slots_qb": 1,
+      "slots_rb": 2,
+      "slots_te": 1,
+      "slots_wr": 2,
+      "teams": 10
+    },
+    "sport": "nfl",
+    "start_time": 1726004911401,
+    "status": "complete",
+    "type": "snake"
+  }
+]

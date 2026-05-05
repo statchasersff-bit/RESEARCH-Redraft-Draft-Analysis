@@ -1,0 +1,59 @@
+[
+  {
+    "created": 1725931986430,
+    "creators": [
+      "1137624363664703488"
+    ],
+    "draft_id": "1139044944243412992",
+    "draft_order": {
+      "1137624363664703488": 4,
+      "1138703674970374144": 10,
+      "1139025010612391936": 12,
+      "1139677941534834688": 1,
+      "736469053534818304": 11,
+      "738202796129705984": 6,
+      "767728197092700160": 8,
+      "866913176753721344": 2,
+      "887544021042831360": 7,
+      "997793033569579008": 5
+    },
+    "last_message_id": "1140047593720983552",
+    "last_message_time": 1726171036704,
+    "last_picked": 1726170989125,
+    "league_id": "1139044942090919936",
+    "metadata": {
+      "description": "",
+      "name": "A jones",
+      "scoring_type": "ppr"
+    },
+    "season": "2024",
+    "season_type": "regular",
+    "settings": {
+      "alpha_sort": 0,
+      "autopause_enabled": 0,
+      "autopause_end_time": 180,
+      "autopause_start_time": 900,
+      "autostart": 0,
+      "cpu_autopick": 1,
+      "enforce_position_limits": 1,
+      "nomination_timer": 60,
+      "pick_timer": 10,
+      "player_type": 0,
+      "reversal_round": 0,
+      "rounds": 15,
+      "slots_bn": 5,
+      "slots_def": 1,
+      "slots_flex": 2,
+      "slots_k": 1,
+      "slots_qb": 1,
+      "slots_rb": 2,
+      "slots_te": 1,
+      "slots_wr": 2,
+      "teams": 12
+    },
+    "sport": "nfl",
+    "start_time": 1726169640718,
+    "status": "complete",
+    "type": "snake"
+  }
+]

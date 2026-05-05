@@ -1,0 +1,58 @@
+[
+  {
+    "created": 1725893184664,
+    "creators": [
+      "710332074363523072"
+    ],
+    "draft_id": "1138882197835935744",
+    "draft_order": {
+      "1000166013784694784": 2,
+      "1126320389791096832": 3,
+      "472677951763116032": 8,
+      "495089427693957120": 6,
+      "573940474343108608": 7,
+      "601465719535751168": 9,
+      "710332074363523072": 4,
+      "731001820226363392": 5,
+      "867534014821609472": 1,
+      "979610977693908992": 10
+    },
+    "last_message_id": "1139036124397113344",
+    "last_message_time": 1725929883625,
+    "last_picked": 1725929882804,
+    "league_id": "1138882195776512000",
+    "metadata": {
+      "description": "",
+      "name": "Week 1 Panic Attack 🤕🥴",
+      "scoring_type": "ppr"
+    },
+    "season": "2024",
+    "season_type": "regular",
+    "settings": {
+      "alpha_sort": 0,
+      "autopause_enabled": 0,
+      "autopause_end_time": 1020,
+      "autopause_start_time": 300,
+      "autostart": 1,
+      "cpu_autopick": 1,
+      "enforce_position_limits": 1,
+      "nomination_timer": 60,
+      "pick_timer": 30,
+      "player_type": 0,
+      "reversal_round": 0,
+      "rounds": 16,
+      "slots_bn": 7,
+      "slots_def": 1,
+      "slots_flex": 2,
+      "slots_k": 1,
+      "slots_qb": 1,
+      "slots_rb": 2,
+      "slots_wr": 2,
+      "teams": 10
+    },
+    "sport": "nfl",
+    "start_time": 1725926414913,
+    "status": "complete",
+    "type": "snake"
+  }
+]

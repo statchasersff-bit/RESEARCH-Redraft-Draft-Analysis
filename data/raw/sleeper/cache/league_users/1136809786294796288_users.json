@@ -1,0 +1,162 @@
+[
+  {
+    "avatar": "508a10c7d1a2cefe25a4e6f584182900",
+    "display_name": "coleychalks",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1136809786294796288",
+    "metadata": {
+      "allow_pn": "on",
+      "archived": "on",
+      "mention_pn": "on",
+      "team_name": "ColeyKnowsBall"
+    },
+    "settings": null,
+    "user_id": "519663214981992448"
+  },
+  {
+    "avatar": "f644cae02eafacc54f0bf0062be14008",
+    "display_name": "TargetUC9",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1136809786294796288",
+    "metadata": {
+      "allow_pn": "on",
+      "archived": "on",
+      "avatar": "https://sleepercdn.com/uploads/613a01d392a94b6308fee2ff335fa1ab.jpg",
+      "mention_pn": "on",
+      "team_name": "Galatverse Griffins"
+    },
+    "settings": null,
+    "user_id": "609441209340989440"
+  },
+  {
+    "avatar": "e7af4deab0289b4f5505646424895246",
+    "display_name": "shutdown100",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1136809786294796288",
+    "metadata": {
+      "allow_pn": "on",
+      "archived": "on",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "729203632880349184"
+  },
+  {
+    "avatar": "8eb8f8bf999945d523f2c4033f70473e",
+    "display_name": "zachbuster",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1136809786294796288",
+    "metadata": {
+      "allow_pn": "on",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "958250559578906624"
+  },
+  {
+    "avatar": "df331c10b71804390b5884b60d9b2d4d",
+    "display_name": "DLOK575",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1136809786294796288",
+    "metadata": {
+      "allow_pn": "off",
+      "archived": "on",
+      "league_report_pn": "on",
+      "mascot_message": "on",
+      "mention_pn": "on",
+      "player_like_pn": "on",
+      "player_nickname_update": "on",
+      "team_name": "WarmUpTheBus 🚌",
+      "team_name_update": "on",
+      "trade_block_pn": "on",
+      "transaction_commissioner": "on",
+      "transaction_free_agent": "on",
+      "transaction_trade": "on",
+      "transaction_waiver": "on",
+      "user_message_pn": "on"
+    },
+    "settings": null,
+    "user_id": "996400838308335616"
+  },
+  {
+    "avatar": "e50fe1ef62e1b412fb41735f0154d7b5",
+    "display_name": "GrittyGrinders",
+    "is_bot": false,
+    "is_owner": true,
+    "league_id": "1136809786294796288",
+    "metadata": {
+      "allow_pn": "on",
+      "archived": "on",
+      "mention_pn": "on",
+      "team_name": "To Infinity and Bijan 🏴‍☠️"
+    },
+    "settings": null,
+    "user_id": "1000488762083733504"
+  },
+  {
+    "avatar": "82aec8e811b839b8ec25d7b458afd57b",
+    "display_name": "TeddyMul",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1136809786294796288",
+    "metadata": {
+      "allow_pn": "on",
+      "archived": "on",
+      "avatar": "https://sleepercdn.com/uploads/864fea91c811d545f4e41940d181c739.jpg",
+      "mention_pn": "on",
+      "team_name": "Super Lamario"
+    },
+    "settings": null,
+    "user_id": "1002349792435068928"
+  },
+  {
+    "avatar": "b3338675f635c2c1f42b469621d38ec6",
+    "display_name": "mt2molehill",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1136809786294796288",
+    "metadata": {
+      "allow_pn": "on",
+      "archived": "on",
+      "mention_pn": "on",
+      "team_name": "ETN is TNT! 🧨"
+    },
+    "settings": null,
+    "user_id": "1026536629743251456"
+  },
+  {
+    "avatar": "4c32a10323adf3b120032ff8ad3111a3",
+    "display_name": "nodaj",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1136809786294796288",
+    "metadata": {
+      "allow_pn": "on",
+      "archived": "off",
+      "mention_pn": "on",
+      "team_name": "JFKs Head"
+    },
+    "settings": null,
+    "user_id": "1130167287987712000"
+  },
+  {
+    "avatar": "6a1f6860a6ca15c4572c9d45548c94ba",
+    "display_name": "thejoeflacco",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1136809786294796288",
+    "metadata": {
+      "allow_pn": "on",
+      "archived": "on",
+      "mention_pn": "on",
+      "team_name": "The Flacco Special"
+    },
+    "settings": null,
+    "user_id": "1133914934305406976"
+  }
+]

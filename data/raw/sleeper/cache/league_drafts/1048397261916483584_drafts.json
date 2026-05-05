@@ -1,0 +1,59 @@
+[
+  {
+    "created": 1704319894821,
+    "creators": [
+      "587098788984823808",
+      "598666994425856000"
+    ],
+    "draft_id": "1048397261916483585",
+    "draft_order": {
+      "300545863409729536": 8,
+      "340172827158134784": 4,
+      "462505530619850752": 2,
+      "480060175525343232": 7,
+      "550027153032003584": 1,
+      "587098788984823808": 5,
+      "598666994425856000": 9,
+      "731846600011407360": 12,
+      "807031195744550912": 10,
+      "852764562901016576": 3
+    },
+    "last_message_id": "1098451294278119424",
+    "last_message_time": 1716253706095,
+    "last_picked": 1716253705515,
+    "league_id": "1048397261916483584",
+    "metadata": {
+      "description": "",
+      "name": "Pandemic Bros $50 ",
+      "scoring_type": "dynasty_2qb"
+    },
+    "season": "2024",
+    "season_type": "regular",
+    "settings": {
+      "alpha_sort": 0,
+      "autopause_enabled": 0,
+      "autopause_end_time": 840,
+      "autopause_start_time": 240,
+      "autostart": 1,
+      "cpu_autopick": 1,
+      "enforce_position_limits": 1,
+      "nomination_timer": 60,
+      "pick_timer": 28800,
+      "player_type": 0,
+      "reversal_round": 3,
+      "rounds": 3,
+      "slots_bn": 18,
+      "slots_flex": 4,
+      "slots_qb": 1,
+      "slots_rb": 2,
+      "slots_super_flex": 1,
+      "slots_te": 1,
+      "slots_wr": 3,
+      "teams": 12
+    },
+    "sport": "nfl",
+    "start_time": 1715724018235,
+    "status": "complete",
+    "type": "linear"
+  }
+]

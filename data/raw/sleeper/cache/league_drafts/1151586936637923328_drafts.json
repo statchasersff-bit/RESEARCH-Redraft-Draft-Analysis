@@ -1,0 +1,60 @@
+[
+  {
+    "created": 1728922230882,
+    "creators": [
+      "644592945617551360",
+      "1133938442456453120"
+    ],
+    "draft_id": "1151586938500108288",
+    "draft_order": {
+      "1000100165757321216": 11,
+      "1000166013784694784": 7,
+      "1000925658157035520": 8,
+      "1128019987958030336": 10,
+      "1133938442456453120": 1,
+      "644592945617551360": 2,
+      "711697074571284480": 12,
+      "852980662007881728": 4,
+      "853905661040390144": 5,
+      "854785777429753856": 3,
+      "975537730107047936": 9,
+      "983946376868364288": 6
+    },
+    "last_message_id": "1152691782929362944",
+    "last_message_time": 1729185646329,
+    "last_picked": 1729185645368,
+    "league_id": "1151586936637923328",
+    "metadata": {
+      "description": "",
+      "name": "Weekly Fantasy League Volume 3 Week 7",
+      "scoring_type": "2qb"
+    },
+    "season": "2024",
+    "season_type": "regular",
+    "settings": {
+      "alpha_sort": 0,
+      "autopause_enabled": 0,
+      "autopause_end_time": 840,
+      "autopause_start_time": 120,
+      "autostart": 0,
+      "cpu_autopick": 1,
+      "enforce_position_limits": 1,
+      "nomination_timer": 60,
+      "pick_timer": 1800,
+      "player_type": 0,
+      "reversal_round": 0,
+      "rounds": 8,
+      "slots_flex": 1,
+      "slots_qb": 1,
+      "slots_rb": 2,
+      "slots_super_flex": 1,
+      "slots_te": 1,
+      "slots_wr": 2,
+      "teams": 12
+    },
+    "sport": "nfl",
+    "start_time": 1729011688010,
+    "status": "complete",
+    "type": "snake"
+  }
+]

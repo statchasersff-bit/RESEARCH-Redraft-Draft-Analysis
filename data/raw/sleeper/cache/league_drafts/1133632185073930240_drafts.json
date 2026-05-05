@@ -1,0 +1,59 @@
+[
+  {
+    "created": 1724641484630,
+    "creators": [
+      "1119624513987162112",
+      "1129647555521937408"
+    ],
+    "draft_id": "1133632187414347776",
+    "draft_order": {
+      "1049900546582622208": 10,
+      "1119624513987162112": 3,
+      "1123750743149756416": 6,
+      "1129647555521937408": 8,
+      "1136056212627349504": 4,
+      "426844681083551744": 9,
+      "723044945623048192": 5,
+      "958250559578906624": 7,
+      "994239110732742657": 2,
+      "998332624139599872": 1
+    },
+    "last_message_id": "1137238456553181184",
+    "last_message_time": 1725501286212,
+    "last_picked": 1725501285318,
+    "league_id": "1133632185073930240",
+    "metadata": {
+      "description": "",
+      "name": "Gentlemen’s League",
+      "scoring_type": "ppr"
+    },
+    "season": "2024",
+    "season_type": "regular",
+    "settings": {
+      "alpha_sort": 0,
+      "autopause_enabled": 0,
+      "autopause_end_time": 900,
+      "autopause_start_time": 180,
+      "autostart": 0,
+      "cpu_autopick": 1,
+      "enforce_position_limits": 1,
+      "nomination_timer": 60,
+      "pick_timer": 60,
+      "player_type": 0,
+      "reversal_round": 0,
+      "rounds": 15,
+      "slots_bn": 6,
+      "slots_def": 1,
+      "slots_flex": 2,
+      "slots_qb": 1,
+      "slots_rb": 2,
+      "slots_te": 1,
+      "slots_wr": 2,
+      "teams": 10
+    },
+    "sport": "nfl",
+    "start_time": 1725498038086,
+    "status": "complete",
+    "type": "snake"
+  }
+]

@@ -4,7 +4,7 @@ import path from "path";
 import { fileURLToPath } from "url";
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
-const OUTPUT_DIR = path.resolve(__dirname, "../../../../data/output");
+const OUTPUT_DIR = path.resolve(__dirname, "../../../data/output");
 
 const router = Router();
 

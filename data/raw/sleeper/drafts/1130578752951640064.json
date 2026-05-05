@@ -1,0 +1,71 @@
+{
+  "created": 1723913489132,
+  "creators": [
+    "868484637037592576"
+  ],
+  "draft_id": "1130578752951640064",
+  "draft_order": {
+    "1000964356219207680": 5,
+    "1039458461769326592": 7,
+    "328770414857711616": 3,
+    "605147285113860096": 12,
+    "710332074363523072": 1,
+    "717094868270272512": 8,
+    "735719957970673664": 4,
+    "776372938076233728": 11,
+    "866840928269225984": 9,
+    "868484637037592576": 2,
+    "939049264632655872": 10,
+    "999146967362121728": 6
+  },
+  "last_message_id": "1130607538849738752",
+  "last_message_time": 1723920352235,
+  "last_picked": 1723920351484,
+  "league_id": "1130578752162922496",
+  "metadata": {
+    "description": "",
+    "name": "12-Pack (Superflex NO DEF or K)",
+    "scoring_type": "2qb"
+  },
+  "season": "2024",
+  "season_type": "regular",
+  "settings": {
+    "alpha_sort": 0,
+    "autopause_enabled": 0,
+    "autopause_end_time": 840,
+    "autopause_start_time": 120,
+    "autostart": 0,
+    "cpu_autopick": 1,
+    "nomination_timer": 60,
+    "pick_timer": 30,
+    "player_type": 0,
+    "reversal_round": 0,
+    "rounds": 16,
+    "slots_bn": 7,
+    "slots_flex": 2,
+    "slots_qb": 1,
+    "slots_rb": 2,
+    "slots_super_flex": 1,
+    "slots_te": 1,
+    "slots_wr": 2,
+    "teams": 12
+  },
+  "slot_to_roster_id": {
+    "1": 9,
+    "2": 1,
+    "3": 4,
+    "4": 5,
+    "5": 8,
+    "6": 2,
+    "7": 7,
+    "8": 3,
+    "9": 12,
+    "10": 10,
+    "11": 11,
+    "12": 6
+  },
+  "sport": "nfl",
+  "start_time": 1723916582337,
+  "status": "complete",
+  "type": "snake"
+}

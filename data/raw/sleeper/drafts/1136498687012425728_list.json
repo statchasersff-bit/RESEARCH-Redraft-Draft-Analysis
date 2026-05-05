@@ -1,0 +1,51 @@
+[
+  {
+    "created": 1725324911591,
+    "creators": [
+      "800732833466417152"
+    ],
+    "draft_id": "1136498687812812800",
+    "draft_order": {
+      "1001925838746537984": 1,
+      "1002669065393000448": 6,
+      "1004180248038068224": 7,
+      "1016804705609555968": 9,
+      "1096665862741778432": 2,
+      "1108089474577403904": 3,
+      "1136500957875736576": 4,
+      "1136501782869889024": 8,
+      "741571172080168960": 10,
+      "800732833466417152": 5
+    },
+    "last_message_id": "1136515389241782272",
+    "last_message_time": 1725328893531,
+    "last_picked": 1725328892771,
+    "league_id": "1136498687012425728",
+    "metadata": {
+      "description": "",
+      "name": "late sleepers",
+      "scoring_type": "ppr"
+    },
+    "season": "2024",
+    "season_type": "regular",
+    "settings": {
+      "autostart": 0,
+      "cpu_autopick": 1,
+      "pick_timer": 120,
+      "rounds": 15,
+      "slots_bn": 6,
+      "slots_def": 1,
+      "slots_k": 1,
+      "slots_qb": 1,
+      "slots_rb": 2,
+      "slots_te": 1,
+      "slots_wr": 2,
+      "slots_wrrb_flex": 1,
+      "teams": 10
+    },
+    "sport": "nfl",
+    "start_time": 1725325739096,
+    "status": "complete",
+    "type": "snake"
+  }
+]

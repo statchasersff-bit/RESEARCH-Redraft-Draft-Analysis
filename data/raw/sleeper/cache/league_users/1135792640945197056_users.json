@@ -1,0 +1,116 @@
+[
+  {
+    "avatar": "a9d40c7ca09ea7c9186ef7be15dbe28d",
+    "display_name": "Louie1106",
+    "is_bot": false,
+    "is_owner": true,
+    "league_id": "1135792640945197056",
+    "metadata": {
+      "allow_pn": "on",
+      "avatar": "https://sleepercdn.com/images/mascots_v2/64_BucBaeRed/idle-mobile-small.gif",
+      "mention_pn": "on",
+      "team_name": "Badass Teacher "
+    },
+    "settings": null,
+    "user_id": "331579088823123968"
+  },
+  {
+    "avatar": "8e75d2732d38fbf2324795397b2e43cf",
+    "display_name": "Foxtrot3898",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1135792640945197056",
+    "metadata": {
+      "allow_pn": "on",
+      "archived": "on",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "727712862688059392"
+  },
+  {
+    "avatar": "daeb269a096c3d87ae7dffc433f337d4",
+    "display_name": "jlcruz97",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1135792640945197056",
+    "metadata": {
+      "allow_pn": "on",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "876243318214905856"
+  },
+  {
+    "avatar": "15d7cf259bc30eab8f6120f45f652fb6",
+    "display_name": "Jxnb03",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1135792640945197056",
+    "metadata": {
+      "allow_pn": "on",
+      "allow_sms": "on",
+      "archived": "on",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "994740130265059328"
+  },
+  {
+    "avatar": "4de202f8be36912b6a81be2a14132b47",
+    "display_name": "OGtheScientist",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1135792640945197056",
+    "metadata": {
+      "allow_pn": "on",
+      "avatar": "https://sleepercdn.com/uploads/3fe892a6576602c81f7d370a82846ba1.jpg",
+      "mention_pn": "on",
+      "team_name": "Dark Signs "
+    },
+    "settings": null,
+    "user_id": "1002669065393000448"
+  },
+  {
+    "avatar": "4f4090e5e9c3941414db40a871e3e909",
+    "display_name": "sean3121",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1135792640945197056",
+    "metadata": {
+      "allow_pn": "on",
+      "archived": "on",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "1089030036755193856"
+  },
+  {
+    "avatar": "15d7cf259bc30eab8f6120f45f652fb6",
+    "display_name": "Kannie",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1135792640945197056",
+    "metadata": {
+      "allow_pn": "on",
+      "mention_pn": "on",
+      "team_name": "Lamarvelous"
+    },
+    "settings": null,
+    "user_id": "1129261953320353792"
+  },
+  {
+    "avatar": "f0edbf4278f53f9425db175073df6584",
+    "display_name": "akathepope",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1135792640945197056",
+    "metadata": {
+      "allow_pn": "on",
+      "archived": "on",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "1135733545185857536"
+  }
+]

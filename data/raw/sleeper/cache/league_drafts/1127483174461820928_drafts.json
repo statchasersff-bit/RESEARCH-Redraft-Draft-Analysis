@@ -1,0 +1,62 @@
+[
+  {
+    "created": 1723175446129,
+    "creators": [
+      "731001820226363392",
+      "844799554384674816"
+    ],
+    "draft_id": "1127483176240218112",
+    "draft_order": {
+      "1035311630248235008": 4,
+      "1116530471887904768": 9,
+      "1116532177480650752": 3,
+      "302903982068621312": 11,
+      "471169818498691072": 5,
+      "721724263949750272": 6,
+      "728024678634983424": 10,
+      "731001820226363392": 2,
+      "844799554384674816": 7,
+      "860793532233957376": 12,
+      "972892326609707008": 1,
+      "998086781683847168": 8
+    },
+    "last_message_id": "1130657696249577472",
+    "last_message_time": 1723932310691,
+    "last_picked": 1723932309889,
+    "league_id": "1127483174461820928",
+    "metadata": {
+      "description": "",
+      "name": "Hawk Tuah Tagovailoa REDRAFT 2024",
+      "scoring_type": "ppr"
+    },
+    "season": "2024",
+    "season_type": "regular",
+    "settings": {
+      "alpha_sort": 0,
+      "autopause_enabled": 1,
+      "autopause_end_time": 960,
+      "autopause_start_time": 240,
+      "autostart": 0,
+      "cpu_autopick": 1,
+      "enforce_position_limits": 1,
+      "nomination_timer": 60,
+      "pick_timer": 7200,
+      "player_type": 0,
+      "reversal_round": 0,
+      "rounds": 17,
+      "slots_bn": 7,
+      "slots_def": 1,
+      "slots_flex": 1,
+      "slots_k": 1,
+      "slots_qb": 1,
+      "slots_rb": 2,
+      "slots_te": 1,
+      "slots_wr": 3,
+      "teams": 12
+    },
+    "sport": "nfl",
+    "start_time": 1723260243602,
+    "status": "complete",
+    "type": "snake"
+  }
+]

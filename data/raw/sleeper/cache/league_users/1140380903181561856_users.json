@@ -1,0 +1,29 @@
+[
+  {
+    "avatar": "44f089584f57b1cf21a21f8efa20f647",
+    "display_name": "everyoppshot",
+    "is_bot": false,
+    "is_owner": true,
+    "league_id": "1140380903181561856",
+    "metadata": {
+      "allow_pn": "on",
+      "archived": "off",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "868224190761852928"
+  },
+  {
+    "avatar": "b319fdf8b7b5b0359d3c78622ba4d70c",
+    "display_name": "bussdowngenooo",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1140380903181561856",
+    "metadata": {
+      "allow_pn": "on",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "1015711623358631936"
+  }
+]

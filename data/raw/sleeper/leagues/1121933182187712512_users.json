@@ -1,0 +1,233 @@
+[
+  {
+    "avatar": "5ef94e96617836cae68e13251cd5ac81",
+    "display_name": "FFhustler420",
+    "is_bot": false,
+    "is_owner": true,
+    "league_id": "1121933182187712512",
+    "metadata": {
+      "allow_pn": "on",
+      "archived": "on",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "465632365918547968"
+  },
+  {
+    "avatar": "f92dc89d31ce9d83ab864f444da16e67",
+    "display_name": "Clevelandia23",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1121933182187712512",
+    "metadata": {
+      "allow_pn": "on",
+      "allow_sms": "on",
+      "archived": "on",
+      "avatar": "https://sleepercdn.com/uploads/c03e01798b75f202a1d22d856e730789.jpg",
+      "mention_pn": "on",
+      "team_name": "Love Potion #10"
+    },
+    "settings": null,
+    "user_id": "475136028659675136"
+  },
+  {
+    "avatar": "82aec8e811b839b8ec25d7b458afd57b",
+    "display_name": "BsBarbarians",
+    "is_bot": false,
+    "is_owner": true,
+    "league_id": "1121933182187712512",
+    "metadata": {
+      "allow_pn": "on",
+      "archived": "off",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "720150481925656576"
+  },
+  {
+    "avatar": "556f1a3cb088870a2239b001032830df",
+    "display_name": "ImakeitBlaine",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1121933182187712512",
+    "metadata": {
+      "allow_pn": "on",
+      "archived": "on",
+      "mention_pn": "on",
+      "team_name": "I Make It Blaine"
+    },
+    "settings": null,
+    "user_id": "721290083759624192"
+  },
+  {
+    "avatar": "f1178c9332e4e16043266492719b4a99",
+    "display_name": "ddawg09",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1121933182187712512",
+    "metadata": {
+      "allow_pn": "on",
+      "avatar": "https://sleepercdn.com/uploads/d4977638e5d8d110dd14f6bfb3bc07fe.jpg",
+      "mention_pn": "on",
+      "team_name": "Hock-Tua"
+    },
+    "settings": null,
+    "user_id": "723190046882111488"
+  },
+  {
+    "avatar": "8637cc206a5da673cbb62cb3f2a6e976",
+    "display_name": "ShawtyCuzBruh",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1121933182187712512",
+    "metadata": {
+      "allow_pn": "on",
+      "archived": "on",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "739240377642532864"
+  },
+  {
+    "avatar": "15d7cf259bc30eab8f6120f45f652fb6",
+    "display_name": "jdjones816",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1121933182187712512",
+    "metadata": {
+      "allow_pn": "on",
+      "archived": "off",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "783166131270754304"
+  },
+  {
+    "avatar": "4d34a4c430863589025bfe002990b3c2",
+    "display_name": "bdawggg7",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1121933182187712512",
+    "metadata": {
+      "allow_pn": "on",
+      "mention_pn": "on",
+      "team_name": "Hurts So Good"
+    },
+    "settings": null,
+    "user_id": "869723347284672512"
+  },
+  {
+    "avatar": "4f4090e5e9c3941414db40a871e3e909",
+    "display_name": "CorkysPestControl",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1121933182187712512",
+    "metadata": {
+      "allow_pn": "on",
+      "allow_sms": "on",
+      "archived": "off",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "871893706373038080"
+  },
+  {
+    "avatar": "f0edbf4278f53f9425db175073df6584",
+    "display_name": "applemaggot",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1121933182187712512",
+    "metadata": {
+      "allow_pn": "on",
+      "mention_pn": "on",
+      "team_name": "The King"
+    },
+    "settings": null,
+    "user_id": "871946023373811712"
+  },
+  {
+    "avatar": "67e801e887caf122f66d1dbd7bb06137",
+    "display_name": "alohamade",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1121933182187712512",
+    "metadata": {
+      "allow_pn": "on",
+      "archived": "on",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "875476474419912704"
+  },
+  {
+    "avatar": "4d9dd204ad39f34c680e776744764302",
+    "display_name": "BerryBstrong",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1121933182187712512",
+    "metadata": {
+      "allow_pn": "on",
+      "allow_sms": "on",
+      "archived": "on",
+      "mention_pn": "on",
+      "team_name": "Berrys Boyz"
+    },
+    "settings": null,
+    "user_id": "922995087771000832"
+  },
+  {
+    "avatar": "b3338675f635c2c1f42b469621d38ec6",
+    "display_name": "Dgerlach14",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1121933182187712512",
+    "metadata": {
+      "allow_pn": "on",
+      "allow_sms": "on",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "933984653017485312"
+  },
+  {
+    "avatar": "cc6756596b4967ff5ea6ace888159925",
+    "display_name": "PadreHoudini",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1121933182187712512",
+    "metadata": {
+      "allow_pn": "on",
+      "archived": "on",
+      "mention_pn": "on",
+      "team_name": "Tucan Sam "
+    },
+    "settings": null,
+    "user_id": "1122651507661545472"
+  },
+  {
+    "avatar": "b3338675f635c2c1f42b469621d38ec6",
+    "display_name": "WaferzWFL",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1121933182187712512",
+    "metadata": {
+      "allow_pn": "on",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "1127760885688274944"
+  },
+  {
+    "avatar": "578c6b253dd7b4bab45382e1af102204",
+    "display_name": "cgold4130",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1121933182187712512",
+    "metadata": {
+      "allow_pn": "on",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "1175216213397975040"
+  }
+]

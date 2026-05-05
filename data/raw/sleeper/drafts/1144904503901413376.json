@@ -1,0 +1,69 @@
+{
+  "created": 1727329014321,
+  "creators": [
+    "998798527935442944"
+  ],
+  "draft_id": "1144904503901413376",
+  "draft_order": {
+    "1011742126008643584": 4,
+    "1056691199379156992": 8,
+    "1110785125563879424": 7,
+    "1133938442456453120": 9,
+    "1144148410187362304": 2,
+    "854785777429753856": 6,
+    "862379671273193472": 1,
+    "983933525743263744": 10,
+    "984303273786105856": 5,
+    "998798527935442944": 3
+  },
+  "last_message_id": "1145186986278449152",
+  "last_message_time": 1727396363375,
+  "last_picked": 1727396362597,
+  "league_id": "1144904502613598208",
+  "metadata": {
+    "description": "",
+    "name": "Late reddit league",
+    "scoring_type": "ppr"
+  },
+  "season": "2024",
+  "season_type": "regular",
+  "settings": {
+    "alpha_sort": 0,
+    "autopause_enabled": 0,
+    "autopause_end_time": 900,
+    "autopause_start_time": 180,
+    "autostart": 0,
+    "cpu_autopick": 1,
+    "enforce_position_limits": 1,
+    "nomination_timer": 60,
+    "pick_timer": 90,
+    "player_type": 0,
+    "reversal_round": 0,
+    "rounds": 15,
+    "slots_bn": 5,
+    "slots_def": 1,
+    "slots_flex": 2,
+    "slots_k": 1,
+    "slots_qb": 1,
+    "slots_rb": 2,
+    "slots_te": 1,
+    "slots_wr": 2,
+    "teams": 10
+  },
+  "slot_to_roster_id": {
+    "1": 5,
+    "2": 10,
+    "3": 1,
+    "4": 2,
+    "5": 7,
+    "6": 4,
+    "7": 8,
+    "8": 6,
+    "9": 9,
+    "10": 3
+  },
+  "sport": "nfl",
+  "start_time": 1727391630254,
+  "status": "complete",
+  "type": "snake"
+}

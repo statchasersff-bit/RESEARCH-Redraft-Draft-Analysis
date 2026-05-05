@@ -1,0 +1,54 @@
+[
+  {
+    "created": 1722105446515,
+    "creators": [
+      "710332074363523072"
+    ],
+    "draft_id": "1122995272558145536",
+    "draft_order": {
+      "300578546328285184": 5,
+      "653021705702301696": 1,
+      "707809896912990208": 10,
+      "710332074363523072": 9,
+      "854252709593878528": 2
+    },
+    "last_message_id": "1123010435449348096",
+    "last_message_time": 1722109061637,
+    "last_picked": 1722109061016,
+    "league_id": "1122995263041302528",
+    "metadata": {
+      "description": "",
+      "name": "Cheapskates",
+      "scoring_type": "2qb"
+    },
+    "season": "2024",
+    "season_type": "regular",
+    "settings": {
+      "alpha_sort": 0,
+      "autopause_enabled": 0,
+      "autopause_end_time": 1020,
+      "autopause_start_time": 300,
+      "autostart": 0,
+      "cpu_autopick": 1,
+      "enforce_position_limits": 1,
+      "nomination_timer": 60,
+      "pick_timer": 30,
+      "player_type": 0,
+      "reversal_round": 0,
+      "rounds": 17,
+      "slots_bn": 7,
+      "slots_def": 1,
+      "slots_flex": 2,
+      "slots_k": 1,
+      "slots_qb": 1,
+      "slots_rb": 2,
+      "slots_super_flex": 1,
+      "slots_wr": 2,
+      "teams": 10
+    },
+    "sport": "nfl",
+    "start_time": 1722107298188,
+    "status": "complete",
+    "type": "snake"
+  }
+]

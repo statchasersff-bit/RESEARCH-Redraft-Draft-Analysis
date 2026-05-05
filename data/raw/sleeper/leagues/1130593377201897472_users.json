@@ -1,0 +1,166 @@
+[
+  {
+    "avatar": "nfl_det",
+    "display_name": "greekdawg",
+    "is_bot": null,
+    "is_owner": null,
+    "league_id": "1130593377201897472",
+    "metadata": {
+      "allow_pn": "on",
+      "archived": "on",
+      "mention_pn": "on",
+      "team_name": "10 Inch Ditkas"
+    },
+    "settings": null,
+    "user_id": "100908832284622848"
+  },
+  {
+    "avatar": "e3f5bb3324e54bc1809df948efd6344b",
+    "display_name": "Ric1221",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1130593377201897472",
+    "metadata": {
+      "allow_pn": "on",
+      "archived": "on",
+      "league_report_pn": "on",
+      "mascot_message": "on",
+      "mention_pn": "on",
+      "player_like_pn": "on",
+      "player_nickname_update": "on",
+      "team_name_update": "on",
+      "trade_block_pn": "on",
+      "transaction_commissioner": "on",
+      "transaction_free_agent": "on",
+      "transaction_trade": "on",
+      "transaction_waiver": "on",
+      "user_message_pn": "on"
+    },
+    "settings": null,
+    "user_id": "346690988502319104"
+  },
+  {
+    "avatar": "1ff69ecd5e54d4880dcb01256f97ab55",
+    "display_name": "G333K",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1130593377201897472",
+    "metadata": {
+      "allow_pn": "on",
+      "archived": "off",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "468862977664086016"
+  },
+  {
+    "avatar": "eef26a8b0574cf6dbd96dcad0732161d",
+    "display_name": "PatienceZ",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1130593377201897472",
+    "metadata": {
+      "allow_pn": "on",
+      "archived": "on",
+      "mention_pn": "on",
+      "team_name": "1st: 200 - 2nd: 50"
+    },
+    "settings": null,
+    "user_id": "608172673234726912"
+  },
+  {
+    "avatar": "8769000d8b3a7371108922a9e70261d4",
+    "display_name": "garrettpeters0n",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1130593377201897472",
+    "metadata": {
+      "allow_pn": "on",
+      "archived": "on",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "617548498832916480"
+  },
+  {
+    "avatar": "59fb195242caeab586e35606001a2806",
+    "display_name": "CaptainConstant",
+    "is_bot": false,
+    "is_owner": true,
+    "league_id": "1130593377201897472",
+    "metadata": {
+      "allow_pn": "on",
+      "archived": "on",
+      "mention_pn": "on",
+      "team_name": "Captain Constant"
+    },
+    "settings": null,
+    "user_id": "704220888010145792"
+  },
+  {
+    "avatar": "1944eaf06f3ac54023d312ca26a1dee3",
+    "display_name": "Druski360Trades",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1130593377201897472",
+    "metadata": {
+      "allow_pn": "on",
+      "archived": "off",
+      "league_report_pn": "off",
+      "mascot_message": "on",
+      "mention_pn": "on",
+      "player_like_pn": "on",
+      "player_nickname_update": "on",
+      "team_name_update": "on",
+      "trade_block_pn": "on",
+      "transaction_commissioner": "on",
+      "transaction_free_agent": "on",
+      "transaction_trade": "on",
+      "transaction_waiver": "on",
+      "user_message_pn": "on"
+    },
+    "settings": null,
+    "user_id": "739554117080461312"
+  },
+  {
+    "avatar": "f0edbf4278f53f9425db175073df6584",
+    "display_name": "dodgeballorsome",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1130593377201897472",
+    "metadata": {
+      "allow_pn": "on",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "740735153000845312"
+  },
+  {
+    "avatar": "6864db7ae4b9a665a3e1329077a99f22",
+    "display_name": "benjinator375",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1130593377201897472",
+    "metadata": {
+      "allow_pn": "on",
+      "archived": "on",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "783618211471069184"
+  },
+  {
+    "avatar": "ec8d6c6bc0b89fc125862c7adbaa9871",
+    "display_name": "daduke31",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1130593377201897472",
+    "metadata": {
+      "allow_pn": "on",
+      "allow_sms": "on",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "844047440393940992"
+  }
+]

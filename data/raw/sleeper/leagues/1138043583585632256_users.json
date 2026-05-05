@@ -1,0 +1,200 @@
+[
+  {
+    "avatar": "2ade3b6858e37b3f22f212ff776608be",
+    "display_name": "calsmith19",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1138043583585632256",
+    "metadata": {
+      "allow_pn": "on",
+      "allow_sms": "on",
+      "archived": "off",
+      "mention_pn": "on",
+      "team_name": "The Jjetsons"
+    },
+    "settings": null,
+    "user_id": "483159398663843840"
+  },
+  {
+    "avatar": "1bf8ce9dbdda42d9d61c48776f5e0bfc",
+    "display_name": "fmn",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1138043583585632256",
+    "metadata": {
+      "allow_pn": "on",
+      "archived": "on",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "607685751630540800"
+  },
+  {
+    "avatar": "3114def9b0bc34c37f4011c1cd1c6c48",
+    "display_name": "lraz",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1138043583585632256",
+    "metadata": {
+      "allow_pn": "on",
+      "archived": "off",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "610594031411503104"
+  },
+  {
+    "avatar": "b4ee61fc07d863b9a04abf8de475e050",
+    "display_name": "GreenLikeWasabi",
+    "is_bot": false,
+    "is_owner": true,
+    "league_id": "1138043583585632256",
+    "metadata": {
+      "allow_pn": "on",
+      "archived": "off",
+      "avatar": "https://sleepercdn.com/uploads/b8ee67cb5720c1c94473af0b599d1e40.jpg",
+      "mention_pn": "on",
+      "team_name": "Gibb Me My Money"
+    },
+    "settings": null,
+    "user_id": "737131132008665088"
+  },
+  {
+    "avatar": "8eb8f8bf999945d523f2c4033f70473e",
+    "display_name": "astubbs",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1138043583585632256",
+    "metadata": {
+      "allow_pn": "on",
+      "allow_sms": "on",
+      "archived": "on",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "867931253297577984"
+  },
+  {
+    "avatar": "15d7cf259bc30eab8f6120f45f652fb6",
+    "display_name": "Javierstubbs",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1138043583585632256",
+    "metadata": {
+      "allow_pn": "on",
+      "allow_sms": "on",
+      "archived": "on",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "871530350214549504"
+  },
+  {
+    "avatar": "ab56979983965842c9ddd9ee29143ca8",
+    "display_name": "1q2w3e0p",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1138043583585632256",
+    "metadata": {
+      "allow_pn": "off",
+      "archived": "on",
+      "league_report_pn": "on",
+      "mascot_message": "on",
+      "mention_pn": "on",
+      "player_like_pn": "on",
+      "player_nickname_update": "on",
+      "team_name_update": "on",
+      "trade_block_pn": "on",
+      "transaction_commissioner": "on",
+      "transaction_free_agent": "on",
+      "transaction_trade": "on",
+      "transaction_waiver": "on",
+      "user_message_pn": "on"
+    },
+    "settings": null,
+    "user_id": "982483033641033728"
+  },
+  {
+    "avatar": "15d7cf259bc30eab8f6120f45f652fb6",
+    "display_name": "qlackey",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1138043583585632256",
+    "metadata": {
+      "allow_pn": "off",
+      "archived": "on",
+      "avatar": "https://sleepercdn.com/uploads/ad3196f5eb382b02ce3343d8976b9fb7.jpg",
+      "league_report_pn": "on",
+      "mascot_message": "on",
+      "mention_pn": "on",
+      "player_like_pn": "on",
+      "player_nickname_update": "on",
+      "team_name": "Hall Pass",
+      "team_name_update": "on",
+      "trade_block_pn": "on",
+      "transaction_commissioner": "on",
+      "transaction_free_agent": "on",
+      "transaction_trade": "on",
+      "transaction_waiver": "on",
+      "user_message_pn": "on"
+    },
+    "settings": null,
+    "user_id": "982704593656254464"
+  },
+  {
+    "avatar": "b319fdf8b7b5b0359d3c78622ba4d70c",
+    "display_name": "pgm186",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1138043583585632256",
+    "metadata": {
+      "allow_pn": "on",
+      "archived": "on",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "992727564366016512"
+  },
+  {
+    "avatar": "04fc55628f87d1c150b1335958967263",
+    "display_name": "DuramaxLML",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1138043583585632256",
+    "metadata": {
+      "allow_pn": "on",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "1026301924645224448"
+  },
+  {
+    "avatar": "20da6b8700ca93570cf4172b73c0c8c5",
+    "display_name": "Clawson10",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1138043583585632256",
+    "metadata": {
+      "allow_pn": "on",
+      "archived": "on",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "1026575952140234752"
+  },
+  {
+    "avatar": "7a376eb82427f73e077dc6a2870ad4a6",
+    "display_name": "dirtydrew113",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1138043583585632256",
+    "metadata": {
+      "allow_pn": "on",
+      "archived": "on",
+      "mention_pn": "on",
+      "team_name": "This Team is Cooked "
+    },
+    "settings": null,
+    "user_id": "1059243319085047808"
+  }
+]

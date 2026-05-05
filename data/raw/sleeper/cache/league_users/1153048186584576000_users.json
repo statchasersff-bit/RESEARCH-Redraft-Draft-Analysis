@@ -1,0 +1,152 @@
+[
+  {
+    "avatar": "b7a486917eb76fc6b018fdd343fcf4e4",
+    "display_name": "puma4521",
+    "is_bot": false,
+    "is_owner": false,
+    "league_id": "1153048186584576000",
+    "metadata": {
+      "allow_pn": "on",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "575858222239076352"
+  },
+  {
+    "avatar": "1bf8ce9dbdda42d9d61c48776f5e0bfc",
+    "display_name": "fmn",
+    "is_bot": false,
+    "is_owner": false,
+    "league_id": "1153048186584576000",
+    "metadata": {
+      "allow_pn": "on",
+      "archived": "on",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "607685751630540800"
+  },
+  {
+    "avatar": "9a455d751ecadfc0933df5baf75b193b",
+    "display_name": "AsteriskAsterisk",
+    "is_bot": false,
+    "is_owner": false,
+    "league_id": "1153048186584576000",
+    "metadata": {
+      "allow_pn": "on",
+      "archived": "off",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "851972775722754048"
+  },
+  {
+    "avatar": "f0edbf4278f53f9425db175073df6584",
+    "display_name": "blueline48",
+    "is_bot": false,
+    "is_owner": false,
+    "league_id": "1153048186584576000",
+    "metadata": {
+      "allow_pn": "on",
+      "archived": "on",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "905518324534910976"
+  },
+  {
+    "avatar": "f0f025963692d0e1bf27dd8f54b0811a",
+    "display_name": "GSH46",
+    "is_bot": false,
+    "is_owner": false,
+    "league_id": "1153048186584576000",
+    "metadata": {
+      "allow_pn": "on",
+      "archived": "off",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "942828168044544000"
+  },
+  {
+    "avatar": "ae165d89be3f402d9e2b09d2f8649f5e",
+    "display_name": "aids905",
+    "is_bot": false,
+    "is_owner": false,
+    "league_id": "1153048186584576000",
+    "metadata": {
+      "allow_pn": "on",
+      "archived": "off",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "957480145877618688"
+  },
+  {
+    "avatar": "09f6b530f257cb5147b543ad3819a7a9",
+    "display_name": "WhoDatGeauxTigers",
+    "is_bot": false,
+    "is_owner": false,
+    "league_id": "1153048186584576000",
+    "metadata": {
+      "allow_pn": "on",
+      "archived": "on",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "997840490902999040"
+  },
+  {
+    "avatar": "9033d6d86de3b410a575dd2d2412d507",
+    "display_name": "bigdoom",
+    "is_bot": false,
+    "is_owner": true,
+    "league_id": "1153048186584576000",
+    "metadata": {
+      "allow_pn": "on",
+      "archived": "on",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "1009974433227939840"
+  },
+  {
+    "avatar": "fd5562dba617f2903de2f65866813e86",
+    "display_name": "Derek4real1221",
+    "is_bot": false,
+    "is_owner": false,
+    "league_id": "1153048186584576000",
+    "metadata": {
+      "allow_pn": "off",
+      "archived": "on",
+      "league_report_pn": "off",
+      "mascot_message": "off",
+      "mention_pn": "off",
+      "player_like_pn": "off",
+      "player_nickname_update": "off",
+      "team_name_update": "off",
+      "trade_block_pn": "off",
+      "transaction_commissioner": "off",
+      "transaction_free_agent": "off",
+      "transaction_trade": "off",
+      "transaction_waiver": "off",
+      "user_message_pn": "off"
+    },
+    "settings": null,
+    "user_id": "1137154246241562624"
+  },
+  {
+    "avatar": "ac85a7d5e34a21553b15a46962a8cfea",
+    "display_name": "zilla19",
+    "is_bot": false,
+    "is_owner": false,
+    "league_id": "1153048186584576000",
+    "metadata": {
+      "allow_pn": "on",
+      "archived": "on",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "1151512718441136128"
+  }
+]

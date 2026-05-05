@@ -1,0 +1,229 @@
+[
+  {
+    "avatar": "e4d90bf3a010debbcbef6993d3a5df1c",
+    "display_name": "Cratchett",
+    "is_bot": null,
+    "is_owner": null,
+    "league_id": "1127410739586646016",
+    "metadata": {
+      "allow_pn": "off",
+      "archived": "on",
+      "league_report_pn": "off",
+      "mascot_message": "off",
+      "mention_pn": "off",
+      "player_like_pn": "off",
+      "player_nickname_update": "off",
+      "team_name": "Team Milk Carton",
+      "team_name_update": "off",
+      "trade_block_pn": "off",
+      "transaction_commissioner": "off",
+      "transaction_free_agent": "off",
+      "transaction_trade": "off",
+      "transaction_waiver": "off",
+      "user_message_pn": "off"
+    },
+    "settings": null,
+    "user_id": "66374430397710336"
+  },
+  {
+    "avatar": "ad3ead1d58869a6200e64d916f6d6a19",
+    "display_name": "313Roar",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1127410739586646016",
+    "metadata": {
+      "allow_pn": "on",
+      "allow_sms": "on",
+      "archived": "on",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "331983816002371584"
+  },
+  {
+    "avatar": "cf094921d93a4dd632ef3ef212cd6fca",
+    "display_name": "sleepydior",
+    "is_bot": false,
+    "is_owner": true,
+    "league_id": "1127410739586646016",
+    "metadata": {
+      "allow_pn": "off",
+      "archived": "off",
+      "league_report_pn": "off",
+      "mascot_message": "on",
+      "mention_pn": "on",
+      "player_like_pn": "on",
+      "player_nickname_update": "on",
+      "team_name_update": "on",
+      "trade_block_pn": "on",
+      "transaction_commissioner": "on",
+      "transaction_free_agent": "off",
+      "transaction_trade": "on",
+      "transaction_waiver": "on",
+      "user_message_pn": "on"
+    },
+    "settings": null,
+    "user_id": "479157902301458432"
+  },
+  {
+    "avatar": "193b056f135717e30818e19261b02f3c",
+    "display_name": "Harjoyt",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1127410739586646016",
+    "metadata": {
+      "allow_pn": "on",
+      "archived": "on",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "551184486892597248"
+  },
+  {
+    "avatar": "6e6f705d97e5323fd717ff9ed3430523",
+    "display_name": "hashtagprez",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1127410739586646016",
+    "metadata": {
+      "allow_pn": "on",
+      "allow_sms": "on",
+      "archived": "on",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "715057630824996864"
+  },
+  {
+    "avatar": "29a5d3af48cb1c65c6ba17eb1a44c202",
+    "display_name": "Momann",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1127410739586646016",
+    "metadata": {
+      "allow_pn": "off",
+      "archived": "on",
+      "league_report_pn": "off",
+      "mascot_message": "off",
+      "mention_pn": "off",
+      "player_like_pn": "on",
+      "player_nickname_update": "off",
+      "team_name_update": "off",
+      "trade_block_pn": "on",
+      "transaction_commissioner": "off",
+      "transaction_free_agent": "off",
+      "transaction_trade": "on",
+      "transaction_waiver": "on",
+      "user_message_pn": "off"
+    },
+    "settings": null,
+    "user_id": "732476377231650816"
+  },
+  {
+    "avatar": "1cb0bb3c802aff29d4298d08a90353e1",
+    "display_name": "GoPackGo1014",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1127410739586646016",
+    "metadata": {
+      "allow_pn": "off",
+      "archived": "on",
+      "avatar": "https://sleepercdn.com/uploads/0c1ada7ccad0b316acf6e56aa388e225.jpg",
+      "league_report_pn": "on",
+      "mascot_message": "on",
+      "mention_pn": "on",
+      "player_like_pn": "on",
+      "player_nickname_update": "on",
+      "team_name": "Perfectly Balanced ",
+      "team_name_update": "on",
+      "trade_block_pn": "on",
+      "transaction_commissioner": "on",
+      "transaction_free_agent": "on",
+      "transaction_trade": "on",
+      "transaction_waiver": "on",
+      "user_message_pn": "on"
+    },
+    "settings": null,
+    "user_id": "735286332225650688"
+  },
+  {
+    "avatar": "264d1bf21288a2abcecd3f08b76e3a64",
+    "display_name": "kieranmix8",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1127410739586646016",
+    "metadata": {
+      "allow_pn": "on",
+      "archived": "on",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "754968194992689152"
+  },
+  {
+    "avatar": "1caddc4a34e4284e1fe57763e4b50c9c",
+    "display_name": "dinger022",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1127410739586646016",
+    "metadata": {
+      "allow_pn": "on",
+      "archived": "on",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "765707951792238592"
+  },
+  {
+    "avatar": "8931ff8eea5600bb0c17fc80886774c3",
+    "display_name": "ChiBears45",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1127410739586646016",
+    "metadata": {
+      "allow_pn": "on",
+      "archived": "on",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "855252454231613440"
+  },
+  {
+    "avatar": "ab56979983965842c9ddd9ee29143ca8",
+    "display_name": "1q2w3e0p",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1127410739586646016",
+    "metadata": {
+      "allow_pn": "off",
+      "archived": "on",
+      "league_report_pn": "on",
+      "mascot_message": "on",
+      "mention_pn": "on",
+      "player_like_pn": "on",
+      "player_nickname_update": "on",
+      "team_name_update": "on",
+      "trade_block_pn": "on",
+      "transaction_commissioner": "on",
+      "transaction_free_agent": "on",
+      "transaction_trade": "on",
+      "transaction_waiver": "on",
+      "user_message_pn": "on"
+    },
+    "settings": null,
+    "user_id": "982483033641033728"
+  },
+  {
+    "avatar": "2dadc656c072c0432dbc4cab346a2097",
+    "display_name": "dmb913",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1127410739586646016",
+    "metadata": {
+      "allow_pn": "on",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "1127108910147563520"
+  }
+]

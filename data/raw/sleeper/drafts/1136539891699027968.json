@@ -1,0 +1,71 @@
+{
+  "created": 1725334735362,
+  "creators": [
+    "869101805487964160"
+  ],
+  "draft_id": "1136539891699027968",
+  "draft_order": {
+    "1105744108473139200": 1,
+    "1125260440478560256": 4,
+    "437721267747942400": 7,
+    "472831847336767488": 9,
+    "710332074363523072": 8,
+    "740791990618300416": 11,
+    "760200513554870272": 10,
+    "852585206773813248": 5,
+    "858508002607603712": 6,
+    "869101805487964160": 3,
+    "953051011617255424": 12,
+    "969274001832931328": 2
+  },
+  "last_message_id": "1136561981936148480",
+  "last_message_time": 1725340002095,
+  "last_picked": 1725340001557,
+  "league_id": "1136539890747043840",
+  "metadata": {
+    "description": "",
+    "name": "#1 $10 Fantasy Football 2025",
+    "scoring_type": "ppr"
+  },
+  "season": "2024",
+  "season_type": "regular",
+  "settings": {
+    "alpha_sort": 0,
+    "autopause_enabled": 0,
+    "autopause_end_time": 840,
+    "autopause_start_time": 120,
+    "autostart": 0,
+    "cpu_autopick": 1,
+    "enforce_position_limits": 1,
+    "nomination_timer": 60,
+    "pick_timer": 30,
+    "player_type": 0,
+    "reversal_round": 0,
+    "rounds": 15,
+    "slots_bn": 6,
+    "slots_flex": 3,
+    "slots_qb": 1,
+    "slots_rb": 2,
+    "slots_te": 1,
+    "slots_wr": 2,
+    "teams": 12
+  },
+  "slot_to_roster_id": {
+    "1": 9,
+    "2": 8,
+    "3": 1,
+    "4": 3,
+    "5": 6,
+    "6": 10,
+    "7": 12,
+    "8": 5,
+    "9": 4,
+    "10": 2,
+    "11": 7,
+    "12": 11
+  },
+  "sport": "nfl",
+  "start_time": 1725336574617,
+  "status": "complete",
+  "type": "snake"
+}

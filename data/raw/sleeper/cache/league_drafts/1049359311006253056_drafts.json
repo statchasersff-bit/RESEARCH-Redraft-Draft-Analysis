@@ -1,0 +1,59 @@
+[
+  {
+    "created": 1704549265198,
+    "creators": [
+      "959062751723294720"
+    ],
+    "draft_id": "1049359311006253057",
+    "draft_order": {
+      "1003804077995683840": 11,
+      "1006112261238329344": 1,
+      "1133881980501868544": 12,
+      "188826952549797888": 4,
+      "453850661663010816": 5,
+      "477675584256733184": 9,
+      "501604138732220416": 8,
+      "603012623843274752": 6,
+      "787573971712344064": 2,
+      "958250559578906624": 10,
+      "959062751723294720": 7,
+      "997037723045191680": 3
+    },
+    "last_message_id": "1137228647179272192",
+    "last_message_time": 1725498947475,
+    "last_picked": 1725498946483,
+    "league_id": "1049359311006253056",
+    "metadata": {
+      "description": "",
+      "name": "Fantastical Fantasies ",
+      "scoring_type": "half_ppr"
+    },
+    "season": "2024",
+    "season_type": "regular",
+    "settings": {
+      "alpha_sort": 0,
+      "autopause_enabled": 0,
+      "autopause_end_time": 840,
+      "autopause_start_time": 120,
+      "autostart": 0,
+      "cpu_autopick": 1,
+      "enforce_position_limits": 1,
+      "nomination_timer": 60,
+      "pick_timer": 120,
+      "player_type": 0,
+      "reversal_round": 0,
+      "rounds": 15,
+      "slots_bn": 6,
+      "slots_flex": 2,
+      "slots_qb": 1,
+      "slots_rb": 2,
+      "slots_te": 1,
+      "slots_wr": 3,
+      "teams": 12
+    },
+    "sport": "nfl",
+    "start_time": 1725492660632,
+    "status": "complete",
+    "type": "snake"
+  }
+]

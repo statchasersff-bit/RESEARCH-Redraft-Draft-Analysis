@@ -1,0 +1,73 @@
+{
+  "created": 1723756734625,
+  "creators": [
+    "559586015301877760"
+  ],
+  "draft_id": "1129921276845412352",
+  "draft_order": {
+    "1127677489146433536": 2,
+    "1132718149121507328": 6,
+    "468947675383853056": 3,
+    "559586015301877760": 5,
+    "993205163160551424": 11,
+    "993546044611280896": 8,
+    "993546984680452096": 4,
+    "993580599556325376": 9,
+    "993652423266779136": 7,
+    "995185147232174080": 1,
+    "995509229912014848": 10,
+    "998975686146654208": 12
+  },
+  "last_message_id": "1134682995664777216",
+  "last_message_time": 1724892016858,
+  "last_picked": 1724891987499,
+  "league_id": "1124814937579876352",
+  "metadata": {
+    "description": "",
+    "name": "No Punt Intended",
+    "scoring_type": "ppr"
+  },
+  "season": "2024",
+  "season_type": "regular",
+  "settings": {
+    "alpha_sort": 0,
+    "autopause_enabled": 0,
+    "autopause_end_time": 840,
+    "autopause_start_time": 120,
+    "autostart": 0,
+    "cpu_autopick": 1,
+    "enforce_position_limits": 1,
+    "nomination_timer": 60,
+    "pick_timer": 120,
+    "player_type": 0,
+    "reversal_round": 0,
+    "rounds": 15,
+    "slots_bn": 5,
+    "slots_def": 1,
+    "slots_flex": 2,
+    "slots_k": 1,
+    "slots_qb": 1,
+    "slots_rb": 2,
+    "slots_te": 1,
+    "slots_wr": 2,
+    "teams": 12
+  },
+  "slot_to_roster_id": {
+    "1": 10,
+    "2": 6,
+    "3": 2,
+    "4": 5,
+    "5": 1,
+    "6": 9,
+    "7": 8,
+    "8": 3,
+    "9": 7,
+    "10": 11,
+    "11": 4,
+    "12": 12
+  },
+  "sport": "nfl",
+  "start_time": 1724886370401,
+  "status": "complete",
+  "type": "snake"
+}

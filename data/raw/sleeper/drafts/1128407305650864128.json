@@ -1,0 +1,64 @@
+{
+  "created": 1723395775750,
+  "creators": [
+    "690006156508209152"
+  ],
+  "draft_id": "1128407305650864128",
+  "draft_order": {
+    "376262422366896128": 12,
+    "474086263968755712": 10,
+    "690006156508209152": 1,
+    "710332074363523072": 6,
+    "718261940719292416": 11,
+    "741134753608216576": 3,
+    "76438706084790272": 7,
+    "854213703099326464": 2,
+    "998727732475420672": 9
+  },
+  "last_message_id": "1128437820567093248",
+  "last_message_time": 1723403051085,
+  "last_picked": 1723403050417,
+  "league_id": "1128407303411130368",
+  "metadata": {
+    "description": "",
+    "name": "2OX4 FF LG ",
+    "scoring_type": "ppr"
+  },
+  "season": "2024",
+  "season_type": "regular",
+  "settings": {
+    "alpha_sort": 0,
+    "autostart": 0,
+    "cpu_autopick": 1,
+    "pick_timer": 120,
+    "reversal_round": 0,
+    "rounds": 15,
+    "slots_bn": 5,
+    "slots_def": 1,
+    "slots_flex": 2,
+    "slots_k": 1,
+    "slots_qb": 1,
+    "slots_rb": 2,
+    "slots_te": 1,
+    "slots_wr": 2,
+    "teams": 12
+  },
+  "slot_to_roster_id": {
+    "1": 1,
+    "2": 6,
+    "3": 4,
+    "4": 2,
+    "5": 5,
+    "6": 11,
+    "7": 8,
+    "8": 10,
+    "9": 9,
+    "10": 12,
+    "11": 7,
+    "12": 3
+  },
+  "sport": "nfl",
+  "start_time": 1723398717258,
+  "status": "complete",
+  "type": "snake"
+}

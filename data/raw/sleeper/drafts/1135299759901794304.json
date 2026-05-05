@@ -1,0 +1,70 @@
+{
+  "created": 1725039064903,
+  "creators": [
+    "866725998106886144"
+  ],
+  "draft_id": "1135299759901794304",
+  "draft_order": {
+    "1099392354907312128": 12,
+    "465342050338861056": 4,
+    "522513197997666304": 11,
+    "556073486570704896": 9,
+    "604307777581543424": 8,
+    "605947009987330048": 3,
+    "637744680276287488": 1,
+    "726219882563227648": 5,
+    "862214964813901824": 7,
+    "866725998106886144": 6,
+    "905518324534910976": 10,
+    "993027344761761792": 2
+  },
+  "last_message_id": "1135431463853162496",
+  "last_message_time": 1725070465581,
+  "last_picked": 1725070464545,
+  "league_id": "1135299759000035328",
+  "metadata": {
+    "description": "",
+    "name": "League of Goons #29",
+    "scoring_type": "ppr"
+  },
+  "season": "2024",
+  "season_type": "regular",
+  "settings": {
+    "alpha_sort": 0,
+    "autopause_enabled": 0,
+    "autopause_end_time": 900,
+    "autopause_start_time": 180,
+    "autostart": 0,
+    "cpu_autopick": 1,
+    "nomination_timer": 60,
+    "pick_timer": 90,
+    "player_type": 0,
+    "reversal_round": 0,
+    "rounds": 15,
+    "slots_bn": 6,
+    "slots_flex": 2,
+    "slots_qb": 1,
+    "slots_rb": 2,
+    "slots_te": 1,
+    "slots_wr": 3,
+    "teams": 12
+  },
+  "slot_to_roster_id": {
+    "1": 7,
+    "2": 8,
+    "3": 9,
+    "4": 6,
+    "5": 10,
+    "6": 1,
+    "7": 11,
+    "8": 2,
+    "9": 4,
+    "10": 3,
+    "11": 5,
+    "12": 12
+  },
+  "sport": "nfl",
+  "start_time": 1725064284763,
+  "status": "complete",
+  "type": "snake"
+}

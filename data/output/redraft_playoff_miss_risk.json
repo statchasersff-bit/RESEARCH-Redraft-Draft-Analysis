@@ -1,0 +1,105 @@
+{
+  "generated_at": "2026-05-05T19:50:45.159Z",
+  "baseline_miss_rate": 0.46,
+  "entries": [
+    {
+      "strategy_name": "Zero RB",
+      "format_context": "Overall",
+      "sample_size": 532,
+      "probability_of_missing_playoffs": 0.558,
+      "relative_risk_vs_baseline": 1.21,
+      "percentile_rank": 100,
+      "confidence_level": "High"
+    },
+    {
+      "strategy_name": "Anchor TE",
+      "format_context": "Overall",
+      "sample_size": 798,
+      "probability_of_missing_playoffs": 0.509,
+      "relative_risk_vs_baseline": 1.11,
+      "percentile_rank": 91,
+      "confidence_level": "High"
+    },
+    {
+      "strategy_name": "Hero RB",
+      "format_context": "Overall",
+      "sample_size": 2148,
+      "probability_of_missing_playoffs": 0.485,
+      "relative_risk_vs_baseline": 1.05,
+      "percentile_rank": 82,
+      "confidence_level": "High"
+    },
+    {
+      "strategy_name": "WR Heavy",
+      "format_context": "Overall",
+      "sample_size": 2223,
+      "probability_of_missing_playoffs": 0.48,
+      "relative_risk_vs_baseline": 1.04,
+      "percentile_rank": 73,
+      "confidence_level": "High"
+    },
+    {
+      "strategy_name": "Elite TE",
+      "format_context": "Overall",
+      "sample_size": 1437,
+      "probability_of_missing_playoffs": 0.479,
+      "relative_risk_vs_baseline": 1.04,
+      "percentile_rank": 64,
+      "confidence_level": "High"
+    },
+    {
+      "strategy_name": "Fragile RB",
+      "format_context": "Overall",
+      "sample_size": 1020,
+      "probability_of_missing_playoffs": 0.475,
+      "relative_risk_vs_baseline": 1.03,
+      "percentile_rank": 55,
+      "confidence_level": "High"
+    },
+    {
+      "strategy_name": "Elite QB",
+      "format_context": "Overall",
+      "sample_size": 2810,
+      "probability_of_missing_playoffs": 0.462,
+      "relative_risk_vs_baseline": 1,
+      "percentile_rank": 45,
+      "confidence_level": "High"
+    },
+    {
+      "strategy_name": "Late QB",
+      "format_context": "Overall",
+      "sample_size": 1258,
+      "probability_of_missing_playoffs": 0.443,
+      "relative_risk_vs_baseline": 0.96,
+      "percentile_rank": 36,
+      "confidence_level": "High"
+    },
+    {
+      "strategy_name": "Balanced Start",
+      "format_context": "Overall",
+      "sample_size": 3642,
+      "probability_of_missing_playoffs": 0.441,
+      "relative_risk_vs_baseline": 0.96,
+      "percentile_rank": 18,
+      "confidence_level": "High"
+    },
+    {
+      "strategy_name": "Late TE",
+      "format_context": "Overall",
+      "sample_size": 1844,
+      "probability_of_missing_playoffs": 0.441,
+      "relative_risk_vs_baseline": 0.96,
+      "percentile_rank": 27,
+      "confidence_level": "High"
+    },
+    {
+      "strategy_name": "Robust RB",
+      "format_context": "Overall",
+      "sample_size": 619,
+      "probability_of_missing_playoffs": 0.365,
+      "relative_risk_vs_baseline": 0.79,
+      "percentile_rank": 9,
+      "confidence_level": "High"
+    }
+  ]
+}

@@ -1,0 +1,59 @@
+[
+  {
+    "created": 1725282531943,
+    "creators": [
+      "1000488762083733504"
+    ],
+    "draft_id": "1136320934702612480",
+    "draft_order": {
+      "1000488762083733504": 7,
+      "1002583707694166016": 1,
+      "1017994643369234432": 9,
+      "1049414827418042368": 4,
+      "608430369456349184": 10,
+      "732696282031874048": 8,
+      "734117928764571648": 5,
+      "867164228467945472": 2,
+      "958250559578906624": 6,
+      "996400838308335616": 3
+    },
+    "last_message_id": "1136437616909299712",
+    "last_message_time": 1725310351162,
+    "last_picked": 1725310350400,
+    "league_id": "1136320932420759552",
+    "metadata": {
+      "description": "",
+      "name": "BeastMode 🏈🤺🏆💰",
+      "scoring_type": "ppr"
+    },
+    "season": "2024",
+    "season_type": "regular",
+    "settings": {
+      "alpha_sort": 0,
+      "autopause_enabled": 0,
+      "autopause_end_time": 840,
+      "autopause_start_time": 120,
+      "autostart": 0,
+      "cpu_autopick": 1,
+      "enforce_position_limits": 1,
+      "nomination_timer": 60,
+      "pick_timer": 60,
+      "player_type": 0,
+      "reversal_round": 0,
+      "rounds": 15,
+      "slots_bn": 5,
+      "slots_def": 1,
+      "slots_flex": 2,
+      "slots_k": 1,
+      "slots_qb": 1,
+      "slots_rb": 2,
+      "slots_te": 1,
+      "slots_wr": 2,
+      "teams": 10
+    },
+    "sport": "nfl",
+    "start_time": 1725307212605,
+    "status": "complete",
+    "type": "snake"
+  }
+]

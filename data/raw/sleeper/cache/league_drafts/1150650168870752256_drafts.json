@@ -1,0 +1,58 @@
+[
+  {
+    "created": 1728698887606,
+    "creators": [
+      "86674462812291072"
+    ],
+    "draft_id": "1150650168870752257",
+    "draft_order": {
+      "1003870604627386368": 8,
+      "1133938442456453120": 10,
+      "585188842538049536": 6,
+      "675856084065411072": 5,
+      "706989861902565376": 9,
+      "854785777429753856": 7,
+      "86674462812291072": 2,
+      "866933376198791168": 3,
+      "870984534588600320": 4,
+      "995577654524968960": 1
+    },
+    "last_message_id": "1151025078876774400",
+    "last_message_time": 1728788273117,
+    "last_picked": 1728788272365,
+    "league_id": "1150650168870752256",
+    "metadata": {
+      "description": "",
+      "name": "Pirate League 4 w/ Te Premium and Bonuses +SF",
+      "scoring_type": "2qb"
+    },
+    "season": "2024",
+    "season_type": "regular",
+    "settings": {
+      "alpha_sort": 0,
+      "autopause_enabled": 0,
+      "autopause_end_time": 900,
+      "autopause_start_time": 180,
+      "autostart": 0,
+      "cpu_autopick": 1,
+      "enforce_position_limits": 1,
+      "nomination_timer": 60,
+      "pick_timer": 60,
+      "player_type": 0,
+      "reversal_round": 0,
+      "rounds": 14,
+      "slots_bn": 4,
+      "slots_flex": 3,
+      "slots_qb": 1,
+      "slots_rb": 2,
+      "slots_super_flex": 1,
+      "slots_te": 1,
+      "slots_wr": 2,
+      "teams": 10
+    },
+    "sport": "nfl",
+    "start_time": 1728785076280,
+    "status": "complete",
+    "type": "snake"
+  }
+]

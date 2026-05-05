@@ -1,0 +1,68 @@
+{
+  "created": 1724363117232,
+  "creators": [
+    "971488301486034944"
+  ],
+  "draft_id": "1132464629881462784",
+  "draft_order": {
+    "1129098498034491392": 2,
+    "1130168213251289088": 8,
+    "1133423879462010880": 10,
+    "1133813839243870208": 3,
+    "605896662921068544": 6,
+    "873319193150398464": 5,
+    "971488301486034944": 9,
+    "993631619128803328": 4,
+    "998426815846961152": 7
+  },
+  "last_message_id": "1135031506100879360",
+  "last_message_time": 1724975108221,
+  "last_picked": 1724975107408,
+  "league_id": "1132464627998334976",
+  "metadata": {
+    "description": "",
+    "name": "50 yards",
+    "scoring_type": "ppr"
+  },
+  "season": "2024",
+  "season_type": "regular",
+  "settings": {
+    "alpha_sort": 0,
+    "autopause_enabled": 0,
+    "autopause_end_time": 840,
+    "autopause_start_time": 120,
+    "autostart": 0,
+    "cpu_autopick": 1,
+    "enforce_position_limits": 1,
+    "nomination_timer": 60,
+    "pick_timer": 60,
+    "player_type": 0,
+    "reversal_round": 0,
+    "rounds": 15,
+    "slots_bn": 5,
+    "slots_def": 1,
+    "slots_flex": 2,
+    "slots_k": 1,
+    "slots_qb": 1,
+    "slots_rb": 2,
+    "slots_te": 1,
+    "slots_wr": 2,
+    "teams": 10
+  },
+  "slot_to_roster_id": {
+    "1": 2,
+    "2": 4,
+    "3": 5,
+    "4": 10,
+    "5": 7,
+    "6": 6,
+    "7": 8,
+    "8": 3,
+    "9": 1,
+    "10": 9
+  },
+  "sport": "nfl",
+  "start_time": 1724972600556,
+  "status": "complete",
+  "type": "snake"
+}

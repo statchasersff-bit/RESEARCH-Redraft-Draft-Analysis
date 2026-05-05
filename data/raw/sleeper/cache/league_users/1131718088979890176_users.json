@@ -1,0 +1,200 @@
+[
+  {
+    "avatar": "nfl_det",
+    "display_name": "greekdawg",
+    "is_bot": null,
+    "is_owner": null,
+    "league_id": "1131718088979890176",
+    "metadata": {
+      "allow_pn": "on",
+      "archived": "on",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "100908832284622848"
+  },
+  {
+    "avatar": "9af57bf732c655bed5049dc29a117d64",
+    "display_name": "Frylock01",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1131718088979890176",
+    "metadata": {
+      "allow_pn": "on",
+      "archived": "on",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "342586202798600192"
+  },
+  {
+    "avatar": "d2c3beed32667154102329cf1bc138ae",
+    "display_name": "OrangeCrush8442",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1131718088979890176",
+    "metadata": {
+      "allow_pn": "on",
+      "archived": "on",
+      "mention_pn": "on",
+      "team_name": "T Laws of Gravity "
+    },
+    "settings": null,
+    "user_id": "463508887727763456"
+  },
+  {
+    "avatar": "793bd4728c80d3b2024116b162737b7d",
+    "display_name": "Belltoadcrazy",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1131718088979890176",
+    "metadata": {
+      "allow_pn": "on",
+      "archived": "on",
+      "league_report_pn": "off",
+      "mascot_message": "on",
+      "mention_pn": "on",
+      "player_like_pn": "on",
+      "player_nickname_update": "on",
+      "team_name_update": "on",
+      "trade_block_pn": "on",
+      "transaction_commissioner": "on",
+      "transaction_free_agent": "off",
+      "transaction_trade": "on",
+      "transaction_waiver": "off",
+      "user_message_pn": "on"
+    },
+    "settings": null,
+    "user_id": "491605601248342016"
+  },
+  {
+    "avatar": "dc3b39f77ffd6b27487d8ba41ec99767",
+    "display_name": "jdome31",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1131718088979890176",
+    "metadata": {
+      "allow_pn": "off",
+      "archived": "on",
+      "league_report_pn": "off",
+      "mascot_message": "off",
+      "mention_pn": "on",
+      "player_like_pn": "on",
+      "player_nickname_update": "off",
+      "team_name": "Elim",
+      "team_name_update": "off",
+      "trade_block_pn": "on",
+      "transaction_commissioner": "on",
+      "transaction_free_agent": "off",
+      "transaction_trade": "on",
+      "transaction_waiver": "off",
+      "user_message_pn": "off"
+    },
+    "settings": null,
+    "user_id": "604058045642772480"
+  },
+  {
+    "avatar": "eca7b148fd6e607c0c9dbde3c6643c38",
+    "display_name": "Bigjf",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1131718088979890176",
+    "metadata": {
+      "allow_pn": "on",
+      "archived": "on",
+      "mention_pn": "on",
+      "team_name": "Soul Glo"
+    },
+    "settings": null,
+    "user_id": "605917079266226176"
+  },
+  {
+    "avatar": "00dde01c84a96f750d46b6cc51ec540d",
+    "display_name": "WinnerCircle13",
+    "is_bot": false,
+    "is_owner": true,
+    "league_id": "1131718088979890176",
+    "metadata": {
+      "allow_pn": "on",
+      "archived": "on",
+      "avatar": "https://sleepercdn.com/uploads/8321208dd18406dce7dadd91e174e2b0.jpg",
+      "mention_pn": "on",
+      "team_name": "Loud and Stroud"
+    },
+    "settings": null,
+    "user_id": "732004539489714176"
+  },
+  {
+    "avatar": "8931ff8eea5600bb0c17fc80886774c3",
+    "display_name": "ChiBears45",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1131718088979890176",
+    "metadata": {
+      "allow_pn": "on",
+      "archived": "on",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "855252454231613440"
+  },
+  {
+    "avatar": "8440e24a71137a7b2042adbf8684af32",
+    "display_name": "MarkyMark619999",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1131718088979890176",
+    "metadata": {
+      "allow_pn": "on",
+      "archived": "on",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "871847218557145088"
+  },
+  {
+    "avatar": "4d531426ebc73bf4c4a02fbb367ea225",
+    "display_name": "jimbo1964",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1131718088979890176",
+    "metadata": {
+      "allow_pn": "on",
+      "archived": "on",
+      "avatar": "https://sleepercdn.com/uploads/cb8bc5a6cee264a1fd5bc2f1915d7851",
+      "mention_pn": "on",
+      "team_name": "Taylor Made"
+    },
+    "settings": null,
+    "user_id": "956962521917800448"
+  },
+  {
+    "avatar": "2b19f4d42f1c0cf7973a4819c7421dfd",
+    "display_name": "jmeushaw",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1131718088979890176",
+    "metadata": {
+      "allow_pn": "on",
+      "archived": "on",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "1001546345347383296"
+  },
+  {
+    "avatar": "15d7cf259bc30eab8f6120f45f652fb6",
+    "display_name": "degenerates14",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1131718088979890176",
+    "metadata": {
+      "allow_pn": "on",
+      "archived": "off",
+      "mention_pn": "on",
+      "team_name": "Degenerates "
+    },
+    "settings": null,
+    "user_id": "1132902335069585408"
+  }
+]

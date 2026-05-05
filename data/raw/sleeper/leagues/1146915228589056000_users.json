@@ -1,0 +1,142 @@
+[
+  {
+    "avatar": "d18f40eaac85cba6708d0dece2ffdec8",
+    "display_name": "yourlordandsaviorcam",
+    "is_bot": false,
+    "is_owner": false,
+    "league_id": "1146915228589056000",
+    "metadata": {
+      "allow_pn": "on",
+      "archived": "on",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "472985363007139840"
+  },
+  {
+    "avatar": "1d5722b1429bebb7a3f905e1ee2d3782",
+    "display_name": "jmizz",
+    "is_bot": false,
+    "is_owner": true,
+    "league_id": "1146915228589056000",
+    "metadata": {
+      "allow_pn": "on",
+      "mention_pn": "on",
+      "team_name": "6SBs"
+    },
+    "settings": null,
+    "user_id": "503221693381079040"
+  },
+  {
+    "avatar": "7337abc1e9113b49554d42e5219d7070",
+    "display_name": "kuppthesenuts",
+    "is_bot": false,
+    "is_owner": false,
+    "league_id": "1146915228589056000",
+    "metadata": {
+      "allow_pn": "on",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "731689397950513152"
+  },
+  {
+    "avatar": "78fd14846ef602c67713c2ea00d6af7b",
+    "display_name": "HeirJordans",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1146915228589056000",
+    "metadata": {
+      "allow_pn": "on",
+      "archived": "on",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "854785777429753856"
+  },
+  {
+    "avatar": "67e801e887caf122f66d1dbd7bb06137",
+    "display_name": "alohamade",
+    "is_bot": false,
+    "is_owner": true,
+    "league_id": "1146915228589056000",
+    "metadata": {
+      "allow_pn": "on",
+      "archived": "on",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "875476474419912704"
+  },
+  {
+    "avatar": "f0edbf4278f53f9425db175073df6584",
+    "display_name": "blueline48",
+    "is_bot": false,
+    "is_owner": false,
+    "league_id": "1146915228589056000",
+    "metadata": {
+      "allow_pn": "on",
+      "archived": "on",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "905518324534910976"
+  },
+  {
+    "avatar": "4f4090e5e9c3941414db40a871e3e909",
+    "display_name": "timetogo",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1146915228589056000",
+    "metadata": {
+      "allow_pn": "on",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "1002868336608350208"
+  },
+  {
+    "avatar": "15d7cf259bc30eab8f6120f45f652fb6",
+    "display_name": "Stefondiggsgoat",
+    "is_bot": false,
+    "is_owner": false,
+    "league_id": "1146915228589056000",
+    "metadata": {
+      "allow_pn": "on",
+      "allow_sms": "on",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "1134090126793146368"
+  },
+  {
+    "avatar": "82aec8e811b839b8ec25d7b458afd57b",
+    "display_name": "sergregor123",
+    "is_bot": false,
+    "is_owner": false,
+    "league_id": "1146915228589056000",
+    "metadata": {
+      "allow_pn": "on",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "1139731471100604416"
+  },
+  {
+    "avatar": "3d58b4c45f890faa7436c6ccb4669d60",
+    "display_name": "DALLASBOY214",
+    "is_bot": false,
+    "is_owner": false,
+    "league_id": "1146915228589056000",
+    "metadata": {
+      "allow_pn": "on",
+      "allow_sms": "on",
+      "archived": "on",
+      "avatar": "https://sleepercdn.com/uploads/b17d261bf33aced266e6effe16f127bd.jpg",
+      "mention_pn": "on",
+      "team_name": "WE DEM BOYZ"
+    },
+    "settings": null,
+    "user_id": "1140065738242473984"
+  }
+]

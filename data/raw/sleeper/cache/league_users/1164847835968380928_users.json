@@ -1,0 +1,228 @@
+[
+  {
+    "avatar": "nfl_atl",
+    "display_name": "brees",
+    "is_bot": null,
+    "is_owner": null,
+    "league_id": "1164847835968380928",
+    "metadata": {
+      "allow_pn": "off",
+      "allow_sms": "off",
+      "league_report_pn": "on",
+      "mascot_message": "on",
+      "mention_pn": "on",
+      "player_like_pn": "on",
+      "player_nickname_update": "on",
+      "team_name": "D2 Xtra BoNix Points",
+      "team_name_update": "on",
+      "trade_block_pn": "on",
+      "transaction_commissioner": "on",
+      "transaction_free_agent": "on",
+      "transaction_trade": "on",
+      "transaction_waiver": "on",
+      "user_message_pn": "on"
+    },
+    "settings": null,
+    "user_id": "76848570250444800"
+  },
+  {
+    "avatar": "68b3ac8cc7d26e47e17dc717da2101e4",
+    "display_name": "imurhuckleb3rry",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1164847835968380928",
+    "metadata": {
+      "allow_pn": "on",
+      "archived": "on",
+      "mention_pn": "on",
+      "team_name": "D1 Huck"
+    },
+    "settings": null,
+    "user_id": "468691099204972544"
+  },
+  {
+    "avatar": "b90085b8fce696503d0e83e00136659a",
+    "display_name": "scote8933",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1164847835968380928",
+    "metadata": {
+      "allow_pn": "off",
+      "archived": "on",
+      "league_report_pn": "on",
+      "mascot_message": "on",
+      "mention_pn": "on",
+      "player_like_pn": "on",
+      "player_nickname_update": "on",
+      "team_name": "D3",
+      "team_name_update": "on",
+      "trade_block_pn": "on",
+      "transaction_commissioner": "on",
+      "transaction_free_agent": "off",
+      "transaction_trade": "on",
+      "transaction_waiver": "on",
+      "user_message_pn": "off"
+    },
+    "settings": null,
+    "user_id": "470810562897375232"
+  },
+  {
+    "avatar": "9a57d8217516a807c0c09f439632cd72",
+    "display_name": "HTXEthan",
+    "is_bot": false,
+    "is_owner": true,
+    "league_id": "1164847835968380928",
+    "metadata": {
+      "allow_pn": "on",
+      "archived": "on",
+      "mention_pn": "on",
+      "team_name": "D3 Drake Maye"
+    },
+    "settings": null,
+    "user_id": "699140328589967360"
+  },
+  {
+    "avatar": "dea5fb8ed315ed29c5e6ce134704bffc",
+    "display_name": "drewbles13",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1164847835968380928",
+    "metadata": {
+      "allow_pn": "on",
+      "archived": "on",
+      "mention_pn": "on",
+      "team_name": "D1 Drewbles"
+    },
+    "settings": null,
+    "user_id": "724718966571888640"
+  },
+  {
+    "avatar": "e7af4deab0289b4f5505646424895246",
+    "display_name": "juamji86",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1164847835968380928",
+    "metadata": {
+      "allow_pn": "on",
+      "archived": "on",
+      "mention_pn": "on",
+      "team_name": "D3 playa"
+    },
+    "settings": null,
+    "user_id": "727696622267473920"
+  },
+  {
+    "avatar": "96fe34bc070cbb5e6d33c64d0efe9780",
+    "display_name": "CaptainPicard00",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1164847835968380928",
+    "metadata": {
+      "allow_pn": "on",
+      "mention_pn": "on",
+      "team_name": "D2 Ethans team is poo"
+    },
+    "settings": null,
+    "user_id": "856681416132501504"
+  },
+  {
+    "avatar": "88e87d9f2ab8bff0d596c5ab7beaf960",
+    "display_name": "ThunderZak",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1164847835968380928",
+    "metadata": {
+      "allow_pn": "on",
+      "allow_sms": "on",
+      "archived": "on",
+      "avatar": "https://sleepercdn.com/uploads/ba4dc75239be2c69da8a271ac69761c7.jpg",
+      "mention_pn": "on",
+      "team_name": "D1CK"
+    },
+    "settings": null,
+    "user_id": "864668852515127296"
+  },
+  {
+    "avatar": "67570722a2d7882faf6e7881a081aecf",
+    "display_name": "TitleTown4LIFE",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1164847835968380928",
+    "metadata": {
+      "allow_pn": "on",
+      "archived": "on",
+      "mention_pn": "on",
+      "team_name": "D4 DHPACKFAN4LIFE"
+    },
+    "settings": null,
+    "user_id": "872025954271305728"
+  },
+  {
+    "avatar": "e7af4deab0289b4f5505646424895246",
+    "display_name": "Jcycling15",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1164847835968380928",
+    "metadata": {
+      "allow_pn": "on",
+      "mention_pn": "on",
+      "team_name": "D2 END-ZONE ELITE"
+    },
+    "settings": null,
+    "user_id": "910315982198124544"
+  },
+  {
+    "avatar": "e7af4deab0289b4f5505646424895246",
+    "display_name": "wrldsrus",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1164847835968380928",
+    "metadata": {
+      "allow_pn": "off",
+      "archived": "on",
+      "league_report_pn": "on",
+      "mascot_message": "on",
+      "mention_pn": "on",
+      "player_like_pn": "on",
+      "player_nickname_update": "on",
+      "team_name": "D4 Wrldsrus",
+      "team_name_update": "on",
+      "trade_block_pn": "on",
+      "transaction_commissioner": "on",
+      "transaction_free_agent": "on",
+      "transaction_trade": "on",
+      "transaction_waiver": "on",
+      "user_message_pn": "on"
+    },
+    "settings": null,
+    "user_id": "993680439116099584"
+  },
+  {
+    "avatar": "3cbcbd38ac05c97b942af802636d1a5e",
+    "display_name": "OhSheriBayBay",
+    "is_bot": false,
+    "is_owner": false,
+    "league_id": "1164847835968380928",
+    "metadata": {
+      "allow_pn": "on",
+      "archived": "on",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "1050587737226592256"
+  },
+  {
+    "avatar": "c8b364a7676595f4c6dad4e5e1108047",
+    "display_name": "cecem17",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1164847835968380928",
+    "metadata": {
+      "allow_pn": "on",
+      "mention_pn": "on",
+      "team_name": "D4 Cece"
+    },
+    "settings": null,
+    "user_id": "1134252707604226048"
+  }
+]

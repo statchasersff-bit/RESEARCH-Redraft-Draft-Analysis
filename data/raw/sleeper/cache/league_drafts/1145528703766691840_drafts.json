@@ -1,0 +1,59 @@
+[
+  {
+    "created": 1727477835519,
+    "creators": [
+      "968740232390582272"
+    ],
+    "draft_id": "1145528705268355072",
+    "draft_order": {
+      "1051188469604769792": 8,
+      "1133868828452073472": 10,
+      "1135709787905236992": 9,
+      "1145794233882910720": 4,
+      "1146176746922336256": 3,
+      "1146224204540964864": 7,
+      "649886687966650368": 5,
+      "733527406752710656": 1,
+      "781782365457530880": 6,
+      "968740232390582272": 2
+    },
+    "last_message_id": "1146304773591818240",
+    "last_message_time": 1727662864638,
+    "last_picked": 1727662863659,
+    "league_id": "1145528703766691840",
+    "metadata": {
+      "description": "",
+      "name": "Road to Lombardi",
+      "scoring_type": "ppr"
+    },
+    "season": "2024",
+    "season_type": "regular",
+    "settings": {
+      "alpha_sort": 0,
+      "autopause_enabled": 0,
+      "autopause_end_time": 1020,
+      "autopause_start_time": 300,
+      "autostart": 0,
+      "cpu_autopick": 1,
+      "enforce_position_limits": 1,
+      "nomination_timer": 60,
+      "pick_timer": 60,
+      "player_type": 0,
+      "reversal_round": 0,
+      "rounds": 15,
+      "slots_bn": 5,
+      "slots_def": 1,
+      "slots_flex": 2,
+      "slots_k": 1,
+      "slots_qb": 1,
+      "slots_rb": 2,
+      "slots_te": 1,
+      "slots_wr": 2,
+      "teams": 10
+    },
+    "sport": "nfl",
+    "start_time": 1727659856839,
+    "status": "complete",
+    "type": "snake"
+  }
+]

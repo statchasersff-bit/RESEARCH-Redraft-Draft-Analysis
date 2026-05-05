@@ -1,0 +1,147 @@
+[
+  {
+    "avatar": "nfl_det",
+    "display_name": "greekdawg",
+    "is_bot": null,
+    "is_owner": null,
+    "league_id": "1100299129906946048",
+    "metadata": {
+      "allow_pn": "on",
+      "archived": "on",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "100908832284622848"
+  },
+  {
+    "avatar": "b6f7eee9c000b1d41716eb7fa8608042",
+    "display_name": "ChancellorBogs",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1100299129906946048",
+    "metadata": {
+      "allow_pn": "on",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "359110585977204736"
+  },
+  {
+    "avatar": "58bc0e6bd63fcc7efc94ef58a6165c81",
+    "display_name": "onnigcamp",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1100299129906946048",
+    "metadata": {
+      "allow_pn": "on",
+      "allow_sms": "on",
+      "archived": "on",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "567216326543413248"
+  },
+  {
+    "avatar": "360e6d74d3c9a10c92884c1cb8a0287a",
+    "display_name": "SMoen",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1100299129906946048",
+    "metadata": {
+      "allow_pn": "on",
+      "archived": "on",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "636776673278332928"
+  },
+  {
+    "avatar": "59fb195242caeab586e35606001a2806",
+    "display_name": "CaptainConstant",
+    "is_bot": false,
+    "is_owner": true,
+    "league_id": "1100299129906946048",
+    "metadata": {
+      "allow_pn": "on",
+      "archived": "off",
+      "avatar": "https://sleepercdn.com/uploads/acb8515a8c2c224c6c4473684992e030.jpg",
+      "mention_pn": "on",
+      "team_name": "Not Penny’s Boat"
+    },
+    "settings": null,
+    "user_id": "704220888010145792"
+  },
+  {
+    "avatar": "8d434376e421cd45db4dd4bc85cb74e1",
+    "display_name": "DConstant",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1100299129906946048",
+    "metadata": {
+      "allow_pn": "on",
+      "archived": "on",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "833045045924986880"
+  },
+  {
+    "avatar": "fa18f14ffd5645bdfd68514b595b9736",
+    "display_name": "CeeGoods",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1100299129906946048",
+    "metadata": {
+      "allow_pn": "on",
+      "archived": "off",
+      "mention_pn": "on",
+      "team_name": "Cooked 👨🏾‍🍳"
+    },
+    "settings": null,
+    "user_id": "841401429070577664"
+  },
+  {
+    "avatar": "e7af4deab0289b4f5505646424895246",
+    "display_name": "TheJuggernaut86",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1100299129906946048",
+    "metadata": {
+      "allow_pn": "on",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "992246240119267328"
+  },
+  {
+    "avatar": "4c4d18e64e7c552c13717c74b6331b44",
+    "display_name": "Kaichar",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1100299129906946048",
+    "metadata": {
+      "allow_pn": "on",
+      "allow_sms": "on",
+      "archived": "on",
+      "mention_pn": "on",
+      "team_name": "Kyler’s Harri Sons "
+    },
+    "settings": null,
+    "user_id": "1004830625263628288"
+  },
+  {
+    "avatar": "d87c9bfcc6f5238ed5214636e725b6e0",
+    "display_name": "Pbarbs86",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1100299129906946048",
+    "metadata": {
+      "allow_pn": "on",
+      "avatar": "https://sleepercdn.com/uploads/85c0eac97c7612943b7a06d60b98e5e6.jpg",
+      "mention_pn": "on",
+      "team_name": "BommyKnockers"
+    },
+    "settings": null,
+    "user_id": "1133633193263104000"
+  }
+]

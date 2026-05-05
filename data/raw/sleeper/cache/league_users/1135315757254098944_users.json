@@ -1,0 +1,168 @@
+[
+  {
+    "avatar": "0cba34493678bfab285a8cbe502ad520",
+    "display_name": "jimmy504",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1135315757254098944",
+    "metadata": {
+      "allow_pn": "on",
+      "archived": "on",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "338764139755233280"
+  },
+  {
+    "avatar": "cf07b92fe9764dcd87bb71648cd8b196",
+    "display_name": "BAR0N",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1135315757254098944",
+    "metadata": {
+      "allow_pn": "on",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "395598408427040768"
+  },
+  {
+    "avatar": "37d45d33fb620c178ca2ff65cfb487c7",
+    "display_name": "foxwalk",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1135315757254098944",
+    "metadata": {
+      "allow_pn": "on",
+      "archived": "on",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "458356775033237504"
+  },
+  {
+    "avatar": "2ba2993c32660c8ab64c72bf5c0c904f",
+    "display_name": "webthree",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1135315757254098944",
+    "metadata": {
+      "allow_pn": "on",
+      "archived": "on",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "577536103842615296"
+  },
+  {
+    "avatar": "66a31b08228bb42f868ec459027a88b8",
+    "display_name": "THECREWbro48",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1135315757254098944",
+    "metadata": {
+      "allow_pn": "on",
+      "archived": "on",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "605887465290530816"
+  },
+  {
+    "avatar": "51c11ee37c5e08dd9e994b02fd193a2c",
+    "display_name": "RedZoneRiptide",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1135315757254098944",
+    "metadata": {
+      "allow_pn": "on",
+      "archived": "on",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "668594062714015744"
+  },
+  {
+    "avatar": "2d329463c2e3afcd9e5d94efb46e5e1b",
+    "display_name": "6oku",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1135315757254098944",
+    "metadata": {
+      "allow_pn": "on",
+      "archived": "on",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "711697074571284480"
+  },
+  {
+    "avatar": "e3c091cd952be44684d54f540a91675c",
+    "display_name": "DarkChocolate7",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1135315757254098944",
+    "metadata": {
+      "allow_pn": "on",
+      "archived": "on",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "744052826812100608"
+  },
+  {
+    "avatar": "4f4090e5e9c3941414db40a871e3e909",
+    "display_name": "kidderpop",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1135315757254098944",
+    "metadata": {
+      "allow_pn": "on",
+      "archived": "on",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "855635115181744128"
+  },
+  {
+    "avatar": "5322827303b5aaeab0e6fc07ce8b4351",
+    "display_name": "TampaRaiderFan",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1135315757254098944",
+    "metadata": {
+      "allow_pn": "on",
+      "archived": "on",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "973790017720053760"
+  },
+  {
+    "avatar": "4f4090e5e9c3941414db40a871e3e909",
+    "display_name": "MagicMT1",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1135315757254098944",
+    "metadata": {
+      "allow_pn": "on",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "1099128162962776064"
+  },
+  {
+    "avatar": "4220ece708cb3c91ac0b3d0d99d1abae",
+    "display_name": "Guardiola7",
+    "is_bot": false,
+    "is_owner": true,
+    "league_id": "1135315757254098944",
+    "metadata": {
+      "allow_pn": "on",
+      "archived": "on",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "1127440175564500992"
+  }
+]

@@ -1,0 +1,58 @@
+[
+  {
+    "created": 1723512782633,
+    "creators": [
+      "704220888010145792"
+    ],
+    "draft_id": "1128898068067336192",
+    "draft_order": {
+      "100908832284622848": 7,
+      "464565448231350272": 5,
+      "519088292400353280": 1,
+      "522513197997666304": 8,
+      "607008797717757952": 4,
+      "608368108599595008": 3,
+      "704220888010145792": 2,
+      "722822421454843904": 6,
+      "841401429070577664": 9,
+      "868360290927038464": 10
+    },
+    "last_message_id": "1129663680095748096",
+    "last_message_time": 1723695318772,
+    "last_picked": 1723695318114,
+    "league_id": "1128898066788020224",
+    "metadata": {
+      "description": "",
+      "name": "Toonami Midnight’s",
+      "scoring_type": "2qb"
+    },
+    "season": "2024",
+    "season_type": "regular",
+    "settings": {
+      "alpha_sort": 0,
+      "autopause_enabled": 0,
+      "autopause_end_time": 840,
+      "autopause_start_time": 120,
+      "autostart": 0,
+      "cpu_autopick": 1,
+      "enforce_position_limits": 1,
+      "nomination_timer": 60,
+      "pick_timer": 90,
+      "player_type": 0,
+      "reversal_round": 0,
+      "rounds": 18,
+      "slots_bn": 8,
+      "slots_flex": 2,
+      "slots_qb": 1,
+      "slots_rb": 2,
+      "slots_super_flex": 1,
+      "slots_te": 1,
+      "slots_wr": 3,
+      "teams": 10
+    },
+    "sport": "nfl",
+    "start_time": 1723689833032,
+    "status": "complete",
+    "type": "snake"
+  }
+]

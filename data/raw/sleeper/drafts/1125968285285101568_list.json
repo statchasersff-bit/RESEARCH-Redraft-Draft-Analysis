@@ -1,0 +1,59 @@
+[
+  {
+    "created": 1722814268154,
+    "creators": [
+      "606262790033825792"
+    ],
+    "draft_id": "1125968286006509568",
+    "draft_order": {
+      "1126320258530234368": 12,
+      "1126719431025074176": 7,
+      "1127451720499535872": 1,
+      "435958032753487872": 11,
+      "606262790033825792": 3,
+      "689410036593684480": 4,
+      "695080900739796992": 5,
+      "860287389455740928": 10,
+      "953842326240100352": 6,
+      "994729951339270144": 8,
+      "997236192850567168": 2
+    },
+    "last_message_id": "1134000717288497152",
+    "last_message_time": 1724729349018,
+    "last_picked": 1724729348168,
+    "league_id": "1125968285285101568",
+    "metadata": {
+      "description": "",
+      "name": "New year, new team",
+      "scoring_type": "half_ppr"
+    },
+    "season": "2024",
+    "season_type": "regular",
+    "settings": {
+      "alpha_sort": 0,
+      "autopause_enabled": 0,
+      "autopause_end_time": 840,
+      "autopause_start_time": 120,
+      "autostart": 0,
+      "cpu_autopick": 1,
+      "nomination_timer": 60,
+      "pick_timer": 90,
+      "player_type": 0,
+      "reversal_round": 0,
+      "rounds": 16,
+      "slots_bn": 5,
+      "slots_def": 1,
+      "slots_flex": 2,
+      "slots_k": 1,
+      "slots_qb": 1,
+      "slots_rb": 2,
+      "slots_te": 1,
+      "slots_wr": 3,
+      "teams": 12
+    },
+    "sport": "nfl",
+    "start_time": 1724722201162,
+    "status": "complete",
+    "type": "snake"
+  }
+]

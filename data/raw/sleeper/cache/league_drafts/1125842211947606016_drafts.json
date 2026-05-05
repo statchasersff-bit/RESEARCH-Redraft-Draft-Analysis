@@ -1,0 +1,59 @@
+[
+  {
+    "created": 1722784210009,
+    "creators": [
+      "468297563452207104"
+    ],
+    "draft_id": "1125842213000372224",
+    "draft_order": {
+      "1004513223036530688": 2,
+      "434440215365414912": 6,
+      "466864878439624704": 10,
+      "468297563452207104": 5,
+      "468321980785881088": 4,
+      "710332074363523072": 8,
+      "732712183326175232": 1,
+      "987436687699587072": 9,
+      "990819385696657408": 3
+    },
+    "last_message_id": "1126017878177607680",
+    "last_message_time": 1722826091859,
+    "last_picked": 1722826091360,
+    "league_id": "1125842211947606016",
+    "metadata": {
+      "description": "",
+      "name": "Big Titty Greens",
+      "scoring_type": "2qb"
+    },
+    "season": "2024",
+    "season_type": "regular",
+    "settings": {
+      "alpha_sort": 0,
+      "autopause_enabled": 0,
+      "autopause_end_time": 1020,
+      "autopause_start_time": 300,
+      "autostart": 0,
+      "cpu_autopick": 1,
+      "enforce_position_limits": 1,
+      "nomination_timer": 60,
+      "pick_timer": 60,
+      "player_type": 0,
+      "reversal_round": 0,
+      "rounds": 16,
+      "slots_bn": 6,
+      "slots_def": 1,
+      "slots_flex": 1,
+      "slots_k": 1,
+      "slots_qb": 1,
+      "slots_rb": 2,
+      "slots_super_flex": 1,
+      "slots_te": 1,
+      "slots_wr": 2,
+      "teams": 10
+    },
+    "sport": "nfl",
+    "start_time": 1722823248342,
+    "status": "complete",
+    "type": "snake"
+  }
+]

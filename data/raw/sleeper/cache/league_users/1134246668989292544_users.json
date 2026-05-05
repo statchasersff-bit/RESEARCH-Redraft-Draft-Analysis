@@ -1,0 +1,183 @@
+[
+  {
+    "avatar": "73c9a88ac853355ead2d32ad98eff24a",
+    "display_name": "DanielCF13",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1134246668989292544",
+    "metadata": {
+      "allow_pn": "off",
+      "league_report_pn": "off",
+      "mascot_message": "off",
+      "mention_pn": "on",
+      "player_like_pn": "off",
+      "player_nickname_update": "off",
+      "team_name": "🧀 Go Pack Go 🧀",
+      "team_name_update": "off",
+      "trade_block_pn": "off",
+      "transaction_commissioner": "off",
+      "transaction_free_agent": "off",
+      "transaction_trade": "off",
+      "transaction_waiver": "off",
+      "user_message_pn": "off"
+    },
+    "settings": null,
+    "user_id": "343067503850754048"
+  },
+  {
+    "avatar": "0550b96c9a2d03f5c0f0ade1e850047b",
+    "display_name": "Tfoskey3",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1134246668989292544",
+    "metadata": {
+      "allow_pn": "on",
+      "allow_sms": "on",
+      "archived": "on",
+      "mention_pn": "on",
+      "team_name": "Barry mcCockner"
+    },
+    "settings": null,
+    "user_id": "467369926768717824"
+  },
+  {
+    "avatar": "3a8f4581cc1932ab41d1f0ed15806ac5",
+    "display_name": "BerniehasaKnife",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1134246668989292544",
+    "metadata": {
+      "allow_pn": "on",
+      "mention_pn": "on",
+      "team_name": "The DUI’s"
+    },
+    "settings": null,
+    "user_id": "593248553699168256"
+  },
+  {
+    "avatar": "4de6317a001ef8527587af5f03c9f119",
+    "display_name": "ShayneLaFlame",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1134246668989292544",
+    "metadata": {
+      "allow_pn": "on",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "607762362799308800"
+  },
+  {
+    "avatar": "98c334ad0c4e49a8f9e3236ec8ce6a24",
+    "display_name": "UncleWhitt",
+    "is_bot": false,
+    "is_owner": true,
+    "league_id": "1134246668989292544",
+    "metadata": {
+      "allow_pn": "on",
+      "mention_pn": "on",
+      "team_name": "The Commish"
+    },
+    "settings": null,
+    "user_id": "723012598097833984"
+  },
+  {
+    "avatar": "b319fdf8b7b5b0359d3c78622ba4d70c",
+    "display_name": "KardiacKid1",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1134246668989292544",
+    "metadata": {
+      "allow_pn": "on",
+      "allow_sms": "on",
+      "archived": "off",
+      "avatar": "https://sleepercdn.com/uploads/31d72e07ce6192063d6ed61b6a8e8d65.jpg",
+      "mention_pn": "on",
+      "team_name": "DawgPound"
+    },
+    "settings": null,
+    "user_id": "1005285844929970176"
+  },
+  {
+    "avatar": "b319fdf8b7b5b0359d3c78622ba4d70c",
+    "display_name": "Oerther1676",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1134246668989292544",
+    "metadata": {
+      "allow_pn": "on",
+      "archived": "on",
+      "league_report_pn": "on",
+      "mascot_message": "on",
+      "mention_pn": "on",
+      "player_like_pn": "on",
+      "player_nickname_update": "off",
+      "team_name_update": "off",
+      "trade_block_pn": "on",
+      "transaction_commissioner": "on",
+      "transaction_free_agent": "on",
+      "transaction_trade": "on",
+      "transaction_waiver": "on",
+      "user_message_pn": "on"
+    },
+    "settings": null,
+    "user_id": "1112857307622289408"
+  },
+  {
+    "avatar": "8eb8f8bf999945d523f2c4033f70473e",
+    "display_name": "JFIZZLE83",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1134246668989292544",
+    "metadata": {
+      "allow_pn": "on",
+      "allow_sms": "on",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "1133500124954542080"
+  },
+  {
+    "avatar": "f0edbf4278f53f9425db175073df6584",
+    "display_name": "Bke3",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1134246668989292544",
+    "metadata": {
+      "allow_pn": "on",
+      "allow_sms": "on",
+      "mention_pn": "on",
+      "team_name": "B-Iron"
+    },
+    "settings": null,
+    "user_id": "1135965952136458240"
+  },
+  {
+    "avatar": "b3338675f635c2c1f42b469621d38ec6",
+    "display_name": "MrWolcott7",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1134246668989292544",
+    "metadata": {
+      "allow_pn": "on",
+      "avatar": "https://sleepercdn.com/uploads/e6c1661b92788704c4e08799df623aaa.jpg",
+      "mention_pn": "on",
+      "team_name": "Fudge packers"
+    },
+    "settings": null,
+    "user_id": "1136089470371356672"
+  },
+  {
+    "avatar": "15d7cf259bc30eab8f6120f45f652fb6",
+    "display_name": "bhano",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1134246668989292544",
+    "metadata": {
+      "allow_pn": "on",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "1136092223906529280"
+  }
+]

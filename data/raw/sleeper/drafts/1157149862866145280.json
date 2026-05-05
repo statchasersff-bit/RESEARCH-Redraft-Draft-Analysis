@@ -1,0 +1,67 @@
+{
+  "created": 1730248535403,
+  "creators": [
+    "1133189650946027520"
+  ],
+  "draft_id": "1157149862866145280",
+  "draft_order": {
+    "1013078134262951936": 6,
+    "1130324167909367808": 8,
+    "1133189650946027520": 5,
+    "1133944457298165760": 7,
+    "1135709787905236992": 10,
+    "464576932571246592": 9,
+    "649957298487242752": 1,
+    "721894417635561472": 2
+  },
+  "last_message_id": "1157543799963271168",
+  "last_message_time": 1730342457336,
+  "last_picked": 1730342456750,
+  "league_id": "1157149860949413888",
+  "metadata": {
+    "description": "",
+    "name": "Mid-Season Warriors",
+    "scoring_type": "ppr"
+  },
+  "season": "2024",
+  "season_type": "regular",
+  "settings": {
+    "alpha_sort": 0,
+    "autopause_enabled": 0,
+    "autopause_end_time": 840,
+    "autopause_start_time": 120,
+    "autostart": 0,
+    "cpu_autopick": 1,
+    "enforce_position_limits": 1,
+    "nomination_timer": 60,
+    "pick_timer": 30,
+    "player_type": 0,
+    "reversal_round": 0,
+    "rounds": 15,
+    "slots_bn": 5,
+    "slots_def": 1,
+    "slots_flex": 2,
+    "slots_k": 1,
+    "slots_qb": 1,
+    "slots_rb": 2,
+    "slots_te": 1,
+    "slots_wr": 2,
+    "teams": 10
+  },
+  "slot_to_roster_id": {
+    "1": 2,
+    "2": 4,
+    "3": 3,
+    "4": 6,
+    "5": 1,
+    "6": 7,
+    "7": 5,
+    "8": 8,
+    "9": 9,
+    "10": 10
+  },
+  "sport": "nfl",
+  "start_time": 1730340064115,
+  "status": "complete",
+  "type": "snake"
+}

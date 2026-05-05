@@ -1,0 +1,167 @@
+[
+  {
+    "avatar": "c1352eafc0936dfa76061a0397fad06f",
+    "display_name": "lynch22",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1126009159125770240",
+    "metadata": {
+      "allow_pn": "off",
+      "archived": "on",
+      "league_report_pn": "on",
+      "mascot_message": "on",
+      "mention_pn": "on",
+      "player_like_pn": "on",
+      "player_nickname_update": "on",
+      "team_name_update": "on",
+      "trade_block_pn": "on",
+      "transaction_commissioner": "on",
+      "transaction_free_agent": "on",
+      "transaction_trade": "on",
+      "transaction_waiver": "on",
+      "user_message_pn": "off"
+    },
+    "settings": null,
+    "user_id": "325635180213583872"
+  },
+  {
+    "avatar": "920eef1b07120eb519c82a22cabaee44",
+    "display_name": "Mutd",
+    "is_bot": false,
+    "is_owner": false,
+    "league_id": "1126009159125770240",
+    "metadata": {
+      "allow_pn": "on",
+      "allow_sms": "on",
+      "archived": "on",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "339669938509774848"
+  },
+  {
+    "avatar": "81eea412451bf9db0f68935fe617a802",
+    "display_name": "Groundzero",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1126009159125770240",
+    "metadata": {
+      "allow_pn": "on",
+      "archived": "on",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "410511502496235520"
+  },
+  {
+    "avatar": "861ff7354f35ac1b8fd2c7dd56bafd73",
+    "display_name": "pmzet",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1126009159125770240",
+    "metadata": {
+      "allow_pn": "on",
+      "archived": "on",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "472677951763116032"
+  },
+  {
+    "avatar": "9cf0ba07b858634478ff0edec78d0412",
+    "display_name": "Bigmike2325",
+    "is_bot": false,
+    "is_owner": false,
+    "league_id": "1126009159125770240",
+    "metadata": {
+      "allow_pn": "on",
+      "archived": "on",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "472981593753907200"
+  },
+  {
+    "avatar": "5bcc291797e982b476b92e7cd4b85107",
+    "display_name": "WallStreetWolf",
+    "is_bot": false,
+    "is_owner": true,
+    "league_id": "1126009159125770240",
+    "metadata": {
+      "allow_pn": "on",
+      "archived": "off",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "605204730381156352"
+  },
+  {
+    "avatar": "64ece7edbc417ff8ba5b478d39e98180",
+    "display_name": "andyrrt1",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1126009159125770240",
+    "metadata": {
+      "allow_pn": "on",
+      "archived": "on",
+      "mention_pn": "on",
+      "team_name": "Andyrrt1 $25 W 🟢"
+    },
+    "settings": null,
+    "user_id": "714455613945495552"
+  },
+  {
+    "avatar": "b319fdf8b7b5b0359d3c78622ba4d70c",
+    "display_name": "NWillman",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1126009159125770240",
+    "metadata": {
+      "allow_pn": "on",
+      "archived": "on",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "736668285218742272"
+  },
+  {
+    "avatar": "e4c6078012f7cc1bed1bf0667d243e52",
+    "display_name": "Millertime100",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1126009159125770240",
+    "metadata": {
+      "allow_pn": "on",
+      "allow_sms": "on",
+      "archived": "on",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "740307822297911296"
+  },
+  {
+    "avatar": "48e3ea6f73b2c8970673ab3f7e4aaf63",
+    "display_name": "Ghostrider23",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1126009159125770240",
+    "metadata": {
+      "allow_pn": "off",
+      "archived": "on",
+      "league_report_pn": "off",
+      "mascot_message": "on",
+      "mention_pn": "on",
+      "player_like_pn": "on",
+      "player_nickname_update": "on",
+      "team_name_update": "on",
+      "trade_block_pn": "on",
+      "transaction_commissioner": "on",
+      "transaction_free_agent": "on",
+      "transaction_trade": "on",
+      "transaction_waiver": "on",
+      "user_message_pn": "on"
+    },
+    "settings": null,
+    "user_id": "742991496109813760"
+  }
+]

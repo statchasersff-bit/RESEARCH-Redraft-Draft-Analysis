@@ -1,0 +1,64 @@
+[
+  {
+    "created": 1725407404872,
+    "creators": [
+      "1000488762083733504"
+    ],
+    "draft_id": "1136844689732153344",
+    "draft_order": {
+      "1000488762083733504": 7,
+      "1017994643369234432": 4,
+      "1049414827418042368": 5,
+      "519663214981992448": 1,
+      "729203632880349184": 11,
+      "730194028108320768": 3,
+      "732482241745285120": 6,
+      "797476628027527168": 10,
+      "857835167300075520": 9,
+      "958250559578906624": 12,
+      "993316560674660352": 8,
+      "996400838308335616": 2
+    },
+    "last_message_id": "1137230120353386496",
+    "last_message_time": 1725499298708,
+    "last_picked": 1725499292734,
+    "league_id": "1136844680970579968",
+    "metadata": {
+      "description": "",
+      "name": "Superflex Bonus League! 🏈🤺🏆💰",
+      "scoring_type": "2qb"
+    },
+    "season": "2024",
+    "season_type": "regular",
+    "settings": {
+      "alpha_sort": 0,
+      "autopause_enabled": 0,
+      "autopause_end_time": 840,
+      "autopause_start_time": 120,
+      "autostart": 1,
+      "cpu_autopick": 1,
+      "enforce_position_limits": 1,
+      "nomination_timer": 60,
+      "pick_timer": 60,
+      "player_type": 0,
+      "reversal_round": 0,
+      "rounds": 19,
+      "slots_bn": 6,
+      "slots_def": 1,
+      "slots_flex": 2,
+      "slots_k": 1,
+      "slots_qb": 1,
+      "slots_rb": 2,
+      "slots_rec_flex": 1,
+      "slots_super_flex": 1,
+      "slots_te": 1,
+      "slots_wr": 2,
+      "slots_wrrb_flex": 1,
+      "teams": 12
+    },
+    "sport": "nfl",
+    "start_time": 1725494423236,
+    "status": "complete",
+    "type": "snake"
+  }
+]

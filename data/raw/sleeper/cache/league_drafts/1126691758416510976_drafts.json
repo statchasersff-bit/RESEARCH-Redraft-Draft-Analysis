@@ -1,0 +1,60 @@
+[
+  {
+    "created": 1722986757808,
+    "creators": [
+      "857479815278755840",
+      "997004826523340800"
+    ],
+    "draft_id": "1126691760073216000",
+    "draft_order": {
+      "1062110546754973696": 11,
+      "1125401968186425344": 6,
+      "472526093044150272": 5,
+      "559216444229914624": 7,
+      "733870046803316736": 9,
+      "841796739173322752": 4,
+      "857479815278755840": 12,
+      "857653942228721664": 8,
+      "867534014821609472": 2,
+      "954077747045879808": 10,
+      "961744439204954112": 1,
+      "997004826523340800": 3
+    },
+    "last_message_id": "1131768652866314240",
+    "last_message_time": 1724197183389,
+    "last_picked": 1724197182178,
+    "league_id": "1126691758416510976",
+    "metadata": {
+      "description": "",
+      "name": "Our Boss Thinks We Working",
+      "scoring_type": "ppr"
+    },
+    "season": "2024",
+    "season_type": "regular",
+    "settings": {
+      "alpha_sort": 0,
+      "autopause_enabled": 1,
+      "autopause_end_time": 840,
+      "autopause_start_time": 240,
+      "autostart": 0,
+      "cpu_autopick": 1,
+      "enforce_position_limits": 1,
+      "nomination_timer": 60,
+      "pick_timer": 14400,
+      "player_type": 0,
+      "reversal_round": 0,
+      "rounds": 17,
+      "slots_bn": 8,
+      "slots_flex": 3,
+      "slots_qb": 1,
+      "slots_rb": 2,
+      "slots_te": 1,
+      "slots_wr": 2,
+      "teams": 12
+    },
+    "sport": "nfl",
+    "start_time": 1723842053018,
+    "status": "complete",
+    "type": "snake"
+  }
+]

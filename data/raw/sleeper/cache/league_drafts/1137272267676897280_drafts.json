@@ -1,0 +1,58 @@
+[
+  {
+    "created": 1725509348260,
+    "creators": [
+      "731001820226363392"
+    ],
+    "draft_id": "1137272271267282944",
+    "draft_order": {
+      "1050587737226592256": 8,
+      "721724263949750272": 6,
+      "728024678634983424": 7,
+      "731001820226363392": 4,
+      "737100938409615360": 10,
+      "862203654499860480": 2,
+      "868333430033838080": 9,
+      "959585898750865408": 5,
+      "998086781683847168": 3
+    },
+    "last_message_id": "1137299184375353344",
+    "last_message_time": 1725515764854,
+    "last_picked": 1725515743268,
+    "league_id": "1137272267676897280",
+    "metadata": {
+      "description": "",
+      "name": "Jack of all Trades III 2024",
+      "scoring_type": "ppr"
+    },
+    "season": "2024",
+    "season_type": "regular",
+    "settings": {
+      "alpha_sort": 0,
+      "autopause_enabled": 0,
+      "autopause_end_time": 960,
+      "autopause_start_time": 240,
+      "autostart": 0,
+      "cpu_autopick": 1,
+      "enforce_position_limits": 1,
+      "nomination_timer": 60,
+      "pick_timer": 60,
+      "player_type": 0,
+      "reversal_round": 0,
+      "rounds": 17,
+      "slots_bn": 7,
+      "slots_def": 1,
+      "slots_flex": 1,
+      "slots_k": 1,
+      "slots_qb": 1,
+      "slots_rb": 2,
+      "slots_te": 1,
+      "slots_wr": 3,
+      "teams": 10
+    },
+    "sport": "nfl",
+    "start_time": 1725512997768,
+    "status": "complete",
+    "type": "snake"
+  }
+]

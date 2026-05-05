@@ -1,0 +1,64 @@
+[
+  {
+    "created": 1727054253070,
+    "creators": [
+      "1000488762083733504"
+    ],
+    "draft_id": "1143752071705247744",
+    "draft_order": {
+      "1000488762083733504": 10,
+      "1002349792435068928": 9,
+      "1026301924645224448": 6,
+      "1026536629743251456": 3,
+      "1134993959207493632": 12,
+      "1140217483107024896": 2,
+      "406663969214844928": 4,
+      "729203632880349184": 11,
+      "738956149554098176": 8,
+      "861686785690935296": 7,
+      "993316560674660352": 1,
+      "996166464296148993": 5
+    },
+    "last_message_id": "1144114116022382592",
+    "last_message_time": 1727140571173,
+    "last_picked": 1727140569604,
+    "league_id": "1143752060324851712",
+    "metadata": {
+      "description": "",
+      "name": "Late Super Flexers💪💪💪🏈🤺🏆💰",
+      "scoring_type": "2qb"
+    },
+    "season": "2024",
+    "season_type": "regular",
+    "settings": {
+      "alpha_sort": 0,
+      "autopause_enabled": 0,
+      "autopause_end_time": 840,
+      "autopause_start_time": 120,
+      "autostart": 1,
+      "cpu_autopick": 1,
+      "enforce_position_limits": 1,
+      "nomination_timer": 60,
+      "pick_timer": 60,
+      "player_type": 0,
+      "reversal_round": 0,
+      "rounds": 21,
+      "slots_bn": 8,
+      "slots_def": 1,
+      "slots_flex": 2,
+      "slots_k": 1,
+      "slots_qb": 1,
+      "slots_rb": 2,
+      "slots_rec_flex": 1,
+      "slots_super_flex": 1,
+      "slots_te": 1,
+      "slots_wr": 2,
+      "slots_wrrb_flex": 1,
+      "teams": 12
+    },
+    "sport": "nfl",
+    "start_time": 1727136017057,
+    "status": "complete",
+    "type": "snake"
+  }
+]

@@ -1,0 +1,61 @@
+[
+  {
+    "created": 1726152462061,
+    "creators": [
+      "1001871577450917888"
+    ],
+    "draft_id": "1139969686076198912",
+    "draft_order": {
+      "1001871577450917888": 9,
+      "1004760154774102016": 1,
+      "1118678669683183616": 8,
+      "1121984739742732288": 4,
+      "1129884418816081920": 3,
+      "1133221401487474688": 5,
+      "1134690336116314112": 10,
+      "1139272713643687936": 2,
+      "1141496911174721536": 7,
+      "854110753379155968": 6
+    },
+    "last_message_id": "1141861517051097088",
+    "last_message_time": 1726603509728,
+    "last_picked": 1726603508736,
+    "league_id": "1139969685249781760",
+    "metadata": {
+      "description": "",
+      "name": "Janiel Dones League",
+      "scoring_type": "ppr"
+    },
+    "season": "2024",
+    "season_type": "regular",
+    "settings": {
+      "alpha_sort": 0,
+      "autopause_enabled": 0,
+      "autopause_end_time": 480,
+      "autopause_start_time": 1200,
+      "autostart": 0,
+      "cpu_autopick": 1,
+      "enforce_position_limits": 1,
+      "nomination_timer": 60,
+      "pick_timer": 60,
+      "player_type": 0,
+      "position_limit_qb": 3,
+      "position_limit_te": 2,
+      "reversal_round": 0,
+      "rounds": 15,
+      "slots_bn": 5,
+      "slots_def": 1,
+      "slots_flex": 2,
+      "slots_k": 1,
+      "slots_qb": 1,
+      "slots_rb": 2,
+      "slots_te": 1,
+      "slots_wr": 2,
+      "teams": 10
+    },
+    "sport": "nfl",
+    "start_time": 1726601745859,
+    "status": "complete",
+    "type": "snake"
+  }
+]

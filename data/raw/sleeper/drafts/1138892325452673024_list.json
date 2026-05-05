@@ -1,0 +1,42 @@
+[
+  {
+    "created": 1725895599425,
+    "creators": [
+      "1138891875437486080"
+    ],
+    "draft_id": "1138892326065041408",
+    "draft_order": {
+      "1138891875437486080": 10
+    },
+    "last_message_id": "1138920735834955776",
+    "last_message_time": 1725902372848,
+    "last_picked": 1725902372210,
+    "league_id": "1138892325452673024",
+    "metadata": {
+      "description": "",
+      "name": "Shonfa",
+      "scoring_type": "ppr"
+    },
+    "season": "2024",
+    "season_type": "regular",
+    "settings": {
+      "autostart": 0,
+      "cpu_autopick": 1,
+      "pick_timer": 120,
+      "rounds": 15,
+      "slots_bn": 5,
+      "slots_def": 1,
+      "slots_flex": 2,
+      "slots_k": 1,
+      "slots_qb": 1,
+      "slots_rb": 2,
+      "slots_te": 1,
+      "slots_wr": 2,
+      "teams": 10
+    },
+    "sport": "nfl",
+    "start_time": 1725901921961,
+    "status": "complete",
+    "type": "snake"
+  }
+]

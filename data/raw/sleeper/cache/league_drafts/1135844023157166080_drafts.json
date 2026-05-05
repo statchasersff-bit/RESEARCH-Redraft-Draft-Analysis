@@ -1,0 +1,59 @@
+[
+  {
+    "created": 1725168827558,
+    "creators": [
+      "998015572132696064"
+    ],
+    "draft_id": "1135844023937429504",
+    "draft_order": {
+      "340353807177224192": 6,
+      "638830283151564800": 11,
+      "810983013285502976": 2,
+      "866864761722273792": 1,
+      "868692216254742528": 4,
+      "872631047144345600": 5,
+      "919783068653666304": 8,
+      "982483033641033728": 3,
+      "997840490902999040": 7,
+      "998015572132696064": 9,
+      "998299071313940480": 12,
+      "999589318257684480": 10
+    },
+    "last_message_id": "1135867182128087040",
+    "last_message_time": 1725174348913,
+    "last_picked": 1725174348127,
+    "league_id": "1135844023157166080",
+    "metadata": {
+      "description": "",
+      "name": "Redraft 2024 drsft season weekend",
+      "scoring_type": "ppr"
+    },
+    "season": "2024",
+    "season_type": "regular",
+    "settings": {
+      "alpha_sort": 0,
+      "autopause_enabled": 0,
+      "autopause_end_time": 1020,
+      "autopause_start_time": 300,
+      "autostart": 0,
+      "cpu_autopick": 1,
+      "enforce_position_limits": 1,
+      "nomination_timer": 60,
+      "pick_timer": 30,
+      "player_type": 0,
+      "reversal_round": 0,
+      "rounds": 16,
+      "slots_bn": 7,
+      "slots_flex": 2,
+      "slots_qb": 1,
+      "slots_rb": 2,
+      "slots_te": 1,
+      "slots_wr": 3,
+      "teams": 12
+    },
+    "sport": "nfl",
+    "start_time": 1725170747725,
+    "status": "complete",
+    "type": "snake"
+  }
+]

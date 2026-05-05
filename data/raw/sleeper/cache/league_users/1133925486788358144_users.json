@@ -1,0 +1,228 @@
+[
+  {
+    "avatar": "7fd42b134bdbb090208a6861ac24b456",
+    "display_name": "RefrigeratorLarry",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1133925486788358144",
+    "metadata": {
+      "allow_pn": "on",
+      "archived": "on",
+      "mention_pn": "on",
+      "team_name": "Achane in the Membrane "
+    },
+    "settings": null,
+    "user_id": "464352740781322240"
+  },
+  {
+    "avatar": "e36a6748fbd53ab64ceb5f669bc6e27c",
+    "display_name": "FilPena",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1133925486788358144",
+    "metadata": {
+      "allow_pn": "on",
+      "avatar": "https://sleepercdn.com/uploads/a591a26f89d40b0e95f23bb34605b251.jpg",
+      "mention_pn": "on",
+      "team_name": "Febreece"
+    },
+    "settings": null,
+    "user_id": "602411732236828672"
+  },
+  {
+    "avatar": "13283808b49da4f2476b43a230df640d",
+    "display_name": "AClod08",
+    "is_bot": false,
+    "is_owner": false,
+    "league_id": "1133925486788358144",
+    "metadata": {
+      "allow_pn": "on",
+      "archived": "on",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "605218929719189504"
+  },
+  {
+    "avatar": null,
+    "display_name": "Daleirj",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1133925486788358144",
+    "metadata": {
+      "allow_pn": "off",
+      "archived": "on",
+      "avatar": "https://sleepercdn.com/uploads/e50f698aed43b8c8a933f04594488abf.jpg",
+      "league_report_pn": "on",
+      "mascot_message": "off",
+      "mention_pn": "off",
+      "player_like_pn": "off",
+      "player_nickname_update": "off",
+      "team_name": "Big Carnelian Lakers",
+      "team_name_update": "off",
+      "trade_block_pn": "off",
+      "transaction_commissioner": "off",
+      "transaction_free_agent": "on",
+      "transaction_trade": "on",
+      "transaction_waiver": "on",
+      "user_message_pn": "off"
+    },
+    "settings": null,
+    "user_id": "606707045651009536"
+  },
+  {
+    "avatar": "e36a6748fbd53ab64ceb5f669bc6e27c",
+    "display_name": "Bigkt1220",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1133925486788358144",
+    "metadata": {
+      "allow_pn": "on",
+      "allow_sms": "on",
+      "mention_pn": "on",
+      "team_name": "Tight Ends and TDs"
+    },
+    "settings": null,
+    "user_id": "607333738078068736"
+  },
+  {
+    "avatar": "407827653e1d12b31c9fe672e7a08446",
+    "display_name": "HydroTropez",
+    "is_bot": false,
+    "is_owner": true,
+    "league_id": "1133925486788358144",
+    "metadata": {
+      "allow_pn": "on",
+      "allow_sms": "on",
+      "archived": "off",
+      "avatar": "https://sleepercdn.com/uploads/ac9490d2cb8304cf9280f5497eb746be.jpg",
+      "join_voice_pn": "off",
+      "mascot_message": "off",
+      "mention_pn": "on",
+      "player_like_pn": "on",
+      "player_nickname_update": "off",
+      "team_name": "HydroTropez",
+      "team_name_update": "off",
+      "trade_block_pn": "on",
+      "transaction_commissioner": "on",
+      "transaction_free_agent": "on",
+      "transaction_trade": "on",
+      "transaction_waiver": "on",
+      "user_message_pn": "on"
+    },
+    "settings": null,
+    "user_id": "738291327560810496"
+  },
+  {
+    "avatar": "4fb6507f16e1bcbb91e1c5e1070a002d",
+    "display_name": "msm006",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1133925486788358144",
+    "metadata": {
+      "allow_pn": "on",
+      "allow_sms": "on",
+      "archived": "on",
+      "mention_pn": "on",
+      "team_name": "🥉$5"
+    },
+    "settings": null,
+    "user_id": "741738097800261632"
+  },
+  {
+    "avatar": "8eb8f8bf999945d523f2c4033f70473e",
+    "display_name": "wasssuuuppp954",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1133925486788358144",
+    "metadata": {
+      "allow_pn": "on",
+      "archived": "on",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "744999641166282752"
+  },
+  {
+    "avatar": "5c7ceed97de98e3f796c3a3bcec8c7c9",
+    "display_name": "K5Rose",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1133925486788358144",
+    "metadata": {
+      "allow_pn": "on",
+      "allow_sms": "on",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "857742770331308032"
+  },
+  {
+    "avatar": "1d0251e652d176833068106493387104",
+    "display_name": "SiddChit",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1133925486788358144",
+    "metadata": {
+      "allow_pn": "on",
+      "allow_sms": "on",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "866970540986994688"
+  },
+  {
+    "avatar": "85b0af3065ccdfc48eede527eefdbd93",
+    "display_name": "DatdudeDP3",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1133925486788358144",
+    "metadata": {
+      "allow_pn": "off",
+      "archived": "on",
+      "league_report_pn": "off",
+      "mascot_message": "off",
+      "mention_pn": "on",
+      "player_like_pn": "off",
+      "player_nickname_update": "off",
+      "team_name_update": "off",
+      "trade_block_pn": "off",
+      "transaction_commissioner": "off",
+      "transaction_free_agent": "off",
+      "transaction_trade": "off",
+      "transaction_waiver": "off",
+      "user_message_pn": "on"
+    },
+    "settings": null,
+    "user_id": "880350454885076992"
+  },
+  {
+    "avatar": "7b2f54a32c6e2b7a811713d73d21fcad",
+    "display_name": "Love4MVP",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1133925486788358144",
+    "metadata": {
+      "allow_pn": "on",
+      "archived": "on",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "961839078129913856"
+  },
+  {
+    "avatar": "d6dd7e43a8c3e6c593d91d9a7b70c297",
+    "display_name": "davidc3",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1133925486788358144",
+    "metadata": {
+      "allow_pn": "on",
+      "archived": "on",
+      "mention_pn": "on",
+      "team_name": "No Conner Among Thieves "
+    },
+    "settings": null,
+    "user_id": "977050780119179264"
+  }
+]

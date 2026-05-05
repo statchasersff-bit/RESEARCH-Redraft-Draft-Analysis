@@ -1,0 +1,143 @@
+[
+  {
+    "avatar": "b3338675f635c2c1f42b469621d38ec6",
+    "display_name": "stephencurey",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1145999700198354944",
+    "metadata": {
+      "allow_pn": "on",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "1004855876576018432"
+  },
+  {
+    "avatar": "e7af4deab0289b4f5505646424895246",
+    "display_name": "hudsonbellerive",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1145999700198354944",
+    "metadata": {
+      "allow_pn": "on",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "1010745999868440576"
+  },
+  {
+    "avatar": "7b6aa80cba78d02030967971fdfcdaa7",
+    "display_name": "philocam",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1145999700198354944",
+    "metadata": {
+      "allow_pn": "on",
+      "archived": "on",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "1124844788387287040"
+  },
+  {
+    "avatar": "82aec8e811b839b8ec25d7b458afd57b",
+    "display_name": "Huntsontop",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1145999700198354944",
+    "metadata": {
+      "allow_pn": "on",
+      "avatar": "https://sleepercdn.com/uploads/a3b63a4449b27f86d0f39b6be0cafbe2.jpg",
+      "mention_pn": "on",
+      "team_name": "Jackie Chan Grandma"
+    },
+    "settings": null,
+    "user_id": "1129827586982506496"
+  },
+  {
+    "avatar": "82aec8e811b839b8ec25d7b458afd57b",
+    "display_name": "melindaderc",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1145999700198354944",
+    "metadata": {
+      "allow_pn": "on",
+      "allow_sms": "on",
+      "archived": "on",
+      "avatar": "https://sleepercdn.com/uploads/0472e1a4d6db444c4a3452950aa9b237.jpg",
+      "mention_pn": "on",
+      "team_name": "Love 2 Reed."
+    },
+    "settings": null,
+    "user_id": "1135709787905236992"
+  },
+  {
+    "avatar": "15d7cf259bc30eab8f6120f45f652fb6",
+    "display_name": "isaichav17",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1145999700198354944",
+    "metadata": {
+      "allow_pn": "on",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "1137064186359840768"
+  },
+  {
+    "avatar": "b319fdf8b7b5b0359d3c78622ba4d70c",
+    "display_name": "Kusdll",
+    "is_bot": false,
+    "is_owner": true,
+    "league_id": "1145999700198354944",
+    "metadata": {
+      "allow_pn": "on",
+      "mention_pn": "on",
+      "team_name": "Whats up my naber  "
+    },
+    "settings": null,
+    "user_id": "1137139137590501376"
+  },
+  {
+    "avatar": "3e98f56c666f6c34e6fe8557442dd20a",
+    "display_name": "baskoo",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1145999700198354944",
+    "metadata": {
+      "allow_pn": "on",
+      "allow_sms": "on",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "1146000321416777728"
+  },
+  {
+    "avatar": "ac85a7d5e34a21553b15a46962a8cfea",
+    "display_name": "modelodello",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1145999700198354944",
+    "metadata": {
+      "allow_pn": "on",
+      "allow_sms": "on",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "1146001538666614784"
+  },
+  {
+    "avatar": "4b497865b72cac32f7c250f948326a9c",
+    "display_name": "wiixqq",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1145999700198354944",
+    "metadata": {
+      "allow_pn": "on",
+      "allow_sms": "on",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "1146164564503244800"
+  }
+]

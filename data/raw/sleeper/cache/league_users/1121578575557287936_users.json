@@ -1,0 +1,166 @@
+[
+  {
+    "avatar": "nfl_det",
+    "display_name": "greekdawg",
+    "is_bot": null,
+    "is_owner": null,
+    "league_id": "1121578575557287936",
+    "metadata": {
+      "allow_pn": "on",
+      "archived": "on",
+      "league_report_pn": "off",
+      "mascot_message": "off",
+      "mention_pn": "on",
+      "player_like_pn": "off",
+      "player_nickname_update": "off",
+      "team_name_update": "off",
+      "trade_block_pn": "on",
+      "transaction_commissioner": "off",
+      "transaction_free_agent": "off",
+      "transaction_trade": "on",
+      "transaction_waiver": "off",
+      "user_message_pn": "on"
+    },
+    "settings": null,
+    "user_id": "100908832284622848"
+  },
+  {
+    "avatar": "45baf7ce7ed9cfd310cfc2fca07139f9",
+    "display_name": "BoDidly",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1121578575557287936",
+    "metadata": {
+      "allow_pn": "on",
+      "archived": "on",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "340593124973809664"
+  },
+  {
+    "avatar": "1a20e668b733079004df5abf33925fc7",
+    "display_name": "Belltoadcrazy",
+    "is_bot": false,
+    "is_owner": true,
+    "league_id": "1121578575557287936",
+    "metadata": {
+      "allow_pn": "on",
+      "archived": "on",
+      "league_report_pn": "off",
+      "mascot_message": "on",
+      "mention_pn": "on",
+      "player_like_pn": "on",
+      "player_nickname_update": "on",
+      "team_name_update": "on",
+      "trade_block_pn": "on",
+      "transaction_commissioner": "on",
+      "transaction_free_agent": "off",
+      "transaction_trade": "on",
+      "transaction_waiver": "off",
+      "user_message_pn": "on"
+    },
+    "settings": null,
+    "user_id": "491605601248342016"
+  },
+  {
+    "avatar": "16b9adb5aafdfac5dbe0efa0a7317128",
+    "display_name": "RobsDawgs",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1121578575557287936",
+    "metadata": {
+      "allow_pn": "on",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "539002431250628608"
+  },
+  {
+    "avatar": "d0e7d07b53d54e5aa298f753ad5da533",
+    "display_name": "Vater",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1121578575557287936",
+    "metadata": {
+      "allow_pn": "on",
+      "archived": "on",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "599755123371065344"
+  },
+  {
+    "avatar": "2687735b4cbd9e6beea3cabe0d57cb4f",
+    "display_name": "Mdavis212",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1121578575557287936",
+    "metadata": {
+      "allow_pn": "on",
+      "allow_sms": "on",
+      "archived": "on",
+      "mention_pn": "on",
+      "team_name": "Chasing Waterfalls"
+    },
+    "settings": null,
+    "user_id": "717896443842588672"
+  },
+  {
+    "avatar": "10b3f27d9f94b36d502ad4590d8aac50",
+    "display_name": "brandonnn208",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1121578575557287936",
+    "metadata": {
+      "allow_pn": "on",
+      "archived": "off",
+      "mention_pn": "on",
+      "team_name": "$10 (80,20)"
+    },
+    "settings": null,
+    "user_id": "724328705224179712"
+  },
+  {
+    "avatar": "b4abfab1a1405922a1255f28d5f297b3",
+    "display_name": "drizzle22",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1121578575557287936",
+    "metadata": {
+      "allow_pn": "on",
+      "archived": "off",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "724735478284218368"
+  },
+  {
+    "avatar": "82aec8e811b839b8ec25d7b458afd57b",
+    "display_name": "Cnova33",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1121578575557287936",
+    "metadata": {
+      "allow_pn": "on",
+      "archived": "on",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "736610611319971840"
+  },
+  {
+    "avatar": "ccfc01de47269af24335ad6e95675499",
+    "display_name": "MattSilva51481",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1121578575557287936",
+    "metadata": {
+      "allow_pn": "on",
+      "archived": "on",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "870826713653919744"
+  }
+]

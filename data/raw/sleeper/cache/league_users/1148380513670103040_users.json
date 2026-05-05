@@ -1,0 +1,169 @@
+[
+  {
+    "avatar": "82aec8e811b839b8ec25d7b458afd57b",
+    "display_name": "khisszn",
+    "is_bot": false,
+    "is_owner": true,
+    "league_id": "1148380513670103040",
+    "metadata": {
+      "allow_pn": "on",
+      "archived": "on",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "869405125314306048"
+  },
+  {
+    "avatar": "352ad83223385173aaf9693bdee027fe",
+    "display_name": "Maxson2",
+    "is_bot": false,
+    "is_owner": false,
+    "league_id": "1148380513670103040",
+    "metadata": {
+      "allow_pn": "on",
+      "archived": "on",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "879917657309478912"
+  },
+  {
+    "avatar": "8eb8f8bf999945d523f2c4033f70473e",
+    "display_name": "drishmh",
+    "is_bot": false,
+    "is_owner": false,
+    "league_id": "1148380513670103040",
+    "metadata": {
+      "allow_pn": "on",
+      "allow_sms": "on",
+      "archived": "on",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "993022318605565952"
+  },
+  {
+    "avatar": "4e09388473755b231b2fd5516e89486c",
+    "display_name": "SoggyMuffin4",
+    "is_bot": false,
+    "is_owner": false,
+    "league_id": "1148380513670103040",
+    "metadata": {
+      "allow_pn": "on",
+      "archived": "on",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "1002774339017687040"
+  },
+  {
+    "avatar": "b3338675f635c2c1f42b469621d38ec6",
+    "display_name": "SebbyWebby69",
+    "is_bot": false,
+    "is_owner": false,
+    "league_id": "1148380513670103040",
+    "metadata": {
+      "allow_pn": "on",
+      "archived": "on",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "1003174104624795648"
+  },
+  {
+    "avatar": "a17d337a43d203a710e00e6dcc02d4d9",
+    "display_name": "Freaknature17",
+    "is_bot": false,
+    "is_owner": true,
+    "league_id": "1148380513670103040",
+    "metadata": {
+      "allow_pn": "on",
+      "archived": "on",
+      "league_report_pn": "on",
+      "mascot_message": "on",
+      "mention_pn": "on",
+      "player_like_pn": "on",
+      "player_nickname_update": "on",
+      "team_name_update": "on",
+      "trade_block_pn": "on",
+      "transaction_commissioner": "on",
+      "transaction_free_agent": "off",
+      "transaction_trade": "on",
+      "transaction_waiver": "off",
+      "user_message_pn": "on"
+    },
+    "settings": null,
+    "user_id": "1017250279886786560"
+  },
+  {
+    "avatar": "672c217eafc20d3df90631922d6965c9",
+    "display_name": "snipaksc",
+    "is_bot": false,
+    "is_owner": false,
+    "league_id": "1148380513670103040",
+    "metadata": {
+      "allow_pn": "on",
+      "archived": "off",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "1128114175168864256"
+  },
+  {
+    "avatar": "b17cb3365946a5d412de4bef99543eb2",
+    "display_name": "JustSikWidIt",
+    "is_bot": false,
+    "is_owner": false,
+    "league_id": "1148380513670103040",
+    "metadata": {
+      "allow_pn": "on",
+      "archived": "on",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "1131338790901231616"
+  },
+  {
+    "avatar": "82aec8e811b839b8ec25d7b458afd57b",
+    "display_name": "n8dawg2",
+    "is_bot": false,
+    "is_owner": false,
+    "league_id": "1148380513670103040",
+    "metadata": {
+      "allow_pn": "on",
+      "archived": "on",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "1131452960216596480"
+  },
+  {
+    "avatar": "82aec8e811b839b8ec25d7b458afd57b",
+    "display_name": "melindaderc",
+    "is_bot": false,
+    "is_owner": false,
+    "league_id": "1148380513670103040",
+    "metadata": {
+      "allow_pn": "on",
+      "allow_sms": "on",
+      "archived": "on",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "1135709787905236992"
+  },
+  {
+    "avatar": "f387f733c1746b6561d58bf54e7e9931",
+    "display_name": "chiefskingdomthewat",
+    "is_bot": false,
+    "is_owner": false,
+    "league_id": "1148380513670103040",
+    "metadata": {
+      "allow_pn": "on",
+      "archived": "on",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "1146257756845281280"
+  }
+]

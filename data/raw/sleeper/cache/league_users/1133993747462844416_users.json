@@ -1,0 +1,176 @@
+[
+  {
+    "avatar": "2ead65c4f31252eba2de9c0bade0d4b4",
+    "display_name": "Jradrebel",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1133993747462844416",
+    "metadata": {
+      "allow_pn": "on",
+      "allow_sms": "on",
+      "archived": "on",
+      "avatar": "https://sleepercdn.com/uploads/9ff3ba42d6661dfbbd93241dbc10cb36.jpg",
+      "mention_pn": "on",
+      "team_name": "achilles tendinitis"
+    },
+    "settings": null,
+    "user_id": "434057524790947840"
+  },
+  {
+    "avatar": "8eb8f8bf999945d523f2c4033f70473e",
+    "display_name": "mricci3",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1133993747462844416",
+    "metadata": {
+      "allow_pn": "on",
+      "archived": "on",
+      "mention_pn": "on",
+      "team_name": "Brock Party"
+    },
+    "settings": null,
+    "user_id": "670006759800254464"
+  },
+  {
+    "avatar": "37ee5259058aab3cc82d000be824a154",
+    "display_name": "HoodHawk",
+    "is_bot": false,
+    "is_owner": true,
+    "league_id": "1133993747462844416",
+    "metadata": {
+      "allow_pn": "on",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "715737259466379264"
+  },
+  {
+    "avatar": "c42eaf16b26f99d06a6c14a657df3daf",
+    "display_name": "haeberliner",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1133993747462844416",
+    "metadata": {
+      "allow_pn": "on",
+      "allow_sms": "on",
+      "archived": "on",
+      "mention_pn": "on",
+      "team_name": "So long, London "
+    },
+    "settings": null,
+    "user_id": "740007657951424512"
+  },
+  {
+    "avatar": "b3338675f635c2c1f42b469621d38ec6",
+    "display_name": "YoungMoney81",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1133993747462844416",
+    "metadata": {
+      "allow_pn": "on",
+      "allow_sms": "on",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "744264979045294080"
+  },
+  {
+    "avatar": "8eb8f8bf999945d523f2c4033f70473e",
+    "display_name": "zachbuster",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1133993747462844416",
+    "metadata": {
+      "allow_pn": "on",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "958250559578906624"
+  },
+  {
+    "avatar": "8eb8f8bf999945d523f2c4033f70473e",
+    "display_name": "Robtrusoul1892",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1133993747462844416",
+    "metadata": {
+      "allow_pn": "on",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "989717184647602176"
+  },
+  {
+    "avatar": "15d7cf259bc30eab8f6120f45f652fb6",
+    "display_name": "matthaeberlin",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1133993747462844416",
+    "metadata": {
+      "allow_pn": "on",
+      "allow_sms": "on",
+      "mention_pn": "on",
+      "team_name": "Haebeys big creamers"
+    },
+    "settings": null,
+    "user_id": "994618469649854464"
+  },
+  {
+    "avatar": "8eb8f8bf999945d523f2c4033f70473e",
+    "display_name": "KoreyStevens5",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1133993747462844416",
+    "metadata": {
+      "allow_pn": "on",
+      "archived": "on",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "1122309393871142912"
+  },
+  {
+    "avatar": "32e98f03684a712642ba35c1894b0083",
+    "display_name": "Beeron85",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1133993747462844416",
+    "metadata": {
+      "allow_pn": "on",
+      "allow_sms": "on",
+      "archived": "on",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "1131993383897198592"
+  },
+  {
+    "avatar": "4f4090e5e9c3941414db40a871e3e909",
+    "display_name": "saweet66",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1133993747462844416",
+    "metadata": {
+      "allow_pn": "on",
+      "allow_sms": "on",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "1134061289153773568"
+  },
+  {
+    "avatar": "82aec8e811b839b8ec25d7b458afd57b",
+    "display_name": "skyjacobs07",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1133993747462844416",
+    "metadata": {
+      "allow_pn": "on",
+      "allow_sms": "on",
+      "mention_pn": "on",
+      "team_name": "Skykdkfkf"
+    },
+    "settings": null,
+    "user_id": "1134255050857156608"
+  }
+]

@@ -1,0 +1,121 @@
+[
+  {
+    "avatar": "175856778610a217082aef7b9f893be8",
+    "display_name": "CPsFieldGenerals",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1136696463683178496",
+    "metadata": {
+      "allow_pn": "on",
+      "archived": "on",
+      "mention_pn": "on",
+      "team_name": "The greatest show on FFL"
+    },
+    "settings": null,
+    "user_id": "597929211960815616"
+  },
+  {
+    "avatar": "13263188714d150f8980860f4d0f03af",
+    "display_name": "bigballerbarber3",
+    "is_bot": false,
+    "is_owner": true,
+    "league_id": "1136696463683178496",
+    "metadata": {
+      "allow_pn": "on",
+      "mention_pn": "on",
+      "team_name": "Breece’s Pieces"
+    },
+    "settings": null,
+    "user_id": "729020477015748608"
+  },
+  {
+    "avatar": "4f4090e5e9c3941414db40a871e3e909",
+    "display_name": "WalterOffWhite",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1136696463683178496",
+    "metadata": {
+      "allow_pn": "on",
+      "allow_sms": "on",
+      "mention_pn": "on",
+      "team_name": "Hockenson Tua"
+    },
+    "settings": null,
+    "user_id": "1111394774596194304"
+  },
+  {
+    "avatar": "15d7cf259bc30eab8f6120f45f652fb6",
+    "display_name": "SouthSideHawks",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1136696463683178496",
+    "metadata": {
+      "allow_pn": "on",
+      "allow_sms": "on",
+      "mention_pn": "on",
+      "team_name": "South Side Hawks"
+    },
+    "settings": null,
+    "user_id": "1136700226405974016"
+  },
+  {
+    "avatar": "8eb8f8bf999945d523f2c4033f70473e",
+    "display_name": "Bdub2410",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1136696463683178496",
+    "metadata": {
+      "allow_pn": "on",
+      "allow_sms": "on",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "1136701236587147264"
+  },
+  {
+    "avatar": "4f4090e5e9c3941414db40a871e3e909",
+    "display_name": "thewilliamswalkon",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1136696463683178496",
+    "metadata": {
+      "allow_pn": "on",
+      "allow_sms": "on",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "1136701794987413504"
+  },
+  {
+    "avatar": "8eb8f8bf999945d523f2c4033f70473e",
+    "display_name": "SargeTC84",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1136696463683178496",
+    "metadata": {
+      "allow_pn": "on",
+      "allow_sms": "on",
+      "avatar": "https://sleepercdn.com/uploads/b661cac4cbce0660bac0843a4387dbcf.jpg",
+      "mention_pn": "on",
+      "team_name": "Starvin Marvin"
+    },
+    "settings": null,
+    "user_id": "1136710348846886912"
+  },
+  {
+    "avatar": "8eb8f8bf999945d523f2c4033f70473e",
+    "display_name": "jorrmcda24",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1136696463683178496",
+    "metadata": {
+      "allow_pn": "on",
+      "allow_sms": "on",
+      "avatar": "https://sleepercdn.com/uploads/7b3d3c37f9b2b3cd043aa5a8645c1aa7.jpg",
+      "mention_pn": "on",
+      "team_name": "Atomic Bombers"
+    },
+    "settings": null,
+    "user_id": "1136720570227367936"
+  }
+]

@@ -1,0 +1,154 @@
+[
+  {
+    "avatar": "bca2896a98ce677ceba1d0b4823d792e",
+    "display_name": "tucktuckking",
+    "is_bot": null,
+    "is_owner": false,
+    "league_id": "1115354972209696768",
+    "metadata": {
+      "allow_pn": "on",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "89891871031443456"
+  },
+  {
+    "avatar": "da3e88c3b71164db5a851688f5227f56",
+    "display_name": "Ph1llyth3gr8",
+    "is_bot": false,
+    "is_owner": true,
+    "league_id": "1115354972209696768",
+    "metadata": {
+      "allow_pn": "off",
+      "archived": "on",
+      "league_report_pn": "off",
+      "mascot_message": "off",
+      "mention_pn": "on",
+      "player_like_pn": "off",
+      "player_nickname_update": "off",
+      "team_name": "✅🎁Walker, Seattle Seahawk",
+      "team_name_update": "off",
+      "trade_block_pn": "off",
+      "transaction_commissioner": "off",
+      "transaction_free_agent": "off",
+      "transaction_trade": "off",
+      "transaction_waiver": "off",
+      "user_message_pn": "off"
+    },
+    "settings": null,
+    "user_id": "396163304961122304"
+  },
+  {
+    "avatar": "793bd4728c80d3b2024116b162737b7d",
+    "display_name": "Belltoadcrazy",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1115354972209696768",
+    "metadata": {
+      "allow_pn": "on",
+      "archived": "on",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "491605601248342016"
+  },
+  {
+    "avatar": "e63710f449089e71220916f691da51c6",
+    "display_name": "SirSnazzy",
+    "is_bot": false,
+    "is_owner": false,
+    "league_id": "1115354972209696768",
+    "metadata": {
+      "allow_pn": "on",
+      "archived": "on",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "655514443807023104"
+  },
+  {
+    "avatar": "f9ebe79cd6c1f441f178903d6f5bf423",
+    "display_name": "Tahmidf",
+    "is_bot": false,
+    "is_owner": false,
+    "league_id": "1115354972209696768",
+    "metadata": {
+      "allow_pn": "on",
+      "archived": "off",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "663247506573967360"
+  },
+  {
+    "avatar": "b3338675f635c2c1f42b469621d38ec6",
+    "display_name": "devlin01",
+    "is_bot": false,
+    "is_owner": false,
+    "league_id": "1115354972209696768",
+    "metadata": {
+      "allow_pn": "on",
+      "archived": "on",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "696443102537289728"
+  },
+  {
+    "avatar": "a68a291f4101484553df5a88861e9c01",
+    "display_name": "PaulieParlays",
+    "is_bot": false,
+    "is_owner": false,
+    "league_id": "1115354972209696768",
+    "metadata": {
+      "allow_pn": "on",
+      "archived": "on",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "711012355986788352"
+  },
+  {
+    "avatar": "2d329463c2e3afcd9e5d94efb46e5e1b",
+    "display_name": "6oku",
+    "is_bot": false,
+    "is_owner": false,
+    "league_id": "1115354972209696768",
+    "metadata": {
+      "allow_pn": "on",
+      "archived": "on",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "711697074571284480"
+  },
+  {
+    "avatar": "1bb80bc7839e1a154bc20b334ef8eb7d",
+    "display_name": "lucky7bad",
+    "is_bot": false,
+    "is_owner": false,
+    "league_id": "1115354972209696768",
+    "metadata": {
+      "allow_pn": "on",
+      "archived": "on",
+      "mention_pn": "on",
+      "team_name": "❌Out"
+    },
+    "settings": null,
+    "user_id": "725514012409815040"
+  },
+  {
+    "avatar": "b536eb557601aba8c1b1a2e5553082d6",
+    "display_name": "asgardorbust",
+    "is_bot": false,
+    "is_owner": false,
+    "league_id": "1115354972209696768",
+    "metadata": {
+      "allow_pn": "on",
+      "archived": "on",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "857820362736549888"
+  }
+]

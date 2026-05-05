@@ -1,0 +1,164 @@
+[
+  {
+    "avatar": "nfl_det",
+    "display_name": "greekdawg",
+    "is_bot": null,
+    "is_owner": null,
+    "league_id": "1122807053774454784",
+    "metadata": {
+      "allow_pn": "on",
+      "archived": "on",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "100908832284622848"
+  },
+  {
+    "avatar": "ef626ddad477e85e27a867cb6e4a484b",
+    "display_name": "Chuca",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1122807053774454784",
+    "metadata": {
+      "allow_pn": "on",
+      "allow_sms": "on",
+      "archived": "on",
+      "avatar": "https://sleepercdn.com/uploads/b66e7ad0298d4d07d1f5d0bb1e8c87a6.jpg",
+      "mention_pn": "on",
+      "team_name": "Crooks Was Here"
+    },
+    "settings": null,
+    "user_id": "343456951046254592"
+  },
+  {
+    "avatar": "0b0c6764f4ca773e86260b43c1731dfe",
+    "display_name": "AJSilcott",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1122807053774454784",
+    "metadata": {
+      "allow_pn": "on",
+      "archived": "on",
+      "mention_pn": "on",
+      "team_name": "Unsolicited Dak Picks"
+    },
+    "settings": null,
+    "user_id": "433331437169537024"
+  },
+  {
+    "avatar": "1ff69ecd5e54d4880dcb01256f97ab55",
+    "display_name": "G333K",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1122807053774454784",
+    "metadata": {
+      "allow_pn": "on",
+      "archived": "off",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "468862977664086016"
+  },
+  {
+    "avatar": "5fdbb149011019d403735859ebb80013",
+    "display_name": "Ashv27",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1122807053774454784",
+    "metadata": {
+      "allow_pn": "off",
+      "archived": "on",
+      "avatar": "https://sleepercdn.com/uploads/33b82b4363693d1c6ee9a23aee6bb335.jpg",
+      "league_report_pn": "off",
+      "mascot_message": "off",
+      "mention_pn": "on",
+      "player_like_pn": "off",
+      "player_nickname_update": "off",
+      "team_name": "❌",
+      "team_name_update": "off",
+      "trade_block_pn": "on",
+      "transaction_commissioner": "on",
+      "transaction_free_agent": "off",
+      "transaction_trade": "on",
+      "transaction_waiver": "off",
+      "user_message_pn": "off"
+    },
+    "settings": null,
+    "user_id": "481389009403113472"
+  },
+  {
+    "avatar": "00dde01c84a96f750d46b6cc51ec540d",
+    "display_name": "WinnerCircle13",
+    "is_bot": false,
+    "is_owner": true,
+    "league_id": "1122807053774454784",
+    "metadata": {
+      "allow_pn": "on",
+      "archived": "on",
+      "avatar": "https://sleepercdn.com/uploads/21c201c8150bead9b00e4f3511208b79.jpg",
+      "mention_pn": "on",
+      "team_name": "Hurts dont it? "
+    },
+    "settings": null,
+    "user_id": "732004539489714176"
+  },
+  {
+    "avatar": "4ca70aab4d69d5922348481b214c649e",
+    "display_name": "llerwick",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1122807053774454784",
+    "metadata": {
+      "allow_pn": "on",
+      "archived": "on",
+      "avatar": "https://sleepercdn.com/uploads/9ce128cad81c49eec86e3134e0327ca7.jpg",
+      "mention_pn": "on",
+      "team_name": "RB University"
+    },
+    "settings": null,
+    "user_id": "737046516736352256"
+  },
+  {
+    "avatar": "4384fad80f2ff50a4f8c431fffc8bc1e",
+    "display_name": "TwoTrey23",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1122807053774454784",
+    "metadata": {
+      "allow_pn": "on",
+      "archived": "on",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "769776420452012032"
+  },
+  {
+    "avatar": "97233e14b250d5a4bf1c918567d1c29d",
+    "display_name": "BigGameJames71",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1122807053774454784",
+    "metadata": {
+      "allow_pn": "on",
+      "archived": "on",
+      "mention_pn": "on",
+      "team_name": "Cook N White Rice "
+    },
+    "settings": null,
+    "user_id": "853529557129637888"
+  },
+  {
+    "avatar": "8440e24a71137a7b2042adbf8684af32",
+    "display_name": "MarkyMark619999",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1122807053774454784",
+    "metadata": {
+      "allow_pn": "on",
+      "archived": "on",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "871847218557145088"
+  }
+]

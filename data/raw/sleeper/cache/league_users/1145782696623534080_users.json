@@ -1,0 +1,156 @@
+[
+  {
+    "avatar": "b3338675f635c2c1f42b469621d38ec6",
+    "display_name": "imwiggss",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1145782696623534080",
+    "metadata": {
+      "allow_pn": "on",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "733455431862726656"
+  },
+  {
+    "avatar": "7208404e9332f4ba6bfe5fc9743d614d",
+    "display_name": "exquisitejordan",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1145782696623534080",
+    "metadata": {
+      "allow_pn": "on",
+      "allow_sms": "on",
+      "avatar": "https://sleepercdn.com/uploads/7b5319ebb07117ad6ae096622b76f19e",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "741339773557473280"
+  },
+  {
+    "avatar": "9cc9e60257260756b0687fb9caa4a631",
+    "display_name": "iloveyoulebron",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1145782696623534080",
+    "metadata": {
+      "allow_pn": "on",
+      "allow_sms": "on",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "860712517683499008"
+  },
+  {
+    "avatar": "7b2da5987b6f5b13f773b0a3d3600678",
+    "display_name": "ghettothunder1",
+    "is_bot": false,
+    "is_owner": true,
+    "league_id": "1145782696623534080",
+    "metadata": {
+      "allow_pn": "on",
+      "archived": "off",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "867894327819526144"
+  },
+  {
+    "avatar": "6dc7e12fa63750e0845851e1c4d03044",
+    "display_name": "Equal-Rights-Equal-Lefts",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1145782696623534080",
+    "metadata": {
+      "allow_pn": "on",
+      "avatar": "https://sleepercdn.com/uploads/f9593b010aaea9710f5f8759a6331705.jpg",
+      "mention_pn": "on",
+      "team_name": "Bower Birds"
+    },
+    "settings": null,
+    "user_id": "870039276371537920"
+  },
+  {
+    "avatar": "b982bf3dd5bb1bab57218489c523d02f",
+    "display_name": "Swhitehead13",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1145782696623534080",
+    "metadata": {
+      "allow_pn": "on",
+      "archived": "on",
+      "league_report_pn": "off",
+      "mascot_message": "off",
+      "mention_pn": "on",
+      "player_like_pn": "off",
+      "player_nickname_update": "off",
+      "team_name": "Netflix & Koo",
+      "team_name_update": "off",
+      "trade_block_pn": "on",
+      "transaction_commissioner": "off",
+      "transaction_free_agent": "off",
+      "transaction_trade": "on",
+      "transaction_waiver": "off",
+      "user_message_pn": "off"
+    },
+    "settings": null,
+    "user_id": "1001252207813066752"
+  },
+  {
+    "avatar": "e7af4deab0289b4f5505646424895246",
+    "display_name": "proc17",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1145782696623534080",
+    "metadata": {
+      "allow_pn": "on",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "1005345812102103040"
+  },
+  {
+    "avatar": "4a825671f0eed38f45b3c3af1f45fc94",
+    "display_name": "evanfu",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1145782696623534080",
+    "metadata": {
+      "allow_pn": "on",
+      "archived": "off",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "1116223417570811904"
+  },
+  {
+    "avatar": "82aec8e811b839b8ec25d7b458afd57b",
+    "display_name": "melindaderc",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1145782696623534080",
+    "metadata": {
+      "allow_pn": "on",
+      "allow_sms": "on",
+      "archived": "on",
+      "avatar": "https://sleepercdn.com/uploads/0b3a072a2242c48f2645c0cc3981f93c.jpg",
+      "mention_pn": "on",
+      "team_name": "Hall of Fame"
+    },
+    "settings": null,
+    "user_id": "1135709787905236992"
+  },
+  {
+    "avatar": "3e98f56c666f6c34e6fe8557442dd20a",
+    "display_name": "jxmoon",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1145782696623534080",
+    "metadata": {
+      "allow_pn": "on",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "1145897976720756736"
+  }
+]

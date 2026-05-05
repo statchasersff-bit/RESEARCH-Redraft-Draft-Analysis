@@ -1,0 +1,70 @@
+[
+  {
+    "created": 1721163126269,
+    "creators": [
+      "698802263199649792"
+    ],
+    "draft_id": "1119042894951768065",
+    "draft_order": {
+      "465029798888992768": 9,
+      "635695072351989760": 1,
+      "684578946603380736": 3,
+      "698802263199649792": 10,
+      "711697074571284480": 6,
+      "712866210286505984": 7,
+      "717896443842588672": 2,
+      "987067910411632640": 8,
+      "990124642683641856": 5
+    },
+    "last_message_id": "1119105215480856576",
+    "last_message_time": 1721177984641,
+    "last_picked": 1721177965345,
+    "league_id": "1119042894951768064",
+    "metadata": {
+      "description": "",
+      "highest_offer": "1",
+      "hovered_player_id": "11640",
+      "name": "Android Attack",
+      "nominated_player_id": "11640",
+      "nominating_slot": "9",
+      "nominating_user_id": "465029798888992768",
+      "offering_slot": "9",
+      "offering_user_id": "465029798888992768",
+      "paused_pick_timer": "8",
+      "scoring_type": "2qb"
+    },
+    "season": "2024",
+    "season_type": "regular",
+    "settings": {
+      "afk_rounds_1": 1,
+      "afk_rounds_4": 10,
+      "afk_rounds_7": 18,
+      "alpha_sort": 0,
+      "autopause_enabled": 0,
+      "autopause_end_time": 960,
+      "autopause_start_time": 240,
+      "autostart": 0,
+      "budget": 400,
+      "cpu_autopick": 1,
+      "enforce_position_limits": 1,
+      "nomination_timer": 10,
+      "pick_timer": 10,
+      "player_type": 0,
+      "reversal_round": 0,
+      "rounds": 20,
+      "slots_bn": 10,
+      "slots_flex": 1,
+      "slots_qb": 1,
+      "slots_rb": 2,
+      "slots_super_flex": 1,
+      "slots_te": 1,
+      "slots_wr": 3,
+      "slots_wrrb_flex": 1,
+      "teams": 10
+    },
+    "sport": "nfl",
+    "start_time": 1721171122395,
+    "status": "complete",
+    "type": "auction"
+  }
+]

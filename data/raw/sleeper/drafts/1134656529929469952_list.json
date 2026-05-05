@@ -1,0 +1,61 @@
+[
+  {
+    "created": 1724885707217,
+    "creators": [
+      "755864757088743424"
+    ],
+    "draft_id": "1134656531179433984",
+    "draft_order": {
+      "1135369436414078976": 3,
+      "1135675122372767744": 5,
+      "1136411167242838016": 7,
+      "736475455632343040": 12,
+      "740976047876644864": 10,
+      "755625736819486720": 8,
+      "755864757088743424": 2,
+      "850374766824095744": 6,
+      "886548250977759232": 4,
+      "889313285906882560": 9,
+      "991562710552780800": 11,
+      "998312789372399616": 1
+    },
+    "last_message_id": "1136459533473062912",
+    "last_message_time": 1725315576478,
+    "last_picked": 1725315575509,
+    "league_id": "1134656529929469952",
+    "metadata": {
+      "description": "",
+      "name": "2024 Buy In",
+      "scoring_type": "ppr"
+    },
+    "season": "2024",
+    "season_type": "regular",
+    "settings": {
+      "alpha_sort": 0,
+      "autopause_enabled": 0,
+      "autopause_end_time": 1020,
+      "autopause_start_time": 300,
+      "autostart": 0,
+      "cpu_autopick": 1,
+      "enforce_position_limits": 1,
+      "nomination_timer": 60,
+      "pick_timer": 60,
+      "player_type": 0,
+      "reversal_round": 0,
+      "rounds": 15,
+      "slots_bn": 6,
+      "slots_def": 1,
+      "slots_flex": 1,
+      "slots_k": 1,
+      "slots_qb": 1,
+      "slots_rb": 2,
+      "slots_te": 1,
+      "slots_wr": 2,
+      "teams": 12
+    },
+    "sport": "nfl",
+    "start_time": 1725311740046,
+    "status": "complete",
+    "type": "snake"
+  }
+]

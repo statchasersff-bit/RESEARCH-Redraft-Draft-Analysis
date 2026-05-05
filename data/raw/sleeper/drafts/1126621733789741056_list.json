@@ -1,0 +1,61 @@
+[
+  {
+    "created": 1722970062256,
+    "creators": [
+      "900035194697121792"
+    ],
+    "draft_id": "1126621733789741057",
+    "draft_order": {
+      "1001120915012341760": 2,
+      "1132523096335958016": 11,
+      "1134229914581966848": 5,
+      "1135254613889941504": 7,
+      "632828131530678272": 3,
+      "649996831874469888": 6,
+      "692459196221849600": 9,
+      "865815077696196608": 8,
+      "900035194697121792": 4,
+      "900880327655137280": 10,
+      "990067702377074688": 12,
+      "990272652013096960": 1
+    },
+    "last_message_id": "1135412417216659456",
+    "last_message_time": 1725065924508,
+    "last_picked": 1725065923538,
+    "league_id": "1126621733789741056",
+    "metadata": {
+      "description": "",
+      "name": "Football Ballers",
+      "scoring_type": "half_ppr"
+    },
+    "season": "2024",
+    "season_type": "regular",
+    "settings": {
+      "alpha_sort": 0,
+      "autopause_enabled": 0,
+      "autopause_end_time": 840,
+      "autopause_start_time": 120,
+      "autostart": 1,
+      "cpu_autopick": 1,
+      "enforce_position_limits": 1,
+      "nomination_timer": 60,
+      "pick_timer": 90,
+      "player_type": 0,
+      "reversal_round": 0,
+      "rounds": 15,
+      "slots_bn": 5,
+      "slots_def": 1,
+      "slots_flex": 2,
+      "slots_k": 1,
+      "slots_qb": 1,
+      "slots_rb": 2,
+      "slots_te": 1,
+      "slots_wr": 2,
+      "teams": 12
+    },
+    "sport": "nfl",
+    "start_time": 1725060662411,
+    "status": "complete",
+    "type": "snake"
+  }
+]

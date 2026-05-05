@@ -1,0 +1,182 @@
+[
+  {
+    "avatar": "nfl_det",
+    "display_name": "greekdawg",
+    "is_bot": null,
+    "is_owner": null,
+    "league_id": "1122972250505916416",
+    "metadata": {
+      "allow_pn": "on",
+      "archived": "on",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "100908832284622848"
+  },
+  {
+    "avatar": "0cc001d71eca16a3cf2376818e564842",
+    "display_name": "ClaytonBigsbyy",
+    "is_bot": false,
+    "is_owner": true,
+    "league_id": "1122972250505916416",
+    "metadata": {
+      "allow_pn": "on",
+      "archived": "off",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "453356233311645696"
+  },
+  {
+    "avatar": "9c8aecf4b02f8676176e66e5b44df3b2",
+    "display_name": "Nickbok24",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1122972250505916416",
+    "metadata": {
+      "allow_pn": "on",
+      "archived": "off",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "457001369958608896"
+  },
+  {
+    "avatar": "a09f7f3290c0bd7146f7701785866ffc",
+    "display_name": "Bobay",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1122972250505916416",
+    "metadata": {
+      "allow_pn": "on",
+      "archived": "on",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "470370600251027456"
+  },
+  {
+    "avatar": "0e7322224bff51e56b7f3b04abc0159c",
+    "display_name": "Tebowjackson",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1122972250505916416",
+    "metadata": {
+      "allow_pn": "off",
+      "archived": "on",
+      "league_report_pn": "on",
+      "mascot_message": "on",
+      "mention_pn": "off",
+      "player_like_pn": "on",
+      "player_nickname_update": "on",
+      "team_name_update": "off",
+      "trade_block_pn": "off",
+      "transaction_commissioner": "on",
+      "transaction_free_agent": "on",
+      "transaction_trade": "off",
+      "transaction_waiver": "on",
+      "user_message_pn": "off"
+    },
+    "settings": null,
+    "user_id": "674505972588306432"
+  },
+  {
+    "avatar": "6e3e4eea003b732d4e365a9c0e8ab30c",
+    "display_name": "ega4bstn",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1122972250505916416",
+    "metadata": {
+      "allow_pn": "on",
+      "archived": "on",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "675856084065411072"
+  },
+  {
+    "avatar": "10b3f27d9f94b36d502ad4590d8aac50",
+    "display_name": "brandonnn208",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1122972250505916416",
+    "metadata": {
+      "allow_pn": "on",
+      "archived": "off",
+      "mention_pn": "on",
+      "team_name": "$5 (60)"
+    },
+    "settings": null,
+    "user_id": "724328705224179712"
+  },
+  {
+    "avatar": "354ebd187836b165fcb70f03ea876b58",
+    "display_name": "Murray4434",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1122972250505916416",
+    "metadata": {
+      "allow_pn": "on",
+      "archived": "on",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "739858549068488704"
+  },
+  {
+    "avatar": "04428d26a584f0788c76a23505b413b8",
+    "display_name": "xStoneyy",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1122972250505916416",
+    "metadata": {
+      "allow_pn": "on",
+      "archived": "on",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "743596180637921280"
+  },
+  {
+    "avatar": "7752941c96321a93df95c0e62b0513f7",
+    "display_name": "jberry6363",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1122972250505916416",
+    "metadata": {
+      "allow_pn": "on",
+      "archived": "on",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "872724471876866048"
+  },
+  {
+    "avatar": "15d7cf259bc30eab8f6120f45f652fb6",
+    "display_name": "MOFIAF",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1122972250505916416",
+    "metadata": {
+      "allow_pn": "on",
+      "archived": "on",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "895856609916731392"
+  },
+  {
+    "avatar": "0d83f8973945eb70478b38df46818dda",
+    "display_name": "BertJameson",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1122972250505916416",
+    "metadata": {
+      "allow_pn": "on",
+      "archived": "on",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "963325378112569344"
+  }
+]

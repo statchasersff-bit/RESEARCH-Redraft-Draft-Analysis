@@ -1,0 +1,59 @@
+[
+  {
+    "created": 1728347314787,
+    "creators": [
+      "1137052072031072256"
+    ],
+    "draft_id": "1149175565649543168",
+    "draft_order": {
+      "1011741021317410816": 9,
+      "1131982532829966336": 7,
+      "1135709787905236992": 1,
+      "1137052072031072256": 5,
+      "1137077194267983872": 3,
+      "1137078745006845952": 8,
+      "1149509214537297920": 2,
+      "1149543270930829312": 4,
+      "723960106265407488": 6,
+      "994335944046125056": 10
+    },
+    "last_message_id": "1149868937211797504",
+    "last_message_time": 1728512627464,
+    "last_picked": 1728512626623,
+    "league_id": "1149175564450082816",
+    "metadata": {
+      "description": "",
+      "name": "Free fun",
+      "scoring_type": "ppr"
+    },
+    "season": "2024",
+    "season_type": "regular",
+    "settings": {
+      "alpha_sort": 0,
+      "autopause_enabled": 0,
+      "autopause_end_time": 1020,
+      "autopause_start_time": 300,
+      "autostart": 0,
+      "cpu_autopick": 1,
+      "enforce_position_limits": 1,
+      "nomination_timer": 60,
+      "pick_timer": 60,
+      "player_type": 0,
+      "reversal_round": 0,
+      "rounds": 15,
+      "slots_bn": 5,
+      "slots_def": 1,
+      "slots_flex": 2,
+      "slots_k": 1,
+      "slots_qb": 1,
+      "slots_rb": 2,
+      "slots_te": 1,
+      "slots_wr": 2,
+      "teams": 10
+    },
+    "sport": "nfl",
+    "start_time": 1728510294197,
+    "status": "complete",
+    "type": "snake"
+  }
+]

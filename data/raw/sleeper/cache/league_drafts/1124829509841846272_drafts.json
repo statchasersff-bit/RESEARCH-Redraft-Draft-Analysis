@@ -1,0 +1,59 @@
+[
+  {
+    "created": 1722542762769,
+    "creators": [
+      "422889962166296576"
+    ],
+    "draft_id": "1124829509841846273",
+    "draft_order": {
+      "327561347757785088": 12,
+      "361947603493244928": 4,
+      "422889962166296576": 1,
+      "464684923584770048": 3,
+      "578153501461352448": 2,
+      "606256735535046656": 7,
+      "607240570359857152": 6,
+      "610705249518329856": 5,
+      "684491273989619712": 9,
+      "737031387437256704": 8,
+      "853707794614947840": 10,
+      "982483033641033728": 11
+    },
+    "last_message_id": "1136871723879821312",
+    "last_message_time": 1725413850330,
+    "last_picked": 1725413809418,
+    "league_id": "1124829509841846272",
+    "metadata": {
+      "description": "",
+      "name": "Sundays 3.0",
+      "scoring_type": "ppr"
+    },
+    "season": "2024",
+    "season_type": "regular",
+    "settings": {
+      "alpha_sort": 0,
+      "autopause_enabled": 0,
+      "autopause_end_time": 840,
+      "autopause_start_time": 120,
+      "autostart": 0,
+      "cpu_autopick": 1,
+      "nomination_timer": 60,
+      "pick_timer": 120,
+      "player_type": 0,
+      "reversal_round": 0,
+      "rounds": 16,
+      "slots_bn": 6,
+      "slots_def": 1,
+      "slots_flex": 2,
+      "slots_qb": 1,
+      "slots_rb": 2,
+      "slots_te": 1,
+      "slots_wr": 3,
+      "teams": 12
+    },
+    "sport": "nfl",
+    "start_time": 1725408024661,
+    "status": "complete",
+    "type": "snake"
+  }
+]

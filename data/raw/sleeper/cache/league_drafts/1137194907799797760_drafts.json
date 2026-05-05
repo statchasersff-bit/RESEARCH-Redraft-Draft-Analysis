@@ -1,0 +1,53 @@
+[
+  {
+    "created": 1725490904362,
+    "creators": [
+      "454539220116041728"
+    ],
+    "draft_id": "1137194911981420544",
+    "draft_order": {
+      "1001903824581304320": 10,
+      "1002669065393000448": 2,
+      "1004942732940451840": 7,
+      "1005188054820257792": 6,
+      "1117162078046896128": 9,
+      "1124892700995657728": 8,
+      "1135772872917970944": 4,
+      "1137111129865609216": 3,
+      "454539220116041728": 5,
+      "864263793818087424": 1
+    },
+    "last_message_id": "1137217507606962176",
+    "last_message_time": 1725496291594,
+    "last_picked": 1725496291100,
+    "league_id": "1137194907799797760",
+    "metadata": {
+      "description": "",
+      "name": "Raise Yo Hand Fool",
+      "scoring_type": "ppr"
+    },
+    "season": "2024",
+    "season_type": "regular",
+    "settings": {
+      "alpha_sort": 0,
+      "autostart": 0,
+      "cpu_autopick": 1,
+      "pick_timer": 120,
+      "reversal_round": 0,
+      "rounds": 15,
+      "slots_bn": 5,
+      "slots_def": 1,
+      "slots_flex": 2,
+      "slots_k": 1,
+      "slots_qb": 1,
+      "slots_rb": 2,
+      "slots_te": 1,
+      "slots_wr": 2,
+      "teams": 10
+    },
+    "sport": "nfl",
+    "start_time": 1725492624353,
+    "status": "complete",
+    "type": "snake"
+  }
+]

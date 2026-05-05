@@ -1,0 +1,136 @@
+[
+  {
+    "avatar": "7e9cfde42e323c144c17520c4172d4d8",
+    "display_name": "ClutchTwinz",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1141413832083189760",
+    "metadata": {
+      "allow_pn": "on",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "246826985261625344"
+  },
+  {
+    "avatar": "0e3288d5761cf2d395881b1beff955d0",
+    "display_name": "StickyFingaStu",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1141413832083189760",
+    "metadata": {
+      "allow_pn": "on",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "1024097361175359488"
+  },
+  {
+    "avatar": "4f4090e5e9c3941414db40a871e3e909",
+    "display_name": "stefonDiggsmoney3",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1141413832083189760",
+    "metadata": {
+      "allow_pn": "on",
+      "archived": "on",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "1118678669683183616"
+  },
+  {
+    "avatar": "82aec8e811b839b8ec25d7b458afd57b",
+    "display_name": "Dnick2828",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1141413832083189760",
+    "metadata": {
+      "allow_pn": "on",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "1137580209102782464"
+  },
+  {
+    "avatar": "a0f765c352ab15f6206acc9ed1f75538",
+    "display_name": "EmEfDoom",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1141413832083189760",
+    "metadata": {
+      "allow_pn": "on",
+      "archived": "off",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "1140723254790037504"
+  },
+  {
+    "avatar": "c7601f667f04b29a3c4324e4f2fb1865",
+    "display_name": "hiu556",
+    "is_bot": false,
+    "is_owner": true,
+    "league_id": "1141413832083189760",
+    "metadata": {
+      "allow_pn": "on",
+      "allow_sms": "on",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "1141413587093823488"
+  },
+  {
+    "avatar": "b319fdf8b7b5b0359d3c78622ba4d70c",
+    "display_name": "spiritisthebest",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1141413832083189760",
+    "metadata": {
+      "allow_pn": "on",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "1141553193450012672"
+  },
+  {
+    "avatar": "4b497865b72cac32f7c250f948326a9c",
+    "display_name": "willaimMKE",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1141413832083189760",
+    "metadata": {
+      "allow_pn": "on",
+      "allow_sms": "on",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "1141863739025842176"
+  },
+  {
+    "avatar": "4b497865b72cac32f7c250f948326a9c",
+    "display_name": "davenun",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1141413832083189760",
+    "metadata": {
+      "allow_pn": "on",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "1141883794673242112"
+  },
+  {
+    "avatar": "e7af4deab0289b4f5505646424895246",
+    "display_name": "ezmonney1213",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1141413832083189760",
+    "metadata": {
+      "allow_pn": "on",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "1141912958432501760"
+  }
+]

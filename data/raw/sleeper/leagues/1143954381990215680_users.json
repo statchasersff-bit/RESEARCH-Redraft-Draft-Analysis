@@ -1,0 +1,159 @@
+[
+  {
+    "avatar": "352ad83223385173aaf9693bdee027fe",
+    "display_name": "jesseward",
+    "is_bot": false,
+    "is_owner": false,
+    "league_id": "1143954381990215680",
+    "metadata": {
+      "allow_pn": "on",
+      "archived": "off",
+      "avatar": "https://sleepercdn.com/uploads/06a011f268c2eb280c26a3fa08af3ce2.jpg",
+      "mention_pn": "on",
+      "team_name": "to infinity and bijan "
+    },
+    "settings": null,
+    "user_id": "847022720779653120"
+  },
+  {
+    "avatar": "e7af4deab0289b4f5505646424895246",
+    "display_name": "Ricer4life55s",
+    "is_bot": false,
+    "is_owner": false,
+    "league_id": "1143954381990215680",
+    "metadata": {
+      "allow_pn": "on",
+      "allow_sms": "on",
+      "archived": "on",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "1004899446145572864"
+  },
+  {
+    "avatar": "f0edbf4278f53f9425db175073df6584",
+    "display_name": "yaboi0404",
+    "is_bot": false,
+    "is_owner": false,
+    "league_id": "1143954381990215680",
+    "metadata": {
+      "allow_pn": "on",
+      "allow_sms": "on",
+      "archived": "on",
+      "avatar": "https://sleepercdn.com/uploads/587fe3b8488b25ecb94670b2c9ef5c4d.jpg",
+      "mention_pn": "on",
+      "team_name": "Johnson chase-ers💰"
+    },
+    "settings": null,
+    "user_id": "1008615196964032512"
+  },
+  {
+    "avatar": "8eb8f8bf999945d523f2c4033f70473e",
+    "display_name": "velldiff",
+    "is_bot": false,
+    "is_owner": true,
+    "league_id": "1143954381990215680",
+    "metadata": {
+      "allow_pn": "on",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "1047490999053971456"
+  },
+  {
+    "avatar": "e7af4deab0289b4f5505646424895246",
+    "display_name": "allenthepro",
+    "is_bot": false,
+    "is_owner": false,
+    "league_id": "1143954381990215680",
+    "metadata": {
+      "allow_pn": "on",
+      "allow_sms": "on",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "1111142967508692992"
+  },
+  {
+    "avatar": "f18b45bd619c4195e4b37f5457236c39",
+    "display_name": "isaacamaya",
+    "is_bot": false,
+    "is_owner": false,
+    "league_id": "1143954381990215680",
+    "metadata": {
+      "allow_pn": "on",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "1128054913218506752"
+  },
+  {
+    "avatar": "672c217eafc20d3df90631922d6965c9",
+    "display_name": "snipaksc",
+    "is_bot": false,
+    "is_owner": true,
+    "league_id": "1143954381990215680",
+    "metadata": {
+      "allow_pn": "on",
+      "archived": "off",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "1128114175168864256"
+  },
+  {
+    "avatar": "7e36865aa6100fbc0b7a397552c449db",
+    "display_name": "DELETED-x93Po60wqJZb",
+    "is_bot": false,
+    "is_owner": false,
+    "league_id": "1143954381990215680",
+    "metadata": {
+      "allow_pn": "on",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "1132489433577775104"
+  },
+  {
+    "avatar": "82aec8e811b839b8ec25d7b458afd57b",
+    "display_name": "melindaderc",
+    "is_bot": false,
+    "is_owner": false,
+    "league_id": "1143954381990215680",
+    "metadata": {
+      "allow_pn": "off",
+      "allow_sms": "on",
+      "archived": "on",
+      "avatar": "https://sleepercdn.com/uploads/eb3803ed5e88992da9a219182a7a6826.jpg",
+      "league_report_pn": "on",
+      "mascot_message": "on",
+      "mention_pn": "on",
+      "player_like_pn": "on",
+      "player_nickname_update": "on",
+      "team_name": "Mahomes Magic",
+      "team_name_update": "on",
+      "trade_block_pn": "on",
+      "transaction_commissioner": "on",
+      "transaction_free_agent": "on",
+      "transaction_trade": "on",
+      "transaction_waiver": "on",
+      "user_message_pn": "off"
+    },
+    "settings": null,
+    "user_id": "1135709787905236992"
+  },
+  {
+    "avatar": "5e6c114134fc7bde5f5c2c8ad7526e27",
+    "display_name": "jay33411nonon",
+    "is_bot": false,
+    "is_owner": false,
+    "league_id": "1143954381990215680",
+    "metadata": {
+      "allow_pn": "on",
+      "allow_sms": "on",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "1139710443062226944"
+  }
+]

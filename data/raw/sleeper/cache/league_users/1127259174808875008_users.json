@@ -1,0 +1,194 @@
+[
+  {
+    "avatar": "fbcf2cd12d37c0f8fd0cca786086670e",
+    "display_name": "COOLBOY8902",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1127259174808875008",
+    "metadata": {
+      "allow_pn": "on",
+      "archived": "off",
+      "mention_pn": "on",
+      "team_name": "DAMARDIAC ARREST"
+    },
+    "settings": null,
+    "user_id": "336959972288000000"
+  },
+  {
+    "avatar": "9b45494dd545aa3a42ff0341d78f0b3f",
+    "display_name": "Zay2403",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1127259174808875008",
+    "metadata": {
+      "allow_pn": "on",
+      "archived": "on",
+      "mention_pn": "on",
+      "team_name": "❌"
+    },
+    "settings": null,
+    "user_id": "438506447861444608"
+  },
+  {
+    "avatar": "6ab56a9815892a822c85da97d8bea184",
+    "display_name": "flintztonez8",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1127259174808875008",
+    "metadata": {
+      "allow_pn": "on",
+      "archived": "off",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "470490881099558912"
+  },
+  {
+    "avatar": "8d29115df605f196e6adfb719287bcfa",
+    "display_name": "EndZoneKilla",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1127259174808875008",
+    "metadata": {
+      "allow_pn": "on",
+      "archived": "on",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "556073486570704896"
+  },
+  {
+    "avatar": "3b1d74b2c99af7109206d91a84d6665a",
+    "display_name": "toasterbear",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1127259174808875008",
+    "metadata": {
+      "allow_pn": "on",
+      "archived": "off",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "608304970822930432"
+  },
+  {
+    "avatar": "29699faa6436b45bda3518d0e4de2c4c",
+    "display_name": "CtFire",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1127259174808875008",
+    "metadata": {
+      "allow_pn": "off",
+      "allow_sms": "on",
+      "archived": "on",
+      "league_report_pn": "on",
+      "mascot_message": "on",
+      "mention_pn": "on",
+      "player_like_pn": "on",
+      "player_nickname_update": "on",
+      "team_name_update": "on",
+      "trade_block_pn": "on",
+      "transaction_commissioner": "on",
+      "transaction_free_agent": "on",
+      "transaction_trade": "on",
+      "transaction_waiver": "on",
+      "user_message_pn": "off"
+    },
+    "settings": null,
+    "user_id": "609777702869745664"
+  },
+  {
+    "avatar": "f0edbf4278f53f9425db175073df6584",
+    "display_name": "sliversurfer",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1127259174808875008",
+    "metadata": {
+      "allow_pn": "on",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "731296171112394752"
+  },
+  {
+    "avatar": "4f4090e5e9c3941414db40a871e3e909",
+    "display_name": "Vce",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1127259174808875008",
+    "metadata": {
+      "allow_pn": "off",
+      "archived": "off",
+      "avatar": "https://sleepercdn.com/uploads/22ea26d60e91652490679157faf381a0.jpg",
+      "league_report_pn": "off",
+      "mascot_message": "off",
+      "mention_pn": "off",
+      "player_like_pn": "off",
+      "player_nickname_update": "off",
+      "team_name_update": "off",
+      "trade_block_pn": "off",
+      "transaction_commissioner": "off",
+      "transaction_free_agent": "off",
+      "transaction_trade": "off",
+      "transaction_waiver": "off",
+      "user_message_pn": "off"
+    },
+    "settings": null,
+    "user_id": "867871931431563264"
+  },
+  {
+    "avatar": "ab56979983965842c9ddd9ee29143ca8",
+    "display_name": "1q2w3e0p",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1127259174808875008",
+    "metadata": {
+      "allow_pn": "off",
+      "archived": "on",
+      "league_report_pn": "on",
+      "mascot_message": "on",
+      "mention_pn": "on",
+      "player_like_pn": "on",
+      "player_nickname_update": "on",
+      "team_name_update": "on",
+      "trade_block_pn": "on",
+      "transaction_commissioner": "on",
+      "transaction_free_agent": "on",
+      "transaction_trade": "on",
+      "transaction_waiver": "on",
+      "user_message_pn": "on"
+    },
+    "settings": null,
+    "user_id": "982483033641033728"
+  },
+  {
+    "avatar": "d50ea88e2a2c318e8c9da7048ee6b857",
+    "display_name": "theTCshow",
+    "is_bot": false,
+    "is_owner": true,
+    "league_id": "1127259174808875008",
+    "metadata": {
+      "allow_pn": "on",
+      "archived": "off",
+      "mention_pn": "on",
+      "team_name": "❌theCHEETAHshow"
+    },
+    "settings": null,
+    "user_id": "1000074775893762048"
+  },
+  {
+    "avatar": "7de63ee7df2117d0621d1bc18105d3c0",
+    "display_name": "littlebatman",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1127259174808875008",
+    "metadata": {
+      "allow_pn": "on",
+      "allow_sms": "on",
+      "mention_pn": "on",
+      "team_name": "Winstons cigarettes "
+    },
+    "settings": null,
+    "user_id": "1130897353826942976"
+  }
+]

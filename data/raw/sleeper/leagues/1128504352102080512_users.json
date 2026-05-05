@@ -1,0 +1,213 @@
+[
+  {
+    "avatar": "7f73d0a61d612a3199d6f48342deb27a",
+    "display_name": "jmhubbs",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1128504352102080512",
+    "metadata": {
+      "allow_pn": "on",
+      "archived": "on",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "339218474402324480"
+  },
+  {
+    "avatar": "496b2e8338c5588f4d8f1f517db1d935",
+    "display_name": "PornStars",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1128504352102080512",
+    "metadata": {
+      "allow_pn": "on",
+      "archived": "on",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "391059905995345920"
+  },
+  {
+    "avatar": "0bb14e24f126e0dba5a6bdaf4d16fe96",
+    "display_name": "ChronicChaos",
+    "is_bot": false,
+    "is_owner": true,
+    "league_id": "1128504352102080512",
+    "metadata": {
+      "allow_pn": "on",
+      "archived": "off",
+      "avatar": "https://sleepercdn.com/uploads/5e2cae75d7511be44a2c15fab708ea11.jpg",
+      "mention_pn": "on",
+      "team_name": "Chronic Chaos"
+    },
+    "settings": null,
+    "user_id": "454751922428047360"
+  },
+  {
+    "avatar": "056b67594a1197db3eb3f8b04685e2b2",
+    "display_name": "zAspects",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1128504352102080512",
+    "metadata": {
+      "allow_pn": "on",
+      "archived": "on",
+      "mention_pn": "on",
+      "team_name": "Django Achane'd"
+    },
+    "settings": null,
+    "user_id": "465291807962427392"
+  },
+  {
+    "avatar": "e6f2c93461fd731b3f02464eb9f1fd30",
+    "display_name": "dlittle2300",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1128504352102080512",
+    "metadata": {
+      "allow_pn": "on",
+      "archived": "on",
+      "avatar": "https://sleepercdn.com/uploads/d6e904cb74521274c0c16449f6140b04.jpg",
+      "mention_pn": "on",
+      "team_name": "Alex Smiths Leg"
+    },
+    "settings": null,
+    "user_id": "469930027593494528"
+  },
+  {
+    "avatar": "15d7cf259bc30eab8f6120f45f652fb6",
+    "display_name": "NinerMine",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1128504352102080512",
+    "metadata": {
+      "allow_pn": "on",
+      "allow_sms": "on",
+      "archived": "on",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "678503604495134720"
+  },
+  {
+    "avatar": "4f4090e5e9c3941414db40a871e3e909",
+    "display_name": "brettdowg",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1128504352102080512",
+    "metadata": {
+      "allow_pn": "on",
+      "archived": "on",
+      "league_report_pn": "on",
+      "mascot_message": "off",
+      "mention_pn": "on",
+      "player_like_pn": "on",
+      "player_nickname_update": "off",
+      "team_name_update": "off",
+      "trade_block_pn": "on",
+      "transaction_commissioner": "off",
+      "transaction_free_agent": "off",
+      "transaction_trade": "on",
+      "transaction_waiver": "on",
+      "user_message_pn": "on"
+    },
+    "settings": null,
+    "user_id": "740691722304167936"
+  },
+  {
+    "avatar": "705e8f6abaf3731e65b157d4727af7a0",
+    "display_name": "younghouseboat",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1128504352102080512",
+    "metadata": {
+      "allow_pn": "on",
+      "archived": "on",
+      "mention_pn": "on",
+      "team_name": "Monsieur Alvin Kandy"
+    },
+    "settings": null,
+    "user_id": "870749947040075776"
+  },
+  {
+    "avatar": "de5eeff62bbf03b8f0d1e3b01e941001",
+    "display_name": "SnaggletoothTzu",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1128504352102080512",
+    "metadata": {
+      "allow_pn": "on",
+      "archived": "on",
+      "avatar": "https://sleepercdn.com/uploads/84a5d39a41ea417258b5d9febe6b9350.jpg",
+      "league_report_pn": "off",
+      "mascot_message": "on",
+      "mention_pn": "on",
+      "player_like_pn": "on",
+      "player_nickname_update": "on",
+      "team_name": "XXX Get Griddy With It!",
+      "team_name_update": "on",
+      "trade_block_pn": "on",
+      "transaction_commissioner": "on",
+      "transaction_free_agent": "off",
+      "transaction_trade": "on",
+      "transaction_waiver": "off",
+      "user_message_pn": "on"
+    },
+    "settings": null,
+    "user_id": "970591604694208512"
+  },
+  {
+    "avatar": "ab56979983965842c9ddd9ee29143ca8",
+    "display_name": "1q2w3e0p",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1128504352102080512",
+    "metadata": {
+      "allow_pn": "off",
+      "archived": "on",
+      "league_report_pn": "on",
+      "mascot_message": "on",
+      "mention_pn": "on",
+      "player_like_pn": "on",
+      "player_nickname_update": "on",
+      "team_name_update": "on",
+      "trade_block_pn": "on",
+      "transaction_commissioner": "on",
+      "transaction_free_agent": "on",
+      "transaction_trade": "on",
+      "transaction_waiver": "on",
+      "user_message_pn": "on"
+    },
+    "settings": null,
+    "user_id": "982483033641033728"
+  },
+  {
+    "avatar": "4212ebafa7b7623ad35a131965c35602",
+    "display_name": "loftchef30",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1128504352102080512",
+    "metadata": {
+      "allow_pn": "on",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "1034944980093079552"
+  },
+  {
+    "avatar": "73676705a21f0efdc00333b553119bd3",
+    "display_name": "cespiveyFF",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1128504352102080512",
+    "metadata": {
+      "allow_pn": "on",
+      "archived": "on",
+      "avatar": "https://sleepercdn.com/uploads/80a7b8469cbf303dd4fd19f16364257b.jpg",
+      "mention_pn": "on",
+      "team_name": "Super Lamario Bros"
+    },
+    "settings": null,
+    "user_id": "1121559393511829504"
+  }
+]

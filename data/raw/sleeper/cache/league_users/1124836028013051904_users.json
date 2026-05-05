@@ -1,0 +1,168 @@
+[
+  {
+    "avatar": "nfl_det",
+    "display_name": "greekdawg",
+    "is_bot": null,
+    "is_owner": null,
+    "league_id": "1124836028013051904",
+    "metadata": {
+      "allow_pn": "on",
+      "archived": "on",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "100908832284622848"
+  },
+  {
+    "avatar": "9a1182d9346c4477789003cce9644b38",
+    "display_name": "wes20",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1124836028013051904",
+    "metadata": {
+      "allow_pn": "on",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "404012478125629440"
+  },
+  {
+    "avatar": "814248b1cd62cc63e63fa4f1c1bbafe3",
+    "display_name": "R2yan",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1124836028013051904",
+    "metadata": {
+      "allow_pn": "off",
+      "archived": "on",
+      "avatar": "https://sleepercdn.com/uploads/8c48706dea331c306a0ee9f3f811911e.jpg",
+      "league_report_pn": "on",
+      "mascot_message": "on",
+      "mention_pn": "on",
+      "player_like_pn": "on",
+      "player_nickname_update": "on",
+      "team_name_update": "on",
+      "trade_block_pn": "on",
+      "transaction_commissioner": "on",
+      "transaction_free_agent": "on",
+      "transaction_trade": "on",
+      "transaction_waiver": "on",
+      "user_message_pn": "on"
+    },
+    "settings": null,
+    "user_id": "468904903805235200"
+  },
+  {
+    "avatar": "e22255ba6c39bfe71b3447ece010aa2a",
+    "display_name": "JuliusPoolius",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1124836028013051904",
+    "metadata": {
+      "allow_pn": "on",
+      "archived": "on",
+      "mention_pn": "on",
+      "team_name": "JuliusPoolius 20"
+    },
+    "settings": null,
+    "user_id": "472695238809350144"
+  },
+  {
+    "avatar": "8d46f67ac7dc53b6a429437b9c5084db",
+    "display_name": "jimmyjuff69",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1124836028013051904",
+    "metadata": {
+      "allow_pn": "on",
+      "archived": "on",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "603132692388708352"
+  },
+  {
+    "avatar": "c25d08f897ae73e272aa5e364bd76fda",
+    "display_name": "tylland",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1124836028013051904",
+    "metadata": {
+      "allow_pn": "on",
+      "archived": "on",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "722822421454843904"
+  },
+  {
+    "avatar": "7e2e6b08fc290774c5790d176ba4e418",
+    "display_name": "Kramerica420",
+    "is_bot": false,
+    "is_owner": true,
+    "league_id": "1124836028013051904",
+    "metadata": {
+      "allow_pn": "on",
+      "allow_sms": "on",
+      "archived": "on",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "725814857588355072"
+  },
+  {
+    "avatar": "b74b95bf323cf0f4707947f066594137",
+    "display_name": "pepeqj",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1124836028013051904",
+    "metadata": {
+      "allow_pn": "off",
+      "archived": "off",
+      "league_report_pn": "off",
+      "mascot_message": "off",
+      "mention_pn": "on",
+      "player_like_pn": "off",
+      "player_nickname_update": "off",
+      "team_name_update": "off",
+      "trade_block_pn": "on",
+      "transaction_commissioner": "off",
+      "transaction_free_agent": "off",
+      "transaction_trade": "off",
+      "transaction_waiver": "off",
+      "user_message_pn": "on"
+    },
+    "settings": null,
+    "user_id": "974600276839608320"
+  },
+  {
+    "avatar": "bf4f412035d9784c702f3567bbb44d94",
+    "display_name": "Kashmirnutshell",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1124836028013051904",
+    "metadata": {
+      "allow_pn": "on",
+      "allow_sms": "on",
+      "avatar": "https://sleepercdn.com/uploads/b7a2ec6ae7c2bb2bf1bc5b594908174f.jpg",
+      "mention_pn": "on",
+      "team_name": "Birds of War"
+    },
+    "settings": null,
+    "user_id": "1118197246908010496"
+  },
+  {
+    "avatar": "b319fdf8b7b5b0359d3c78622ba4d70c",
+    "display_name": "jbravo2619",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1124836028013051904",
+    "metadata": {
+      "allow_pn": "on",
+      "allow_sms": "on",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "1124921007015411712"
+  }
+]

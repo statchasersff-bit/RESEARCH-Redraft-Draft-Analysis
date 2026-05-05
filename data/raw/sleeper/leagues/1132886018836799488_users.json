@@ -1,0 +1,222 @@
+[
+  {
+    "avatar": "4c36f6cc68ca5fb2daae149ee6bbee44",
+    "display_name": "Bibez",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1132886018836799488",
+    "metadata": {
+      "allow_pn": "off",
+      "allow_sms": "on",
+      "archived": "on",
+      "league_report_pn": "on",
+      "mascot_message": "on",
+      "mention_pn": "on",
+      "player_like_pn": "on",
+      "player_nickname_update": "on",
+      "team_name": "Tyreek’s Kids Crew",
+      "team_name_update": "on",
+      "trade_block_pn": "on",
+      "transaction_commissioner": "on",
+      "transaction_free_agent": "on",
+      "transaction_trade": "on",
+      "transaction_waiver": "on",
+      "user_message_pn": "on"
+    },
+    "settings": null,
+    "user_id": "436638523131424768"
+  },
+  {
+    "avatar": "c8de9e651b19331f6eae4f9f26164107",
+    "display_name": "DawgPound57",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1132886018836799488",
+    "metadata": {
+      "allow_pn": "on",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "458400302974889984"
+  },
+  {
+    "avatar": "42a80ffec803ffffb6ed18807098e723",
+    "display_name": "hardwic1",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1132886018836799488",
+    "metadata": {
+      "allow_pn": "on",
+      "archived": "on",
+      "avatar": "https://sleepercdn.com/uploads/910e7f4f454fae1d7b3c028018ad68fb",
+      "mention_pn": "on",
+      "team_name": "SpartanV🦁ltron🗡️"
+    },
+    "settings": null,
+    "user_id": "459131906743595008"
+  },
+  {
+    "avatar": "5f517a89485c728e89aabf6749326489",
+    "display_name": "mrsalley",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1132886018836799488",
+    "metadata": {
+      "allow_pn": "off",
+      "archived": "on",
+      "avatar": "https://sleepercdn.com/uploads/8d6a7c182d6d9e5f4355cc34a7c7ecab.jpg",
+      "league_report_pn": "on",
+      "mascot_message": "on",
+      "mention_pn": "on",
+      "player_like_pn": "on",
+      "player_nickname_update": "on",
+      "team_name": "A, B, CeeDee",
+      "team_name_update": "on",
+      "trade_block_pn": "on",
+      "transaction_commissioner": "on",
+      "transaction_free_agent": "on",
+      "transaction_trade": "on",
+      "transaction_waiver": "on",
+      "user_message_pn": "off"
+    },
+    "settings": null,
+    "user_id": "464293567876034560"
+  },
+  {
+    "avatar": "f63ddc3f906f36e09e236e8eaa9a8895",
+    "display_name": "vasports74",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1132886018836799488",
+    "metadata": {
+      "allow_pn": "on",
+      "archived": "on",
+      "mention_pn": "on",
+      "team_name": "Sam's LaPorta Potties"
+    },
+    "settings": null,
+    "user_id": "605893857367916544"
+  },
+  {
+    "avatar": "15d7cf259bc30eab8f6120f45f652fb6",
+    "display_name": "oneballbrian",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1132886018836799488",
+    "metadata": {
+      "allow_pn": "on",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "740758460861587456"
+  },
+  {
+    "avatar": "1e6abb6c0bed5149756ecd84aafc983c",
+    "display_name": "DeanDaMachine",
+    "is_bot": false,
+    "is_owner": true,
+    "league_id": "1132886018836799488",
+    "metadata": {
+      "allow_pn": "on",
+      "archived": "off",
+      "avatar": "https://sleepercdn.com/uploads/348cf6a96b4a55e10ba8f0d872e92caf.jpg",
+      "league_report_pn": "off",
+      "mascot_message": "off",
+      "mention_pn": "on",
+      "player_like_pn": "on",
+      "player_nickname_update": "off",
+      "team_name": "Gibbs and Pieces",
+      "team_name_update": "off",
+      "trade_block_pn": "on",
+      "transaction_commissioner": "on",
+      "transaction_free_agent": "on",
+      "transaction_trade": "on",
+      "transaction_waiver": "on",
+      "user_message_pn": "on"
+    },
+    "settings": null,
+    "user_id": "850824208647823360"
+  },
+  {
+    "avatar": "057a739326751394e424a942e46ca4f4",
+    "display_name": "JMo3279",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1132886018836799488",
+    "metadata": {
+      "allow_pn": "on",
+      "mention_pn": "on",
+      "team_name": "WatsonplshaveHammys"
+    },
+    "settings": null,
+    "user_id": "869088082979414016"
+  },
+  {
+    "avatar": "ab56979983965842c9ddd9ee29143ca8",
+    "display_name": "1q2w3e0p",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1132886018836799488",
+    "metadata": {
+      "allow_pn": "off",
+      "archived": "on",
+      "league_report_pn": "on",
+      "mascot_message": "on",
+      "mention_pn": "on",
+      "player_like_pn": "on",
+      "player_nickname_update": "on",
+      "team_name_update": "on",
+      "trade_block_pn": "on",
+      "transaction_commissioner": "on",
+      "transaction_free_agent": "on",
+      "transaction_trade": "on",
+      "transaction_waiver": "on",
+      "user_message_pn": "on"
+    },
+    "settings": null,
+    "user_id": "982483033641033728"
+  },
+  {
+    "avatar": "b319fdf8b7b5b0359d3c78622ba4d70c",
+    "display_name": "chris007johnson",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1132886018836799488",
+    "metadata": {
+      "allow_pn": "on",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "1044959936016474112"
+  },
+  {
+    "avatar": "b319fdf8b7b5b0359d3c78622ba4d70c",
+    "display_name": "artemk1",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1132886018836799488",
+    "metadata": {
+      "allow_pn": "on",
+      "allow_sms": "on",
+      "avatar": "https://sleepercdn.com/uploads/4c4a04e0fcd8fb6d87d5110769025dd6.jpg",
+      "mention_pn": "on",
+      "team_name": "Philly Cheese Steak"
+    },
+    "settings": null,
+    "user_id": "1130920747788169216"
+  },
+  {
+    "avatar": "82aec8e811b839b8ec25d7b458afd57b",
+    "display_name": "NickL2024",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1132886018836799488",
+    "metadata": {
+      "allow_pn": "on",
+      "allow_sms": "on",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "1133040420180652032"
+  }
+]

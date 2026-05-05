@@ -1,0 +1,50 @@
+[
+  {
+    "created": 1726180081058,
+    "creators": [
+      "847022720779653120"
+    ],
+    "draft_id": "1140085528533639168",
+    "draft_order": {
+      "1124844473428578304": 2,
+      "1129271485626998784": 4,
+      "1134722588346974208": 3,
+      "1135709787905236992": 5,
+      "1140086182615003136": 7,
+      "1140151606362034176": 6,
+      "1140198872619446272": 1,
+      "698007225477709824": 8,
+      "847022720779653120": 9
+    },
+    "last_message_id": "1140821824293314560",
+    "last_message_time": 1726355627657,
+    "last_picked": 1726355627080,
+    "league_id": "1140085527707140096",
+    "metadata": {
+      "description": "",
+      "name": "rashee rice offseason schedual ",
+      "scoring_type": "ppr"
+    },
+    "season": "2024",
+    "season_type": "regular",
+    "settings": {
+      "autostart": 0,
+      "cpu_autopick": 1,
+      "pick_timer": 120,
+      "rounds": 17,
+      "slots_bn": 7,
+      "slots_def": 1,
+      "slots_flex": 2,
+      "slots_k": 1,
+      "slots_qb": 1,
+      "slots_rb": 2,
+      "slots_te": 1,
+      "slots_wr": 2,
+      "teams": 10
+    },
+    "sport": "nfl",
+    "start_time": 1726353080448,
+    "status": "complete",
+    "type": "snake"
+  }
+]

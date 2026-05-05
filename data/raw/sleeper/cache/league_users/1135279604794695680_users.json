@@ -1,0 +1,163 @@
+[
+  {
+    "avatar": "nfl_det",
+    "display_name": "greekdawg",
+    "is_bot": null,
+    "is_owner": null,
+    "league_id": "1135279604794695680",
+    "metadata": {
+      "allow_pn": "on",
+      "archived": "on",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "100908832284622848"
+  },
+  {
+    "avatar": "3f17943cbd11e1fe1905c480f25595e2",
+    "display_name": "Dmaca9",
+    "is_bot": false,
+    "is_owner": true,
+    "league_id": "1135279604794695680",
+    "metadata": {
+      "allow_pn": "on",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "453027305489428480"
+  },
+  {
+    "avatar": "6bce6697fcc4f8c9e83e0ad796e63492",
+    "display_name": "SleepingGiants1",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1135279604794695680",
+    "metadata": {
+      "allow_pn": "on",
+      "allow_sms": "on",
+      "archived": "on",
+      "mention_pn": "on",
+      "team_name": "TripleThreat🏈🛗🏈"
+    },
+    "settings": null,
+    "user_id": "464565448231350272"
+  },
+  {
+    "avatar": "7e876ca32226f65c496d0aa8cc03d79f",
+    "display_name": "Ayaan748",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1135279604794695680",
+    "metadata": {
+      "allow_pn": "on",
+      "archived": "on",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "597529667892727808"
+  },
+  {
+    "avatar": "6e092e5d4016b18d22610c41d8741e89",
+    "display_name": "Gageheize",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1135279604794695680",
+    "metadata": {
+      "allow_pn": "on",
+      "archived": "on",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "602220509073055744"
+  },
+  {
+    "avatar": "1104e7b7de431ce1f5496355eefec773",
+    "display_name": "S-Moores",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1135279604794695680",
+    "metadata": {
+      "allow_pn": "on",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "602627278593134592"
+  },
+  {
+    "avatar": "b52ad0070997a76251e40e32f0fb0c9f",
+    "display_name": "WilCoMil4",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1135279604794695680",
+    "metadata": {
+      "allow_pn": "on",
+      "archived": "on",
+      "avatar": "https://sleepercdn.com/uploads/945c2a31ba4276e461dab3c3a77319aa.jpg",
+      "mention_pn": "on",
+      "team_name": "WilCoMil4"
+    },
+    "settings": null,
+    "user_id": "738576480010924032"
+  },
+  {
+    "avatar": "08bac7d9f763658dee48a0112525a82c",
+    "display_name": "LKF17",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1135279604794695680",
+    "metadata": {
+      "allow_pn": "on",
+      "archived": "on",
+      "avatar": "https://sleepercdn.com/uploads/47d64da3784d46704052756a51c4f4b4.jpg",
+      "mention_pn": "on",
+      "team_name": "2Girls1Kupp"
+    },
+    "settings": null,
+    "user_id": "741031920472883200"
+  },
+  {
+    "avatar": "82aec8e811b839b8ec25d7b458afd57b",
+    "display_name": "Wrdlife",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1135279604794695680",
+    "metadata": {
+      "allow_pn": "on",
+      "archived": "on",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "913246500850102272"
+  },
+  {
+    "avatar": "8eb8f8bf999945d523f2c4033f70473e",
+    "display_name": "swishyswish",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1135279604794695680",
+    "metadata": {
+      "allow_pn": "on",
+      "allow_sms": "on",
+      "archived": "on",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "1124832144246939648"
+  },
+  {
+    "avatar": "d5a4be0525e2bcc39d6bb1a8154c899d",
+    "display_name": "InvaderSquibb",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1135279604794695680",
+    "metadata": {
+      "allow_pn": "on",
+      "allow_sms": "on",
+      "archived": "on",
+      "mention_pn": "on",
+      "team_name": "Noobmasters Revenge"
+    },
+    "settings": null,
+    "user_id": "1134752865462943744"
+  }
+]

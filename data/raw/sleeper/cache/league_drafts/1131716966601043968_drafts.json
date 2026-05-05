@@ -1,0 +1,60 @@
+[
+  {
+    "created": 1724184860560,
+    "creators": [
+      "732004539489714176"
+    ],
+    "draft_id": "1131716967217565696",
+    "draft_order": {
+      "100908832284622848": 4,
+      "442273528767574016": 2,
+      "467969640677502976": 5,
+      "481389009403113472": 12,
+      "604058045642772480": 10,
+      "720019640469745664": 7,
+      "724328705224179712": 3,
+      "732004539489714176": 6,
+      "737046516736352256": 1,
+      "738584006135828480": 8,
+      "855252454231613440": 11,
+      "941715426843721728": 9
+    },
+    "last_message_id": "1132553688767037440",
+    "last_message_time": 1724384350533,
+    "last_picked": 1724384349580,
+    "league_id": "1131716966601043968",
+    "metadata": {
+      "description": "",
+      "name": "Sniper Marksman #6 Superflex",
+      "scoring_type": "2qb"
+    },
+    "season": "2024",
+    "season_type": "regular",
+    "settings": {
+      "alpha_sort": 0,
+      "autopause_enabled": 0,
+      "autopause_end_time": 960,
+      "autopause_start_time": 240,
+      "autostart": 0,
+      "cpu_autopick": 1,
+      "enforce_position_limits": 1,
+      "nomination_timer": 60,
+      "pick_timer": 60,
+      "player_type": 0,
+      "reversal_round": 0,
+      "rounds": 16,
+      "slots_bn": 7,
+      "slots_flex": 2,
+      "slots_qb": 1,
+      "slots_rb": 2,
+      "slots_super_flex": 1,
+      "slots_te": 1,
+      "slots_wr": 2,
+      "teams": 12
+    },
+    "sport": "nfl",
+    "start_time": 1724381005646,
+    "status": "complete",
+    "type": "snake"
+  }
+]

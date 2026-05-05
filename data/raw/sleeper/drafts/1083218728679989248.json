@@ -1,0 +1,73 @@
+{
+  "created": 1712621979442,
+  "creators": [
+    "699140328589967360",
+    "727696622267473920"
+  ],
+  "draft_id": "1083218728679989248",
+  "draft_order": {
+    "1050587737226592256": 3,
+    "338823136923381760": 7,
+    "470810562897375232": 6,
+    "499297137159303168": 4,
+    "699140328589967360": 11,
+    "704848076061343744": 8,
+    "727696622267473920": 12,
+    "728430709252960256": 2,
+    "736834198454845440": 10,
+    "737194912570818560": 9,
+    "794998997151494144": 5,
+    "871588602965106688": 1
+  },
+  "last_message_id": "1085729062095417344",
+  "last_message_time": 1713220489575,
+  "last_picked": 1713220488674,
+  "league_id": "1083218726314541056",
+  "metadata": {
+    "description": "",
+    "name": "Early 4 the Night Owls ",
+    "scoring_type": "2qb"
+  },
+  "season": "2024",
+  "season_type": "regular",
+  "settings": {
+    "alpha_sort": 0,
+    "autopause_enabled": 1,
+    "autopause_end_time": 1020,
+    "autopause_start_time": 180,
+    "autostart": 0,
+    "cpu_autopick": 1,
+    "enforce_position_limits": 1,
+    "nomination_timer": 60,
+    "pick_timer": 7200,
+    "player_type": 0,
+    "reversal_round": 0,
+    "rounds": 15,
+    "slots_bn": 6,
+    "slots_flex": 2,
+    "slots_qb": 1,
+    "slots_rb": 2,
+    "slots_super_flex": 1,
+    "slots_te": 1,
+    "slots_wr": 2,
+    "teams": 12
+  },
+  "slot_to_roster_id": {
+    "1": 2,
+    "2": 4,
+    "3": 9,
+    "4": 3,
+    "5": 11,
+    "6": 6,
+    "7": 10,
+    "8": 8,
+    "9": 12,
+    "10": 7,
+    "11": 1,
+    "12": 5
+  },
+  "sport": "nfl",
+  "start_time": 1712873591831,
+  "status": "complete",
+  "type": "snake"
+}

@@ -1,0 +1,49 @@
+[
+  {
+    "created": 1726657279833,
+    "creators": [
+      "1142085137681768448"
+    ],
+    "draft_id": "1142087045255467008",
+    "draft_order": {
+      "1118678669683183616": 1,
+      "1135693978063826944": 5,
+      "1139815202628714496": 4,
+      "1142085137681768448": 2,
+      "1142658693218541568": 8,
+      "1142938874042310656": 7,
+      "1143146555738980352": 6,
+      "464836521233477632": 9
+    },
+    "last_message_id": "1147405875338829824",
+    "last_message_time": 1727925387752,
+    "last_picked": 1727925387096,
+    "league_id": "1142087044366331904",
+    "metadata": {
+      "description": "",
+      "name": "The League",
+      "scoring_type": "ppr"
+    },
+    "season": "2024",
+    "season_type": "regular",
+    "settings": {
+      "autostart": 0,
+      "cpu_autopick": 1,
+      "pick_timer": 120,
+      "rounds": 15,
+      "slots_bn": 5,
+      "slots_def": 1,
+      "slots_flex": 2,
+      "slots_k": 1,
+      "slots_qb": 1,
+      "slots_rb": 2,
+      "slots_te": 1,
+      "slots_wr": 2,
+      "teams": 10
+    },
+    "sport": "nfl",
+    "start_time": 1727924347674,
+    "status": "complete",
+    "type": "snake"
+  }
+]

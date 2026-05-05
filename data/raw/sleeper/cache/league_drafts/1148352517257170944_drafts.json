@@ -1,0 +1,112 @@
+[
+  {
+    "created": 1728152942163,
+    "creators": [
+      "1017250279886786560"
+    ],
+    "draft_id": "1148360307711053824",
+    "draft_order": {
+      "1017250279886786560": 7,
+      "1135709787905236992": 1,
+      "867894327819526144": 3,
+      "869405125314306048": 6,
+      "879917657309478912": 5,
+      "959562669143465984": 4,
+      "993609520066711552": 2
+    },
+    "last_message_id": "1148370943111122944",
+    "last_message_time": 1728155477839,
+    "last_picked": 1728155477313,
+    "league_id": "1148352517257170944",
+    "metadata": {
+      "description": "",
+      "name": "Draft asap",
+      "scoring_type": "ppr"
+    },
+    "season": "2024",
+    "season_type": "regular",
+    "settings": {
+      "alpha_sort": 0,
+      "autopause_enabled": 0,
+      "autopause_end_time": 840,
+      "autopause_start_time": 120,
+      "autostart": 0,
+      "cpu_autopick": 1,
+      "enforce_position_limits": 1,
+      "nomination_timer": 60,
+      "pick_timer": 30,
+      "player_type": 0,
+      "reversal_round": 0,
+      "rounds": 15,
+      "slots_bn": 5,
+      "slots_def": 1,
+      "slots_flex": 2,
+      "slots_k": 1,
+      "slots_qb": 1,
+      "slots_rb": 2,
+      "slots_te": 1,
+      "slots_wr": 2,
+      "teams": 10
+    },
+    "sport": "nfl",
+    "start_time": 1728153162924,
+    "status": "complete",
+    "type": "snake"
+  },
+  {
+    "created": 1728151085041,
+    "creators": [
+      "1017250279886786560"
+    ],
+    "draft_id": "1148352518448107520",
+    "draft_order": {
+      "1017250279886786560": 9,
+      "1118678669683183616": 3,
+      "1135709787905236992": 8,
+      "1136035441196699648": 6,
+      "867894327819526144": 5,
+      "869405125314306048": 7,
+      "879917657309478912": 10,
+      "959562669143465984": 2,
+      "993609520066711552": 4
+    },
+    "last_message_id": "1148360273112420352",
+    "last_message_time": 1728152933913,
+    "last_picked": 1728152919962,
+    "league_id": "1148352517257170944",
+    "metadata": {
+      "description": "",
+      "name": "Draft asap",
+      "scoring_type": "ppr"
+    },
+    "season": "2024",
+    "season_type": "regular",
+    "settings": {
+      "alpha_sort": 0,
+      "autopause_enabled": 0,
+      "autopause_end_time": 840,
+      "autopause_start_time": 120,
+      "autostart": 0,
+      "cpu_autopick": 1,
+      "enforce_position_limits": 1,
+      "nomination_timer": 60,
+      "pick_timer": 60,
+      "player_type": 0,
+      "reversal_round": 0,
+      "rounds": 15,
+      "slots_bn": 5,
+      "slots_def": 1,
+      "slots_flex": 2,
+      "slots_k": 1,
+      "slots_qb": 1,
+      "slots_rb": 2,
+      "slots_te": 1,
+      "slots_wr": 2,
+      "teams": 10
+    },
+    "sport": "nfl",
+    "start_time": 1728152196289,
+    "status": "complete",
+    "type": "snake"
+  }
+]

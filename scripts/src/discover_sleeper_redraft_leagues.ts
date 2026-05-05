@@ -508,15 +508,6 @@ function validateLeague(
     }
   }
 
-  // Check scoring settings for IDP
-  const idpScoringKeys = ["def_st_td", "def_td", "sack", "int", "pass_def"];
-  const hasHeavyIDP = idpScoringKeys.some(
-    (k) => scoringSettings[k] && scoringSettings[k] > 2
-  );
-  if (hasHeavyIDP) {
-    return { valid: false, reason_rejected: "IDP scoring detected in scoring settings" };
-  }
-
   // QB format
   const qbResult = classifyQBFormat(rosterPositions, settings);
   if (!qbResult.format) {
@@ -731,19 +722,105 @@ async function main() {
 
   console.log(`Total unique leagues discovered: ${allLeagueIds.size}\n`);
 
-  // Step 6: Validate all leagues
+  // Step 6: Validate all leagues — two-phase with parallelism
   console.log("Step 6: Validating leagues...\n");
 
   const validLeagues: ValidLeagueEntry[] = [];
   const rejectedLeagues: RejectedLeagueEntry[] = [];
   const leagueIdList = Array.from(allLeagueIds);
 
-  for (let i = 0; i < leagueIdList.length; i++) {
-    const leagueId = leagueIdList[i];
-    if ((i + 1) % 25 === 0 || i + 1 === leagueIdList.length) {
-      console.log(`  Validating ${i + 1}/${leagueIdList.length}...`);
+  // ── Phase 6a: Pre-filter using already-cached user_leagues data ──────────────
+  // user_leagues cache already contains full league settings for most leagues.
+  // We can reject obvious invalids without any extra API calls.
+  const quickMeta: Record<string, SleeperLeague> = {};
+  const userLeaguesCacheDir = path.join(CACHE_DIR, "user_leagues");
+  const leagueMetaCacheDir = path.join(CACHE_DIR, "league_meta");
+
+  for (const cacheDir of [userLeaguesCacheDir, leagueMetaCacheDir]) {
+    if (!fs.existsSync(cacheDir)) continue;
+    for (const file of fs.readdirSync(cacheDir)) {
+      try {
+        const raw = JSON.parse(fs.readFileSync(path.join(cacheDir, file), "utf-8"));
+        // user_leagues files are arrays; league_meta files are single objects
+        const leagues: SleeperLeague[] = Array.isArray(raw) ? raw : [raw];
+        for (const l of leagues) {
+          if (l && l.league_id) quickMeta[l.league_id] = l;
+        }
+      } catch { /* skip corrupt cache entries */ }
+    }
+  }
+
+  const needsFullValidation: string[] = [];
+
+  for (const leagueId of leagueIdList) {
+    const league = quickMeta[leagueId];
+    if (!league) {
+      // No cached data — must fetch
+      needsFullValidation.push(leagueId);
+      continue;
     }
 
+    // Quick rejects that don't need draft data
+    const seasonType = (league.season_type || "").toLowerCase();
+    const name = (league.name || "").toLowerCase();
+    const settings = league.settings || {};
+    const scoringSettings = league.scoring_settings || {};
+    const rosterPositions = league.roster_positions || [];
+    const totalRosters = league.total_rosters || 0;
+
+    let quickReject: string | null = null;
+
+    if (league.sport && league.sport !== "nfl") {
+      quickReject = `Not NFL (sport=${league.sport})`;
+    } else if (seasonType === "dynasty" || DYNASTY_KEYWORDS.test(name) ||
+               (settings["taxi_slots"] as number) > 0 || (settings["taxi_years"] as number) > 0) {
+      quickReject = "Dynasty league";
+    } else if (seasonType === "keeper" || KEEPER_KEYWORDS.test(name) ||
+               (settings["num_kept"] as number) > 0) {
+      quickReject = "Keeper league";
+    } else if ((settings["best_ball"] as number) === 1 || BESTBALL_KEYWORDS.test(name)) {
+      quickReject = "Best ball league";
+    } else if (totalRosters !== 10 && totalRosters !== 12) {
+      quickReject = `League size ${totalRosters} not allowed (only 10 or 12)`;
+    } else if (rosterPositions.some((p) => IDP_POSITIONS.has(p))) {
+      quickReject = `IDP roster position detected`;
+    } else {
+      const qbResult = classifyQBFormat(rosterPositions, settings);
+      if (!qbResult.format) quickReject = qbResult.reason ?? "Invalid QB format";
+    }
+
+    if (quickReject) {
+      rejectedLeagues.push({
+        season: league.season || config.season,
+        league_id: leagueId,
+        league_name: league.name || "Unknown",
+        total_rosters: totalRosters,
+        reason_rejected: quickReject,
+        validation_notes: "pre-filtered",
+        relevant_settings: {
+          season_type: league.season_type,
+          status: league.status,
+          best_ball: settings["best_ball"],
+          taxi_slots: settings["taxi_slots"],
+          num_kept: settings["num_kept"],
+        },
+        roster_positions: rosterPositions,
+        scoring_settings: scoringSettings,
+      });
+    } else {
+      needsFullValidation.push(leagueId);
+    }
+  }
+
+  console.log(`  Pre-filtered: ${leagueIdList.length - needsFullValidation.length} quick rejects`);
+  console.log(`  Full validation needed: ${needsFullValidation.length} leagues\n`);
+
+  // ── Phase 6b: Full validation with concurrency ────────────────────────────────
+  // Process leagues in parallel batches (CONCURRENCY at a time).
+  const CONCURRENCY = 20;
+  let processed = 0;
+
+  async function validateOneFull(leagueId: string): Promise<void> {
     try {
       const [league, users, rosters, drafts] = await Promise.all([
         fetchLeague(leagueId),
@@ -764,14 +841,21 @@ async function main() {
           roster_positions: [],
           scoring_settings: {},
         });
-        continue;
+        return;
       }
 
-      // Fetch draft picks for the snake draft
+      // Only fetch draft picks if there's a completed snake draft
+      const snakeDraft = drafts.find((d) => d.type === "snake");
       const draftPicksList: SleeperDraftPick[][] = [];
-      for (const draft of drafts) {
-        const picks = await fetchDraftPicks(draft.draft_id);
-        draftPicksList.push(picks);
+
+      if (snakeDraft && snakeDraft.status === "complete") {
+        for (const draft of drafts) {
+          const picks = await fetchDraftPicks(draft.draft_id);
+          draftPicksList.push(picks);
+        }
+      } else {
+        // Push empty arrays so validateLeague sees no picks
+        for (const _ of drafts) draftPicksList.push([]);
       }
 
       const result = validateLeague(league, drafts, draftPicksList, rosters, users);
@@ -781,8 +865,6 @@ async function main() {
         discovered_from_username: "",
         discovered_from_seed_league_id: "",
       };
-
-      const snakeDraft = drafts.find((d) => d.type === "snake");
 
       if (result.valid) {
         validLeagues.push({
@@ -837,7 +919,18 @@ async function main() {
         roster_positions: [],
         scoring_settings: {},
       });
+    } finally {
+      processed++;
+      if (processed % 100 === 0 || processed === needsFullValidation.length) {
+        console.log(`  Full-validated ${processed}/${needsFullValidation.length}...`);
+      }
     }
+  }
+
+  // Run in batches of CONCURRENCY
+  for (let i = 0; i < needsFullValidation.length; i += CONCURRENCY) {
+    const batch = needsFullValidation.slice(i, i + CONCURRENCY);
+    await Promise.all(batch.map((id) => validateOneFull(id)));
   }
 
   console.log(`\n  Valid: ${validLeagues.length}, Rejected: ${rejectedLeagues.length}\n`);

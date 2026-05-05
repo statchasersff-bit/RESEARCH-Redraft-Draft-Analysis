@@ -1,0 +1,58 @@
+[
+  {
+    "created": 1721728683362,
+    "creators": [
+      "1121414525951090688"
+    ],
+    "draft_id": "1121415013387845632",
+    "draft_order": {
+      "1002420030442684416": 8,
+      "1002420905630404608": 3,
+      "1002421447723171840": 5,
+      "1003780888687104000": 9,
+      "1076281377726844928": 7,
+      "1121414525951090688": 2,
+      "742485857432408064": 6,
+      "991094757512298496": 4,
+      "997986155285057536": 1
+    },
+    "last_message_id": "1128237692153520128",
+    "last_message_time": 1723355336753,
+    "last_picked": 1723355336200,
+    "league_id": "1121415012309880832",
+    "metadata": {
+      "description": "",
+      "name": "Negro Leagues Football",
+      "scoring_type": "ppr"
+    },
+    "season": "2024",
+    "season_type": "regular",
+    "settings": {
+      "alpha_sort": 0,
+      "autopause_enabled": 0,
+      "autopause_end_time": 900,
+      "autopause_start_time": 180,
+      "autostart": 0,
+      "cpu_autopick": 1,
+      "enforce_position_limits": 1,
+      "nomination_timer": 60,
+      "pick_timer": 90,
+      "player_type": 0,
+      "reversal_round": 0,
+      "rounds": 15,
+      "slots_bn": 5,
+      "slots_def": 1,
+      "slots_flex": 2,
+      "slots_k": 1,
+      "slots_qb": 1,
+      "slots_rb": 2,
+      "slots_te": 1,
+      "slots_wr": 2,
+      "teams": 12
+    },
+    "sport": "nfl",
+    "start_time": 1723352440562,
+    "status": "complete",
+    "type": "snake"
+  }
+]

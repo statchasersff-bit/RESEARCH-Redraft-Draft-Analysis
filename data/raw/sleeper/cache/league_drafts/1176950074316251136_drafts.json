@@ -1,0 +1,63 @@
+[
+  {
+    "created": 1734969273979,
+    "creators": [
+      "737085875023900672",
+      "854785777429753856",
+      "1000925658157035520",
+      "1128019987958030336",
+      "1133938442456453120"
+    ],
+    "draft_id": "1176950075569557504",
+    "draft_order": {
+      "1000100165757321216": 7,
+      "1000166013784694784": 6,
+      "1000925658157035520": 12,
+      "1128019987958030336": 3,
+      "1133938442456453120": 9,
+      "644592945617551360": 10,
+      "711697074571284480": 2,
+      "737085875023900672": 11,
+      "853905661040390144": 5,
+      "854785777429753856": 1,
+      "983946376868364288": 8,
+      "999164792680153088": 4
+    },
+    "last_message_id": "1177547985366765568",
+    "last_message_time": 1735111826796,
+    "last_picked": 1735111825955,
+    "league_id": "1176950074316251136",
+    "metadata": {
+      "description": "",
+      "name": "WEEEEEEK 17 🤫",
+      "scoring_type": "2qb"
+    },
+    "season": "2024",
+    "season_type": "regular",
+    "settings": {
+      "alpha_sort": 0,
+      "autopause_enabled": 0,
+      "autopause_end_time": 900,
+      "autopause_start_time": 180,
+      "autostart": 0,
+      "cpu_autopick": 1,
+      "enforce_position_limits": 1,
+      "nomination_timer": 60,
+      "pick_timer": 600,
+      "player_type": 0,
+      "reversal_round": 0,
+      "rounds": 8,
+      "slots_flex": 1,
+      "slots_qb": 1,
+      "slots_rb": 2,
+      "slots_super_flex": 1,
+      "slots_te": 1,
+      "slots_wr": 2,
+      "teams": 12
+    },
+    "sport": "nfl",
+    "start_time": 1735015181416,
+    "status": "complete",
+    "type": "snake"
+  }
+]

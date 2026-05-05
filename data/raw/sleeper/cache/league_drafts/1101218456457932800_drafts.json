@@ -1,0 +1,59 @@
+[
+  {
+    "created": 1716913448971,
+    "creators": [
+      "479157902301458432"
+    ],
+    "draft_id": "1101218456462127104",
+    "draft_order": {
+      "472677951763116032": 4,
+      "479157902301458432": 9,
+      "495506102335565824": 2,
+      "684142538910703616": 6,
+      "717896443842588672": 11,
+      "735286332225650688": 5,
+      "741801216589475840": 12,
+      "755615619030130688": 8,
+      "870984534588600320": 3,
+      "965439442330628096": 7,
+      "969083336599588864": 1,
+      "994307023145689088": 10
+    },
+    "last_message_id": "1102052981836349440",
+    "last_message_time": 1717112415325,
+    "last_picked": 1717112414604,
+    "league_id": "1101218456457932800",
+    "metadata": {
+      "description": "",
+      "name": "5️⃣9️⃣⭐PAID $50 Redraft League",
+      "scoring_type": "ppr"
+    },
+    "season": "2024",
+    "season_type": "regular",
+    "settings": {
+      "alpha_sort": 0,
+      "autopause_enabled": 0,
+      "autopause_end_time": 900,
+      "autopause_start_time": 180,
+      "autostart": 0,
+      "cpu_autopick": 1,
+      "enforce_position_limits": 1,
+      "nomination_timer": 60,
+      "pick_timer": 30,
+      "player_type": 0,
+      "reversal_round": 0,
+      "rounds": 14,
+      "slots_bn": 6,
+      "slots_flex": 2,
+      "slots_qb": 1,
+      "slots_rb": 2,
+      "slots_te": 1,
+      "slots_wr": 2,
+      "teams": 12
+    },
+    "sport": "nfl",
+    "start_time": 1717110029200,
+    "status": "complete",
+    "type": "snake"
+  }
+]

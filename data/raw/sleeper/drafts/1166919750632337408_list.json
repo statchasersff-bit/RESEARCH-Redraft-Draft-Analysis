@@ -1,0 +1,60 @@
+[
+  {
+    "created": 1732577858371,
+    "creators": [
+      "1151674692361887744"
+    ],
+    "draft_id": "1166919751517491200",
+    "draft_order": {
+      "1034296454443134976": 1,
+      "1118678669683183616": 2,
+      "1125893385648312320": 7,
+      "1129223330734698496": 10,
+      "1135397120577671168": 8,
+      "1137539022278750208": 9,
+      "1151674692361887744": 3,
+      "1154577381873545216": 4,
+      "1161062524289261568": 5,
+      "787336453968556032": 6
+    },
+    "last_message_id": "1166963660632256512",
+    "last_message_time": 1732588327132,
+    "last_picked": 1732588326370,
+    "league_id": "1166919750632337408",
+    "metadata": {
+      "description": "",
+      "name": "Fantasy mid  smack down",
+      "scoring_type": "2qb"
+    },
+    "season": "2024",
+    "season_type": "regular",
+    "settings": {
+      "alpha_sort": 0,
+      "autopause_enabled": 0,
+      "autopause_end_time": 900,
+      "autopause_start_time": 180,
+      "autostart": 0,
+      "cpu_autopick": 1,
+      "enforce_position_limits": 1,
+      "nomination_timer": 60,
+      "pick_timer": 60,
+      "player_type": 0,
+      "reversal_round": 0,
+      "rounds": 18,
+      "slots_bn": 7,
+      "slots_def": 1,
+      "slots_flex": 2,
+      "slots_k": 1,
+      "slots_qb": 1,
+      "slots_rb": 2,
+      "slots_super_flex": 1,
+      "slots_te": 1,
+      "slots_wr": 2,
+      "teams": 10
+    },
+    "sport": "nfl",
+    "start_time": 1732583862121,
+    "status": "complete",
+    "type": "snake"
+  }
+]

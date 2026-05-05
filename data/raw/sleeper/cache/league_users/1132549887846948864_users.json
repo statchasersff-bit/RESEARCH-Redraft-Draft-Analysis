@@ -1,0 +1,197 @@
+[
+  {
+    "avatar": "c256d605f198af04302fb73d1dbdf4be",
+    "display_name": "SECRETSLAWS",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1132549887846948864",
+    "metadata": {
+      "allow_pn": "on",
+      "archived": "on",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "465080628467986432"
+  },
+  {
+    "avatar": "50bea8ff18ee21c83a08eb33982ef54f",
+    "display_name": "KZR",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1132549887846948864",
+    "metadata": {
+      "allow_pn": "on",
+      "archived": "on",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "466351304818552832"
+  },
+  {
+    "avatar": "d55d1f7075eda01948318de4af616075",
+    "display_name": "RuckTruck",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1132549887846948864",
+    "metadata": {
+      "allow_pn": "on",
+      "archived": "on",
+      "mention_pn": "on",
+      "team_name": "❌❌❌❌"
+    },
+    "settings": null,
+    "user_id": "549133714618667008"
+  },
+  {
+    "avatar": "9f4071cdb9613f70208519d71d689e18",
+    "display_name": "DRATAAAR",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1132549887846948864",
+    "metadata": {
+      "allow_pn": "on",
+      "archived": "on",
+      "mention_pn": "on",
+      "team_name": "Hurts Muh'Waddle"
+    },
+    "settings": null,
+    "user_id": "604209749789048832"
+  },
+  {
+    "avatar": "d60706d85fdd8991d0a8a2f7b7936c4d",
+    "display_name": "villella7",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1132549887846948864",
+    "metadata": {
+      "allow_pn": "off",
+      "archived": "on",
+      "league_report_pn": "off",
+      "mascot_message": "off",
+      "mention_pn": "off",
+      "player_like_pn": "off",
+      "player_nickname_update": "off",
+      "team_name_update": "off",
+      "trade_block_pn": "off",
+      "transaction_commissioner": "off",
+      "transaction_free_agent": "off",
+      "transaction_trade": "off",
+      "transaction_waiver": "off",
+      "user_message_pn": "off"
+    },
+    "settings": null,
+    "user_id": "683091452036726784"
+  },
+  {
+    "avatar": "2d329463c2e3afcd9e5d94efb46e5e1b",
+    "display_name": "6oku",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1132549887846948864",
+    "metadata": {
+      "allow_pn": "on",
+      "archived": "on",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "711697074571284480"
+  },
+  {
+    "avatar": "ad72ee107922b48fce42d3d817be93cf",
+    "display_name": "BayquanSarkley",
+    "is_bot": false,
+    "is_owner": true,
+    "league_id": "1132549887846948864",
+    "metadata": {
+      "allow_pn": "on",
+      "archived": "off",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "719450525036265472"
+  },
+  {
+    "avatar": "a5489791e0bea605d28936af10038166",
+    "display_name": "hankburnem",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1132549887846948864",
+    "metadata": {
+      "allow_pn": "on",
+      "archived": "on",
+      "avatar": "https://sleepercdn.com/uploads/3db8cce9b8ed02cf975406d020ad0188.jpg",
+      "mention_pn": "on",
+      "team_name": "💀Fresh Starts"
+    },
+    "settings": null,
+    "user_id": "830702843102076928"
+  },
+  {
+    "avatar": "f5c3b8f0d13e88c0064135fe1a6d50c5",
+    "display_name": "SharpeShot",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1132549887846948864",
+    "metadata": {
+      "allow_pn": "on",
+      "archived": "on",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "852279013379530752"
+  },
+  {
+    "avatar": "ec7165f6f8cb109a2242d1ba59e371fa",
+    "display_name": "UncleJesse01",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1132549887846948864",
+    "metadata": {
+      "allow_pn": "on",
+      "archived": "on",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "866165948086886400"
+  },
+  {
+    "avatar": "d93e001af0f68dd90df2ae94bad4a3ab",
+    "display_name": "RedSox23",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1132549887846948864",
+    "metadata": {
+      "allow_pn": "on",
+      "archived": "on",
+      "league_report_pn": "off",
+      "mascot_message": "off",
+      "mention_pn": "on",
+      "player_like_pn": "off",
+      "player_nickname_update": "off",
+      "team_name_update": "off",
+      "trade_block_pn": "off",
+      "transaction_commissioner": "on",
+      "transaction_free_agent": "on",
+      "transaction_trade": "off",
+      "transaction_waiver": "on",
+      "user_message_pn": "on"
+    },
+    "settings": null,
+    "user_id": "869812155644628992"
+  },
+  {
+    "avatar": "b3338675f635c2c1f42b469621d38ec6",
+    "display_name": "jmcgee93",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1132549887846948864",
+    "metadata": {
+      "allow_pn": "on",
+      "archived": "on",
+      "mention_pn": "on",
+      "team_name": "Bowers Powers"
+    },
+    "settings": null,
+    "user_id": "872663083783540736"
+  }
+]

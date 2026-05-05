@@ -1,0 +1,182 @@
+[
+  {
+    "avatar": "nfl_det",
+    "display_name": "greekdawg",
+    "is_bot": null,
+    "is_owner": null,
+    "league_id": "1135096796822364160",
+    "metadata": {
+      "allow_pn": "on",
+      "archived": "on",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "100908832284622848"
+  },
+  {
+    "avatar": "fba92f979b66191a0bb454e09c39ad40",
+    "display_name": "Satoshii",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1135096796822364160",
+    "metadata": {
+      "allow_pn": "on",
+      "archived": "on",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "191232645261168640"
+  },
+  {
+    "avatar": "3c7def417a4613d104ae66403af0e0e7",
+    "display_name": "Ravensftw",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1135096796822364160",
+    "metadata": {
+      "allow_pn": "on",
+      "archived": "on",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "334099056529797120"
+  },
+  {
+    "avatar": "28fbd3d66d155155a099995c09ac1298",
+    "display_name": "ScaryTerriez",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1135096796822364160",
+    "metadata": {
+      "allow_pn": "on",
+      "archived": "on",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "471900590297837568"
+  },
+  {
+    "avatar": "283337ad28987dd4dd0cede281f08b0e",
+    "display_name": "MightyMorphos",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1135096796822364160",
+    "metadata": {
+      "allow_pn": "on",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "472196939933282304"
+  },
+  {
+    "avatar": "cf094921d93a4dd632ef3ef212cd6fca",
+    "display_name": "sleepydior",
+    "is_bot": false,
+    "is_owner": true,
+    "league_id": "1135096796822364160",
+    "metadata": {
+      "allow_pn": "off",
+      "archived": "off",
+      "league_report_pn": "off",
+      "mascot_message": "on",
+      "mention_pn": "on",
+      "player_like_pn": "on",
+      "player_nickname_update": "on",
+      "team_name_update": "on",
+      "trade_block_pn": "on",
+      "transaction_commissioner": "on",
+      "transaction_free_agent": "off",
+      "transaction_trade": "on",
+      "transaction_waiver": "on",
+      "user_message_pn": "on"
+    },
+    "settings": null,
+    "user_id": "479157902301458432"
+  },
+  {
+    "avatar": "9996c0f656023d2bbf725065613b0f10",
+    "display_name": "zinskey123",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1135096796822364160",
+    "metadata": {
+      "allow_pn": "on",
+      "archived": "on",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "610692105030975488"
+  },
+  {
+    "avatar": "d6dbe09f66b5a890a1dc35e6bd790ba2",
+    "display_name": "CAPTMAVERICK",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1135096796822364160",
+    "metadata": {
+      "allow_pn": "on",
+      "archived": "on",
+      "mention_pn": "on",
+      "team_name": "MAVERICK"
+    },
+    "settings": null,
+    "user_id": "863983438309490688"
+  },
+  {
+    "avatar": "82aec8e811b839b8ec25d7b458afd57b",
+    "display_name": "YOULIKEPENIX",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1135096796822364160",
+    "metadata": {
+      "allow_pn": "on",
+      "archived": "on",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "869649699295096832"
+  },
+  {
+    "avatar": "3f1f6b305a011f2149a362a4b0190b1b",
+    "display_name": "jlining",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1135096796822364160",
+    "metadata": {
+      "allow_pn": "on",
+      "archived": "on",
+      "mention_pn": "on",
+      "team_name": "Gay for Tarzan"
+    },
+    "settings": null,
+    "user_id": "871505399906492416"
+  },
+  {
+    "avatar": "55bffc247faa530b70e33f7fb55289cd",
+    "display_name": "djasonunchained",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1135096796822364160",
+    "metadata": {
+      "allow_pn": "on",
+      "archived": "on",
+      "mention_pn": "on",
+      "team_name": "Playoffs"
+    },
+    "settings": null,
+    "user_id": "991547381806178304"
+  },
+  {
+    "avatar": "a777a99a16e43d3cc1c91b648f6d1150",
+    "display_name": "addys",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1135096796822364160",
+    "metadata": {
+      "allow_pn": "on",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "1125673306079748096"
+  }
+]

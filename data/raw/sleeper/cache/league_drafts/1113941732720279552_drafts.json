@@ -1,0 +1,59 @@
+[
+  {
+    "created": 1719946914418,
+    "creators": [
+      "459104893903302656",
+      "1000509976571387904"
+    ],
+    "draft_id": "1113941732720279553",
+    "draft_order": {
+      "1000509976571387904": 6,
+      "100908832284622848": 4,
+      "454437489696829440": 3,
+      "459104893903302656": 2,
+      "491605601248342016": 1,
+      "580215322146025472": 9,
+      "737837525602844672": 8,
+      "741132650638635008": 5,
+      "743596180637921280": 7,
+      "963325378112569344": 10
+    },
+    "last_message_id": "1119151374186319872",
+    "last_message_time": 1721188989735,
+    "last_picked": 1721188989114,
+    "league_id": "1113941732720279552",
+    "metadata": {
+      "description": "",
+      "name": "Only if you love AMERICA 33",
+      "scoring_type": "2qb"
+    },
+    "season": "2024",
+    "season_type": "regular",
+    "settings": {
+      "alpha_sort": 0,
+      "autopause_enabled": 0,
+      "autopause_end_time": 840,
+      "autopause_start_time": 120,
+      "autostart": 0,
+      "cpu_autopick": 1,
+      "enforce_position_limits": 1,
+      "nomination_timer": 60,
+      "pick_timer": 10,
+      "player_type": 0,
+      "reversal_round": 0,
+      "rounds": 22,
+      "slots_bn": 12,
+      "slots_flex": 3,
+      "slots_qb": 1,
+      "slots_rb": 2,
+      "slots_super_flex": 1,
+      "slots_te": 1,
+      "slots_wr": 2,
+      "teams": 10
+    },
+    "sport": "nfl",
+    "start_time": 1721187432031,
+    "status": "complete",
+    "type": "snake"
+  }
+]

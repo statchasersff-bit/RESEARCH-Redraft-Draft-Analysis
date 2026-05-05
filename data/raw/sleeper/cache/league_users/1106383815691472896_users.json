@@ -1,0 +1,176 @@
+[
+  {
+    "avatar": "356484cdd408831f7f1cd131bd3094e6",
+    "display_name": "hardj3492",
+    "is_bot": false,
+    "is_owner": false,
+    "league_id": "1106383815691472896",
+    "metadata": {
+      "allow_pn": "on",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "470046416006279168"
+  },
+  {
+    "avatar": "cfd75dc323307681d3c9cc443b725ab7",
+    "display_name": "MaxxGhost",
+    "is_bot": false,
+    "is_owner": false,
+    "league_id": "1106383815691472896",
+    "metadata": {
+      "allow_pn": "on",
+      "archived": "off",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "746793103188455424"
+  },
+  {
+    "avatar": "82aec8e811b839b8ec25d7b458afd57b",
+    "display_name": "twefbx",
+    "is_bot": false,
+    "is_owner": false,
+    "league_id": "1106383815691472896",
+    "metadata": {
+      "allow_pn": "on",
+      "archived": "on",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "984631753308512256"
+  },
+  {
+    "avatar": "451b9e91fe76a8ae9270060f348c0ae7",
+    "display_name": "whosangel",
+    "is_bot": false,
+    "is_owner": false,
+    "league_id": "1106383815691472896",
+    "metadata": {
+      "allow_pn": "on",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "996550215496888320"
+  },
+  {
+    "avatar": "4de202f8be36912b6a81be2a14132b47",
+    "display_name": "OGtheScientist",
+    "is_bot": false,
+    "is_owner": false,
+    "league_id": "1106383815691472896",
+    "metadata": {
+      "allow_pn": "on",
+      "archived": "on",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "1002669065393000448"
+  },
+  {
+    "avatar": "4f4090e5e9c3941414db40a871e3e909",
+    "display_name": "SierraLund",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1106383815691472896",
+    "metadata": {
+      "allow_pn": "on",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "1004189393143328768"
+  },
+  {
+    "avatar": "b3d59ef3a6641ffa4c23202afc86e921",
+    "display_name": "BiggieBallzz",
+    "is_bot": false,
+    "is_owner": true,
+    "league_id": "1106383815691472896",
+    "metadata": {
+      "allow_pn": "on",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "1004191509568151552"
+  },
+  {
+    "avatar": "b9a29c4fefd42db89820332b663673de",
+    "display_name": "cbass5686",
+    "is_bot": false,
+    "is_owner": false,
+    "league_id": "1106383815691472896",
+    "metadata": {
+      "allow_pn": "on",
+      "archived": "off",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "1004486814905761792"
+  },
+  {
+    "avatar": "f81dc9fd7094255bedcaebf76089b07c",
+    "display_name": "son1409",
+    "is_bot": false,
+    "is_owner": false,
+    "league_id": "1106383815691472896",
+    "metadata": {
+      "allow_pn": "on",
+      "league_report_pn": "off",
+      "mascot_message": "off",
+      "mention_pn": "on",
+      "player_like_pn": "off",
+      "player_nickname_update": "off",
+      "team_name_update": "off",
+      "trade_block_pn": "off",
+      "transaction_commissioner": "off",
+      "transaction_free_agent": "off",
+      "transaction_trade": "off",
+      "transaction_waiver": "off",
+      "user_message_pn": "off"
+    },
+    "settings": null,
+    "user_id": "1014250586030129152"
+  },
+  {
+    "avatar": "e7af4deab0289b4f5505646424895246",
+    "display_name": "lup73",
+    "is_bot": false,
+    "is_owner": false,
+    "league_id": "1106383815691472896",
+    "metadata": {
+      "allow_pn": "on",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "1025671806516084736"
+  },
+  {
+    "avatar": "8dec9affac77d779c16e7e9fcc8ded36",
+    "display_name": "SweatyySagNutzz",
+    "is_bot": false,
+    "is_owner": false,
+    "league_id": "1106383815691472896",
+    "metadata": {
+      "allow_pn": "on",
+      "archived": "off",
+      "avatar": "https://sleepercdn.com/uploads/8dec9affac77d779c16e7e9fcc8ded36.jpg",
+      "mention_pn": "on",
+      "team_name": "SweatyySaggNutzz"
+    },
+    "settings": null,
+    "user_id": "1033808068213174272"
+  },
+  {
+    "avatar": "e7af4deab0289b4f5505646424895246",
+    "display_name": "Domestos77",
+    "is_bot": false,
+    "is_owner": false,
+    "league_id": "1106383815691472896",
+    "metadata": {
+      "allow_pn": "on",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "1034002168539471872"
+  }
+]

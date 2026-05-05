@@ -1,0 +1,60 @@
+[
+  {
+    "created": 1725267647134,
+    "creators": [
+      "732004539489714176"
+    ],
+    "draft_id": "1136258503267520512",
+    "draft_order": {
+      "100908832284622848": 9,
+      "1049880910487179264": 10,
+      "1098381804010164224": 3,
+      "332066581859282944": 5,
+      "332395969104584704": 12,
+      "471940333832237056": 7,
+      "591066536618270720": 2,
+      "732004539489714176": 1,
+      "738154730173468672": 11,
+      "871847218557145088": 4,
+      "873431477298352128": 6,
+      "873714888688979968": 8
+    },
+    "last_message_id": "1136416482146975744",
+    "last_message_time": 1725305312242,
+    "last_picked": 1725305311230,
+    "league_id": "1136258502751653888",
+    "metadata": {
+      "description": "",
+      "name": "Last Chance Sniper #11 Superflex",
+      "scoring_type": "2qb"
+    },
+    "season": "2024",
+    "season_type": "regular",
+    "settings": {
+      "alpha_sort": 0,
+      "autopause_enabled": 0,
+      "autopause_end_time": 960,
+      "autopause_start_time": 240,
+      "autostart": 0,
+      "cpu_autopick": 1,
+      "enforce_position_limits": 1,
+      "nomination_timer": 60,
+      "pick_timer": 30,
+      "player_type": 0,
+      "reversal_round": 0,
+      "rounds": 16,
+      "slots_bn": 7,
+      "slots_flex": 2,
+      "slots_qb": 1,
+      "slots_rb": 2,
+      "slots_super_flex": 1,
+      "slots_te": 1,
+      "slots_wr": 2,
+      "teams": 12
+    },
+    "sport": "nfl",
+    "start_time": 1725302994603,
+    "status": "complete",
+    "type": "snake"
+  }
+]

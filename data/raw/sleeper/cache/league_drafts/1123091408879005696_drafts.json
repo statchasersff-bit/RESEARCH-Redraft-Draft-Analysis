@@ -1,0 +1,61 @@
+[
+  {
+    "created": 1722128367503,
+    "creators": [
+      "188504078232330240",
+      "564866273379164160"
+    ],
+    "draft_id": "1123091410154012672",
+    "draft_order": {
+      "100908832284622848": 4,
+      "1068669696762855424": 6,
+      "188504078232330240": 5,
+      "458047212958511104": 8,
+      "556073486570704896": 7,
+      "564866273379164160": 10,
+      "701157703711518720": 9,
+      "715623704297562112": 1,
+      "868360290927038464": 2,
+      "972975362059677696": 3
+    },
+    "last_message_id": "1123144471111004160",
+    "last_message_time": 1722141018229,
+    "last_picked": 1722141017345,
+    "league_id": "1123091408879005696",
+    "metadata": {
+      "description": "",
+      "name": "$30 Super Flex Public Lea 23",
+      "scoring_type": "2qb"
+    },
+    "season": "2024",
+    "season_type": "regular",
+    "settings": {
+      "alpha_sort": 0,
+      "autopause_enabled": 0,
+      "autopause_end_time": 960,
+      "autopause_start_time": 240,
+      "autostart": 0,
+      "cpu_autopick": 1,
+      "enforce_position_limits": 1,
+      "nomination_timer": 60,
+      "pick_timer": 30,
+      "player_type": 0,
+      "reversal_round": 0,
+      "rounds": 19,
+      "slots_bn": 8,
+      "slots_def": 1,
+      "slots_flex": 2,
+      "slots_k": 1,
+      "slots_qb": 1,
+      "slots_rb": 2,
+      "slots_super_flex": 1,
+      "slots_te": 1,
+      "slots_wr": 2,
+      "teams": 10
+    },
+    "sport": "nfl",
+    "start_time": 1722137489266,
+    "status": "complete",
+    "type": "snake"
+  }
+]

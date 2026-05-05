@@ -1,0 +1,61 @@
+[
+  {
+    "created": 1730766118828,
+    "creators": [
+      "1158963364522463232"
+    ],
+    "draft_id": "1159320765083463680",
+    "draft_order": {
+      "1135709787905236992": 8,
+      "1138360606072999936": 9,
+      "1146964856759787520": 4,
+      "1151251228211826688": 3,
+      "1151674692361887744": 1,
+      "1151881891788976128": 10,
+      "1156404473268285440": 11,
+      "1158963364522463232": 12,
+      "1161442209255673856": 2,
+      "1161839175273000960": 5,
+      "866482472014168064": 6,
+      "990076013340143616": 7
+    },
+    "last_message_id": "1161864819180478464",
+    "last_message_time": 1731372668598,
+    "last_picked": 1731372668043,
+    "league_id": "1159320764383641600",
+    "metadata": {
+      "description": "",
+      "name": "Late fantasy",
+      "scoring_type": "ppr"
+    },
+    "season": "2024",
+    "season_type": "regular",
+    "settings": {
+      "alpha_sort": 0,
+      "autopause_enabled": 0,
+      "autopause_end_time": 900,
+      "autopause_start_time": 180,
+      "autostart": 1,
+      "cpu_autopick": 1,
+      "enforce_position_limits": 1,
+      "nomination_timer": 60,
+      "pick_timer": 120,
+      "player_type": 0,
+      "reversal_round": 0,
+      "rounds": 15,
+      "slots_bn": 5,
+      "slots_def": 1,
+      "slots_flex": 2,
+      "slots_k": 1,
+      "slots_qb": 1,
+      "slots_rb": 2,
+      "slots_te": 1,
+      "slots_wr": 2,
+      "teams": 12
+    },
+    "sport": "nfl",
+    "start_time": 1731369635963,
+    "status": "complete",
+    "type": "snake"
+  }
+]

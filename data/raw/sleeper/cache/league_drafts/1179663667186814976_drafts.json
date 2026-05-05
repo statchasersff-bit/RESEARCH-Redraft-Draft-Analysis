@@ -1,0 +1,63 @@
+[
+  {
+    "created": 1735616244884,
+    "creators": [
+      "737085875023900672",
+      "854785777429753856",
+      "1000925658157035520",
+      "1128019987958030336",
+      "1133938442456453120"
+    ],
+    "draft_id": "1179663668215156736",
+    "draft_order": {
+      "1000100165757321216": 7,
+      "1000166013784694784": 6,
+      "1000925658157035520": 12,
+      "1128019987958030336": 10,
+      "1133938442456453120": 8,
+      "644592945617551360": 5,
+      "711697074571284480": 3,
+      "737085875023900672": 4,
+      "853905661040390144": 2,
+      "854785777429753856": 9,
+      "983946376868364288": 11,
+      "999164792680153088": 1
+    },
+    "last_message_id": "1181368014860406784",
+    "last_message_time": 1736022592800,
+    "last_picked": 1736022592065,
+    "league_id": "1179663667186814976",
+    "metadata": {
+      "description": "",
+      "name": "WEEEK 18 👾🥸",
+      "scoring_type": "2qb"
+    },
+    "season": "2024",
+    "season_type": "regular",
+    "settings": {
+      "alpha_sort": 0,
+      "autopause_enabled": 0,
+      "autopause_end_time": 960,
+      "autopause_start_time": 240,
+      "autostart": 0,
+      "cpu_autopick": 1,
+      "enforce_position_limits": 1,
+      "nomination_timer": 60,
+      "pick_timer": 120,
+      "player_type": 0,
+      "reversal_round": 0,
+      "rounds": 8,
+      "slots_flex": 1,
+      "slots_qb": 1,
+      "slots_rb": 2,
+      "slots_super_flex": 1,
+      "slots_te": 1,
+      "slots_wr": 2,
+      "teams": 12
+    },
+    "sport": "nfl",
+    "start_time": 1735756552309,
+    "status": "complete",
+    "type": "snake"
+  }
+]

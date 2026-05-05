@@ -1,0 +1,58 @@
+[
+  {
+    "created": 1724279300306,
+    "creators": [
+      "872667227709702144"
+    ],
+    "draft_id": "1132113076255567872",
+    "draft_order": {
+      "414789191398854656": 5,
+      "437562504185376768": 11,
+      "444254374533787648": 3,
+      "472272699591225344": 2,
+      "562447059408097280": 7,
+      "697288688824037376": 10,
+      "711697074571284480": 12,
+      "854889941476454400": 1,
+      "864988613031636992": 9,
+      "870127827075436544": 6,
+      "872667227709702144": 4,
+      "909163412691628032": 8
+    },
+    "last_message_id": "1132139474437033984",
+    "last_message_time": 1724285594141,
+    "last_picked": 1724285593249,
+    "league_id": "1132113074049265664",
+    "metadata": {
+      "description": "",
+      "name": "$5 Best Ball #5",
+      "scoring_type": "ppr"
+    },
+    "season": "2024",
+    "season_type": "regular",
+    "settings": {
+      "alpha_sort": 0,
+      "autopause_enabled": 0,
+      "autopause_end_time": 840,
+      "autopause_start_time": 120,
+      "autostart": 0,
+      "cpu_autopick": 1,
+      "nomination_timer": 60,
+      "pick_timer": 30,
+      "player_type": 0,
+      "reversal_round": 0,
+      "rounds": 20,
+      "slots_bn": 12,
+      "slots_flex": 2,
+      "slots_qb": 1,
+      "slots_rb": 2,
+      "slots_te": 1,
+      "slots_wr": 2,
+      "teams": 12
+    },
+    "sport": "nfl",
+    "start_time": 1724282727464,
+    "status": "complete",
+    "type": "snake"
+  }
+]

@@ -1,0 +1,228 @@
+[
+  {
+    "avatar": "nfl_det",
+    "display_name": "greekdawg",
+    "is_bot": null,
+    "is_owner": null,
+    "league_id": "1119496672654028800",
+    "metadata": {
+      "allow_pn": "on",
+      "archived": "on",
+      "mention_pn": "on",
+      "team_name": "10 Inch Ditkas"
+    },
+    "settings": null,
+    "user_id": "100908832284622848"
+  },
+  {
+    "avatar": "0b50b1b3d41ae3cfe35f7ed91daa9f21",
+    "display_name": "BlakeHHarris",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1119496672654028800",
+    "metadata": {
+      "allow_pn": "off",
+      "archived": "on",
+      "league_report_pn": "off",
+      "mascot_message": "off",
+      "mention_pn": "on",
+      "player_like_pn": "off",
+      "player_nickname_update": "off",
+      "team_name_update": "off",
+      "trade_block_pn": "off",
+      "transaction_commissioner": "off",
+      "transaction_free_agent": "off",
+      "transaction_trade": "off",
+      "transaction_waiver": "off",
+      "user_message_pn": "off"
+    },
+    "settings": null,
+    "user_id": "438858116226871296"
+  },
+  {
+    "avatar": "eef26a8b0574cf6dbd96dcad0732161d",
+    "display_name": "PatienceZ",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1119496672654028800",
+    "metadata": {
+      "allow_pn": "on",
+      "allow_sms": "on",
+      "archived": "off",
+      "mention_pn": "on",
+      "team_name": "1st 2275 2nd 1000 3rd 350"
+    },
+    "settings": null,
+    "user_id": "608172673234726912"
+  },
+  {
+    "avatar": "36ce1648a2c63940c46529f81f60be9b",
+    "display_name": "bsmith878",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1119496672654028800",
+    "metadata": {
+      "allow_pn": "on",
+      "allow_sms": "on",
+      "archived": "on",
+      "league_report_pn": "on",
+      "mascot_message": "on",
+      "mention_pn": "on",
+      "player_like_pn": "on",
+      "player_nickname_update": "on",
+      "team_name": "Down Horrendous",
+      "team_name_update": "on",
+      "trade_block_pn": "on",
+      "transaction_commissioner": "on",
+      "transaction_free_agent": "off",
+      "transaction_trade": "on",
+      "transaction_waiver": "on",
+      "user_message_pn": "on"
+    },
+    "settings": null,
+    "user_id": "608777793081274368"
+  },
+  {
+    "avatar": "065d8f86a53e38b78a258c19027047a4",
+    "display_name": "Scofflaw86",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1119496672654028800",
+    "metadata": {
+      "allow_pn": "on",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "719481080742240256"
+  },
+  {
+    "avatar": "cfafadfed161f34e0e64deec4696ab58",
+    "display_name": "mpuzia",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1119496672654028800",
+    "metadata": {
+      "allow_pn": "on",
+      "allow_sms": "on",
+      "league_report_pn": "on",
+      "mascot_message": "on",
+      "mention_pn": "on",
+      "player_like_pn": "on",
+      "player_nickname_update": "on",
+      "team_name": "Drake London Life Support",
+      "team_name_update": "on",
+      "trade_block_pn": "on",
+      "transaction_commissioner": "on",
+      "transaction_free_agent": "on",
+      "transaction_trade": "on",
+      "transaction_waiver": "on",
+      "user_message_pn": "on"
+    },
+    "settings": null,
+    "user_id": "727609561850118144"
+  },
+  {
+    "avatar": "fd4de057f5385cad5a93af2923433514",
+    "display_name": "BoognishRises",
+    "is_bot": false,
+    "is_owner": false,
+    "league_id": "1119496672654028800",
+    "metadata": {
+      "allow_pn": "on",
+      "archived": "on",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "728478533118169088"
+  },
+  {
+    "avatar": "80b55037be44d6b541016a4273400d38",
+    "display_name": "Rbarry27",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1119496672654028800",
+    "metadata": {
+      "allow_pn": "on",
+      "archived": "off",
+      "avatar": "https://sleepercdn.com/uploads/2eaacdcb274ccb66096ef3c6bd858523.jpg",
+      "mention_pn": "on",
+      "team_name": "Rico's Roughnecks"
+    },
+    "settings": null,
+    "user_id": "740417854251397120"
+  },
+  {
+    "avatar": "8eb8f8bf999945d523f2c4033f70473e",
+    "display_name": "wasssuuuppp954",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1119496672654028800",
+    "metadata": {
+      "allow_pn": "on",
+      "allow_sms": "on",
+      "archived": "off",
+      "mention_pn": "on",
+      "team_name": "Be humble, pay it forward"
+    },
+    "settings": null,
+    "user_id": "744999641166282752"
+  },
+  {
+    "avatar": "97c6c79d6985af0542e1f4d2fbfb4e3c",
+    "display_name": "dinger022",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1119496672654028800",
+    "metadata": {
+      "allow_pn": "on",
+      "archived": "off",
+      "mention_pn": "on",
+      "team_name": "Taysom Hill Carry"
+    },
+    "settings": null,
+    "user_id": "765707951792238592"
+  },
+  {
+    "avatar": "c7601f667f04b29a3c4324e4f2fb1865",
+    "display_name": "MOFIAF",
+    "is_bot": false,
+    "is_owner": true,
+    "league_id": "1119496672654028800",
+    "metadata": {
+      "allow_pn": "on",
+      "allow_sms": "on",
+      "archived": "off",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "895856609916731392"
+  },
+  {
+    "avatar": "2306534feff0169ca2b10da7663f5095",
+    "display_name": "PRAYINandSLAYIN",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1119496672654028800",
+    "metadata": {
+      "allow_pn": "on",
+      "archived": "off",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "947164881395015680"
+  },
+  {
+    "avatar": "be0732cd438be473804189b8821c52c2",
+    "display_name": "MizzleLizzo",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1119496672654028800",
+    "metadata": {
+      "allow_pn": "on",
+      "archived": "on",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "979610977693908992"
+  }
+]

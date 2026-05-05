@@ -1,0 +1,145 @@
+[
+  {
+    "avatar": "4f4090e5e9c3941414db40a871e3e909",
+    "display_name": "Kaden76",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1146806816916107264",
+    "metadata": {
+      "allow_pn": "on",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "841137056687169536"
+  },
+  {
+    "avatar": "f44f3e5e53b3826ad11285ed19c2d884",
+    "display_name": "benw192025",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1146806816916107264",
+    "metadata": {
+      "allow_pn": "on",
+      "allow_sms": "on",
+      "avatar": "https://sleepercdn.com/uploads/54ed3bf8b8fc117c0f297794e9d31a38.jpg",
+      "mention_pn": "on",
+      "team_name": "Uhhhhhhh"
+    },
+    "settings": null,
+    "user_id": "975853341412536320"
+  },
+  {
+    "avatar": "bb115d0c46867179715478c2dbd52fcd",
+    "display_name": "sully155",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1146806816916107264",
+    "metadata": {
+      "allow_pn": "on",
+      "archived": "on",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "992322137878806528"
+  },
+  {
+    "avatar": "e7af4deab0289b4f5505646424895246",
+    "display_name": "Sbrick11",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1146806816916107264",
+    "metadata": {
+      "allow_pn": "on",
+      "mention_pn": "on",
+      "team_name": "Tua Infinity and De'Von"
+    },
+    "settings": null,
+    "user_id": "995359604173299712"
+  },
+  {
+    "avatar": "b3338675f635c2c1f42b469621d38ec6",
+    "display_name": "SebbyWebby69",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1146806816916107264",
+    "metadata": {
+      "allow_pn": "on",
+      "archived": "on",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "1003174104624795648"
+  },
+  {
+    "avatar": "4f4090e5e9c3941414db40a871e3e909",
+    "display_name": "arochon",
+    "is_bot": false,
+    "is_owner": true,
+    "league_id": "1146806816916107264",
+    "metadata": {
+      "allow_pn": "on",
+      "mention_pn": "on",
+      "team_name": "Young Hoes"
+    },
+    "settings": null,
+    "user_id": "1018397166542635008"
+  },
+  {
+    "avatar": "de71d258e7a497d40ba91b08c6d4fb0d",
+    "display_name": "KissTheAbyss",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1146806816916107264",
+    "metadata": {
+      "allow_pn": "on",
+      "archived": "on",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "1053577001547808768"
+  },
+  {
+    "avatar": "82aec8e811b839b8ec25d7b458afd57b",
+    "display_name": "n8dawg2",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1146806816916107264",
+    "metadata": {
+      "allow_pn": "on",
+      "archived": "on",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "1131452960216596480"
+  },
+  {
+    "avatar": "82aec8e811b839b8ec25d7b458afd57b",
+    "display_name": "melindaderc",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1146806816916107264",
+    "metadata": {
+      "allow_pn": "on",
+      "allow_sms": "on",
+      "archived": "on",
+      "avatar": "https://sleepercdn.com/uploads/1253dba8b08db2fde50097efdea4af19.jpg",
+      "mention_pn": "on",
+      "team_name": "Nico Suave."
+    },
+    "settings": null,
+    "user_id": "1135709787905236992"
+  },
+  {
+    "avatar": "e7af4deab0289b4f5505646424895246",
+    "display_name": "IronSingh",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1146806816916107264",
+    "metadata": {
+      "allow_pn": "on",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "1137220986992238592"
+  }
+]

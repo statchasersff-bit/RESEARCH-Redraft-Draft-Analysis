@@ -1,0 +1,72 @@
+{
+  "created": 1725245367150,
+  "creators": [
+    "732004539489714176"
+  ],
+  "draft_id": "1136165054250438656",
+  "draft_order": {
+    "100908832284622848": 4,
+    "442273528767574016": 1,
+    "467969640677502976": 6,
+    "475416017820971008": 5,
+    "591066536618270720": 11,
+    "604058045642772480": 12,
+    "605917079266226176": 2,
+    "638185685479698432": 7,
+    "728796147027656704": 9,
+    "732004539489714176": 8,
+    "868360290927038464": 3,
+    "871847218557145088": 10
+  },
+  "last_message_id": "1136179350295883776",
+  "last_message_time": 1725248775603,
+  "last_picked": 1725248774683,
+  "league_id": "1136165053479006208",
+  "metadata": {
+    "description": "",
+    "name": "Deadeye Sniper #11 Superflex .5 TEP",
+    "scoring_type": "2qb"
+  },
+  "season": "2024",
+  "season_type": "regular",
+  "settings": {
+    "alpha_sort": 0,
+    "autopause_enabled": 0,
+    "autopause_end_time": 960,
+    "autopause_start_time": 240,
+    "autostart": 0,
+    "cpu_autopick": 1,
+    "enforce_position_limits": 1,
+    "nomination_timer": 60,
+    "pick_timer": 30,
+    "player_type": 0,
+    "reversal_round": 0,
+    "rounds": 16,
+    "slots_bn": 7,
+    "slots_flex": 2,
+    "slots_qb": 1,
+    "slots_rb": 2,
+    "slots_super_flex": 1,
+    "slots_te": 1,
+    "slots_wr": 2,
+    "teams": 12
+  },
+  "slot_to_roster_id": {
+    "1": 9,
+    "2": 10,
+    "3": 12,
+    "4": 6,
+    "5": 7,
+    "6": 2,
+    "7": 8,
+    "8": 1,
+    "9": 11,
+    "10": 5,
+    "11": 3,
+    "12": 4
+  },
+  "sport": "nfl",
+  "start_time": 1725246487464,
+  "status": "complete",
+  "type": "snake"
+}

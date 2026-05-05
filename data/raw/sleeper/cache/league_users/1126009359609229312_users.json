@@ -1,0 +1,185 @@
+[
+  {
+    "avatar": "nfl_det",
+    "display_name": "greekdawg",
+    "is_bot": null,
+    "is_owner": null,
+    "league_id": "1126009359609229312",
+    "metadata": {
+      "allow_pn": "on",
+      "archived": "on",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "100908832284622848"
+  },
+  {
+    "avatar": "3a43879872b93c530d6497402dec6d97",
+    "display_name": "JaSonSon93",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1126009359609229312",
+    "metadata": {
+      "allow_pn": "on",
+      "archived": "on",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "341745347938402304"
+  },
+  {
+    "avatar": "a7edf17a1956ebe79017732156625301",
+    "display_name": "kevinpetersen4",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1126009359609229312",
+    "metadata": {
+      "allow_pn": "on",
+      "archived": "on",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "467080822764072960"
+  },
+  {
+    "avatar": "cf094921d93a4dd632ef3ef212cd6fca",
+    "display_name": "sleepydior",
+    "is_bot": false,
+    "is_owner": true,
+    "league_id": "1126009359609229312",
+    "metadata": {
+      "allow_pn": "off",
+      "archived": "off",
+      "league_report_pn": "off",
+      "mascot_message": "on",
+      "mention_pn": "on",
+      "player_like_pn": "on",
+      "player_nickname_update": "on",
+      "team_name_update": "on",
+      "trade_block_pn": "on",
+      "transaction_commissioner": "on",
+      "transaction_free_agent": "off",
+      "transaction_trade": "on",
+      "transaction_waiver": "on",
+      "user_message_pn": "on"
+    },
+    "settings": null,
+    "user_id": "479157902301458432"
+  },
+  {
+    "avatar": "44b186cd085c57c0caa994dd4cdf1538",
+    "display_name": "PROACEX1",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1126009359609229312",
+    "metadata": {
+      "allow_pn": "on",
+      "archived": "on",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "495506102335565824"
+  },
+  {
+    "avatar": "7a3ecf851f409ab6075e2874a8089665",
+    "display_name": "bbeleele",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1126009359609229312",
+    "metadata": {
+      "allow_pn": "on",
+      "allow_sms": "on",
+      "archived": "on",
+      "avatar": "https://sleepercdn.com/uploads/7a3ecf851f409ab6075e2874a8089665.jpg",
+      "mention_pn": "on",
+      "team_name": "PRIMETIME 50"
+    },
+    "settings": null,
+    "user_id": "729092410071728128"
+  },
+  {
+    "avatar": "13676a4bdf35b65b5e5d630d7620e397",
+    "display_name": "ethanpethan",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1126009359609229312",
+    "metadata": {
+      "allow_pn": "on",
+      "archived": "on",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "738901490814619648"
+  },
+  {
+    "avatar": "15bc43679f2252890937d5dcfbc23688",
+    "display_name": "BTD03",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1126009359609229312",
+    "metadata": {
+      "allow_pn": "on",
+      "archived": "on",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "834921155616935936"
+  },
+  {
+    "avatar": "e5d1fdaf436d8d3afea5894a52d9974e",
+    "display_name": "ccesario",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1126009359609229312",
+    "metadata": {
+      "allow_pn": "on",
+      "archived": "on",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "857848266363084800"
+  },
+  {
+    "avatar": "5876d42be067a27c5be3a2532805a363",
+    "display_name": "BEARSUP1",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1126009359609229312",
+    "metadata": {
+      "allow_pn": "on",
+      "archived": "on",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "956740696705159168"
+  },
+  {
+    "avatar": "0958e2f167791f795c6509ad78886b40",
+    "display_name": "BigDaddyT10",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1126009359609229312",
+    "metadata": {
+      "allow_pn": "on",
+      "archived": "on",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "999032955681017856"
+  },
+  {
+    "avatar": "015dcd79cfd51d4dbadf0df4601c8b48",
+    "display_name": "SORRY4CUSSING",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1126009359609229312",
+    "metadata": {
+      "allow_pn": "on",
+      "archived": "on",
+      "mention_pn": "on",
+      "team_name": "Buncha Injured Fux"
+    },
+    "settings": null,
+    "user_id": "1095242402387824640"
+  }
+]

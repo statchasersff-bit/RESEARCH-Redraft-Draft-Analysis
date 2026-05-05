@@ -1,0 +1,60 @@
+[
+  {
+    "created": 1723467244163,
+    "creators": [
+      "462361975934939136"
+    ],
+    "draft_id": "1128707065901473792",
+    "draft_order": {
+      "342675892285358080": 2,
+      "413129308727410688": 10,
+      "438192471931875328": 4,
+      "462361975934939136": 1,
+      "601769228323840000": 6,
+      "691044965773537280": 11,
+      "710332074363523072": 3,
+      "716679913058426880": 12,
+      "718261940719292416": 5,
+      "721446749742387200": 9,
+      "853004021487767552": 7,
+      "870917026082942976": 8
+    },
+    "last_message_id": "1128737564560486400",
+    "last_message_time": 1723474515622,
+    "last_picked": 1723474514848,
+    "league_id": "1128707063519084544",
+    "metadata": {
+      "description": "",
+      "name": "Fantasy Kings",
+      "scoring_type": "2qb"
+    },
+    "season": "2024",
+    "season_type": "regular",
+    "settings": {
+      "alpha_sort": 0,
+      "autopause_enabled": 0,
+      "autopause_end_time": 840,
+      "autopause_start_time": 120,
+      "autostart": 0,
+      "cpu_autopick": 1,
+      "enforce_position_limits": 1,
+      "nomination_timer": 60,
+      "pick_timer": 60,
+      "player_type": 0,
+      "reversal_round": 0,
+      "rounds": 16,
+      "slots_bn": 6,
+      "slots_flex": 3,
+      "slots_qb": 1,
+      "slots_rb": 2,
+      "slots_super_flex": 1,
+      "slots_te": 1,
+      "slots_wr": 2,
+      "teams": 12
+    },
+    "sport": "nfl",
+    "start_time": 1723471655484,
+    "status": "complete",
+    "type": "snake"
+  }
+]

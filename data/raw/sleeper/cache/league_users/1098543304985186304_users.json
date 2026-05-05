@@ -1,0 +1,252 @@
+[
+  {
+    "avatar": "c48c7aecd6b9c08e3580b60d2c5ec690",
+    "display_name": "CoachRandy",
+    "is_bot": null,
+    "is_owner": null,
+    "league_id": "1098543304985186304",
+    "metadata": {
+      "allow_pn": "off",
+      "archived": "on",
+      "avatar": "https://sleepercdn.com/uploads/e98f0b7f4bd31ee9352db2929af60bf0.jpg",
+      "league_report_pn": "on",
+      "mascot_message": "on",
+      "mention_pn": "on",
+      "player_like_pn": "on",
+      "player_nickname_update": "on",
+      "team_name": "BOHICA",
+      "team_name_update": "on",
+      "trade_block_pn": "on",
+      "transaction_commissioner": "on",
+      "transaction_free_agent": "on",
+      "transaction_trade": "on",
+      "transaction_waiver": "on",
+      "user_message_pn": "on"
+    },
+    "settings": null,
+    "user_id": "162315432802795520"
+  },
+  {
+    "avatar": "5af0433f1524e3de7166b69d8f20e07e",
+    "display_name": "vikitaru",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1098543304985186304",
+    "metadata": {
+      "allow_pn": "off",
+      "archived": "on",
+      "league_report_pn": "off",
+      "mascot_message": "off",
+      "mention_pn": "on",
+      "player_like_pn": "off",
+      "player_nickname_update": "off",
+      "team_name_update": "off",
+      "trade_block_pn": "off",
+      "transaction_commissioner": "on",
+      "transaction_free_agent": "off",
+      "transaction_trade": "on",
+      "transaction_waiver": "off",
+      "user_message_pn": "off"
+    },
+    "settings": null,
+    "user_id": "337777938567020544"
+  },
+  {
+    "avatar": "b5f980efc36001cb4e056a9e146d0ca0",
+    "display_name": "dustyjames",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1098543304985186304",
+    "metadata": {
+      "allow_pn": "on",
+      "archived": "off",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "341080946612711424"
+  },
+  {
+    "avatar": "db47d5f7be11ad6a9d094accc45e52b0",
+    "display_name": "papajer",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1098543304985186304",
+    "metadata": {
+      "allow_pn": "off",
+      "league_report_pn": "on",
+      "mascot_message": "on",
+      "mention_pn": "off",
+      "player_like_pn": "on",
+      "player_nickname_update": "on",
+      "team_name_update": "on",
+      "trade_block_pn": "on",
+      "transaction_commissioner": "on",
+      "transaction_free_agent": "on",
+      "transaction_trade": "on",
+      "transaction_waiver": "on",
+      "user_message_pn": "off"
+    },
+    "settings": null,
+    "user_id": "449355374189867008"
+  },
+  {
+    "avatar": "8f1ffb950df1ede253e64487dd555abc",
+    "display_name": "Hard2believe",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1098543304985186304",
+    "metadata": {
+      "allow_pn": "off",
+      "archived": "on",
+      "league_report_pn": "on",
+      "mascot_message": "off",
+      "mention_pn": "on",
+      "player_like_pn": "on",
+      "player_nickname_update": "off",
+      "team_name_update": "off",
+      "trade_block_pn": "on",
+      "transaction_commissioner": "on",
+      "transaction_free_agent": "on",
+      "transaction_trade": "on",
+      "transaction_waiver": "on",
+      "user_message_pn": "off"
+    },
+    "settings": null,
+    "user_id": "610764766591414272"
+  },
+  {
+    "avatar": "2941d4aebbc20bceeecc8383af36a786",
+    "display_name": "Topha2121",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1098543304985186304",
+    "metadata": {
+      "allow_pn": "on",
+      "archived": "on",
+      "avatar": "https://sleepercdn.com/uploads/736f793dcdf0a5b7ec0b7acdda6bd535.jpg",
+      "mention_pn": "on",
+      "team_name": "Multiple Scoregasms "
+    },
+    "settings": null,
+    "user_id": "728079617956634624"
+  },
+  {
+    "avatar": "e7af4deab0289b4f5505646424895246",
+    "display_name": "Rbarry27",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1098543304985186304",
+    "metadata": {
+      "allow_pn": "on",
+      "archived": "on",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "740417854251397120"
+  },
+  {
+    "avatar": "3dbdf368990598dab5a9c4546c6806ad",
+    "display_name": "Kevbot90",
+    "is_bot": false,
+    "is_owner": true,
+    "league_id": "1098543304985186304",
+    "metadata": {
+      "allow_pn": "on",
+      "archived": "off",
+      "avatar": "https://sleepercdn.com/uploads/0523b475856da797ed5fd9365fc32041.jpg",
+      "mention_pn": "on",
+      "team_name": "Jackson’s LAMARmy "
+    },
+    "settings": null,
+    "user_id": "754379586342686720"
+  },
+  {
+    "avatar": "1d32380d877ed6e3855ed75e3f461048",
+    "display_name": "brakevii",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1098543304985186304",
+    "metadata": {
+      "allow_pn": "on",
+      "archived": "on",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "776277338731454464"
+  },
+  {
+    "avatar": "754fb4aabf438e8b5f505e50fd31c2f9",
+    "display_name": "Donpapi21",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1098543304985186304",
+    "metadata": {
+      "allow_pn": "on",
+      "archived": "on",
+      "league_report_pn": "on",
+      "mascot_message": "on",
+      "mention_pn": "on",
+      "player_like_pn": "on",
+      "player_nickname_update": "on",
+      "team_name_update": "on",
+      "trade_block_pn": "on",
+      "transaction_commissioner": "on",
+      "transaction_free_agent": "on",
+      "transaction_trade": "on",
+      "transaction_waiver": "on",
+      "user_message_pn": "on"
+    },
+    "settings": null,
+    "user_id": "851533566541139968"
+  },
+  {
+    "avatar": "43e42cacdfeb5b010eefa0f63d3689f0",
+    "display_name": "cwill7",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1098543304985186304",
+    "metadata": {
+      "allow_pn": "on",
+      "archived": "on",
+      "league_report_pn": "off",
+      "mascot_message": "off",
+      "mention_pn": "on",
+      "player_like_pn": "off",
+      "player_nickname_update": "off",
+      "team_name_update": "off",
+      "trade_block_pn": "off",
+      "transaction_commissioner": "off",
+      "transaction_free_agent": "off",
+      "transaction_trade": "off",
+      "transaction_waiver": "off",
+      "user_message_pn": "off"
+    },
+    "settings": null,
+    "user_id": "861028517255749632"
+  },
+  {
+    "avatar": "ab56979983965842c9ddd9ee29143ca8",
+    "display_name": "1q2w3e0p",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1098543304985186304",
+    "metadata": {
+      "allow_pn": "off",
+      "archived": "on",
+      "league_report_pn": "on",
+      "mascot_message": "on",
+      "mention_pn": "on",
+      "player_like_pn": "on",
+      "player_nickname_update": "on",
+      "team_name_update": "on",
+      "trade_block_pn": "on",
+      "transaction_commissioner": "on",
+      "transaction_free_agent": "on",
+      "transaction_trade": "on",
+      "transaction_waiver": "on",
+      "user_message_pn": "on"
+    },
+    "settings": null,
+    "user_id": "982483033641033728"
+  }
+]

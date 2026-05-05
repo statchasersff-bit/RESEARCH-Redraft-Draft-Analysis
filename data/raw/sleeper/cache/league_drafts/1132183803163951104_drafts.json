@@ -1,0 +1,61 @@
+[
+  {
+    "created": 1724296163641,
+    "creators": [
+      "457046569733058560",
+      "1101568579872448512",
+      "1111873863115202560"
+    ],
+    "draft_id": "1132183806179414016",
+    "draft_order": {
+      "1111873863115202560": 12,
+      "1132248212351377408": 2,
+      "443484130961780736": 7,
+      "457046569733058560": 8,
+      "464565448231350272": 6,
+      "469076707115003904": 10,
+      "568977004807421952": 9,
+      "697314505801162752": 1,
+      "726555466552926208": 3,
+      "982483033641033728": 4,
+      "989104214469083136": 5,
+      "989717184647602176": 11
+    },
+    "last_message_id": "1132566183061753856",
+    "last_message_time": 1724387329405,
+    "last_picked": 1724387328103,
+    "league_id": "1132183803163951104",
+    "metadata": {
+      "description": "",
+      "name": "Triples!!!",
+      "scoring_type": "2qb"
+    },
+    "season": "2024",
+    "season_type": "regular",
+    "settings": {
+      "alpha_sort": 0,
+      "autopause_enabled": 0,
+      "autopause_end_time": 840,
+      "autopause_start_time": 120,
+      "autostart": 0,
+      "cpu_autopick": 1,
+      "nomination_timer": 60,
+      "pick_timer": 60,
+      "player_type": 0,
+      "reversal_round": 3,
+      "rounds": 19,
+      "slots_bn": 7,
+      "slots_flex": 3,
+      "slots_qb": 1,
+      "slots_rb": 3,
+      "slots_super_flex": 1,
+      "slots_te": 1,
+      "slots_wr": 3,
+      "teams": 12
+    },
+    "sport": "nfl",
+    "start_time": 1724381504863,
+    "status": "complete",
+    "type": "snake"
+  }
+]

@@ -1,0 +1,57 @@
+[
+  {
+    "created": 1722216564093,
+    "creators": [
+      "605204730381156352"
+    ],
+    "draft_id": "1123461333468504064",
+    "draft_order": {
+      "100908832284622848": 8,
+      "357426687245361152": 2,
+      "411292698146766848": 9,
+      "454546694915223552": 6,
+      "458047212958511104": 10,
+      "470224631056297984": 3,
+      "605204730381156352": 5,
+      "609061950994833408": 7,
+      "714455613945495552": 4,
+      "873251819390951424": 1
+    },
+    "last_message_id": "1125632303457099776",
+    "last_message_time": 1722734163682,
+    "last_picked": 1722734162924,
+    "league_id": "1123461332768083968",
+    "metadata": {
+      "description": "",
+      "name": "The Love Boat",
+      "scoring_type": "2qb"
+    },
+    "season": "2024",
+    "season_type": "regular",
+    "settings": {
+      "alpha_sort": 0,
+      "autopause_enabled": 0,
+      "autopause_end_time": 1020,
+      "autopause_start_time": 300,
+      "autostart": 0,
+      "cpu_autopick": 1,
+      "nomination_timer": 60,
+      "pick_timer": 60,
+      "player_type": 0,
+      "reversal_round": 0,
+      "rounds": 23,
+      "slots_bn": 13,
+      "slots_flex": 3,
+      "slots_qb": 1,
+      "slots_rb": 2,
+      "slots_super_flex": 1,
+      "slots_te": 1,
+      "slots_wr": 2,
+      "teams": 10
+    },
+    "sport": "nfl",
+    "start_time": 1722729682037,
+    "status": "complete",
+    "type": "snake"
+  }
+]

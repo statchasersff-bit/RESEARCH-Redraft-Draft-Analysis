@@ -1,0 +1,68 @@
+{
+  "created": 1729603673234,
+  "creators": [
+    "735872617768189952",
+    "853046826838908928"
+  ],
+  "draft_id": "1154445114849226753",
+  "draft_order": {
+    "1087502804492636160": 6,
+    "465385729371926528": 3,
+    "728478533118169088": 1,
+    "731001820226363392": 2,
+    "735845689115930624": 8,
+    "735872617768189952": 4,
+    "853046826838908928": 7,
+    "860206788744679424": 5,
+    "860226606457843712": 10,
+    "979610977693908992": 9
+  },
+  "last_message_id": "1155312474586591232",
+  "last_message_time": 1729810467910,
+  "last_picked": 1729810460146,
+  "league_id": "1154445114849226752",
+  "metadata": {
+    "description": "",
+    "name": "Guillotine Fantasy League",
+    "scoring_type": "ppr"
+  },
+  "season": "2024",
+  "season_type": "regular",
+  "settings": {
+    "alpha_sort": 0,
+    "autopause_enabled": 0,
+    "autopause_end_time": 840,
+    "autopause_start_time": 120,
+    "autostart": 0,
+    "cpu_autopick": 1,
+    "enforce_position_limits": 1,
+    "nomination_timer": 60,
+    "pick_timer": 60,
+    "player_type": 0,
+    "reversal_round": 0,
+    "rounds": 14,
+    "slots_bn": 6,
+    "slots_flex": 2,
+    "slots_qb": 1,
+    "slots_rb": 2,
+    "slots_te": 1,
+    "slots_wr": 2,
+    "teams": 10
+  },
+  "slot_to_roster_id": {
+    "1": 10,
+    "2": 9,
+    "3": 8,
+    "4": 2,
+    "5": 6,
+    "6": 4,
+    "7": 1,
+    "8": 5,
+    "9": 3,
+    "10": 7
+  },
+  "sport": "nfl",
+  "start_time": 1729807205463,
+  "status": "complete",
+  "type": "snake"
+}

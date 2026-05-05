@@ -1,0 +1,222 @@
+[
+  {
+    "avatar": "3c7def417a4613d104ae66403af0e0e7",
+    "display_name": "LamarvelousXx",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1124829509841846272",
+    "metadata": {
+      "allow_pn": "on",
+      "archived": "on",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "327561347757785088"
+  },
+  {
+    "avatar": "55d84a9842931cd39b70ed61cda09c06",
+    "display_name": "SK3055",
+    "is_bot": false,
+    "is_owner": false,
+    "league_id": "1124829509841846272",
+    "metadata": {
+      "allow_pn": "on",
+      "allow_sms": "on",
+      "mascot_message": "on",
+      "mention_pn": "on",
+      "player_like_pn": "on",
+      "player_nickname_update": "on",
+      "show_mascots": "off",
+      "team_name": "SK3055",
+      "team_name_update": "on",
+      "trade_block_pn": "on",
+      "transaction_commissioner": "on",
+      "transaction_free_agent": "off",
+      "transaction_trade": "on",
+      "transaction_waiver": "on",
+      "user_message_pn": "off"
+    },
+    "settings": null,
+    "user_id": "361947603493244928"
+  },
+  {
+    "avatar": "0b0c6764f4ca773e86260b43c1731dfe",
+    "display_name": "sundays",
+    "is_bot": false,
+    "is_owner": true,
+    "league_id": "1124829509841846272",
+    "metadata": {
+      "allow_pn": "on",
+      "archived": "off",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "422889962166296576"
+  },
+  {
+    "avatar": null,
+    "display_name": "sttbear",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1124829509841846272",
+    "metadata": {
+      "allow_pn": "on",
+      "allow_sms": "on",
+      "archived": "on",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "464684923584770048"
+  },
+  {
+    "avatar": "2ac90b358ca30f2938b69a16ec187814",
+    "display_name": "TheWitchingHour",
+    "is_bot": false,
+    "is_owner": false,
+    "league_id": "1124829509841846272",
+    "metadata": {
+      "allow_pn": "on",
+      "archived": "on",
+      "mascot_item_type_id_leg_1": "furrari",
+      "mascot_item_type_id_leg_10": "furrari",
+      "mascot_item_type_id_leg_11": "furrari",
+      "mascot_item_type_id_leg_12": "furrari",
+      "mascot_item_type_id_leg_13": "furrari",
+      "mascot_item_type_id_leg_14": "furrari",
+      "mascot_item_type_id_leg_15": "furrari",
+      "mascot_item_type_id_leg_16": "furrari",
+      "mascot_item_type_id_leg_17": "furrari",
+      "mascot_item_type_id_leg_18": "furrari",
+      "mascot_item_type_id_leg_2": "furrari",
+      "mascot_item_type_id_leg_3": "furrari",
+      "mascot_item_type_id_leg_4": "furrari",
+      "mascot_item_type_id_leg_5": "furrari",
+      "mascot_item_type_id_leg_6": "furrari",
+      "mascot_item_type_id_leg_7": "furrari",
+      "mascot_item_type_id_leg_8": "furrari",
+      "mascot_item_type_id_leg_9": "furrari",
+      "mascot_message_emotion_leg_1": "idle",
+      "mention_pn": "on",
+      "team_name": "The Witching Hour"
+    },
+    "settings": null,
+    "user_id": "578153501461352448"
+  },
+  {
+    "avatar": "9cf0ba07b858634478ff0edec78d0412",
+    "display_name": "tknir",
+    "is_bot": false,
+    "is_owner": false,
+    "league_id": "1124829509841846272",
+    "metadata": {
+      "allow_pn": "on",
+      "archived": "off",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "606256735535046656"
+  },
+  {
+    "avatar": "aa40fda241e2f4fd25db489a1e3ec434",
+    "display_name": "Jdogg9855",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1124829509841846272",
+    "metadata": {
+      "allow_pn": "on",
+      "allow_sms": "on",
+      "archived": "on",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "607240570359857152"
+  },
+  {
+    "avatar": "ea1f6a8235b94002595c6dff3105063c",
+    "display_name": "DMast9",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1124829509841846272",
+    "metadata": {
+      "allow_pn": "on",
+      "archived": "on",
+      "mention_pn": "on",
+      "team_name": "Eliminated"
+    },
+    "settings": null,
+    "user_id": "610705249518329856"
+  },
+  {
+    "avatar": "930e52be9d93342b9b4455be7c3836ce",
+    "display_name": "Brad77",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1124829509841846272",
+    "metadata": {
+      "allow_pn": "on",
+      "allow_sms": "on",
+      "archived": "off",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "684491273989619712"
+  },
+  {
+    "avatar": "0ae8437975e642cb2945e407b29091c6",
+    "display_name": "Mcfly1011",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1124829509841846272",
+    "metadata": {
+      "allow_pn": "on",
+      "archived": "on",
+      "mention_pn": "on",
+      "team_name": "Dead Dogs"
+    },
+    "settings": null,
+    "user_id": "737031387437256704"
+  },
+  {
+    "avatar": "5f2b0f4eeed2dc6d27d20924382e07e4",
+    "display_name": "KKPayday",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1124829509841846272",
+    "metadata": {
+      "allow_pn": "on",
+      "allow_sms": "on",
+      "archived": "on",
+      "mention_pn": "on",
+      "team_name": "Burrow2Chase"
+    },
+    "settings": null,
+    "user_id": "853707794614947840"
+  },
+  {
+    "avatar": "ab56979983965842c9ddd9ee29143ca8",
+    "display_name": "1q2w3e0p",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1124829509841846272",
+    "metadata": {
+      "allow_pn": "on",
+      "archived": "on",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "982483033641033728"
+  },
+  {
+    "avatar": "8eb8f8bf999945d523f2c4033f70473e",
+    "display_name": "KMast9",
+    "is_bot": false,
+    "is_owner": false,
+    "league_id": "1124829509841846272",
+    "metadata": {
+      "allow_pn": "on",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "1131805112273567744"
+  }
+]

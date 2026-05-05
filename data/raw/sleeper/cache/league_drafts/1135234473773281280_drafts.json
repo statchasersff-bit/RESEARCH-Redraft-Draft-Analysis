@@ -1,0 +1,60 @@
+[
+  {
+    "created": 1725023499485,
+    "creators": [
+      "78936562976833536"
+    ],
+    "draft_id": "1135234473773281281",
+    "draft_order": {
+      "454362091566919680": 12,
+      "482005782078943232": 8,
+      "650833158077517824": 11,
+      "682057843288928256": 7,
+      "685614253197029376": 2,
+      "716759169742503936": 10,
+      "719481080742240256": 9,
+      "727609561850118144": 6,
+      "78936562976833536": 4,
+      "947164881395015680": 5,
+      "979610977693908992": 3,
+      "988657855425318912": 1
+    },
+    "last_message_id": "1136826304344358912",
+    "last_message_time": 1725403021468,
+    "last_picked": 1725403020367,
+    "league_id": "1135234473773281280",
+    "metadata": {
+      "description": "",
+      "name": "The Last Dance (no pants)",
+      "scoring_type": "2qb"
+    },
+    "season": "2024",
+    "season_type": "regular",
+    "settings": {
+      "alpha_sort": 0,
+      "autopause_enabled": 1,
+      "autopause_end_time": 840,
+      "autopause_start_time": 240,
+      "autostart": 0,
+      "cpu_autopick": 1,
+      "enforce_position_limits": 1,
+      "nomination_timer": 60,
+      "pick_timer": 3600,
+      "player_type": 0,
+      "reversal_round": 0,
+      "rounds": 19,
+      "slots_bn": 8,
+      "slots_flex": 3,
+      "slots_qb": 1,
+      "slots_rb": 2,
+      "slots_super_flex": 1,
+      "slots_te": 1,
+      "slots_wr": 3,
+      "teams": 12
+    },
+    "sport": "nfl",
+    "start_time": 1725063780772,
+    "status": "complete",
+    "type": "snake"
+  }
+]

@@ -1,0 +1,61 @@
+[
+  {
+    "created": 1725304260273,
+    "creators": [
+      "1004322276759756800"
+    ],
+    "draft_id": "1136412069924102144",
+    "draft_order": {
+      "1002669065393000448": 4,
+      "1004322276759756800": 2,
+      "1004368906363985920": 6,
+      "1004411427156824064": 7,
+      "1004476804926660608": 3,
+      "1121911461179187200": 1,
+      "1123012380964904960": 12,
+      "1135948502464368640": 11,
+      "1136883572985839616": 8,
+      "1137413350566027264": 9,
+      "851178479234945024": 5,
+      "957671313202565120": 10
+    },
+    "last_message_id": "1137542034249515008",
+    "last_message_time": 1725573664776,
+    "last_picked": 1725573663992,
+    "league_id": "1136412068762005504",
+    "metadata": {
+      "description": "",
+      "name": "Best Ball Full PPR",
+      "scoring_type": "ppr"
+    },
+    "season": "2024",
+    "season_type": "regular",
+    "settings": {
+      "alpha_sort": 0,
+      "autopause_enabled": 0,
+      "autopause_end_time": 480,
+      "autopause_start_time": 1200,
+      "autostart": 1,
+      "cpu_autopick": 1,
+      "enforce_position_limits": 1,
+      "nomination_timer": 60,
+      "pick_timer": 60,
+      "player_type": 0,
+      "reversal_round": 0,
+      "rounds": 20,
+      "slots_bn": 10,
+      "slots_def": 1,
+      "slots_flex": 2,
+      "slots_k": 1,
+      "slots_qb": 1,
+      "slots_rb": 2,
+      "slots_te": 1,
+      "slots_wr": 2,
+      "teams": 12
+    },
+    "sport": "nfl",
+    "start_time": 1725570052237,
+    "status": "complete",
+    "type": "snake"
+  }
+]

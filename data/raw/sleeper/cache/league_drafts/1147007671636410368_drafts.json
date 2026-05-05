@@ -1,0 +1,54 @@
+[
+  {
+    "created": 1727830448772,
+    "creators": [
+      "1147007283730198528"
+    ],
+    "draft_id": "1147007672429035520",
+    "draft_order": {
+      "1034576853769777152": 4,
+      "1126948909785448448": 3,
+      "1127849614192783360": 6,
+      "1135709787905236992": 2,
+      "1147007283730198528": 1
+    },
+    "last_message_id": "1147387013414383616",
+    "last_message_time": 1727920890718,
+    "last_picked": 1727920890065,
+    "league_id": "1147007671636410368",
+    "metadata": {
+      "description": "",
+      "name": "NFL Fantasy 2024",
+      "scoring_type": "ppr"
+    },
+    "season": "2024",
+    "season_type": "regular",
+    "settings": {
+      "alpha_sort": 0,
+      "autopause_enabled": 0,
+      "autopause_end_time": 840,
+      "autopause_start_time": 120,
+      "autostart": 0,
+      "cpu_autopick": 1,
+      "enforce_position_limits": 1,
+      "nomination_timer": 60,
+      "pick_timer": 90,
+      "player_type": 0,
+      "reversal_round": 0,
+      "rounds": 18,
+      "slots_bn": 5,
+      "slots_def": 2,
+      "slots_flex": 3,
+      "slots_k": 2,
+      "slots_qb": 1,
+      "slots_rb": 2,
+      "slots_te": 1,
+      "slots_wr": 2,
+      "teams": 10
+    },
+    "sport": "nfl",
+    "start_time": 1727919024015,
+    "status": "complete",
+    "type": "snake"
+  }
+]

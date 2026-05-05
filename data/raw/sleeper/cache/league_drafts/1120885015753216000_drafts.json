@@ -1,0 +1,58 @@
+[
+  {
+    "created": 1721602322371,
+    "creators": [
+      "729215844013428736"
+    ],
+    "draft_id": "1120885016948490240",
+    "draft_order": {
+      "100908832284622848": 10,
+      "341414316114776064": 2,
+      "470681183408091136": 1,
+      "567994319854673920": 9,
+      "607008797717757952": 12,
+      "717896443842588672": 11,
+      "729215844013428736": 5,
+      "729519156629753856": 8,
+      "740373276139851776": 4,
+      "810012623654498304": 3,
+      "862166385328013312": 7,
+      "871945091181375488": 6
+    },
+    "last_message_id": "1120908381440442368",
+    "last_message_time": 1721607892907,
+    "last_picked": 1721607892223,
+    "league_id": "1120885015753216000",
+    "metadata": {
+      "description": "",
+      "name": "Nick Castellanos",
+      "scoring_type": "ppr"
+    },
+    "season": "2024",
+    "season_type": "regular",
+    "settings": {
+      "alpha_sort": 0,
+      "autopause_enabled": 0,
+      "autopause_end_time": 900,
+      "autopause_start_time": 180,
+      "autostart": 0,
+      "cpu_autopick": 1,
+      "nomination_timer": 60,
+      "pick_timer": 30,
+      "player_type": 0,
+      "reversal_round": 0,
+      "rounds": 16,
+      "slots_bn": 7,
+      "slots_flex": 3,
+      "slots_qb": 1,
+      "slots_rb": 2,
+      "slots_te": 1,
+      "slots_wr": 2,
+      "teams": 12
+    },
+    "sport": "nfl",
+    "start_time": 1721604916914,
+    "status": "complete",
+    "type": "snake"
+  }
+]

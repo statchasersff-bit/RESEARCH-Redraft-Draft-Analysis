@@ -1,0 +1,154 @@
+[
+  {
+    "avatar": "8eb8f8bf999945d523f2c4033f70473e",
+    "display_name": "jimmytrev",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1136498687012425728",
+    "metadata": {
+      "allow_pn": "on",
+      "archived": "on",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "741571172080168960"
+  },
+  {
+    "avatar": "198cdc599b58873f63aed655c581afc7",
+    "display_name": "ghostfacebrady",
+    "is_bot": false,
+    "is_owner": true,
+    "league_id": "1136498687012425728",
+    "metadata": {
+      "allow_pn": "on",
+      "avatar": "https://sleepercdn.com/uploads/dbb81eaf5c9cde147c80fcd5b3977509.jpg",
+      "mention_pn": "on",
+      "team_name": "Da Kittens"
+    },
+    "settings": null,
+    "user_id": "800732833466417152"
+  },
+  {
+    "avatar": "4f4090e5e9c3941414db40a871e3e909",
+    "display_name": "BenBean99",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1136498687012425728",
+    "metadata": {
+      "allow_pn": "on",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "1001925838746537984"
+  },
+  {
+    "avatar": "4de202f8be36912b6a81be2a14132b47",
+    "display_name": "OGtheScientist",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1136498687012425728",
+    "metadata": {
+      "allow_pn": "on",
+      "avatar": "https://sleepercdn.com/uploads/7cb30d09736d406b871abe69d704fea1.jpg",
+      "mention_pn": "on",
+      "team_name": "✨⚫ Digital Demons ⚫✨"
+    },
+    "settings": null,
+    "user_id": "1002669065393000448"
+  },
+  {
+    "avatar": "b3338675f635c2c1f42b469621d38ec6",
+    "display_name": "WillKKX",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1136498687012425728",
+    "metadata": {
+      "allow_pn": "on",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "1004180248038068224"
+  },
+  {
+    "avatar": "f0edbf4278f53f9425db175073df6584",
+    "display_name": "THEWall0",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1136498687012425728",
+    "metadata": {
+      "allow_pn": "on",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "1016804705609555968"
+  },
+  {
+    "avatar": "e6bd25ddb90a4b5a3156324f107107d6",
+    "display_name": "FAWSSports2011",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1136498687012425728",
+    "metadata": {
+      "allow_pn": "on",
+      "allow_sms": "on",
+      "archived": "on",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "1096665862741778432"
+  },
+  {
+    "avatar": "e24a58dd902f1fa4abbc0fd710744a74",
+    "display_name": "Schruef",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1136498687012425728",
+    "metadata": {
+      "allow_pn": "off",
+      "archived": "on",
+      "league_report_pn": "off",
+      "mascot_message": "off",
+      "mention_pn": "off",
+      "player_like_pn": "off",
+      "player_nickname_update": "off",
+      "team_name": "QB in red uniform runs",
+      "team_name_update": "off",
+      "trade_block_pn": "off",
+      "transaction_commissioner": "off",
+      "transaction_free_agent": "off",
+      "transaction_trade": "off",
+      "transaction_waiver": "off",
+      "user_message_pn": "off"
+    },
+    "settings": null,
+    "user_id": "1108089474577403904"
+  },
+  {
+    "avatar": "15d7cf259bc30eab8f6120f45f652fb6",
+    "display_name": "Drewlers",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1136498687012425728",
+    "metadata": {
+      "allow_pn": "on",
+      "avatar": "https://sleepercdn.com/uploads/a4d0eb74e76fb03d4493e579d6b1d384.jpg",
+      "mention_pn": "on",
+      "team_name": "Drewlers"
+    },
+    "settings": null,
+    "user_id": "1136500957875736576"
+  },
+  {
+    "avatar": "b3338675f635c2c1f42b469621d38ec6",
+    "display_name": "tamichilds",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1136498687012425728",
+    "metadata": {
+      "allow_pn": "on",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "1136501782869889024"
+  }
+]

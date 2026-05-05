@@ -1,0 +1,58 @@
+[
+  {
+    "created": 1727548082592,
+    "creators": [
+      "479157902301458432"
+    ],
+    "draft_id": "1145823342826676224",
+    "draft_order": {
+      "1098381804010164224": 3,
+      "467912500155772928": 7,
+      "470318482282508288": 10,
+      "470758149708574720": 1,
+      "472677951763116032": 6,
+      "479157902301458432": 9,
+      "734666381009772544": 4,
+      "779904949676171264": 2,
+      "914264594460508160": 8,
+      "956740696705159168": 12,
+      "993914374056112128": 5,
+      "996903340560662528": 11
+    },
+    "last_message_id": "1145865863321354240",
+    "last_message_time": 1727558220275,
+    "last_picked": 1727558219399,
+    "league_id": "1145823341681487872",
+    "metadata": {
+      "description": "",
+      "name": " 1️⃣7️⃣9️⃣ PAID $50 Week 3 Redraft League",
+      "scoring_type": "ppr"
+    },
+    "season": "2024",
+    "season_type": "regular",
+    "settings": {
+      "alpha_sort": 0,
+      "autopause_enabled": 0,
+      "autopause_end_time": 840,
+      "autopause_start_time": 120,
+      "autostart": 0,
+      "cpu_autopick": 1,
+      "nomination_timer": 60,
+      "pick_timer": 30,
+      "player_type": 0,
+      "reversal_round": 0,
+      "rounds": 14,
+      "slots_bn": 6,
+      "slots_flex": 2,
+      "slots_qb": 1,
+      "slots_rb": 2,
+      "slots_te": 1,
+      "slots_wr": 2,
+      "teams": 12
+    },
+    "sport": "nfl",
+    "start_time": 1727555502303,
+    "status": "complete",
+    "type": "snake"
+  }
+]

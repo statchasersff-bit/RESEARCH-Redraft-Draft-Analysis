@@ -1,0 +1,59 @@
+[
+  {
+    "created": 1723496711884,
+    "creators": [
+      "986358779019059200"
+    ],
+    "draft_id": "1128830662481448960",
+    "draft_order": {
+      "1128969581306953728": 5,
+      "1129903954533531648": 3,
+      "1134170815525920768": 6,
+      "1134196519789379584": 4,
+      "1136794766307491840": 8,
+      "1136818028592824320": 9,
+      "643326135379259392": 1,
+      "723791224456183808": 10,
+      "725763622625677312": 2,
+      "986358779019059200": 7
+    },
+    "last_message_id": "1136884819440226304",
+    "last_message_time": 1725416972554,
+    "last_picked": 1725416972031,
+    "league_id": "1128830661663625216",
+    "metadata": {
+      "description": "",
+      "name": "Mastercard Fantasy FB League",
+      "scoring_type": "ppr"
+    },
+    "season": "2024",
+    "season_type": "regular",
+    "settings": {
+      "alpha_sort": 0,
+      "autopause_enabled": 0,
+      "autopause_end_time": 900,
+      "autopause_start_time": 180,
+      "autostart": 0,
+      "cpu_autopick": 1,
+      "enforce_position_limits": 1,
+      "nomination_timer": 60,
+      "pick_timer": 60,
+      "player_type": 0,
+      "reversal_round": 0,
+      "rounds": 15,
+      "slots_bn": 6,
+      "slots_def": 1,
+      "slots_flex": 1,
+      "slots_k": 1,
+      "slots_qb": 1,
+      "slots_rb": 2,
+      "slots_te": 1,
+      "slots_wr": 2,
+      "teams": 10
+    },
+    "sport": "nfl",
+    "start_time": 1725414325946,
+    "status": "complete",
+    "type": "snake"
+  }
+]

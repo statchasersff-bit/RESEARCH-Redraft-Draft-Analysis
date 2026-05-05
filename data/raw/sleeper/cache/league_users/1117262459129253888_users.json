@@ -1,0 +1,168 @@
+[
+  {
+    "avatar": "927b2cb6cbafc4a6da2bddebd0d15658",
+    "display_name": "jbueno126",
+    "is_bot": null,
+    "is_owner": null,
+    "league_id": "1117262459129253888",
+    "metadata": {
+      "allow_pn": "on",
+      "archived": "on",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "87026635932844032"
+  },
+  {
+    "avatar": "ec027bd0171ea4936cb1d24af28ce7d5",
+    "display_name": "FFBooz40",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1117262459129253888",
+    "metadata": {
+      "allow_pn": "on",
+      "archived": "on",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "422770687518715904"
+  },
+  {
+    "avatar": "a9341b9428697c4c475cfab7ccd58d2a",
+    "display_name": "Chrismworld",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1117262459129253888",
+    "metadata": {
+      "allow_pn": "on",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "641800325463982080"
+  },
+  {
+    "avatar": "6c803d5e85c1a6edc736f68288789a62",
+    "display_name": "EasyMoney161204",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1117262459129253888",
+    "metadata": {
+      "allow_pn": "on",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "653021705702301696"
+  },
+  {
+    "avatar": "ffe1161b426e45ec35188cdc3e312ede",
+    "display_name": "quiet8302",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1117262459129253888",
+    "metadata": {
+      "allow_pn": "on",
+      "archived": "on",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "674124836372574208"
+  },
+  {
+    "avatar": "5c5331a9f5c02807df251d8380a38f09",
+    "display_name": "Fantasywiz1200",
+    "is_bot": false,
+    "is_owner": true,
+    "league_id": "1117262459129253888",
+    "metadata": {
+      "allow_pn": "on",
+      "archived": "on",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "710332074363523072"
+  },
+  {
+    "avatar": "e390ae379bc1fff807c3f2a55f4e1d4b",
+    "display_name": "thebest2mins",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1117262459129253888",
+    "metadata": {
+      "allow_pn": "on",
+      "archived": "on",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "717326822584438784"
+  },
+  {
+    "avatar": "362ad23b632843a8b618d46bf2395057",
+    "display_name": "Drewskii93",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1117262459129253888",
+    "metadata": {
+      "allow_pn": "on",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "717525996714151936"
+  },
+  {
+    "avatar": "3ab3a3d07c504c53ce5a342fa4c4baa4",
+    "display_name": "SoreLoserUncle",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1117262459129253888",
+    "metadata": {
+      "allow_pn": "on",
+      "archived": "on",
+      "mention_pn": "on",
+      "team_name": "Attentive Anus"
+    },
+    "settings": null,
+    "user_id": "740208217933647872"
+  },
+  {
+    "avatar": "541517c80c48e1bdd832d7a91b24821e",
+    "display_name": "SageModeLarkins",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1117262459129253888",
+    "metadata": {
+      "allow_pn": "on",
+      "archived": "off",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "956755490820702208"
+  },
+  {
+    "avatar": "d22e52781a5d7a94bcbf2aa70e748382",
+    "display_name": "Jshshzisp",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1117262459129253888",
+    "metadata": {
+      "allow_pn": "on",
+      "archived": "off",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "972681402003124224"
+  },
+  {
+    "avatar": "a9b713fb2808adb44f6d4f3998379dff",
+    "display_name": "mcerrone28",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1117262459129253888",
+    "metadata": {
+      "allow_pn": "on",
+      "allow_sms": "on",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "990590584094035968"
+  }
+]

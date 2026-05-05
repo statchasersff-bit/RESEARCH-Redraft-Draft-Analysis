@@ -1,0 +1,55 @@
+[
+  {
+    "created": 1725241321059,
+    "creators": [
+      "428073331598557184"
+    ],
+    "draft_id": "1136148083673243649",
+    "draft_order": {
+      "100908832284622848": 9,
+      "428073331598557184": 4,
+      "465277313328607232": 3,
+      "479797975938232320": 6,
+      "605917079266226176": 5,
+      "646816314651906048": 2,
+      "852322563102220288": 1,
+      "867087370879627264": 7,
+      "872501484854644736": 10
+    },
+    "last_message_id": "1136167806430408704",
+    "last_message_time": 1725246023331,
+    "last_picked": 1725246022647,
+    "league_id": "1136148083673243648",
+    "metadata": {
+      "description": "",
+      "name": "Dracarys",
+      "scoring_type": "ppr"
+    },
+    "season": "2024",
+    "season_type": "regular",
+    "settings": {
+      "alpha_sort": 0,
+      "autopause_enabled": 0,
+      "autopause_end_time": 840,
+      "autopause_start_time": 120,
+      "autostart": 0,
+      "cpu_autopick": 1,
+      "nomination_timer": 60,
+      "pick_timer": 30,
+      "player_type": 0,
+      "reversal_round": 0,
+      "rounds": 15,
+      "slots_bn": 6,
+      "slots_flex": 3,
+      "slots_qb": 1,
+      "slots_rb": 2,
+      "slots_te": 1,
+      "slots_wr": 2,
+      "teams": 10
+    },
+    "sport": "nfl",
+    "start_time": 1725242867601,
+    "status": "complete",
+    "type": "snake"
+  }
+]

@@ -1,0 +1,178 @@
+[
+  {
+    "avatar": "e610bcaea2f578d06f70892e13cc56c0",
+    "display_name": "King0fPrussia",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1133937646117502976",
+    "metadata": {
+      "allow_pn": "on",
+      "archived": "on",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "455790391111708672"
+  },
+  {
+    "avatar": "4f4090e5e9c3941414db40a871e3e909",
+    "display_name": "TurribleTao",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1133937646117502976",
+    "metadata": {
+      "allow_pn": "on",
+      "archived": "on",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "734626058715922432"
+  },
+  {
+    "avatar": "f0edbf4278f53f9425db175073df6584",
+    "display_name": "ballinoutyo",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1133937646117502976",
+    "metadata": {
+      "allow_pn": "on",
+      "allow_sms": "on",
+      "archived": "on",
+      "avatar": "https://sleepercdn.com/uploads/9a965b8ec8f065d8e9cea5d0c32e7c67.jpg",
+      "mention_pn": "on",
+      "team_name": "To Infinity and Bijan"
+    },
+    "settings": null,
+    "user_id": "760244813827346432"
+  },
+  {
+    "avatar": "b319fdf8b7b5b0359d3c78622ba4d70c",
+    "display_name": "GridironGuru127",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1133937646117502976",
+    "metadata": {
+      "allow_pn": "on",
+      "archived": "on",
+      "mention_pn": "on",
+      "team_name": "‘Tis the Keenan"
+    },
+    "settings": null,
+    "user_id": "763047754086862848"
+  },
+  {
+    "avatar": "78fd14846ef602c67713c2ea00d6af7b",
+    "display_name": "HeirJordans",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1133937646117502976",
+    "metadata": {
+      "allow_pn": "off",
+      "archived": "off",
+      "avatar": "https://sleepercdn.com/uploads/c76f5a40818a39bf90b58bd9a6c76f6c.jpg",
+      "league_report_pn": "on",
+      "mascot_message": "on",
+      "mention_pn": "on",
+      "player_like_pn": "on",
+      "player_nickname_update": "on",
+      "team_name": "Breece and Desist",
+      "team_name_update": "on",
+      "trade_block_pn": "on",
+      "transaction_commissioner": "on",
+      "transaction_free_agent": "on",
+      "transaction_trade": "on",
+      "transaction_waiver": "on",
+      "user_message_pn": "on"
+    },
+    "settings": null,
+    "user_id": "854785777429753856"
+  },
+  {
+    "avatar": "15d7cf259bc30eab8f6120f45f652fb6",
+    "display_name": "Pirlipuh",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1133937646117502976",
+    "metadata": {
+      "allow_pn": "on",
+      "archived": "on",
+      "avatar": "https://sleepercdn.com/uploads/eaa01c4bd34797071d90d19905faa6b4.jpg",
+      "league_report_pn": "on",
+      "mascot_message": "on",
+      "mention_pn": "on",
+      "player_like_pn": "on",
+      "player_nickname_update": "on",
+      "team_name": "CeeDeez Nutz",
+      "team_name_update": "on",
+      "trade_block_pn": "on",
+      "transaction_commissioner": "on",
+      "transaction_free_agent": "on",
+      "transaction_trade": "on",
+      "transaction_waiver": "on",
+      "user_message_pn": "on"
+    },
+    "settings": null,
+    "user_id": "871889564820807680"
+  },
+  {
+    "avatar": "bbe1d192af86e85ae55c69d9f5065e6a",
+    "display_name": "gbrewer46",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1133937646117502976",
+    "metadata": {
+      "allow_pn": "on",
+      "allow_sms": "on",
+      "mention_pn": "on",
+      "team_name": "GB City Sportsball"
+    },
+    "settings": null,
+    "user_id": "998638255325175808"
+  },
+  {
+    "avatar": "f8beee4afabc3b9a8efa000cbb49a6ae",
+    "display_name": "DanikD",
+    "is_bot": false,
+    "is_owner": true,
+    "league_id": "1133937646117502976",
+    "metadata": {
+      "allow_pn": "on",
+      "allow_sms": "on",
+      "archived": "on",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "1131282005091745792"
+  },
+  {
+    "avatar": "82aec8e811b839b8ec25d7b458afd57b",
+    "display_name": "jmackjoey13",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1133937646117502976",
+    "metadata": {
+      "allow_pn": "on",
+      "allow_sms": "on",
+      "archived": "on",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "1134015217702289408"
+  },
+  {
+    "avatar": "b74d0ebc6837b6bfe95f1c54c79bf6f9",
+    "display_name": "DrCurbSchool",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1133937646117502976",
+    "metadata": {
+      "allow_pn": "on",
+      "allow_sms": "on",
+      "archived": "off",
+      "avatar": "https://sleepercdn.com/uploads/9fddada58a93ce180904b8de88d4c451.jpg",
+      "mention_pn": "on",
+      "team_name": "Jared MF Golf"
+    },
+    "settings": null,
+    "user_id": "1134219747605893120"
+  }
+]

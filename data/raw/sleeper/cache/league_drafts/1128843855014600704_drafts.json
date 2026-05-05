@@ -1,0 +1,71 @@
+[
+  {
+    "created": 1723499857541,
+    "creators": [
+      "827553910347628544"
+    ],
+    "draft_id": "1128843856323280896",
+    "draft_order": {
+      "1002410896691474432": 7,
+      "1041147207195418624": 1,
+      "1118714033298968576": 11,
+      "469270758854488064": 5,
+      "596168526083981312": 10,
+      "693942533352386560": 12,
+      "729133617476919296": 9,
+      "733139539576631296": 8,
+      "733142360434802688": 4,
+      "827553910347628544": 2,
+      "831980988128141312": 6
+    },
+    "last_message_id": "1128901501989986304",
+    "last_message_time": 1723513601351,
+    "last_picked": 1723513600432,
+    "league_id": "1128843855014600704",
+    "metadata": {
+      "description": "",
+      "highest_offer": "1",
+      "hovered_player_id": "7594",
+      "name": "10$ SF TEP 12 Man Auction Draft",
+      "nominated_player_id": "7594",
+      "nominating_slot": "4",
+      "nominating_user_id": "733142360434802688",
+      "offering_slot": "4",
+      "offering_user_id": "733142360434802688",
+      "paused_pick_timer": "9",
+      "scoring_type": "2qb"
+    },
+    "season": "2024",
+    "season_type": "regular",
+    "settings": {
+      "afk_rounds_2": 1,
+      "afk_rounds_8": 3,
+      "afk_rounds_9": 4,
+      "alpha_sort": 0,
+      "autopause_enabled": 0,
+      "autopause_end_time": 840,
+      "autopause_start_time": 120,
+      "autostart": 0,
+      "budget": 200,
+      "cpu_autopick": 1,
+      "enforce_position_limits": 1,
+      "nomination_timer": 30,
+      "pick_timer": 10,
+      "player_type": 0,
+      "reversal_round": 0,
+      "rounds": 15,
+      "slots_bn": 6,
+      "slots_flex": 2,
+      "slots_qb": 1,
+      "slots_rb": 2,
+      "slots_super_flex": 1,
+      "slots_te": 1,
+      "slots_wr": 2,
+      "teams": 12
+    },
+    "sport": "nfl",
+    "start_time": 1723506010369,
+    "status": "complete",
+    "type": "auction"
+  }
+]

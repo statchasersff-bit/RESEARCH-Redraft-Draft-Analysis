@@ -1,0 +1,59 @@
+[
+  {
+    "created": 1724454209084,
+    "creators": [
+      "729215844013428736"
+    ],
+    "draft_id": "1132846696813170688",
+    "draft_order": {
+      "1125177345226178560": 2,
+      "469229417772609536": 7,
+      "717422796610801664": 1,
+      "722244252255494144": 5,
+      "728697751835136000": 4,
+      "728841534149083136": 3,
+      "729099309026537472": 6,
+      "729215844013428736": 11,
+      "729519156629753856": 8,
+      "730233938961866752": 10,
+      "785000540626161664": 9,
+      "982483033641033728": 12
+    },
+    "last_message_id": "1132868993204670464",
+    "last_message_time": 1724459524969,
+    "last_picked": 1724459524268,
+    "league_id": "1132846695785594880",
+    "metadata": {
+      "description": "",
+      "name": "Alec Bohm",
+      "scoring_type": "ppr"
+    },
+    "season": "2024",
+    "season_type": "regular",
+    "settings": {
+      "alpha_sort": 0,
+      "autopause_enabled": 0,
+      "autopause_end_time": 840,
+      "autopause_start_time": 120,
+      "autostart": 0,
+      "cpu_autopick": 1,
+      "enforce_position_limits": 1,
+      "nomination_timer": 60,
+      "pick_timer": 30,
+      "player_type": 0,
+      "reversal_round": 0,
+      "rounds": 15,
+      "slots_bn": 7,
+      "slots_flex": 2,
+      "slots_qb": 1,
+      "slots_rb": 2,
+      "slots_te": 1,
+      "slots_wr": 2,
+      "teams": 12
+    },
+    "sport": "nfl",
+    "start_time": 1724456900867,
+    "status": "complete",
+    "type": "snake"
+  }
+]

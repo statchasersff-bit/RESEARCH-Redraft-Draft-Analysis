@@ -1,0 +1,99 @@
+[
+  {
+    "avatar": "0111e0c4b2896662d836bdcc29ff1ce4",
+    "display_name": "OdderJobADR",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1135743400726208512",
+    "metadata": {
+      "allow_pn": "on",
+      "allow_sms": "on",
+      "archived": "off",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "459573337719304192"
+  },
+  {
+    "avatar": "9556e7ab4907371a6b9ca6e87624532f",
+    "display_name": "Addiswag",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1135743400726208512",
+    "metadata": {
+      "allow_pn": "on",
+      "allow_sms": "on",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "784881777746567168"
+  },
+  {
+    "avatar": "b3338675f635c2c1f42b469621d38ec6",
+    "display_name": "IVANTML",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1135743400726208512",
+    "metadata": {
+      "allow_pn": "on",
+      "allow_sms": "on",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "1092672297556635648"
+  },
+  {
+    "avatar": "ac142b6742dce4c308b3a28176792112",
+    "display_name": "InChismwetrust",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1135743400726208512",
+    "metadata": {
+      "allow_pn": "on",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "1130661028867477504"
+  },
+  {
+    "avatar": "15d7cf259bc30eab8f6120f45f652fb6",
+    "display_name": "Hyezilla777",
+    "is_bot": false,
+    "is_owner": true,
+    "league_id": "1135743400726208512",
+    "metadata": {
+      "allow_pn": "on",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "1134372511342280704"
+  },
+  {
+    "avatar": "72919e163260d8b75b617788d617ddb5",
+    "display_name": "ZoneGangQuez",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1135743400726208512",
+    "metadata": {
+      "allow_pn": "on",
+      "allow_sms": "on",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "1146932370462052352"
+  },
+  {
+    "avatar": "b319fdf8b7b5b0359d3c78622ba4d70c",
+    "display_name": "Anygivinsunday1112",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1135743400726208512",
+    "metadata": {
+      "allow_pn": "on",
+      "allow_sms": "on",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "1152274390839701504"
+  }
+]

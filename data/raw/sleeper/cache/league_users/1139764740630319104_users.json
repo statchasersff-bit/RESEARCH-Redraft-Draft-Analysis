@@ -1,0 +1,164 @@
+[
+  {
+    "avatar": "44730991a63d0936ae25b266bbd49ee3",
+    "display_name": "nokneestreiz",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1139764740630319104",
+    "metadata": {
+      "allow_pn": "on",
+      "archived": "on",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "996785962854268928"
+  },
+  {
+    "avatar": "8eb8f8bf999945d523f2c4033f70473e",
+    "display_name": "bride06",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1139764740630319104",
+    "metadata": {
+      "allow_pn": "on",
+      "allow_sms": "on",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "997400535533744128"
+  },
+  {
+    "avatar": "b3338675f635c2c1f42b469621d38ec6",
+    "display_name": "Sukhi16",
+    "is_bot": false,
+    "is_owner": true,
+    "league_id": "1139764740630319104",
+    "metadata": {
+      "allow_pn": "on",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "997750191128137728"
+  },
+  {
+    "avatar": "3cad25745b5bec944c09685d9151039e",
+    "display_name": "ThunderZone86",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1139764740630319104",
+    "metadata": {
+      "allow_pn": "on",
+      "allow_sms": "on",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "998658232346423296"
+  },
+  {
+    "avatar": "b319fdf8b7b5b0359d3c78622ba4d70c",
+    "display_name": "LJOH",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1139764740630319104",
+    "metadata": {
+      "allow_pn": "on",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "1020803134265888768"
+  },
+  {
+    "avatar": "4f4090e5e9c3941414db40a871e3e909",
+    "display_name": "stefonDiggsmoney3",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1139764740630319104",
+    "metadata": {
+      "allow_pn": "on",
+      "archived": "on",
+      "mention_pn": "on",
+      "team_name": "Can you Diggs it "
+    },
+    "settings": null,
+    "user_id": "1118678669683183616"
+  },
+  {
+    "avatar": "d3909f5c8b92f8825a55f11b19710cbf",
+    "display_name": "Cashflo17",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1139764740630319104",
+    "metadata": {
+      "allow_pn": "on",
+      "allow_sms": "on",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "1138265160038141952"
+  },
+  {
+    "avatar": "b319fdf8b7b5b0359d3c78622ba4d70c",
+    "display_name": "Jaxson123",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1139764740630319104",
+    "metadata": {
+      "allow_pn": "off",
+      "league_report_pn": "off",
+      "mascot_message": "off",
+      "mention_pn": "off",
+      "player_like_pn": "off",
+      "player_nickname_update": "off",
+      "team_name_update": "off",
+      "trade_block_pn": "off",
+      "transaction_commissioner": "off",
+      "transaction_free_agent": "off",
+      "transaction_trade": "off",
+      "transaction_waiver": "off",
+      "user_message_pn": "off"
+    },
+    "settings": null,
+    "user_id": "1138735254477844480"
+  },
+  {
+    "avatar": "029a10aee384210811f62602c24660a9",
+    "display_name": "alwx2183",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1139764740630319104",
+    "metadata": {
+      "allow_pn": "on",
+      "archived": "on",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "1140024867115474944"
+  },
+  {
+    "avatar": "4f4090e5e9c3941414db40a871e3e909",
+    "display_name": "GarrettBasden",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1139764740630319104",
+    "metadata": {
+      "allow_pn": "on",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "1140345006969024512"
+  },
+  {
+    "avatar": "6bb77007cfbe8fe3e3b8f2661957ec72",
+    "display_name": "chubbclub2",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1139764740630319104",
+    "metadata": {
+      "allow_pn": "on",
+      "archived": "on",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "1140444701447970816"
+  }
+]

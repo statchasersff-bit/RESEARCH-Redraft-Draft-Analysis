@@ -1,0 +1,59 @@
+[
+  {
+    "created": 1721488086429,
+    "creators": [
+      "563618720982609920"
+    ],
+    "draft_id": "1120405876650659841",
+    "draft_order": {
+      "1132808924757065728": 5,
+      "561628166468595712": 2,
+      "563618720982609920": 7,
+      "594974709070741504": 1,
+      "855558452011962368": 4,
+      "855558463642800128": 9,
+      "855566362708377600": 8,
+      "855875839420633088": 3,
+      "856237628767457280": 6,
+      "857000825178931200": 10
+    },
+    "last_message_id": "1136053568860905472",
+    "last_message_time": 1725218786972,
+    "last_picked": 1725218786464,
+    "league_id": "1120405876650659840",
+    "metadata": {
+      "description": "",
+      "name": "Freedom",
+      "scoring_type": "ppr"
+    },
+    "season": "2024",
+    "season_type": "regular",
+    "settings": {
+      "alpha_sort": 0,
+      "autopause_enabled": 0,
+      "autopause_end_time": 840,
+      "autopause_start_time": 120,
+      "autostart": 0,
+      "cpu_autopick": 1,
+      "enforce_position_limits": 1,
+      "nomination_timer": 60,
+      "pick_timer": 120,
+      "player_type": 0,
+      "reversal_round": 0,
+      "rounds": 16,
+      "slots_bn": 6,
+      "slots_def": 1,
+      "slots_flex": 2,
+      "slots_k": 1,
+      "slots_qb": 1,
+      "slots_rb": 2,
+      "slots_te": 1,
+      "slots_wr": 2,
+      "teams": 10
+    },
+    "sport": "nfl",
+    "start_time": 1725214021888,
+    "status": "complete",
+    "type": "snake"
+  }
+]

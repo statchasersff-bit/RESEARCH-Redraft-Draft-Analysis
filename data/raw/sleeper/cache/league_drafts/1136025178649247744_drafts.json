@@ -1,0 +1,59 @@
+[
+  {
+    "created": 1725212020047,
+    "creators": [
+      "1000488762083733504"
+    ],
+    "draft_id": "1136025186362638336",
+    "draft_order": {
+      "1000236494348484608": 6,
+      "1000488762083733504": 7,
+      "1117219531723730944": 2,
+      "1126607452922892288": 5,
+      "1127036291448815616": 9,
+      "716163965515825152": 4,
+      "726914814986797056": 8,
+      "854173473524805632": 10,
+      "903741107274596352": 3,
+      "958250559578906624": 1
+    },
+    "last_message_id": "1136136055969169408",
+    "last_message_time": 1725238453431,
+    "last_picked": 1725238432134,
+    "league_id": "1136025178649247744",
+    "metadata": {
+      "description": "",
+      "name": "Grindin Dimes🏈🤺🏆",
+      "scoring_type": "ppr"
+    },
+    "season": "2024",
+    "season_type": "regular",
+    "settings": {
+      "alpha_sort": 0,
+      "autopause_enabled": 0,
+      "autopause_end_time": 840,
+      "autopause_start_time": 120,
+      "autostart": 0,
+      "cpu_autopick": 1,
+      "enforce_position_limits": 1,
+      "nomination_timer": 60,
+      "pick_timer": 60,
+      "player_type": 0,
+      "reversal_round": 0,
+      "rounds": 15,
+      "slots_bn": 5,
+      "slots_def": 1,
+      "slots_flex": 2,
+      "slots_k": 1,
+      "slots_qb": 1,
+      "slots_rb": 2,
+      "slots_te": 1,
+      "slots_wr": 2,
+      "teams": 10
+    },
+    "sport": "nfl",
+    "start_time": 1725235207385,
+    "status": "complete",
+    "type": "snake"
+  }
+]

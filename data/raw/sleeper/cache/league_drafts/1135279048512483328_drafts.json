@@ -1,0 +1,62 @@
+[
+  {
+    "created": 1725034127234,
+    "creators": [
+      "737085875023900672",
+      "1003156321874567168"
+    ],
+    "draft_id": "1135279049825218560",
+    "draft_order": {
+      "1000213331694653440": 5,
+      "1003156321874567168": 6,
+      "1007110321758752768": 11,
+      "1110830649411440640": 3,
+      "1135357305018798080": 2,
+      "735797805825785856": 7,
+      "736055016351236096": 12,
+      "736353322956652544": 4,
+      "737085875023900672": 9,
+      "872614138071977984": 8,
+      "922381835026423808": 10,
+      "995800672777875456": 1
+    },
+    "last_message_id": "1136157880849035264",
+    "last_message_time": 1725243656888,
+    "last_picked": 1725243656066,
+    "league_id": "1135279048512483328",
+    "metadata": {
+      "description": "",
+      "name": "MDMA League (Making Defenses Matter Again)",
+      "scoring_type": "half_ppr"
+    },
+    "season": "2024",
+    "season_type": "regular",
+    "settings": {
+      "alpha_sort": 0,
+      "autopause_enabled": 0,
+      "autopause_end_time": 720,
+      "autopause_start_time": 240,
+      "autostart": 0,
+      "cpu_autopick": 1,
+      "enforce_position_limits": 1,
+      "nomination_timer": 60,
+      "pick_timer": 60,
+      "player_type": 0,
+      "reversal_round": 3,
+      "rounds": 16,
+      "slots_bn": 5,
+      "slots_def": 1,
+      "slots_flex": 3,
+      "slots_k": 1,
+      "slots_qb": 1,
+      "slots_rb": 2,
+      "slots_te": 1,
+      "slots_wr": 2,
+      "teams": 12
+    },
+    "sport": "nfl",
+    "start_time": 1725222925740,
+    "status": "complete",
+    "type": "snake"
+  }
+]

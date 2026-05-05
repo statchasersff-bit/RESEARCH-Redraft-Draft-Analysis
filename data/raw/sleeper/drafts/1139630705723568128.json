@@ -1,0 +1,73 @@
+{
+  "created": 1726071642850,
+  "creators": [
+    "1125290889447837696"
+  ],
+  "draft_id": "1139630705723568128",
+  "draft_order": {
+    "1004938542059024384": 9,
+    "1125290889447837696": 7,
+    "1128123259045777408": 3,
+    "1134186758985367552": 8,
+    "1136389898384142336": 12,
+    "1137652131089534976": 10,
+    "1137753215208079360": 5,
+    "1137755373730918400": 2,
+    "1139729848378728448": 11,
+    "870859367027826688": 1,
+    "984505749101424640": 4,
+    "997065378314420224": 6
+  },
+  "last_message_id": "1139793138249445376",
+  "last_message_time": 1726110369793,
+  "last_picked": 1726110350253,
+  "league_id": "1139630705048412160",
+  "metadata": {
+    "description": "",
+    "name": "hawk and stick league",
+    "scoring_type": "ppr"
+  },
+  "season": "2024",
+  "season_type": "regular",
+  "settings": {
+    "alpha_sort": 0,
+    "autopause_enabled": 0,
+    "autopause_end_time": 900,
+    "autopause_start_time": 180,
+    "autostart": 1,
+    "cpu_autopick": 1,
+    "enforce_position_limits": 1,
+    "nomination_timer": 60,
+    "pick_timer": 30,
+    "player_type": 0,
+    "reversal_round": 0,
+    "rounds": 15,
+    "slots_bn": 5,
+    "slots_def": 1,
+    "slots_flex": 2,
+    "slots_k": 1,
+    "slots_qb": 1,
+    "slots_rb": 2,
+    "slots_te": 1,
+    "slots_wr": 2,
+    "teams": 12
+  },
+  "slot_to_roster_id": {
+    "1": 3,
+    "2": 6,
+    "3": 11,
+    "4": 8,
+    "5": 7,
+    "6": 10,
+    "7": 1,
+    "8": 4,
+    "9": 9,
+    "10": 2,
+    "11": 5,
+    "12": 12
+  },
+  "sport": "nfl",
+  "start_time": 1726108229457,
+  "status": "complete",
+  "type": "snake"
+}

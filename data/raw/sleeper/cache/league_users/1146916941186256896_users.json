@@ -1,0 +1,209 @@
+[
+  {
+    "avatar": "694c808ea48cc8033aeece7e69bd39b8",
+    "display_name": "thomasn",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1146916941186256896",
+    "metadata": {
+      "allow_pn": "on",
+      "archived": "off",
+      "mention_pn": "on",
+      "team_name": "JoeBidensLeftFinger"
+    },
+    "settings": null,
+    "user_id": "482979385276624896"
+  },
+  {
+    "avatar": "9771922beb5fc5a8ece55be671518196",
+    "display_name": "SeggsWithJesus",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1146916941186256896",
+    "metadata": {
+      "allow_pn": "on",
+      "archived": "on",
+      "avatar": "https://sleepercdn.com/uploads/bd59976617f13b346820c28c8fcb0ab1",
+      "mention_pn": "on",
+      "team_name": "Intensive Care Unit"
+    },
+    "settings": null,
+    "user_id": "628354627166896128"
+  },
+  {
+    "avatar": "e1a68c9c236d9fc841fbf7100f1fda69",
+    "display_name": "RetiredFedDave",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1146916941186256896",
+    "metadata": {
+      "allow_pn": "off",
+      "archived": "on",
+      "league_report_pn": "on",
+      "mascot_message": "off",
+      "mention_pn": "off",
+      "player_like_pn": "on",
+      "player_nickname_update": "off",
+      "team_name_update": "off",
+      "trade_block_pn": "on",
+      "transaction_commissioner": "off",
+      "transaction_free_agent": "on",
+      "transaction_trade": "on",
+      "transaction_waiver": "on",
+      "user_message_pn": "on"
+    },
+    "settings": null,
+    "user_id": "857835167300075520"
+  },
+  {
+    "avatar": "482f254cd6a4cee376c6710cc2229db1",
+    "display_name": "brysqi",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1146916941186256896",
+    "metadata": {
+      "allow_pn": "off",
+      "archived": "on",
+      "league_report_pn": "off",
+      "mascot_message": "off",
+      "mention_pn": "on",
+      "player_like_pn": "off",
+      "player_nickname_update": "off",
+      "team_name": "Better Call Hall",
+      "team_name_update": "off",
+      "trade_block_pn": "off",
+      "transaction_commissioner": "off",
+      "transaction_free_agent": "off",
+      "transaction_trade": "off",
+      "transaction_waiver": "off",
+      "user_message_pn": "off"
+    },
+    "settings": null,
+    "user_id": "940160785744093184"
+  },
+  {
+    "avatar": "8eb8f8bf999945d523f2c4033f70473e",
+    "display_name": "zachbuster",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1146916941186256896",
+    "metadata": {
+      "allow_pn": "on",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "958250559578906624"
+  },
+  {
+    "avatar": "15d7cf259bc30eab8f6120f45f652fb6",
+    "display_name": "Jorry",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1146916941186256896",
+    "metadata": {
+      "allow_pn": "on",
+      "archived": "on",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "993580599556325376"
+  },
+  {
+    "avatar": "967dfafc3b5def2c22bfe11486daa42e",
+    "display_name": "Kev331",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1146916941186256896",
+    "metadata": {
+      "allow_pn": "on",
+      "mention_pn": "on",
+      "team_name": "Team Universe 7"
+    },
+    "settings": null,
+    "user_id": "996166464296148993"
+  },
+  {
+    "avatar": "fcd6250e4463bfdadbaa603d4445412f",
+    "display_name": "Jsmooo",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1146916941186256896",
+    "metadata": {
+      "allow_pn": "off",
+      "archived": "off",
+      "league_report_pn": "on",
+      "mascot_message": "off",
+      "mention_pn": "on",
+      "player_like_pn": "on",
+      "player_nickname_update": "off",
+      "team_name": "Team 海賊王",
+      "team_name_update": "off",
+      "trade_block_pn": "on",
+      "transaction_commissioner": "on",
+      "transaction_free_agent": "on",
+      "transaction_trade": "on",
+      "transaction_waiver": "off",
+      "user_message_pn": "off"
+    },
+    "settings": null,
+    "user_id": "1000460611857289216"
+  },
+  {
+    "avatar": "e50fe1ef62e1b412fb41735f0154d7b5",
+    "display_name": "GrittyGrinders",
+    "is_bot": false,
+    "is_owner": true,
+    "league_id": "1146916941186256896",
+    "metadata": {
+      "allow_pn": "on",
+      "archived": "on",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "1000488762083733504"
+  },
+  {
+    "avatar": "b3338675f635c2c1f42b469621d38ec6",
+    "display_name": "mt2molehill",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1146916941186256896",
+    "metadata": {
+      "allow_pn": "on",
+      "archived": "on",
+      "mention_pn": "on",
+      "team_name": "Wr U"
+    },
+    "settings": null,
+    "user_id": "1026536629743251456"
+  },
+  {
+    "avatar": "82aec8e811b839b8ec25d7b458afd57b",
+    "display_name": "PickensTheBest",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1146916941186256896",
+    "metadata": {
+      "allow_pn": "on",
+      "allow_sms": "on",
+      "archived": "on",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "1143337907261075456"
+  },
+  {
+    "avatar": "7572250c2fb084c434fed0e82229e183",
+    "display_name": "ColinP713",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1146916941186256896",
+    "metadata": {
+      "allow_pn": "on",
+      "archived": "on",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "1155998870351097856"
+  }
+]

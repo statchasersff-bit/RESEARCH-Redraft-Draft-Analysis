@@ -1,0 +1,67 @@
+{
+  "created": 1725311322817,
+  "creators": [
+    "704220888010145792"
+  ],
+  "draft_id": "1136441692326084609",
+  "draft_order": {
+    "454546694915223552": 7,
+    "607685751630540800": 2,
+    "704220888010145792": 1,
+    "734666381009772544": 8,
+    "801073283410800640": 4,
+    "833045045924986880": 3,
+    "865779827867795456": 6,
+    "868360290927038464": 10,
+    "869812155644628992": 5,
+    "982483033641033728": 9
+  },
+  "last_message_id": "1140947257953357824",
+  "last_message_time": 1726385533372,
+  "last_picked": 1726385532794,
+  "league_id": "1136441692326084608",
+  "metadata": {
+    "description": "",
+    "name": "Future Foundation",
+    "scoring_type": "ppr"
+  },
+  "season": "2024",
+  "season_type": "regular",
+  "settings": {
+    "alpha_sort": 0,
+    "autopause_enabled": 0,
+    "autopause_end_time": 840,
+    "autopause_start_time": 120,
+    "autostart": 0,
+    "cpu_autopick": 1,
+    "enforce_position_limits": 1,
+    "nomination_timer": 60,
+    "pick_timer": 60,
+    "player_type": 0,
+    "reversal_round": 0,
+    "rounds": 16,
+    "slots_bn": 7,
+    "slots_flex": 2,
+    "slots_qb": 1,
+    "slots_rb": 2,
+    "slots_te": 1,
+    "slots_wr": 3,
+    "teams": 10
+  },
+  "slot_to_roster_id": {
+    "1": 1,
+    "2": 7,
+    "3": 4,
+    "4": 3,
+    "5": 10,
+    "6": 8,
+    "7": 6,
+    "8": 5,
+    "9": 9,
+    "10": 2
+  },
+  "sport": "nfl",
+  "start_time": 1726380935731,
+  "status": "complete",
+  "type": "snake"
+}

@@ -1,0 +1,183 @@
+[
+  {
+    "avatar": "0a58afd6aaea6a082231498e0328de2b",
+    "display_name": "alipp",
+    "is_bot": false,
+    "is_owner": true,
+    "league_id": "1151586936637923328",
+    "metadata": {
+      "allow_pn": "on",
+      "archived": "on",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "644592945617551360"
+  },
+  {
+    "avatar": "2d329463c2e3afcd9e5d94efb46e5e1b",
+    "display_name": "6oku",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1151586936637923328",
+    "metadata": {
+      "allow_pn": "on",
+      "archived": "on",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "711697074571284480"
+  },
+  {
+    "avatar": "f0edbf4278f53f9425db175073df6584",
+    "display_name": "natedagreat3023",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1151586936637923328",
+    "metadata": {
+      "allow_pn": "on",
+      "archived": "on",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "852980662007881728"
+  },
+  {
+    "avatar": "9262ba02e0f326a4531d34108400ad72",
+    "display_name": "ImBeetlejuice",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1151586936637923328",
+    "metadata": {
+      "allow_pn": "on",
+      "archived": "on",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "853905661040390144"
+  },
+  {
+    "avatar": "78fd14846ef602c67713c2ea00d6af7b",
+    "display_name": "HeirJordans",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1151586936637923328",
+    "metadata": {
+      "allow_pn": "on",
+      "archived": "on",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "854785777429753856"
+  },
+  {
+    "avatar": "5842ede2b094025a6c412f1b3784c121",
+    "display_name": "kwright24",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1151586936637923328",
+    "metadata": {
+      "allow_pn": "on",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "975537730107047936"
+  },
+  {
+    "avatar": "8eb8f8bf999945d523f2c4033f70473e",
+    "display_name": "Mont97",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1151586936637923328",
+    "metadata": {
+      "allow_pn": "on",
+      "allow_sms": "on",
+      "archived": "on",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "983946376868364288"
+  },
+  {
+    "avatar": "2ed8b6a6ba9bc365e0deb3b7d78c544b",
+    "display_name": "Romano87",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1151586936637923328",
+    "metadata": {
+      "allow_pn": "on",
+      "archived": "on",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "1000100165757321216"
+  },
+  {
+    "avatar": "8eb8f8bf999945d523f2c4033f70473e",
+    "display_name": "rorylion",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1151586936637923328",
+    "metadata": {
+      "allow_pn": "on",
+      "archived": "on",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "1000166013784694784"
+  },
+  {
+    "avatar": "d737034abad0e51b805dacd96958468c",
+    "display_name": "Zack_Moss",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1151586936637923328",
+    "metadata": {
+      "allow_pn": "on",
+      "archived": "on",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "1000925658157035520"
+  },
+  {
+    "avatar": "b319fdf8b7b5b0359d3c78622ba4d70c",
+    "display_name": "linh0701",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1151586936637923328",
+    "metadata": {
+      "allow_pn": "on",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "1113619214335610880"
+  },
+  {
+    "avatar": "b73c560529f9605c4414308ebe03417b",
+    "display_name": "Geovanny7",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1151586936637923328",
+    "metadata": {
+      "allow_pn": "on",
+      "archived": "on",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "1128019987958030336"
+  },
+  {
+    "avatar": "4a9e69a6b16e30fe34aaad88aeb0045d",
+    "display_name": "jesssaaa",
+    "is_bot": false,
+    "is_owner": true,
+    "league_id": "1151586936637923328",
+    "metadata": {
+      "allow_pn": "on",
+      "archived": "off",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "1133938442456453120"
+  }
+]

@@ -1,0 +1,71 @@
+{
+  "created": 1722540926363,
+  "creators": [
+    "872205881754996736"
+  ],
+  "draft_id": "1124821807396843521",
+  "draft_order": {
+    "1000121821598900224": 1,
+    "433105888782315520": 9,
+    "602273325221224448": 2,
+    "643707011833352192": 5,
+    "735306861544374272": 11,
+    "741031920472883200": 6,
+    "741302376291586048": 10,
+    "869993057456672768": 3,
+    "872189376917127168": 4,
+    "872205881754996736": 7,
+    "872234970440261632": 12,
+    "993609567059628032": 8
+  },
+  "last_message_id": "1136155208980967424",
+  "last_message_time": 1725243019865,
+  "last_picked": 1725243019084,
+  "league_id": "1124821807396843520",
+  "metadata": {
+    "description": "",
+    "name": "Only The Greatest ",
+    "scoring_type": "ppr"
+  },
+  "season": "2024",
+  "season_type": "regular",
+  "settings": {
+    "alpha_sort": 0,
+    "autopause_enabled": 0,
+    "autopause_end_time": 840,
+    "autopause_start_time": 120,
+    "autostart": 0,
+    "cpu_autopick": 1,
+    "enforce_position_limits": 1,
+    "nomination_timer": 60,
+    "pick_timer": 60,
+    "player_type": 0,
+    "reversal_round": 0,
+    "rounds": 13,
+    "slots_bn": 5,
+    "slots_flex": 2,
+    "slots_qb": 1,
+    "slots_rb": 2,
+    "slots_te": 1,
+    "slots_wr": 2,
+    "teams": 12
+  },
+  "slot_to_roster_id": {
+    "1": 7,
+    "2": 9,
+    "3": 3,
+    "4": 11,
+    "5": 12,
+    "6": 8,
+    "7": 1,
+    "8": 6,
+    "9": 5,
+    "10": 2,
+    "11": 10,
+    "12": 4
+  },
+  "sport": "nfl",
+  "start_time": 1725238861330,
+  "status": "complete",
+  "type": "snake"
+}

@@ -1,0 +1,61 @@
+[
+  {
+    "created": 1725245928278,
+    "creators": [
+      "1003914619829719040"
+    ],
+    "draft_id": "1136167407749464065",
+    "draft_order": {
+      "1003914619829719040": 11,
+      "1005672890016870400": 6,
+      "1006048723354464256": 7,
+      "1011409479446532096": 4,
+      "1012014255991836672": 3,
+      "1084002885165236224": 5,
+      "1135020326825566208": 10,
+      "474724453285097472": 2,
+      "503221693381079040": 8,
+      "727508242728558592": 12,
+      "732473635142529024": 1,
+      "871297359815073792": 9
+    },
+    "last_message_id": "1137257947576180736",
+    "last_message_time": 1725505933234,
+    "last_picked": 1725505932728,
+    "league_id": "1136167407749464064",
+    "metadata": {
+      "description": "",
+      "name": "Any Given Sunday",
+      "scoring_type": "ppr"
+    },
+    "season": "2024",
+    "season_type": "regular",
+    "settings": {
+      "alpha_sort": 0,
+      "autopause_enabled": 0,
+      "autopause_end_time": 1020,
+      "autopause_start_time": 300,
+      "autostart": 0,
+      "cpu_autopick": 1,
+      "enforce_position_limits": 1,
+      "nomination_timer": 60,
+      "pick_timer": 30,
+      "player_type": 0,
+      "reversal_round": 0,
+      "rounds": 15,
+      "slots_bn": 5,
+      "slots_def": 1,
+      "slots_flex": 2,
+      "slots_k": 1,
+      "slots_qb": 1,
+      "slots_rb": 2,
+      "slots_te": 1,
+      "slots_wr": 2,
+      "teams": 12
+    },
+    "sport": "nfl",
+    "start_time": 1725502604720,
+    "status": "complete",
+    "type": "snake"
+  }
+]

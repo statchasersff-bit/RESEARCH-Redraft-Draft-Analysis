@@ -1,0 +1,71 @@
+{
+  "created": 1727273663425,
+  "creators": [
+    "1124877828413063168"
+  ],
+  "draft_id": "1144672345420865536",
+  "draft_order": {
+    "1059243319085047808": 6,
+    "1068308080166903808": 1,
+    "1124877828413063168": 3,
+    "1128788862226186240": 7,
+    "1144723471172354048": 9,
+    "1144776354001747968": 2,
+    "1144787493049729024": 4,
+    "606343542427705344": 8,
+    "607685751630540800": 11,
+    "854785777429753856": 10,
+    "987058884181303296": 12,
+    "998740553506402304": 5
+  },
+  "last_message_id": "1144876160258408448",
+  "last_message_time": 1727322256677,
+  "last_picked": 1727322255640,
+  "league_id": "1144672343818809344",
+  "metadata": {
+    "description": "",
+    "name": "Money? League? Week4?",
+    "scoring_type": "ppr"
+  },
+  "season": "2024",
+  "season_type": "regular",
+  "settings": {
+    "alpha_sort": 0,
+    "autopause_enabled": 0,
+    "autopause_end_time": 1020,
+    "autopause_start_time": 300,
+    "autostart": 0,
+    "cpu_autopick": 1,
+    "enforce_position_limits": 1,
+    "nomination_timer": 60,
+    "pick_timer": 60,
+    "player_type": 0,
+    "reversal_round": 0,
+    "rounds": 14,
+    "slots_bn": 6,
+    "slots_flex": 2,
+    "slots_qb": 1,
+    "slots_rb": 2,
+    "slots_te": 1,
+    "slots_wr": 2,
+    "teams": 12
+  },
+  "slot_to_roster_id": {
+    "1": 4,
+    "2": 12,
+    "3": 1,
+    "4": 5,
+    "5": 3,
+    "6": 2,
+    "7": 8,
+    "8": 11,
+    "9": 10,
+    "10": 7,
+    "11": 9,
+    "12": 6
+  },
+  "sport": "nfl",
+  "start_time": 1727316983696,
+  "status": "complete",
+  "type": "snake"
+}

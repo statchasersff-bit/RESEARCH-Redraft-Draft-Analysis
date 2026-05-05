@@ -1,0 +1,60 @@
+[
+  {
+    "created": 1725732251157,
+    "creators": [
+      "743712375932350464"
+    ],
+    "draft_id": "1138207193775468544",
+    "draft_order": {
+      "109789623878041600": 1,
+      "606294401806823424": 2,
+      "607067244450619392": 6,
+      "609747751915311104": 12,
+      "656576597024935936": 9,
+      "711697074571284480": 7,
+      "743712375932350464": 8,
+      "95985641351168000": 11,
+      "975654758461554688": 10,
+      "977782663010455552": 5,
+      "984942455650824192": 4,
+      "986939954351669248": 3
+    },
+    "last_message_id": "1138274655355273216",
+    "last_message_time": 1725748335258,
+    "last_picked": 1725748292166,
+    "league_id": "1138207192533835776",
+    "metadata": {
+      "description": "",
+      "name": "Deebo’s Domination",
+      "scoring_type": "2qb"
+    },
+    "season": "2024",
+    "season_type": "regular",
+    "settings": {
+      "alpha_sort": 0,
+      "autopause_enabled": 0,
+      "autopause_end_time": 1020,
+      "autopause_start_time": 300,
+      "autostart": 0,
+      "cpu_autopick": 1,
+      "enforce_position_limits": 1,
+      "nomination_timer": 60,
+      "pick_timer": 30,
+      "player_type": 0,
+      "reversal_round": 0,
+      "rounds": 19,
+      "slots_bn": 10,
+      "slots_flex": 2,
+      "slots_qb": 1,
+      "slots_rb": 2,
+      "slots_super_flex": 1,
+      "slots_te": 1,
+      "slots_wr": 2,
+      "teams": 12
+    },
+    "sport": "nfl",
+    "start_time": 1725742513853,
+    "status": "complete",
+    "type": "snake"
+  }
+]

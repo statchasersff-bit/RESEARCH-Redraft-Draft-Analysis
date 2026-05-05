@@ -1,0 +1,72 @@
+{
+  "created": 1727818599953,
+  "creators": [
+    "1000488762083733504"
+  ],
+  "draft_id": "1146957974884179968",
+  "draft_order": {
+    "1000488762083733504": 1,
+    "1025759827806511104": 8,
+    "1062501386958598144": 5,
+    "1080604341943336960": 12,
+    "1097208500985438208": 9,
+    "1143337907261075456": 2,
+    "731001820226363392": 4,
+    "861686785690935296": 3,
+    "979610977693908992": 11,
+    "993580599556325376": 7,
+    "996187507035475968": 10
+  },
+  "last_message_id": "1147386350451044352",
+  "last_message_time": 1727920732657,
+  "last_picked": 1727920731612,
+  "league_id": "1146957972115972096",
+  "metadata": {
+    "description": "",
+    "name": "Active Animaniacs! 🏈🤺🏆💰",
+    "scoring_type": "ppr"
+  },
+  "season": "2024",
+  "season_type": "regular",
+  "settings": {
+    "alpha_sort": 0,
+    "autopause_enabled": 0,
+    "autopause_end_time": 840,
+    "autopause_start_time": 120,
+    "autostart": 0,
+    "cpu_autopick": 1,
+    "enforce_position_limits": 1,
+    "nomination_timer": 60,
+    "pick_timer": 90,
+    "player_type": 0,
+    "reversal_round": 0,
+    "rounds": 16,
+    "slots_bn": 6,
+    "slots_def": 1,
+    "slots_flex": 2,
+    "slots_k": 1,
+    "slots_qb": 1,
+    "slots_rb": 2,
+    "slots_te": 1,
+    "slots_wr": 2,
+    "teams": 12
+  },
+  "slot_to_roster_id": {
+    "1": 1,
+    "2": 3,
+    "3": 7,
+    "4": 8,
+    "5": 10,
+    "6": 2,
+    "7": 6,
+    "8": 9,
+    "9": 12,
+    "10": 5,
+    "11": 11,
+    "12": 4
+  },
+  "sport": "nfl",
+  "start_time": 1727915458966,
+  "status": "complete",
+  "type": "snake"
+}

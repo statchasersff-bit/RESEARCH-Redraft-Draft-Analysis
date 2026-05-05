@@ -1,0 +1,73 @@
+[
+  {
+    "created": 1725653519401,
+    "creators": [
+      "300294946143883264"
+    ],
+    "draft_id": "1137876968860549120",
+    "draft_order": {
+      "1000925658157035520": 2,
+      "1004571466228170752": 10,
+      "1133813229085466624": 12,
+      "1136071219327012864": 1,
+      "1137250284083957760": 6,
+      "1138634895905902592": 11,
+      "1138644802893139968": 4,
+      "300294946143883264": 8,
+      "483159398663843840": 5,
+      "740036069076127744": 9,
+      "869258987273662464": 7,
+      "870771992087977984": 3
+    },
+    "last_message_id": "1139434806195838976",
+    "last_message_time": 1726024936773,
+    "last_picked": 1726024935716,
+    "league_id": "1137876968164311040",
+    "metadata": {
+      "description": "",
+      "highest_offer": "1",
+      "name": "Degenerate Procrastinators SF/TEP auction league",
+      "nominated_player_id": "2197",
+      "nominating_slot": "1",
+      "nominating_user_id": "1136071219327012864",
+      "offering_slot": "1",
+      "offering_user_id": "1136071219327012864",
+      "paused_pick_timer": "8",
+      "scoring_type": "2qb"
+    },
+    "season": "2024",
+    "season_type": "regular",
+    "settings": {
+      "afk_rounds_1": 1,
+      "afk_rounds_11": 8,
+      "afk_rounds_12": 4,
+      "afk_rounds_4": 10,
+      "afk_rounds_7": 4,
+      "alpha_sort": 0,
+      "autopause_enabled": 0,
+      "autopause_end_time": 900,
+      "autopause_start_time": 180,
+      "autostart": 0,
+      "budget": 200,
+      "cpu_autopick": 1,
+      "enforce_position_limits": 1,
+      "nomination_timer": 30,
+      "pick_timer": 10,
+      "player_type": 0,
+      "reversal_round": 0,
+      "rounds": 16,
+      "slots_bn": 6,
+      "slots_flex": 2,
+      "slots_qb": 1,
+      "slots_rb": 2,
+      "slots_super_flex": 1,
+      "slots_te": 2,
+      "slots_wr": 2,
+      "teams": 12
+    },
+    "sport": "nfl",
+    "start_time": 1726016575386,
+    "status": "complete",
+    "type": "auction"
+  }
+]

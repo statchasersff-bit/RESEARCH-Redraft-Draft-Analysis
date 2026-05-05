@@ -1,0 +1,58 @@
+[
+  {
+    "created": 1725660439030,
+    "creators": [
+      "979203009441832960"
+    ],
+    "draft_id": "1137905991888187392",
+    "draft_order": {
+      "1127345594516832256": 6,
+      "472677951763116032": 2,
+      "483159398663843840": 10,
+      "736434807411736576": 7,
+      "783845241424838656": 8,
+      "854602245042442240": 5,
+      "854833280686616576": 1,
+      "869812155644628992": 9,
+      "872253478138015744": 3,
+      "979203009441832960": 4
+    },
+    "last_message_id": "1137968474845786112",
+    "last_message_time": 1725675336136,
+    "last_picked": 1725675335604,
+    "league_id": "1137905990889766912",
+    "metadata": {
+      "description": "",
+      "name": "Last Supper $20",
+      "scoring_type": "2qb"
+    },
+    "season": "2024",
+    "season_type": "regular",
+    "settings": {
+      "alpha_sort": 0,
+      "autopause_enabled": 0,
+      "autopause_end_time": 840,
+      "autopause_start_time": 120,
+      "autostart": 1,
+      "cpu_autopick": 1,
+      "enforce_position_limits": 1,
+      "nomination_timer": 60,
+      "pick_timer": 30,
+      "player_type": 0,
+      "reversal_round": 0,
+      "rounds": 19,
+      "slots_bn": 7,
+      "slots_flex": 3,
+      "slots_qb": 1,
+      "slots_rb": 2,
+      "slots_super_flex": 1,
+      "slots_te": 2,
+      "slots_wr": 3,
+      "teams": 10
+    },
+    "sport": "nfl",
+    "start_time": 1725672630689,
+    "status": "complete",
+    "type": "snake"
+  }
+]

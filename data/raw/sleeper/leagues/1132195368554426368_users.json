@@ -1,0 +1,224 @@
+[
+  {
+    "avatar": "9f15c131697d3c8bab5a3eadd40483ff",
+    "display_name": "justb",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1132195368554426368",
+    "metadata": {
+      "allow_pn": "on",
+      "avatar": "https://sleepercdn.com/uploads/b68e4ce996616af83bbdb2af56e0cdb5.jpg",
+      "mention_pn": "on",
+      "team_name": "JT + Championship Kids "
+    },
+    "settings": null,
+    "user_id": "453735580191158272"
+  },
+  {
+    "avatar": "dd6928a9b380502def30e6b9dc3c22df",
+    "display_name": "Dpon17",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1132195368554426368",
+    "metadata": {
+      "allow_pn": "off",
+      "archived": "on",
+      "league_report_pn": "on",
+      "mascot_message": "on",
+      "mention_pn": "on",
+      "player_like_pn": "on",
+      "player_nickname_update": "on",
+      "team_name": "BullSheets",
+      "team_name_update": "on",
+      "trade_block_pn": "on",
+      "transaction_commissioner": "on",
+      "transaction_free_agent": "on",
+      "transaction_trade": "on",
+      "transaction_waiver": "on",
+      "user_message_pn": "on"
+    },
+    "settings": null,
+    "user_id": "460973541542588416"
+  },
+  {
+    "avatar": "c07c11b1a1606ff8842fd04c883c848d",
+    "display_name": "Kevyho",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1132195368554426368",
+    "metadata": {
+      "allow_pn": "on",
+      "archived": "on",
+      "mention_pn": "on",
+      "team_name": "Like A Good Nabers"
+    },
+    "settings": null,
+    "user_id": "468968222180241408"
+  },
+  {
+    "avatar": "3eb94c7711c7e1384944af27d1444bab",
+    "display_name": "GodBodWrath",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1132195368554426368",
+    "metadata": {
+      "allow_pn": "on",
+      "archived": "on",
+      "league_report_pn": "on",
+      "mascot_message": "on",
+      "mention_pn": "on",
+      "player_like_pn": "on",
+      "player_nickname_update": "off",
+      "team_name": "Hawk-Tua",
+      "team_name_update": "off",
+      "trade_block_pn": "on",
+      "transaction_commissioner": "on",
+      "transaction_free_agent": "off",
+      "transaction_trade": "off",
+      "transaction_waiver": "off",
+      "user_message_pn": "on"
+    },
+    "settings": null,
+    "user_id": "472946525501124608"
+  },
+  {
+    "avatar": "2ade3b6858e37b3f22f212ff776608be",
+    "display_name": "calsmith19",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1132195368554426368",
+    "metadata": {
+      "allow_pn": "on",
+      "allow_sms": "on",
+      "archived": "off",
+      "mention_pn": "on",
+      "team_name": "Puka Punch"
+    },
+    "settings": null,
+    "user_id": "483159398663843840"
+  },
+  {
+    "avatar": "5d122e9b9b4da24fcc25d5b99becdaba",
+    "display_name": "bgamrhein96",
+    "is_bot": false,
+    "is_owner": true,
+    "league_id": "1132195368554426368",
+    "metadata": {
+      "allow_pn": "on",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "609259721697849344"
+  },
+  {
+    "avatar": "4b5091c6fbc721c20e788ec11b68c43e",
+    "display_name": "HiThar",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1132195368554426368",
+    "metadata": {
+      "allow_pn": "on",
+      "archived": "off",
+      "mention_pn": "on",
+      "team_name": "🔵Crystal Ball Enjoyer"
+    },
+    "settings": null,
+    "user_id": "609261979873390592"
+  },
+  {
+    "avatar": "1085664abdee0d401ca9f342cd470894",
+    "display_name": "crmulli",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1132195368554426368",
+    "metadata": {
+      "allow_pn": "on",
+      "archived": "off",
+      "avatar": "https://sleepercdn.com/uploads/0137ed512608e56df432742fe7f55f06",
+      "mention_pn": "on",
+      "team_name": "Prayer Yards"
+    },
+    "settings": null,
+    "user_id": "728360396414668800"
+  },
+  {
+    "avatar": "f0edbf4278f53f9425db175073df6584",
+    "display_name": "worw1z",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1132195368554426368",
+    "metadata": {
+      "allow_pn": "on",
+      "allow_sms": "on",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "788180653253484544"
+  },
+  {
+    "avatar": "b3338675f635c2c1f42b469621d38ec6",
+    "display_name": "Tmo8888",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1132195368554426368",
+    "metadata": {
+      "allow_pn": "on",
+      "mention_pn": "on",
+      "team_name": "Widdle Waddle onaTDRpwo"
+    },
+    "settings": null,
+    "user_id": "996981958280343552"
+  },
+  {
+    "avatar": "20da6b8700ca93570cf4172b73c0c8c5",
+    "display_name": "Clawson10",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1132195368554426368",
+    "metadata": {
+      "allow_pn": "on",
+      "archived": "on",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "1026575952140234752"
+  },
+  {
+    "avatar": "8eb8f8bf999945d523f2c4033f70473e",
+    "display_name": "shmunkk",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1132195368554426368",
+    "metadata": {
+      "allow_pn": "on",
+      "archived": "on",
+      "league_report_pn": "on",
+      "mascot_message": "on",
+      "mention_pn": "on",
+      "player_like_pn": "on",
+      "player_nickname_update": "on",
+      "team_name_update": "on",
+      "trade_block_pn": "on",
+      "transaction_commissioner": "on",
+      "transaction_free_agent": "on",
+      "transaction_trade": "on",
+      "transaction_waiver": "on",
+      "user_message_pn": "on"
+    },
+    "settings": null,
+    "user_id": "1132443306450939904"
+  },
+  {
+    "avatar": "15d7cf259bc30eab8f6120f45f652fb6",
+    "display_name": "DJSammyWammy",
+    "is_bot": false,
+    "is_owner": false,
+    "league_id": "1132195368554426368",
+    "metadata": {
+      "allow_pn": "on",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "1137923198585126912"
+  }
+]

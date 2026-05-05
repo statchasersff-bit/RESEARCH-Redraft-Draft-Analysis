@@ -1,0 +1,185 @@
+[
+  {
+    "avatar": "1afaa621c614595d7c97a4927d427b55",
+    "display_name": "irvin2011",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1136702964506402816",
+    "metadata": {
+      "allow_pn": "on",
+      "mention_pn": "on",
+      "team_name": "Forced2Join"
+    },
+    "settings": null,
+    "user_id": "301583889023897600"
+  },
+  {
+    "avatar": "3ee5f7b7a644982bed18732be858debb",
+    "display_name": "cloud9formation",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1136702964506402816",
+    "metadata": {
+      "allow_pn": "off",
+      "allow_sms": "on",
+      "archived": "on",
+      "league_report_pn": "off",
+      "mascot_message": "off",
+      "mention_pn": "on",
+      "player_like_pn": "off",
+      "player_nickname_update": "off",
+      "team_name": "A Dance with Dakons",
+      "team_name_update": "off",
+      "trade_block_pn": "off",
+      "transaction_commissioner": "on",
+      "transaction_free_agent": "off",
+      "transaction_trade": "off",
+      "transaction_waiver": "off",
+      "user_message_pn": "on"
+    },
+    "settings": null,
+    "user_id": "402282780597174272"
+  },
+  {
+    "avatar": "dcd82e77c5979d54c39d9e975a679be0",
+    "display_name": "DazedNapKing",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1136702964506402816",
+    "metadata": {
+      "allow_pn": "off",
+      "archived": "on",
+      "avatar": "https://sleepercdn.com/uploads/180b1993f654a661dc87091948add9b2",
+      "league_report_pn": "off",
+      "mascot_message": "off",
+      "mention_pn": "off",
+      "player_like_pn": "off",
+      "player_nickname_update": "off",
+      "team_name": "Decaf Metcalf",
+      "team_name_update": "off",
+      "trade_block_pn": "off",
+      "transaction_commissioner": "off",
+      "transaction_free_agent": "off",
+      "transaction_trade": "off",
+      "transaction_waiver": "off",
+      "user_message_pn": "off"
+    },
+    "settings": null,
+    "user_id": "474349953167126528"
+  },
+  {
+    "avatar": "320f9195b391718105e27b8cc9d40277",
+    "display_name": "richsfballteam",
+    "is_bot": false,
+    "is_owner": true,
+    "league_id": "1136702964506402816",
+    "metadata": {
+      "allow_pn": "on",
+      "avatar": "https://sleepercdn.com/uploads/590210015554e0528770d055a66b060d.jpg",
+      "mention_pn": "on",
+      "team_name": "OnlyPhins"
+    },
+    "settings": null,
+    "user_id": "591820230481727488"
+  },
+  {
+    "avatar": "df6c7308cd1dd092858563c5ca7711dd",
+    "display_name": "L3GITBrennon22",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1136702964506402816",
+    "metadata": {
+      "allow_pn": "on",
+      "archived": "on",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "734246557238571008"
+  },
+  {
+    "avatar": "4f4090e5e9c3941414db40a871e3e909",
+    "display_name": "HowBoutDemBois1995",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1136702964506402816",
+    "metadata": {
+      "allow_pn": "on",
+      "mention_pn": "on",
+      "team_name": "Worthy Younghoe"
+    },
+    "settings": null,
+    "user_id": "734507608832081920"
+  },
+  {
+    "avatar": "78fd14846ef602c67713c2ea00d6af7b",
+    "display_name": "HeirJordans",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1136702964506402816",
+    "metadata": {
+      "allow_pn": "on",
+      "archived": "on",
+      "avatar": "https://sleepercdn.com/uploads/0724c891d8a5e88fc6a371bbdbc901f2",
+      "mention_pn": "on",
+      "team_name": "Bed Bath & Bijan"
+    },
+    "settings": null,
+    "user_id": "854785777429753856"
+  },
+  {
+    "avatar": "b31fdc3583abe7b070b5fe1124a54de1",
+    "display_name": "iEatBuckeyes",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1136702964506402816",
+    "metadata": {
+      "allow_pn": "on",
+      "allow_sms": "on",
+      "avatar": "https://sleepercdn.com/uploads/fb5390a28e51dd88042bca27e6eb250d.jpg",
+      "mention_pn": "on",
+      "team_name": "2008 Detroit Lions "
+    },
+    "settings": null,
+    "user_id": "901113602575134720"
+  },
+  {
+    "avatar": "9c3b32755b6593d3c2382f05650eff0e",
+    "display_name": "supersox50",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1136702964506402816",
+    "metadata": {
+      "allow_pn": "off",
+      "avatar": "https://sleepercdn.com/uploads/d9c78fe0830f19909fe115b3e19260b6",
+      "league_report_pn": "on",
+      "mascot_message": "on",
+      "mention_pn": "on",
+      "player_like_pn": "on",
+      "player_nickname_update": "on",
+      "team_name": "Horde of Valhalla ",
+      "team_name_update": "on",
+      "trade_block_pn": "on",
+      "transaction_commissioner": "on",
+      "transaction_free_agent": "on",
+      "transaction_trade": "on",
+      "transaction_waiver": "on",
+      "user_message_pn": "on"
+    },
+    "settings": null,
+    "user_id": "1132816014535917568"
+  },
+  {
+    "avatar": "82aec8e811b839b8ec25d7b458afd57b",
+    "display_name": "Woody363",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1136702964506402816",
+    "metadata": {
+      "allow_pn": "on",
+      "mention_pn": "on",
+      "team_name": "Breece’s Pieces"
+    },
+    "settings": null,
+    "user_id": "1136739417051287552"
+  }
+]

@@ -1,0 +1,180 @@
+[
+  {
+    "avatar": "nfl_det",
+    "display_name": "greekdawg",
+    "is_bot": null,
+    "is_owner": null,
+    "league_id": "1122843478561476608",
+    "metadata": {
+      "allow_pn": "on",
+      "archived": "on",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "100908832284622848"
+  },
+  {
+    "avatar": "6f925123e8c7894bf1cddb0e21a9ae71",
+    "display_name": "cajunbutter",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1122843478561476608",
+    "metadata": {
+      "allow_pn": "on",
+      "archived": "on",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "338752368340393984"
+  },
+  {
+    "avatar": "eca7b148fd6e607c0c9dbde3c6643c38",
+    "display_name": "Bigjf",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1122843478561476608",
+    "metadata": {
+      "allow_pn": "on",
+      "archived": "on",
+      "mention_pn": "on",
+      "team_name": "Soul Glo"
+    },
+    "settings": null,
+    "user_id": "605917079266226176"
+  },
+  {
+    "avatar": "20cd4c6cc441bf3d46cb8b5738470242",
+    "display_name": "fantasysuicidee",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1122843478561476608",
+    "metadata": {
+      "allow_pn": "on",
+      "archived": "on",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "715623704297562112"
+  },
+  {
+    "avatar": "2687735b4cbd9e6beea3cabe0d57cb4f",
+    "display_name": "Mdavis212",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1122843478561476608",
+    "metadata": {
+      "allow_pn": "on",
+      "archived": "on",
+      "mention_pn": "on",
+      "team_name": "Inked in Tud"
+    },
+    "settings": null,
+    "user_id": "717896443842588672"
+  },
+  {
+    "avatar": "10b3f27d9f94b36d502ad4590d8aac50",
+    "display_name": "brandonnn208",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1122843478561476608",
+    "metadata": {
+      "allow_pn": "on",
+      "archived": "off",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "724328705224179712"
+  },
+  {
+    "avatar": "5bca0ace4721da0caaa8d2d92fce222c",
+    "display_name": "MGK1311",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1122843478561476608",
+    "metadata": {
+      "allow_pn": "on",
+      "archived": "on",
+      "avatar": "https://sleepercdn.com/uploads/e8d57a0e36c3fb90fce736ae7ef0b97b.jpg",
+      "mention_pn": "on",
+      "team_name": "$100"
+    },
+    "settings": null,
+    "user_id": "731974524387622912"
+  },
+  {
+    "avatar": "00dde01c84a96f750d46b6cc51ec540d",
+    "display_name": "WinnerCircle13",
+    "is_bot": false,
+    "is_owner": true,
+    "league_id": "1122843478561476608",
+    "metadata": {
+      "allow_pn": "on",
+      "archived": "on",
+      "avatar": "https://sleepercdn.com/uploads/8321208dd18406dce7dadd91e174e2b0.jpg",
+      "mention_pn": "on",
+      "team_name": "Loud and Stroud"
+    },
+    "settings": null,
+    "user_id": "732004539489714176"
+  },
+  {
+    "avatar": "4ca70aab4d69d5922348481b214c649e",
+    "display_name": "llerwick",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1122843478561476608",
+    "metadata": {
+      "allow_pn": "on",
+      "archived": "on",
+      "avatar": "https://sleepercdn.com/uploads/f07bcbd6463b479f292b9250c4b1d7fb.jpg",
+      "mention_pn": "on",
+      "team_name": "The Goffather"
+    },
+    "settings": null,
+    "user_id": "737046516736352256"
+  },
+  {
+    "avatar": "51b001f8903a9584becda29364a7a2c0",
+    "display_name": "TheWitxhingHour",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1122843478561476608",
+    "metadata": {
+      "allow_pn": "on",
+      "archived": "on",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "862203451944312832"
+  },
+  {
+    "avatar": "4d531426ebc73bf4c4a02fbb367ea225",
+    "display_name": "jimbo1964",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1122843478561476608",
+    "metadata": {
+      "allow_pn": "on",
+      "archived": "on",
+      "avatar": "https://sleepercdn.com/uploads/14e10bd7c4a8405e3a18612e49e5868e",
+      "mention_pn": "on",
+      "team_name": "Dumpster Fire"
+    },
+    "settings": null,
+    "user_id": "956962521917800448"
+  },
+  {
+    "avatar": "bb16a7a17ecff55823bc472a1fdc1b56",
+    "display_name": "Kanpai",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1122843478561476608",
+    "metadata": {
+      "allow_pn": "on",
+      "archived": "on",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "997001957258612736"
+  }
+]

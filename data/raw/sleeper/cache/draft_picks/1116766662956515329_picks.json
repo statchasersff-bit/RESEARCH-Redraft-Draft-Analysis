@@ -1,0 +1,80 @@
+[
+  {
+    "draft_id": "1116766662956515329",
+    "draft_slot": 1,
+    "is_keeper": null,
+    "metadata": {
+      "first_name": "Christian",
+      "injury_status": "Questionable",
+      "last_name": "McCaffrey",
+      "news_updated": "1724194825805",
+      "number": "23",
+      "player_id": "4034",
+      "position": "RB",
+      "sport": "nfl",
+      "status": "Active",
+      "team": "SF",
+      "team_abbr": "",
+      "team_changed_at": "",
+      "years_exp": "7"
+    },
+    "pick_no": 1,
+    "picked_by": "601131995770175488",
+    "player_id": "4034",
+    "reactions": null,
+    "roster_id": 1,
+    "round": 1
+  },
+  {
+    "draft_id": "1116766662956515329",
+    "draft_slot": 2,
+    "is_keeper": null,
+    "metadata": {
+      "first_name": "Tyreek",
+      "injury_status": "Questionable",
+      "last_name": "Hill",
+      "news_updated": "1724260531905",
+      "number": "10",
+      "player_id": "3321",
+      "position": "WR",
+      "sport": "nfl",
+      "status": "Active",
+      "team": "MIA",
+      "team_abbr": "",
+      "team_changed_at": "",
+      "years_exp": "8"
+    },
+    "pick_no": 2,
+    "picked_by": "461973392430460928",
+    "player_id": "3321",
+    "reactions": null,
+    "roster_id": 2,
+    "round": 1
+  },
+  {
+    "draft_id": "1116766662956515329",
+    "draft_slot": 3,
+    "is_keeper": null,
+    "metadata": {
+      "first_name": "Jonathan",
+      "injury_status": "",
+      "last_name": "Taylor",
+      "news_updated": "1724425806898",
+      "number": "28",
+      "player_id": "6813",
+      "position": "RB",
+      "sport": "nfl",
+      "status": "Active",
+      "team": "IND",
+      "team_abbr": "",
+      "team_changed_at": "",
+      "years_exp": "4"
+    },
+    "pick_no": 3,
+    "picked_by": "601450069664784384",
+    "player_id": "6813",
+    "reactions": null,
+    "roster_id": 3,
+    "round": 1
+  }
+]

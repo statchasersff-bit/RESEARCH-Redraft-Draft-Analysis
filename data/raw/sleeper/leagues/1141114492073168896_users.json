@@ -1,0 +1,187 @@
+[
+  {
+    "avatar": "0550b96c9a2d03f5c0f0ade1e850047b",
+    "display_name": "Tfoskey3",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1141114492073168896",
+    "metadata": {
+      "allow_pn": "on",
+      "allow_sms": "on",
+      "archived": "on",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "467369926768717824"
+  },
+  {
+    "avatar": "1d5722b1429bebb7a3f905e1ee2d3782",
+    "display_name": "jmizz",
+    "is_bot": false,
+    "is_owner": true,
+    "league_id": "1141114492073168896",
+    "metadata": {
+      "allow_pn": "on",
+      "archived": "off",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "503221693381079040"
+  },
+  {
+    "avatar": "be0732cd438be473804189b8821c52c2",
+    "display_name": "MizzleLizzo",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1141114492073168896",
+    "metadata": {
+      "allow_pn": "on",
+      "archived": "on",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "979610977693908992"
+  },
+  {
+    "avatar": "15d7cf259bc30eab8f6120f45f652fb6",
+    "display_name": "Jorry",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1141114492073168896",
+    "metadata": {
+      "allow_pn": "on",
+      "archived": "on",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "993580599556325376"
+  },
+  {
+    "avatar": "b319fdf8b7b5b0359d3c78622ba4d70c",
+    "display_name": "21Finn",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1141114492073168896",
+    "metadata": {
+      "allow_pn": "on",
+      "archived": "on",
+      "mention_pn": "on",
+      "team_name": "Watsons Masseuse"
+    },
+    "settings": null,
+    "user_id": "996110678605926400"
+  },
+  {
+    "avatar": "637bfea53334a57204c9495314627dd5",
+    "display_name": "Artii",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1141114492073168896",
+    "metadata": {
+      "allow_pn": "on",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "1000859531171192832"
+  },
+  {
+    "avatar": "f0edbf4278f53f9425db175073df6584",
+    "display_name": "BigDustyDollaz",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1141114492073168896",
+    "metadata": {
+      "allow_pn": "on",
+      "archived": "off",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "1002764010640580608"
+  },
+  {
+    "avatar": "9e41f64966a17bd56f026ae0fca6d7bd",
+    "display_name": "charlie20006",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1141114492073168896",
+    "metadata": {
+      "allow_pn": "on",
+      "archived": "on",
+      "mention_pn": "on",
+      "team_name": "hawk tua and the boys!"
+    },
+    "settings": null,
+    "user_id": "1081925681157644288"
+  },
+  {
+    "avatar": "e2b0e6406ecfe45fd6e4baaf9fc59c59",
+    "display_name": "MakItRain",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1141114492073168896",
+    "metadata": {
+      "allow_pn": "off",
+      "allow_sms": "on",
+      "archived": "on",
+      "league_report_pn": "off",
+      "mascot_message": "off",
+      "mention_pn": "on",
+      "player_like_pn": "on",
+      "player_nickname_update": "off",
+      "team_name_update": "off",
+      "trade_block_pn": "off",
+      "transaction_commissioner": "off",
+      "transaction_free_agent": "off",
+      "transaction_trade": "off",
+      "transaction_waiver": "off",
+      "user_message_pn": "off"
+    },
+    "settings": null,
+    "user_id": "1126320389791096832"
+  },
+  {
+    "avatar": "d0669e042be834873c30072ad48b32c4",
+    "display_name": "slowgr",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1141114492073168896",
+    "metadata": {
+      "allow_pn": "on",
+      "archived": "on",
+      "mention_pn": "on",
+      "team_name": "Notre Name"
+    },
+    "settings": null,
+    "user_id": "1132151390861717504"
+  },
+  {
+    "avatar": "e7af4deab0289b4f5505646424895246",
+    "display_name": "JMMQ80",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1141114492073168896",
+    "metadata": {
+      "allow_pn": "on",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "1140691616898998272"
+  },
+  {
+    "avatar": "43e42cacdfeb5b010eefa0f63d3689f0",
+    "display_name": "karlramen",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1141114492073168896",
+    "metadata": {
+      "allow_pn": "on",
+      "allow_sms": "on",
+      "archived": "on",
+      "avatar": "https://sleepercdn.com/uploads/4b08caabcfd5aae8e144a35f7b2aa4d6.jpg",
+      "mention_pn": "on",
+      "team_name": "Ichiraku’s RaMen"
+    },
+    "settings": null,
+    "user_id": "1142173959253807104"
+  }
+]

@@ -1,0 +1,147 @@
+[
+  {
+    "avatar": "544f27313d9ae8746feab0afb762521f",
+    "display_name": "AndrewF3",
+    "is_bot": false,
+    "is_owner": true,
+    "league_id": "1126483487709569024",
+    "metadata": {
+      "allow_pn": "on",
+      "archived": "off",
+      "avatar": "https://sleepercdn.com/uploads/aae8bbd90649289dbb68027e3522b763.jpg",
+      "mention_pn": "on",
+      "team_name": "Chasein’ Griddys"
+    },
+    "settings": null,
+    "user_id": "485839319777406976"
+  },
+  {
+    "avatar": "da13df8f4b8f9bc9a99adc5b08fd6fbb",
+    "display_name": "shimes",
+    "is_bot": false,
+    "is_owner": false,
+    "league_id": "1126483487709569024",
+    "metadata": {
+      "allow_pn": "on",
+      "archived": "off",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "655887107738390528"
+  },
+  {
+    "avatar": "52e4a6556b42272e41eb86c88ccc1014",
+    "display_name": "Badorder00",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1126483487709569024",
+    "metadata": {
+      "allow_pn": "on",
+      "archived": "off",
+      "mention_pn": "on",
+      "team_name": "If she's Purdy you Dicker"
+    },
+    "settings": null,
+    "user_id": "726206101225324544"
+  },
+  {
+    "avatar": "cc50911420296feb89f96a588c7f2de0",
+    "display_name": "JDubTheScrub",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1126483487709569024",
+    "metadata": {
+      "allow_pn": "on",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "733398260856823808"
+  },
+  {
+    "avatar": "dc12c8ccc6e9c0d3e5a94a3e6942857b",
+    "display_name": "JU5TINCA5E",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1126483487709569024",
+    "metadata": {
+      "allow_pn": "on",
+      "allow_sms": "on",
+      "archived": "off",
+      "mention_pn": "on",
+      "team_name": "JU5TINCA5E"
+    },
+    "settings": null,
+    "user_id": "866736336370044928"
+  },
+  {
+    "avatar": "e7af4deab0289b4f5505646424895246",
+    "display_name": "JWA90TB12",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1126483487709569024",
+    "metadata": {
+      "allow_pn": "on",
+      "allow_sms": "on",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "871853354442215424"
+  },
+  {
+    "avatar": "67e801e887caf122f66d1dbd7bb06137",
+    "display_name": "alohamade",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1126483487709569024",
+    "metadata": {
+      "allow_pn": "on",
+      "archived": "off",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "875476474419912704"
+  },
+  {
+    "avatar": "c8dff3c65d3a4e06c45296c8f89250d6",
+    "display_name": "Poe82",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1126483487709569024",
+    "metadata": {
+      "allow_pn": "on",
+      "allow_sms": "on",
+      "avatar": "https://sleepercdn.com/uploads/43b20c02420fad9e07b099fb63a17a2b.jpg",
+      "mention_pn": "on",
+      "team_name": "MOTORCITY MADNESS "
+    },
+    "settings": null,
+    "user_id": "916123786330791936"
+  },
+  {
+    "avatar": "f0edbf4278f53f9425db175073df6584",
+    "display_name": "ELBark",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1126483487709569024",
+    "metadata": {
+      "allow_pn": "on",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "999790185149792256"
+  },
+  {
+    "avatar": "b3338675f635c2c1f42b469621d38ec6",
+    "display_name": "BILLpenn44",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1126483487709569024",
+    "metadata": {
+      "allow_pn": "on",
+      "mention_pn": "on",
+      "team_name": "B & B Express 25"
+    },
+    "settings": null,
+    "user_id": "1015869770585624576"
+  }
+]

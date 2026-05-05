@@ -1,0 +1,166 @@
+[
+  {
+    "avatar": "nfl_det",
+    "display_name": "greekdawg",
+    "is_bot": null,
+    "is_owner": null,
+    "league_id": "1136148083673243648",
+    "metadata": {
+      "allow_pn": "on",
+      "archived": "on",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "100908832284622848"
+  },
+  {
+    "avatar": "07ed7dee20166708d8ed8c5136e6f0ff",
+    "display_name": "Spata4",
+    "is_bot": false,
+    "is_owner": true,
+    "league_id": "1136148083673243648",
+    "metadata": {
+      "allow_pn": "on",
+      "archived": "off",
+      "mascot_message": "off",
+      "mention_pn": "on",
+      "player_like_pn": "off",
+      "player_nickname_update": "off",
+      "team_name_update": "off",
+      "trade_block_pn": "off",
+      "transaction_commissioner": "on",
+      "transaction_free_agent": "off",
+      "transaction_trade": "on",
+      "transaction_waiver": "off",
+      "user_message_pn": "on"
+    },
+    "settings": null,
+    "user_id": "428073331598557184"
+  },
+  {
+    "avatar": "f0bfadbbef4290f469cd3049581110e6",
+    "display_name": "JoiningSession91",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1136148083673243648",
+    "metadata": {
+      "allow_pn": "on",
+      "archived": "on",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "443484130961780736"
+  },
+  {
+    "avatar": "163c1af9425830b9c3c1288eda6ce8e6",
+    "display_name": "jdhamm85",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1136148083673243648",
+    "metadata": {
+      "allow_pn": "on",
+      "archived": "on",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "465277313328607232"
+  },
+  {
+    "avatar": "1413467bf47fbffdd728b6fd2283e1c9",
+    "display_name": "BenP2323",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1136148083673243648",
+    "metadata": {
+      "allow_pn": "off",
+      "archived": "on",
+      "league_report_pn": "off",
+      "mascot_message": "off",
+      "mention_pn": "on",
+      "player_like_pn": "on",
+      "player_nickname_update": "off",
+      "team_name_update": "off",
+      "trade_block_pn": "on",
+      "transaction_commissioner": "on",
+      "transaction_free_agent": "on",
+      "transaction_trade": "on",
+      "transaction_waiver": "on",
+      "user_message_pn": "on"
+    },
+    "settings": null,
+    "user_id": "479797975938232320"
+  },
+  {
+    "avatar": "eca7b148fd6e607c0c9dbde3c6643c38",
+    "display_name": "Bigjf",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1136148083673243648",
+    "metadata": {
+      "allow_pn": "on",
+      "archived": "on",
+      "mention_pn": "on",
+      "team_name": "Soul Glo"
+    },
+    "settings": null,
+    "user_id": "605917079266226176"
+  },
+  {
+    "avatar": "b508be66c1960345f170dc406b93d599",
+    "display_name": "jblood713",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1136148083673243648",
+    "metadata": {
+      "allow_pn": "on",
+      "archived": "on",
+      "mention_pn": "on",
+      "team_name": "A Team Has No Name"
+    },
+    "settings": null,
+    "user_id": "646816314651906048"
+  },
+  {
+    "avatar": "b3338675f635c2c1f42b469621d38ec6",
+    "display_name": "ryandevos",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1136148083673243648",
+    "metadata": {
+      "allow_pn": "on",
+      "mention_pn": "on",
+      "team_name": "I Took Jbloods Spot"
+    },
+    "settings": null,
+    "user_id": "852322563102220288"
+  },
+  {
+    "avatar": "e7af4deab0289b4f5505646424895246",
+    "display_name": "WokinSplikak",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1136148083673243648",
+    "metadata": {
+      "allow_pn": "on",
+      "archived": "on",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "867087370879627264"
+  },
+  {
+    "avatar": "7426e61de7dd26533fd43ad94205381b",
+    "display_name": "SandyManCan41",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1136148083673243648",
+    "metadata": {
+      "allow_pn": "on",
+      "archived": "on",
+      "mention_pn": "on",
+      "team_name": "Brown Cubed"
+    },
+    "settings": null,
+    "user_id": "872501484854644736"
+  }
+]

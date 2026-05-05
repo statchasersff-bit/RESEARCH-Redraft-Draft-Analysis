@@ -1,0 +1,132 @@
+[
+  {
+    "avatar": "6c803d5e85c1a6edc736f68288789a62",
+    "display_name": "EasyMoney161204",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1125514916418465792",
+    "metadata": {
+      "allow_pn": "on",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "653021705702301696"
+  },
+  {
+    "avatar": "5c5331a9f5c02807df251d8380a38f09",
+    "display_name": "Fantasywiz1200",
+    "is_bot": false,
+    "is_owner": true,
+    "league_id": "1125514916418465792",
+    "metadata": {
+      "allow_pn": "on",
+      "archived": "on",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "710332074363523072"
+  },
+  {
+    "avatar": "f9be6da7f997afe9866aeab59c188b05",
+    "display_name": "keyanritz",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1125514916418465792",
+    "metadata": {
+      "allow_pn": "on",
+      "archived": "on",
+      "avatar": "https://sleepercdn.com/uploads/fa4e9d2031d05374207a1b6680301b7b.jpg",
+      "mention_pn": "on",
+      "team_name": "Alvin and the Ship Munks"
+    },
+    "settings": null,
+    "user_id": "814574823576580096"
+  },
+  {
+    "avatar": "c9ce5d854c1c026e6cd7ecb9458c00e5",
+    "display_name": "Rymas",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1125514916418465792",
+    "metadata": {
+      "allow_pn": "on",
+      "allow_sms": "on",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "862831080904970240"
+  },
+  {
+    "avatar": "8eb8f8bf999945d523f2c4033f70473e",
+    "display_name": "Jimmer7914",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1125514916418465792",
+    "metadata": {
+      "allow_pn": "on",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "874501040333021184"
+  },
+  {
+    "avatar": "835e5a207d7713303a81488b5cd89059",
+    "display_name": "roduh",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1125514916418465792",
+    "metadata": {
+      "allow_pn": "on",
+      "archived": "on",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "926390067055185920"
+  },
+  {
+    "avatar": "b319fdf8b7b5b0359d3c78622ba4d70c",
+    "display_name": "DerekPermenter",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1125514916418465792",
+    "metadata": {
+      "allow_pn": "on",
+      "archived": "on",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "998727732475420672"
+  },
+  {
+    "avatar": "f4777b146ddb2cb2fe62c7d79fc44c11",
+    "display_name": "Hurts1ofU",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1125514916418465792",
+    "metadata": {
+      "allow_pn": "on",
+      "archived": "on",
+      "avatar": "https://sleepercdn.com/uploads/c3d051d050574c07d9540265585802d5.jpg",
+      "mention_pn": "on",
+      "team_name": "Dak is Back"
+    },
+    "settings": null,
+    "user_id": "1104915662021033984"
+  },
+  {
+    "avatar": "3cf231b3af5caa8c6b14121f8166b6e8",
+    "display_name": "Drealbling",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1125514916418465792",
+    "metadata": {
+      "allow_pn": "on",
+      "archived": "on",
+      "avatar": "https://sleepercdn.com/uploads/a82c9d81d518e9ad6b8abf4cded14569.jpg",
+      "mention_pn": "on",
+      "team_name": "NFC Beast"
+    },
+    "settings": null,
+    "user_id": "1105958740353818624"
+  }
+]

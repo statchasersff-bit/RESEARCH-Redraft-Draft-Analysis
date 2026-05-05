@@ -1,0 +1,51 @@
+[
+  {
+    "created": 1723486529640,
+    "creators": [
+      "875588512811036672"
+    ],
+    "draft_id": "1128787955180482560",
+    "draft_order": {
+      "1001222184733372416": 4,
+      "1003514862934253568": 2,
+      "1124346386356576256": 6,
+      "1128781999981858816": 1,
+      "1129160774443765760": 5,
+      "1129446297121021952": 3,
+      "513569730877472768": 10,
+      "601810081905975296": 9,
+      "875588512811036672": 7,
+      "986123506301616128": 8
+    },
+    "last_message_id": "1131078627161804800",
+    "last_message_time": 1724032668441,
+    "last_picked": 1724032667876,
+    "league_id": "1128787950080339968",
+    "metadata": {
+      "description": "",
+      "name": "TDS",
+      "scoring_type": "ppr"
+    },
+    "season": "2024",
+    "season_type": "regular",
+    "settings": {
+      "autostart": 0,
+      "cpu_autopick": 1,
+      "pick_timer": 120,
+      "rounds": 15,
+      "slots_bn": 5,
+      "slots_def": 1,
+      "slots_flex": 2,
+      "slots_k": 1,
+      "slots_qb": 1,
+      "slots_rb": 2,
+      "slots_te": 1,
+      "slots_wr": 2,
+      "teams": 10
+    },
+    "sport": "nfl",
+    "start_time": 1724029296884,
+    "status": "complete",
+    "type": "snake"
+  }
+]

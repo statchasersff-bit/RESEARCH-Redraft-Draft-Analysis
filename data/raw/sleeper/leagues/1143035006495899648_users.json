@@ -1,0 +1,137 @@
+[
+  {
+    "avatar": "2a24772cf53153ff90b715c0d5ca8891",
+    "display_name": "mkdbw",
+    "is_bot": false,
+    "is_owner": false,
+    "league_id": "1143035006495899648",
+    "metadata": {
+      "allow_pn": "on",
+      "archived": "off",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "655296889310232576"
+  },
+  {
+    "avatar": "540ab58172a6ed2b8650923c527d8f7b",
+    "display_name": "ItzBdawg",
+    "is_bot": false,
+    "is_owner": false,
+    "league_id": "1143035006495899648",
+    "metadata": {
+      "allow_pn": "on",
+      "archived": "on",
+      "mention_pn": "on",
+      "team_name": "BdawgGotcha"
+    },
+    "settings": null,
+    "user_id": "855227062615658496"
+  },
+  {
+    "avatar": "7440848aaa722e38815a3e70e0423723",
+    "display_name": "rayrayballer",
+    "is_bot": false,
+    "is_owner": false,
+    "league_id": "1143035006495899648",
+    "metadata": {
+      "allow_pn": "on",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "979827664603189248"
+  },
+  {
+    "avatar": "ac85a7d5e34a21553b15a46962a8cfea",
+    "display_name": "arioni2",
+    "is_bot": false,
+    "is_owner": false,
+    "league_id": "1143035006495899648",
+    "metadata": {
+      "allow_pn": "on",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "1036771475153330176"
+  },
+  {
+    "avatar": "b76b72b19892b0524790619fd4eb027a",
+    "display_name": "IHEAT",
+    "is_bot": false,
+    "is_owner": false,
+    "league_id": "1143035006495899648",
+    "metadata": {
+      "allow_pn": "on",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "1038685520299782144"
+  },
+  {
+    "avatar": "c7601f667f04b29a3c4324e4f2fb1865",
+    "display_name": "JBLinde",
+    "is_bot": false,
+    "is_owner": false,
+    "league_id": "1143035006495899648",
+    "metadata": {
+      "allow_pn": "on",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "1049887809152450560"
+  },
+  {
+    "avatar": "1710e7f73b21a6eeea32a453c1e6f048",
+    "display_name": "FantasyLife131",
+    "is_bot": false,
+    "is_owner": false,
+    "league_id": "1143035006495899648",
+    "metadata": {
+      "allow_pn": "on",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "1060729036609024000"
+  },
+  {
+    "avatar": "b2f5acf7946bf19267175bbf7be9f8c1",
+    "display_name": "zataheri",
+    "is_bot": false,
+    "is_owner": false,
+    "league_id": "1143035006495899648",
+    "metadata": {
+      "allow_pn": "on",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "1101226700458819584"
+  },
+  {
+    "avatar": "4a9e69a6b16e30fe34aaad88aeb0045d",
+    "display_name": "jesssaaa",
+    "is_bot": false,
+    "is_owner": true,
+    "league_id": "1143035006495899648",
+    "metadata": {
+      "allow_pn": "on",
+      "archived": "on",
+      "mention_pn": "on",
+      "team_name": "Take Mahomes Tonight. "
+    },
+    "settings": null,
+    "user_id": "1133938442456453120"
+  },
+  {
+    "avatar": "3e98f56c666f6c34e6fe8557442dd20a",
+    "display_name": "CourtOrdered",
+    "is_bot": false,
+    "is_owner": false,
+    "league_id": "1143035006495899648",
+    "metadata": {
+      "allow_pn": "on",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "1143063061851635712"
+  }
+]

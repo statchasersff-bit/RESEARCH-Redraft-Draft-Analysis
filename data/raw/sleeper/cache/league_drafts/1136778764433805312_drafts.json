@@ -1,0 +1,60 @@
+[
+  {
+    "created": 1725391687447,
+    "creators": [
+      "1039228955062132736"
+    ],
+    "draft_id": "1136778766073679872",
+    "draft_order": {
+      "1039228955062132736": 6,
+      "1073731417881923584": 11,
+      "464987060344713216": 1,
+      "472677951763116032": 7,
+      "515252627089993728": 3,
+      "680510802616197120": 12,
+      "727744493561929728": 8,
+      "728950493535174656": 2,
+      "740285071164055552": 5,
+      "859885173058150400": 10,
+      "872570478374617088": 4,
+      "979422574289485824": 9
+    },
+    "last_message_id": "1136810386855882752",
+    "last_message_time": 1725399226443,
+    "last_picked": 1725399225222,
+    "league_id": "1136778764433805312",
+    "metadata": {
+      "description": "",
+      "name": "Champagne Dreams",
+      "scoring_type": "ppr"
+    },
+    "season": "2024",
+    "season_type": "regular",
+    "settings": {
+      "alpha_sort": 0,
+      "autopause_enabled": 0,
+      "autopause_end_time": 840,
+      "autopause_start_time": 120,
+      "autostart": 0,
+      "cpu_autopick": 1,
+      "enforce_position_limits": 1,
+      "nomination_timer": 60,
+      "pick_timer": 60,
+      "player_type": 0,
+      "position_limit_qb": 4,
+      "reversal_round": 0,
+      "rounds": 15,
+      "slots_bn": 6,
+      "slots_flex": 2,
+      "slots_qb": 1,
+      "slots_rb": 2,
+      "slots_te": 1,
+      "slots_wr": 3,
+      "teams": 12
+    },
+    "sport": "nfl",
+    "start_time": 1725395467828,
+    "status": "complete",
+    "type": "snake"
+  }
+]

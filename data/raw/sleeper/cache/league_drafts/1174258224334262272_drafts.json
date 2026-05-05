@@ -1,0 +1,56 @@
+[
+  {
+    "created": 1734327487015,
+    "creators": [
+      "576222676650872832",
+      "606975910490492928"
+    ],
+    "draft_id": "1174258225919918080",
+    "draft_order": {
+      "1133938442456453120": 4,
+      "575039810906714112": 10,
+      "576222676650872832": 8,
+      "579426951819743232": 5,
+      "606975910490492928": 2,
+      "609833298662854656": 3,
+      "622224457297121280": 7,
+      "854785777429753856": 6,
+      "965387802735083520": 1,
+      "979610977693908992": 9
+    },
+    "last_message_id": "1175257133516795904",
+    "last_message_time": 1734565645154,
+    "last_picked": 1734565644349,
+    "league_id": "1174258224334262272",
+    "metadata": {
+      "description": "",
+      "name": "Week 16 still 25 bitches",
+      "scoring_type": "ppr"
+    },
+    "season": "2024",
+    "season_type": "regular",
+    "settings": {
+      "alpha_sort": 0,
+      "autopause_enabled": 0,
+      "autopause_end_time": 1080,
+      "autopause_start_time": 360,
+      "autostart": 0,
+      "cpu_autopick": 1,
+      "enforce_position_limits": 1,
+      "nomination_timer": 60,
+      "pick_timer": 600,
+      "player_type": 0,
+      "position_limit_qb": 1,
+      "reversal_round": 0,
+      "rounds": 11,
+      "slots_bn": 1,
+      "slots_flex": 9,
+      "slots_qb": 1,
+      "teams": 10
+    },
+    "sport": "nfl",
+    "start_time": 1734543958685,
+    "status": "complete",
+    "type": "snake"
+  }
+]

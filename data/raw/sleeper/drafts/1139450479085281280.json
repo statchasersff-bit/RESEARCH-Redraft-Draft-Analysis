@@ -1,0 +1,62 @@
+{
+  "created": 1726028673469,
+  "creators": [
+    "1136048611386904576"
+  ],
+  "draft_id": "1139450479085281280",
+  "draft_order": {
+    "1002025827162243072": 7,
+    "1002384186759692288": 1,
+    "1022559910304776192": 2,
+    "1127303796385861632": 3,
+    "1136048611386904576": 5,
+    "1136427238352019456": 6,
+    "1137178013260484608": 9,
+    "1140024867115474944": 10,
+    "473578710906171392": 4,
+    "610976074813677568": 8
+  },
+  "last_message_id": "1140745257819070464",
+  "last_message_time": 1726337372787,
+  "last_picked": 1726337372124,
+  "league_id": "1139450478250655744",
+  "metadata": {
+    "description": "",
+    "name": "Fantasy Zero Buy-in",
+    "scoring_type": "2qb"
+  },
+  "season": "2024",
+  "season_type": "regular",
+  "settings": {
+    "autostart": 0,
+    "cpu_autopick": 1,
+    "pick_timer": 120,
+    "rounds": 16,
+    "slots_bn": 5,
+    "slots_def": 1,
+    "slots_flex": 2,
+    "slots_k": 1,
+    "slots_qb": 1,
+    "slots_rb": 2,
+    "slots_super_flex": 1,
+    "slots_te": 1,
+    "slots_wr": 2,
+    "teams": 10
+  },
+  "slot_to_roster_id": {
+    "1": 8,
+    "2": 10,
+    "3": 2,
+    "4": 3,
+    "5": 1,
+    "6": 4,
+    "7": 5,
+    "8": 9,
+    "9": 7,
+    "10": 6
+  },
+  "sport": "nfl",
+  "start_time": 1726335068234,
+  "status": "complete",
+  "type": "snake"
+}

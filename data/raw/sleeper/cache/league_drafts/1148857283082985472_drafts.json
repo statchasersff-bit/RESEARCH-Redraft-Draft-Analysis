@@ -1,0 +1,42 @@
+[
+  {
+    "created": 1728271430518,
+    "creators": [
+      "1148857119438200832"
+    ],
+    "draft_id": "1148857283951439872",
+    "draft_order": {
+      "1148857119438200832": 7
+    },
+    "last_message_id": "1148860310246330368",
+    "last_message_time": 1728272152056,
+    "last_picked": 1728272151462,
+    "league_id": "1148857283082985472",
+    "metadata": {
+      "description": "",
+      "name": "LEONARDS LOSERS",
+      "scoring_type": "ppr"
+    },
+    "season": "2024",
+    "season_type": "regular",
+    "settings": {
+      "autostart": 0,
+      "cpu_autopick": 1,
+      "pick_timer": 120,
+      "rounds": 15,
+      "slots_bn": 5,
+      "slots_def": 1,
+      "slots_flex": 2,
+      "slots_k": 1,
+      "slots_qb": 1,
+      "slots_rb": 2,
+      "slots_te": 1,
+      "slots_wr": 2,
+      "teams": 10
+    },
+    "sport": "nfl",
+    "start_time": 1728271925926,
+    "status": "complete",
+    "type": "snake"
+  }
+]

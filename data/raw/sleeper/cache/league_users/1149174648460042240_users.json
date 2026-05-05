@@ -1,0 +1,166 @@
+[
+  {
+    "avatar": "18eda3dfd012b5c4d75290ca98e34868",
+    "display_name": "andrewpreston",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1149174648460042240",
+    "metadata": {
+      "allow_pn": "on",
+      "archived": "on",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "468903201886695424"
+  },
+  {
+    "avatar": "56cd96682900ca988af97eefd11924ae",
+    "display_name": "SheaButtaB",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1149174648460042240",
+    "metadata": {
+      "allow_pn": "on",
+      "archived": "on",
+      "avatar": "https://sleepercdn.com/uploads/54369cfdba30b6f57c7c3fbb0bb2921e.jpg",
+      "mention_pn": "on",
+      "team_name": "Toby Obie "
+    },
+    "settings": null,
+    "user_id": "599351185438208000"
+  },
+  {
+    "avatar": "f0edbf4278f53f9425db175073df6584",
+    "display_name": "Firstroundexit1",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1149174648460042240",
+    "metadata": {
+      "allow_pn": "on",
+      "archived": "on",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "739356351364534272"
+  },
+  {
+    "avatar": "e1a68c9c236d9fc841fbf7100f1fda69",
+    "display_name": "RetiredFedDave",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1149174648460042240",
+    "metadata": {
+      "allow_pn": "off",
+      "archived": "on",
+      "league_report_pn": "off",
+      "mascot_message": "off",
+      "mention_pn": "off",
+      "player_like_pn": "on",
+      "player_nickname_update": "off",
+      "team_name_update": "off",
+      "trade_block_pn": "on",
+      "transaction_commissioner": "off",
+      "transaction_free_agent": "on",
+      "transaction_trade": "on",
+      "transaction_waiver": "on",
+      "user_message_pn": "on"
+    },
+    "settings": null,
+    "user_id": "857835167300075520"
+  },
+  {
+    "avatar": "8eb8f8bf999945d523f2c4033f70473e",
+    "display_name": "zachbuster",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1149174648460042240",
+    "metadata": {
+      "allow_pn": "on",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "958250559578906624"
+  },
+  {
+    "avatar": "be0732cd438be473804189b8821c52c2",
+    "display_name": "MizzleLizzo",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1149174648460042240",
+    "metadata": {
+      "allow_pn": "on",
+      "archived": "on",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "979610977693908992"
+  },
+  {
+    "avatar": "e53eb5a56d6da8c72ffc0b05b9199724",
+    "display_name": "1q2w3e0p",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1149174648460042240",
+    "metadata": {
+      "allow_pn": "off",
+      "archived": "on",
+      "league_report_pn": "on",
+      "mascot_message": "on",
+      "mention_pn": "on",
+      "player_like_pn": "on",
+      "player_nickname_update": "on",
+      "team_name_update": "on",
+      "trade_block_pn": "on",
+      "transaction_commissioner": "on",
+      "transaction_free_agent": "on",
+      "transaction_trade": "on",
+      "transaction_waiver": "on",
+      "user_message_pn": "on"
+    },
+    "settings": null,
+    "user_id": "982483033641033728"
+  },
+  {
+    "avatar": "e50fe1ef62e1b412fb41735f0154d7b5",
+    "display_name": "GrittyGrinders",
+    "is_bot": false,
+    "is_owner": true,
+    "league_id": "1149174648460042240",
+    "metadata": {
+      "allow_pn": "on",
+      "allow_sms": "on",
+      "archived": "on",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "1000488762083733504"
+  },
+  {
+    "avatar": "3cbcbd38ac05c97b942af802636d1a5e",
+    "display_name": "OhSheriBayBay",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1149174648460042240",
+    "metadata": {
+      "allow_pn": "on",
+      "archived": "on",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "1050587737226592256"
+  },
+  {
+    "avatar": "b3338675f635c2c1f42b469621d38ec6",
+    "display_name": "jessie-bates-burner",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1149174648460042240",
+    "metadata": {
+      "allow_pn": "on",
+      "archived": "on",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "1133906317728600064"
+  }
+]

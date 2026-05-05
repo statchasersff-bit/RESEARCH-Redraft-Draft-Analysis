@@ -1,0 +1,69 @@
+[
+  {
+    "created": 1729831627934,
+    "creators": [
+      "1082953138937606144"
+    ],
+    "draft_id": "1155401226206740480",
+    "draft_order": {
+      "1009974433227939840": 7,
+      "1082953138937606144": 5,
+      "1133938442456453120": 4,
+      "1137242993162932224": 1,
+      "1151945562519138304": 2,
+      "1151997096535457792": 9,
+      "607685751630540800": 3,
+      "748719071813545984": 8,
+      "870534163529379840": 10,
+      "872632159645786112": 6
+    },
+    "last_message_id": "1155715932669349888",
+    "last_message_time": 1729906659813,
+    "last_picked": 1729906658926,
+    "league_id": "1154867972863938560",
+    "metadata": {
+      "description": "",
+      "highest_offer": "1",
+      "name": "Late Start Fantasy Redraft",
+      "nominated_player_id": "11575",
+      "nominating_slot": "5",
+      "nominating_user_id": "1082953138937606144",
+      "offering_slot": "5",
+      "offering_user_id": "1082953138937606144",
+      "paused_pick_timer": "28",
+      "scoring_type": "ppr"
+    },
+    "season": "2024",
+    "season_type": "regular",
+    "settings": {
+      "afk_rounds_1": 4,
+      "afk_rounds_10": 1,
+      "afk_rounds_5": 8,
+      "afk_rounds_9": 2,
+      "alpha_sort": 0,
+      "autopause_enabled": 0,
+      "autopause_end_time": 900,
+      "autopause_start_time": 180,
+      "autostart": 0,
+      "budget": 200,
+      "cpu_autopick": 1,
+      "enforce_position_limits": 1,
+      "nomination_timer": 10,
+      "pick_timer": 30,
+      "player_type": 0,
+      "reversal_round": 0,
+      "rounds": 15,
+      "slots_bn": 7,
+      "slots_flex": 2,
+      "slots_qb": 1,
+      "slots_rb": 2,
+      "slots_te": 1,
+      "slots_wr": 2,
+      "teams": 10
+    },
+    "sport": "nfl",
+    "start_time": 1729899149725,
+    "status": "complete",
+    "type": "auction"
+  }
+]

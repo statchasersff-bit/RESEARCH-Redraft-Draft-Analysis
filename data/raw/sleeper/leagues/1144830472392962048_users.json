@@ -1,0 +1,154 @@
+[
+  {
+    "avatar": "e1a68c9c236d9fc841fbf7100f1fda69",
+    "display_name": "RetiredFedDave",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1144830472392962048",
+    "metadata": {
+      "allow_pn": "off",
+      "archived": "on",
+      "league_report_pn": "on",
+      "mascot_message": "off",
+      "mention_pn": "off",
+      "player_like_pn": "on",
+      "player_nickname_update": "off",
+      "team_name_update": "off",
+      "trade_block_pn": "on",
+      "transaction_commissioner": "off",
+      "transaction_free_agent": "on",
+      "transaction_trade": "on",
+      "transaction_waiver": "on",
+      "user_message_pn": "on"
+    },
+    "settings": null,
+    "user_id": "857835167300075520"
+  },
+  {
+    "avatar": "b319fdf8b7b5b0359d3c78622ba4d70c",
+    "display_name": "maaannyy",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1144830472392962048",
+    "metadata": {
+      "allow_pn": "on",
+      "archived": "on",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "867877335167352832"
+  },
+  {
+    "avatar": "8eb8f8bf999945d523f2c4033f70473e",
+    "display_name": "zachbuster",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1144830472392962048",
+    "metadata": {
+      "allow_pn": "on",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "958250559578906624"
+  },
+  {
+    "avatar": "e53eb5a56d6da8c72ffc0b05b9199724",
+    "display_name": "1q2w3e0p",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1144830472392962048",
+    "metadata": {
+      "allow_pn": "on",
+      "archived": "on",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "982483033641033728"
+  },
+  {
+    "avatar": "967dfafc3b5def2c22bfe11486daa42e",
+    "display_name": "Kev331",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1144830472392962048",
+    "metadata": {
+      "allow_pn": "on",
+      "mention_pn": "on",
+      "team_name": "Team Strawhats"
+    },
+    "settings": null,
+    "user_id": "996166464296148993"
+  },
+  {
+    "avatar": "b5343e81fd58a32c4542f04bf9a87e94",
+    "display_name": "FindingD33b0",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1144830472392962048",
+    "metadata": {
+      "allow_pn": "on",
+      "archived": "on",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "999553105983406080"
+  },
+  {
+    "avatar": "e50fe1ef62e1b412fb41735f0154d7b5",
+    "display_name": "GrittyGrinders",
+    "is_bot": false,
+    "is_owner": true,
+    "league_id": "1144830472392962048",
+    "metadata": {
+      "allow_pn": "on",
+      "archived": "on",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "1000488762083733504"
+  },
+  {
+    "avatar": "6339a2421ca84472deb27f5b7ad2d644",
+    "display_name": "mattyice1050",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1144830472392962048",
+    "metadata": {
+      "allow_pn": "on",
+      "allow_sms": "on",
+      "avatar": "https://sleepercdn.com/uploads/638c1fde83b4f971705f476aff3e77fd.jpg",
+      "mention_pn": "on",
+      "team_name": "Up and Adams"
+    },
+    "settings": null,
+    "user_id": "1004122144604835840"
+  },
+  {
+    "avatar": "b3338675f635c2c1f42b469621d38ec6",
+    "display_name": "BeastMode333",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1144830472392962048",
+    "metadata": {
+      "allow_pn": "on",
+      "archived": "on",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "1134993959207493632"
+  },
+  {
+    "avatar": "82aec8e811b839b8ec25d7b458afd57b",
+    "display_name": "PickensTheBest",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1144830472392962048",
+    "metadata": {
+      "allow_pn": "on",
+      "archived": "on",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "1143337907261075456"
+  }
+]

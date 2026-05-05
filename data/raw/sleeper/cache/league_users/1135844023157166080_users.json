@@ -1,0 +1,221 @@
+[
+  {
+    "avatar": "2d609e89263480199140003210b121a6",
+    "display_name": "cmc324",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1135844023157166080",
+    "metadata": {
+      "allow_pn": "on",
+      "archived": "on",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "340353807177224192"
+  },
+  {
+    "avatar": "d74ae2680051068f29cea58e71dec141",
+    "display_name": "chrijor1",
+    "is_bot": false,
+    "is_owner": false,
+    "league_id": "1135844023157166080",
+    "metadata": {
+      "allow_pn": "on",
+      "archived": "on",
+      "league_report_pn": "off",
+      "mascot_message": "on",
+      "mention_pn": "on",
+      "player_like_pn": "on",
+      "player_nickname_update": "off",
+      "team_name_update": "off",
+      "trade_block_pn": "on",
+      "transaction_commissioner": "on",
+      "transaction_free_agent": "off",
+      "transaction_trade": "on",
+      "transaction_waiver": "off",
+      "user_message_pn": "on"
+    },
+    "settings": null,
+    "user_id": "466644217083457536"
+  },
+  {
+    "avatar": "3d97841abf10f6c3caabf3f1e7e08ae4",
+    "display_name": "TheHXCVegan",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1135844023157166080",
+    "metadata": {
+      "allow_pn": "on",
+      "archived": "on",
+      "avatar": "https://sleepercdn.com/uploads/3679fa20fab6c45e7642e80116c18068.jpg",
+      "mention_pn": "on",
+      "team_name": "Pukkake"
+    },
+    "settings": null,
+    "user_id": "638830283151564800"
+  },
+  {
+    "avatar": "19afc5a69a487cf93857eeb769c05128",
+    "display_name": "Billmcd03",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1135844023157166080",
+    "metadata": {
+      "allow_pn": "on",
+      "archived": "on",
+      "mention_pn": "on",
+      "team_name": "Kelce Cox Hurts Swift"
+    },
+    "settings": null,
+    "user_id": "810983013285502976"
+  },
+  {
+    "avatar": "cd0aa2a88e9ca97da751fdca32a364f8",
+    "display_name": "harris2334",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1135844023157166080",
+    "metadata": {
+      "allow_pn": "on",
+      "archived": "off",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "866864761722273792"
+  },
+  {
+    "avatar": "a5db918284dfdba0be341a561926405d",
+    "display_name": "Sean1234567",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1135844023157166080",
+    "metadata": {
+      "allow_pn": "on",
+      "archived": "on",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "868692216254742528"
+  },
+  {
+    "avatar": "1c4222f773bccafb58e951c685377e15",
+    "display_name": "PapiRosario",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1135844023157166080",
+    "metadata": {
+      "allow_pn": "on",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "872631047144345600"
+  },
+  {
+    "avatar": "dd4a94645ef0f10a68e8786dfed606ff",
+    "display_name": "KMCChamp",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1135844023157166080",
+    "metadata": {
+      "allow_pn": "on",
+      "archived": "off",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "919783068653666304"
+  },
+  {
+    "avatar": "ab56979983965842c9ddd9ee29143ca8",
+    "display_name": "1q2w3e0p",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1135844023157166080",
+    "metadata": {
+      "allow_pn": "off",
+      "archived": "on",
+      "league_report_pn": "on",
+      "mascot_message": "on",
+      "mention_pn": "on",
+      "player_like_pn": "on",
+      "player_nickname_update": "on",
+      "team_name_update": "on",
+      "trade_block_pn": "on",
+      "transaction_commissioner": "on",
+      "transaction_free_agent": "on",
+      "transaction_trade": "on",
+      "transaction_waiver": "on",
+      "user_message_pn": "on"
+    },
+    "settings": null,
+    "user_id": "982483033641033728"
+  },
+  {
+    "avatar": "09f6b530f257cb5147b543ad3819a7a9",
+    "display_name": "WhoDatGeauxTigers",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1135844023157166080",
+    "metadata": {
+      "allow_pn": "on",
+      "archived": "on",
+      "mention_pn": "on",
+      "team_name": "Hip Shot 🔫"
+    },
+    "settings": null,
+    "user_id": "997840490902999040"
+  },
+  {
+    "avatar": "e5d7fe80818bbaf5bdf422537afed519",
+    "display_name": "mlaucke",
+    "is_bot": false,
+    "is_owner": true,
+    "league_id": "1135844023157166080",
+    "metadata": {
+      "allow_pn": "on",
+      "archived": "on",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "998015572132696064"
+  },
+  {
+    "avatar": "4f4090e5e9c3941414db40a871e3e909",
+    "display_name": "vinntomas18",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1135844023157166080",
+    "metadata": {
+      "allow_pn": "on",
+      "archived": "on",
+      "mention_pn": "on",
+      "team_name": "You Got Cooked"
+    },
+    "settings": null,
+    "user_id": "998299071313940480"
+  },
+  {
+    "avatar": "c5dcb6e8a8004c84666c08e4c94ea490",
+    "display_name": "mitchellc183",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1135844023157166080",
+    "metadata": {
+      "allow_pn": "off",
+      "archived": "on",
+      "league_report_pn": "off",
+      "mascot_message": "off",
+      "mention_pn": "off",
+      "player_like_pn": "off",
+      "player_nickname_update": "off",
+      "team_name_update": "off",
+      "trade_block_pn": "off",
+      "transaction_commissioner": "off",
+      "transaction_free_agent": "off",
+      "transaction_trade": "off",
+      "transaction_waiver": "off",
+      "user_message_pn": "off"
+    },
+    "settings": null,
+    "user_id": "999589318257684480"
+  }
+]

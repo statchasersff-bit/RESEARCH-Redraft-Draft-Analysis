@@ -1,0 +1,58 @@
+[
+  {
+    "created": 1725379908616,
+    "creators": [
+      "737526325409161216"
+    ],
+    "draft_id": "1136729362061520896",
+    "draft_order": {
+      "347850427158511616": 8,
+      "467456730150727680": 6,
+      "552758340683333632": 4,
+      "678503604495134720": 3,
+      "725488825425580032": 5,
+      "725851843493715968": 12,
+      "735000973558280192": 7,
+      "737526325409161216": 9,
+      "864229868605394944": 11,
+      "866144568775680000": 1,
+      "869258987273662464": 10,
+      "982483033641033728": 2
+    },
+    "last_message_id": "1136755860421541888",
+    "last_message_time": 1725386226328,
+    "last_picked": 1725386225632,
+    "league_id": "1136729360274632705",
+    "metadata": {
+      "description": "",
+      "name": "The spirit of Sundaze",
+      "scoring_type": "ppr"
+    },
+    "season": "2024",
+    "season_type": "regular",
+    "settings": {
+      "alpha_sort": 0,
+      "autopause_enabled": 0,
+      "autopause_end_time": 840,
+      "autopause_start_time": 120,
+      "autostart": 0,
+      "cpu_autopick": 1,
+      "nomination_timer": 60,
+      "pick_timer": 60,
+      "player_type": 0,
+      "reversal_round": 0,
+      "rounds": 14,
+      "slots_bn": 5,
+      "slots_flex": 3,
+      "slots_qb": 1,
+      "slots_rb": 2,
+      "slots_te": 1,
+      "slots_wr": 2,
+      "teams": 12
+    },
+    "sport": "nfl",
+    "start_time": 1725383097421,
+    "status": "complete",
+    "type": "snake"
+  }
+]

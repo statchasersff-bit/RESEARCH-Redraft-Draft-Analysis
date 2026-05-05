@@ -1,0 +1,52 @@
+{
+  "created": 1725106781032,
+  "creators": [
+    "872598277781110784"
+  ],
+  "draft_id": "1135583781957898240",
+  "draft_order": {
+    "872598277781110784": 7
+  },
+  "last_message_id": "1135927941394612224",
+  "last_message_time": 1725188835050,
+  "last_picked": 1725188834429,
+  "league_id": "1135583780947021824",
+  "metadata": {
+    "description": "",
+    "name": "Saints",
+    "scoring_type": "ppr"
+  },
+  "season": "2024",
+  "season_type": "regular",
+  "settings": {
+    "autostart": 0,
+    "cpu_autopick": 1,
+    "pick_timer": 120,
+    "rounds": 15,
+    "slots_bn": 5,
+    "slots_def": 1,
+    "slots_flex": 2,
+    "slots_k": 1,
+    "slots_qb": 1,
+    "slots_rb": 2,
+    "slots_te": 1,
+    "slots_wr": 2,
+    "teams": 10
+  },
+  "slot_to_roster_id": {
+    "1": 2,
+    "2": 3,
+    "3": 4,
+    "4": 5,
+    "5": 6,
+    "6": 7,
+    "7": 1,
+    "8": 8,
+    "9": 9,
+    "10": 10
+  },
+  "sport": "nfl",
+  "start_time": 1725188589559,
+  "status": "complete",
+  "type": "snake"
+}

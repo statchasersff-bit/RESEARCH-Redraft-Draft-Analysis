@@ -1,0 +1,61 @@
+[
+  {
+    "created": 1719943434016,
+    "creators": [
+      "449292851637907456"
+    ],
+    "draft_id": "1113927134898278400",
+    "draft_order": {
+      "449292851637907456": 1,
+      "454668117147119616": 6,
+      "611303084634800128": 12,
+      "625422916401606656": 5,
+      "701518068467167232": 9,
+      "713238956816297984": 2,
+      "713240513024708608": 10,
+      "713252721494401024": 4,
+      "716774856888238080": 7,
+      "717859539155767296": 8,
+      "718201926205902848": 3,
+      "992234293671833600": 11
+    },
+    "last_message_id": "1135724634470395904",
+    "last_message_time": 1725140362902,
+    "last_picked": 1725140361985,
+    "league_id": "1105013529918214144",
+    "metadata": {
+      "description": "",
+      "name": "FFAF (FantasyFootball as F*ck)",
+      "scoring_type": "ppr"
+    },
+    "season": "2024",
+    "season_type": "regular",
+    "settings": {
+      "alpha_sort": 0,
+      "autopause_enabled": 0,
+      "autopause_end_time": 900,
+      "autopause_start_time": 180,
+      "autostart": 0,
+      "cpu_autopick": 1,
+      "enforce_position_limits": 1,
+      "nomination_timer": 60,
+      "pick_timer": 180,
+      "player_type": 0,
+      "reversal_round": 0,
+      "rounds": 17,
+      "slots_bn": 7,
+      "slots_def": 1,
+      "slots_flex": 1,
+      "slots_k": 1,
+      "slots_qb": 1,
+      "slots_rb": 2,
+      "slots_te": 1,
+      "slots_wr": 3,
+      "teams": 12
+    },
+    "sport": "nfl",
+    "start_time": 1725134464456,
+    "status": "complete",
+    "type": "snake"
+  }
+]

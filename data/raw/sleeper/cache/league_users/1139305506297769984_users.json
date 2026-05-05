@@ -1,0 +1,113 @@
+[
+  {
+    "avatar": "2ba6f2f7512e012727376e80a713ada6",
+    "display_name": "Lions3allmk",
+    "is_bot": false,
+    "is_owner": true,
+    "league_id": "1139305506297769984",
+    "metadata": {
+      "allow_pn": "on",
+      "archived": "on",
+      "mention_pn": "on",
+      "team_name": "BIJAN MUSTARD"
+    },
+    "settings": null,
+    "user_id": "1006749091793637376"
+  },
+  {
+    "avatar": "4f4090e5e9c3941414db40a871e3e909",
+    "display_name": "stefonDiggsmoney3",
+    "is_bot": false,
+    "is_owner": false,
+    "league_id": "1139305506297769984",
+    "metadata": {
+      "allow_pn": "on",
+      "archived": "off",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "1118678669683183616"
+  },
+  {
+    "avatar": "9a531f3bb9cf1af7b42e70cb7fd060ff",
+    "display_name": "ccschiro17",
+    "is_bot": false,
+    "is_owner": true,
+    "league_id": "1139305506297769984",
+    "metadata": {
+      "allow_pn": "on",
+      "allow_sms": "on",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "1125213779593162752"
+  },
+  {
+    "avatar": "0f3a9609b860bfbc0057355977855779",
+    "display_name": "NKUBERRY808",
+    "is_bot": false,
+    "is_owner": false,
+    "league_id": "1139305506297769984",
+    "metadata": {
+      "allow_pn": "on",
+      "archived": "on",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "1136138676221861888"
+  },
+  {
+    "avatar": "15d7cf259bc30eab8f6120f45f652fb6",
+    "display_name": "brandonbck",
+    "is_bot": false,
+    "is_owner": false,
+    "league_id": "1139305506297769984",
+    "metadata": {
+      "allow_pn": "on",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "1139736072264699904"
+  },
+  {
+    "avatar": "5cf0e60c47d3dca445f0b523df6881a8",
+    "display_name": "johnnylobstah",
+    "is_bot": false,
+    "is_owner": false,
+    "league_id": "1139305506297769984",
+    "metadata": {
+      "allow_pn": "on",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "1145920444789559296"
+  },
+  {
+    "avatar": "321cc86ac1ce748b762e0026e1b721c0",
+    "display_name": "sosaFrmDa6",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1139305506297769984",
+    "metadata": {
+      "allow_pn": "on",
+      "avatar": "https://sleepercdn.com/uploads/0b31b2b9719bb343e441b3c728e2c39d.jpg",
+      "mention_pn": "on",
+      "team_name": "UNDERDOG?"
+    },
+    "settings": null,
+    "user_id": "1147397664829628416"
+  },
+  {
+    "avatar": "43e42cacdfeb5b010eefa0f63d3689f0",
+    "display_name": "KingsleyFrmDa6",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1139305506297769984",
+    "metadata": {
+      "allow_pn": "on",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "1147399127538634752"
+  }
+]

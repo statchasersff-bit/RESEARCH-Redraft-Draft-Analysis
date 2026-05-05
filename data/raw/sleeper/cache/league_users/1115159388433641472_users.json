@@ -1,0 +1,113 @@
+[
+  {
+    "avatar": "7a0e93609f75e40121ea74f3e1807b35",
+    "display_name": "WuMafia",
+    "is_bot": null,
+    "is_owner": null,
+    "league_id": "1115159388433641472",
+    "metadata": {
+      "allow_pn": "on",
+      "archived": "on",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "62707789705134080"
+  },
+  {
+    "avatar": "19f07df77d9461bf0bda5d5700051d89",
+    "display_name": "brokebackcowboys",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1115159388433641472",
+    "metadata": {
+      "allow_pn": "on",
+      "allow_sms": "on",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "474846617447428096"
+  },
+  {
+    "avatar": "5c5331a9f5c02807df251d8380a38f09",
+    "display_name": "Fantasywiz1200",
+    "is_bot": false,
+    "is_owner": true,
+    "league_id": "1115159388433641472",
+    "metadata": {
+      "allow_pn": "on",
+      "archived": "on",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "710332074363523072"
+  },
+  {
+    "avatar": "15d7cf259bc30eab8f6120f45f652fb6",
+    "display_name": "Gumper2971",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1115159388433641472",
+    "metadata": {
+      "allow_pn": "on",
+      "archived": "on",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "710693046248894464"
+  },
+  {
+    "avatar": "8d6b1d95def8f0acedb4a8df95b56d56",
+    "display_name": "Cesar28",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1115159388433641472",
+    "metadata": {
+      "allow_pn": "on",
+      "archived": "off",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "716679913058426880"
+  },
+  {
+    "avatar": "b319fdf8b7b5b0359d3c78622ba4d70c",
+    "display_name": "OilerFan21",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1115159388433641472",
+    "metadata": {
+      "allow_pn": "on",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "732712183326175232"
+  },
+  {
+    "avatar": "e7af4deab0289b4f5505646424895246",
+    "display_name": "JEV1202",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1115159388433641472",
+    "metadata": {
+      "allow_pn": "on",
+      "archived": "on",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "863199642253381632"
+  },
+  {
+    "avatar": "a9b713fb2808adb44f6d4f3998379dff",
+    "display_name": "mcerrone28",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1115159388433641472",
+    "metadata": {
+      "allow_pn": "on",
+      "mention_pn": "on",
+      "team_name": "Ninjahawks"
+    },
+    "settings": null,
+    "user_id": "990590584094035968"
+  }
+]

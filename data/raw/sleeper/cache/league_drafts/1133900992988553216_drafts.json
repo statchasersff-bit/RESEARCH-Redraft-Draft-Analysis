@@ -1,0 +1,59 @@
+[
+  {
+    "created": 1724705573127,
+    "creators": [
+      "872205881754996736"
+    ],
+    "draft_id": "1133900994024280064",
+    "draft_order": {
+      "1133869440178753536": 11,
+      "216055889671483392": 10,
+      "391726419853471744": 3,
+      "475385401645723648": 7,
+      "604119359505362944": 12,
+      "662334197989437440": 1,
+      "741302376291586048": 8,
+      "867947133402284032": 9,
+      "869993057456672768": 5,
+      "872205881754996736": 4,
+      "872234970440261632": 6,
+      "980613883805179904": 2
+    },
+    "last_message_id": "1133964032777412608",
+    "last_message_time": 1724720602748,
+    "last_picked": 1724720601825,
+    "league_id": "1133900992988553216",
+    "metadata": {
+      "description": "",
+      "name": "On The Grind",
+      "scoring_type": "ppr"
+    },
+    "season": "2024",
+    "season_type": "regular",
+    "settings": {
+      "alpha_sort": 0,
+      "autopause_enabled": 0,
+      "autopause_end_time": 840,
+      "autopause_start_time": 120,
+      "autostart": 0,
+      "cpu_autopick": 1,
+      "enforce_position_limits": 1,
+      "nomination_timer": 60,
+      "pick_timer": 60,
+      "player_type": 0,
+      "reversal_round": 0,
+      "rounds": 13,
+      "slots_bn": 5,
+      "slots_flex": 2,
+      "slots_qb": 1,
+      "slots_rb": 2,
+      "slots_te": 1,
+      "slots_wr": 2,
+      "teams": 12
+    },
+    "sport": "nfl",
+    "start_time": 1724716839916,
+    "status": "complete",
+    "type": "snake"
+  }
+]

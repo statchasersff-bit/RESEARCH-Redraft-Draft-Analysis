@@ -1,0 +1,71 @@
+{
+  "created": 1722718120011,
+  "creators": [
+    "740417854251397120"
+  ],
+  "draft_id": "1125565011461615616",
+  "draft_order": {
+    "1123589518524792832": 3,
+    "1125984186222993408": 11,
+    "463136024457900032": 5,
+    "469705102228189184": 7,
+    "604071577499262976": 2,
+    "722129050797178880": 1,
+    "740417854251397120": 8,
+    "741011496175308800": 4,
+    "863940790378942464": 10,
+    "971577337386938368": 12,
+    "987196857761718272": 6,
+    "997311813177974784": 9
+  },
+  "last_message_id": "1126010633746386944",
+  "last_message_time": 1722824364653,
+  "last_picked": 1722824363742,
+  "league_id": "1125565009410506752",
+  "metadata": {
+    "description": "",
+    "name": "PPR draft when full! $50",
+    "scoring_type": "ppr"
+  },
+  "season": "2024",
+  "season_type": "regular",
+  "settings": {
+    "alpha_sort": 0,
+    "autopause_enabled": 0,
+    "autopause_end_time": 840,
+    "autopause_start_time": 120,
+    "autostart": 0,
+    "cpu_autopick": 1,
+    "enforce_position_limits": 1,
+    "nomination_timer": 60,
+    "pick_timer": 90,
+    "player_type": 0,
+    "reversal_round": 0,
+    "rounds": 13,
+    "slots_bn": 5,
+    "slots_flex": 2,
+    "slots_qb": 1,
+    "slots_rb": 2,
+    "slots_te": 1,
+    "slots_wr": 2,
+    "teams": 12
+  },
+  "slot_to_roster_id": {
+    "1": 6,
+    "2": 2,
+    "3": 3,
+    "4": 11,
+    "5": 4,
+    "6": 9,
+    "7": 7,
+    "8": 1,
+    "9": 12,
+    "10": 5,
+    "11": 8,
+    "12": 10
+  },
+  "sport": "nfl",
+  "start_time": 1722820635849,
+  "status": "complete",
+  "type": "snake"
+}

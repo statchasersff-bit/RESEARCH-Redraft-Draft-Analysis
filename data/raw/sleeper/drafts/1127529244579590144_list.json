@@ -1,0 +1,60 @@
+[
+  {
+    "created": 1723186429864,
+    "creators": [
+      "732004539489714176"
+    ],
+    "draft_id": "1127529245363892224",
+    "draft_order": {
+      "100908832284622848": 10,
+      "202212834103271424": 3,
+      "442273528767574016": 1,
+      "467969640677502976": 7,
+      "491605601248342016": 6,
+      "605917079266226176": 11,
+      "732004539489714176": 12,
+      "857742770331308032": 9,
+      "871847218557145088": 2,
+      "989104214469083136": 5,
+      "993757431383597056": 8,
+      "998015572132696064": 4
+    },
+    "last_message_id": "1130778313850388480",
+    "last_message_time": 1723961068168,
+    "last_picked": 1723961067406,
+    "league_id": "1127529244579590144",
+    "metadata": {
+      "description": "",
+      "name": "Quick-Scope Sniper #36 Superflex",
+      "scoring_type": "2qb"
+    },
+    "season": "2024",
+    "season_type": "regular",
+    "settings": {
+      "alpha_sort": 0,
+      "autopause_enabled": 0,
+      "autopause_end_time": 960,
+      "autopause_start_time": 240,
+      "autostart": 0,
+      "cpu_autopick": 1,
+      "enforce_position_limits": 1,
+      "nomination_timer": 60,
+      "pick_timer": 60,
+      "player_type": 0,
+      "reversal_round": 0,
+      "rounds": 16,
+      "slots_bn": 7,
+      "slots_flex": 2,
+      "slots_qb": 1,
+      "slots_rb": 2,
+      "slots_super_flex": 1,
+      "slots_te": 1,
+      "slots_wr": 2,
+      "teams": 12
+    },
+    "sport": "nfl",
+    "start_time": 1723957926596,
+    "status": "complete",
+    "type": "snake"
+  }
+]

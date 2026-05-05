@@ -1,0 +1,184 @@
+[
+  {
+    "avatar": "e3f5bb3324e54bc1809df948efd6344b",
+    "display_name": "Whodat1997",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1133260780863959040",
+    "metadata": {
+      "allow_pn": "on",
+      "mention_pn": "on",
+      "team_name": "Bourbon St. Blitz"
+    },
+    "settings": null,
+    "user_id": "326199636949745664"
+  },
+  {
+    "avatar": "58c8eb44ca3590683010798040f9b1be",
+    "display_name": "i11",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1133260780863959040",
+    "metadata": {
+      "allow_pn": "on",
+      "archived": "on",
+      "mention_pn": "on",
+      "team_name": "Great Value Football Team"
+    },
+    "settings": null,
+    "user_id": "463058095736614912"
+  },
+  {
+    "avatar": "f854091e144eb382f2563c8b2aa3396a",
+    "display_name": "ArjayD",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1133260780863959040",
+    "metadata": {
+      "allow_pn": "on",
+      "allow_sms": "on",
+      "archived": "on",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "465904819664580608"
+  },
+  {
+    "avatar": "e7bcaddce7814f09621816cc21e447d6",
+    "display_name": "dawgs2121",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1133260780863959040",
+    "metadata": {
+      "allow_pn": "on",
+      "archived": "on",
+      "mention_pn": "on",
+      "team_name": "Points"
+    },
+    "settings": null,
+    "user_id": "467005434289451008"
+  },
+  {
+    "avatar": "5fc24ad349b70ea4c41b989c218aa67f",
+    "display_name": "ShawnK1219",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1133260780863959040",
+    "metadata": {
+      "allow_pn": "on",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "467603825574801408"
+  },
+  {
+    "avatar": "2971abc7ded98de6ced9c1a4a553b5b1",
+    "display_name": "GreasyMandingo",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1133260780863959040",
+    "metadata": {
+      "allow_pn": "on",
+      "archived": "on",
+      "mention_pn": "on",
+      "team_name": "37p 3SFlex disaster"
+    },
+    "settings": null,
+    "user_id": "473740945397903360"
+  },
+  {
+    "avatar": "66a31b08228bb42f868ec459027a88b8",
+    "display_name": "THECREWbro48",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1133260780863959040",
+    "metadata": {
+      "allow_pn": "on",
+      "archived": "on",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "605887465290530816"
+  },
+  {
+    "avatar": "2d329463c2e3afcd9e5d94efb46e5e1b",
+    "display_name": "6oku",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1133260780863959040",
+    "metadata": {
+      "allow_pn": "on",
+      "archived": "on",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "711697074571284480"
+  },
+  {
+    "avatar": "ee368f39dbbe98a07814317ee952e6c0",
+    "display_name": "DoWorkSons",
+    "is_bot": false,
+    "is_owner": true,
+    "league_id": "1133260780863959040",
+    "metadata": {
+      "allow_pn": "on",
+      "archived": "on",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "856071479916343296"
+  },
+  {
+    "avatar": "0d83f8973945eb70478b38df46818dda",
+    "display_name": "BertJameson",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1133260780863959040",
+    "metadata": {
+      "allow_pn": "on",
+      "archived": "on",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "963325378112569344"
+  },
+  {
+    "avatar": "b3338675f635c2c1f42b469621d38ec6",
+    "display_name": "asquare",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1133260780863959040",
+    "metadata": {
+      "allow_pn": "on",
+      "archived": "on",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "999766429681385472"
+  },
+  {
+    "avatar": "f0edbf4278f53f9425db175073df6584",
+    "display_name": "rkel3156",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1133260780863959040",
+    "metadata": {
+      "allow_pn": "off",
+      "archived": "on",
+      "league_report_pn": "off",
+      "mascot_message": "off",
+      "mention_pn": "off",
+      "player_like_pn": "off",
+      "player_nickname_update": "off",
+      "team_name_update": "off",
+      "trade_block_pn": "off",
+      "transaction_commissioner": "off",
+      "transaction_free_agent": "off",
+      "transaction_trade": "off",
+      "transaction_waiver": "off",
+      "user_message_pn": "off"
+    },
+    "settings": null,
+    "user_id": "1066956172030242816"
+  }
+]

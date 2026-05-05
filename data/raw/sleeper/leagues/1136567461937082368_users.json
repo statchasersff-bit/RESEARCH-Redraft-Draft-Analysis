@@ -1,0 +1,141 @@
+[
+  {
+    "avatar": "8eb8f8bf999945d523f2c4033f70473e",
+    "display_name": "RyanlikesCOC",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1136567461937082368",
+    "metadata": {
+      "allow_pn": "on",
+      "archived": "on",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "747576625012576256"
+  },
+  {
+    "avatar": "a2fefc1cfea942158d75a8e10a605a60",
+    "display_name": "scarter24",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1136567461937082368",
+    "metadata": {
+      "allow_pn": "on",
+      "mention_pn": "on",
+      "team_name": "Hall of Zay"
+    },
+    "settings": null,
+    "user_id": "779816733971263488"
+  },
+  {
+    "avatar": "c2e4ec2819c1c098b2b902c116d7b1af",
+    "display_name": "cgunnny",
+    "is_bot": false,
+    "is_owner": true,
+    "league_id": "1136567461937082368",
+    "metadata": {
+      "allow_pn": "on",
+      "mention_pn": "on",
+      "team_name": "Jersey"
+    },
+    "settings": null,
+    "user_id": "994896812555235328"
+  },
+  {
+    "avatar": "8eb8f8bf999945d523f2c4033f70473e",
+    "display_name": "Quibs20",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1136567461937082368",
+    "metadata": {
+      "allow_pn": "on",
+      "archived": "on",
+      "mention_pn": "on",
+      "team_name": "Good Chubb"
+    },
+    "settings": null,
+    "user_id": "1002549115359555584"
+  },
+  {
+    "avatar": "4de202f8be36912b6a81be2a14132b47",
+    "display_name": "OGtheScientist",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1136567461937082368",
+    "metadata": {
+      "allow_pn": "on",
+      "archived": "on",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "1002669065393000448"
+  },
+  {
+    "avatar": "b3338675f635c2c1f42b469621d38ec6",
+    "display_name": "Balrog206",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1136567461937082368",
+    "metadata": {
+      "allow_pn": "on",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "1004540782554021888"
+  },
+  {
+    "avatar": "f0edbf4278f53f9425db175073df6584",
+    "display_name": "jophiss",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1136567461937082368",
+    "metadata": {
+      "allow_pn": "on",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "1130324167909367808"
+  },
+  {
+    "avatar": "b319fdf8b7b5b0359d3c78622ba4d70c",
+    "display_name": "VHSMANSA",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1136567461937082368",
+    "metadata": {
+      "allow_pn": "on",
+      "archived": "on",
+      "avatar": "https://sleepercdn.com/uploads/f507ed412eb1060a202d72a45b3d7db6.jpg",
+      "mention_pn": "on",
+      "team_name": "St. Crowns"
+    },
+    "settings": null,
+    "user_id": "1135755362877272064"
+  },
+  {
+    "avatar": "38c64adb83257784d543ed46f05b3aad",
+    "display_name": "TwistyT420",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1136567461937082368",
+    "metadata": {
+      "allow_pn": "on",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "1137061029743181824"
+  },
+  {
+    "avatar": "8eb8f8bf999945d523f2c4033f70473e",
+    "display_name": "FreeThugga805",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1136567461937082368",
+    "metadata": {
+      "allow_pn": "on",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "1137425683422113792"
+  }
+]

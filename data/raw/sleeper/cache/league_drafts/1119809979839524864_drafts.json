@@ -1,0 +1,65 @@
+[
+  {
+    "created": 1721346013559,
+    "creators": [
+      "607780355629477888"
+    ],
+    "draft_id": "1119809979839524865",
+    "draft_order": {
+      "1000208417509687296": 5,
+      "1133234184740483072": 1,
+      "337777938567020544": 7,
+      "470043315761311744": 9,
+      "472275643027943424": 3,
+      "580123824876457984": 6,
+      "607780355629477888": 2,
+      "659598547443851264": 4,
+      "728063148262789120": 10,
+      "757366598880329728": 12,
+      "837564854029115392": 11,
+      "982483033641033728": 8
+    },
+    "last_message_id": "1136500143484448768",
+    "last_message_time": 1725325258659,
+    "last_picked": 1725325252231,
+    "league_id": "1119809979839524864",
+    "metadata": {
+      "description": "",
+      "name": "Blood, Sweat, and Beers",
+      "scoring_type": "ppr"
+    },
+    "season": "2024",
+    "season_type": "regular",
+    "settings": {
+      "alpha_sort": 0,
+      "autopause_enabled": 0,
+      "autopause_end_time": 840,
+      "autopause_start_time": 120,
+      "autostart": 0,
+      "cpu_autopick": 1,
+      "enforce_position_limits": 1,
+      "nomination_timer": 60,
+      "pick_timer": 60,
+      "player_type": 0,
+      "position_limit_qb": 3,
+      "position_limit_rb": 6,
+      "position_limit_te": 3,
+      "position_limit_wr": 6,
+      "reversal_round": 0,
+      "rounds": 16,
+      "slots_bn": 6,
+      "slots_def": 1,
+      "slots_flex": 2,
+      "slots_k": 1,
+      "slots_qb": 1,
+      "slots_rb": 2,
+      "slots_te": 1,
+      "slots_wr": 2,
+      "teams": 12
+    },
+    "sport": "nfl",
+    "start_time": 1725321628494,
+    "status": "complete",
+    "type": "snake"
+  }
+]

@@ -1,0 +1,164 @@
+[
+  {
+    "avatar": "901fcef37ab6aaa1696fd185e8254096",
+    "display_name": "EnzoTheWizard",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1151330458647695360",
+    "metadata": {
+      "allow_pn": "on",
+      "archived": "on",
+      "league_report_pn": "on",
+      "mascot_message": "on",
+      "mention_pn": "on",
+      "player_like_pn": "on",
+      "player_nickname_update": "on",
+      "team_name_update": "on",
+      "trade_block_pn": "on",
+      "transaction_commissioner": "on",
+      "transaction_free_agent": "on",
+      "transaction_trade": "on",
+      "transaction_waiver": "on",
+      "user_message_pn": "on"
+    },
+    "settings": null,
+    "user_id": "446811307862126592"
+  },
+  {
+    "avatar": "d18f40eaac85cba6708d0dece2ffdec8",
+    "display_name": "yourlordandsaviorcam",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1151330458647695360",
+    "metadata": {
+      "allow_pn": "on",
+      "archived": "on",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "472985363007139840"
+  },
+  {
+    "avatar": "1bf8ce9dbdda42d9d61c48776f5e0bfc",
+    "display_name": "fmn",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1151330458647695360",
+    "metadata": {
+      "allow_pn": "on",
+      "archived": "on",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "607685751630540800"
+  },
+  {
+    "avatar": "bfd10ff60c298605cdccb1ff4a766a4f",
+    "display_name": "strattwag",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1151330458647695360",
+    "metadata": {
+      "allow_pn": "off",
+      "archived": "off",
+      "league_report_pn": "off",
+      "mascot_message": "off",
+      "mention_pn": "off",
+      "player_like_pn": "on",
+      "player_nickname_update": "off",
+      "team_name_update": "off",
+      "trade_block_pn": "on",
+      "transaction_commissioner": "on",
+      "transaction_free_agent": "off",
+      "transaction_trade": "on",
+      "transaction_waiver": "off",
+      "user_message_pn": "off"
+    },
+    "settings": null,
+    "user_id": "884296827246211072"
+  },
+  {
+    "avatar": "15d7cf259bc30eab8f6120f45f652fb6",
+    "display_name": "Scrapes15",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1151330458647695360",
+    "metadata": {
+      "allow_pn": "on",
+      "archived": "on",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "941254499488956416"
+  },
+  {
+    "avatar": "0c8eca550f2558d998c66b00950fd147",
+    "display_name": "WhoDatGeauxTigers",
+    "is_bot": false,
+    "is_owner": true,
+    "league_id": "1151330458647695360",
+    "metadata": {
+      "allow_pn": "on",
+      "archived": "off",
+      "mention_pn": "on",
+      "team_name": "Zero QB got Joe"
+    },
+    "settings": null,
+    "user_id": "997840490902999040"
+  },
+  {
+    "avatar": "9033d6d86de3b410a575dd2d2412d507",
+    "display_name": "bigdoom",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1151330458647695360",
+    "metadata": {
+      "allow_pn": "on",
+      "archived": "on",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "1009974433227939840"
+  },
+  {
+    "avatar": "4f4090e5e9c3941414db40a871e3e909",
+    "display_name": "caleb91",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1151330458647695360",
+    "metadata": {
+      "allow_pn": "on",
+      "archived": "on",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "1095529988989882368"
+  },
+  {
+    "avatar": "f387f733c1746b6561d58bf54e7e9931",
+    "display_name": "sarnts",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1151330458647695360",
+    "metadata": {
+      "allow_pn": "on",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "1151345748165890048"
+  },
+  {
+    "avatar": "b7f840b8cb2aaf4cde9ef9f537f1dc22",
+    "display_name": "TrillyyMcNillyy",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1151330458647695360",
+    "metadata": {
+      "allow_pn": "on",
+      "mention_pn": "on",
+      "team_name": "TrillyyMcNillyy"
+    },
+    "settings": null,
+    "user_id": "1151997096535457792"
+  }
+]

@@ -1,0 +1,21 @@
+{
+  "sleeper_username": "Makitrain",
+  "sleeper_user_id": "1126320389791096832",
+  "season": "2024",
+  "seed_leagues_found": 19,
+  "seed_redraft_leagues_used": 19,
+  "unique_users_discovered": 2743,
+  "total_leagues_discovered": 2743,
+  "valid_redraft_leagues": 530,
+  "rejected_leagues": 2213,
+  "valid_10_team_count": 236,
+  "valid_12_team_count": 294,
+  "valid_1qb_count": 374,
+  "valid_superflex_count": 156,
+  "valid_no_tep_count": 482,
+  "valid_tep_05_count": 43,
+  "valid_tep_075_count": 5,
+  "valid_4pt_pass_td_count": 354,
+  "valid_6pt_pass_td_count": 176,
+  "generated_at": "2026-05-05T19:33:50.180Z"
+}

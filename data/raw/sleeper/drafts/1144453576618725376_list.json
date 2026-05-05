@@ -1,0 +1,59 @@
+[
+  {
+    "created": 1727221505415,
+    "creators": [
+      "1124877828413063168"
+    ],
+    "draft_id": "1144453578908831744",
+    "draft_order": {
+      "1000166013784694784": 5,
+      "1124877828413063168": 10,
+      "1132769707729350656": 7,
+      "1133938442456453120": 2,
+      "608517781335379968": 6,
+      "609844887256371200": 4,
+      "854785777429753856": 8,
+      "982483033641033728": 3,
+      "984601132649488384": 1,
+      "998740553506402304": 9
+    },
+    "last_message_id": "1144521628382953472",
+    "last_message_time": 1727237729691,
+    "last_picked": 1727237728711,
+    "league_id": "1144453576618725376",
+    "metadata": {
+      "description": "",
+      "name": "$50 Rehab League",
+      "scoring_type": "ppr"
+    },
+    "season": "2024",
+    "season_type": "regular",
+    "settings": {
+      "alpha_sort": 0,
+      "autopause_enabled": 0,
+      "autopause_end_time": 1020,
+      "autopause_start_time": 300,
+      "autostart": 0,
+      "cpu_autopick": 1,
+      "enforce_position_limits": 1,
+      "nomination_timer": 60,
+      "pick_timer": 60,
+      "player_type": 0,
+      "reversal_round": 0,
+      "rounds": 16,
+      "slots_bn": 5,
+      "slots_def": 1,
+      "slots_flex": 3,
+      "slots_k": 1,
+      "slots_qb": 1,
+      "slots_rb": 2,
+      "slots_te": 1,
+      "slots_wr": 2,
+      "teams": 10
+    },
+    "sport": "nfl",
+    "start_time": 1727232613759,
+    "status": "complete",
+    "type": "snake"
+  }
+]

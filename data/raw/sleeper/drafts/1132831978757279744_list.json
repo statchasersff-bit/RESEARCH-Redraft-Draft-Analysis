@@ -1,0 +1,60 @@
+[
+  {
+    "created": 1724450700222,
+    "creators": [
+      "810200145143672832"
+    ],
+    "draft_id": "1132831979587858432",
+    "draft_order": {
+      "315305632485883904": 10,
+      "462353850129444864": 8,
+      "468862977664086016": 1,
+      "722244252255494144": 11,
+      "810200145143672832": 3,
+      "865380445225922560": 6,
+      "870181703266770944": 7,
+      "871847218557145088": 4,
+      "886026738654867456": 9,
+      "941407544893931520": 2,
+      "951075329664262144": 5,
+      "982483033641033728": 12
+    },
+    "last_message_id": "1132865627384754176",
+    "last_message_time": 1724458722495,
+    "last_picked": 1724458721893,
+    "league_id": "1132831978757279744",
+    "metadata": {
+      "description": "",
+      "name": "The World of Redraft🌎",
+      "scoring_type": "2qb"
+    },
+    "season": "2024",
+    "season_type": "regular",
+    "settings": {
+      "alpha_sort": 0,
+      "autopause_enabled": 0,
+      "autopause_end_time": 840,
+      "autopause_start_time": 120,
+      "autostart": 0,
+      "cpu_autopick": 1,
+      "enforce_position_limits": 1,
+      "nomination_timer": 60,
+      "pick_timer": 60,
+      "player_type": 0,
+      "reversal_round": 0,
+      "rounds": 17,
+      "slots_bn": 7,
+      "slots_flex": 3,
+      "slots_qb": 1,
+      "slots_rb": 2,
+      "slots_super_flex": 1,
+      "slots_te": 1,
+      "slots_wr": 2,
+      "teams": 12
+    },
+    "sport": "nfl",
+    "start_time": 1724454211302,
+    "status": "complete",
+    "type": "snake"
+  }
+]

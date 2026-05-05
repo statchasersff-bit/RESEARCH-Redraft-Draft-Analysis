@@ -1,0 +1,199 @@
+[
+  {
+    "avatar": "b319fdf8b7b5b0359d3c78622ba4d70c",
+    "display_name": "petecal97",
+    "is_bot": false,
+    "is_owner": true,
+    "league_id": "1104175754142793728",
+    "metadata": {
+      "allow_pn": "on",
+      "allow_sms": "on",
+      "mention_pn": "on",
+      "team_name": "TSMagnum"
+    },
+    "settings": null,
+    "user_id": "736673101693202432"
+  },
+  {
+    "avatar": "72bb76213a06ffd4fae6a94d883dd772",
+    "display_name": "otterofempathy",
+    "is_bot": false,
+    "is_owner": false,
+    "league_id": "1104175754142793728",
+    "metadata": {
+      "allow_pn": "on",
+      "archived": "off",
+      "avatar": "https://sleepercdn.com/uploads/2125dde0130f7dc0fd69efcc4e70a689.jpg",
+      "mention_pn": "on",
+      "team_name": "Otterly MARVelous"
+    },
+    "settings": null,
+    "user_id": "1037102495480680448"
+  },
+  {
+    "avatar": "f0edbf4278f53f9425db175073df6584",
+    "display_name": "Terpfan61764",
+    "is_bot": false,
+    "is_owner": false,
+    "league_id": "1104175754142793728",
+    "metadata": {
+      "allow_pn": "on",
+      "archived": "off",
+      "avatar": "https://sleepercdn.com/uploads/8ab44b5619679dc6c3ed219bce1244c1.jpg",
+      "mention_pn": "on",
+      "team_name": "Jessica's Law"
+    },
+    "settings": null,
+    "user_id": "1091121427081760768"
+  },
+  {
+    "avatar": "b3338675f635c2c1f42b469621d38ec6",
+    "display_name": "GiantSponge",
+    "is_bot": false,
+    "is_owner": false,
+    "league_id": "1104175754142793728",
+    "metadata": {
+      "allow_pn": "on",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "1096597301826584576"
+  },
+  {
+    "avatar": "8eb8f8bf999945d523f2c4033f70473e",
+    "display_name": "tjtimson",
+    "is_bot": false,
+    "is_owner": false,
+    "league_id": "1104175754142793728",
+    "metadata": {
+      "allow_pn": "on",
+      "mention_pn": "on",
+      "team_name": "Cuck Dynasty"
+    },
+    "settings": null,
+    "user_id": "1110993879748292608"
+  },
+  {
+    "avatar": "f0edbf4278f53f9425db175073df6584",
+    "display_name": "benhand",
+    "is_bot": false,
+    "is_owner": false,
+    "league_id": "1104175754142793728",
+    "metadata": {
+      "allow_pn": "on",
+      "mention_pn": "on",
+      "team_name": "endoftether"
+    },
+    "settings": null,
+    "user_id": "1111267026775011328"
+  },
+  {
+    "avatar": "b3338675f635c2c1f42b469621d38ec6",
+    "display_name": "TacoRobs",
+    "is_bot": false,
+    "is_owner": false,
+    "league_id": "1104175754142793728",
+    "metadata": {
+      "allow_pn": "on",
+      "avatar": "https://sleepercdn.com/uploads/3b7dfeb77e846f258e47f9fe9d54b82e",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "1111369658235449344"
+  },
+  {
+    "avatar": "be2b70368926eae421cdb68963c4fc8f",
+    "display_name": "Adults_Are_Talking",
+    "is_bot": false,
+    "is_owner": false,
+    "league_id": "1104175754142793728",
+    "metadata": {
+      "allow_pn": "off",
+      "allow_sms": "on",
+      "avatar": "https://sleepercdn.com/uploads/9ac4bbf629da0c5f2f7a86d916065822",
+      "league_report_pn": "off",
+      "mascot_message": "off",
+      "mention_pn": "off",
+      "player_like_pn": "off",
+      "player_nickname_update": "off",
+      "team_name": "Brute Squad",
+      "team_name_update": "off",
+      "trade_block_pn": "off",
+      "transaction_commissioner": "off",
+      "transaction_free_agent": "off",
+      "transaction_trade": "off",
+      "transaction_waiver": "off",
+      "user_message_pn": "off"
+    },
+    "settings": null,
+    "user_id": "1111904981092847616"
+  },
+  {
+    "avatar": "4f4090e5e9c3941414db40a871e3e909",
+    "display_name": "Barishmo",
+    "is_bot": false,
+    "is_owner": false,
+    "league_id": "1104175754142793728",
+    "metadata": {
+      "allow_pn": "on",
+      "allow_sms": "on",
+      "mention_pn": "on",
+      "team_name": "Dr. Kenneth Noisewater"
+    },
+    "settings": null,
+    "user_id": "1112104322923339776"
+  },
+  {
+    "avatar": "262effbe30d3b0ee74d908ee70420a16",
+    "display_name": "Gr8estLivingAmerican",
+    "is_bot": false,
+    "is_owner": false,
+    "league_id": "1104175754142793728",
+    "metadata": {
+      "allow_pn": "on",
+      "league_report_pn": "on",
+      "mascot_message": "on",
+      "mention_pn": "on",
+      "player_like_pn": "on",
+      "player_nickname_update": "on",
+      "team_name_update": "on",
+      "trade_block_pn": "on",
+      "transaction_commissioner": "on",
+      "transaction_free_agent": "on",
+      "transaction_trade": "on",
+      "transaction_waiver": "on",
+      "user_message_pn": "on"
+    },
+    "settings": null,
+    "user_id": "1112186076027895808"
+  },
+  {
+    "avatar": "15d7cf259bc30eab8f6120f45f652fb6",
+    "display_name": "anotherbrickinthewal",
+    "is_bot": false,
+    "is_owner": false,
+    "league_id": "1104175754142793728",
+    "metadata": {
+      "allow_pn": "on",
+      "mention_pn": "on",
+      "team_name": "SkywalkerNaberhood"
+    },
+    "settings": null,
+    "user_id": "1112196115849420800"
+  },
+  {
+    "avatar": "b3338675f635c2c1f42b469621d38ec6",
+    "display_name": "princesstanline",
+    "is_bot": false,
+    "is_owner": false,
+    "league_id": "1104175754142793728",
+    "metadata": {
+      "allow_pn": "on",
+      "avatar": "https://sleepercdn.com/uploads/e83c685ca79cd4ed569b4bf4f25e78d7.jpg",
+      "mention_pn": "on",
+      "team_name": "CeeDeez Nuts"
+    },
+    "settings": null,
+    "user_id": "1112196834652413952"
+  }
+]

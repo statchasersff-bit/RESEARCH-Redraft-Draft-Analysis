@@ -1,0 +1,99 @@
+[
+  {
+    "created": 1734156588080,
+    "creators": [
+      "768048971489886208"
+    ],
+    "draft_id": "1173541423795363840",
+    "draft_order": {
+      "100908832284622848": 2,
+      "214878177711882240": 4,
+      "313124261629788160": 1,
+      "734030961536323584": 6,
+      "744052826812100608": 5,
+      "768048971489886208": 7,
+      "814331828335947776": 8,
+      "998439222661083136": 3
+    },
+    "last_message_id": "1182870418097381376",
+    "last_message_time": 1736380793646,
+    "last_picked": 1736380792794,
+    "league_id": "1051345005039779840",
+    "metadata": {
+      "description": "",
+      "name": "Super Bowl LIX Guillotine",
+      "scoring_type": "ppr"
+    },
+    "season": "2024",
+    "season_type": "regular",
+    "settings": {
+      "alpha_sort": 0,
+      "autopause_enabled": 0,
+      "autopause_end_time": 960,
+      "autopause_start_time": 240,
+      "autostart": 0,
+      "cpu_autopick": 1,
+      "enforce_position_limits": 1,
+      "nomination_timer": 60,
+      "pick_timer": 0,
+      "player_type": 0,
+      "position_limit_qb": 1,
+      "reversal_round": 3,
+      "rounds": 8,
+      "slots_flex": 4,
+      "slots_qb": 1,
+      "slots_rb": 1,
+      "slots_te": 1,
+      "slots_wr": 1,
+      "teams": 8
+    },
+    "sport": "nfl",
+    "start_time": 1736185779947,
+    "status": "complete",
+    "type": "snake"
+  },
+  {
+    "created": 1705022691548,
+    "creators": [
+      "768048971489886208"
+    ],
+    "draft_id": "1051345005039779841",
+    "draft_order": null,
+    "last_message_id": "1051345005039779841",
+    "last_message_time": 1705022691548,
+    "last_picked": null,
+    "league_id": "1051345005039779840",
+    "metadata": {
+      "description": "",
+      "name": "Super Bowl LVIII Guillotine",
+      "scoring_type": "dynasty_ppr"
+    },
+    "season": "2024",
+    "season_type": "regular",
+    "settings": {
+      "alpha_sort": 0,
+      "autopause_enabled": 1,
+      "autopause_end_time": 960,
+      "autopause_start_time": 240,
+      "autostart": 0,
+      "cpu_autopick": 1,
+      "enforce_position_limits": 1,
+      "nomination_timer": 60,
+      "pick_timer": 3600,
+      "player_type": 0,
+      "position_limit_qb": 1,
+      "reversal_round": 3,
+      "rounds": 3,
+      "slots_flex": 4,
+      "slots_qb": 1,
+      "slots_rb": 1,
+      "slots_te": 1,
+      "slots_wr": 1,
+      "teams": 8
+    },
+    "sport": "nfl",
+    "start_time": null,
+    "status": "pre_draft",
+    "type": "snake"
+  }
+]

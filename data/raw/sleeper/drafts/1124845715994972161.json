@@ -1,0 +1,72 @@
+{
+  "created": 1722546626618,
+  "creators": [
+    "422889962166296576"
+  ],
+  "draft_id": "1124845715994972161",
+  "draft_order": {
+    "341760440168243200": 11,
+    "417042100874379264": 9,
+    "422889962166296576": 7,
+    "464684923584770048": 3,
+    "578153501461352448": 2,
+    "603046721374715904": 4,
+    "606256735535046656": 5,
+    "740382698740330496": 8,
+    "76697606948274176": 6,
+    "864585327807946752": 1,
+    "865020646680342528": 10,
+    "982483033641033728": 12
+  },
+  "last_message_id": "1134684259496513536",
+  "last_message_time": 1724892318180,
+  "last_picked": 1724892317086,
+  "league_id": "1124845715994972160",
+  "metadata": {
+    "description": "",
+    "name": "Sundays",
+    "scoring_type": "half_ppr"
+  },
+  "season": "2024",
+  "season_type": "regular",
+  "settings": {
+    "alpha_sort": 0,
+    "autopause_enabled": 0,
+    "autopause_end_time": 840,
+    "autopause_start_time": 120,
+    "autostart": 0,
+    "cpu_autopick": 1,
+    "enforce_position_limits": 1,
+    "nomination_timer": 60,
+    "pick_timer": 120,
+    "player_type": 0,
+    "reversal_round": 0,
+    "rounds": 16,
+    "slots_bn": 6,
+    "slots_def": 1,
+    "slots_flex": 2,
+    "slots_qb": 1,
+    "slots_rb": 2,
+    "slots_te": 1,
+    "slots_wr": 3,
+    "teams": 12
+  },
+  "slot_to_roster_id": {
+    "1": 5,
+    "2": 7,
+    "3": 4,
+    "4": 10,
+    "5": 3,
+    "6": 2,
+    "7": 1,
+    "8": 8,
+    "9": 9,
+    "10": 12,
+    "11": 6,
+    "12": 11
+  },
+  "sport": "nfl",
+  "start_time": 1724886008655,
+  "status": "complete",
+  "type": "snake"
+}

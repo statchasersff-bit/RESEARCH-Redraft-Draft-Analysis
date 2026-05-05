@@ -1,0 +1,59 @@
+[
+  {
+    "created": 1724727687622,
+    "creators": [
+      "715737259466379264"
+    ],
+    "draft_id": "1133993748943224832",
+    "draft_order": {
+      "1122309393871142912": 7,
+      "1131993383897198592": 6,
+      "1134061289153773568": 12,
+      "1134255050857156608": 9,
+      "434057524790947840": 3,
+      "670006759800254464": 4,
+      "715737259466379264": 5,
+      "740007657951424512": 2,
+      "744264979045294080": 10,
+      "958250559578906624": 1,
+      "989717184647602176": 8,
+      "994618469649854464": 11
+    },
+    "last_message_id": "1134316213170880512",
+    "last_message_time": 1724804569097,
+    "last_picked": 1724804568090,
+    "league_id": "1133993747462844416",
+    "metadata": {
+      "description": "",
+      "name": "Leaugesafe $30",
+      "scoring_type": "ppr"
+    },
+    "season": "2024",
+    "season_type": "regular",
+    "settings": {
+      "alpha_sort": 0,
+      "autopause_enabled": 0,
+      "autopause_end_time": 840,
+      "autopause_start_time": 120,
+      "autostart": 0,
+      "cpu_autopick": 1,
+      "enforce_position_limits": 1,
+      "nomination_timer": 60,
+      "pick_timer": 60,
+      "player_type": 0,
+      "reversal_round": 0,
+      "rounds": 15,
+      "slots_bn": 7,
+      "slots_flex": 2,
+      "slots_qb": 1,
+      "slots_rb": 2,
+      "slots_te": 1,
+      "slots_wr": 2,
+      "teams": 12
+    },
+    "sport": "nfl",
+    "start_time": 1724801035133,
+    "status": "complete",
+    "type": "snake"
+  }
+]

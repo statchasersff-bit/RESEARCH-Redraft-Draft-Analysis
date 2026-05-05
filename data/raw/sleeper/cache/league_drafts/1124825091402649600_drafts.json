@@ -1,0 +1,60 @@
+[
+  {
+    "created": 1722541709331,
+    "creators": [
+      "403793556394790912",
+      "456086059655098368"
+    ],
+    "draft_id": "1124825091402649601",
+    "draft_order": {
+      "1002048393461477376": 3,
+      "1131816057263546368": 8,
+      "1132937987203104768": 10,
+      "1133481067878502400": 7,
+      "403793556394790912": 5,
+      "456086059655098368": 6,
+      "688585585220190208": 2,
+      "738476835574325248": 9,
+      "740269498367651840": 4,
+      "871993279946924032": 1
+    },
+    "last_message_id": "1133502243195387904",
+    "last_message_time": 1724610503533,
+    "last_picked": 1724610502954,
+    "league_id": "1124825091402649600",
+    "metadata": {
+      "description": "",
+      "name": "Numbers Don't Lie",
+      "scoring_type": "ppr"
+    },
+    "season": "2024",
+    "season_type": "regular",
+    "settings": {
+      "alpha_sort": 0,
+      "autopause_enabled": 0,
+      "autopause_end_time": 840,
+      "autopause_start_time": 120,
+      "autostart": 0,
+      "cpu_autopick": 1,
+      "enforce_position_limits": 1,
+      "nomination_timer": 60,
+      "pick_timer": 60,
+      "player_type": 0,
+      "reversal_round": 0,
+      "rounds": 17,
+      "slots_bn": 7,
+      "slots_def": 1,
+      "slots_flex": 1,
+      "slots_k": 1,
+      "slots_qb": 1,
+      "slots_rb": 2,
+      "slots_te": 1,
+      "slots_wr": 3,
+      "teams": 10
+    },
+    "sport": "nfl",
+    "start_time": 1724607134797,
+    "status": "complete",
+    "type": "snake"
+  }
+]

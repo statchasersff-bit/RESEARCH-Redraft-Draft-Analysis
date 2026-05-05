@@ -1,0 +1,64 @@
+[
+  {
+    "created": 1729973516304,
+    "creators": [
+      "1126320389791096832"
+    ],
+    "draft_id": "1155996349155045376",
+    "draft_order": {
+      "1087502804492636160": 10,
+      "1126320389791096832": 1,
+      "1132151390861717504": 11,
+      "1133938442456453120": 2,
+      "728478533118169088": 3,
+      "732321364861652992": 8,
+      "854785777429753856": 7,
+      "857835167300075520": 6,
+      "861099367795392512": 9,
+      "871992211007528960": 12,
+      "958250559578906624": 4,
+      "979610977693908992": 5
+    },
+    "last_message_id": "1156305150278033408",
+    "last_message_time": 1730047140238,
+    "last_picked": 1730047139286,
+    "league_id": "1155996348253265920",
+    "metadata": {
+      "description": "",
+      "name": "Draft today 11:30 am et",
+      "scoring_type": "2qb"
+    },
+    "season": "2024",
+    "season_type": "regular",
+    "settings": {
+      "alpha_sort": 0,
+      "autopause_enabled": 0,
+      "autopause_end_time": 840,
+      "autopause_start_time": 120,
+      "autostart": 0,
+      "cpu_autopick": 1,
+      "enforce_position_limits": 1,
+      "nomination_timer": 60,
+      "pick_timer": 30,
+      "player_type": 0,
+      "position_limit_def": 2,
+      "position_limit_te": 3,
+      "reversal_round": 0,
+      "rounds": 17,
+      "slots_bn": 6,
+      "slots_def": 1,
+      "slots_flex": 2,
+      "slots_k": 1,
+      "slots_qb": 1,
+      "slots_rb": 2,
+      "slots_super_flex": 1,
+      "slots_te": 1,
+      "slots_wr": 2,
+      "teams": 12
+    },
+    "sport": "nfl",
+    "start_time": 1730043069580,
+    "status": "complete",
+    "type": "snake"
+  }
+]

@@ -1,0 +1,58 @@
+[
+  {
+    "created": 1727743632979,
+    "creators": [
+      "1002986426503524352"
+    ],
+    "draft_id": "1146643540605698048",
+    "draft_order": {
+      "1002344855919620096": 3,
+      "1002774339017687040": 2,
+      "1002986426503524352": 8,
+      "1005534339922350080": 6,
+      "1006999599132819456": 10,
+      "1109243890063990784": 1,
+      "1118678669683183616": 5,
+      "1137124898385616896": 4,
+      "739322918512795648": 9,
+      "995837154678947840": 7
+    },
+    "last_message_id": "1146681259440091136",
+    "last_message_time": 1727752625859,
+    "last_picked": 1727752624876,
+    "league_id": "1146643539108540416",
+    "metadata": {
+      "description": "",
+      "name": "Beats by Ray",
+      "scoring_type": "ppr"
+    },
+    "season": "2024",
+    "season_type": "regular",
+    "settings": {
+      "alpha_sort": 0,
+      "autopause_enabled": 0,
+      "autopause_end_time": 840,
+      "autopause_start_time": 120,
+      "autostart": 0,
+      "cpu_autopick": 1,
+      "nomination_timer": 60,
+      "pick_timer": 60,
+      "player_type": 0,
+      "reversal_round": 0,
+      "rounds": 16,
+      "slots_bn": 5,
+      "slots_def": 1,
+      "slots_flex": 3,
+      "slots_k": 1,
+      "slots_qb": 1,
+      "slots_rb": 2,
+      "slots_te": 1,
+      "slots_wr": 2,
+      "teams": 10
+    },
+    "sport": "nfl",
+    "start_time": 1727749831717,
+    "status": "complete",
+    "type": "snake"
+  }
+]

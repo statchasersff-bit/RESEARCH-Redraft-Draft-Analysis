@@ -1,0 +1,211 @@
+[
+  {
+    "avatar": "a386265657604fe26398c273574e8aba",
+    "display_name": "Joshisgood1234",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1129229257772888064",
+    "metadata": {
+      "allow_pn": "on",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "725415520836337664"
+  },
+  {
+    "avatar": "c9d3ec811985f1c334c0b8612680c326",
+    "display_name": "RoccoGio",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1129229257772888064",
+    "metadata": {
+      "allow_pn": "on",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "725417379403739136"
+  },
+  {
+    "avatar": "f0edbf4278f53f9425db175073df6584",
+    "display_name": "SeanJohnson4",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1129229257772888064",
+    "metadata": {
+      "allow_pn": "on",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "731249933767790592"
+  },
+  {
+    "avatar": "4f4090e5e9c3941414db40a871e3e909",
+    "display_name": "matthewbruenn",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1129229257772888064",
+    "metadata": {
+      "allow_pn": "on",
+      "archived": "on",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "776585632884580352"
+  },
+  {
+    "avatar": "82aec8e811b839b8ec25d7b458afd57b",
+    "display_name": "laflanik",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1129229257772888064",
+    "metadata": {
+      "allow_pn": "on",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "805181628828717056"
+  },
+  {
+    "avatar": "8f8358ebbab9ad7ef36b6f39259ff3ff",
+    "display_name": "Milo307",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1129229257772888064",
+    "metadata": {
+      "allow_pn": "on",
+      "allow_sms": "on",
+      "archived": "on",
+      "avatar": "https://sleepercdn.com/uploads/a4c48a1a728e268d7e82c9be93ebd9d0.jpg",
+      "league_report_pn": "on",
+      "mascot_message": "on",
+      "mention_pn": "on",
+      "player_like_pn": "on",
+      "player_nickname_update": "on",
+      "team_name": "LGBTQB1",
+      "team_name_update": "on",
+      "trade_block_pn": "on",
+      "transaction_commissioner": "on",
+      "transaction_free_agent": "on",
+      "transaction_trade": "on",
+      "transaction_waiver": "on",
+      "user_message_pn": "on"
+    },
+    "settings": null,
+    "user_id": "855403245772853248"
+  },
+  {
+    "avatar": "e1a68c9c236d9fc841fbf7100f1fda69",
+    "display_name": "RetiredFedDave",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1129229257772888064",
+    "metadata": {
+      "allow_pn": "off",
+      "archived": "on",
+      "league_report_pn": "on",
+      "mascot_message": "off",
+      "mention_pn": "off",
+      "player_like_pn": "on",
+      "player_nickname_update": "off",
+      "team_name": "Spank GenZ",
+      "team_name_update": "off",
+      "trade_block_pn": "on",
+      "transaction_commissioner": "off",
+      "transaction_free_agent": "on",
+      "transaction_trade": "on",
+      "transaction_waiver": "on",
+      "user_message_pn": "on"
+    },
+    "settings": null,
+    "user_id": "857835167300075520"
+  },
+  {
+    "avatar": "b319fdf8b7b5b0359d3c78622ba4d70c",
+    "display_name": "maxtolan77",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1129229257772888064",
+    "metadata": {
+      "allow_pn": "on",
+      "mention_pn": "on",
+      "team_name": "David Tepper’s Hairline"
+    },
+    "settings": null,
+    "user_id": "1001234977968803840"
+  },
+  {
+    "avatar": "b319fdf8b7b5b0359d3c78622ba4d70c",
+    "display_name": "Gilgotraz",
+    "is_bot": false,
+    "is_owner": true,
+    "league_id": "1129229257772888064",
+    "metadata": {
+      "allow_pn": "on",
+      "allow_sms": "on",
+      "archived": "on",
+      "avatar": "https://sleepercdn.com/uploads/02ec84ee8652d7147012d0bacafce7e2.jpg",
+      "mention_pn": "on",
+      "team_name": "Apple Juszc"
+    },
+    "settings": null,
+    "user_id": "1005312537525415936"
+  },
+  {
+    "avatar": "82aec8e811b839b8ec25d7b458afd57b",
+    "display_name": "brendanbevins",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1129229257772888064",
+    "metadata": {
+      "allow_pn": "off",
+      "allow_sms": "on",
+      "avatar": "https://sleepercdn.com/uploads/cfe0e3d0894dae6b36dbf41dfa33f1ee.jpg",
+      "league_report_pn": "on",
+      "mascot_message": "on",
+      "mention_pn": "on",
+      "player_like_pn": "on",
+      "player_nickname_update": "on",
+      "team_name": "saquon barkley #1 hater",
+      "team_name_update": "on",
+      "trade_block_pn": "on",
+      "transaction_commissioner": "on",
+      "transaction_free_agent": "on",
+      "transaction_trade": "on",
+      "transaction_waiver": "on",
+      "user_message_pn": "on"
+    },
+    "settings": null,
+    "user_id": "1129247812966920192"
+  },
+  {
+    "avatar": "4f4090e5e9c3941414db40a871e3e909",
+    "display_name": "jdog120604",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1129229257772888064",
+    "metadata": {
+      "allow_pn": "on",
+      "allow_sms": "on",
+      "mention_pn": "on",
+      "team_name": "Rub n Chubb"
+    },
+    "settings": null,
+    "user_id": "1129260328149192704"
+  },
+  {
+    "avatar": "4f4090e5e9c3941414db40a871e3e909",
+    "display_name": "Spwalsh126",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1129229257772888064",
+    "metadata": {
+      "allow_pn": "on",
+      "allow_sms": "on",
+      "avatar": "https://sleepercdn.com/uploads/bf22ba09bb3f8cfa2db4ecccf6103a84.jpg",
+      "mention_pn": "on",
+      "team_name": "Hawk Tuah "
+    },
+    "settings": null,
+    "user_id": "1129262432511328256"
+  }
+]

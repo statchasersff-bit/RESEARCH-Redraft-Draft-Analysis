@@ -1,0 +1,71 @@
+{
+  "created": 1723588682966,
+  "creators": [
+    "562731664514191360"
+  ],
+  "draft_id": "1129216417166983168",
+  "draft_order": {
+    "1129228094637858816": 9,
+    "472677951763116032": 3,
+    "54359837525819392": 10,
+    "562731664514191360": 11,
+    "573309612856315904": 6,
+    "700526891781656576": 2,
+    "831520778162933760": 1,
+    "845094560374824960": 5,
+    "989104214469083136": 7,
+    "994400427116376064": 8,
+    "995004895872757760": 12
+  },
+  "last_message_id": "1129255947915796480",
+  "last_message_time": 1723598107845,
+  "last_picked": 1723598105959,
+  "league_id": "1129216415917027328",
+  "metadata": {
+    "description": "",
+    "name": "$25 Redraft #102",
+    "scoring_type": "2qb"
+  },
+  "season": "2024",
+  "season_type": "regular",
+  "settings": {
+    "alpha_sort": 0,
+    "autopause_enabled": 0,
+    "autopause_end_time": 840,
+    "autopause_start_time": 120,
+    "autostart": 0,
+    "cpu_autopick": 1,
+    "enforce_position_limits": 1,
+    "nomination_timer": 60,
+    "pick_timer": 30,
+    "player_type": 0,
+    "reversal_round": 0,
+    "rounds": 18,
+    "slots_bn": 8,
+    "slots_flex": 2,
+    "slots_qb": 1,
+    "slots_rb": 2,
+    "slots_super_flex": 1,
+    "slots_te": 1,
+    "slots_wr": 3,
+    "teams": 12
+  },
+  "slot_to_roster_id": {
+    "1": 2,
+    "2": 10,
+    "3": 6,
+    "4": 7,
+    "5": 4,
+    "6": 8,
+    "7": 11,
+    "8": 12,
+    "9": 9,
+    "10": 3,
+    "11": 1,
+    "12": 5
+  },
+  "sport": "nfl",
+  "start_time": 1723594643324,
+  "status": "complete",
+  "type": "snake"
+}

@@ -1,0 +1,220 @@
+[
+  {
+    "avatar": "82675f0bd8d8363a76d75a4eaa7eeeae",
+    "display_name": "smmorin5",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1126691758416510976",
+    "metadata": {
+      "allow_pn": "on",
+      "allow_sms": "off",
+      "archived": "on",
+      "avatar": "https://sleepercdn.com/uploads/f2160cfe4515e3c420c12ebcada8ff6b.jpg",
+      "mention_pn": "on",
+      "team_name": "Dipalwall Brew Crew "
+    },
+    "settings": null,
+    "user_id": "472526093044150272"
+  },
+  {
+    "avatar": "9119fa8896488a976a301166fa320a2e",
+    "display_name": "khorak86",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1126691758416510976",
+    "metadata": {
+      "allow_pn": "on",
+      "archived": "on",
+      "mention_pn": "on",
+      "team_name": "Slow Draft PTSD"
+    },
+    "settings": null,
+    "user_id": "559216444229914624"
+  },
+  {
+    "avatar": "b3338675f635c2c1f42b469621d38ec6",
+    "display_name": "breenobo",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1126691758416510976",
+    "metadata": {
+      "allow_pn": "on",
+      "allow_sms": "on",
+      "avatar": "https://sleepercdn.com/uploads/6a45e9c28171a6b7fc723ea7c5f48e44.jpg",
+      "mention_pn": "on",
+      "team_name": "PowerTop Pegging LLC"
+    },
+    "settings": null,
+    "user_id": "733870046803316736"
+  },
+  {
+    "avatar": "6b3c9465584bac6f0bb0eef5c481a584",
+    "display_name": "Marik12",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1126691758416510976",
+    "metadata": {
+      "allow_pn": "on",
+      "archived": "on",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "841796739173322752"
+  },
+  {
+    "avatar": "ec794bb24c1801fd8e1bd774cbfb0d5d",
+    "display_name": "superdave2themax",
+    "is_bot": false,
+    "is_owner": true,
+    "league_id": "1126691758416510976",
+    "metadata": {
+      "allow_pn": "on",
+      "archived": "on",
+      "avatar": "https://sleepercdn.com/uploads/ca78a186f01e72e993af2f5389c6f060",
+      "mention_pn": "on",
+      "team_name": "The ManTaylorian"
+    },
+    "settings": null,
+    "user_id": "857479815278755840"
+  },
+  {
+    "avatar": "6dbd8ff3982087f48ef5862ad44a24e5",
+    "display_name": "SBN2311",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1126691758416510976",
+    "metadata": {
+      "allow_pn": "on",
+      "archived": "on",
+      "avatar": "https://sleepercdn.com/uploads/5a1f2833cb9f15e06ff061ce5adf0f21.jpg",
+      "league_report_pn": "on",
+      "mascot_message": "on",
+      "mention_pn": "on",
+      "player_like_pn": "on",
+      "player_nickname_update": "on",
+      "team_name": "Team L’enFant",
+      "team_name_update": "on",
+      "trade_block_pn": "on",
+      "transaction_commissioner": "on",
+      "transaction_free_agent": "on",
+      "transaction_trade": "on",
+      "transaction_waiver": "on",
+      "user_message_pn": "on"
+    },
+    "settings": null,
+    "user_id": "857653942228721664"
+  },
+  {
+    "avatar": "9a973a4a24b112df16ef4759a7b0f2ab",
+    "display_name": "AmyEastTN79",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1126691758416510976",
+    "metadata": {
+      "allow_pn": "on",
+      "allow_sms": "on",
+      "archived": "on",
+      "league_report_pn": "on",
+      "mascot_message": "on",
+      "mention_pn": "on",
+      "player_like_pn": "on",
+      "player_nickname_update": "on",
+      "team_name": "IR sufferin’",
+      "team_name_update": "on",
+      "trade_block_pn": "on",
+      "transaction_commissioner": "on",
+      "transaction_free_agent": "on",
+      "transaction_trade": "on",
+      "transaction_waiver": "on",
+      "user_message_pn": "on"
+    },
+    "settings": null,
+    "user_id": "867534014821609472"
+  },
+  {
+    "avatar": "79b5f6494b82389f7447a8309fb5c594",
+    "display_name": "laselect14",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1126691758416510976",
+    "metadata": {
+      "allow_pn": "on",
+      "archived": "on",
+      "league_report_pn": "off",
+      "mascot_message": "on",
+      "mention_pn": "on",
+      "player_like_pn": "on",
+      "player_nickname_update": "on",
+      "team_name": "DontTellMyWife",
+      "team_name_update": "on",
+      "trade_block_pn": "on",
+      "transaction_commissioner": "on",
+      "transaction_free_agent": "on",
+      "transaction_trade": "on",
+      "transaction_waiver": "on",
+      "user_message_pn": "on"
+    },
+    "settings": null,
+    "user_id": "954077747045879808"
+  },
+  {
+    "avatar": "34d44dd802ce5acd79b66ac58ed98cf2",
+    "display_name": "markisboss",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1126691758416510976",
+    "metadata": {
+      "allow_pn": "on",
+      "archived": "on",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "961744439204954112"
+  },
+  {
+    "avatar": "67ef8210f23e4be4aece5c76351eb0f7",
+    "display_name": "Johnjamesxx",
+    "is_bot": false,
+    "is_owner": true,
+    "league_id": "1126691758416510976",
+    "metadata": {
+      "allow_pn": "on",
+      "allow_sms": "off",
+      "archived": "on",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "997004826523340800"
+  },
+  {
+    "avatar": "2ca41bf0ef4190c75cb2ae03c83305ca",
+    "display_name": "Fort413",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1126691758416510976",
+    "metadata": {
+      "allow_pn": "on",
+      "archived": "on",
+      "mention_pn": "on",
+      "team_name": "Off Constantly"
+    },
+    "settings": null,
+    "user_id": "1062110546754973696"
+  },
+  {
+    "avatar": "f0edbf4278f53f9425db175073df6584",
+    "display_name": "RalphOgletree",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1126691758416510976",
+    "metadata": {
+      "allow_pn": "on",
+      "allow_sms": "on",
+      "archived": "on",
+      "mention_pn": "on",
+      "team_name": "King Henry's Court"
+    },
+    "settings": null,
+    "user_id": "1125401968186425344"
+  }
+]

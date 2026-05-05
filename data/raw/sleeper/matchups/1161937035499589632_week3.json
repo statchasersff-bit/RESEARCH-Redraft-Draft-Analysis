@@ -1,0 +1,102 @@
+[
+  {
+    "points": 0,
+    "players": null,
+    "roster_id": 1,
+    "custom_points": null,
+    "matchup_id": 1,
+    "starters": null,
+    "starters_points": [],
+    "players_points": {}
+  },
+  {
+    "points": 0,
+    "players": null,
+    "roster_id": 2,
+    "custom_points": null,
+    "matchup_id": 5,
+    "starters": null,
+    "starters_points": [],
+    "players_points": {}
+  },
+  {
+    "points": 0,
+    "players": null,
+    "roster_id": 3,
+    "custom_points": null,
+    "matchup_id": 3,
+    "starters": null,
+    "starters_points": [],
+    "players_points": {}
+  },
+  {
+    "points": 0,
+    "players": null,
+    "roster_id": 4,
+    "custom_points": null,
+    "matchup_id": 5,
+    "starters": null,
+    "starters_points": [],
+    "players_points": {}
+  },
+  {
+    "points": 0,
+    "players": null,
+    "roster_id": 5,
+    "custom_points": null,
+    "matchup_id": 1,
+    "starters": null,
+    "starters_points": [],
+    "players_points": {}
+  },
+  {
+    "points": 0,
+    "players": null,
+    "roster_id": 6,
+    "custom_points": null,
+    "matchup_id": 2,
+    "starters": null,
+    "starters_points": [],
+    "players_points": {}
+  },
+  {
+    "points": 0,
+    "players": null,
+    "roster_id": 7,
+    "custom_points": null,
+    "matchup_id": 4,
+    "starters": null,
+    "starters_points": [],
+    "players_points": {}
+  },
+  {
+    "points": 0,
+    "players": null,
+    "roster_id": 8,
+    "custom_points": null,
+    "matchup_id": 4,
+    "starters": null,
+    "starters_points": [],
+    "players_points": {}
+  },
+  {
+    "points": 0,
+    "players": null,
+    "roster_id": 9,
+    "custom_points": null,
+    "matchup_id": 2,
+    "starters": null,
+    "starters_points": [],
+    "players_points": {}
+  },
+  {
+    "points": 0,
+    "players": null,
+    "roster_id": 10,
+    "custom_points": null,
+    "matchup_id": 3,
+    "starters": null,
+    "starters_points": [],
+    "players_points": {}
+  }
+]

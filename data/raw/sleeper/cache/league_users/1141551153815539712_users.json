@@ -1,0 +1,167 @@
+[
+  {
+    "avatar": "36166994b8d91c11dc6d5b1433490d0b",
+    "display_name": "1300WOLO",
+    "is_bot": false,
+    "is_owner": true,
+    "league_id": "1141551153815539712",
+    "metadata": {
+      "allow_pn": "on",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "1018658773868634112"
+  },
+  {
+    "avatar": "1141c78ca0c82043f783d50a45f3ff48",
+    "display_name": "TrixzyEgo",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1141551153815539712",
+    "metadata": {
+      "allow_pn": "on",
+      "avatar": "https://sleepercdn.com/uploads/c3e3eb1b94690b10e0edf1304a719c0f.jpg",
+      "mention_pn": "on",
+      "team_name": "Wash Your Pitts & Penix"
+    },
+    "settings": null,
+    "user_id": "1037808557175054336"
+  },
+  {
+    "avatar": "f95296cfb7daf04a7bbeb95e138c3933",
+    "display_name": "TecopaCowboy14U",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1141551153815539712",
+    "metadata": {
+      "allow_pn": "on",
+      "allow_sms": "on",
+      "avatar": "https://sleepercdn.com/uploads/96ff803c9a8410e325dfa58a9b315eb4.jpg",
+      "league_report_pn": "off",
+      "mascot_message": "off",
+      "mention_pn": "off",
+      "player_like_pn": "on",
+      "player_nickname_update": "off",
+      "team_name": "Tecopa Cowboy",
+      "team_name_update": "off",
+      "trade_block_pn": "off",
+      "transaction_commissioner": "off",
+      "transaction_free_agent": "off",
+      "transaction_trade": "off",
+      "transaction_waiver": "off",
+      "user_message_pn": "on"
+    },
+    "settings": null,
+    "user_id": "1082124006666506240"
+  },
+  {
+    "avatar": "4f4090e5e9c3941414db40a871e3e909",
+    "display_name": "Trunggo9000",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1141551153815539712",
+    "metadata": {
+      "allow_pn": "off",
+      "archived": "on",
+      "league_report_pn": "on",
+      "mascot_message": "off",
+      "mention_pn": "off",
+      "player_like_pn": "off",
+      "player_nickname_update": "off",
+      "team_name_update": "off",
+      "trade_block_pn": "off",
+      "transaction_commissioner": "off",
+      "transaction_free_agent": "on",
+      "transaction_trade": "off",
+      "transaction_waiver": "on",
+      "user_message_pn": "off"
+    },
+    "settings": null,
+    "user_id": "1087288208943075328"
+  },
+  {
+    "avatar": "4f4090e5e9c3941414db40a871e3e909",
+    "display_name": "stefonDiggsmoney3",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1141551153815539712",
+    "metadata": {
+      "allow_pn": "on",
+      "archived": "off",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "1118678669683183616"
+  },
+  {
+    "avatar": "a8ea376bbc8a3590f2cb6adf5c0e8bb1",
+    "display_name": "CJ7Stroud",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1141551153815539712",
+    "metadata": {
+      "allow_pn": "on",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "1125970101544558592"
+  },
+  {
+    "avatar": "82aec8e811b839b8ec25d7b458afd57b",
+    "display_name": "mrale017",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1141551153815539712",
+    "metadata": {
+      "allow_pn": "on",
+      "allow_sms": "on",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "1133737936626790400"
+  },
+  {
+    "avatar": "82aec8e811b839b8ec25d7b458afd57b",
+    "display_name": "rams991017",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1141551153815539712",
+    "metadata": {
+      "allow_pn": "on",
+      "archived": "off",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "1136225075625086976"
+  },
+  {
+    "avatar": "d3562947f636c5be95c21e5e7a4a5ff4",
+    "display_name": "LuhCrashOut",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1141551153815539712",
+    "metadata": {
+      "allow_pn": "on",
+      "allow_sms": "on",
+      "archived": "off",
+      "mention_pn": "on",
+      "team_name": "Hurts When I Go Deep"
+    },
+    "settings": null,
+    "user_id": "1140109682415443968"
+  },
+  {
+    "avatar": "43e42cacdfeb5b010eefa0f63d3689f0",
+    "display_name": "etlll",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1141551153815539712",
+    "metadata": {
+      "allow_pn": "on",
+      "allow_sms": "on",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "1141944316789665792"
+  }
+]

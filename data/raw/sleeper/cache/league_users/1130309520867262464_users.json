@@ -1,0 +1,190 @@
+[
+  {
+    "avatar": "nfl_det",
+    "display_name": "greekdawg",
+    "is_bot": null,
+    "is_owner": null,
+    "league_id": "1130309520867262464",
+    "metadata": {
+      "allow_pn": "on",
+      "archived": "on",
+      "mention_pn": "on",
+      "team_name": "10 Inch Ditkas"
+    },
+    "settings": null,
+    "user_id": "100908832284622848"
+  },
+  {
+    "avatar": "77e459cf1664a5839f6914bc92ed313b",
+    "display_name": "FFRob18",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1130309520867262464",
+    "metadata": {
+      "allow_pn": "on",
+      "archived": "on",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "446454415155523584"
+  },
+  {
+    "avatar": "dc3b39f77ffd6b27487d8ba41ec99767",
+    "display_name": "jdome31",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1130309520867262464",
+    "metadata": {
+      "allow_pn": "off",
+      "archived": "on",
+      "league_report_pn": "off",
+      "mascot_message": "off",
+      "mention_pn": "on",
+      "player_like_pn": "on",
+      "player_nickname_update": "off",
+      "team_name": "Elim",
+      "team_name_update": "off",
+      "trade_block_pn": "on",
+      "transaction_commissioner": "on",
+      "transaction_free_agent": "off",
+      "transaction_trade": "on",
+      "transaction_waiver": "off",
+      "user_message_pn": "off"
+    },
+    "settings": null,
+    "user_id": "604058045642772480"
+  },
+  {
+    "avatar": "eca7b148fd6e607c0c9dbde3c6643c38",
+    "display_name": "Bigjf",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1130309520867262464",
+    "metadata": {
+      "allow_pn": "on",
+      "archived": "on",
+      "mention_pn": "on",
+      "team_name": "Soul Glo"
+    },
+    "settings": null,
+    "user_id": "605917079266226176"
+  },
+  {
+    "avatar": "42134e4a740bc50e6a0e1bca8c10a9d5",
+    "display_name": "jdoyel",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1130309520867262464",
+    "metadata": {
+      "allow_pn": "on",
+      "archived": "on",
+      "mention_pn": "on",
+      "team_name": "Daddy Doyel"
+    },
+    "settings": null,
+    "user_id": "667807547402559488"
+  },
+  {
+    "avatar": "00dde01c84a96f750d46b6cc51ec540d",
+    "display_name": "WinnerCircle13",
+    "is_bot": false,
+    "is_owner": true,
+    "league_id": "1130309520867262464",
+    "metadata": {
+      "allow_pn": "on",
+      "archived": "on",
+      "avatar": "https://sleepercdn.com/uploads/882f9b084c8ea9c8876b844a731a6fc6.jpg",
+      "mention_pn": "on",
+      "team_name": "Here comes the Mcbride"
+    },
+    "settings": null,
+    "user_id": "732004539489714176"
+  },
+  {
+    "avatar": "57384b3052816047d8376440fc80df4a",
+    "display_name": "llerwick",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1130309520867262464",
+    "metadata": {
+      "allow_pn": "on",
+      "archived": "on",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "737046516736352256"
+  },
+  {
+    "avatar": "8440e24a71137a7b2042adbf8684af32",
+    "display_name": "MarkyMark619999",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1130309520867262464",
+    "metadata": {
+      "allow_pn": "on",
+      "archived": "on",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "871847218557145088"
+  },
+  {
+    "avatar": "4d531426ebc73bf4c4a02fbb367ea225",
+    "display_name": "jimbo1964",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1130309520867262464",
+    "metadata": {
+      "allow_pn": "on",
+      "archived": "on",
+      "avatar": "https://sleepercdn.com/uploads/4927eca44ddfd897f89759403ad37644",
+      "mention_pn": "on",
+      "team_name": "Dudley Do-right"
+    },
+    "settings": null,
+    "user_id": "956962521917800448"
+  },
+  {
+    "avatar": "2b19f4d42f1c0cf7973a4819c7421dfd",
+    "display_name": "jmeushaw",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1130309520867262464",
+    "metadata": {
+      "allow_pn": "on",
+      "archived": "on",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "1001546345347383296"
+  },
+  {
+    "avatar": "15d7cf259bc30eab8f6120f45f652fb6",
+    "display_name": "Oliver6091",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1130309520867262464",
+    "metadata": {
+      "allow_pn": "on",
+      "archived": "on",
+      "mention_pn": "on",
+      "team_name": "Levis"
+    },
+    "settings": null,
+    "user_id": "1002410896691474432"
+  },
+  {
+    "avatar": "bd69f210a6330dcf9c355da6919a6934",
+    "display_name": "BigSteppers1",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1130309520867262464",
+    "metadata": {
+      "allow_pn": "on",
+      "archived": "on",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "1049880910487179264"
+  }
+]

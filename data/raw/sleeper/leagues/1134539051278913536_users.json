@@ -1,0 +1,172 @@
+[
+  {
+    "avatar": "8fee88d88b929b7de727a5c197320a4d",
+    "display_name": "Vgavin3",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1134539051278913536",
+    "metadata": {
+      "allow_pn": "on",
+      "allow_sms": "on",
+      "archived": "on",
+      "avatar": "https://sleepercdn.com/uploads/a8ef36f698f22ea9db977474f4f86f87.jpg",
+      "mention_pn": "on",
+      "team_name": "Kupp of Rice"
+    },
+    "settings": null,
+    "user_id": "651923075243282432"
+  },
+  {
+    "avatar": "338fc1db576669ca5eccb1a003b2343c",
+    "display_name": "ohhmar1",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1134539051278913536",
+    "metadata": {
+      "allow_pn": "off",
+      "archived": "off",
+      "league_report_pn": "on",
+      "mascot_message": "on",
+      "mention_pn": "on",
+      "player_like_pn": "on",
+      "player_nickname_update": "on",
+      "team_name_update": "on",
+      "trade_block_pn": "off",
+      "transaction_commissioner": "on",
+      "transaction_free_agent": "off",
+      "transaction_trade": "off",
+      "transaction_waiver": "off",
+      "user_message_pn": "off"
+    },
+    "settings": null,
+    "user_id": "729626940595630080"
+  },
+  {
+    "avatar": "15d7cf259bc30eab8f6120f45f652fb6",
+    "display_name": "Murfin10",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1134539051278913536",
+    "metadata": {
+      "allow_pn": "on",
+      "avatar": "https://sleepercdn.com/uploads/daa56f29a078ca360cbfb0a1b30efea2.jpg",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "737239715937390592"
+  },
+  {
+    "avatar": "84c44d3e368e17d9f129e69780c3ed8f",
+    "display_name": "IcyK70",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1134539051278913536",
+    "metadata": {
+      "allow_pn": "on",
+      "archived": "on",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "860984322319028224"
+  },
+  {
+    "avatar": "8ceff6e4c9cf8073669705de305344d9",
+    "display_name": "EJsFather",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1134539051278913536",
+    "metadata": {
+      "allow_pn": "on",
+      "allow_sms": "on",
+      "archived": "on",
+      "mention_pn": "on",
+      "team_name": "RB University "
+    },
+    "settings": null,
+    "user_id": "867586182693953536"
+  },
+  {
+    "avatar": "82aec8e811b839b8ec25d7b458afd57b",
+    "display_name": "NastyySleeper",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1134539051278913536",
+    "metadata": {
+      "allow_pn": "on",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "995135053518708736"
+  },
+  {
+    "avatar": "15d7cf259bc30eab8f6120f45f652fb6",
+    "display_name": "DeeMoney22",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1134539051278913536",
+    "metadata": {
+      "allow_pn": "on",
+      "allow_sms": "on",
+      "archived": "on",
+      "mention_pn": "on",
+      "team_name": "McLovin'"
+    },
+    "settings": null,
+    "user_id": "1002397039679864832"
+  },
+  {
+    "avatar": "8a259d3ece704dbba7c9ffe6d119615f",
+    "display_name": "CartuneBartune",
+    "is_bot": false,
+    "is_owner": true,
+    "league_id": "1134539051278913536",
+    "metadata": {
+      "allow_pn": "on",
+      "allow_sms": "on",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "1008013298453389312"
+  },
+  {
+    "avatar": "4f4090e5e9c3941414db40a871e3e909",
+    "display_name": "GottaLovett7",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1134539051278913536",
+    "metadata": {
+      "allow_pn": "on",
+      "allow_sms": "on",
+      "avatar": "https://sleepercdn.com/uploads/a79d199c97cddae3edb8b156a7330c49.jpg",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "1134488972258000896"
+  },
+  {
+    "avatar": "82aec8e811b839b8ec25d7b458afd57b",
+    "display_name": "docbme",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1134539051278913536",
+    "metadata": {
+      "allow_pn": "on",
+      "allow_sms": "on",
+      "league_report_pn": "on",
+      "mascot_message": "on",
+      "mention_pn": "on",
+      "player_like_pn": "on",
+      "player_nickname_update": "off",
+      "team_name": "Bradley",
+      "team_name_update": "off",
+      "trade_block_pn": "on",
+      "transaction_commissioner": "on",
+      "transaction_free_agent": "off",
+      "transaction_trade": "on",
+      "transaction_waiver": "on",
+      "user_message_pn": "on"
+    },
+    "settings": null,
+    "user_id": "1135242000707629056"
+  }
+]

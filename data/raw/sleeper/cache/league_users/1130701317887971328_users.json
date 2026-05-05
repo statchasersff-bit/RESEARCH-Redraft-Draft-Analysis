@@ -1,0 +1,162 @@
+[
+  {
+    "avatar": "9b53e1193fb680610a9ee04e53bd2b32",
+    "display_name": "twoshottam",
+    "is_bot": null,
+    "is_owner": null,
+    "league_id": "1130701317887971328",
+    "metadata": {
+      "allow_pn": "on",
+      "archived": "on",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "96300915568820224"
+  },
+  {
+    "avatar": "f95db663e9af47bb142cd0f0ddd841e2",
+    "display_name": "praven1",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1130701317887971328",
+    "metadata": {
+      "allow_pn": "on",
+      "archived": "on",
+      "avatar": "https://sleepercdn.com/uploads/d11528334c696c13e5397aa83dd6e125",
+      "mention_pn": "on",
+      "team_name": "the Weasel"
+    },
+    "settings": null,
+    "user_id": "300298499524689920"
+  },
+  {
+    "avatar": "a5208aa87c9cef75f3fbe544fb8c19f8",
+    "display_name": "FantasySavag3",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1130701317887971328",
+    "metadata": {
+      "allow_pn": "on",
+      "archived": "on",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "359882933542334464"
+  },
+  {
+    "avatar": "861ff7354f35ac1b8fd2c7dd56bafd73",
+    "display_name": "pmzet",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1130701317887971328",
+    "metadata": {
+      "allow_pn": "on",
+      "archived": "on",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "472677951763116032"
+  },
+  {
+    "avatar": "ef3dcd9099306eb43972af7c61ffa48b",
+    "display_name": "nicbush7",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1130701317887971328",
+    "metadata": {
+      "allow_pn": "on",
+      "archived": "on",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "474349884032413696"
+  },
+  {
+    "avatar": "5fdbb149011019d403735859ebb80013",
+    "display_name": "Ashv27",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1130701317887971328",
+    "metadata": {
+      "allow_pn": "off",
+      "archived": "on",
+      "avatar": "https://sleepercdn.com/uploads/195c67282a39c5408d34a752fba5b5cf.jpg",
+      "league_report_pn": "off",
+      "mascot_message": "off",
+      "mention_pn": "on",
+      "player_like_pn": "off",
+      "player_nickname_update": "off",
+      "team_name": "✅Now U CeeDee, Now U Don",
+      "team_name_update": "off",
+      "trade_block_pn": "off",
+      "transaction_commissioner": "on",
+      "transaction_free_agent": "off",
+      "transaction_trade": "on",
+      "transaction_waiver": "off",
+      "user_message_pn": "off"
+    },
+    "settings": null,
+    "user_id": "481389009403113472"
+  },
+  {
+    "avatar": "a4e5752bbafac8ea623ebf89de13c542",
+    "display_name": "JustinMfHebert",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1130701317887971328",
+    "metadata": {
+      "allow_pn": "on",
+      "archived": "on",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "557076748247461888"
+  },
+  {
+    "avatar": "59fb195242caeab586e35606001a2806",
+    "display_name": "CaptainConstant",
+    "is_bot": false,
+    "is_owner": true,
+    "league_id": "1130701317887971328",
+    "metadata": {
+      "allow_pn": "on",
+      "archived": "off",
+      "avatar": "https://sleepercdn.com/uploads/59fb195242caeab586e35606001a2806.jpg",
+      "mention_pn": "on",
+      "team_name": "Captain Constant"
+    },
+    "settings": null,
+    "user_id": "704220888010145792"
+  },
+  {
+    "avatar": "fa18f14ffd5645bdfd68514b595b9736",
+    "display_name": "CeeGoods",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1130701317887971328",
+    "metadata": {
+      "allow_pn": "on",
+      "archived": "off",
+      "mention_pn": "on",
+      "team_name": "Cooked 👨🏾‍🍳"
+    },
+    "settings": null,
+    "user_id": "841401429070577664"
+  },
+  {
+    "avatar": "5e2acd65f27294905ba2118627f1968b",
+    "display_name": "LeMickeyMouse45",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1130701317887971328",
+    "metadata": {
+      "allow_pn": "on",
+      "archived": "off",
+      "avatar": "https://sleepercdn.com/uploads/80aeb5b27e481487d50acbae60d6349c.jpg",
+      "mention_pn": "on",
+      "team_name": "DJ PooperScooper"
+    },
+    "settings": null,
+    "user_id": "852254781895483392"
+  }
+]

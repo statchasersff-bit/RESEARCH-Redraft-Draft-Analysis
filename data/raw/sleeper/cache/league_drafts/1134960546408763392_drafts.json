@@ -1,0 +1,115 @@
+[
+  {
+    "created": 1725058877779,
+    "creators": [
+      "997342326747983872"
+    ],
+    "draft_id": "1135382861084803072",
+    "draft_order": {
+      "1033879176786575360": 2,
+      "1125440542936006656": 4,
+      "1132797642502955008": 3,
+      "462439437062631424": 9,
+      "729889978473127936": 1,
+      "871048278932926464": 6,
+      "879118050107207680": 7,
+      "995130612400889856": 10,
+      "997342326747983872": 5
+    },
+    "last_message_id": "1135424326531887104",
+    "last_message_time": 1725068763910,
+    "last_picked": 1725068763028,
+    "league_id": "1134960546408763392",
+    "metadata": {
+      "description": "",
+      "name": "Money league",
+      "scoring_type": "ppr"
+    },
+    "season": "2024",
+    "season_type": "regular",
+    "settings": {
+      "alpha_sort": 0,
+      "autopause_enabled": 0,
+      "autopause_end_time": 840,
+      "autopause_start_time": 120,
+      "autostart": 1,
+      "cpu_autopick": 1,
+      "enforce_position_limits": 1,
+      "nomination_timer": 60,
+      "pick_timer": 30,
+      "player_type": 0,
+      "reversal_round": 0,
+      "rounds": 15,
+      "slots_bn": 5,
+      "slots_def": 1,
+      "slots_flex": 2,
+      "slots_k": 1,
+      "slots_qb": 1,
+      "slots_rb": 2,
+      "slots_te": 1,
+      "slots_wr": 2,
+      "teams": 10
+    },
+    "sport": "nfl",
+    "start_time": 1725066047705,
+    "status": "complete",
+    "type": "snake"
+  },
+  {
+    "created": 1724958190416,
+    "creators": [
+      "1033879176786575360"
+    ],
+    "draft_id": "1134960547729993728",
+    "draft_order": {
+      "1033879176786575360": 2,
+      "1125440542936006656": 4,
+      "1132797642502955008": 3,
+      "462439437062631424": 9,
+      "729889978473127936": 1,
+      "871048278932926464": 6,
+      "879118050107207680": 7,
+      "990904202048180224": 8,
+      "995130612400889856": 10,
+      "997342326747983872": 5
+    },
+    "last_message_id": "1135382657594040320",
+    "last_message_time": 1725058829261,
+    "last_picked": 1725058448539,
+    "league_id": "1134960546408763392",
+    "metadata": {
+      "description": "",
+      "name": "Money league",
+      "scoring_type": "ppr"
+    },
+    "season": "2024",
+    "season_type": "regular",
+    "settings": {
+      "alpha_sort": 0,
+      "autopause_enabled": 0,
+      "autopause_end_time": 840,
+      "autopause_start_time": 120,
+      "autostart": 0,
+      "cpu_autopick": 1,
+      "enforce_position_limits": 1,
+      "nomination_timer": 60,
+      "pick_timer": 0,
+      "player_type": 0,
+      "reversal_round": 0,
+      "rounds": 15,
+      "slots_bn": 5,
+      "slots_def": 1,
+      "slots_flex": 2,
+      "slots_k": 1,
+      "slots_qb": 1,
+      "slots_rb": 2,
+      "slots_te": 1,
+      "slots_wr": 2,
+      "teams": 10
+    },
+    "sport": "nfl",
+    "start_time": 1725058361015,
+    "status": "complete",
+    "type": "snake"
+  }
+]

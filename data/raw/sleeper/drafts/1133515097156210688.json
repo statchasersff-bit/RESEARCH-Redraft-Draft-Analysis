@@ -1,0 +1,72 @@
+{
+  "created": 1724613568127,
+  "creators": [
+    "1121159371695734784"
+  ],
+  "draft_id": "1133515097156210688",
+  "draft_order": {
+    "1121159371695734784": 7,
+    "325153072395337728": 6,
+    "468115130463285248": 4,
+    "474875183971168256": 1,
+    "603649603568472064": 8,
+    "608160157133787136": 3,
+    "725410505711259648": 11,
+    "741302376291586048": 10,
+    "831520778162933760": 9,
+    "871273108580007936": 5,
+    "96300915568820224": 2,
+    "986679729161916416": 12
+  },
+  "last_message_id": "1133565803556499456",
+  "last_message_time": 1724625657503,
+  "last_picked": 1724625656522,
+  "league_id": "1133515096057327616",
+  "metadata": {
+    "description": "",
+    "name": "Shotcallers",
+    "scoring_type": "ppr"
+  },
+  "season": "2024",
+  "season_type": "regular",
+  "settings": {
+    "alpha_sort": 0,
+    "autopause_enabled": 0,
+    "autopause_end_time": 840,
+    "autopause_start_time": 120,
+    "autostart": 1,
+    "cpu_autopick": 1,
+    "enforce_position_limits": 1,
+    "nomination_timer": 60,
+    "pick_timer": 60,
+    "player_type": 0,
+    "reversal_round": 0,
+    "rounds": 14,
+    "slots_bn": 5,
+    "slots_def": 1,
+    "slots_flex": 2,
+    "slots_qb": 1,
+    "slots_rb": 2,
+    "slots_te": 1,
+    "slots_wr": 2,
+    "teams": 12
+  },
+  "slot_to_roster_id": {
+    "1": 6,
+    "2": 9,
+    "3": 2,
+    "4": 11,
+    "5": 4,
+    "6": 10,
+    "7": 1,
+    "8": 7,
+    "9": 12,
+    "10": 8,
+    "11": 5,
+    "12": 3
+  },
+  "sport": "nfl",
+  "start_time": 1724621165635,
+  "status": "complete",
+  "type": "snake"
+}

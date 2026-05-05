@@ -1,0 +1,60 @@
+[
+  {
+    "created": 1713309177305,
+    "creators": [
+      "341414316114776064"
+    ],
+    "draft_id": "1086101045438160896",
+    "draft_order": {
+      "191220052207345664": 5,
+      "298661099874553856": 8,
+      "341414316114776064": 6,
+      "436956153885224960": 3,
+      "472677951763116032": 12,
+      "573345185978478592": 7,
+      "602911925281562624": 2,
+      "693966897384861696": 10,
+      "695660802903994368": 11,
+      "698617461037137920": 9,
+      "969000715156803584": 1,
+      "991852795462586368": 4
+    },
+    "last_message_id": "1089372842832953344",
+    "last_message_time": 1714089234601,
+    "last_picked": 1714089233824,
+    "league_id": "1086101042946732032",
+    "metadata": {
+      "description": "",
+      "name": "NFL Draft Party",
+      "scoring_type": "2qb"
+    },
+    "season": "2024",
+    "season_type": "regular",
+    "settings": {
+      "alpha_sort": 0,
+      "autopause_enabled": 0,
+      "autopause_end_time": 1320,
+      "autopause_start_time": 600,
+      "autostart": 0,
+      "cpu_autopick": 1,
+      "enforce_position_limits": 1,
+      "nomination_timer": 60,
+      "pick_timer": 90,
+      "player_type": 0,
+      "reversal_round": 0,
+      "rounds": 20,
+      "slots_bn": 9,
+      "slots_flex": 3,
+      "slots_qb": 1,
+      "slots_rb": 2,
+      "slots_super_flex": 1,
+      "slots_te": 1,
+      "slots_wr": 3,
+      "teams": 12
+    },
+    "sport": "nfl",
+    "start_time": 1714082401248,
+    "status": "complete",
+    "type": "snake"
+  }
+]

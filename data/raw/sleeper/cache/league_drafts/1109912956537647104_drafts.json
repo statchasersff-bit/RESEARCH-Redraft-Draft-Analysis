@@ -1,0 +1,61 @@
+[
+  {
+    "created": 1718986379325,
+    "creators": [
+      "737157531478204416"
+    ],
+    "draft_id": "1109912956537647105",
+    "draft_order": {
+      "1127786210757382144": 1,
+      "481996733195218944": 11,
+      "576628411334692864": 4,
+      "79762318351024128": 6,
+      "867534014821609472": 12,
+      "869283939355906048": 7,
+      "919507304427380736": 3,
+      "967835502122500096": 8,
+      "985676748660523008": 5,
+      "986690483906826240": 2,
+      "990311221289115648": 9,
+      "991816392204759040": 10
+    },
+    "last_message_id": "1137213343472549888",
+    "last_message_time": 1725495298787,
+    "last_picked": 1725495297770,
+    "league_id": "1109912956537647104",
+    "metadata": {
+      "description": "",
+      "name": "Sweet, Sweet Fantasy Football",
+      "scoring_type": "ppr"
+    },
+    "season": "2024",
+    "season_type": "regular",
+    "settings": {
+      "alpha_sort": 0,
+      "autopause_enabled": 0,
+      "autopause_end_time": 960,
+      "autopause_start_time": 240,
+      "autostart": 1,
+      "cpu_autopick": 1,
+      "enforce_position_limits": 1,
+      "nomination_timer": 60,
+      "pick_timer": 90,
+      "player_type": 0,
+      "reversal_round": 0,
+      "rounds": 15,
+      "slots_bn": 5,
+      "slots_def": 1,
+      "slots_flex": 2,
+      "slots_k": 1,
+      "slots_qb": 1,
+      "slots_rb": 2,
+      "slots_te": 1,
+      "slots_wr": 2,
+      "teams": 12
+    },
+    "sport": "nfl",
+    "start_time": 1725490827578,
+    "status": "complete",
+    "type": "snake"
+  }
+]

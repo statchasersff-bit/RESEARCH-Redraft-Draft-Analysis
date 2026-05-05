@@ -1,0 +1,226 @@
+[
+  {
+    "avatar": "5af0433f1524e3de7166b69d8f20e07e",
+    "display_name": "vikitaru",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1098637436831326208",
+    "metadata": {
+      "allow_pn": "off",
+      "archived": "on",
+      "league_report_pn": "off",
+      "mascot_message": "off",
+      "mention_pn": "on",
+      "player_like_pn": "off",
+      "player_nickname_update": "off",
+      "team_name_update": "off",
+      "trade_block_pn": "off",
+      "transaction_commissioner": "on",
+      "transaction_free_agent": "off",
+      "transaction_trade": "on",
+      "transaction_waiver": "off",
+      "user_message_pn": "off"
+    },
+    "settings": null,
+    "user_id": "337777938567020544"
+  },
+  {
+    "avatar": "b5f980efc36001cb4e056a9e146d0ca0",
+    "display_name": "dustyjames",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1098637436831326208",
+    "metadata": {
+      "allow_pn": "on",
+      "archived": "off",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "341080946612711424"
+  },
+  {
+    "avatar": "089e9b1f1996ffb1b20f3b511c929813",
+    "display_name": "DesperateEnuf",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1098637436831326208",
+    "metadata": {
+      "allow_pn": "on",
+      "archived": "on",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "391094148586844160"
+  },
+  {
+    "avatar": "db47d5f7be11ad6a9d094accc45e52b0",
+    "display_name": "papajer",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1098637436831326208",
+    "metadata": {
+      "allow_pn": "off",
+      "league_report_pn": "on",
+      "mascot_message": "on",
+      "mention_pn": "off",
+      "player_like_pn": "on",
+      "player_nickname_update": "on",
+      "team_name_update": "on",
+      "trade_block_pn": "on",
+      "transaction_commissioner": "on",
+      "transaction_free_agent": "on",
+      "transaction_trade": "on",
+      "transaction_waiver": "on",
+      "user_message_pn": "off"
+    },
+    "settings": null,
+    "user_id": "449355374189867008"
+  },
+  {
+    "avatar": "d68ffb50706e7eb78cbedf7772bf0da7",
+    "display_name": "CamsNotSober",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1098637436831326208",
+    "metadata": {
+      "allow_pn": "off",
+      "archived": "on",
+      "league_report_pn": "on",
+      "mascot_message": "on",
+      "mention_pn": "on",
+      "player_like_pn": "on",
+      "player_nickname_update": "on",
+      "team_name": "Bronze",
+      "team_name_update": "on",
+      "trade_block_pn": "on",
+      "transaction_commissioner": "on",
+      "transaction_free_agent": "on",
+      "transaction_trade": "on",
+      "transaction_waiver": "on",
+      "user_message_pn": "on"
+    },
+    "settings": null,
+    "user_id": "567994319854673920"
+  },
+  {
+    "avatar": "07596c2854ad10e2fd5d39d7be114f91",
+    "display_name": "TorqueLewith111",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1098637436831326208",
+    "metadata": {
+      "allow_pn": "on",
+      "archived": "on",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "604071577499262976"
+  },
+  {
+    "avatar": "4b188d8218a567f8f2363bc30f2f7482",
+    "display_name": "BoognishRises",
+    "is_bot": false,
+    "is_owner": false,
+    "league_id": "1098637436831326208",
+    "metadata": {
+      "allow_pn": "on",
+      "archived": "on",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "728478533118169088"
+  },
+  {
+    "avatar": "e7af4deab0289b4f5505646424895246",
+    "display_name": "Rbarry27",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1098637436831326208",
+    "metadata": {
+      "allow_pn": "on",
+      "archived": "on",
+      "avatar": "https://sleepercdn.com/uploads/ea98d1b248d28d88d6fd7b31b94c8a34.jpg",
+      "mention_pn": "on",
+      "team_name": "Undefined "
+    },
+    "settings": null,
+    "user_id": "740417854251397120"
+  },
+  {
+    "avatar": "3dbdf368990598dab5a9c4546c6806ad",
+    "display_name": "Kevbot90",
+    "is_bot": false,
+    "is_owner": true,
+    "league_id": "1098637436831326208",
+    "metadata": {
+      "allow_pn": "on",
+      "archived": "off",
+      "avatar": "https://sleepercdn.com/uploads/0f31f0698470bfdcefc5f6f3172d462b.jpg",
+      "mention_pn": "on",
+      "team_name": "Strained McCALFrey"
+    },
+    "settings": null,
+    "user_id": "754379586342686720"
+  },
+  {
+    "avatar": "be0732cd438be473804189b8821c52c2",
+    "display_name": "MizzleLizzo",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1098637436831326208",
+    "metadata": {
+      "allow_pn": "on",
+      "archived": "on",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "979610977693908992"
+  },
+  {
+    "avatar": "afe83e8bd3db3994096fb7dc51f623fe",
+    "display_name": "Mrbendointhis",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1098637436831326208",
+    "metadata": {
+      "allow_pn": "on",
+      "archived": "on",
+      "avatar": "https://sleepercdn.com/uploads/5cff213e3ecb4a5e8a120dbfa6ffe86a.jpg",
+      "mention_pn": "on",
+      "team_name": "Keyboard Warriors "
+    },
+    "settings": null,
+    "user_id": "988657855425318912"
+  },
+  {
+    "avatar": "56dc5c314c1007480fbf60fdcf3d9336",
+    "display_name": "MoneyBurrow",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1098637436831326208",
+    "metadata": {
+      "allow_pn": "on",
+      "archived": "on",
+      "mention_pn": "on",
+      "team_name": "I CEEDEE light"
+    },
+    "settings": null,
+    "user_id": "997614676370391040"
+  },
+  {
+    "avatar": "8ab4a39be0938fa168e65537662044f7",
+    "display_name": "pocketclint",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1098637436831326208",
+    "metadata": {
+      "allow_pn": "on",
+      "archived": "on",
+      "avatar": "https://sleepercdn.com/uploads/a792d6b0dcabcbe49662db313a06aa9d.jpg",
+      "mention_pn": "on",
+      "team_name": "Pocket Pussies"
+    },
+    "settings": null,
+    "user_id": "1123005157534543872"
+  }
+]

@@ -1,0 +1,71 @@
+{
+  "created": 1724124824989,
+  "creators": [
+    "452309801561485312"
+  ],
+  "draft_id": "1131465159786164224",
+  "draft_order": {
+    "338206699066245120": 12,
+    "341080946612711424": 7,
+    "391094148586844160": 9,
+    "438506447861444608": 6,
+    "452309801561485312": 5,
+    "460912832242774016": 8,
+    "466323997919801344": 4,
+    "561287289352683520": 10,
+    "596138092247703552": 1,
+    "82628796284813312": 2,
+    "970591604694208512": 3,
+    "982483033641033728": 11
+  },
+  "last_message_id": "1133061433253445632",
+  "last_message_time": 1724505406252,
+  "last_picked": 1724505405438,
+  "league_id": "1131465159123341312",
+  "metadata": {
+    "description": "",
+    "name": "Working Mans League #1👷‍♂️ $100",
+    "scoring_type": "ppr"
+  },
+  "season": "2024",
+  "season_type": "regular",
+  "settings": {
+    "alpha_sort": 0,
+    "autopause_enabled": 1,
+    "autopause_end_time": 720,
+    "autopause_start_time": 180,
+    "autostart": 0,
+    "cpu_autopick": 1,
+    "enforce_position_limits": 1,
+    "nomination_timer": 60,
+    "pick_timer": 14400,
+    "player_type": 0,
+    "reversal_round": 0,
+    "rounds": 15,
+    "slots_bn": 6,
+    "slots_flex": 2,
+    "slots_qb": 1,
+    "slots_rb": 2,
+    "slots_te": 1,
+    "slots_wr": 3,
+    "teams": 12
+  },
+  "slot_to_roster_id": {
+    "1": 5,
+    "2": 3,
+    "3": 10,
+    "4": 11,
+    "5": 1,
+    "6": 12,
+    "7": 2,
+    "8": 7,
+    "9": 4,
+    "10": 6,
+    "11": 9,
+    "12": 8
+  },
+  "sport": "nfl",
+  "start_time": 1724165156218,
+  "status": "complete",
+  "type": "snake"
+}

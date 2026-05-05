@@ -1,0 +1,158 @@
+[
+  {
+    "avatar": "9b53e1193fb680610a9ee04e53bd2b32",
+    "display_name": "twoshottam",
+    "is_bot": null,
+    "is_owner": null,
+    "league_id": "1117304210866962432",
+    "metadata": {
+      "allow_pn": "on",
+      "allow_sms": "on",
+      "archived": "on",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "96300915568820224"
+  },
+  {
+    "avatar": "nfl_det",
+    "display_name": "greekdawg",
+    "is_bot": null,
+    "is_owner": null,
+    "league_id": "1117304210866962432",
+    "metadata": {
+      "allow_pn": "on",
+      "archived": "on",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "100908832284622848"
+  },
+  {
+    "avatar": "7bc79069d973b734ac4b870afe26af0c",
+    "display_name": "R0N0",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1117304210866962432",
+    "metadata": {
+      "allow_pn": "on",
+      "archived": "on",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "471911857913851904"
+  },
+  {
+    "avatar": "5fdbb149011019d403735859ebb80013",
+    "display_name": "Ashv27",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1117304210866962432",
+    "metadata": {
+      "allow_pn": "off",
+      "archived": "on",
+      "avatar": "https://sleepercdn.com/uploads/e31e20e47068155f9bfcc41488059069.jpg",
+      "league_report_pn": "off",
+      "mascot_message": "off",
+      "mention_pn": "on",
+      "player_like_pn": "off",
+      "player_nickname_update": "off",
+      "team_name": "❌ Reid Option",
+      "team_name_update": "off",
+      "trade_block_pn": "on",
+      "transaction_commissioner": "on",
+      "transaction_free_agent": "off",
+      "transaction_trade": "on",
+      "transaction_waiver": "off",
+      "user_message_pn": "off"
+    },
+    "settings": null,
+    "user_id": "481389009403113472"
+  },
+  {
+    "avatar": "10404add576abc3354a51034ea96d98d",
+    "display_name": "jgleitz26",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1117304210866962432",
+    "metadata": {
+      "allow_pn": "on",
+      "archived": "on",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "519088292400353280"
+  },
+  {
+    "avatar": "abec93896d775b58ef262db3952f7845",
+    "display_name": "BmoreRavens74",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1117304210866962432",
+    "metadata": {
+      "allow_pn": "on",
+      "archived": "on",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "522513197997666304"
+  },
+  {
+    "avatar": "59fb195242caeab586e35606001a2806",
+    "display_name": "CaptainConstant",
+    "is_bot": false,
+    "is_owner": true,
+    "league_id": "1117304210866962432",
+    "metadata": {
+      "allow_pn": "on",
+      "archived": "on",
+      "mention_pn": "on",
+      "team_name": "Captain Constant"
+    },
+    "settings": null,
+    "user_id": "704220888010145792"
+  },
+  {
+    "avatar": "26c413a38f91fd330abc0977e33d4d8a",
+    "display_name": "Sandman731",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1117304210866962432",
+    "metadata": {
+      "allow_pn": "on",
+      "archived": "on",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "734666381009772544"
+  },
+  {
+    "avatar": "8f16881f751efd5d5ecc127fd6cbd336",
+    "display_name": "SundayDriver1",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1117304210866962432",
+    "metadata": {
+      "allow_pn": "on",
+      "archived": "on",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "740373276139851776"
+  },
+  {
+    "avatar": "15d7cf259bc30eab8f6120f45f652fb6",
+    "display_name": "Oliver6091",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1117304210866962432",
+    "metadata": {
+      "allow_pn": "on",
+      "archived": "on",
+      "mention_pn": "on",
+      "team_name": "240/60"
+    },
+    "settings": null,
+    "user_id": "1002410896691474432"
+  }
+]

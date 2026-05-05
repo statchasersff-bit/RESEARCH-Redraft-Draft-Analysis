@@ -1,0 +1,191 @@
+[
+  {
+    "avatar": "7a727331afc4cd2b19c581759e4ee445",
+    "display_name": "Kewlpapa",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1129288957289824256",
+    "metadata": {
+      "allow_pn": "on",
+      "archived": "on",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "467435574676942848"
+  },
+  {
+    "avatar": "0cec7843beadfefd268bf587f6d2d12e",
+    "display_name": "L0RDW",
+    "is_bot": false,
+    "is_owner": true,
+    "league_id": "1129288957289824256",
+    "metadata": {
+      "allow_pn": "on",
+      "archived": "on",
+      "mention_pn": "on",
+      "team_name": "Al Qaeda Roach Tokers"
+    },
+    "settings": null,
+    "user_id": "734897657373396992"
+  },
+  {
+    "avatar": "7853fe8f915318f17adcacc02f8aeb8c",
+    "display_name": "ILoveMen00",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1129288957289824256",
+    "metadata": {
+      "allow_pn": "on",
+      "allow_sms": "on",
+      "archived": "on",
+      "mention_pn": "on",
+      "team_name": "Jerk Goff"
+    },
+    "settings": null,
+    "user_id": "741488853705187328"
+  },
+  {
+    "avatar": "b3338675f635c2c1f42b469621d38ec6",
+    "display_name": "BeefyChinchilla",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1129288957289824256",
+    "metadata": {
+      "allow_pn": "on",
+      "allow_sms": "on",
+      "avatar": "https://sleepercdn.com/uploads/85eca956b1df253835f030cc2419eca1.jpg",
+      "league_report_pn": "on",
+      "mascot_message": "on",
+      "mention_pn": "on",
+      "player_like_pn": "on",
+      "player_nickname_update": "on",
+      "team_name": "Laporta Potty",
+      "team_name_update": "on",
+      "trade_block_pn": "on",
+      "transaction_commissioner": "on",
+      "transaction_free_agent": "on",
+      "transaction_trade": "on",
+      "transaction_waiver": "on",
+      "user_message_pn": "on"
+    },
+    "settings": null,
+    "user_id": "861849214072778752"
+  },
+  {
+    "avatar": "aa503d8cc3e7e22d9f7a60efd040831a",
+    "display_name": "SheriffBufordTJustic",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1129288957289824256",
+    "metadata": {
+      "allow_pn": "on",
+      "allow_sms": "on",
+      "archived": "on",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "872330494069661696"
+  },
+  {
+    "avatar": "8eb8f8bf999945d523f2c4033f70473e",
+    "display_name": "zachbuster",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1129288957289824256",
+    "metadata": {
+      "allow_pn": "on",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "958250559578906624"
+  },
+  {
+    "avatar": "f0edbf4278f53f9425db175073df6584",
+    "display_name": "NadoTado",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1129288957289824256",
+    "metadata": {
+      "allow_pn": "on",
+      "archived": "on",
+      "avatar": "https://sleepercdn.com/uploads/efb2a4785edf665db0f8a16e65eb00ac.jpg",
+      "mention_pn": "on",
+      "team_name": "Nado Tado"
+    },
+    "settings": null,
+    "user_id": "985062305404686336"
+  },
+  {
+    "avatar": "82aec8e811b839b8ec25d7b458afd57b",
+    "display_name": "MileHighSteve",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1129288957289824256",
+    "metadata": {
+      "allow_pn": "on",
+      "archived": "on",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "1002141052293173248"
+  },
+  {
+    "avatar": "210dc85d96ed1056d6e372a142f2917f",
+    "display_name": "SkyRckt",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1129288957289824256",
+    "metadata": {
+      "allow_pn": "on",
+      "archived": "on",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "1118647107235336192"
+  },
+  {
+    "avatar": "b3338675f635c2c1f42b469621d38ec6",
+    "display_name": "Runnnnnnnnnnnnnnnn",
+    "is_bot": false,
+    "is_owner": true,
+    "league_id": "1129288957289824256",
+    "metadata": {
+      "allow_pn": "on",
+      "archived": "on",
+      "mention_pn": "on",
+      "team_name": "Western Warriors"
+    },
+    "settings": null,
+    "user_id": "1120365400492969984"
+  },
+  {
+    "avatar": "4f4090e5e9c3941414db40a871e3e909",
+    "display_name": "TaiLuR",
+    "is_bot": false,
+    "is_owner": false,
+    "league_id": "1129288957289824256",
+    "metadata": {
+      "allow_pn": "on",
+      "allow_sms": "on",
+      "archived": "on",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "1128377843903225856"
+  },
+  {
+    "avatar": "43b5d43af0105c915c5fd71bb9ec1259",
+    "display_name": "pburt597",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1129288957289824256",
+    "metadata": {
+      "allow_pn": "on",
+      "avatar": "https://sleepercdn.com/uploads/43b5d43af0105c915c5fd71bb9ec1259",
+      "mention_pn": "on",
+      "team_name": "CITI BOi"
+    },
+    "settings": null,
+    "user_id": "1131277806484361216"
+  }
+]

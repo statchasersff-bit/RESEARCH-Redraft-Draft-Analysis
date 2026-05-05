@@ -1,0 +1,158 @@
+[
+  {
+    "avatar": "77a56bf8dd73ed9ecea2ddaa0e45c7ae",
+    "display_name": "martinoo",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1137266759272267776",
+    "metadata": {
+      "allow_pn": "on",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "449956038066565120"
+  },
+  {
+    "avatar": "f50906a590d7cee5ce55c0f9934c8fd3",
+    "display_name": "staff2akers",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1137266759272267776",
+    "metadata": {
+      "allow_pn": "on",
+      "archived": "on",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "461738555656368128"
+  },
+  {
+    "avatar": "544f27313d9ae8746feab0afb762521f",
+    "display_name": "AndrewF3",
+    "is_bot": false,
+    "is_owner": true,
+    "league_id": "1137266759272267776",
+    "metadata": {
+      "allow_pn": "on",
+      "archived": "on",
+      "avatar": "https://sleepercdn.com/uploads/3d61c379822e241ea4469ca6603b4706.jpg",
+      "mention_pn": "on",
+      "team_name": "Hurts to play me "
+    },
+    "settings": null,
+    "user_id": "485839319777406976"
+  },
+  {
+    "avatar": "5c5331a9f5c02807df251d8380a38f09",
+    "display_name": "Fantasywiz1200",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1137266759272267776",
+    "metadata": {
+      "allow_pn": "on",
+      "archived": "on",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "710332074363523072"
+  },
+  {
+    "avatar": "b3338675f635c2c1f42b469621d38ec6",
+    "display_name": "athoma21",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1137266759272267776",
+    "metadata": {
+      "allow_pn": "on",
+      "archived": "on",
+      "league_report_pn": "on",
+      "mascot_message": "on",
+      "mention_pn": "on",
+      "player_like_pn": "on",
+      "player_nickname_update": "on",
+      "team_name": "Blue View",
+      "team_name_update": "on",
+      "trade_block_pn": "on",
+      "transaction_commissioner": "on",
+      "transaction_free_agent": "off",
+      "transaction_trade": "on",
+      "transaction_waiver": "on",
+      "user_message_pn": "on"
+    },
+    "settings": null,
+    "user_id": "735922704351424512"
+  },
+  {
+    "avatar": "e7af4deab0289b4f5505646424895246",
+    "display_name": "JWA90TB12",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1137266759272267776",
+    "metadata": {
+      "allow_pn": "on",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "871853354442215424"
+  },
+  {
+    "avatar": "b319fdf8b7b5b0359d3c78622ba4d70c",
+    "display_name": "Camelio",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1137266759272267776",
+    "metadata": {
+      "allow_pn": "on",
+      "archived": "on",
+      "avatar": "https://sleepercdn.com/uploads/63a1b7184e157497eada329c85bdfccb.jpg",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "886026738654867456"
+  },
+  {
+    "avatar": "a6d0c4f542e5c6908a0cef8d1b346a36",
+    "display_name": "AviNaz",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1137266759272267776",
+    "metadata": {
+      "allow_pn": "on",
+      "archived": "on",
+      "avatar": "https://sleepercdn.com/uploads/5bc8b58925266ba6d8697e0718c3e4d0.jpg",
+      "mention_pn": "on",
+      "team_name": "The Chase is On"
+    },
+    "settings": null,
+    "user_id": "895421734453600256"
+  },
+  {
+    "avatar": "72a019046bb92d0bc55ad24503094a03",
+    "display_name": "valdesh",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1137266759272267776",
+    "metadata": {
+      "allow_pn": "on",
+      "archived": "on",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "998658586958102528"
+  },
+  {
+    "avatar": "d3de23e84ada2f9146e44c2755dcc603",
+    "display_name": "Slanidrac",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1137266759272267776",
+    "metadata": {
+      "allow_pn": "on",
+      "archived": "on",
+      "avatar": "https://sleepercdn.com/uploads/3ae933d557917548f2cad9343ededf5b.jpg",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "1002838929466281984"
+  }
+]

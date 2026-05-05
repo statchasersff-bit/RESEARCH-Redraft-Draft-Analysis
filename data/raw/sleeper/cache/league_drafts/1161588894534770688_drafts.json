@@ -1,0 +1,97 @@
+[
+  {
+    "created": 1731307752549,
+    "creators": [
+      "1150297940624453632"
+    ],
+    "draft_id": "1161592541532352512",
+    "draft_order": {
+      "1128179794438508544": 8,
+      "1129247897289216000": 3,
+      "1132929905974571008": 1,
+      "1135709787905236992": 2,
+      "1150297940624453632": 6,
+      "1161847915099762688": 5,
+      "471825997461712896": 10,
+      "865125931554074624": 7
+    },
+    "last_message_id": "1162072820948434944",
+    "last_message_time": 1731422260084,
+    "last_picked": 1731422259512,
+    "league_id": "1161588894534770688",
+    "metadata": {
+      "description": "",
+      "name": "The Real Deal League",
+      "scoring_type": "ppr"
+    },
+    "season": "2024",
+    "season_type": "regular",
+    "settings": {
+      "alpha_sort": 0,
+      "autopause_enabled": 0,
+      "autopause_end_time": 120,
+      "autopause_start_time": 840,
+      "autostart": 0,
+      "cpu_autopick": 1,
+      "enforce_position_limits": 1,
+      "nomination_timer": 60,
+      "pick_timer": 120,
+      "player_type": 0,
+      "reversal_round": 0,
+      "rounds": 15,
+      "slots_bn": 5,
+      "slots_def": 1,
+      "slots_flex": 2,
+      "slots_k": 1,
+      "slots_qb": 1,
+      "slots_rb": 2,
+      "slots_te": 1,
+      "slots_wr": 2,
+      "teams": 10
+    },
+    "sport": "nfl",
+    "start_time": 1731388319185,
+    "status": "complete",
+    "type": "snake"
+  },
+  {
+    "created": 1731306884422,
+    "creators": [
+      "1150297940624453632"
+    ],
+    "draft_id": "1161588900381536256",
+    "draft_order": null,
+    "last_message_id": "1161588900381536256",
+    "last_message_time": 1731306884422,
+    "last_picked": null,
+    "league_id": "1161588894534770688",
+    "metadata": {
+      "description": "",
+      "name": "The Real Deal League",
+      "scoring_type": "ppr"
+    },
+    "season": "2024",
+    "season_type": "regular",
+    "settings": {
+      "alpha_sort": 0,
+      "autostart": 0,
+      "cpu_autopick": 1,
+      "pick_timer": 120,
+      "reversal_round": 0,
+      "rounds": 15,
+      "slots_bn": 5,
+      "slots_def": 1,
+      "slots_flex": 2,
+      "slots_k": 1,
+      "slots_qb": 1,
+      "slots_rb": 2,
+      "slots_te": 1,
+      "slots_wr": 2,
+      "teams": 10
+    },
+    "sport": "nfl",
+    "start_time": null,
+    "status": "pre_draft",
+    "type": "snake"
+  }
+]

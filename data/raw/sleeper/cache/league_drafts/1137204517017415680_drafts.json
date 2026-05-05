@@ -1,0 +1,61 @@
+[
+  {
+    "created": 1725493194795,
+    "creators": [
+      "1133906317728600064"
+    ],
+    "draft_id": "1137204518749626368",
+    "draft_order": {
+      "1000166013784694784": 6,
+      "1005205173846786048": 12,
+      "1118995948883013632": 2,
+      "1133906317728600064": 7,
+      "1136109962377261056": 1,
+      "1136786362830577664": 5,
+      "1137456052368605184": 10,
+      "1137792636221267968": 4,
+      "1137817133641150464": 11,
+      "608446544995254272": 8,
+      "767913271637430272": 9,
+      "995519351530938368": 3
+    },
+    "last_message_id": "1137956144065974272",
+    "last_message_time": 1725672396249,
+    "last_picked": 1725672395204,
+    "league_id": "1137204517017415680",
+    "metadata": {
+      "description": "",
+      "name": "2024 football lovers",
+      "scoring_type": "ppr"
+    },
+    "season": "2024",
+    "season_type": "regular",
+    "settings": {
+      "alpha_sort": 0,
+      "autopause_enabled": 0,
+      "autopause_end_time": 900,
+      "autopause_start_time": 180,
+      "autostart": 1,
+      "cpu_autopick": 1,
+      "enforce_position_limits": 1,
+      "nomination_timer": 60,
+      "pick_timer": 60,
+      "player_type": 0,
+      "reversal_round": 0,
+      "rounds": 15,
+      "slots_bn": 5,
+      "slots_def": 1,
+      "slots_flex": 2,
+      "slots_k": 1,
+      "slots_qb": 1,
+      "slots_rb": 2,
+      "slots_te": 1,
+      "slots_wr": 2,
+      "teams": 12
+    },
+    "sport": "nfl",
+    "start_time": 1725667469821,
+    "status": "complete",
+    "type": "snake"
+  }
+]

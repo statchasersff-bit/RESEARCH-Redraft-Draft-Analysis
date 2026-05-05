@@ -1,0 +1,39 @@
+[
+  {
+    "created": 1730178841714,
+    "creators": [
+      "961566324113674240"
+    ],
+    "draft_id": "1156857546339741696",
+    "draft_order": null,
+    "last_message_id": "1156857546339741696",
+    "last_message_time": 1730178841714,
+    "last_picked": null,
+    "league_id": "1156857544721448960",
+    "metadata": {
+      "description": "",
+      "name": "FFU 2025 $1000 Redraft: Will spin off additional leagues from the room if needed",
+      "scoring_type": "2qb"
+    },
+    "season": "2024",
+    "season_type": "regular",
+    "settings": {
+      "autostart": 0,
+      "cpu_autopick": 1,
+      "pick_timer": 120,
+      "rounds": 15,
+      "slots_bn": 5,
+      "slots_flex": 2,
+      "slots_qb": 1,
+      "slots_rb": 2,
+      "slots_super_flex": 1,
+      "slots_te": 1,
+      "slots_wr": 3,
+      "teams": 12
+    },
+    "sport": "nfl",
+    "start_time": null,
+    "status": "pre_draft",
+    "type": "snake"
+  }
+]

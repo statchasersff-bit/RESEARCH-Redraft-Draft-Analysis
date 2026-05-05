@@ -1,0 +1,59 @@
+[
+  {
+    "created": 1722444678963,
+    "creators": [
+      "605917079266226176"
+    ],
+    "draft_id": "1124418116584353792",
+    "draft_order": {
+      "100908832284622848": 11,
+      "1078774182642610176": 7,
+      "605917079266226176": 4,
+      "677375444957347840": 1,
+      "724735478284218368": 6,
+      "728729149518282752": 9,
+      "735895804224643072": 8,
+      "736610611319971840": 10,
+      "831980988128141312": 2,
+      "883886783690211328": 12,
+      "956962521917800448": 5,
+      "974347207186956288": 3
+    },
+    "last_message_id": "1124440757021978624",
+    "last_message_time": 1722450076874,
+    "last_picked": 1722450075852,
+    "league_id": "1124418115586080768",
+    "metadata": {
+      "description": "",
+      "name": "Lunchtime Madness",
+      "scoring_type": "ppr"
+    },
+    "season": "2024",
+    "season_type": "regular",
+    "settings": {
+      "alpha_sort": 0,
+      "autopause_enabled": 0,
+      "autopause_end_time": 840,
+      "autopause_start_time": 120,
+      "autostart": 0,
+      "cpu_autopick": 1,
+      "enforce_position_limits": 1,
+      "nomination_timer": 60,
+      "pick_timer": 60,
+      "player_type": 0,
+      "reversal_round": 0,
+      "rounds": 16,
+      "slots_bn": 7,
+      "slots_flex": 3,
+      "slots_qb": 1,
+      "slots_rb": 2,
+      "slots_te": 1,
+      "slots_wr": 2,
+      "teams": 12
+    },
+    "sport": "nfl",
+    "start_time": 1722446606443,
+    "status": "complete",
+    "type": "snake"
+  }
+]

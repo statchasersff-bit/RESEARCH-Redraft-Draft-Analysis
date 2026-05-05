@@ -1,0 +1,144 @@
+[
+  {
+    "avatar": "4f0a5450089c0a661188dd0dcda8cfeb",
+    "display_name": "OptimistPrime72",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1128830661663625216",
+    "metadata": {
+      "allow_pn": "on",
+      "allow_sms": "on",
+      "archived": "off",
+      "mention_pn": "on",
+      "team_name": "Lamar you serious? "
+    },
+    "settings": null,
+    "user_id": "643326135379259392"
+  },
+  {
+    "avatar": "f0edbf4278f53f9425db175073df6584",
+    "display_name": "Kburnham",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1128830661663625216",
+    "metadata": {
+      "allow_pn": "on",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "723791224456183808"
+  },
+  {
+    "avatar": "9a5df96ec5e7ab24bca3cf161463ad0b",
+    "display_name": "BigHoss1234",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1128830661663625216",
+    "metadata": {
+      "allow_pn": "on",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "725763622625677312"
+  },
+  {
+    "avatar": "15d7cf259bc30eab8f6120f45f652fb6",
+    "display_name": "FischStix0211",
+    "is_bot": false,
+    "is_owner": true,
+    "league_id": "1128830661663625216",
+    "metadata": {
+      "allow_pn": "on",
+      "mention_pn": "on",
+      "team_name": "A Real Purdy Mouth"
+    },
+    "settings": null,
+    "user_id": "986358779019059200"
+  },
+  {
+    "avatar": "4f4090e5e9c3941414db40a871e3e909",
+    "display_name": "iLikeFootballz",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1128830661663625216",
+    "metadata": {
+      "allow_pn": "on",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "1128969581306953728"
+  },
+  {
+    "avatar": "15d7cf259bc30eab8f6120f45f652fb6",
+    "display_name": "mnickens07",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1128830661663625216",
+    "metadata": {
+      "allow_pn": "on",
+      "allow_sms": "on",
+      "archived": "on",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "1129903954533531648"
+  },
+  {
+    "avatar": "f0edbf4278f53f9425db175073df6584",
+    "display_name": "cdolo4",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1128830661663625216",
+    "metadata": {
+      "allow_pn": "on",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "1134170815525920768"
+  },
+  {
+    "avatar": "82aec8e811b839b8ec25d7b458afd57b",
+    "display_name": "BeefyMcwhatn0w",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1128830661663625216",
+    "metadata": {
+      "allow_pn": "on",
+      "allow_sms": "on",
+      "avatar": "https://sleepercdn.com/uploads/ddcfc18339783d77b755422ddc051378.jpg",
+      "mention_pn": "on",
+      "team_name": "Titletown FC"
+    },
+    "settings": null,
+    "user_id": "1134196519789379584"
+  },
+  {
+    "avatar": "b3338675f635c2c1f42b469621d38ec6",
+    "display_name": "dkorzen",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1128830661663625216",
+    "metadata": {
+      "allow_pn": "on",
+      "allow_sms": "on",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "1136794766307491840"
+  },
+  {
+    "avatar": "aeff259a68e59c9a38d80e4970856e50",
+    "display_name": "Lmoneey6",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1128830661663625216",
+    "metadata": {
+      "allow_pn": "on",
+      "allow_sms": "on",
+      "archived": "on",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "1136818028592824320"
+  }
+]

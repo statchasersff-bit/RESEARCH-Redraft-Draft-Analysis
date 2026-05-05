@@ -1,0 +1,62 @@
+[
+  {
+    "created": 1705366015915,
+    "creators": [
+      "466342714972041216"
+    ],
+    "draft_id": "1052785011805556737",
+    "draft_order": {
+      "401443022782410752": 6,
+      "435916921280393216": 3,
+      "466342714972041216": 2,
+      "467065783214665728": 5,
+      "468914029348253696": 1,
+      "562473518567227392": 8,
+      "609771258485223424": 4,
+      "734964522669957120": 10,
+      "739298829131796480": 7,
+      "990664585487159296": 9
+    },
+    "last_message_id": "1108567518739705856",
+    "last_message_time": 1718665601957,
+    "last_picked": 1718665601490,
+    "league_id": "1052785011805556736",
+    "metadata": {
+      "description": "",
+      "name": "Empire IDP league",
+      "scoring_type": "idp"
+    },
+    "season": "2024",
+    "season_type": "regular",
+    "settings": {
+      "alpha_sort": 0,
+      "autopause_enabled": 0,
+      "autopause_end_time": 900,
+      "autopause_start_time": 240,
+      "autostart": 0,
+      "cpu_autopick": 1,
+      "enforce_position_limits": 1,
+      "nomination_timer": 60,
+      "pick_timer": 0,
+      "player_type": 1,
+      "reversal_round": 0,
+      "rounds": 4,
+      "slots_bn": 22,
+      "slots_db": 2,
+      "slots_dl": 2,
+      "slots_flex": 2,
+      "slots_idp_flex": 2,
+      "slots_lb": 2,
+      "slots_qb": 1,
+      "slots_rb": 2,
+      "slots_super_flex": 1,
+      "slots_te": 2,
+      "slots_wr": 2,
+      "teams": 10
+    },
+    "sport": "nfl",
+    "start_time": 1718391769053,
+    "status": "complete",
+    "type": "linear"
+  }
+]

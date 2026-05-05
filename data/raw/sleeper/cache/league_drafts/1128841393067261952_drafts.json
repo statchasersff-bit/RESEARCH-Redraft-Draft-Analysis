@@ -1,0 +1,59 @@
+[
+  {
+    "created": 1723499270488,
+    "creators": [
+      "1120959500418158592"
+    ],
+    "draft_id": "1128841394044428288",
+    "draft_order": {
+      "1073085276668395520": 11,
+      "1120959500418158592": 9,
+      "341745347938402304": 12,
+      "469270758854488064": 8,
+      "547578721412681728": 1,
+      "605917079266226176": 10,
+      "717896443842588672": 6,
+      "733139539576631296": 3,
+      "733142360434802688": 5,
+      "821206776459419648": 7,
+      "883886783690211328": 4,
+      "997543481893617664": 2
+    },
+    "last_message_id": "1128901473716150272",
+    "last_message_time": 1723513594610,
+    "last_picked": 1723513593815,
+    "league_id": "1128841393067261952",
+    "metadata": {
+      "description": "",
+      "name": "Humongous TDs",
+      "scoring_type": "2qb"
+    },
+    "season": "2024",
+    "season_type": "regular",
+    "settings": {
+      "alpha_sort": 0,
+      "autopause_enabled": 0,
+      "autopause_end_time": 1020,
+      "autopause_start_time": 300,
+      "autostart": 0,
+      "cpu_autopick": 1,
+      "nomination_timer": 60,
+      "pick_timer": 60,
+      "player_type": 0,
+      "reversal_round": 0,
+      "rounds": 16,
+      "slots_bn": 7,
+      "slots_flex": 2,
+      "slots_qb": 1,
+      "slots_rb": 2,
+      "slots_super_flex": 1,
+      "slots_te": 1,
+      "slots_wr": 2,
+      "teams": 12
+    },
+    "sport": "nfl",
+    "start_time": 1723510344082,
+    "status": "complete",
+    "type": "snake"
+  }
+]

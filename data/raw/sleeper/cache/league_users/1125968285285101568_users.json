@@ -1,0 +1,191 @@
+[
+  {
+    "avatar": "cebd644d2882de947f76e5e6fcf9db93",
+    "display_name": "RosenOne",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1125968285285101568",
+    "metadata": {
+      "allow_pn": "on",
+      "allow_sms": "on",
+      "archived": "on",
+      "avatar": "https://sleepercdn.com/uploads/3b539b23ec6f298e569e9b7eb1ffa6f6.jpg",
+      "mention_pn": "on",
+      "team_name": "Gia Duddy's Burner"
+    },
+    "settings": null,
+    "user_id": "435958032753487872"
+  },
+  {
+    "avatar": "1f68df30fd0e2e8e3d1d9657fffc2393",
+    "display_name": "MoC-Phantom",
+    "is_bot": false,
+    "is_owner": true,
+    "league_id": "1125968285285101568",
+    "metadata": {
+      "allow_pn": "on",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "606262790033825792"
+  },
+  {
+    "avatar": "4f0a5450089c0a661188dd0dcda8cfeb",
+    "display_name": "OptimistPrime72",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1125968285285101568",
+    "metadata": {
+      "allow_pn": "on",
+      "archived": "off",
+      "mention_pn": "on",
+      "team_name": "Get Rich or Die Tryin"
+    },
+    "settings": null,
+    "user_id": "643326135379259392"
+  },
+  {
+    "avatar": "8eb8f8bf999945d523f2c4033f70473e",
+    "display_name": "TheBrokerJake",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1125968285285101568",
+    "metadata": {
+      "allow_pn": "on",
+      "allow_sms": "on",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "689410036593684480"
+  },
+  {
+    "avatar": "8eb8f8bf999945d523f2c4033f70473e",
+    "display_name": "MoCAnarchy",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1125968285285101568",
+    "metadata": {
+      "allow_pn": "on",
+      "avatar": "https://sleepercdn.com/uploads/8d5c3e41b22ebf1851ea73bf372cafd4.jpg",
+      "mention_pn": "on",
+      "team_name": "The Whites"
+    },
+    "settings": null,
+    "user_id": "695080900739796992"
+  },
+  {
+    "avatar": "82aec8e811b839b8ec25d7b458afd57b",
+    "display_name": "jack4747",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1125968285285101568",
+    "metadata": {
+      "allow_pn": "on",
+      "mention_pn": "on",
+      "team_name": "J's Finest"
+    },
+    "settings": null,
+    "user_id": "860287389455740928"
+  },
+  {
+    "avatar": "c954df246cc5ad1e7faae3a3602d7e83",
+    "display_name": "kevtay5",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1125968285285101568",
+    "metadata": {
+      "allow_pn": "on",
+      "allow_sms": "on",
+      "avatar": "https://sleepercdn.com/uploads/f25118ff1e7dab6d96efdc162fbc47b8.jpg",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "953842326240100352"
+  },
+  {
+    "avatar": "c4443d8f854ed69961e6c7b0bccc783e",
+    "display_name": "aandy066",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1125968285285101568",
+    "metadata": {
+      "allow_pn": "off",
+      "league_report_pn": "on",
+      "mascot_message": "on",
+      "mention_pn": "on",
+      "player_like_pn": "on",
+      "player_nickname_update": "on",
+      "team_name": "Brutal Bullsh*t",
+      "team_name_update": "on",
+      "trade_block_pn": "on",
+      "transaction_commissioner": "on",
+      "transaction_free_agent": "on",
+      "transaction_trade": "on",
+      "transaction_waiver": "on",
+      "user_message_pn": "on"
+    },
+    "settings": null,
+    "user_id": "994729951339270144"
+  },
+  {
+    "avatar": "b319fdf8b7b5b0359d3c78622ba4d70c",
+    "display_name": "Aphilamalee",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1125968285285101568",
+    "metadata": {
+      "allow_pn": "on",
+      "allow_sms": "on",
+      "avatar": "https://sleepercdn.com/uploads/12634be5efed6bff10de1b6cf85653b3.jpg",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "997236192850567168"
+  },
+  {
+    "avatar": "f0edbf4278f53f9425db175073df6584",
+    "display_name": "RLokos",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1125968285285101568",
+    "metadata": {
+      "allow_pn": "on",
+      "allow_sms": "on",
+      "archived": "off",
+      "avatar": "https://sleepercdn.com/uploads/6239d017d3699e1172cb5dca9064002f.jpg",
+      "mention_pn": "on",
+      "team_name": "Sloppy Joes"
+    },
+    "settings": null,
+    "user_id": "1126320258530234368"
+  },
+  {
+    "avatar": "b319fdf8b7b5b0359d3c78622ba4d70c",
+    "display_name": "Andye101960",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1125968285285101568",
+    "metadata": {
+      "allow_pn": "on",
+      "allow_sms": "on",
+      "mention_pn": "on",
+      "team_name": "Hicks from the Sticks "
+    },
+    "settings": null,
+    "user_id": "1126719431025074176"
+  },
+  {
+    "avatar": "0c2a200b4fc6789bd758aa14bc30375e",
+    "display_name": "KansasCitySwifts",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1125968285285101568",
+    "metadata": {
+      "allow_pn": "on",
+      "allow_sms": "on",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "1127451720499535872"
+  }
+]

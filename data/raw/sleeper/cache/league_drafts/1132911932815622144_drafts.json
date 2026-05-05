@@ -1,0 +1,61 @@
+[
+  {
+    "created": 1724469763034,
+    "creators": [
+      "1051263717557669888"
+    ],
+    "draft_id": "1132911934812200960",
+    "draft_order": {
+      "1051263717557669888": 11,
+      "312023677409427456": 6,
+      "479794803693842432": 9,
+      "663303440797106176": 8,
+      "705655422102626304": 7,
+      "711697074571284480": 2,
+      "713553065143234560": 3,
+      "830702843102076928": 4,
+      "844701642187202560": 10,
+      "848061655907667968": 5,
+      "857736660287340544": 12,
+      "861850832143007744": 1
+    },
+    "last_message_id": "1132923054012530688",
+    "last_message_time": 1724472414070,
+    "last_picked": 1724472413082,
+    "league_id": "1132911932815622144",
+    "metadata": {
+      "description": "",
+      "name": "$1 FREESTYLE #27 1RB 1WR 5FLEX",
+      "scoring_type": "ppr"
+    },
+    "season": "2024",
+    "season_type": "regular",
+    "settings": {
+      "alpha_sort": 0,
+      "autopause_enabled": 0,
+      "autopause_end_time": 840,
+      "autopause_start_time": 120,
+      "autostart": 0,
+      "cpu_autopick": 1,
+      "enforce_position_limits": 1,
+      "nomination_timer": 60,
+      "pick_timer": 10,
+      "player_type": 0,
+      "position_limit_qb": 4,
+      "position_limit_te": 5,
+      "reversal_round": 0,
+      "rounds": 25,
+      "slots_bn": 16,
+      "slots_flex": 5,
+      "slots_qb": 1,
+      "slots_rb": 1,
+      "slots_te": 1,
+      "slots_wr": 1,
+      "teams": 12
+    },
+    "sport": "nfl",
+    "start_time": 1724471024438,
+    "status": "complete",
+    "type": "snake"
+  }
+]

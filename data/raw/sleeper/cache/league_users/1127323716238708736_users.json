@@ -1,0 +1,198 @@
+[
+  {
+    "avatar": "9af57bf732c655bed5049dc29a117d64",
+    "display_name": "taterhc31",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1127323716238708736",
+    "metadata": {
+      "allow_pn": "on",
+      "archived": "on",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "443308890952560640"
+  },
+  {
+    "avatar": "499eada1aa4ef0d2ba3ccdf2798a65ec",
+    "display_name": "9anda",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1127323716238708736",
+    "metadata": {
+      "allow_pn": "on",
+      "archived": "on",
+      "mention_pn": "on",
+      "team_name": "9anda "
+    },
+    "settings": null,
+    "user_id": "464667328370438144"
+  },
+  {
+    "avatar": null,
+    "display_name": "Daleirj",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1127323716238708736",
+    "metadata": {
+      "allow_pn": "off",
+      "archived": "on",
+      "avatar": "https://sleepercdn.com/uploads/bca6e06ecbfa6f8e713d881ee8df5dc8.jpg",
+      "league_report_pn": "on",
+      "mascot_message": "off",
+      "mention_pn": "on",
+      "player_like_pn": "on",
+      "player_nickname_update": "off",
+      "team_name": "Split Rock Lighthouses",
+      "team_name_update": "off",
+      "trade_block_pn": "on",
+      "transaction_commissioner": "on",
+      "transaction_free_agent": "on",
+      "transaction_trade": "on",
+      "transaction_waiver": "on",
+      "user_message_pn": "off"
+    },
+    "settings": null,
+    "user_id": "606707045651009536"
+  },
+  {
+    "avatar": "4f45d0a36021d22b470fd7710d850185",
+    "display_name": "GuessMonsta",
+    "is_bot": false,
+    "is_owner": true,
+    "league_id": "1127323716238708736",
+    "metadata": {
+      "allow_pn": "on",
+      "archived": "on",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "642511397825093632"
+  },
+  {
+    "avatar": "7dada861d6d8f9419c13aa3afa404781",
+    "display_name": "ImposterGeorge",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1127323716238708736",
+    "metadata": {
+      "allow_pn": "on",
+      "archived": "off",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "643341501753016320"
+  },
+  {
+    "avatar": "1048ea78ab8ff63122fa485038648c71",
+    "display_name": "MissileBobby",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1127323716238708736",
+    "metadata": {
+      "allow_pn": "on",
+      "archived": "off",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "643558835482615808"
+  },
+  {
+    "avatar": "b987f66667023baafadeb2051a35b7c1",
+    "display_name": "superbtourist",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1127323716238708736",
+    "metadata": {
+      "allow_pn": "on",
+      "archived": "on",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "710574535979667456"
+  },
+  {
+    "avatar": "8eb8f8bf999945d523f2c4033f70473e",
+    "display_name": "goober670",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1127323716238708736",
+    "metadata": {
+      "allow_pn": "off",
+      "archived": "on",
+      "avatar": "https://sleepercdn.com/uploads/1cb5ada260630616249715915c313602.jpg",
+      "league_report_pn": "on",
+      "mascot_message": "on",
+      "mention_pn": "on",
+      "player_like_pn": "on",
+      "player_nickname_update": "on",
+      "team_name": "TOMpa Bay",
+      "team_name_update": "on",
+      "trade_block_pn": "on",
+      "transaction_commissioner": "on",
+      "transaction_free_agent": "on",
+      "transaction_trade": "on",
+      "transaction_waiver": "on",
+      "user_message_pn": "off"
+    },
+    "settings": null,
+    "user_id": "723395430896996352"
+  },
+  {
+    "avatar": "82aec8e811b839b8ec25d7b458afd57b",
+    "display_name": "connorg8",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1127323716238708736",
+    "metadata": {
+      "allow_pn": "on",
+      "archived": "off",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "732444479147081728"
+  },
+  {
+    "avatar": "b319fdf8b7b5b0359d3c78622ba4d70c",
+    "display_name": "Cmiller26",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1127323716238708736",
+    "metadata": {
+      "allow_pn": "on",
+      "archived": "on",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "738095113795956736"
+  },
+  {
+    "avatar": "b6955a0c7f416f32dceb97f484734174",
+    "display_name": "WeejPK",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1127323716238708736",
+    "metadata": {
+      "allow_pn": "on",
+      "archived": "on",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "871992211007528960"
+  },
+  {
+    "avatar": "036604db7fde8e84002866d9a254d3a0",
+    "display_name": "FingerYokerMan",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1127323716238708736",
+    "metadata": {
+      "allow_pn": "on",
+      "avatar": "https://sleepercdn.com/uploads/046809268e06577c9e86006bf1fb9608.jpg",
+      "mention_pn": "on",
+      "team_name": "Finger"
+    },
+    "settings": null,
+    "user_id": "872274105146191872"
+  }
+]

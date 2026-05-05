@@ -1,0 +1,174 @@
+[
+  {
+    "avatar": "20626c7e860e5183537291d020c4280d",
+    "display_name": "leevidagoat",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1135588342391042048",
+    "metadata": {
+      "allow_pn": "on",
+      "allow_sms": "on",
+      "archived": "on",
+      "mention_pn": "on",
+      "team_name": "fent fiends"
+    },
+    "settings": null,
+    "user_id": "879437052914262016"
+  },
+  {
+    "avatar": "8eb8f8bf999945d523f2c4033f70473e",
+    "display_name": "zachbuster",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1135588342391042048",
+    "metadata": {
+      "allow_pn": "on",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "958250559578906624"
+  },
+  {
+    "avatar": "d6782b0f09fb056b7bfea241667d9966",
+    "display_name": "darthpingus",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1135588342391042048",
+    "metadata": {
+      "allow_pn": "off",
+      "league_report_pn": "on",
+      "mascot_message": "on",
+      "mention_pn": "on",
+      "player_like_pn": "on",
+      "player_nickname_update": "on",
+      "team_name_update": "on",
+      "trade_block_pn": "on",
+      "transaction_commissioner": "on",
+      "transaction_free_agent": "on",
+      "transaction_trade": "on",
+      "transaction_waiver": "on",
+      "user_message_pn": "on"
+    },
+    "settings": null,
+    "user_id": "992210127790886912"
+  },
+  {
+    "avatar": "8eb8f8bf999945d523f2c4033f70473e",
+    "display_name": "scrib12",
+    "is_bot": false,
+    "is_owner": false,
+    "league_id": "1135588342391042048",
+    "metadata": {
+      "allow_pn": "on",
+      "archived": "on",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "992612239037292544"
+  },
+  {
+    "avatar": "85caf603028b95556a8fa8107f7b953c",
+    "display_name": "Ryanh27",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1135588342391042048",
+    "metadata": {
+      "allow_pn": "on",
+      "archived": "on",
+      "mention_pn": "on",
+      "team_name": "Blanco"
+    },
+    "settings": null,
+    "user_id": "995037782848446464"
+  },
+  {
+    "avatar": "e50fe1ef62e1b412fb41735f0154d7b5",
+    "display_name": "GrittyGrinders",
+    "is_bot": false,
+    "is_owner": true,
+    "league_id": "1135588342391042048",
+    "metadata": {
+      "allow_pn": "on",
+      "archived": "on",
+      "mention_pn": "on",
+      "team_name": "Might Hurts"
+    },
+    "settings": null,
+    "user_id": "1000488762083733504"
+  },
+  {
+    "avatar": "82aec8e811b839b8ec25d7b458afd57b",
+    "display_name": "Marlin123",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1135588342391042048",
+    "metadata": {
+      "allow_pn": "on",
+      "allow_sms": "on",
+      "archived": "on",
+      "mention_pn": "on",
+      "team_name": "Team Dyck"
+    },
+    "settings": null,
+    "user_id": "1001652570747662336"
+  },
+  {
+    "avatar": "b319fdf8b7b5b0359d3c78622ba4d70c",
+    "display_name": "MAC10FLOW",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1135588342391042048",
+    "metadata": {
+      "allow_pn": "on",
+      "mention_pn": "on",
+      "team_name": "Najee Germany"
+    },
+    "settings": null,
+    "user_id": "1005263202898313216"
+  },
+  {
+    "avatar": "f0edbf4278f53f9425db175073df6584",
+    "display_name": "Creamsicle4life",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1135588342391042048",
+    "metadata": {
+      "allow_pn": "on",
+      "archived": "on",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "1125872526132871168"
+  },
+  {
+    "avatar": "4c32a10323adf3b120032ff8ad3111a3",
+    "display_name": "nodaj",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1135588342391042048",
+    "metadata": {
+      "allow_pn": "on",
+      "archived": "off",
+      "mention_pn": "on",
+      "team_name": "Slommy City"
+    },
+    "settings": null,
+    "user_id": "1130167287987712000"
+  },
+  {
+    "avatar": "f0edbf4278f53f9425db175073df6584",
+    "display_name": "deitak",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1135588342391042048",
+    "metadata": {
+      "allow_pn": "on",
+      "archived": "on",
+      "avatar": "https://sleepercdn.com/images/v2/avatars/avatar_default_green.webp",
+      "mention_pn": "on",
+      "team_name": "nobody knows i’m a girl "
+    },
+    "settings": null,
+    "user_id": "1132005908126666752"
+  }
+]

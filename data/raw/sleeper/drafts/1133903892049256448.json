@@ -1,0 +1,69 @@
+{
+  "created": 1724706264069,
+  "creators": [
+    "861382092909547520"
+  ],
+  "draft_id": "1133903892049256448",
+  "draft_order": {
+    "1127067776176254976": 9,
+    "1133920901361287168": 5,
+    "1133927263919251456": 3,
+    "1133928380254216192": 4,
+    "1133978268186902528": 1,
+    "1134186391543390208": 10,
+    "1134186998354563072": 7,
+    "490203874674601984": 6,
+    "861382092909547520": 2,
+    "986776891510067200": 8
+  },
+  "last_message_id": "1136155860633608192",
+  "last_message_time": 1725243175231,
+  "last_picked": 1725242826667,
+  "league_id": "1133903890224836608",
+  "metadata": {
+    "description": "",
+    "name": "Tap House Gang",
+    "scoring_type": "ppr"
+  },
+  "season": "2024",
+  "season_type": "regular",
+  "settings": {
+    "alpha_sort": 0,
+    "autopause_enabled": 0,
+    "autopause_end_time": 840,
+    "autopause_start_time": 120,
+    "autostart": 0,
+    "cpu_autopick": 1,
+    "enforce_position_limits": 1,
+    "nomination_timer": 60,
+    "pick_timer": 120,
+    "player_type": 0,
+    "reversal_round": 0,
+    "rounds": 15,
+    "slots_bn": 5,
+    "slots_def": 1,
+    "slots_flex": 2,
+    "slots_k": 1,
+    "slots_qb": 1,
+    "slots_rb": 2,
+    "slots_te": 1,
+    "slots_wr": 2,
+    "teams": 10
+  },
+  "slot_to_roster_id": {
+    "1": 5,
+    "2": 1,
+    "3": 3,
+    "4": 4,
+    "5": 6,
+    "6": 10,
+    "7": 8,
+    "8": 9,
+    "9": 2,
+    "10": 7
+  },
+  "sport": "nfl",
+  "start_time": 1725239734100,
+  "status": "complete",
+  "type": "snake"
+}

@@ -1,0 +1,61 @@
+[
+  {
+    "created": 1724606120227,
+    "creators": [
+      "483159398663843840",
+      "1053406269446508544",
+      "1133851497336508416"
+    ],
+    "draft_id": "1133483858319523840",
+    "draft_order": {
+      "1026575952140234752": 5,
+      "1053406269446508544": 3,
+      "1133846046825713664": 10,
+      "1133851497336508416": 11,
+      "1134538064229113856": 1,
+      "1134591175723335680": 4,
+      "459825303376621568": 12,
+      "483159398663843840": 6,
+      "76088276226031616": 9,
+      "978765960389697536": 8,
+      "995144993071218688": 2
+    },
+    "last_message_id": "1136516751824707584",
+    "last_message_time": 1725329218397,
+    "last_picked": 1725329201429,
+    "league_id": "1133483857761669120",
+    "metadata": {
+      "description": "",
+      "name": "Yardage Exchange",
+      "scoring_type": "ppr"
+    },
+    "season": "2024",
+    "season_type": "regular",
+    "settings": {
+      "alpha_sort": 0,
+      "autopause_enabled": 0,
+      "autopause_end_time": 900,
+      "autopause_start_time": 180,
+      "autostart": 0,
+      "cpu_autopick": 1,
+      "nomination_timer": 60,
+      "pick_timer": 60,
+      "player_type": 0,
+      "reversal_round": 0,
+      "rounds": 15,
+      "slots_bn": 5,
+      "slots_def": 1,
+      "slots_flex": 2,
+      "slots_k": 1,
+      "slots_qb": 1,
+      "slots_rb": 2,
+      "slots_te": 1,
+      "slots_wr": 2,
+      "teams": 12
+    },
+    "sport": "nfl",
+    "start_time": 1725325239853,
+    "status": "complete",
+    "type": "snake"
+  }
+]

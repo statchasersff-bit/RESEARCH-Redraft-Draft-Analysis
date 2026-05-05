@@ -1,0 +1,161 @@
+[
+  {
+    "avatar": "b5f980efc36001cb4e056a9e146d0ca0",
+    "display_name": "gbucketz",
+    "is_bot": false,
+    "is_owner": true,
+    "league_id": "1137194907799797760",
+    "metadata": {
+      "allow_pn": "on",
+      "archived": "on",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "454539220116041728"
+  },
+  {
+    "avatar": "38a6ed0dddfcc2b110779c96c13f6dbf",
+    "display_name": "infjrikimaru",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1137194907799797760",
+    "metadata": {
+      "allow_pn": "off",
+      "allow_sms": "on",
+      "league_report_pn": "on",
+      "mascot_message": "off",
+      "mention_pn": "on",
+      "player_like_pn": "on",
+      "player_nickname_update": "off",
+      "team_name": "Lactose Intolerants 🥛🤢",
+      "team_name_update": "off",
+      "trade_block_pn": "off",
+      "transaction_commissioner": "off",
+      "transaction_free_agent": "off",
+      "transaction_trade": "on",
+      "transaction_waiver": "off",
+      "user_message_pn": "off"
+    },
+    "settings": null,
+    "user_id": "864263793818087424"
+  },
+  {
+    "avatar": "da13df8f4b8f9bc9a99adc5b08fd6fbb",
+    "display_name": "Blondie2424",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1137194907799797760",
+    "metadata": {
+      "allow_pn": "on",
+      "allow_sms": "on",
+      "archived": "on",
+      "avatar": "https://sleepercdn.com/uploads/0631fb13505b239fddae2df0c3541638.jpg",
+      "mention_pn": "on",
+      "team_name": "Super Lamario"
+    },
+    "settings": null,
+    "user_id": "1001903824581304320"
+  },
+  {
+    "avatar": "4de202f8be36912b6a81be2a14132b47",
+    "display_name": "OGtheScientist",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1137194907799797760",
+    "metadata": {
+      "allow_pn": "on",
+      "archived": "on",
+      "mention_pn": "on",
+      "team_name": "Digital Demons "
+    },
+    "settings": null,
+    "user_id": "1002669065393000448"
+  },
+  {
+    "avatar": "216816fa59dc82176159ac8bdbd66302",
+    "display_name": "miched12",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1137194907799797760",
+    "metadata": {
+      "allow_pn": "on",
+      "archived": "on",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "1004942732940451840"
+  },
+  {
+    "avatar": "dfefc6afedf75560d09278a1732e346d",
+    "display_name": "austinmmason3",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1137194907799797760",
+    "metadata": {
+      "allow_pn": "on",
+      "archived": "on",
+      "mention_pn": "on",
+      "team_name": "Moms Spaghetti"
+    },
+    "settings": null,
+    "user_id": "1005188054820257792"
+  },
+  {
+    "avatar": "7e34471c3c1b0eb294f430555b3e8ce6",
+    "display_name": "1Pigskin3",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1137194907799797760",
+    "metadata": {
+      "allow_pn": "on",
+      "archived": "on",
+      "mention_pn": "on",
+      "team_name": "My Realities are Fantasy "
+    },
+    "settings": null,
+    "user_id": "1117162078046896128"
+  },
+  {
+    "avatar": "82aec8e811b839b8ec25d7b458afd57b",
+    "display_name": "FlashGordonBaby",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1137194907799797760",
+    "metadata": {
+      "allow_pn": "on",
+      "archived": "on",
+      "avatar": "https://sleepercdn.com/uploads/f9e2326cf17c765eddf0313484d7ff67.jpg",
+      "mention_pn": "on",
+      "team_name": "Swamp Donkeys"
+    },
+    "settings": null,
+    "user_id": "1124892700995657728"
+  },
+  {
+    "avatar": "5ad52d7a15a6f4d49a78479d07849f76",
+    "display_name": "jbuzz05",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1137194907799797760",
+    "metadata": {
+      "allow_pn": "on",
+      "archived": "on",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "1135772872917970944"
+  },
+  {
+    "avatar": "f0edbf4278f53f9425db175073df6584",
+    "display_name": "wzylstra3",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1137194907799797760",
+    "metadata": {
+      "allow_pn": "on",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "1137111129865609216"
+  }
+]

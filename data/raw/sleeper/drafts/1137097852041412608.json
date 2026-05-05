@@ -1,0 +1,72 @@
+{
+  "created": 1725467763470,
+  "creators": [
+    "1130658393586446336"
+  ],
+  "draft_id": "1137097852041412608",
+  "draft_order": {
+    "1003698243116421120": 11,
+    "1004637920638201856": 2,
+    "1005169734033235968": 1,
+    "1130658393586446336": 8,
+    "1131407094713901056": 5,
+    "1137099870302543872": 4,
+    "1137103090248847360": 3,
+    "731068630057480192": 12,
+    "738592037330382848": 7,
+    "767827424858722304": 9,
+    "993580599556325376": 6,
+    "993611023737221120": 10
+  },
+  "last_message_id": "1137278777504870400",
+  "last_message_time": 1725510899476,
+  "last_picked": 1725510898630,
+  "league_id": "1137097851076546560",
+  "metadata": {
+    "description": "",
+    "name": "Sacked and Satisfied ",
+    "scoring_type": "ppr"
+  },
+  "season": "2024",
+  "season_type": "regular",
+  "settings": {
+    "alpha_sort": 0,
+    "autopause_enabled": 0,
+    "autopause_end_time": 1020,
+    "autopause_start_time": 300,
+    "autostart": 0,
+    "cpu_autopick": 1,
+    "nomination_timer": 60,
+    "pick_timer": 120,
+    "player_type": 0,
+    "reversal_round": 0,
+    "rounds": 15,
+    "slots_bn": 5,
+    "slots_def": 1,
+    "slots_flex": 2,
+    "slots_k": 1,
+    "slots_qb": 1,
+    "slots_rb": 2,
+    "slots_te": 1,
+    "slots_wr": 2,
+    "teams": 12
+  },
+  "slot_to_roster_id": {
+    "1": 12,
+    "2": 7,
+    "3": 3,
+    "4": 2,
+    "5": 6,
+    "6": 11,
+    "7": 10,
+    "8": 1,
+    "9": 9,
+    "10": 8,
+    "11": 4,
+    "12": 5
+  },
+  "sport": "nfl",
+  "start_time": 1725505204461,
+  "status": "complete",
+  "type": "snake"
+}

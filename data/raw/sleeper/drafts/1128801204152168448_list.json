@@ -1,0 +1,59 @@
+[
+  {
+    "created": 1723489688759,
+    "creators": [
+      "1016773312950833152"
+    ],
+    "draft_id": "1128801205364404224",
+    "draft_order": {
+      "1004161986646601728": 3,
+      "1016773312950833152": 2,
+      "1120451502172196864": 8,
+      "1128822247403294720": 4,
+      "1128837706861109248": 5,
+      "1128868349368307712": 1,
+      "738957275414335488": 7,
+      "865407426004901888": 10,
+      "968362946197778432": 6,
+      "977330760300429312": 9
+    },
+    "last_message_id": "1135037598751072256",
+    "last_message_time": 1724976560822,
+    "last_picked": 1724976560189,
+    "league_id": "1128801204152168448",
+    "metadata": {
+      "description": "",
+      "name": "Big Cloud Rx",
+      "scoring_type": "ppr"
+    },
+    "season": "2024",
+    "season_type": "regular",
+    "settings": {
+      "alpha_sort": 0,
+      "autopause_enabled": 0,
+      "autopause_end_time": 840,
+      "autopause_start_time": 120,
+      "autostart": 0,
+      "cpu_autopick": 1,
+      "enforce_position_limits": 1,
+      "nomination_timer": 60,
+      "pick_timer": 90,
+      "player_type": 0,
+      "reversal_round": 0,
+      "rounds": 15,
+      "slots_bn": 5,
+      "slots_def": 1,
+      "slots_flex": 2,
+      "slots_k": 1,
+      "slots_qb": 1,
+      "slots_rb": 2,
+      "slots_te": 1,
+      "slots_wr": 2,
+      "teams": 10
+    },
+    "sport": "nfl",
+    "start_time": 1724972494780,
+    "status": "complete",
+    "type": "snake"
+  }
+]

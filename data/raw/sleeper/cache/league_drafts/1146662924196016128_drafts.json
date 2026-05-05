@@ -1,0 +1,71 @@
+[
+  {
+    "created": 1727748254568,
+    "creators": [
+      "1127833627875770368",
+      "1128019987958030336",
+      "1133938442456453120"
+    ],
+    "draft_id": "1146662924963938304",
+    "draft_order": {
+      "1000925658157035520": 2,
+      "1064668485038567424": 5,
+      "1127833627875770368": 3,
+      "1128019987958030336": 8,
+      "1133938442456453120": 7,
+      "607264269498650624": 9,
+      "711697074571284480": 1,
+      "727719685344276480": 10,
+      "942828168044544000": 6,
+      "975537730107047936": 4
+    },
+    "last_message_id": "1147439700051804160",
+    "last_message_time": 1727933452193,
+    "last_picked": 1727933451121,
+    "league_id": "1146662924196016128",
+    "metadata": {
+      "description": "",
+      "highest_offer": "1",
+      "hovered_player_id": "11647",
+      "name": "$10 Post Week 4 BESTBALL AUCTION",
+      "nominated_player_id": "11599",
+      "nominating_slot": "6",
+      "nominating_user_id": "942828168044544000",
+      "offering_slot": "6",
+      "offering_user_id": "942828168044544000",
+      "paused_pick_timer": "7",
+      "scoring_type": "2qb"
+    },
+    "season": "2024",
+    "season_type": "regular",
+    "settings": {
+      "afk_rounds_1": 11,
+      "afk_rounds_6": 1,
+      "alpha_sort": 0,
+      "autopause_enabled": 0,
+      "autopause_end_time": 1020,
+      "autopause_start_time": 300,
+      "autostart": 0,
+      "budget": 200,
+      "cpu_autopick": 1,
+      "enforce_position_limits": 1,
+      "nomination_timer": 30,
+      "pick_timer": 10,
+      "player_type": 0,
+      "reversal_round": 0,
+      "rounds": 26,
+      "slots_bn": 15,
+      "slots_flex": 3,
+      "slots_qb": 1,
+      "slots_rb": 2,
+      "slots_super_flex": 1,
+      "slots_te": 1,
+      "slots_wr": 3,
+      "teams": 10
+    },
+    "sport": "nfl",
+    "start_time": 1727923736007,
+    "status": "complete",
+    "type": "auction"
+  }
+]

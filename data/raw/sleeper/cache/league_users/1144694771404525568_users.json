@@ -1,0 +1,166 @@
+[
+  {
+    "avatar": "71a787a62caed24c31d55a1a75b87420",
+    "display_name": "ConnorEllisG",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1144694771404525568",
+    "metadata": {
+      "allow_pn": "on",
+      "archived": "on",
+      "mention_pn": "on",
+      "team_name": "Young-Ho Island"
+    },
+    "settings": null,
+    "user_id": "757706066120290304"
+  },
+  {
+    "avatar": "d7e170e8f9e8c468b0e91d8fd145a806",
+    "display_name": "jteezytoolit2",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1144694771404525568",
+    "metadata": {
+      "allow_pn": "on",
+      "archived": "on",
+      "mention_pn": "on",
+      "team_name": "Rich Baby Daddy🤪"
+    },
+    "settings": null,
+    "user_id": "955691919605051392"
+  },
+  {
+    "avatar": "ab56979983965842c9ddd9ee29143ca8",
+    "display_name": "1q2w3e0p",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1144694771404525568",
+    "metadata": {
+      "allow_pn": "off",
+      "archived": "on",
+      "league_report_pn": "on",
+      "mascot_message": "on",
+      "mention_pn": "on",
+      "player_like_pn": "on",
+      "player_nickname_update": "on",
+      "team_name_update": "on",
+      "trade_block_pn": "on",
+      "transaction_commissioner": "on",
+      "transaction_free_agent": "on",
+      "transaction_trade": "on",
+      "transaction_waiver": "on",
+      "user_message_pn": "on"
+    },
+    "settings": null,
+    "user_id": "982483033641033728"
+  },
+  {
+    "avatar": "967dfafc3b5def2c22bfe11486daa42e",
+    "display_name": "Kev331",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1144694771404525568",
+    "metadata": {
+      "allow_pn": "on",
+      "mention_pn": "on",
+      "team_name": "Team Espada"
+    },
+    "settings": null,
+    "user_id": "996166464296148993"
+  },
+  {
+    "avatar": "fcd6250e4463bfdadbaa603d4445412f",
+    "display_name": "Jsmooo",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1144694771404525568",
+    "metadata": {
+      "allow_pn": "on",
+      "archived": "on",
+      "avatar": "https://sleepercdn.com/uploads/fb49137df74016d518a4e0c42abd606b.jpg",
+      "mention_pn": "on",
+      "team_name": "Seahawk TUAH"
+    },
+    "settings": null,
+    "user_id": "1000460611857289216"
+  },
+  {
+    "avatar": "e50fe1ef62e1b412fb41735f0154d7b5",
+    "display_name": "GrittyGrinders",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1144694771404525568",
+    "metadata": {
+      "allow_pn": "on",
+      "allow_sms": "on",
+      "archived": "on",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "1000488762083733504"
+  },
+  {
+    "avatar": "6339a2421ca84472deb27f5b7ad2d644",
+    "display_name": "mattyice1050",
+    "is_bot": false,
+    "is_owner": true,
+    "league_id": "1144694771404525568",
+    "metadata": {
+      "allow_pn": "on",
+      "allow_sms": "on",
+      "avatar": "https://sleepercdn.com/uploads/c4128522251840d5a9c68283c9b37862.jpg",
+      "mention_pn": "on",
+      "team_name": "Breece Lightning"
+    },
+    "settings": null,
+    "user_id": "1004122144604835840"
+  },
+  {
+    "avatar": "ad461372ddaed62313c26dc21e37ef98",
+    "display_name": "DirtyFrank80",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1144694771404525568",
+    "metadata": {
+      "allow_pn": "on",
+      "archived": "on",
+      "avatar": "https://sleepercdn.com/uploads/0ebc9703502243c6201a719274c746c7.jpg",
+      "mention_pn": "on",
+      "team_name": "Hanging with Hernandez"
+    },
+    "settings": null,
+    "user_id": "1052335573492523008"
+  },
+  {
+    "avatar": "15d7cf259bc30eab8f6120f45f652fb6",
+    "display_name": "Choppers4422",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1144694771404525568",
+    "metadata": {
+      "allow_pn": "on",
+      "allow_sms": "on",
+      "archived": "on",
+      "mention_pn": "on",
+      "team_name": "Can you chase me "
+    },
+    "settings": null,
+    "user_id": "1119768432381186048"
+  },
+  {
+    "avatar": "82aec8e811b839b8ec25d7b458afd57b",
+    "display_name": "PickensTheBest",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1144694771404525568",
+    "metadata": {
+      "allow_pn": "on",
+      "archived": "on",
+      "avatar": "https://sleepercdn.com/uploads/83b139058271f0b13a37590ac018deb3",
+      "mention_pn": "on",
+      "team_name": "Team Collusion"
+    },
+    "settings": null,
+    "user_id": "1143337907261075456"
+  }
+]

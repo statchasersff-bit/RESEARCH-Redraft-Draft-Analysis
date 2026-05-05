@@ -1,0 +1,142 @@
+[
+  {
+    "avatar": "e8a6656954f8e6078548bab72de66e76",
+    "display_name": "mombo38",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1136896167335354368",
+    "metadata": {
+      "allow_pn": "on",
+      "archived": "on",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "733042553611460608"
+  },
+  {
+    "avatar": "d56d4a286172082193b337c0b09aa385",
+    "display_name": "PK3ALLDAY",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1136896167335354368",
+    "metadata": {
+      "allow_pn": "on",
+      "allow_sms": "on",
+      "archived": "on",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "849542436333166592"
+  },
+  {
+    "avatar": "f7cc46588c31afac885ca1ae251c5de8",
+    "display_name": "brydawg",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1136896167335354368",
+    "metadata": {
+      "allow_pn": "on",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "864938781910941696"
+  },
+  {
+    "avatar": "b319fdf8b7b5b0359d3c78622ba4d70c",
+    "display_name": "Sizzzzle",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1136896167335354368",
+    "metadata": {
+      "allow_pn": "on",
+      "archived": "on",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "888507866372411392"
+  },
+  {
+    "avatar": "a8d2f2fdb14c555d918aa135364bd0f5",
+    "display_name": "treyeros",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1136896167335354368",
+    "metadata": {
+      "allow_pn": "on",
+      "archived": "off",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "942102329380245504"
+  },
+  {
+    "avatar": "54e99b4e3ac21dfbac78068da06df9f1",
+    "display_name": "LeBronZoLover",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1136896167335354368",
+    "metadata": {
+      "allow_pn": "on",
+      "allow_sms": "on",
+      "archived": "off",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "1003108245176680448"
+  },
+  {
+    "avatar": "4924b131c2cf2c8a634a30ca14b2c2b2",
+    "display_name": "lilgalbi",
+    "is_bot": false,
+    "is_owner": true,
+    "league_id": "1136896167335354368",
+    "metadata": {
+      "allow_pn": "on",
+      "archived": "off",
+      "avatar": "https://sleepercdn.com/uploads/357195cc7b13393a085a51519cc0a8ae.jpg",
+      "mention_pn": "on",
+      "team_name": "City of Angels"
+    },
+    "settings": null,
+    "user_id": "1014480600138420224"
+  },
+  {
+    "avatar": "15d7cf259bc30eab8f6120f45f652fb6",
+    "display_name": "evergreentree888",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1136896167335354368",
+    "metadata": {
+      "allow_pn": "on",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "1133269210920116224"
+  },
+  {
+    "avatar": "82aec8e811b839b8ec25d7b458afd57b",
+    "display_name": "teemkeem",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1136896167335354368",
+    "metadata": {
+      "allow_pn": "on",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "1135032872337002496"
+  },
+  {
+    "avatar": "8eb8f8bf999945d523f2c4033f70473e",
+    "display_name": "banannaman420",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1136896167335354368",
+    "metadata": {
+      "allow_pn": "on",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "1139063377760718848"
+  }
+]

@@ -1,0 +1,60 @@
+[
+  {
+    "created": 1717361316744,
+    "creators": [
+      "725814857588355072"
+    ],
+    "draft_id": "1103096950095818752",
+    "draft_order": {
+      "335977213675442176": 6,
+      "464283919693377536": 4,
+      "472677951763116032": 1,
+      "609207946018086912": 5,
+      "725814857588355072": 10,
+      "730218438395559936": 2,
+      "817613281312260096": 8,
+      "932097926850088960": 3,
+      "934525055214690304": 7,
+      "964909141997285376": 9
+    },
+    "last_message_id": "1103843577878011904",
+    "last_message_time": 1717539326689,
+    "last_picked": 1717539325901,
+    "league_id": "1103096947734306816",
+    "metadata": {
+      "description": "",
+      "name": "FaNTa$TiC FooTBaLL FiR]V[ \\V/",
+      "scoring_type": "2qb"
+    },
+    "season": "2024",
+    "season_type": "regular",
+    "settings": {
+      "alpha_sort": 0,
+      "autopause_enabled": 0,
+      "autopause_end_time": 900,
+      "autopause_start_time": 180,
+      "autostart": 0,
+      "cpu_autopick": 1,
+      "enforce_position_limits": 1,
+      "nomination_timer": 60,
+      "pick_timer": 60,
+      "player_type": 0,
+      "reversal_round": 0,
+      "rounds": 20,
+      "slots_bn": 8,
+      "slots_def": 1,
+      "slots_flex": 3,
+      "slots_k": 1,
+      "slots_qb": 1,
+      "slots_rb": 2,
+      "slots_super_flex": 1,
+      "slots_te": 1,
+      "slots_wr": 2,
+      "teams": 10
+    },
+    "sport": "nfl",
+    "start_time": 1717534940384,
+    "status": "complete",
+    "type": "snake"
+  }
+]

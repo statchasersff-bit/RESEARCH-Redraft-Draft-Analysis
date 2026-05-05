@@ -1,0 +1,56 @@
+[
+  {
+    "created": 1720237226666,
+    "creators": [
+      "710332074363523072"
+    ],
+    "draft_id": "1115159390589374464",
+    "draft_order": {
+      "474846617447428096": 10,
+      "62707789705134080": 7,
+      "710332074363523072": 1,
+      "710693046248894464": 4,
+      "716679913058426880": 9,
+      "732712183326175232": 8,
+      "863199642253381632": 3,
+      "990590584094035968": 2
+    },
+    "last_message_id": "1115185134522605568",
+    "last_message_time": 1720243364509,
+    "last_picked": 1720243363888,
+    "league_id": "1115159388433641472",
+    "metadata": {
+      "description": "",
+      "name": "PM freebie",
+      "scoring_type": "2qb"
+    },
+    "season": "2024",
+    "season_type": "regular",
+    "settings": {
+      "alpha_sort": 0,
+      "autopause_enabled": 0,
+      "autopause_end_time": 1020,
+      "autopause_start_time": 300,
+      "autostart": 0,
+      "cpu_autopick": 1,
+      "enforce_position_limits": 1,
+      "nomination_timer": 60,
+      "pick_timer": 60,
+      "player_type": 0,
+      "reversal_round": 0,
+      "rounds": 18,
+      "slots_bn": 7,
+      "slots_flex": 3,
+      "slots_qb": 1,
+      "slots_rb": 2,
+      "slots_super_flex": 1,
+      "slots_te": 1,
+      "slots_wr": 3,
+      "teams": 10
+    },
+    "sport": "nfl",
+    "start_time": 1720240543366,
+    "status": "complete",
+    "type": "snake"
+  }
+]

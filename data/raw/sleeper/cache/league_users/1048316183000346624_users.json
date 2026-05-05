@@ -1,0 +1,175 @@
+[
+  {
+    "avatar": "ec1fd761dc5c3b42f92d3c91c804435d",
+    "display_name": "Cooptard1",
+    "is_bot": false,
+    "is_owner": false,
+    "league_id": "1048316183000346624",
+    "metadata": {
+      "allow_pn": "on",
+      "allow_sms": "on",
+      "avatar": "https://sleepercdn.com/uploads/25597fc14c3f7ac1de68625d669c7ebe.jpg",
+      "mascot_message": "on",
+      "mention_pn": "on",
+      "player_like_pn": "on",
+      "player_nickname_update": "on",
+      "team_name": "Mish Complete",
+      "team_name_update": "on",
+      "trade_block_pn": "on",
+      "transaction_commissioner": "on",
+      "transaction_free_agent": "on",
+      "transaction_trade": "on",
+      "transaction_waiver": "on",
+      "user_message_pn": "on"
+    },
+    "settings": null,
+    "user_id": "984098138749222912"
+  },
+  {
+    "avatar": "b319fdf8b7b5b0359d3c78622ba4d70c",
+    "display_name": "reesemello",
+    "is_bot": false,
+    "is_owner": true,
+    "league_id": "1048316183000346624",
+    "metadata": {
+      "allow_pn": "on",
+      "allow_sms": "on",
+      "archived": "off",
+      "avatar": "https://sleepercdn.com/uploads/99f8eae1b93912a86c7f2f22f559b8bc.jpg",
+      "mention_pn": "on",
+      "team_name": "Harrisburg Porch Smokers"
+    },
+    "settings": null,
+    "user_id": "984564906760470528"
+  },
+  {
+    "avatar": "9787bdfc684cdebd4feb098083c4fed7",
+    "display_name": "FillonDullerton",
+    "is_bot": false,
+    "is_owner": false,
+    "league_id": "1048316183000346624",
+    "metadata": {
+      "allow_pn": "on",
+      "allow_sms": "on",
+      "avatar": "https://sleepercdn.com/uploads/56f04e878190ea66d0a9f5a3245595a0.jpg",
+      "mention_pn": "on",
+      "show_mascots": "off",
+      "team_name": "Team 10"
+    },
+    "settings": null,
+    "user_id": "984566361789689856"
+  },
+  {
+    "avatar": "2081b8e0afe0420586fff96b7a466d42",
+    "display_name": "Pjatty",
+    "is_bot": false,
+    "is_owner": false,
+    "league_id": "1048316183000346624",
+    "metadata": {
+      "allow_pn": "on",
+      "allow_sms": "on",
+      "avatar": "https://sleepercdn.com/uploads/3f58038a69b5ae427234bd03e5479aeb.jpg",
+      "mention_pn": "on",
+      "team_name": "OlaveGarden"
+    },
+    "settings": null,
+    "user_id": "984566713062678528"
+  },
+  {
+    "avatar": "19e66eb0f6f91370339d6f4e0190ec96",
+    "display_name": "Ditez",
+    "is_bot": false,
+    "is_owner": false,
+    "league_id": "1048316183000346624",
+    "metadata": {
+      "allow_pn": "on",
+      "allow_sms": "on",
+      "avatar": "https://sleepercdn.com/uploads/d86e7aaf2cf2555cd45d93d6175e4a5f.jpg",
+      "mascot_message": "off",
+      "mention_pn": "on",
+      "player_like_pn": "on",
+      "player_nickname_update": "on",
+      "show_mascots": "off",
+      "team_name": "#DoItForVic",
+      "team_name_update": "off",
+      "trade_block_pn": "on",
+      "transaction_commissioner": "on",
+      "transaction_free_agent": "off",
+      "transaction_trade": "on",
+      "transaction_waiver": "on",
+      "user_message_pn": "on"
+    },
+    "settings": null,
+    "user_id": "984566936363233280"
+  },
+  {
+    "avatar": "7caf9fb7fef9ea93274203d7b2618b6d",
+    "display_name": "Kemos",
+    "is_bot": false,
+    "is_owner": false,
+    "league_id": "1048316183000346624",
+    "metadata": {
+      "allow_pn": "on",
+      "allow_sms": "on",
+      "avatar": "https://sleepercdn.com/uploads/7caf9fb7fef9ea93274203d7b2618b6d.jpg",
+      "mascot_message": "off",
+      "mention_pn": "on",
+      "player_like_pn": "on",
+      "player_nickname_update": "off",
+      "team_name": "Kemos ",
+      "team_name_update": "off",
+      "trade_block_pn": "on",
+      "transaction_commissioner": "on",
+      "transaction_free_agent": "off",
+      "transaction_trade": "on",
+      "transaction_waiver": "off",
+      "user_message_pn": "on"
+    },
+    "settings": null,
+    "user_id": "984569637771726848"
+  },
+  {
+    "avatar": "b3338675f635c2c1f42b469621d38ec6",
+    "display_name": "JonesyBueno",
+    "is_bot": false,
+    "is_owner": false,
+    "league_id": "1048316183000346624",
+    "metadata": {
+      "allow_pn": "on",
+      "allow_sms": "on",
+      "avatar": "https://sleepercdn.com/uploads/305cd6297453aef75486b27e93b4e49e.jpg",
+      "mention_pn": "on",
+      "team_name": "Team Poker"
+    },
+    "settings": null,
+    "user_id": "984576662471868416"
+  },
+  {
+    "avatar": "b319fdf8b7b5b0359d3c78622ba4d70c",
+    "display_name": "HiitMaNn",
+    "is_bot": false,
+    "is_owner": false,
+    "league_id": "1048316183000346624",
+    "metadata": {
+      "allow_pn": "on",
+      "avatar": "https://sleepercdn.com/uploads/f4b9627491bf41e4ade532ca69bd2bee.jpg",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "984580165399339008"
+  },
+  {
+    "avatar": "1845f5c4cb5c3d028b8fdcd37fd2e9a0",
+    "display_name": "Adzreisser15",
+    "is_bot": false,
+    "is_owner": false,
+    "league_id": "1048316183000346624",
+    "metadata": {
+      "allow_pn": "on",
+      "mention_pn": "on",
+      "team_name": "Cooked Reisser "
+    },
+    "settings": null,
+    "user_id": "985032860635607040"
+  }
+]

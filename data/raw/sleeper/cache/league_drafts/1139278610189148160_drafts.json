@@ -1,0 +1,54 @@
+[
+  {
+    "created": 1725987697350,
+    "creators": [
+      "859872401251500032"
+    ],
+    "draft_id": "1139278612802342912",
+    "draft_order": {
+      "1125523556298891264": 5,
+      "1132496309421912064": 2,
+      "1136559381237141504": 9,
+      "1139373408485109760": 3,
+      "1140142386220982272": 1,
+      "1140147985617104896": 10,
+      "1140525506677420032": 7,
+      "1140526145662820352": 4,
+      "737343458129432576": 11,
+      "742923890434908160": 12,
+      "859872401251500032": 6
+    },
+    "last_message_id": "1140852641203793920",
+    "last_message_time": 1726362974981,
+    "last_picked": 1726362974026,
+    "league_id": "1139278610189148160",
+    "metadata": {
+      "description": "",
+      "name": "Superflex 12 man",
+      "scoring_type": "2qb"
+    },
+    "season": "2024",
+    "season_type": "regular",
+    "settings": {
+      "alpha_sort": 0,
+      "autostart": 0,
+      "cpu_autopick": 1,
+      "pick_timer": 120,
+      "reversal_round": 0,
+      "rounds": 16,
+      "slots_bn": 6,
+      "slots_def": 1,
+      "slots_flex": 2,
+      "slots_k": 1,
+      "slots_qb": 1,
+      "slots_rb": 2,
+      "slots_super_flex": 1,
+      "slots_wr": 2,
+      "teams": 12
+    },
+    "sport": "nfl",
+    "start_time": 1726358512542,
+    "status": "complete",
+    "type": "snake"
+  }
+]

@@ -1,0 +1,72 @@
+{
+  "created": 1724627846832,
+  "creators": [
+    "462431247012982784"
+  ],
+  "draft_id": "1133574986301804544",
+  "draft_order": {
+    "222818340245086208": 10,
+    "300572733383667712": 7,
+    "462431247012982784": 11,
+    "467512790353965056": 5,
+    "468338248788209664": 9,
+    "469229417772609536": 12,
+    "606262990521556992": 6,
+    "606907372971057152": 4,
+    "621335712591077376": 3,
+    "715057630824996864": 8,
+    "85531144736882688": 2,
+    "859209225610588160": 1
+  },
+  "last_message_id": "1133605363238260736",
+  "last_message_time": 1724635089267,
+  "last_picked": 1724635072066,
+  "league_id": "1133574984955400192",
+  "metadata": {
+    "description": "",
+    "name": "Normal Shit",
+    "scoring_type": "ppr"
+  },
+  "season": "2024",
+  "season_type": "regular",
+  "settings": {
+    "alpha_sort": 0,
+    "autopause_enabled": 0,
+    "autopause_end_time": 900,
+    "autopause_start_time": 180,
+    "autostart": 0,
+    "cpu_autopick": 1,
+    "enforce_position_limits": 1,
+    "nomination_timer": 60,
+    "pick_timer": 30,
+    "player_type": 0,
+    "reversal_round": 0,
+    "rounds": 15,
+    "slots_bn": 6,
+    "slots_flex": 2,
+    "slots_k": 1,
+    "slots_qb": 1,
+    "slots_rb": 2,
+    "slots_te": 1,
+    "slots_wr": 2,
+    "teams": 12
+  },
+  "slot_to_roster_id": {
+    "1": 6,
+    "2": 7,
+    "3": 2,
+    "4": 5,
+    "5": 12,
+    "6": 11,
+    "7": 3,
+    "8": 8,
+    "9": 10,
+    "10": 9,
+    "11": 1,
+    "12": 4
+  },
+  "sport": "nfl",
+  "start_time": 1724630784950,
+  "status": "complete",
+  "type": "snake"
+}

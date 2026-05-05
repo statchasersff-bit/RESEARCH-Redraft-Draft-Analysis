@@ -1,0 +1,212 @@
+[
+  {
+    "avatar": "2733ca8f5e6fe75f5f60f429d247eeb8",
+    "display_name": "WhatTheTuck",
+    "is_bot": false,
+    "is_owner": true,
+    "league_id": "1110379443249410048",
+    "metadata": {
+      "allow_pn": "off",
+      "archived": "on",
+      "league_report_pn": "on",
+      "mascot_message": "on",
+      "mention_pn": "on",
+      "player_like_pn": "on",
+      "player_nickname_update": "off",
+      "team_name_update": "on",
+      "trade_block_pn": "on",
+      "transaction_commissioner": "on",
+      "transaction_free_agent": "on",
+      "transaction_trade": "on",
+      "transaction_waiver": "on",
+      "user_message_pn": "off"
+    },
+    "settings": null,
+    "user_id": "458843367359377408"
+  },
+  {
+    "avatar": "bdb07a088a54f1e9225989d4b6c0e749",
+    "display_name": "antmaranzano",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1110379443249410048",
+    "metadata": {
+      "allow_pn": "on",
+      "allow_sms": "on",
+      "archived": "on",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "592508422121906176"
+  },
+  {
+    "avatar": "4e9e42d3052df4d59fb1993d1971b1a6",
+    "display_name": "MattJelly25",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1110379443249410048",
+    "metadata": {
+      "allow_pn": "off",
+      "archived": "on",
+      "avatar": "https://sleepercdn.com/uploads/de717b0ed9b0052651d5ba221a40458c.jpg",
+      "league_report_pn": "on",
+      "mascot_message": "on",
+      "mention_pn": "on",
+      "player_like_pn": "on",
+      "player_nickname_update": "on",
+      "team_name": "The clayboy mansion ",
+      "team_name_update": "on",
+      "trade_block_pn": "on",
+      "transaction_commissioner": "on",
+      "transaction_free_agent": "off",
+      "transaction_trade": "on",
+      "transaction_waiver": "on",
+      "user_message_pn": "off"
+    },
+    "settings": null,
+    "user_id": "592508659569840128"
+  },
+  {
+    "avatar": "08fcda3b437e6e29c828954805fb7d18",
+    "display_name": "vinnytuplo1",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1110379443249410048",
+    "metadata": {
+      "allow_pn": "on",
+      "archived": "on",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "653257876126679040"
+  },
+  {
+    "avatar": "5c5331a9f5c02807df251d8380a38f09",
+    "display_name": "Fantasywiz1200",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1110379443249410048",
+    "metadata": {
+      "allow_pn": "on",
+      "archived": "on",
+      "avatar": "https://sleepercdn.com/uploads/1ce062a57dbba0ecd91596f433c2c0dc.jpg",
+      "mention_pn": "on",
+      "team_name": "THEY NOT LIKE US ✊🏾"
+    },
+    "settings": null,
+    "user_id": "710332074363523072"
+  },
+  {
+    "avatar": "2687735b4cbd9e6beea3cabe0d57cb4f",
+    "display_name": "Mdavis212",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1110379443249410048",
+    "metadata": {
+      "allow_pn": "on",
+      "archived": "on",
+      "mention_pn": "on",
+      "team_name": "3"
+    },
+    "settings": null,
+    "user_id": "717896443842588672"
+  },
+  {
+    "avatar": "d0e5d26921c63ec3464f3a81e8fc6d74",
+    "display_name": "YOOKAPPY",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1110379443249410048",
+    "metadata": {
+      "allow_pn": "on",
+      "archived": "on",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "817613281312260096"
+  },
+  {
+    "avatar": "3eaf8e16036f26261291b8ba251ef364",
+    "display_name": "jakekeppler",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1110379443249410048",
+    "metadata": {
+      "allow_pn": "off",
+      "archived": "on",
+      "league_report_pn": "on",
+      "mascot_message": "off",
+      "mention_pn": "off",
+      "player_like_pn": "on",
+      "player_nickname_update": "on",
+      "team_name_update": "on",
+      "trade_block_pn": "on",
+      "transaction_commissioner": "on",
+      "transaction_free_agent": "on",
+      "transaction_trade": "on",
+      "transaction_waiver": "on",
+      "user_message_pn": "off"
+    },
+    "settings": null,
+    "user_id": "864606183443554304"
+  },
+  {
+    "avatar": "f561e59b193102fe187e0d73ae094078",
+    "display_name": "DEZIWEZI4PREZI",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1110379443249410048",
+    "metadata": {
+      "allow_pn": "on",
+      "archived": "off",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "998689660010487808"
+  },
+  {
+    "avatar": "4d2dbf71e00546660e58e2dd71ca905d",
+    "display_name": "bMORE313",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1110379443249410048",
+    "metadata": {
+      "allow_pn": "on",
+      "archived": "on",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "1013596478876614656"
+  },
+  {
+    "avatar": "0d678a877f34150fe9b7d0a169a5a850",
+    "display_name": "GAardvark",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1110379443249410048",
+    "metadata": {
+      "allow_pn": "on",
+      "allow_sms": "on",
+      "archived": "on",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "1098288633334833152"
+  },
+  {
+    "avatar": "9a9709127322d7e6ed86838d46432e7e",
+    "display_name": "DELETED-xb434PrWZPYx",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1110379443249410048",
+    "metadata": {
+      "allow_pn": "on",
+      "archived": "off",
+      "avatar": "https://sleepercdn.com/uploads/202ef6a0be107db6d1aa3a3b4c3180b8.jpg",
+      "mention_pn": "on",
+      "team_name": "Pigskin Stealers "
+    },
+    "settings": null,
+    "user_id": "1104985745028149248"
+  }
+]

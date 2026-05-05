@@ -1,0 +1,158 @@
+[
+  {
+    "avatar": "5c5331a9f5c02807df251d8380a38f09",
+    "display_name": "Fantasywiz1200",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1113370596462776320",
+    "metadata": {
+      "allow_pn": "on",
+      "archived": "on",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "710332074363523072"
+  },
+  {
+    "avatar": "7e2e6b08fc290774c5790d176ba4e418",
+    "display_name": "Kramerica420",
+    "is_bot": false,
+    "is_owner": true,
+    "league_id": "1113370596462776320",
+    "metadata": {
+      "allow_pn": "on",
+      "allow_sms": "on",
+      "archived": "on",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "725814857588355072"
+  },
+  {
+    "avatar": "9c816eea4da4cd44c7d67f3dce1b6e20",
+    "display_name": "EagleEyee",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1113370596462776320",
+    "metadata": {
+      "allow_pn": "on",
+      "archived": "on",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "730218438395559936"
+  },
+  {
+    "avatar": "42f66c28c64655199086e8e681e6cc7a",
+    "display_name": "TheJoker08",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1113370596462776320",
+    "metadata": {
+      "allow_pn": "on",
+      "allow_sms": "on",
+      "archived": "on",
+      "mention_pn": "on",
+      "team_name": "❌Hurts my Chubb"
+    },
+    "settings": null,
+    "user_id": "735895804224643072"
+  },
+  {
+    "avatar": "b319fdf8b7b5b0359d3c78622ba4d70c",
+    "display_name": "Cmiller26",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1113370596462776320",
+    "metadata": {
+      "allow_pn": "on",
+      "archived": "on",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "738095113795956736"
+  },
+  {
+    "avatar": "e1f099cda1f60f52ec5e029b3ea8a388",
+    "display_name": "Cmaclbb",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1113370596462776320",
+    "metadata": {
+      "allow_pn": "on",
+      "archived": "on",
+      "mention_pn": "on",
+      "team_name": "Multiple Scorgasms"
+    },
+    "settings": null,
+    "user_id": "739695704431308800"
+  },
+  {
+    "avatar": "d0e5d26921c63ec3464f3a81e8fc6d74",
+    "display_name": "YOOKAPPY",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1113370596462776320",
+    "metadata": {
+      "allow_pn": "on",
+      "archived": "on",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "817613281312260096"
+  },
+  {
+    "avatar": "8e15f27246a394ab98208f6fd3c823c8",
+    "display_name": "Getpaper",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1113370596462776320",
+    "metadata": {
+      "allow_pn": "on",
+      "archived": "on",
+      "mention_pn": "on",
+      "team_name": "El Diablo❌"
+    },
+    "settings": null,
+    "user_id": "964909141997285376"
+  },
+  {
+    "avatar": "15d7cf259bc30eab8f6120f45f652fb6",
+    "display_name": "JJSNYMAN",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1113370596462776320",
+    "metadata": {
+      "allow_pn": "off",
+      "league_report_pn": "on",
+      "mascot_message": "off",
+      "mention_pn": "on",
+      "player_like_pn": "on",
+      "player_nickname_update": "off",
+      "team_name_update": "off",
+      "trade_block_pn": "on",
+      "transaction_commissioner": "on",
+      "transaction_free_agent": "off",
+      "transaction_trade": "on",
+      "transaction_waiver": "off",
+      "user_message_pn": "on"
+    },
+    "settings": null,
+    "user_id": "1009876904926633984"
+  },
+  {
+    "avatar": "82aec8e811b839b8ec25d7b458afd57b",
+    "display_name": "Cowboyup00",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1113370596462776320",
+    "metadata": {
+      "allow_pn": "on",
+      "allow_sms": "on",
+      "archived": "on",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "1096789673034280960"
+  }
+]

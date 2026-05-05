@@ -1,0 +1,48 @@
+[
+  {
+    "created": 1732999649950,
+    "creators": [
+      "867586182693953536"
+    ],
+    "draft_id": "1168688873615196160",
+    "draft_order": null,
+    "last_message_id": "1168688873615196160",
+    "last_message_time": 1732999649950,
+    "last_picked": 1733001955160,
+    "league_id": "1168688871719223296",
+    "metadata": {
+      "description": "",
+      "name": "2024-2025 Competitive Fantasy League ",
+      "scoring_type": "2qb"
+    },
+    "season": "2024",
+    "season_type": "regular",
+    "settings": {
+      "alpha_sort": 0,
+      "autopause_enabled": 0,
+      "autopause_end_time": 900,
+      "autopause_start_time": 180,
+      "autostart": 0,
+      "cpu_autopick": 1,
+      "enforce_position_limits": 1,
+      "nomination_timer": 60,
+      "pick_timer": 60,
+      "player_type": 0,
+      "reversal_round": 0,
+      "rounds": 13,
+      "slots_bn": 4,
+      "slots_def": 1,
+      "slots_flex": 1,
+      "slots_qb": 1,
+      "slots_rb": 2,
+      "slots_super_flex": 1,
+      "slots_te": 1,
+      "slots_wr": 2,
+      "teams": 10
+    },
+    "sport": "nfl",
+    "start_time": null,
+    "status": "pre_draft",
+    "type": "snake"
+  }
+]

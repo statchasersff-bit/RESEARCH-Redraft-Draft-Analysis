@@ -1,0 +1,43 @@
+[
+  {
+    "created": 1727543366806,
+    "creators": [
+      "1142237528855298048"
+    ],
+    "draft_id": "1145803563403210752",
+    "draft_order": {
+      "1142237528855298048": 17,
+      "1148975735588196352": 20
+    },
+    "last_message_id": "1157516302945439744",
+    "last_message_time": 1730335901537,
+    "last_picked": 1730335879536,
+    "league_id": "1145803562375643136",
+    "metadata": {
+      "description": "",
+      "name": "Friends Group ",
+      "scoring_type": "ppr"
+    },
+    "season": "2024",
+    "season_type": "regular",
+    "settings": {
+      "autostart": 0,
+      "cpu_autopick": 1,
+      "pick_timer": 120,
+      "rounds": 15,
+      "slots_bn": 5,
+      "slots_def": 1,
+      "slots_flex": 2,
+      "slots_k": 1,
+      "slots_qb": 1,
+      "slots_rb": 2,
+      "slots_te": 1,
+      "slots_wr": 2,
+      "teams": 22
+    },
+    "sport": "nfl",
+    "start_time": 1730336178963,
+    "status": "complete",
+    "type": "snake"
+  }
+]

@@ -1,0 +1,26 @@
+[
+  {
+    "draft_id": "1066986083675721728",
+    "draft_slot": 1,
+    "is_keeper": null,
+    "metadata": {
+      "first_name": "Josh",
+      "injury_status": "",
+      "last_name": "Allen",
+      "news_updated": "1706469635857",
+      "number": "17",
+      "player_id": "4984",
+      "position": "QB",
+      "sport": "nfl",
+      "status": "Active",
+      "team": "BUF",
+      "years_exp": "6"
+    },
+    "pick_no": 1,
+    "picked_by": "480060175525343232",
+    "player_id": "4984",
+    "reactions": null,
+    "roster_id": 3,
+    "round": 1
+  }
+]

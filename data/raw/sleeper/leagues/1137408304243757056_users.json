@@ -1,0 +1,185 @@
+[
+  {
+    "avatar": "25684cebe0171a82e64ca41a5f4c5307",
+    "display_name": "jhanson64",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1137408304243757056",
+    "metadata": {
+      "allow_pn": "on",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "695501259553206272"
+  },
+  {
+    "avatar": "c838e8e89dea7ed751b0c683616ba3bb",
+    "display_name": "KT4",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1137408304243757056",
+    "metadata": {
+      "allow_pn": "on",
+      "allow_sms": "on",
+      "archived": "on",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "730245028756193280"
+  },
+  {
+    "avatar": "b319fdf8b7b5b0359d3c78622ba4d70c",
+    "display_name": "ranga28",
+    "is_bot": false,
+    "is_owner": true,
+    "league_id": "1137408304243757056",
+    "metadata": {
+      "allow_pn": "on",
+      "allow_sms": "on",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "861602193160114176"
+  },
+  {
+    "avatar": "b4012722f97d30f683cf06d71bcd2019",
+    "display_name": "FarisB",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1137408304243757056",
+    "metadata": {
+      "allow_pn": "on",
+      "archived": "on",
+      "avatar": "https://sleepercdn.com/uploads/41d4de8fb367d2e51915bc5ee5f229d2.jpg",
+      "mention_pn": "on",
+      "team_name": "Rice & IR"
+    },
+    "settings": null,
+    "user_id": "867095184473702400"
+  },
+  {
+    "avatar": "ac85a7d5e34a21553b15a46962a8cfea",
+    "display_name": "Fzuniga77",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1137408304243757056",
+    "metadata": {
+      "allow_pn": "on",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "867102089384452096"
+  },
+  {
+    "avatar": "b319fdf8b7b5b0359d3c78622ba4d70c",
+    "display_name": "ChrisMeul",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1137408304243757056",
+    "metadata": {
+      "allow_pn": "on",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "867177891857883136"
+  },
+  {
+    "avatar": "90d340af637fdf5fc4aee6d4c100b039",
+    "display_name": "carsdavis",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1137408304243757056",
+    "metadata": {
+      "allow_pn": "on",
+      "allow_sms": "on",
+      "archived": "on",
+      "league_report_pn": "on",
+      "mascot_message": "off",
+      "mention_pn": "on",
+      "player_like_pn": "on",
+      "player_nickname_update": "off",
+      "team_name_update": "off",
+      "trade_block_pn": "on",
+      "transaction_commissioner": "off",
+      "transaction_free_agent": "off",
+      "transaction_trade": "on",
+      "transaction_waiver": "off",
+      "user_message_pn": "on"
+    },
+    "settings": null,
+    "user_id": "996851646921539584"
+  },
+  {
+    "avatar": "4de202f8be36912b6a81be2a14132b47",
+    "display_name": "OGtheScientist",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1137408304243757056",
+    "metadata": {
+      "allow_pn": "on",
+      "archived": "on",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "1002669065393000448"
+  },
+  {
+    "avatar": "4312ce3e98a4c77cf33315dd9fe66deb",
+    "display_name": "Nkave",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1137408304243757056",
+    "metadata": {
+      "allow_pn": "on",
+      "allow_sms": "on",
+      "archived": "on",
+      "avatar": "https://sleepercdn.com/uploads/92b3b5d02204f5768a117cdbec90207f.jpg",
+      "mention_pn": "on",
+      "team_name": "Knave68"
+    },
+    "settings": null,
+    "user_id": "1003360427746672640"
+  },
+  {
+    "avatar": "82aec8e811b839b8ec25d7b458afd57b",
+    "display_name": "slanboylover",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1137408304243757056",
+    "metadata": {
+      "allow_pn": "on",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "1004190786705022976"
+  },
+  {
+    "avatar": "32b95d9a0fb4cb3880da25fa93109bb2",
+    "display_name": "CenCalKatz",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1137408304243757056",
+    "metadata": {
+      "allow_pn": "on",
+      "archived": "off",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "1131144575751426048"
+  },
+  {
+    "avatar": "82aec8e811b839b8ec25d7b458afd57b",
+    "display_name": "AllBallsSmallShaft",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1137408304243757056",
+    "metadata": {
+      "allow_pn": "on",
+      "allow_sms": "on",
+      "archived": "on",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "1137421247287214080"
+  }
+]

@@ -1,0 +1,61 @@
+[
+  {
+    "created": 1719082318042,
+    "creators": [
+      "737157531478204416"
+    ],
+    "draft_id": "1110315352682037249",
+    "draft_order": {
+      "1003338083976302592": 2,
+      "729003240259223552": 12,
+      "737157531478204416": 5,
+      "788568976526589952": 8,
+      "867534014821609472": 9,
+      "869401968538501120": 10,
+      "869685603401416704": 11,
+      "967830473881792512": 7,
+      "971916077573697536": 1,
+      "986690483906826240": 3,
+      "990311221289115648": 4,
+      "992623866310639616": 6
+    },
+    "last_message_id": "1136077977189421056",
+    "last_message_time": 1725224606371,
+    "last_picked": 1725224605627,
+    "league_id": "1110315352682037248",
+    "metadata": {
+      "description": "",
+      "name": "Lady’s Luck",
+      "scoring_type": "ppr"
+    },
+    "season": "2024",
+    "season_type": "regular",
+    "settings": {
+      "alpha_sort": 0,
+      "autopause_enabled": 0,
+      "autopause_end_time": 900,
+      "autopause_start_time": 180,
+      "autostart": 1,
+      "cpu_autopick": 1,
+      "enforce_position_limits": 1,
+      "nomination_timer": 60,
+      "pick_timer": 90,
+      "player_type": 0,
+      "reversal_round": 0,
+      "rounds": 15,
+      "slots_bn": 5,
+      "slots_def": 1,
+      "slots_flex": 2,
+      "slots_k": 1,
+      "slots_qb": 1,
+      "slots_rb": 2,
+      "slots_te": 1,
+      "slots_wr": 2,
+      "teams": 12
+    },
+    "sport": "nfl",
+    "start_time": 1725220831244,
+    "status": "complete",
+    "type": "snake"
+  }
+]

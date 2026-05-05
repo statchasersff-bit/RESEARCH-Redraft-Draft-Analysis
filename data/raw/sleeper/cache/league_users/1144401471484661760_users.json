@@ -1,0 +1,126 @@
+[
+  {
+    "avatar": "b319fdf8b7b5b0359d3c78622ba4d70c",
+    "display_name": "maaannyy",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1144401471484661760",
+    "metadata": {
+      "allow_pn": "on",
+      "archived": "on",
+      "avatar": "https://sleepercdn.com/uploads/96494893612279b84f0e30ed279525e6.jpg",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "867877335167352832"
+  },
+  {
+    "avatar": "8eb8f8bf999945d523f2c4033f70473e",
+    "display_name": "zachbuster",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1144401471484661760",
+    "metadata": {
+      "allow_pn": "on",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "958250559578906624"
+  },
+  {
+    "avatar": "e50fe1ef62e1b412fb41735f0154d7b5",
+    "display_name": "GrittyGrinders",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1144401471484661760",
+    "metadata": {
+      "allow_pn": "on",
+      "allow_sms": "on",
+      "archived": "on",
+      "mention_pn": "on",
+      "team_name": "Da Monster Mash 🧌"
+    },
+    "settings": null,
+    "user_id": "1000488762083733504"
+  },
+  {
+    "avatar": "b9bead42b3cd8ba2e2df9b245493bc39",
+    "display_name": "GucciManZ",
+    "is_bot": false,
+    "is_owner": true,
+    "league_id": "1144401471484661760",
+    "metadata": {
+      "allow_pn": "on",
+      "archived": "on",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "1026295095320059904"
+  },
+  {
+    "avatar": "04fc55628f87d1c150b1335958967263",
+    "display_name": "DuramaxLML",
+    "is_bot": false,
+    "is_owner": true,
+    "league_id": "1144401471484661760",
+    "metadata": {
+      "allow_pn": "on",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "1026301924645224448"
+  },
+  {
+    "avatar": "b3338675f635c2c1f42b469621d38ec6",
+    "display_name": "mt2molehill",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1144401471484661760",
+    "metadata": {
+      "allow_pn": "on",
+      "archived": "on",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "1026536629743251456"
+  },
+  {
+    "avatar": "82aec8e811b839b8ec25d7b458afd57b",
+    "display_name": "PickensTheBest",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1144401471484661760",
+    "metadata": {
+      "allow_pn": "on",
+      "archived": "on",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "1143337907261075456"
+  },
+  {
+    "avatar": "4890a9ac35e09a2ecf382132914b2ae7",
+    "display_name": "bkayleen",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1144401471484661760",
+    "metadata": {
+      "allow_pn": "off",
+      "allow_sms": "on",
+      "league_report_pn": "off",
+      "mascot_message": "off",
+      "mention_pn": "on",
+      "player_like_pn": "off",
+      "player_nickname_update": "off",
+      "team_name_update": "off",
+      "trade_block_pn": "off",
+      "transaction_commissioner": "off",
+      "transaction_free_agent": "off",
+      "transaction_trade": "off",
+      "transaction_waiver": "off",
+      "user_message_pn": "off"
+    },
+    "settings": null,
+    "user_id": "1145129047182290944"
+  }
+]

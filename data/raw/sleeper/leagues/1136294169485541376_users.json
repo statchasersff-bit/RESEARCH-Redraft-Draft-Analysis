@@ -1,0 +1,189 @@
+[
+  {
+    "avatar": "nfl_dal",
+    "display_name": "sl4421",
+    "is_bot": null,
+    "is_owner": null,
+    "league_id": "1136294169485541376",
+    "metadata": {
+      "allow_pn": "on",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "79057017813483520"
+  },
+  {
+    "avatar": "a2ad42700e73cc0ebd0c2553ca6a3e06",
+    "display_name": "audioandrew",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1136294169485541376",
+    "metadata": {
+      "allow_pn": "on",
+      "archived": "on",
+      "league_report_pn": "on",
+      "mascot_message": "on",
+      "mention_pn": "on",
+      "player_like_pn": "on",
+      "player_nickname_update": "on",
+      "team_name": "Golden State Grizzlies ",
+      "team_name_update": "on",
+      "trade_block_pn": "on",
+      "transaction_commissioner": "on",
+      "transaction_free_agent": "on",
+      "transaction_trade": "on",
+      "transaction_waiver": "on",
+      "user_message_pn": "on"
+    },
+    "settings": null,
+    "user_id": "300502974344495104"
+  },
+  {
+    "avatar": "2952f89b327da8d915653ec5bb4b356f",
+    "display_name": "jllewis",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1136294169485541376",
+    "metadata": {
+      "allow_pn": "on",
+      "archived": "on",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "339887482571096064"
+  },
+  {
+    "avatar": "fd18d1728f8a780b6b5dc91e0566ae92",
+    "display_name": "fulton52",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1136294169485541376",
+    "metadata": {
+      "allow_pn": "on",
+      "allow_sms": "on",
+      "archived": "on",
+      "avatar": "https://sleepercdn.com/uploads/5413a1977e23692751d2c2063cb64625.jpg",
+      "mention_pn": "on",
+      "team_name": "Cpt Allen: Winter Soldier"
+    },
+    "settings": null,
+    "user_id": "466134510094774272"
+  },
+  {
+    "avatar": "2ade3b6858e37b3f22f212ff776608be",
+    "display_name": "calsmith19",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1136294169485541376",
+    "metadata": {
+      "allow_pn": "on",
+      "allow_sms": "on",
+      "archived": "off",
+      "mention_pn": "on",
+      "team_name": "Finding Deebo"
+    },
+    "settings": null,
+    "user_id": "483159398663843840"
+  },
+  {
+    "avatar": "ff69c93fc6cfe6e5a36eba654c283ac4",
+    "display_name": "FestinaLente",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1136294169485541376",
+    "metadata": {
+      "allow_pn": "on",
+      "archived": "on",
+      "avatar": "https://sleepercdn.com/uploads/7ed7bd194658cbee697a8d88431fa38a",
+      "mention_pn": "on",
+      "team_name": "TD Jesus"
+    },
+    "settings": null,
+    "user_id": "586734787226542080"
+  },
+  {
+    "avatar": "15d7cf259bc30eab8f6120f45f652fb6",
+    "display_name": "angelomad",
+    "is_bot": false,
+    "is_owner": true,
+    "league_id": "1136294169485541376",
+    "metadata": {
+      "allow_pn": "on",
+      "archived": "on",
+      "avatar": "https://sleepercdn.com/uploads/8a4a2a1b7519f2916c0468ce0f50f7e7.jpg",
+      "mention_pn": "on",
+      "team_name": "The Implication"
+    },
+    "settings": null,
+    "user_id": "734478395534123008"
+  },
+  {
+    "avatar": "9915f3c56ded06c3d31a3e5529b4e644",
+    "display_name": "joshlo",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1136294169485541376",
+    "metadata": {
+      "allow_pn": "on",
+      "archived": "on",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "901544247692808192"
+  },
+  {
+    "avatar": "24b9680bc42be3a61c7e71b940063e05",
+    "display_name": "LetRussCook98",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1136294169485541376",
+    "metadata": {
+      "allow_pn": "on",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "996163227631390720"
+  },
+  {
+    "avatar": "82aec8e811b839b8ec25d7b458afd57b",
+    "display_name": "SantaRosaKnights",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1136294169485541376",
+    "metadata": {
+      "allow_pn": "on",
+      "archived": "on",
+      "mention_pn": "on",
+      "team_name": "Knights"
+    },
+    "settings": null,
+    "user_id": "1049431487201853440"
+  },
+  {
+    "avatar": "b3338675f635c2c1f42b469621d38ec6",
+    "display_name": "GritzzBlitzz",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1136294169485541376",
+    "metadata": {
+      "allow_pn": "on",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "1135003247032463360"
+  },
+  {
+    "avatar": "b319fdf8b7b5b0359d3c78622ba4d70c",
+    "display_name": "LongRabbit",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1136294169485541376",
+    "metadata": {
+      "allow_pn": "on",
+      "allow_sms": "on",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "1136822198011953152"
+  }
+]

@@ -1,0 +1,189 @@
+[
+  {
+    "avatar": "4acc622bc88c44dc6bb0c498f7c22bef",
+    "display_name": "All22_FF",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1118947562544943104",
+    "metadata": {
+      "allow_pn": "on",
+      "archived": "on",
+      "avatar": "https://sleepercdn.com/uploads/4acc622bc88c44dc6bb0c498f7c22bef.jpg",
+      "mention_pn": "on",
+      "team_name": "All22FF(Matchup)"
+    },
+    "settings": null,
+    "user_id": "214108240420544512"
+  },
+  {
+    "avatar": "473fd382223d0282b2725cdaaad5bada",
+    "display_name": "KingQarib",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1118947562544943104",
+    "metadata": {
+      "allow_pn": "on",
+      "archived": "on",
+      "avatar": "https://sleepercdn.com/uploads/f87e815fd1ed78b0372d1a7c7750df5d.jpg",
+      "mention_pn": "on",
+      "team_name": "The Awesome One"
+    },
+    "settings": null,
+    "user_id": "472422263627444224"
+  },
+  {
+    "avatar": "861ff7354f35ac1b8fd2c7dd56bafd73",
+    "display_name": "pmzet",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1118947562544943104",
+    "metadata": {
+      "allow_pn": "on",
+      "archived": "on",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "472677951763116032"
+  },
+  {
+    "avatar": "066591b30878998a1b113a9dd0e99756",
+    "display_name": "Mugiwara",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1118947562544943104",
+    "metadata": {
+      "allow_pn": "on",
+      "archived": "on",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "473780178980433920"
+  },
+  {
+    "avatar": "e585b6fff238680788615173a4f75ec7",
+    "display_name": "RaisingCaines",
+    "is_bot": false,
+    "is_owner": true,
+    "league_id": "1118947562544943104",
+    "metadata": {
+      "allow_pn": "on",
+      "archived": "on",
+      "mention_pn": "on",
+      "team_name": "RCSF"
+    },
+    "settings": null,
+    "user_id": "507048073710563328"
+  },
+  {
+    "avatar": "8d29115df605f196e6adfb719287bcfa",
+    "display_name": "EndZoneKilla",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1118947562544943104",
+    "metadata": {
+      "allow_pn": "on",
+      "archived": "on",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "556073486570704896"
+  },
+  {
+    "avatar": "8138a789c539cbcab896c5024fc2bcf7",
+    "display_name": "TheCTGiants",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1118947562544943104",
+    "metadata": {
+      "allow_pn": "on",
+      "archived": "on",
+      "mention_pn": "on",
+      "team_name": "400/125/75"
+    },
+    "settings": null,
+    "user_id": "604307777581543424"
+  },
+  {
+    "avatar": "2d5917757d9613d7ecbc3c97613bb2c8",
+    "display_name": "Treetop05",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1118947562544943104",
+    "metadata": {
+      "allow_pn": "on",
+      "archived": "on",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "728349666239979520"
+  },
+  {
+    "avatar": "4dc201d90f026a172644c5b4b541f6dd",
+    "display_name": "H20dog",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1118947562544943104",
+    "metadata": {
+      "allow_pn": "on",
+      "archived": "on",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "730208039642173440"
+  },
+  {
+    "avatar": "af15fee3428d176b842223bf6ba6a8a9",
+    "display_name": "TBAMA24",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1118947562544943104",
+    "metadata": {
+      "allow_pn": "on",
+      "archived": "off",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "735935129616293888"
+  },
+  {
+    "avatar": "75c9b1e31e4006fab62ff77570280689",
+    "display_name": "TarenCapel",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1118947562544943104",
+    "metadata": {
+      "allow_pn": "off",
+      "archived": "on",
+      "avatar": "https://sleepercdn.com/uploads/31b2f3e55a0f755878681f931ea227aa.jpg",
+      "league_report_pn": "on",
+      "mascot_message": "on",
+      "mention_pn": "on",
+      "player_like_pn": "on",
+      "player_nickname_update": "on",
+      "team_name": "The Macra Terror",
+      "team_name_update": "on",
+      "trade_block_pn": "on",
+      "transaction_commissioner": "on",
+      "transaction_free_agent": "on",
+      "transaction_trade": "on",
+      "transaction_waiver": "on",
+      "user_message_pn": "off"
+    },
+    "settings": null,
+    "user_id": "868360290927038464"
+  },
+  {
+    "avatar": "b095a7266540abbe76303929be729ad8",
+    "display_name": "ccb15",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1118947562544943104",
+    "metadata": {
+      "allow_pn": "on",
+      "archived": "on",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "906332057926627328"
+  }
+]

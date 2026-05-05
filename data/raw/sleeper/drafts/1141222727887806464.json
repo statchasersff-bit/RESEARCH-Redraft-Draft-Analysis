@@ -1,0 +1,67 @@
+{
+  "created": 1726451210515,
+  "creators": [
+    "995708146008027136"
+  ],
+  "draft_id": "1141222727887806464",
+  "draft_order": {
+    "1032524867054338048": 8,
+    "1130225414468653056": 4,
+    "1130226507118551040": 10,
+    "1140971281572278272": 2,
+    "1141381301153579008": 9,
+    "734901125098123264": 1,
+    "887099343310946304": 3,
+    "995708146008027136": 5
+  },
+  "last_message_id": "1141586983597326336",
+  "last_message_time": 1726538055852,
+  "last_picked": 1726538054937,
+  "league_id": "1141222726838321152",
+  "metadata": {
+    "description": "",
+    "name": "balls",
+    "scoring_type": "dynasty_ppr"
+  },
+  "season": "2024",
+  "season_type": "regular",
+  "settings": {
+    "alpha_sort": 0,
+    "autopause_enabled": 0,
+    "autopause_end_time": 840,
+    "autopause_start_time": 120,
+    "autostart": 1,
+    "cpu_autopick": 1,
+    "enforce_position_limits": 1,
+    "nomination_timer": 60,
+    "pick_timer": 60,
+    "player_type": 0,
+    "reversal_round": 0,
+    "rounds": 14,
+    "slots_bn": 5,
+    "slots_def": 1,
+    "slots_flex": 1,
+    "slots_k": 1,
+    "slots_qb": 1,
+    "slots_rb": 2,
+    "slots_te": 1,
+    "slots_wr": 2,
+    "teams": 10
+  },
+  "slot_to_roster_id": {
+    "1": 6,
+    "2": 7,
+    "3": 10,
+    "4": 5,
+    "5": 1,
+    "6": 3,
+    "7": 8,
+    "8": 4,
+    "9": 9,
+    "10": 2
+  },
+  "sport": "nfl",
+  "start_time": 1726535730158,
+  "status": "complete",
+  "type": "snake"
+}

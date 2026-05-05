@@ -1,0 +1,167 @@
+[
+  {
+    "avatar": "c9a0ff98618777ec3b270c4fcedbb4bb",
+    "display_name": "1BlackPanther",
+    "is_bot": false,
+    "is_owner": true,
+    "league_id": "1156812684756733952",
+    "metadata": {
+      "allow_pn": "off",
+      "archived": "on",
+      "league_report_pn": "off",
+      "mascot_message": "off",
+      "mention_pn": "on",
+      "player_like_pn": "off",
+      "player_nickname_update": "off",
+      "team_name": "The Dynasty Team",
+      "team_name_update": "off",
+      "trade_block_pn": "off",
+      "transaction_commissioner": "off",
+      "transaction_free_agent": "off",
+      "transaction_trade": "on",
+      "transaction_waiver": "on",
+      "user_message_pn": "on"
+    },
+    "settings": null,
+    "user_id": "496322599559622656"
+  },
+  {
+    "avatar": "78fd14846ef602c67713c2ea00d6af7b",
+    "display_name": "HeirJordans",
+    "is_bot": false,
+    "is_owner": false,
+    "league_id": "1156812684756733952",
+    "metadata": {
+      "allow_pn": "on",
+      "archived": "on",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "854785777429753856"
+  },
+  {
+    "avatar": "a9c3e1629405666895bb4c7dadd94330",
+    "display_name": "nliv31",
+    "is_bot": false,
+    "is_owner": false,
+    "league_id": "1156812684756733952",
+    "metadata": {
+      "allow_pn": "on",
+      "allow_sms": "on",
+      "archived": "off",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "872632159645786112"
+  },
+  {
+    "avatar": "4b497865b72cac32f7c250f948326a9c",
+    "display_name": "CPL717",
+    "is_bot": false,
+    "is_owner": false,
+    "league_id": "1156812684756733952",
+    "metadata": {
+      "allow_pn": "on",
+      "allow_sms": "on",
+      "archived": "off",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "1001319531215765504"
+  },
+  {
+    "avatar": "9033d6d86de3b410a575dd2d2412d507",
+    "display_name": "bigdoom",
+    "is_bot": false,
+    "is_owner": true,
+    "league_id": "1156812684756733952",
+    "metadata": {
+      "allow_pn": "on",
+      "archived": "off",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "1009974433227939840"
+  },
+  {
+    "avatar": "8f6f8294999979cd303d341f2adfbdba",
+    "display_name": "jahswor",
+    "is_bot": false,
+    "is_owner": false,
+    "league_id": "1156812684756733952",
+    "metadata": {
+      "allow_pn": "on",
+      "archived": "on",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "1064668485038567424"
+  },
+  {
+    "avatar": "4a9e69a6b16e30fe34aaad88aeb0045d",
+    "display_name": "jesssaaa",
+    "is_bot": false,
+    "is_owner": false,
+    "league_id": "1156812684756733952",
+    "metadata": {
+      "allow_pn": "on",
+      "archived": "on",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "1133938442456453120"
+  },
+  {
+    "avatar": "b319fdf8b7b5b0359d3c78622ba4d70c",
+    "display_name": "drew3769",
+    "is_bot": false,
+    "is_owner": false,
+    "league_id": "1156812684756733952",
+    "metadata": {
+      "allow_pn": "off",
+      "archived": "on",
+      "league_report_pn": "off",
+      "mascot_message": "off",
+      "mention_pn": "on",
+      "player_like_pn": "off",
+      "player_nickname_update": "off",
+      "team_name_update": "off",
+      "trade_block_pn": "off",
+      "transaction_commissioner": "off",
+      "transaction_free_agent": "off",
+      "transaction_trade": "off",
+      "transaction_waiver": "off",
+      "user_message_pn": "off"
+    },
+    "settings": null,
+    "user_id": "1137242993162932224"
+  },
+  {
+    "avatar": "ac85a7d5e34a21553b15a46962a8cfea",
+    "display_name": "zilla19",
+    "is_bot": false,
+    "is_owner": false,
+    "league_id": "1156812684756733952",
+    "metadata": {
+      "allow_pn": "on",
+      "archived": "on",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "1151512718441136128"
+  },
+  {
+    "avatar": "257c7e792a2f4ada7cd870a7b3b43901",
+    "display_name": "ThaBallMill",
+    "is_bot": false,
+    "is_owner": false,
+    "league_id": "1156812684756733952",
+    "metadata": {
+      "allow_pn": "on",
+      "archived": "on",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "1151945562519138304"
+  }
+]

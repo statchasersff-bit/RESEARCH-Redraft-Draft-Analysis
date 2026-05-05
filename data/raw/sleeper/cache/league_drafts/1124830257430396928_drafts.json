@@ -1,0 +1,46 @@
+[
+  {
+    "created": 1722542941008,
+    "creators": [
+      "503221693381079040"
+    ],
+    "draft_id": "1124830257430396929",
+    "draft_order": null,
+    "last_message_id": "1124830257430396929",
+    "last_message_time": 1722542941008,
+    "last_picked": null,
+    "league_id": "1124830257430396928",
+    "metadata": {
+      "description": "",
+      "name": "Last Minute Madness",
+      "scoring_type": "ppr"
+    },
+    "season": "2024",
+    "season_type": "regular",
+    "settings": {
+      "alpha_sort": 0,
+      "autopause_enabled": 0,
+      "autopause_end_time": 900,
+      "autopause_start_time": 180,
+      "autostart": 0,
+      "cpu_autopick": 1,
+      "nomination_timer": 60,
+      "pick_timer": 60,
+      "player_type": 0,
+      "reversal_round": 0,
+      "rounds": 15,
+      "slots_bn": 6,
+      "slots_def": 1,
+      "slots_flex": 2,
+      "slots_qb": 1,
+      "slots_rb": 2,
+      "slots_te": 1,
+      "slots_wr": 2,
+      "teams": 12
+    },
+    "sport": "nfl",
+    "start_time": null,
+    "status": "pre_draft",
+    "type": "snake"
+  }
+]

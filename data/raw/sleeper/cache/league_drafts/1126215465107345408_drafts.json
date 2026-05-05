@@ -1,0 +1,60 @@
+[
+  {
+    "created": 1722873200470,
+    "creators": [
+      "566701749895016448"
+    ],
+    "draft_id": "1126215466059468800",
+    "draft_order": {
+      "1126668520651067392": 3,
+      "1126673049388023808": 12,
+      "391094148586844160": 11,
+      "456716408202457088": 5,
+      "566701749895016448": 4,
+      "600424108500512768": 10,
+      "728697751835136000": 8,
+      "740417854251397120": 7,
+      "740969667451113472": 1,
+      "77873776322560000": 6,
+      "869049233750290432": 2,
+      "988657855425318912": 9
+    },
+    "last_message_id": "1128263643969142784",
+    "last_message_time": 1723361524148,
+    "last_picked": 1723361522597,
+    "league_id": "1126215465107345408",
+    "metadata": {
+      "description": "",
+      "name": "Degen Demands ",
+      "scoring_type": "2qb"
+    },
+    "season": "2024",
+    "season_type": "regular",
+    "settings": {
+      "alpha_sort": 0,
+      "autopause_enabled": 0,
+      "autopause_end_time": 540,
+      "autopause_start_time": 60,
+      "autostart": 0,
+      "cpu_autopick": 1,
+      "enforce_position_limits": 1,
+      "nomination_timer": 60,
+      "pick_timer": 14400,
+      "player_type": 0,
+      "reversal_round": 0,
+      "rounds": 17,
+      "slots_bn": 7,
+      "slots_flex": 2,
+      "slots_qb": 1,
+      "slots_rb": 2,
+      "slots_super_flex": 1,
+      "slots_te": 1,
+      "slots_wr": 3,
+      "teams": 12
+    },
+    "sport": "nfl",
+    "start_time": 1722986019711,
+    "status": "complete",
+    "type": "snake"
+  }
+]

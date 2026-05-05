@@ -1,0 +1,167 @@
+[
+  {
+    "avatar": "e9b4259ea632a7b098283ab971ad608d",
+    "display_name": "JYG1108",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1106995399795212288",
+    "metadata": {
+      "allow_pn": "on",
+      "archived": "off",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "503059692491108352"
+  },
+  {
+    "avatar": "8e486703094f9d5d51f2ef0255c8ed98",
+    "display_name": "CRSamnaldo",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1106995399795212288",
+    "metadata": {
+      "allow_pn": "on",
+      "archived": "off",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "748756211440164864"
+  },
+  {
+    "avatar": "15d7cf259bc30eab8f6120f45f652fb6",
+    "display_name": "molliepease",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1106995399795212288",
+    "metadata": {
+      "allow_pn": "on",
+      "mention_pn": "on",
+      "team_name": "절대안질거야"
+    },
+    "settings": null,
+    "user_id": "863739434762383360"
+  },
+  {
+    "avatar": "55d4430fa595de5e507555b23fab6911",
+    "display_name": "chef15",
+    "is_bot": false,
+    "is_owner": true,
+    "league_id": "1106995399795212288",
+    "metadata": {
+      "allow_pn": "on",
+      "avatar": "https://sleepercdn.com/uploads/91aa31f8edccf050a9f2cc5e5bd620b5.jpg",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "867719457332670464"
+  },
+  {
+    "avatar": "b319fdf8b7b5b0359d3c78622ba4d70c",
+    "display_name": "Breesss",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1106995399795212288",
+    "metadata": {
+      "allow_pn": "on",
+      "archived": "off",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "955371781093675008"
+  },
+  {
+    "avatar": "82aec8e811b839b8ec25d7b458afd57b",
+    "display_name": "oldboyohan",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1106995399795212288",
+    "metadata": {
+      "allow_pn": "on",
+      "mention_pn": "on",
+      "team_name": "초대뼈찜챔피언"
+    },
+    "settings": null,
+    "user_id": "981397098379759616"
+  },
+  {
+    "avatar": "01b96be15860d90433e6b679a6054f89",
+    "display_name": "Wattexans",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1106995399795212288",
+    "metadata": {
+      "allow_pn": "on",
+      "league_report_pn": "on",
+      "mascot_message": "off",
+      "mention_pn": "on",
+      "player_like_pn": "on",
+      "player_nickname_update": "off",
+      "team_name_update": "off",
+      "trade_block_pn": "on",
+      "transaction_commissioner": "on",
+      "transaction_free_agent": "off",
+      "transaction_trade": "on",
+      "transaction_waiver": "on",
+      "user_message_pn": "on"
+    },
+    "settings": null,
+    "user_id": "981482130238672896"
+  },
+  {
+    "avatar": "4f4090e5e9c3941414db40a871e3e909",
+    "display_name": "kitasenri",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1106995399795212288",
+    "metadata": {
+      "allow_pn": "on",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "981954317085143040"
+  },
+  {
+    "avatar": "ab56979983965842c9ddd9ee29143ca8",
+    "display_name": "1q2w3e0p",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1106995399795212288",
+    "metadata": {
+      "allow_pn": "on",
+      "archived": "on",
+      "avatar": "https://sleepercdn.com/uploads/600d2061a99b6ceaa80ffe9a5cf787ae.jpg",
+      "mention_pn": "on",
+      "team_name": "마요띠 마요투"
+    },
+    "settings": null,
+    "user_id": "982483033641033728"
+  },
+  {
+    "avatar": "f0edbf4278f53f9425db175073df6584",
+    "display_name": "swanique",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1106995399795212288",
+    "metadata": {
+      "allow_pn": "on",
+      "mention_pn": "on",
+      "team_name": "Kevin"
+    },
+    "settings": null,
+    "user_id": "982698350917066752"
+  },
+  {
+    "avatar": "5f0df02a9c0f3662e27ffc18e3eb56f3",
+    "display_name": "RAVENSOUT",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1106995399795212288",
+    "metadata": {
+      "allow_pn": "on",
+      "mention_pn": "on",
+      "team_name": "LAMAR8"
+    },
+    "settings": null,
+    "user_id": "1122385668891635712"
+  }
+]

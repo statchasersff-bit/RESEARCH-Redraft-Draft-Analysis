@@ -1,0 +1,156 @@
+[
+  {
+    "avatar": "bef8765db5ec5c87de03a26a451f09a0",
+    "display_name": "buffalomafia2421",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1137618740668125184",
+    "metadata": {
+      "allow_pn": "on",
+      "allow_sms": "on",
+      "archived": "on",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "1002712938760810496"
+  },
+  {
+    "avatar": "b3338675f635c2c1f42b469621d38ec6",
+    "display_name": "Cobbjr",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1137618740668125184",
+    "metadata": {
+      "allow_pn": "on",
+      "archived": "off",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "1004252887251357696"
+  },
+  {
+    "avatar": "f0edbf4278f53f9425db175073df6584",
+    "display_name": "justscoredammit",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1137618740668125184",
+    "metadata": {
+      "allow_pn": "on",
+      "league_report_pn": "off",
+      "mascot_message": "on",
+      "mention_pn": "on",
+      "player_like_pn": "on",
+      "player_nickname_update": "on",
+      "team_name_update": "on",
+      "trade_block_pn": "on",
+      "transaction_commissioner": "off",
+      "transaction_free_agent": "on",
+      "transaction_trade": "on",
+      "transaction_waiver": "on",
+      "user_message_pn": "on"
+    },
+    "settings": null,
+    "user_id": "1008490786729652224"
+  },
+  {
+    "avatar": "b319fdf8b7b5b0359d3c78622ba4d70c",
+    "display_name": "Shazam69",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1137618740668125184",
+    "metadata": {
+      "allow_pn": "on",
+      "allow_sms": "on",
+      "archived": "on",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "1129451781819342848"
+  },
+  {
+    "avatar": "2b12066f1777e3ec1eb3b23d81dd71f3",
+    "display_name": "CJtheBest0489",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1137618740668125184",
+    "metadata": {
+      "allow_pn": "on",
+      "archived": "on",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "1136509075296387072"
+  },
+  {
+    "avatar": "b3338675f635c2c1f42b469621d38ec6",
+    "display_name": "jdsmart",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1137618740668125184",
+    "metadata": {
+      "allow_pn": "on",
+      "allow_sms": "on",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "1137493355179012096"
+  },
+  {
+    "avatar": "15d7cf259bc30eab8f6120f45f652fb6",
+    "display_name": "grayguns",
+    "is_bot": false,
+    "is_owner": true,
+    "league_id": "1137618740668125184",
+    "metadata": {
+      "allow_pn": "on",
+      "allow_sms": "on",
+      "archived": "on",
+      "avatar": "https://sleepercdn.com/uploads/4d48dd82bdf30eb35b1c351eb38ac460.jpg",
+      "mention_pn": "on",
+      "team_name": "damardiac arrest"
+    },
+    "settings": null,
+    "user_id": "1137618052059860992"
+  },
+  {
+    "avatar": "82aec8e811b839b8ec25d7b458afd57b",
+    "display_name": "ksmyth29",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1137618740668125184",
+    "metadata": {
+      "allow_pn": "on",
+      "avatar": "https://sleepercdn.com/uploads/bb30fa06f5a2442ff162ec1ac3b94612.jpg",
+      "mention_pn": "on",
+      "team_name": "Hit and Ruggs"
+    },
+    "settings": null,
+    "user_id": "1137619676290895872"
+  },
+  {
+    "avatar": "15d7cf259bc30eab8f6120f45f652fb6",
+    "display_name": "Atlanta22",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1137618740668125184",
+    "metadata": {
+      "allow_pn": "on",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "1137621770922766336"
+  },
+  {
+    "avatar": "b3338675f635c2c1f42b469621d38ec6",
+    "display_name": "tylerfaubert",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1137618740668125184",
+    "metadata": {
+      "allow_pn": "on",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "1138184528096460800"
+  }
+]

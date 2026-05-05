@@ -1,0 +1,61 @@
+[
+  {
+    "created": 1726254059771,
+    "creators": [
+      "979203009441832960"
+    ],
+    "draft_id": "1140395817753387008",
+    "draft_order": {
+      "1136769012647546880": 11,
+      "1137627293734780928": 2,
+      "1140691616898998272": 3,
+      "470758149708574720": 4,
+      "471863026283180032": 8,
+      "472677951763116032": 1,
+      "607685751630540800": 9,
+      "728079617956634624": 12,
+      "852980662007881728": 6,
+      "873365285305020416": 10,
+      "979203009441832960": 5,
+      "982483033641033728": 7
+    },
+    "last_message_id": "1140870968135446528",
+    "last_message_time": 1726367344462,
+    "last_picked": 1726367343555,
+    "league_id": "1140395816910413824",
+    "metadata": {
+      "description": "",
+      "name": "Encore 12 Redraft",
+      "scoring_type": "ppr"
+    },
+    "season": "2024",
+    "season_type": "regular",
+    "settings": {
+      "alpha_sort": 0,
+      "autopause_enabled": 0,
+      "autopause_end_time": 840,
+      "autopause_start_time": 120,
+      "autostart": 1,
+      "cpu_autopick": 1,
+      "enforce_position_limits": 1,
+      "nomination_timer": 60,
+      "pick_timer": 60,
+      "player_type": 0,
+      "reversal_round": 0,
+      "rounds": 16,
+      "slots_bn": 6,
+      "slots_def": 1,
+      "slots_flex": 2,
+      "slots_k": 1,
+      "slots_qb": 1,
+      "slots_rb": 2,
+      "slots_te": 1,
+      "slots_wr": 2,
+      "teams": 12
+    },
+    "sport": "nfl",
+    "start_time": 1726362027867,
+    "status": "complete",
+    "type": "snake"
+  }
+]

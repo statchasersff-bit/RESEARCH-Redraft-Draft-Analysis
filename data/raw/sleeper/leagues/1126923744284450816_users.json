@@ -1,0 +1,156 @@
+[
+  {
+    "avatar": "874ce2f8134f39c600ad507d5ae44901",
+    "display_name": "Duhroo",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1126923744284450816",
+    "metadata": {
+      "allow_pn": "on",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "466355960370163712"
+  },
+  {
+    "avatar": "d88044353561b2cc2891abdec8d9fc93",
+    "display_name": "BijanMustard09",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1126923744284450816",
+    "metadata": {
+      "allow_pn": "off",
+      "league_report_pn": "on",
+      "mascot_message": "on",
+      "mention_pn": "on",
+      "player_like_pn": "on",
+      "player_nickname_update": "on",
+      "team_name_update": "on",
+      "trade_block_pn": "on",
+      "transaction_commissioner": "on",
+      "transaction_free_agent": "on",
+      "transaction_trade": "on",
+      "transaction_waiver": "on",
+      "user_message_pn": "on"
+    },
+    "settings": null,
+    "user_id": "472239814532395008"
+  },
+  {
+    "avatar": "197282d2040d1ad5602f751fade148ae",
+    "display_name": "ChiefSmeef15",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1126923744284450816",
+    "metadata": {
+      "allow_pn": "on",
+      "allow_sms": "on",
+      "archived": "on",
+      "mention_pn": "on",
+      "team_name": "Orlando OJ's "
+    },
+    "settings": null,
+    "user_id": "873435205577441280"
+  },
+  {
+    "avatar": "864f7de5082ef3b72926ff91f8cc13a0",
+    "display_name": "AroddaBaller27",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1126923744284450816",
+    "metadata": {
+      "allow_pn": "on",
+      "allow_sms": "on",
+      "mention_pn": "on",
+      "team_name": "D’Wats Massage Parlor"
+    },
+    "settings": null,
+    "user_id": "887502273998475264"
+  },
+  {
+    "avatar": "14724528e168134543a1c576514f1724",
+    "display_name": "ngandrews",
+    "is_bot": false,
+    "is_owner": true,
+    "league_id": "1126923744284450816",
+    "metadata": {
+      "allow_pn": "on",
+      "allow_sms": "on",
+      "avatar": "https://sleepercdn.com/uploads/883c56e972358a3da39977e159c98e2c.jpg",
+      "mention_pn": "on",
+      "team_name": "Dawgs"
+    },
+    "settings": null,
+    "user_id": "1004206457421721600"
+  },
+  {
+    "avatar": "82aec8e811b839b8ec25d7b458afd57b",
+    "display_name": "BRoseSports",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1126923744284450816",
+    "metadata": {
+      "allow_pn": "on",
+      "mention_pn": "on",
+      "team_name": "Onlyfans @natebrosio"
+    },
+    "settings": null,
+    "user_id": "1005578348430475264"
+  },
+  {
+    "avatar": "70d2ba392329dc1b751c29b9d121b307",
+    "display_name": "MillerTimee21",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1126923744284450816",
+    "metadata": {
+      "allow_pn": "on",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "1054552882478960640"
+  },
+  {
+    "avatar": "8eb8f8bf999945d523f2c4033f70473e",
+    "display_name": "Gary0328",
+    "is_bot": false,
+    "is_owner": false,
+    "league_id": "1126923744284450816",
+    "metadata": {
+      "allow_pn": "on",
+      "avatar": "https://sleepercdn.com/uploads/c2235ddaed68ca40e6cf6eb17fda7866.jpg",
+      "mention_pn": "on",
+      "team_name": "“Dicker” down"
+    },
+    "settings": null,
+    "user_id": "1126918156490088448"
+  },
+  {
+    "avatar": "e7af4deab0289b4f5505646424895246",
+    "display_name": "Trisslug",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1126923744284450816",
+    "metadata": {
+      "allow_pn": "on",
+      "allow_sms": "on",
+      "archived": "off",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "1126969400386535424"
+  },
+  {
+    "avatar": "b319fdf8b7b5b0359d3c78622ba4d70c",
+    "display_name": "TheGatt",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1126923744284450816",
+    "metadata": {
+      "allow_pn": "on",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "1133641168908173312"
+  }
+]

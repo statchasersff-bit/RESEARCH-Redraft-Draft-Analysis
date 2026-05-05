@@ -1,0 +1,72 @@
+{
+  "created": 1722995329469,
+  "creators": [
+    "971964889109467136"
+  ],
+  "draft_id": "1126727713009618944",
+  "draft_order": {
+    "1098381804010164224": 4,
+    "420280941840179200": 7,
+    "452224529574391808": 2,
+    "472677951763116032": 9,
+    "473248385600581632": 10,
+    "498579910487437312": 12,
+    "715894093032550400": 8,
+    "719450525036265472": 1,
+    "728124256470286336": 6,
+    "728796147027656704": 5,
+    "853453095907217408": 3,
+    "971964889109467136": 11
+  },
+  "last_message_id": "1126792254724632576",
+  "last_message_time": 1723010717615,
+  "last_picked": 1723010712831,
+  "league_id": "1126727710929174528",
+  "metadata": {
+    "description": "",
+    "name": "Mike Vick’s Dog Kennel - $25 SF TEP Redraft",
+    "scoring_type": "2qb"
+  },
+  "season": "2024",
+  "season_type": "regular",
+  "settings": {
+    "alpha_sort": 0,
+    "autopause_enabled": 0,
+    "autopause_end_time": 1020,
+    "autopause_start_time": 300,
+    "autostart": 1,
+    "cpu_autopick": 1,
+    "enforce_position_limits": 1,
+    "nomination_timer": 60,
+    "pick_timer": 60,
+    "player_type": 0,
+    "reversal_round": 0,
+    "rounds": 16,
+    "slots_bn": 6,
+    "slots_flex": 3,
+    "slots_qb": 1,
+    "slots_rb": 2,
+    "slots_super_flex": 1,
+    "slots_te": 1,
+    "slots_wr": 2,
+    "teams": 12
+  },
+  "slot_to_roster_id": {
+    "1": 9,
+    "2": 12,
+    "3": 6,
+    "4": 8,
+    "5": 3,
+    "6": 5,
+    "7": 7,
+    "8": 2,
+    "9": 4,
+    "10": 10,
+    "11": 1,
+    "12": 11
+  },
+  "sport": "nfl",
+  "start_time": 1723006237498,
+  "status": "complete",
+  "type": "snake"
+}

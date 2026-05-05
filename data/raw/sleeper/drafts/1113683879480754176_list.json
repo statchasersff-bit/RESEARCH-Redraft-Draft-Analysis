@@ -1,0 +1,58 @@
+[
+  {
+    "created": 1719885437415,
+    "creators": [
+      "704220888010145792"
+    ],
+    "draft_id": "1113683879480754177",
+    "draft_order": {
+      "100908832284622848": 4,
+      "470681183408091136": 5,
+      "481389009403113472": 2,
+      "522513197997666304": 10,
+      "562447059408097280": 6,
+      "562961099163267072": 7,
+      "704220888010145792": 9,
+      "715057630824996864": 8,
+      "833045045924986880": 3,
+      "972975362059677696": 1
+    },
+    "last_message_id": "1118784796903084032",
+    "last_message_time": 1721101590899,
+    "last_picked": 1721101590266,
+    "league_id": "1113683879480754176",
+    "metadata": {
+      "description": "",
+      "name": "The Boys",
+      "scoring_type": "2qb"
+    },
+    "season": "2024",
+    "season_type": "regular",
+    "settings": {
+      "alpha_sort": 0,
+      "autopause_enabled": 0,
+      "autopause_end_time": 840,
+      "autopause_start_time": 120,
+      "autostart": 0,
+      "cpu_autopick": 1,
+      "enforce_position_limits": 1,
+      "nomination_timer": 60,
+      "pick_timer": 90,
+      "player_type": 0,
+      "reversal_round": 0,
+      "rounds": 18,
+      "slots_bn": 8,
+      "slots_flex": 2,
+      "slots_qb": 1,
+      "slots_rb": 2,
+      "slots_super_flex": 1,
+      "slots_te": 1,
+      "slots_wr": 3,
+      "teams": 10
+    },
+    "sport": "nfl",
+    "start_time": 1721096258394,
+    "status": "complete",
+    "type": "snake"
+  }
+]

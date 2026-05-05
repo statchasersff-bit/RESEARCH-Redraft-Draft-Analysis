@@ -1,0 +1,58 @@
+[
+  {
+    "created": 1727231864388,
+    "creators": [
+      "1131422039677579264"
+    ],
+    "draft_id": "1144497027565395968",
+    "draft_order": {
+      "1001916694090039296": 2,
+      "1002366959356481536": 8,
+      "1026301924645224448": 5,
+      "1128899344943550464": 6,
+      "1131422039677579264": 10,
+      "1132043085799723008": 1,
+      "1134744032258887680": 9,
+      "1145182780281188352": 4,
+      "958250559578906624": 3
+    },
+    "last_message_id": "1145567149553917952",
+    "last_message_time": 1727487001363,
+    "last_picked": 1727487000578,
+    "league_id": "1144497023253688320",
+    "metadata": {
+      "description": "",
+      "name": "Last League Of The Year",
+      "scoring_type": "ppr"
+    },
+    "season": "2024",
+    "season_type": "regular",
+    "settings": {
+      "alpha_sort": 0,
+      "autopause_enabled": 0,
+      "autopause_end_time": 1020,
+      "autopause_start_time": 300,
+      "autostart": 0,
+      "cpu_autopick": 1,
+      "enforce_position_limits": 1,
+      "nomination_timer": 60,
+      "pick_timer": 120,
+      "player_type": 0,
+      "reversal_round": 0,
+      "rounds": 15,
+      "slots_bn": 5,
+      "slots_def": 1,
+      "slots_flex": 2,
+      "slots_k": 1,
+      "slots_qb": 1,
+      "slots_rb": 2,
+      "slots_te": 1,
+      "slots_wr": 2,
+      "teams": 10
+    },
+    "sport": "nfl",
+    "start_time": 1727483445577,
+    "status": "complete",
+    "type": "snake"
+  }
+]

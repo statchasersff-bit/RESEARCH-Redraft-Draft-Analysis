@@ -1,0 +1,59 @@
+[
+  {
+    "created": 1724282502543,
+    "creators": [
+      "462797351577186304"
+    ],
+    "draft_id": "1132126507373170688",
+    "draft_order": {
+      "1123433208252661760": 12,
+      "1131836075917545472": 1,
+      "462797351577186304": 5,
+      "465619921934479360": 8,
+      "467369926768717824": 11,
+      "602789967093096448": 6,
+      "734561532788195328": 4,
+      "736341609901359104": 2,
+      "848063191643693056": 3,
+      "864753219555983360": 10,
+      "988952850388586496": 9
+    },
+    "last_message_id": "1132238789578903552",
+    "last_message_time": 1724309272716,
+    "last_picked": 1724309271639,
+    "league_id": "1132126505712238592",
+    "metadata": {
+      "description": "",
+      "name": "Insomnia draft",
+      "scoring_type": "ppr"
+    },
+    "season": "2024",
+    "season_type": "regular",
+    "settings": {
+      "alpha_sort": 0,
+      "autopause_enabled": 0,
+      "autopause_end_time": 1020,
+      "autopause_start_time": 300,
+      "autostart": 0,
+      "cpu_autopick": 1,
+      "enforce_position_limits": 1,
+      "nomination_timer": 60,
+      "pick_timer": 60,
+      "player_type": 0,
+      "reversal_round": 0,
+      "rounds": 16,
+      "slots_bn": 6,
+      "slots_def": 1,
+      "slots_flex": 3,
+      "slots_qb": 1,
+      "slots_rb": 2,
+      "slots_te": 1,
+      "slots_wr": 2,
+      "teams": 12
+    },
+    "sport": "nfl",
+    "start_time": 1724306479362,
+    "status": "complete",
+    "type": "snake"
+  }
+]

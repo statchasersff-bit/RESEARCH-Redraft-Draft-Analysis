@@ -1,0 +1,171 @@
+[
+  {
+    "avatar": "931f228107432fd02d426d6d8dc11e9d",
+    "display_name": "DragoCousins",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1137204517017415680",
+    "metadata": {
+      "allow_pn": "on",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "608446544995254272"
+  },
+  {
+    "avatar": "4f4090e5e9c3941414db40a871e3e909",
+    "display_name": "racinrayb",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1137204517017415680",
+    "metadata": {
+      "allow_pn": "on",
+      "avatar": "https://sleepercdn.com/uploads/ce72f60010ab1d52240c11021307479e.jpg",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "767913271637430272"
+  },
+  {
+    "avatar": "e514bcf24e98c09f1e921343b602dd78",
+    "display_name": "timspear2",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1137204517017415680",
+    "metadata": {
+      "allow_pn": "on",
+      "allow_sms": "on",
+      "archived": "on",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "995519351530938368"
+  },
+  {
+    "avatar": "8eb8f8bf999945d523f2c4033f70473e",
+    "display_name": "rorylion",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1137204517017415680",
+    "metadata": {
+      "allow_pn": "on",
+      "archived": "on",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "1000166013784694784"
+  },
+  {
+    "avatar": "b319fdf8b7b5b0359d3c78622ba4d70c",
+    "display_name": "yoseba",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1137204517017415680",
+    "metadata": {
+      "allow_pn": "on",
+      "allow_sms": "on",
+      "archived": "on",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "1005205173846786048"
+  },
+  {
+    "avatar": "8eb8f8bf999945d523f2c4033f70473e",
+    "display_name": "samuel10000000000000",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1137204517017415680",
+    "metadata": {
+      "allow_pn": "on",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "1118995948883013632"
+  },
+  {
+    "avatar": "b3338675f635c2c1f42b469621d38ec6",
+    "display_name": "1qabitch",
+    "is_bot": false,
+    "is_owner": true,
+    "league_id": "1137204517017415680",
+    "metadata": {
+      "allow_pn": "on",
+      "allow_sms": "on",
+      "archived": "on",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "1133906317728600064"
+  },
+  {
+    "avatar": "b319fdf8b7b5b0359d3c78622ba4d70c",
+    "display_name": "Emel23",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1137204517017415680",
+    "metadata": {
+      "allow_pn": "on",
+      "allow_sms": "on",
+      "archived": "on",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "1136109962377261056"
+  },
+  {
+    "avatar": "82aec8e811b839b8ec25d7b458afd57b",
+    "display_name": "JackTirgrath",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1137204517017415680",
+    "metadata": {
+      "allow_pn": "on",
+      "archived": "on",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "1136786362830577664"
+  },
+  {
+    "avatar": "82aec8e811b839b8ec25d7b458afd57b",
+    "display_name": "Meirrr33",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1137204517017415680",
+    "metadata": {
+      "allow_pn": "on",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "1137456052368605184"
+  },
+  {
+    "avatar": "cb2a764e913f5e3dd5272f3b5daff97f",
+    "display_name": "TeamPigskin",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1137204517017415680",
+    "metadata": {
+      "allow_pn": "on",
+      "archived": "on",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "1137792636221267968"
+  },
+  {
+    "avatar": "8eb8f8bf999945d523f2c4033f70473e",
+    "display_name": "bellyboi43",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1137204517017415680",
+    "metadata": {
+      "allow_pn": "on",
+      "allow_sms": "on",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "1137817133641150464"
+  }
+]

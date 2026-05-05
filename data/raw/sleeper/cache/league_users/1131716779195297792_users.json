@@ -1,0 +1,177 @@
+[
+  {
+    "avatar": "nfl_det",
+    "display_name": "greekdawg",
+    "is_bot": null,
+    "is_owner": null,
+    "league_id": "1131716779195297792",
+    "metadata": {
+      "allow_pn": "on",
+      "archived": "on",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "100908832284622848"
+  },
+  {
+    "avatar": "b46aff0476446b185f1c0ebfb8136278",
+    "display_name": "ChuckSully",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1131716779195297792",
+    "metadata": {
+      "allow_pn": "on",
+      "archived": "off",
+      "avatar": "https://sleepercdn.com/uploads/80dcda5eabc33c2df771dff5a9267377",
+      "mention_pn": "on",
+      "team_name": "RUNCMC"
+    },
+    "settings": null,
+    "user_id": "468276551364898816"
+  },
+  {
+    "avatar": "3f5b9b9b6d62c3a0289703f49f1d9e4e",
+    "display_name": "MileHighMoney",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1131716779195297792",
+    "metadata": {
+      "allow_pn": "on",
+      "archived": "on",
+      "avatar": "https://sleepercdn.com/uploads/49c0190f3476d1bbfb6a05e60aa03a46.jpg",
+      "mention_pn": "on",
+      "team_name": "Bed, Bath and Bijan"
+    },
+    "settings": null,
+    "user_id": "591066536618270720"
+  },
+  {
+    "avatar": "f13de90a3b526f9d331f1401a690fe6a",
+    "display_name": "ayoLuan",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1131716779195297792",
+    "metadata": {
+      "allow_pn": "on",
+      "archived": "on",
+      "mention_pn": "on",
+      "team_name": "❌"
+    },
+    "settings": null,
+    "user_id": "655940191013421056"
+  },
+  {
+    "avatar": "1424c1019f4310ef062fbd64702c32a2",
+    "display_name": "262BG",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1131716779195297792",
+    "metadata": {
+      "allow_pn": "on",
+      "archived": "on",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "728707610144047104"
+  },
+  {
+    "avatar": "00dde01c84a96f750d46b6cc51ec540d",
+    "display_name": "WinnerCircle13",
+    "is_bot": false,
+    "is_owner": true,
+    "league_id": "1131716779195297792",
+    "metadata": {
+      "allow_pn": "on",
+      "archived": "on",
+      "avatar": "https://sleepercdn.com/uploads/f7a26505f1e60df4bd512503b20802b7.jpg",
+      "mention_pn": "on",
+      "team_name": "Joe Money, Joe Problems "
+    },
+    "settings": null,
+    "user_id": "732004539489714176"
+  },
+  {
+    "avatar": "f0edbf4278f53f9425db175073df6584",
+    "display_name": "jmelnyk",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1131716779195297792",
+    "metadata": {
+      "allow_pn": "on",
+      "archived": "on",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "733785838344851456"
+  },
+  {
+    "avatar": "57384b3052816047d8376440fc80df4a",
+    "display_name": "llerwick",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1131716779195297792",
+    "metadata": {
+      "allow_pn": "on",
+      "archived": "on",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "737046516736352256"
+  },
+  {
+    "avatar": "4384fad80f2ff50a4f8c431fffc8bc1e",
+    "display_name": "TwoTrey23",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1131716779195297792",
+    "metadata": {
+      "allow_pn": "on",
+      "archived": "on",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "769776420452012032"
+  },
+  {
+    "avatar": "6b08a817eeb90d4f0a0b2b5f0b7b134e",
+    "display_name": "ballback",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1131716779195297792",
+    "metadata": {
+      "allow_pn": "on",
+      "archived": "on",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "817156827639861248"
+  },
+  {
+    "avatar": "15d7cf259bc30eab8f6120f45f652fb6",
+    "display_name": "bhanson811",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1131716779195297792",
+    "metadata": {
+      "allow_pn": "on",
+      "archived": "on",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "870846438182125568"
+  },
+  {
+    "avatar": "dbf15fa680ea4e0e4412428f1b535218",
+    "display_name": "Parsons91",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1131716779195297792",
+    "metadata": {
+      "allow_pn": "on",
+      "archived": "on",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "991248130614075392"
+  }
+]

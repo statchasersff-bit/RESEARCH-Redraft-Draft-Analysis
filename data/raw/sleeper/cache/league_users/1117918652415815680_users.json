@@ -1,0 +1,210 @@
+[
+  {
+    "avatar": "1d538540976713a2a93c687c112b5c70",
+    "display_name": "ChefLion",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1117918652415815680",
+    "metadata": {
+      "allow_pn": "on",
+      "archived": "off",
+      "mention_pn": "on",
+      "team_name": "Icy Wieners"
+    },
+    "settings": null,
+    "user_id": "337047422737874944"
+  },
+  {
+    "avatar": "a7edf17a1956ebe79017732156625301",
+    "display_name": "Jawhorse",
+    "is_bot": false,
+    "is_owner": false,
+    "league_id": "1117918652415815680",
+    "metadata": {
+      "allow_pn": "on",
+      "archived": "on",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "463151018994036736"
+  },
+  {
+    "avatar": "7aaf9f5526c0ba2598fac2f51adbce47",
+    "display_name": "RICHARDJUICE21",
+    "is_bot": false,
+    "is_owner": true,
+    "league_id": "1117918652415815680",
+    "metadata": {
+      "allow_pn": "on",
+      "archived": "off",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "551973398337581056"
+  },
+  {
+    "avatar": "1cbbc746d7b1ddac6bc4908b9f7902a4",
+    "display_name": "FardcoreHuck",
+    "is_bot": false,
+    "is_owner": false,
+    "league_id": "1117918652415815680",
+    "metadata": {
+      "allow_pn": "on",
+      "avatar": "https://sleepercdn.com/uploads/3558ca8a15cff6f96438163a0ebdccca.jpg",
+      "mention_pn": "on",
+      "team_name": "Gushers"
+    },
+    "settings": null,
+    "user_id": "555261425384873984"
+  },
+  {
+    "avatar": "f514837d50b0ad312b08d76ac3450911",
+    "display_name": "usmchog237",
+    "is_bot": false,
+    "is_owner": false,
+    "league_id": "1117918652415815680",
+    "metadata": {
+      "allow_pn": "on",
+      "archived": "off",
+      "mention_pn": "on",
+      "team_name": "All Barkley, no bite  "
+    },
+    "settings": null,
+    "user_id": "555955284563820544"
+  },
+  {
+    "avatar": "b3338675f635c2c1f42b469621d38ec6",
+    "display_name": "Nelly1",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1117918652415815680",
+    "metadata": {
+      "allow_pn": "on",
+      "archived": "on",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "723414698690699264"
+  },
+  {
+    "avatar": "ca6812c39bab61503a8ac00323491552",
+    "display_name": "thebluebomber",
+    "is_bot": false,
+    "is_owner": false,
+    "league_id": "1117918652415815680",
+    "metadata": {
+      "allow_pn": "off",
+      "archived": "on",
+      "avatar": "https://sleepercdn.com/uploads/35029bc1b21e1ef948417abdb8b0e443",
+      "league_report_pn": "off",
+      "mascot_message": "off",
+      "mention_pn": "off",
+      "player_like_pn": "on",
+      "player_nickname_update": "off",
+      "team_name": "Herbert Hears a Koo",
+      "team_name_update": "off",
+      "trade_block_pn": "on",
+      "transaction_commissioner": "on",
+      "transaction_free_agent": "off",
+      "transaction_trade": "on",
+      "transaction_waiver": "off",
+      "user_message_pn": "off"
+    },
+    "settings": null,
+    "user_id": "739525846288781312"
+  },
+  {
+    "avatar": "82aec8e811b839b8ec25d7b458afd57b",
+    "display_name": "tracesack",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1117918652415815680",
+    "metadata": {
+      "allow_pn": "on",
+      "archived": "on",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "812819945053384704"
+  },
+  {
+    "avatar": "5842ede2b094025a6c412f1b3784c121",
+    "display_name": "kwright24",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1117918652415815680",
+    "metadata": {
+      "allow_pn": "on",
+      "archived": "off",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "975537730107047936"
+  },
+  {
+    "avatar": "e53eb5a56d6da8c72ffc0b05b9199724",
+    "display_name": "1q2w3e0p",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1117918652415815680",
+    "metadata": {
+      "allow_pn": "off",
+      "archived": "on",
+      "league_report_pn": "on",
+      "mascot_message": "on",
+      "mention_pn": "on",
+      "player_like_pn": "on",
+      "player_nickname_update": "on",
+      "team_name_update": "on",
+      "trade_block_pn": "on",
+      "transaction_commissioner": "on",
+      "transaction_free_agent": "on",
+      "transaction_trade": "on",
+      "transaction_waiver": "on",
+      "user_message_pn": "on"
+    },
+    "settings": null,
+    "user_id": "982483033641033728"
+  },
+  {
+    "avatar": "2d3ab531231cd8e3e46b2d708aaae778",
+    "display_name": "EJShirilla",
+    "is_bot": false,
+    "is_owner": false,
+    "league_id": "1117918652415815680",
+    "metadata": {
+      "allow_pn": "off",
+      "allow_sms": "on",
+      "avatar": "https://sleepercdn.com/uploads/e629ff99f1f63b5c5556c3bb11f32d2d.jpg",
+      "league_report_pn": "on",
+      "mascot_message": "off",
+      "mention_pn": "on",
+      "player_like_pn": "off",
+      "player_nickname_update": "off",
+      "team_name": "Henry Rugs Formula 1 Team",
+      "team_name_update": "off",
+      "trade_block_pn": "off",
+      "transaction_commissioner": "off",
+      "transaction_free_agent": "off",
+      "transaction_trade": "off",
+      "transaction_waiver": "off",
+      "user_message_pn": "off"
+    },
+    "settings": null,
+    "user_id": "990814936580341760"
+  },
+  {
+    "avatar": "b3338675f635c2c1f42b469621d38ec6",
+    "display_name": "rory6",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1117918652415815680",
+    "metadata": {
+      "allow_pn": "on",
+      "archived": "on",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "994316500150333440"
+  }
+]

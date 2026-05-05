@@ -1,0 +1,179 @@
+[
+  {
+    "avatar": "nfl_det",
+    "display_name": "greekdawg",
+    "is_bot": null,
+    "is_owner": null,
+    "league_id": "1120313991227613184",
+    "metadata": {
+      "allow_pn": "on",
+      "archived": "on",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "100908832284622848"
+  },
+  {
+    "avatar": "f0cb76b1ab2e0f26167ea5364315e40b",
+    "display_name": "Yeffy",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1120313991227613184",
+    "metadata": {
+      "allow_pn": "on",
+      "archived": "on",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "419633975233875968"
+  },
+  {
+    "avatar": "a7edf17a1956ebe79017732156625301",
+    "display_name": "TeamDace",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1120313991227613184",
+    "metadata": {
+      "allow_pn": "on",
+      "archived": "on",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "464632153267761152"
+  },
+  {
+    "avatar": "c758f2da71df2766571ca21c2f6d97b6",
+    "display_name": "Akkido907",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1120313991227613184",
+    "metadata": {
+      "allow_pn": "on",
+      "archived": "on",
+      "mention_pn": "on",
+      "team_name": "Walking on Sunshine "
+    },
+    "settings": null,
+    "user_id": "467969640677502976"
+  },
+  {
+    "avatar": "b987f66667023baafadeb2051a35b7c1",
+    "display_name": "wjtaylor08",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1120313991227613184",
+    "metadata": {
+      "allow_pn": "on",
+      "archived": "on",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "468279658211700736"
+  },
+  {
+    "avatar": "3f5b9b9b6d62c3a0289703f49f1d9e4e",
+    "display_name": "MileHighMoney",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1120313991227613184",
+    "metadata": {
+      "allow_pn": "on",
+      "archived": "on",
+      "avatar": "https://sleepercdn.com/uploads/cff4321fc2ec66dcf422a997e0444d3e.jpg",
+      "mention_pn": "on",
+      "team_name": "Tig ‘ol Griddys"
+    },
+    "settings": null,
+    "user_id": "591066536618270720"
+  },
+  {
+    "avatar": "2687735b4cbd9e6beea3cabe0d57cb4f",
+    "display_name": "Mdavis212",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1120313991227613184",
+    "metadata": {
+      "allow_pn": "on",
+      "archived": "on",
+      "mention_pn": "on",
+      "team_name": "💩"
+    },
+    "settings": null,
+    "user_id": "717896443842588672"
+  },
+  {
+    "avatar": "00dde01c84a96f750d46b6cc51ec540d",
+    "display_name": "WinnerCircle13",
+    "is_bot": false,
+    "is_owner": true,
+    "league_id": "1120313991227613184",
+    "metadata": {
+      "allow_pn": "on",
+      "archived": "on",
+      "avatar": "https://sleepercdn.com/uploads/ab96bc797072da8742184fb85b449f6d.jpg",
+      "mention_pn": "on",
+      "team_name": "Lamb, Bam, Thank You Mam"
+    },
+    "settings": null,
+    "user_id": "732004539489714176"
+  },
+  {
+    "avatar": "d1a4e26095d12f4b07b07ffbff5ff8af",
+    "display_name": "AR5ff",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1120313991227613184",
+    "metadata": {
+      "allow_pn": "on",
+      "archived": "on",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "912160171957399552"
+  },
+  {
+    "avatar": "4d531426ebc73bf4c4a02fbb367ea225",
+    "display_name": "jimbo1964",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1120313991227613184",
+    "metadata": {
+      "allow_pn": "on",
+      "archived": "on",
+      "avatar": "https://sleepercdn.com/uploads/99c2918e3384f13516899835bd2c8235",
+      "mention_pn": "on",
+      "team_name": "Bundy"
+    },
+    "settings": null,
+    "user_id": "956962521917800448"
+  },
+  {
+    "avatar": "dbf15fa680ea4e0e4412428f1b535218",
+    "display_name": "Parsons91",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1120313991227613184",
+    "metadata": {
+      "allow_pn": "on",
+      "archived": "on",
+      "mention_pn": "on",
+      "team_name": "Kelce diggs taylor"
+    },
+    "settings": null,
+    "user_id": "991248130614075392"
+  },
+  {
+    "avatar": "bb16a7a17ecff55823bc472a1fdc1b56",
+    "display_name": "Kanpai",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1120313991227613184",
+    "metadata": {
+      "allow_pn": "on",
+      "archived": "on",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "997001957258612736"
+  }
+]

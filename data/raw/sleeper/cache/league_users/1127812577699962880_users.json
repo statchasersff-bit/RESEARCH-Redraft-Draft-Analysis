@@ -1,0 +1,138 @@
+[
+  {
+    "avatar": "773ef8c6eb2c65a5d004ad013bc7b4d2",
+    "display_name": "NYGGGMEN",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1127812577699962880",
+    "metadata": {
+      "allow_pn": "on",
+      "archived": "on",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "339138514413182976"
+  },
+  {
+    "avatar": "d84cefda8253a208c8ce182871e7fa88",
+    "display_name": "DELETED-xEJGxOd9gM53",
+    "is_bot": false,
+    "is_owner": true,
+    "league_id": "1127812577699962880",
+    "metadata": {
+      "allow_pn": "on",
+      "archived": "off",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "466864878439624704"
+  },
+  {
+    "avatar": "5c5331a9f5c02807df251d8380a38f09",
+    "display_name": "Fantasywiz1200",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1127812577699962880",
+    "metadata": {
+      "allow_pn": "on",
+      "archived": "on",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "710332074363523072"
+  },
+  {
+    "avatar": "15d7cf259bc30eab8f6120f45f652fb6",
+    "display_name": "Aiden83",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1127812577699962880",
+    "metadata": {
+      "allow_pn": "on",
+      "archived": "on",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "738419491515572224"
+  },
+  {
+    "avatar": "92c2f3c5b2384236564a98555c7ee08d",
+    "display_name": "Meelo97",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1127812577699962880",
+    "metadata": {
+      "allow_pn": "off",
+      "archived": "on",
+      "league_report_pn": "off",
+      "mascot_message": "off",
+      "mention_pn": "off",
+      "player_like_pn": "off",
+      "player_nickname_update": "off",
+      "team_name_update": "off",
+      "trade_block_pn": "off",
+      "transaction_commissioner": "off",
+      "transaction_free_agent": "off",
+      "transaction_trade": "off",
+      "transaction_waiver": "off",
+      "user_message_pn": "off"
+    },
+    "settings": null,
+    "user_id": "739589409778839552"
+  },
+  {
+    "avatar": "08b2d586c802a5268e1710840cf38c8c",
+    "display_name": "blinq1x",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1127812577699962880",
+    "metadata": {
+      "allow_pn": "on",
+      "archived": "on",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "755886445604012032"
+  },
+  {
+    "avatar": "b319fdf8b7b5b0359d3c78622ba4d70c",
+    "display_name": "Shimano",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1127812577699962880",
+    "metadata": {
+      "allow_pn": "on",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "850998706353324032"
+  },
+  {
+    "avatar": "b3338675f635c2c1f42b469621d38ec6",
+    "display_name": "domwarn22",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1127812577699962880",
+    "metadata": {
+      "allow_pn": "on",
+      "archived": "on",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "988164979075366912"
+  },
+  {
+    "avatar": "97830fa563719e7cad8f3a1d9c67b976",
+    "display_name": "yumszn",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1127812577699962880",
+    "metadata": {
+      "allow_pn": "on",
+      "archived": "off",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "1086846128131260416"
+  }
+]

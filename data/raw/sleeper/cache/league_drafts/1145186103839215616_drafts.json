@@ -1,0 +1,42 @@
+[
+  {
+    "created": 1727396153377,
+    "creators": [
+      "1140432357858787328"
+    ],
+    "draft_id": "1145186105537654784",
+    "draft_order": {
+      "1140432357858787328": 6
+    },
+    "last_message_id": "1145187792700452864",
+    "last_message_time": 1727396555641,
+    "last_picked": 1727396554914,
+    "league_id": "1145186103839215616",
+    "metadata": {
+      "description": "",
+      "name": "Freinds Fantasy ",
+      "scoring_type": "ppr"
+    },
+    "season": "2024",
+    "season_type": "regular",
+    "settings": {
+      "autostart": 0,
+      "cpu_autopick": 1,
+      "pick_timer": 120,
+      "rounds": 20,
+      "slots_bn": 8,
+      "slots_def": 1,
+      "slots_flex": 4,
+      "slots_k": 1,
+      "slots_qb": 1,
+      "slots_rb": 2,
+      "slots_te": 1,
+      "slots_wr": 2,
+      "teams": 8
+    },
+    "sport": "nfl",
+    "start_time": 1727396227100,
+    "status": "complete",
+    "type": "snake"
+  }
+]

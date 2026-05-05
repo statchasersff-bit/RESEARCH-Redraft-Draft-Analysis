@@ -1,0 +1,71 @@
+[
+  {
+    "created": 1720195927447,
+    "creators": [
+      "698802263199649792"
+    ],
+    "draft_id": "1114986169063878656",
+    "draft_order": {
+      "461709355926941696": 9,
+      "635695072351989760": 10,
+      "678950919605387264": 4,
+      "684578946603380736": 1,
+      "698802263199649792": 7,
+      "698956479276863488": 5,
+      "699303924976418816": 6,
+      "711697074571284480": 2,
+      "772124630554107904": 8,
+      "85788403756843008": 3
+    },
+    "last_message_id": "1115046911234273280",
+    "last_message_time": 1720210409509,
+    "last_picked": 1720210408873,
+    "league_id": "1114986169059684352",
+    "metadata": {
+      "description": "",
+      "highest_offer": "1",
+      "hovered_player_id": "11629",
+      "name": "Raditz Rumble",
+      "nominated_player_id": "8204",
+      "nominating_slot": "9",
+      "nominating_user_id": "461709355926941696",
+      "offering_slot": "9",
+      "offering_user_id": "461709355926941696",
+      "paused_pick_timer": "8",
+      "scoring_type": "2qb"
+    },
+    "season": "2024",
+    "season_type": "regular",
+    "settings": {
+      "afk_rounds_3": 12,
+      "afk_rounds_6": 4,
+      "afk_rounds_9": 1,
+      "alpha_sort": 0,
+      "autopause_enabled": 0,
+      "autopause_end_time": 960,
+      "autopause_start_time": 240,
+      "autostart": 0,
+      "budget": 400,
+      "cpu_autopick": 1,
+      "enforce_position_limits": 1,
+      "nomination_timer": 10,
+      "pick_timer": 10,
+      "player_type": 0,
+      "reversal_round": 0,
+      "rounds": 21,
+      "slots_bn": 10,
+      "slots_flex": 1,
+      "slots_qb": 1,
+      "slots_rb": 2,
+      "slots_super_flex": 1,
+      "slots_te": 1,
+      "slots_wr": 3,
+      "slots_wrrb_flex": 2,
+      "teams": 10
+    },
+    "sport": "nfl",
+    "start_time": 1720203304452,
+    "status": "complete",
+    "type": "auction"
+  }
+]

@@ -1,0 +1,214 @@
+[
+  {
+    "avatar": "nfl_kc",
+    "display_name": "jdamiron",
+    "is_bot": null,
+    "is_owner": null,
+    "league_id": "1126285525444304896",
+    "metadata": {
+      "allow_pn": "on",
+      "allow_sms": "on",
+      "archived": "on",
+      "mention_pn": "on",
+      "team_name": "Data Demon"
+    },
+    "settings": null,
+    "user_id": "78937192839659520"
+  },
+  {
+    "avatar": "9f2909d6e5f62f6a44ee7d449ba75aaf",
+    "display_name": "RicoRodriguez28",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1126285525444304896",
+    "metadata": {
+      "allow_pn": "on",
+      "archived": "on",
+      "avatar": "https://sleepercdn.com/uploads/28e57af0177d770144a0fd2bc3aec517.jpg",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "458810984169992192"
+  },
+  {
+    "avatar": "89b52761337a4b2a2ac162429b3bd6f8",
+    "display_name": "RiverboatDave",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1126285525444304896",
+    "metadata": {
+      "allow_pn": "off",
+      "archived": "on",
+      "league_report_pn": "off",
+      "mascot_message": "off",
+      "mention_pn": "on",
+      "player_like_pn": "off",
+      "player_nickname_update": "off",
+      "team_name_update": "off",
+      "trade_block_pn": "off",
+      "transaction_commissioner": "on",
+      "transaction_free_agent": "off",
+      "transaction_trade": "off",
+      "transaction_waiver": "off",
+      "user_message_pn": "off"
+    },
+    "settings": null,
+    "user_id": "462028117192470528"
+  },
+  {
+    "avatar": "a36f71a18fa9eab46e0e9aa81968a4bd",
+    "display_name": "Tyranic7",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1126285525444304896",
+    "metadata": {
+      "allow_pn": "off",
+      "archived": "on",
+      "league_report_pn": "on",
+      "mascot_message": "on",
+      "mention_pn": "on",
+      "player_like_pn": "on",
+      "player_nickname_update": "on",
+      "team_name": "Love Machine",
+      "team_name_update": "on",
+      "trade_block_pn": "on",
+      "transaction_commissioner": "on",
+      "transaction_free_agent": "off",
+      "transaction_trade": "on",
+      "transaction_waiver": "on",
+      "user_message_pn": "on"
+    },
+    "settings": null,
+    "user_id": "469553736692264960"
+  },
+  {
+    "avatar": "cf5cd779a05e07faace6cc7788db6b86",
+    "display_name": "owendaniels",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1126285525444304896",
+    "metadata": {
+      "allow_pn": "on",
+      "archived": "off",
+      "mention_pn": "on",
+      "team_name": "Vinegar Strokes "
+    },
+    "settings": null,
+    "user_id": "509447004110036992"
+  },
+  {
+    "avatar": "e7af4deab0289b4f5505646424895246",
+    "display_name": "jeremynagel",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1126285525444304896",
+    "metadata": {
+      "allow_pn": "on",
+      "archived": "on",
+      "avatar": "https://sleepercdn.com/uploads/a82ec0bcf3e674f216442210a8730f50.jpg",
+      "mention_pn": "on",
+      "team_name": "Tat-dat-ass"
+    },
+    "settings": null,
+    "user_id": "737760124109791232"
+  },
+  {
+    "avatar": "82aec8e811b839b8ec25d7b458afd57b",
+    "display_name": "Cameronlarson1",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1126285525444304896",
+    "metadata": {
+      "allow_pn": "on",
+      "archived": "on",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "812818355378597888"
+  },
+  {
+    "avatar": "8b65f3aa3f1d6538a6752cead93c2a8e",
+    "display_name": "bmac987",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1126285525444304896",
+    "metadata": {
+      "allow_pn": "off",
+      "archived": "on",
+      "league_report_pn": "on",
+      "mascot_message": "on",
+      "mention_pn": "on",
+      "player_like_pn": "on",
+      "player_nickname_update": "on",
+      "team_name": "The Ladds 🤵🏻‍♂️",
+      "team_name_update": "on",
+      "trade_block_pn": "on",
+      "transaction_commissioner": "on",
+      "transaction_free_agent": "on",
+      "transaction_trade": "on",
+      "transaction_waiver": "on",
+      "user_message_pn": "off"
+    },
+    "settings": null,
+    "user_id": "862519783747330048"
+  },
+  {
+    "avatar": "8355fddc0441c220599686fd4400a2c2",
+    "display_name": "DegenGuap",
+    "is_bot": false,
+    "is_owner": true,
+    "league_id": "1126285525444304896",
+    "metadata": {
+      "allow_pn": "on",
+      "archived": "on",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "971964889109467136"
+  },
+  {
+    "avatar": "2950012d6857f9b463d07a92ebfade42",
+    "display_name": "DaniUpNorf",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1126285525444304896",
+    "metadata": {
+      "allow_pn": "on",
+      "allow_sms": "on",
+      "archived": "on",
+      "mention_pn": "on",
+      "team_name": "SeaHawk’Tua"
+    },
+    "settings": null,
+    "user_id": "999830951830040576"
+  },
+  {
+    "avatar": "dc5c17308b7f2a06ea857a435518d55a",
+    "display_name": "ammarrkhan",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1126285525444304896",
+    "metadata": {
+      "allow_pn": "on",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "999931856361443328"
+  },
+  {
+    "avatar": "82aec8e811b839b8ec25d7b458afd57b",
+    "display_name": "blyons32",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1126285525444304896",
+    "metadata": {
+      "allow_pn": "on",
+      "archived": "on",
+      "avatar": "https://sleepercdn.com/uploads/496e9d1fe8d8b19e8927f9dab0143044.jpg",
+      "mention_pn": "on",
+      "team_name": "The 33rd"
+    },
+    "settings": null,
+    "user_id": "1123447479992733696"
+  }
+]

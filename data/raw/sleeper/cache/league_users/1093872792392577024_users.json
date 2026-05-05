@@ -1,0 +1,156 @@
+[
+  {
+    "avatar": "72a019046bb92d0bc55ad24503094a03",
+    "display_name": "1775killa",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1093872792392577024",
+    "metadata": {
+      "allow_pn": "on",
+      "allow_sms": "on",
+      "archived": "on",
+      "mention_pn": "on",
+      "team_name": "What can Brown do 4 U "
+    },
+    "settings": null,
+    "user_id": "470468200841080832"
+  },
+  {
+    "avatar": "55dde5757d7d78f0619bbaa1d0c1b33e",
+    "display_name": "Elchino1999",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1093872792392577024",
+    "metadata": {
+      "allow_pn": "on",
+      "archived": "on",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "850664911641088000"
+  },
+  {
+    "avatar": "d175aa518aa067ffaf59f83ea75a67c6",
+    "display_name": "Str8drop",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1093872792392577024",
+    "metadata": {
+      "allow_pn": "on",
+      "allow_sms": "on",
+      "archived": "on",
+      "avatar": "https://sleepercdn.com/uploads/172e13afe8b44e991040bbedb3ea8c69.jpg",
+      "mention_pn": "on",
+      "team_name": "Marvin Jefferson "
+    },
+    "settings": null,
+    "user_id": "855558463642800128"
+  },
+  {
+    "avatar": "4ddf3344d31ecbb633cd30ec682f1b0e",
+    "display_name": "LARGEMIKE4",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1093872792392577024",
+    "metadata": {
+      "allow_pn": "on",
+      "archived": "on",
+      "avatar": "https://sleepercdn.com/uploads/8ddc76103c3471e067cce14d7dd3bdc3.jpg",
+      "mention_pn": "on",
+      "team_name": "Dak to the future "
+    },
+    "settings": null,
+    "user_id": "873332036331663360"
+  },
+  {
+    "avatar": "4acff22ffdbdd3b3fcf8082cc8d3611d",
+    "display_name": "chubbecheeks",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1093872792392577024",
+    "metadata": {
+      "allow_pn": "on",
+      "mention_pn": "on",
+      "team_name": "Henrys London Lamb Spears"
+    },
+    "settings": null,
+    "user_id": "976133903255707648"
+  },
+  {
+    "avatar": "f561e59b193102fe187e0d73ae094078",
+    "display_name": "DEZIWEZI4PREZI",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1093872792392577024",
+    "metadata": {
+      "allow_pn": "on",
+      "allow_sms": "on",
+      "archived": "off",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "998689660010487808"
+  },
+  {
+    "avatar": "b3338675f635c2c1f42b469621d38ec6",
+    "display_name": "JimDawgg",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1093872792392577024",
+    "metadata": {
+      "allow_pn": "on",
+      "allow_sms": "on",
+      "archived": "on",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "1004321471948292096"
+  },
+  {
+    "avatar": "b34ca6e72f261a64c07b25c98c24a255",
+    "display_name": "MotorolaMasi",
+    "is_bot": false,
+    "is_owner": true,
+    "league_id": "1093872792392577024",
+    "metadata": {
+      "allow_pn": "on",
+      "archived": "on",
+      "mention_pn": "on",
+      "team_name": "I’m on Stroud 9"
+    },
+    "settings": null,
+    "user_id": "1056885231497736192"
+  },
+  {
+    "avatar": "8ff0aca4ef64663167f3014e3230814f",
+    "display_name": "Densondust92",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1093872792392577024",
+    "metadata": {
+      "allow_pn": "on",
+      "allow_sms": "on",
+      "archived": "on",
+      "mention_pn": "on",
+      "team_name": "Machine Gun Kelce"
+    },
+    "settings": null,
+    "user_id": "1078774182642610176"
+  },
+  {
+    "avatar": "491515a544722557301ddf04b847542d",
+    "display_name": "Wras13",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1093872792392577024",
+    "metadata": {
+      "allow_pn": "on",
+      "archived": "on",
+      "avatar": "https://sleepercdn.com/uploads/a9b18896ef4410971e35b52ce8361dd2.jpg",
+      "mention_pn": "on",
+      "team_name": "Autodrafting Hurts"
+    },
+    "settings": null,
+    "user_id": "1104915867718094848"
+  }
+]

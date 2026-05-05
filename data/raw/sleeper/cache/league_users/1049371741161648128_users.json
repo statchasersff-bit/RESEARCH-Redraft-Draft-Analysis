@@ -1,0 +1,197 @@
+[
+  {
+    "avatar": "34771069cea0bd6323e331790395f03c",
+    "display_name": "TheGambler",
+    "is_bot": false,
+    "is_owner": false,
+    "league_id": "1049371741161648128",
+    "metadata": {
+      "allow_pn": "on",
+      "archived": "off",
+      "mention_pn": "on",
+      "team_name": "100 TE75 S9 NP2526"
+    },
+    "settings": null,
+    "user_id": "340172827158134784"
+  },
+  {
+    "avatar": "7f590ce413e1f33840b6ca1f6e43752a",
+    "display_name": "Bearcat8311",
+    "is_bot": false,
+    "is_owner": false,
+    "league_id": "1049371741161648128",
+    "metadata": {
+      "allow_pn": "on",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "465562150220328960"
+  },
+  {
+    "avatar": "4efe0bcfddcd5a084b8322d144e36f5c",
+    "display_name": "sharknado444",
+    "is_bot": false,
+    "is_owner": false,
+    "league_id": "1049371741161648128",
+    "metadata": {
+      "allow_pn": "on",
+      "archived": "on",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "467600811350814720"
+  },
+  {
+    "avatar": "892fae590674cf198fc838229150fca3",
+    "display_name": "greekgolfer92",
+    "is_bot": false,
+    "is_owner": false,
+    "league_id": "1049371741161648128",
+    "metadata": {
+      "allow_pn": "off",
+      "archived": "on",
+      "join_voice_pn": "off",
+      "league_report_pn": "off",
+      "mascot_message": "off",
+      "mention_pn": "on",
+      "player_like_pn": "on",
+      "player_nickname_update": "off",
+      "team_name_update": "off",
+      "trade_block_pn": "off",
+      "transaction_commissioner": "on",
+      "transaction_free_agent": "off",
+      "transaction_trade": "on",
+      "transaction_waiver": "off",
+      "user_message_pn": "off"
+    },
+    "settings": null,
+    "user_id": "471503815858712576"
+  },
+  {
+    "avatar": "4fb394f49d806fbad75dd79ecc68f525",
+    "display_name": "chaffima",
+    "is_bot": false,
+    "is_owner": false,
+    "league_id": "1049371741161648128",
+    "metadata": {
+      "allow_pn": "on",
+      "archived": "off",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "480060175525343232"
+  },
+  {
+    "avatar": "9787eb011f32cd500a9b212af184fb65",
+    "display_name": "htoor",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1049371741161648128",
+    "metadata": {
+      "allow_pn": "on",
+      "archived": "off",
+      "mention_pn": "on",
+      "team_name": "htoor100"
+    },
+    "settings": null,
+    "user_id": "601640832142995456"
+  },
+  {
+    "avatar": "468958cf1f722f9a0344d513c465b31c",
+    "display_name": "Hcapper92",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1049371741161648128",
+    "metadata": {
+      "allow_pn": "on",
+      "archived": "on",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "671791578569859072"
+  },
+  {
+    "avatar": "1f1c6c914ddecae4cbc4a5c25fc2cf8e",
+    "display_name": "csimms52",
+    "is_bot": false,
+    "is_owner": false,
+    "league_id": "1049371741161648128",
+    "metadata": {
+      "allow_pn": "on",
+      "archived": "on",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "679466765285138432"
+  },
+  {
+    "avatar": "eac0e801512a38c1a751c64e481f0678",
+    "display_name": "oldack",
+    "is_bot": false,
+    "is_owner": false,
+    "league_id": "1049371741161648128",
+    "metadata": {
+      "allow_pn": "on",
+      "archived": "off",
+      "league_report_pn": "off",
+      "mascot_message": "on",
+      "mention_pn": "on",
+      "player_like_pn": "on",
+      "player_nickname_update": "on",
+      "team_name_update": "on",
+      "trade_block_pn": "on",
+      "transaction_commissioner": "on",
+      "transaction_free_agent": "on",
+      "transaction_trade": "on",
+      "transaction_waiver": "on",
+      "user_message_pn": "on"
+    },
+    "settings": null,
+    "user_id": "720332429440684032"
+  },
+  {
+    "avatar": "35cf96addc80931b24c4b4ce9d0ac7cb",
+    "display_name": "cbisges56",
+    "is_bot": false,
+    "is_owner": true,
+    "league_id": "1049371741161648128",
+    "metadata": {
+      "allow_pn": "on",
+      "allow_sms": "on",
+      "archived": "off",
+      "mention_pn": "on",
+      "team_name": "Lawrence and Order"
+    },
+    "settings": null,
+    "user_id": "727370467773583360"
+  },
+  {
+    "avatar": "b3338675f635c2c1f42b469621d38ec6",
+    "display_name": "Jpanderson",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1049371741161648128",
+    "metadata": {
+      "allow_pn": "on",
+      "allow_sms": "on",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "741050298918936576"
+  },
+  {
+    "avatar": "15d7cf259bc30eab8f6120f45f652fb6",
+    "display_name": "dcui02",
+    "is_bot": false,
+    "is_owner": false,
+    "league_id": "1049371741161648128",
+    "metadata": {
+      "allow_pn": "on",
+      "archived": "off",
+      "mention_pn": "on",
+      "team_name": "brady’s retirement home"
+    },
+    "settings": null,
+    "user_id": "838500591952068608"
+  }
+]

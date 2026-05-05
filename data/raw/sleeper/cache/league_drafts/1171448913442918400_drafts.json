@@ -1,0 +1,42 @@
+[
+  {
+    "created": 1733657694876,
+    "creators": [
+      "854785777429753856"
+    ],
+    "draft_id": "1171448914071924736",
+    "draft_order": null,
+    "last_message_id": "1171448914071924736",
+    "last_message_time": 1733657694876,
+    "last_picked": null,
+    "league_id": "1171448913442918400",
+    "metadata": {
+      "description": "",
+      "name": "CHAMPIONSHIPS",
+      "scoring_type": "ppr"
+    },
+    "season": "2024",
+    "season_type": "regular",
+    "settings": {
+      "alpha_sort": 0,
+      "autostart": 0,
+      "cpu_autopick": 1,
+      "pick_timer": 120,
+      "reversal_round": 0,
+      "rounds": 15,
+      "slots_bn": 5,
+      "slots_def": 1,
+      "slots_flex": 2,
+      "slots_k": 1,
+      "slots_qb": 1,
+      "slots_rb": 2,
+      "slots_te": 1,
+      "slots_wr": 2,
+      "teams": 10
+    },
+    "sport": "nfl",
+    "start_time": null,
+    "status": "pre_draft",
+    "type": "snake"
+  }
+]

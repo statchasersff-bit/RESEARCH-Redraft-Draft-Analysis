@@ -1,0 +1,59 @@
+[
+  {
+    "created": 1727212569431,
+    "creators": [
+      "1143228744530915328"
+    ],
+    "draft_id": "1144416098641936384",
+    "draft_order": {
+      "1042178615745703936": 8,
+      "1046293456186540032": 2,
+      "1118678669683183616": 5,
+      "1137558915267346432": 4,
+      "1138699127091511296": 10,
+      "1143228744530915328": 3,
+      "1144401813794394112": 9,
+      "1145034344197783552": 7,
+      "558509034227961856": 1,
+      "735381904672563200": 6
+    },
+    "last_message_id": "1145583484765745152",
+    "last_message_time": 1727490895981,
+    "last_picked": 1727490895333,
+    "league_id": "1144416096825704448",
+    "metadata": {
+      "description": "",
+      "name": "flicky blicky fantasy ",
+      "scoring_type": "ppr"
+    },
+    "season": "2024",
+    "season_type": "regular",
+    "settings": {
+      "alpha_sort": 0,
+      "autopause_enabled": 0,
+      "autopause_end_time": 840,
+      "autopause_start_time": 120,
+      "autostart": 0,
+      "cpu_autopick": 1,
+      "enforce_position_limits": 1,
+      "nomination_timer": 60,
+      "pick_timer": 60,
+      "player_type": 0,
+      "reversal_round": 0,
+      "rounds": 15,
+      "slots_bn": 5,
+      "slots_def": 1,
+      "slots_flex": 2,
+      "slots_k": 1,
+      "slots_qb": 1,
+      "slots_rb": 2,
+      "slots_te": 1,
+      "slots_wr": 2,
+      "teams": 10
+    },
+    "sport": "nfl",
+    "start_time": 1727489736682,
+    "status": "complete",
+    "type": "snake"
+  }
+]

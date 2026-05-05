@@ -1,0 +1,187 @@
+[
+  {
+    "avatar": "7f47d400bff79ad6550fc798843ea679",
+    "display_name": "kzahra8",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1136060875200253952",
+    "metadata": {
+      "allow_pn": "on",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "618623404471414784"
+  },
+  {
+    "avatar": "4f4090e5e9c3941414db40a871e3e909",
+    "display_name": "henrymaj6969",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1136060875200253952",
+    "metadata": {
+      "allow_pn": "on",
+      "archived": "on",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "834246172494405632"
+  },
+  {
+    "avatar": "5f0588a3d71492e15977defe02942fdc",
+    "display_name": "Dilberttt",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1136060875200253952",
+    "metadata": {
+      "allow_pn": "on",
+      "archived": "on",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "849395392905854976"
+  },
+  {
+    "avatar": "f0edbf4278f53f9425db175073df6584",
+    "display_name": "Green1Light",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1136060875200253952",
+    "metadata": {
+      "allow_pn": "on",
+      "allow_sms": "on",
+      "archived": "on",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "857471420857462784"
+  },
+  {
+    "avatar": "2bf8f475b17e7c6d14951a708350379b",
+    "display_name": "pontifex333",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1136060875200253952",
+    "metadata": {
+      "allow_pn": "off",
+      "archived": "on",
+      "league_report_pn": "off",
+      "mascot_message": "off",
+      "mention_pn": "on",
+      "player_like_pn": "off",
+      "player_nickname_update": "off",
+      "team_name": "Najee Germany",
+      "team_name_update": "off",
+      "trade_block_pn": "off",
+      "transaction_commissioner": "off",
+      "transaction_free_agent": "off",
+      "transaction_trade": "off",
+      "transaction_waiver": "off",
+      "user_message_pn": "off"
+    },
+    "settings": null,
+    "user_id": "873426295755808768"
+  },
+  {
+    "avatar": "15d7cf259bc30eab8f6120f45f652fb6",
+    "display_name": "gbaldwin",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1136060875200253952",
+    "metadata": {
+      "allow_pn": "on",
+      "archived": "on",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "980950711519219712"
+  },
+  {
+    "avatar": "8c80e9e3b974efb4a9618b7cc792ff98",
+    "display_name": "deniseleach1",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1136060875200253952",
+    "metadata": {
+      "allow_pn": "on",
+      "allow_sms": "on",
+      "archived": "on",
+      "mention_pn": "on",
+      "team_name": "AM ON RA Roll"
+    },
+    "settings": null,
+    "user_id": "995605355457683456"
+  },
+  {
+    "avatar": "4de202f8be36912b6a81be2a14132b47",
+    "display_name": "OGtheScientist",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1136060875200253952",
+    "metadata": {
+      "allow_pn": "on",
+      "archived": "on",
+      "avatar": "https://sleepercdn.com/uploads/16d0933bf497d8accb3ad37d6d3463a7.jpg",
+      "mention_pn": "on",
+      "team_name": "Digital Demons "
+    },
+    "settings": null,
+    "user_id": "1002669065393000448"
+  },
+  {
+    "avatar": "4f4090e5e9c3941414db40a871e3e909",
+    "display_name": "Jwton208",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1136060875200253952",
+    "metadata": {
+      "allow_pn": "on",
+      "archived": "on",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "1006386532586004480"
+  },
+  {
+    "avatar": "82aec8e811b839b8ec25d7b458afd57b",
+    "display_name": "SirThickums",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1136060875200253952",
+    "metadata": {
+      "allow_pn": "on",
+      "allow_sms": "on",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "1018075290972565504"
+  },
+  {
+    "avatar": "8eb8f8bf999945d523f2c4033f70473e",
+    "display_name": "corynorc",
+    "is_bot": false,
+    "is_owner": true,
+    "league_id": "1136060875200253952",
+    "metadata": {
+      "allow_pn": "on",
+      "allow_sms": "on",
+      "mention_pn": "on",
+      "team_name": "Gibbs Higgs n Diggs"
+    },
+    "settings": null,
+    "user_id": "1131383553847193600"
+  },
+  {
+    "avatar": "2cc18a8a7a0007172e421c596d2e194b",
+    "display_name": "superragebaiter",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1136060875200253952",
+    "metadata": {
+      "allow_pn": "on",
+      "mention_pn": "on",
+      "team_name": "Fraudulent Playoff Clowns"
+    },
+    "settings": null,
+    "user_id": "1136126250264997888"
+  }
+]

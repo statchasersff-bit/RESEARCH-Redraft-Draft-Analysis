@@ -1,0 +1,70 @@
+{
+  "created": 1728086432891,
+  "creators": [
+    "86674462812291072"
+  ],
+  "draft_id": "1148081347609702401",
+  "draft_order": {
+    "1003732530798927872": 9,
+    "1140217483107024896": 4,
+    "566571098489643008": 5,
+    "603485827892322304": 1,
+    "682048773886672896": 2,
+    "86674462812291072": 8,
+    "866933376198791168": 6,
+    "993580599556325376": 7,
+    "996995916475260928": 10,
+    "997840490902999040": 3
+  },
+  "last_message_id": "1148137739972280320",
+  "last_message_time": 1728099877878,
+  "last_picked": 1728099877032,
+  "league_id": "1148081347609702400",
+  "metadata": {
+    "description": "",
+    "name": "REDEMPTION 3.0",
+    "scoring_type": "ppr"
+  },
+  "season": "2024",
+  "season_type": "regular",
+  "settings": {
+    "alpha_sort": 0,
+    "autopause_enabled": 0,
+    "autopause_end_time": 900,
+    "autopause_start_time": 180,
+    "autostart": 0,
+    "cpu_autopick": 1,
+    "enforce_position_limits": 1,
+    "nomination_timer": 60,
+    "pick_timer": 30,
+    "player_type": 0,
+    "position_limit_qb": 4,
+    "reversal_round": 0,
+    "rounds": 16,
+    "slots_bn": 5,
+    "slots_def": 1,
+    "slots_flex": 2,
+    "slots_k": 1,
+    "slots_qb": 1,
+    "slots_rb": 2,
+    "slots_te": 1,
+    "slots_wr": 3,
+    "teams": 10
+  },
+  "slot_to_roster_id": {
+    "1": 4,
+    "2": 6,
+    "3": 3,
+    "4": 10,
+    "5": 5,
+    "6": 2,
+    "7": 8,
+    "8": 1,
+    "9": 9,
+    "10": 7
+  },
+  "sport": "nfl",
+  "start_time": 1728096268568,
+  "status": "complete",
+  "type": "snake"
+}

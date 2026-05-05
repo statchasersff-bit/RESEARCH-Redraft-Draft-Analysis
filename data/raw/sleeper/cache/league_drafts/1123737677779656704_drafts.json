@@ -1,0 +1,61 @@
+[
+  {
+    "created": 1722282450137,
+    "creators": [
+      "474023030461296640",
+      "904320094539464704"
+    ],
+    "draft_id": "1123737679557976064",
+    "draft_order": {
+      "466402727140782080": 5,
+      "470719059671904256": 4,
+      "474023030461296640": 12,
+      "604821630501322752": 9,
+      "705594641805815808": 6,
+      "737085875023900672": 1,
+      "747140391609954304": 7,
+      "840713464749072384": 3,
+      "904320094539464704": 11,
+      "961113378334838784": 10,
+      "977258167807594496": 2,
+      "990319826499411968": 8
+    },
+    "last_message_id": "1124753060254728192",
+    "last_message_time": 1722524535768,
+    "last_picked": 1722524534919,
+    "league_id": "1123737677779656704",
+    "metadata": {
+      "description": "",
+      "name": "WIN=STEALAPLAYER",
+      "scoring_type": "2qb"
+    },
+    "season": "2024",
+    "season_type": "regular",
+    "settings": {
+      "alpha_sort": 0,
+      "autopause_enabled": 1,
+      "autopause_end_time": 840,
+      "autopause_start_time": 120,
+      "autostart": 1,
+      "cpu_autopick": 1,
+      "enforce_position_limits": 1,
+      "nomination_timer": 60,
+      "pick_timer": 28800,
+      "player_type": 0,
+      "reversal_round": 3,
+      "rounds": 15,
+      "slots_bn": 8,
+      "slots_flex": 2,
+      "slots_qb": 1,
+      "slots_rb": 1,
+      "slots_super_flex": 1,
+      "slots_te": 1,
+      "slots_wr": 1,
+      "teams": 12
+    },
+    "sport": "nfl",
+    "start_time": 1722349290494,
+    "status": "complete",
+    "type": "snake"
+  }
+]

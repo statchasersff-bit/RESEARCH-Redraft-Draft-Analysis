@@ -1,0 +1,59 @@
+[
+  {
+    "created": 1725680305005,
+    "creators": [
+      "731385638171025408"
+    ],
+    "draft_id": "1137989315847753728",
+    "draft_order": {
+      "1001656568712151040": 1,
+      "1137540742707077120": 5,
+      "443478634104090624": 6,
+      "446147042603954176": 3,
+      "731385638171025408": 4,
+      "736434807411736576": 10,
+      "741132650638635008": 9,
+      "743216928901992448": 8,
+      "799433648028880896": 7,
+      "982483033641033728": 2
+    },
+    "last_message_id": "1138012254030438400",
+    "last_message_time": 1725685773907,
+    "last_picked": 1725685773271,
+    "league_id": "1137989314833219584",
+    "metadata": {
+      "description": "",
+      "name": "$10 Big bros league 10 man",
+      "scoring_type": "ppr"
+    },
+    "season": "2024",
+    "season_type": "regular",
+    "settings": {
+      "alpha_sort": 0,
+      "autopause_enabled": 0,
+      "autopause_end_time": 840,
+      "autopause_start_time": 120,
+      "autostart": 0,
+      "cpu_autopick": 1,
+      "enforce_position_limits": 1,
+      "nomination_timer": 60,
+      "pick_timer": 60,
+      "player_type": 0,
+      "reversal_round": 0,
+      "rounds": 17,
+      "slots_bn": 7,
+      "slots_def": 1,
+      "slots_flex": 2,
+      "slots_k": 1,
+      "slots_qb": 1,
+      "slots_rb": 2,
+      "slots_te": 1,
+      "slots_wr": 2,
+      "teams": 10
+    },
+    "sport": "nfl",
+    "start_time": 1725682824060,
+    "status": "complete",
+    "type": "snake"
+  }
+]

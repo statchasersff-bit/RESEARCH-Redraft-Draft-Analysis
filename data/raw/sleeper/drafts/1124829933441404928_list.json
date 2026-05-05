@@ -1,0 +1,59 @@
+[
+  {
+    "created": 1722542863764,
+    "creators": [
+      "472880817895370752"
+    ],
+    "draft_id": "1124829933441404929",
+    "draft_order": {
+      "1002465365701677056": 3,
+      "1002743086612684800": 1,
+      "1002824386488942592": 5,
+      "1004116447007752192": 6,
+      "1004161986646601728": 4,
+      "452921226092867584": 10,
+      "472880817895370752": 9,
+      "739998389147701248": 2,
+      "865407426004901888": 7,
+      "968362946197778432": 8
+    },
+    "last_message_id": "1136167257823858688",
+    "last_message_time": 1725245892533,
+    "last_picked": 1725245891997,
+    "league_id": "1124829933441404928",
+    "metadata": {
+      "description": "",
+      "name": "Jerry Jones’ World",
+      "scoring_type": "ppr"
+    },
+    "season": "2024",
+    "season_type": "regular",
+    "settings": {
+      "alpha_sort": 0,
+      "autopause_enabled": 0,
+      "autopause_end_time": 840,
+      "autopause_start_time": 120,
+      "autostart": 0,
+      "cpu_autopick": 1,
+      "enforce_position_limits": 1,
+      "nomination_timer": 60,
+      "pick_timer": 60,
+      "player_type": 0,
+      "reversal_round": 0,
+      "rounds": 16,
+      "slots_bn": 6,
+      "slots_def": 1,
+      "slots_flex": 2,
+      "slots_k": 1,
+      "slots_qb": 1,
+      "slots_rb": 2,
+      "slots_te": 1,
+      "slots_wr": 2,
+      "teams": 10
+    },
+    "sport": "nfl",
+    "start_time": 1725242472956,
+    "status": "complete",
+    "type": "snake"
+  }
+]

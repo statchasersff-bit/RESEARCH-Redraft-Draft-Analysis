@@ -1,0 +1,59 @@
+[
+  {
+    "created": 1727756671741,
+    "creators": [
+      "1000925658157035520",
+      "1133938442456453120"
+    ],
+    "draft_id": "1146698229146038272",
+    "draft_order": {
+      "1000925658157035520": 1,
+      "1128019987958030336": 9,
+      "1133938442456453120": 10,
+      "1134967465353621504": 2,
+      "644592945617551360": 6,
+      "711697074571284480": 7,
+      "854785777429753856": 3,
+      "982483033641033728": 8,
+      "992268206792409088": 5,
+      "998740553506402304": 4
+    },
+    "last_message_id": "1147040021191319552",
+    "last_message_time": 1727838161326,
+    "last_picked": 1727838160361,
+    "league_id": "1146698228491812864",
+    "metadata": {
+      "description": "",
+      "name": "Super Flex $Twenty BB",
+      "scoring_type": "2qb"
+    },
+    "season": "2024",
+    "season_type": "regular",
+    "settings": {
+      "alpha_sort": 0,
+      "autopause_enabled": 0,
+      "autopause_end_time": 900,
+      "autopause_start_time": 180,
+      "autostart": 0,
+      "cpu_autopick": 1,
+      "enforce_position_limits": 1,
+      "nomination_timer": 60,
+      "pick_timer": 30,
+      "player_type": 0,
+      "reversal_round": 0,
+      "rounds": 20,
+      "slots_bn": 10,
+      "slots_flex": 3,
+      "slots_qb": 1,
+      "slots_rb": 2,
+      "slots_super_flex": 1,
+      "slots_te": 1,
+      "slots_wr": 2,
+      "teams": 10
+    },
+    "sport": "nfl",
+    "start_time": 1727834564158,
+    "status": "complete",
+    "type": "snake"
+  }
+]

@@ -1,0 +1,59 @@
+[
+  {
+    "created": 1730402384027,
+    "creators": [
+      "86674462812291072"
+    ],
+    "draft_id": "1157795150760906752",
+    "draft_order": {
+      "1002411565687119872": 8,
+      "1004862957743894528": 3,
+      "1009974433227939840": 4,
+      "1015331532845805568": 5,
+      "1015873766658494464": 6,
+      "1133938442456453120": 2,
+      "1144861221427187712": 10,
+      "854785777429753856": 1,
+      "86674462812291072": 7,
+      "866933376198791168": 12,
+      "870984534588600320": 9,
+      "995577654524968960": 11
+    },
+    "last_message_id": "1158274864403218432",
+    "last_message_time": 1730516756681,
+    "last_picked": 1730516755677,
+    "league_id": "1157795149552951296",
+    "metadata": {
+      "description": "",
+      "name": "Pirate League 5.0",
+      "scoring_type": "ppr"
+    },
+    "season": "2024",
+    "season_type": "regular",
+    "settings": {
+      "alpha_sort": 0,
+      "autopause_enabled": 0,
+      "autopause_end_time": 900,
+      "autopause_start_time": 180,
+      "autostart": 0,
+      "cpu_autopick": 1,
+      "enforce_position_limits": 1,
+      "nomination_timer": 60,
+      "pick_timer": 30,
+      "player_type": 0,
+      "reversal_round": 0,
+      "rounds": 15,
+      "slots_bn": 5,
+      "slots_flex": 3,
+      "slots_qb": 1,
+      "slots_rb": 2,
+      "slots_te": 1,
+      "slots_wr": 3,
+      "teams": 12
+    },
+    "sport": "nfl",
+    "start_time": 1730512822324,
+    "status": "complete",
+    "type": "snake"
+  }
+]

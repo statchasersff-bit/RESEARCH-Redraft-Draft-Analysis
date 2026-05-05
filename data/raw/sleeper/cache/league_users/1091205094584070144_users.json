@@ -1,0 +1,227 @@
+[
+  {
+    "avatar": "4662a6de41aee09e900b132a5d37cd81",
+    "display_name": "just4kickz",
+    "is_bot": null,
+    "is_owner": false,
+    "league_id": "1091205094584070144",
+    "metadata": {
+      "allow_pn": "on",
+      "allow_sms": "on",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "86397599753846784"
+  },
+  {
+    "avatar": "7208404e9332f4ba6bfe5fc9743d614d",
+    "display_name": "TrapperTeam",
+    "is_bot": false,
+    "is_owner": false,
+    "league_id": "1091205094584070144",
+    "metadata": {
+      "allow_pn": "on",
+      "mascot_item_type_id_leg_10": "panpan",
+      "mascot_item_type_id_leg_11": "panpan",
+      "mascot_item_type_id_leg_12": "panpan",
+      "mascot_item_type_id_leg_13": "panpan",
+      "mascot_item_type_id_leg_14": "panpan",
+      "mascot_item_type_id_leg_15": "panpan",
+      "mascot_item_type_id_leg_16": "panpan",
+      "mascot_item_type_id_leg_17": "panpan",
+      "mascot_item_type_id_leg_18": "panpan",
+      "mascot_item_type_id_leg_3": "panpan",
+      "mascot_item_type_id_leg_4": "panpan",
+      "mascot_item_type_id_leg_5": "panpan",
+      "mascot_item_type_id_leg_6": "panpan",
+      "mascot_item_type_id_leg_7": "panpan",
+      "mascot_item_type_id_leg_8": "panpan",
+      "mascot_item_type_id_leg_9": "panpan",
+      "mascot_message_emotion_leg_3": "idle",
+      "mention_pn": "on",
+      "team_name": "TrapperTeam"
+    },
+    "settings": null,
+    "user_id": "200701266010050560"
+  },
+  {
+    "avatar": "446451f071d82829b3748a696115d171",
+    "display_name": "chroneos",
+    "is_bot": false,
+    "is_owner": false,
+    "league_id": "1091205094584070144",
+    "metadata": {
+      "allow_pn": "on",
+      "archived": "on",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "359100202751410176"
+  },
+  {
+    "avatar": "909b16f12d1bd5b227bd97c98bc1f825",
+    "display_name": "Huntskiki_",
+    "is_bot": false,
+    "is_owner": true,
+    "league_id": "1091205094584070144",
+    "metadata": {
+      "allow_pn": "on",
+      "archived": "off",
+      "mascot_item_type_id_leg_10": "troll",
+      "mascot_item_type_id_leg_11": "troll",
+      "mascot_item_type_id_leg_12": "troll",
+      "mascot_item_type_id_leg_13": "troll",
+      "mascot_item_type_id_leg_14": "troll",
+      "mascot_item_type_id_leg_15": "troll",
+      "mascot_item_type_id_leg_16": "troll",
+      "mascot_item_type_id_leg_17": "troll",
+      "mascot_item_type_id_leg_18": "troll",
+      "mascot_item_type_id_leg_6": "troll",
+      "mascot_item_type_id_leg_7": "troll",
+      "mascot_item_type_id_leg_8": "troll",
+      "mascot_item_type_id_leg_9": "troll",
+      "mascot_message_emotion_leg_6": "idle",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "384082457408106496"
+  },
+  {
+    "avatar": "0e369add502e767a1378995a62bc0f85",
+    "display_name": "ThatAintFlacco",
+    "is_bot": false,
+    "is_owner": false,
+    "league_id": "1091205094584070144",
+    "metadata": {
+      "allow_pn": "on",
+      "allow_sms": "on",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "472916377682833408"
+  },
+  {
+    "avatar": "cc9dbcfcda7bc35e6279922285487817",
+    "display_name": "PTPatsfan",
+    "is_bot": false,
+    "is_owner": false,
+    "league_id": "1091205094584070144",
+    "metadata": {
+      "allow_pn": "on",
+      "archived": "off",
+      "mention_pn": "on",
+      "team_name": "Sanguine Slants"
+    },
+    "settings": null,
+    "user_id": "606907372971057152"
+  },
+  {
+    "avatar": "c238e5ef85710b6b5d326368885b9bad",
+    "display_name": "FartyMcGee",
+    "is_bot": false,
+    "is_owner": false,
+    "league_id": "1091205094584070144",
+    "metadata": {
+      "allow_pn": "on",
+      "allow_sms": "on",
+      "mascot_item_type_id_leg_1": "ref",
+      "mascot_item_type_id_leg_10": "ref",
+      "mascot_item_type_id_leg_11": "ref",
+      "mascot_item_type_id_leg_12": "ref",
+      "mascot_item_type_id_leg_13": "ref",
+      "mascot_item_type_id_leg_14": "ref",
+      "mascot_item_type_id_leg_15": "ref",
+      "mascot_item_type_id_leg_16": "ref",
+      "mascot_item_type_id_leg_17": "ref",
+      "mascot_item_type_id_leg_18": "ref",
+      "mascot_item_type_id_leg_2": "ref",
+      "mascot_item_type_id_leg_3": "ref",
+      "mascot_item_type_id_leg_4": "ref",
+      "mascot_item_type_id_leg_5": "ref",
+      "mascot_item_type_id_leg_6": "ref",
+      "mascot_item_type_id_leg_7": "ref",
+      "mascot_item_type_id_leg_8": "ref",
+      "mascot_item_type_id_leg_9": "ref",
+      "mascot_message_emotion_leg_1": "idle",
+      "mention_pn": "on",
+      "show_mascots": "on",
+      "team_name": "Determined Platapi"
+    },
+    "settings": null,
+    "user_id": "733208779860094976"
+  },
+  {
+    "avatar": "b3338675f635c2c1f42b469621d38ec6",
+    "display_name": "kyleshea19",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1091205094584070144",
+    "metadata": {
+      "allow_pn": "on",
+      "mention_pn": "on",
+      "team_name": "Taylor Made"
+    },
+    "settings": null,
+    "user_id": "863221973851955200"
+  },
+  {
+    "avatar": "04c530df0bd631fc525ac3d121c4472a",
+    "display_name": "JusticeBeaver12",
+    "is_bot": false,
+    "is_owner": false,
+    "league_id": "1091205094584070144",
+    "metadata": {
+      "allow_pn": "on",
+      "allow_sms": "on",
+      "avatar": "https://sleepercdn.com/uploads/04c530df0bd631fc525ac3d121c4472a.jpg",
+      "mention_pn": "on",
+      "team_name": "Voldemort"
+    },
+    "settings": null,
+    "user_id": "867180540070129664"
+  },
+  {
+    "avatar": "7342ec775a7e502569a63c162bb96c2e",
+    "display_name": "EpicChrisIsEpic",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1091205094584070144",
+    "metadata": {
+      "allow_pn": "on",
+      "archived": "on",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "940797947321745408"
+  },
+  {
+    "avatar": "ab56979983965842c9ddd9ee29143ca8",
+    "display_name": "1q2w3e0p",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1091205094584070144",
+    "metadata": {
+      "allow_pn": "on",
+      "archived": "on",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "982483033641033728"
+  },
+  {
+    "avatar": "4f4090e5e9c3941414db40a871e3e909",
+    "display_name": "SwolePtrl",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1091205094584070144",
+    "metadata": {
+      "allow_pn": "on",
+      "allow_sms": "on",
+      "avatar": "https://sleepercdn.com/uploads/cece5dee53b467105ca1c38a911f8291.jpg",
+      "mention_pn": "on",
+      "team_name": "Gotham Rogues "
+    },
+    "settings": null,
+    "user_id": "1131369637582737408"
+  }
+]

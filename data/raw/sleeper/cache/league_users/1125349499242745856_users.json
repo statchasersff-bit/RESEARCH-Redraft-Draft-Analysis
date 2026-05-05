@@ -1,0 +1,182 @@
+[
+  {
+    "avatar": "nfl_det",
+    "display_name": "greekdawg",
+    "is_bot": null,
+    "is_owner": null,
+    "league_id": "1125349499242745856",
+    "metadata": {
+      "allow_pn": "on",
+      "archived": "on",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "100908832284622848"
+  },
+  {
+    "avatar": "ca3c54b68646b12be4a667e25c843c74",
+    "display_name": "JarHead99",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1125349499242745856",
+    "metadata": {
+      "allow_pn": "on",
+      "allow_sms": "on",
+      "archived": "on",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "432397659492327424"
+  },
+  {
+    "avatar": "0b0c6764f4ca773e86260b43c1731dfe",
+    "display_name": "AJSilcott",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1125349499242745856",
+    "metadata": {
+      "allow_pn": "on",
+      "archived": "on",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "433331437169537024"
+  },
+  {
+    "avatar": "9443e657bf6a3c9e070981bf444000fa",
+    "display_name": "definitelynotTF3",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1125349499242745856",
+    "metadata": {
+      "allow_pn": "on",
+      "archived": "on",
+      "avatar": "https://sleepercdn.com/uploads/c8ab2cb534894dfecb7520ad38a96d91.jpg",
+      "mention_pn": "on",
+      "team_name": "Stroud of Dust"
+    },
+    "settings": null,
+    "user_id": "728729149518282752"
+  },
+  {
+    "avatar": "00dde01c84a96f750d46b6cc51ec540d",
+    "display_name": "WinnerCircle13",
+    "is_bot": false,
+    "is_owner": true,
+    "league_id": "1125349499242745856",
+    "metadata": {
+      "allow_pn": "on",
+      "archived": "on",
+      "avatar": "https://sleepercdn.com/uploads/d5cd7ed07554d2e12e09a5cfb54155ce.jpg",
+      "mention_pn": "on",
+      "team_name": "Dak to the future "
+    },
+    "settings": null,
+    "user_id": "732004539489714176"
+  },
+  {
+    "avatar": "4ca70aab4d69d5922348481b214c649e",
+    "display_name": "llerwick",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1125349499242745856",
+    "metadata": {
+      "allow_pn": "on",
+      "archived": "on",
+      "avatar": "https://sleepercdn.com/uploads/2d28980c0454b34306fce5830add27a8.jpg",
+      "mention_pn": "on",
+      "team_name": "Purdy Flowers"
+    },
+    "settings": null,
+    "user_id": "737046516736352256"
+  },
+  {
+    "avatar": "6864db7ae4b9a665a3e1329077a99f22",
+    "display_name": "benjinator375",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1125349499242745856",
+    "metadata": {
+      "allow_pn": "on",
+      "archived": "on",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "783618211471069184"
+  },
+  {
+    "avatar": "87ca08a65003b17aebcb939f67b77917",
+    "display_name": "ktilly22",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1125349499242745856",
+    "metadata": {
+      "allow_pn": "on",
+      "archived": "off",
+      "avatar": "https://sleepercdn.com/uploads/23eaa0ce82307480ba8a8086a82dad1d.jpg",
+      "mention_pn": "on",
+      "team_name": "Marvins Room"
+    },
+    "settings": null,
+    "user_id": "828534937941549056"
+  },
+  {
+    "avatar": "8eb8f8bf999945d523f2c4033f70473e",
+    "display_name": "Brytheguy123",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1125349499242745856",
+    "metadata": {
+      "allow_pn": "on",
+      "archived": "on",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "830980900555698176"
+  },
+  {
+    "avatar": "97233e14b250d5a4bf1c918567d1c29d",
+    "display_name": "BigGameJames71",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1125349499242745856",
+    "metadata": {
+      "allow_pn": "on",
+      "archived": "on",
+      "mention_pn": "on",
+      "team_name": "Don’t Hurts McBride"
+    },
+    "settings": null,
+    "user_id": "853529557129637888"
+  },
+  {
+    "avatar": "8eb8f8bf999945d523f2c4033f70473e",
+    "display_name": "Zanderzzz",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1125349499242745856",
+    "metadata": {
+      "allow_pn": "on",
+      "archived": "on",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "925592300540039168"
+  },
+  {
+    "avatar": "4d531426ebc73bf4c4a02fbb367ea225",
+    "display_name": "jimbo1964",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1125349499242745856",
+    "metadata": {
+      "allow_pn": "on",
+      "archived": "on",
+      "avatar": "https://sleepercdn.com/uploads/c524d5a276421d3a68898e1f1c4466bc",
+      "mention_pn": "on",
+      "team_name": "Brown Hornet"
+    },
+    "settings": null,
+    "user_id": "956962521917800448"
+  }
+]

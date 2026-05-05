@@ -1,0 +1,67 @@
+{
+  "created": 1721099930593,
+  "creators": [
+    "710332074363523072"
+  ],
+  "draft_id": "1118777833112936448",
+  "draft_order": {
+    "399322397750124544": 10,
+    "700862003002028032": 1,
+    "710332074363523072": 8,
+    "863199642253381632": 3,
+    "87026635932844032": 2,
+    "976939166485274624": 4,
+    "994352258626142208": 7
+  },
+  "last_message_id": "1118796265568870400",
+  "last_message_time": 1721104325243,
+  "last_picked": 1721104324664,
+  "league_id": "1118777831061934080",
+  "metadata": {
+    "description": "",
+    "name": "Monday Funday Free",
+    "scoring_type": "2qb"
+  },
+  "season": "2024",
+  "season_type": "regular",
+  "settings": {
+    "alpha_sort": 0,
+    "autopause_enabled": 0,
+    "autopause_end_time": 1020,
+    "autopause_start_time": 300,
+    "autostart": 0,
+    "cpu_autopick": 1,
+    "enforce_position_limits": 1,
+    "nomination_timer": 60,
+    "pick_timer": 60,
+    "player_type": 0,
+    "reversal_round": 0,
+    "rounds": 17,
+    "slots_bn": 6,
+    "slots_def": 1,
+    "slots_flex": 2,
+    "slots_k": 1,
+    "slots_qb": 1,
+    "slots_rb": 2,
+    "slots_super_flex": 1,
+    "slots_te": 1,
+    "slots_wr": 2,
+    "teams": 10
+  },
+  "slot_to_roster_id": {
+    "1": 7,
+    "2": 4,
+    "3": 9,
+    "4": 2,
+    "5": 3,
+    "6": 6,
+    "7": 8,
+    "8": 1,
+    "9": 10,
+    "10": 5
+  },
+  "sport": "nfl",
+  "start_time": 1721101274802,
+  "status": "complete",
+  "type": "snake"
+}

@@ -1,0 +1,59 @@
+[
+  {
+    "created": 1726103040454,
+    "creators": [
+      "1059243319085047808",
+      "1128114175168864256"
+    ],
+    "draft_id": "1139762396819578880",
+    "draft_order": {
+      "1059241129943674880": 4,
+      "1059243319085047808": 2,
+      "1127711972180611072": 7,
+      "1128114175168864256": 12,
+      "1134716745568186368": 5,
+      "1136485137325408256": 8,
+      "1138280122647351296": 9,
+      "1139410192539639808": 10,
+      "465263008289910784": 3,
+      "733704825950289920": 1,
+      "737493607665242112": 11,
+      "993380438951440384": 6
+    },
+    "last_message_id": "1139780834660974592",
+    "last_message_time": 1726107436388,
+    "last_picked": 1726107435714,
+    "league_id": "1139276650006351872",
+    "metadata": {
+      "description": "",
+      "name": "Cant stop wont stop😎😤😤",
+      "scoring_type": "ppr"
+    },
+    "season": "2024",
+    "season_type": "regular",
+    "settings": {
+      "alpha_sort": 0,
+      "autopause_enabled": 0,
+      "autopause_end_time": 840,
+      "autopause_start_time": 120,
+      "autostart": 0,
+      "cpu_autopick": 1,
+      "nomination_timer": 60,
+      "pick_timer": 60,
+      "player_type": 0,
+      "reversal_round": 0,
+      "rounds": 14,
+      "slots_bn": 6,
+      "slots_flex": 2,
+      "slots_qb": 1,
+      "slots_rb": 2,
+      "slots_te": 1,
+      "slots_wr": 2,
+      "teams": 12
+    },
+    "sport": "nfl",
+    "start_time": 1726104052456,
+    "status": "complete",
+    "type": "snake"
+  }
+]

@@ -1,0 +1,94 @@
+[
+  {
+    "avatar": "15d7cf259bc30eab8f6120f45f652fb6",
+    "display_name": "DerekDZG11",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1137135973172686848",
+    "metadata": {
+      "allow_pn": "on",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "694261787385765888"
+  },
+  {
+    "avatar": "15d7cf259bc30eab8f6120f45f652fb6",
+    "display_name": "smtasker17",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1137135973172686848",
+    "metadata": {
+      "allow_pn": "on",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "873773520419971072"
+  },
+  {
+    "avatar": "00a331a930b88217ab18a59a5935c882",
+    "display_name": "MichaelJacksonHeEhEE",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1137135973172686848",
+    "metadata": {
+      "allow_pn": "on",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "882375638689284096"
+  },
+  {
+    "avatar": "1601a5ab47de85a215ad43338cc7499c",
+    "display_name": "JoeKing55",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1137135973172686848",
+    "metadata": {
+      "allow_pn": "on",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "998231171773370368"
+  },
+  {
+    "avatar": "4de202f8be36912b6a81be2a14132b47",
+    "display_name": "OGtheScientist",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1137135973172686848",
+    "metadata": {
+      "allow_pn": "on",
+      "archived": "on",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "1002669065393000448"
+  },
+  {
+    "avatar": "82aec8e811b839b8ec25d7b458afd57b",
+    "display_name": "ironmanbl56",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1137135973172686848",
+    "metadata": {
+      "allow_pn": "on",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "1003530918457405440"
+  },
+  {
+    "avatar": "72a019046bb92d0bc55ad24503094a03",
+    "display_name": "JGOTLOCKS",
+    "is_bot": false,
+    "is_owner": true,
+    "league_id": "1137135973172686848",
+    "metadata": {
+      "allow_pn": "on",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "1137134475659407360"
+  }
+]

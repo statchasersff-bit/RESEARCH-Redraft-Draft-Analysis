@@ -1,0 +1,173 @@
+[
+  {
+    "avatar": "nfl_det",
+    "display_name": "greekdawg",
+    "is_bot": null,
+    "is_owner": null,
+    "league_id": "1120546747194892288",
+    "metadata": {
+      "allow_pn": "on",
+      "archived": "on",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "100908832284622848"
+  },
+  {
+    "avatar": "2687735b4cbd9e6beea3cabe0d57cb4f",
+    "display_name": "Mdavis212",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1120546747194892288",
+    "metadata": {
+      "allow_pn": "on",
+      "archived": "on",
+      "mention_pn": "on",
+      "team_name": "💩"
+    },
+    "settings": null,
+    "user_id": "717896443842588672"
+  },
+  {
+    "avatar": "f03958ba88e37ebdee25f16ac6ddb2f5",
+    "display_name": "HaywoodDjablome",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1120546747194892288",
+    "metadata": {
+      "allow_pn": "on",
+      "archived": "on",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "733182895304335360"
+  },
+  {
+    "avatar": "3dd352675851fe95fd20cbd7b99fd5c1",
+    "display_name": "chalmation88",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1120546747194892288",
+    "metadata": {
+      "allow_pn": "on",
+      "allow_sms": "on",
+      "archived": "on",
+      "mention_pn": "on",
+      "team_name": "Volume monsters"
+    },
+    "settings": null,
+    "user_id": "831980988128141312"
+  },
+  {
+    "avatar": "75c9b1e31e4006fab62ff77570280689",
+    "display_name": "TarenCapel",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1120546747194892288",
+    "metadata": {
+      "allow_pn": "off",
+      "archived": "on",
+      "avatar": "https://sleepercdn.com/uploads/c30853e266adf49d5f7447a9689915b4.jpg",
+      "league_report_pn": "on",
+      "mascot_message": "off",
+      "mention_pn": "on",
+      "player_like_pn": "on",
+      "player_nickname_update": "off",
+      "team_name": "Lizzid Peeple!",
+      "team_name_update": "off",
+      "trade_block_pn": "on",
+      "transaction_commissioner": "on",
+      "transaction_free_agent": "on",
+      "transaction_trade": "on",
+      "transaction_waiver": "on",
+      "user_message_pn": "off"
+    },
+    "settings": null,
+    "user_id": "868360290927038464"
+  },
+  {
+    "avatar": "ccfc01de47269af24335ad6e95675499",
+    "display_name": "MattSilva51481",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1120546747194892288",
+    "metadata": {
+      "allow_pn": "on",
+      "archived": "on",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "870826713653919744"
+  },
+  {
+    "avatar": "6b73bb73083503835d18be50d3388a9f",
+    "display_name": "ElChapo911",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1120546747194892288",
+    "metadata": {
+      "allow_pn": "on",
+      "allow_sms": "on",
+      "archived": "on",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "871225176560467968"
+  },
+  {
+    "avatar": "8e15f27246a394ab98208f6fd3c823c8",
+    "display_name": "Getpaper",
+    "is_bot": false,
+    "is_owner": true,
+    "league_id": "1120546747194892288",
+    "metadata": {
+      "allow_pn": "on",
+      "archived": "off",
+      "mention_pn": "on",
+      "team_name": "❌"
+    },
+    "settings": null,
+    "user_id": "964909141997285376"
+  },
+  {
+    "avatar": "42e35519d39c824ed1150261f0fafd02",
+    "display_name": "UrSuperJr",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1120546747194892288",
+    "metadata": {
+      "allow_pn": "on",
+      "archived": "on",
+      "avatar": "https://sleepercdn.com/uploads/2b6ff14e7d594539b0e68fedde994ef3",
+      "league_report_pn": "off",
+      "mascot_message": "off",
+      "mention_pn": "on",
+      "player_like_pn": "off",
+      "player_nickname_update": "off",
+      "team_name": "Fantasy 🏈 Karen($100)",
+      "team_name_update": "off",
+      "trade_block_pn": "on",
+      "transaction_commissioner": "on",
+      "transaction_free_agent": "off",
+      "transaction_trade": "on",
+      "transaction_waiver": "off",
+      "user_message_pn": "on"
+    },
+    "settings": null,
+    "user_id": "991493742198685696"
+  },
+  {
+    "avatar": "6f1131fd9961f00d8aca3e1b3f5a917a",
+    "display_name": "animalskingdom",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1120546747194892288",
+    "metadata": {
+      "allow_pn": "on",
+      "archived": "on",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "1048024044940922880"
+  }
+]

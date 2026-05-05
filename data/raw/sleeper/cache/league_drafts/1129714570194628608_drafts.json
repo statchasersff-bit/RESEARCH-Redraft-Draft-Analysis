@@ -1,0 +1,60 @@
+[
+  {
+    "created": 1723707452214,
+    "creators": [
+      "872667227709702144",
+      "909163412691628032"
+    ],
+    "draft_id": "1129714571482202112",
+    "draft_order": {
+      "1110050042842390528": 9,
+      "1121961547598884864": 11,
+      "458053979931144192": 8,
+      "470753642190729216": 6,
+      "521958797379698688": 5,
+      "567994319854673920": 3,
+      "642586054301425664": 7,
+      "681581024509005824": 2,
+      "697314505801162752": 12,
+      "745888205018091520": 1,
+      "872667227709702144": 4,
+      "909163412691628032": 10
+    },
+    "last_message_id": "1130678862154600448",
+    "last_message_time": 1723937357037,
+    "last_picked": 1723937356231,
+    "league_id": "1129714570194628608",
+    "metadata": {
+      "description": "",
+      "name": "Field-Goal Fanatics ($50-12Man PPR)",
+      "scoring_type": "ppr"
+    },
+    "season": "2024",
+    "season_type": "regular",
+    "settings": {
+      "alpha_sort": 0,
+      "autopause_enabled": 0,
+      "autopause_end_time": 840,
+      "autopause_start_time": 120,
+      "autostart": 0,
+      "cpu_autopick": 1,
+      "enforce_position_limits": 1,
+      "nomination_timer": 60,
+      "pick_timer": 60,
+      "player_type": 0,
+      "reversal_round": 0,
+      "rounds": 14,
+      "slots_bn": 5,
+      "slots_flex": 2,
+      "slots_qb": 1,
+      "slots_rb": 2,
+      "slots_te": 1,
+      "slots_wr": 3,
+      "teams": 12
+    },
+    "sport": "nfl",
+    "start_time": 1723933814152,
+    "status": "complete",
+    "type": "snake"
+  }
+]

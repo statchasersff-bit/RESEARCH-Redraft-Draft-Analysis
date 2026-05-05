@@ -1,0 +1,71 @@
+{
+  "created": 1732744191901,
+  "creators": [
+    "1151674692361887744"
+  ],
+  "draft_id": "1167617404890079232",
+  "draft_order": {
+    "1118678669683183616": 1,
+    "1136337399786762240": 8,
+    "1137539022278750208": 10,
+    "1137540003091816448": 9,
+    "1151674692361887744": 6,
+    "1161062524289261568": 4,
+    "787336453968556032": 7,
+    "852748250879471616": 3,
+    "866577349427228672": 5
+  },
+  "last_message_id": "1167661934519291904",
+  "last_message_time": 1732754808600,
+  "last_picked": 1732754807901,
+  "league_id": "1167617404000759808",
+  "metadata": {
+    "description": "",
+    "name": "Dedrafters 😭",
+    "scoring_type": "2qb"
+  },
+  "season": "2024",
+  "season_type": "regular",
+  "settings": {
+    "alpha_sort": 0,
+    "autopause_enabled": 0,
+    "autopause_end_time": 900,
+    "autopause_start_time": 180,
+    "autostart": 0,
+    "cpu_autopick": 1,
+    "enforce_position_limits": 1,
+    "nomination_timer": 60,
+    "pick_timer": 30,
+    "player_type": 0,
+    "reversal_round": 0,
+    "rounds": 20,
+    "slots_bn": 6,
+    "slots_def": 1,
+    "slots_flex": 2,
+    "slots_k": 1,
+    "slots_qb": 2,
+    "slots_rb": 2,
+    "slots_rec_flex": 1,
+    "slots_super_flex": 1,
+    "slots_te": 1,
+    "slots_wr": 2,
+    "slots_wrrb_flex": 1,
+    "teams": 10
+  },
+  "slot_to_roster_id": {
+    "1": 8,
+    "2": 6,
+    "3": 9,
+    "4": 3,
+    "5": 5,
+    "6": 1,
+    "7": 2,
+    "8": 10,
+    "9": 4,
+    "10": 7
+  },
+  "sport": "nfl",
+  "start_time": 1732752178650,
+  "status": "complete",
+  "type": "snake"
+}

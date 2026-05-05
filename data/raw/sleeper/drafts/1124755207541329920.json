@@ -1,0 +1,67 @@
+{
+  "created": 1722525047710,
+  "creators": [
+    "710332074363523072"
+  ],
+  "draft_id": "1124755207541329920",
+  "draft_order": {
+    "1050132704710246400": 10,
+    "1104915662021033984": 1,
+    "1105958740353818624": 9,
+    "593787243185889280": 8,
+    "653021705702301696": 7,
+    "710332074363523072": 3,
+    "994444478800838656": 4
+  },
+  "last_message_id": "1124768319577505792",
+  "last_message_time": 1722528173874,
+  "last_picked": 1722528163900,
+  "league_id": "1124755204919873536",
+  "metadata": {
+    "description": "",
+    "name": "Ist of tha Month Free",
+    "scoring_type": "2qb"
+  },
+  "season": "2024",
+  "season_type": "regular",
+  "settings": {
+    "alpha_sort": 0,
+    "autopause_enabled": 0,
+    "autopause_end_time": 1020,
+    "autopause_start_time": 300,
+    "autostart": 0,
+    "cpu_autopick": 1,
+    "enforce_position_limits": 1,
+    "nomination_timer": 60,
+    "pick_timer": 30,
+    "player_type": 0,
+    "reversal_round": 0,
+    "rounds": 17,
+    "slots_bn": 6,
+    "slots_def": 1,
+    "slots_flex": 2,
+    "slots_k": 1,
+    "slots_qb": 1,
+    "slots_rb": 2,
+    "slots_super_flex": 1,
+    "slots_te": 1,
+    "slots_wr": 2,
+    "teams": 10
+  },
+  "slot_to_roster_id": {
+    "1": 10,
+    "2": 2,
+    "3": 1,
+    "4": 9,
+    "5": 5,
+    "6": 6,
+    "7": 8,
+    "8": 7,
+    "9": 3,
+    "10": 4
+  },
+  "sport": "nfl",
+  "start_time": 1722526676987,
+  "status": "complete",
+  "type": "snake"
+}

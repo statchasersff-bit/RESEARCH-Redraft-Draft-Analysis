@@ -1,0 +1,280 @@
+[
+  {
+    "avatar": "608075f398ac0269defee79911f6934c",
+    "display_name": "r3bb",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1136831034155880448",
+    "metadata": {
+      "allow_pn": "on",
+      "archived": "on",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "727633200406421504"
+  },
+  {
+    "avatar": "b474044976ac29f7ed1fa55a9dfb73e1",
+    "display_name": "knerdson",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1136831034155880448",
+    "metadata": {
+      "allow_pn": "on",
+      "archived": "on",
+      "avatar": "https://sleepercdn.com/uploads/5559908a579f168d2f71d76ab78ebeff.jpg",
+      "mention_pn": "on",
+      "team_name": "Love Chase’n Chubb"
+    },
+    "settings": null,
+    "user_id": "727943979047419904"
+  },
+  {
+    "avatar": null,
+    "display_name": "mlhodges1",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1136831034155880448",
+    "metadata": {
+      "allow_pn": "on",
+      "archived": "on",
+      "avatar": "https://sleepercdn.com/uploads/d52ac2590209264cb73badac3f67c20b.jpg",
+      "mention_pn": "on",
+      "team_name": "Sacrificial Babies"
+    },
+    "settings": null,
+    "user_id": "728064130732421120"
+  },
+  {
+    "avatar": "4f4090e5e9c3941414db40a871e3e909",
+    "display_name": "schlikyy",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1136831034155880448",
+    "metadata": {
+      "allow_pn": "on",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "728081456248766464"
+  },
+  {
+    "avatar": "4f4090e5e9c3941414db40a871e3e909",
+    "display_name": "Rgwhite17",
+    "is_bot": false,
+    "is_owner": false,
+    "league_id": "1136831034155880448",
+    "metadata": {
+      "allow_pn": "on",
+      "league_report_pn": "on",
+      "mascot_message": "on",
+      "mention_pn": "on",
+      "player_like_pn": "on",
+      "player_nickname_update": "on",
+      "team_name_update": "on",
+      "trade_block_pn": "on",
+      "transaction_commissioner": "on",
+      "transaction_free_agent": "on",
+      "transaction_trade": "on",
+      "transaction_waiver": "on",
+      "user_message_pn": "on"
+    },
+    "settings": null,
+    "user_id": "728223410949349376"
+  },
+  {
+    "avatar": "f0edbf4278f53f9425db175073df6584",
+    "display_name": "jtb075",
+    "is_bot": false,
+    "is_owner": false,
+    "league_id": "1136831034155880448",
+    "metadata": {
+      "allow_pn": "on",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "728232393466568704"
+  },
+  {
+    "avatar": "716af17809d1277b7811a56f3aded3f5",
+    "display_name": "DaBradster",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1136831034155880448",
+    "metadata": {
+      "allow_pn": "on",
+      "archived": "on",
+      "avatar": "https://sleepercdn.com/uploads/64ba1a117b5dc97626dcb2c4e0a6a8d7.jpg",
+      "mention_pn": "on",
+      "team_name": "FLAI-YU-KOOLS!"
+    },
+    "settings": null,
+    "user_id": "728312078443601920"
+  },
+  {
+    "avatar": "dda05eec1a9f74b30584f96c14a15846",
+    "display_name": "Baum2",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1136831034155880448",
+    "metadata": {
+      "allow_pn": "on",
+      "archived": "on",
+      "mention_pn": "on",
+      "team_name": "Megalabaum🤓"
+    },
+    "settings": null,
+    "user_id": "728352096667160576"
+  },
+  {
+    "avatar": "1085664abdee0d401ca9f342cd470894",
+    "display_name": "crmulli",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1136831034155880448",
+    "metadata": {
+      "allow_pn": "on",
+      "archived": "on",
+      "avatar": "https://sleepercdn.com/uploads/ad4e5aefd31b760da82861bd1e0eec38",
+      "mention_pn": "on",
+      "team_name": "Rabid Chickens"
+    },
+    "settings": null,
+    "user_id": "728360396414668800"
+  },
+  {
+    "avatar": "580b4f7d820480e74db66c848c302d69",
+    "display_name": "ARNy007",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1136831034155880448",
+    "metadata": {
+      "allow_pn": "on",
+      "archived": "on",
+      "avatar": "https://sleepercdn.com/uploads/0e1e4ae1f50f7fcac121f3de2400484d.jpg",
+      "mention_pn": "on",
+      "team_name": "Leafs Nation "
+    },
+    "settings": null,
+    "user_id": "728396982237945856"
+  },
+  {
+    "avatar": "e7af4deab0289b4f5505646424895246",
+    "display_name": "ImPerdHapley",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1136831034155880448",
+    "metadata": {
+      "allow_pn": "off",
+      "archived": "on",
+      "league_report_pn": "off",
+      "mascot_message": "on",
+      "mention_pn": "on",
+      "player_like_pn": "on",
+      "player_nickname_update": "off",
+      "team_name": "Pretty Bad Team",
+      "team_name_update": "on",
+      "trade_block_pn": "on",
+      "transaction_commissioner": "on",
+      "transaction_free_agent": "on",
+      "transaction_trade": "on",
+      "transaction_waiver": "on",
+      "user_message_pn": "on"
+    },
+    "settings": null,
+    "user_id": "728697642690940928"
+  },
+  {
+    "avatar": null,
+    "display_name": "tylerkaestner",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1136831034155880448",
+    "metadata": {
+      "allow_pn": "off",
+      "league_report_pn": "on",
+      "mascot_message": "on",
+      "mention_pn": "on",
+      "player_like_pn": "on",
+      "player_nickname_update": "off",
+      "team_name": "Bark-ing Dawgs",
+      "team_name_update": "off",
+      "trade_block_pn": "on",
+      "transaction_commissioner": "on",
+      "transaction_free_agent": "off",
+      "transaction_trade": "on",
+      "transaction_waiver": "off",
+      "user_message_pn": "on"
+    },
+    "settings": null,
+    "user_id": "728747338373382144"
+  },
+  {
+    "avatar": "887827c11f73ca95e278c6f17047a749",
+    "display_name": "SWSwag",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1136831034155880448",
+    "metadata": {
+      "allow_pn": "on",
+      "archived": "off",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "728780472955568128"
+  },
+  {
+    "avatar": "7babed48c634588d7c027ee83ddc176d",
+    "display_name": "Lettieri91",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1136831034155880448",
+    "metadata": {
+      "allow_pn": "on",
+      "allow_sms": "on",
+      "archived": "on",
+      "avatar": "https://sleepercdn.com/images/mascots_v2/L29_SteampunkBird/idle-mobile-small.gif",
+      "mention_pn": "on",
+      "team_name": "Password is Taco"
+    },
+    "settings": null,
+    "user_id": "728795711465967616"
+  },
+  {
+    "avatar": "aadf0d56ad839962dfb2ac9631e11997",
+    "display_name": "SnackGoblin1",
+    "is_bot": false,
+    "is_owner": false,
+    "league_id": "1136831034155880448",
+    "metadata": {
+      "allow_pn": "on",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "861393921064931328"
+  },
+  {
+    "avatar": "cf229f91c6f07d4dfe00cb74c9a9aae6",
+    "display_name": "MegalAdmin2024",
+    "is_bot": false,
+    "is_owner": true,
+    "league_id": "1136831034155880448",
+    "metadata": {
+      "allow_pn": "off",
+      "join_voice_pn": "off",
+      "mascot_message": "off",
+      "mention_pn": "on",
+      "player_like_pn": "off",
+      "player_nickname_update": "off",
+      "team_name_update": "off",
+      "trade_block_pn": "off",
+      "transaction_commissioner": "off",
+      "transaction_free_agent": "off",
+      "transaction_trade": "on",
+      "transaction_waiver": "off",
+      "user_message_pn": "off"
+    },
+    "settings": null,
+    "user_id": "1101213047055548416"
+  }
+]

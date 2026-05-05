@@ -1,0 +1,59 @@
+[
+  {
+    "created": 1721997736012,
+    "creators": [
+      "863940790378942464"
+    ],
+    "draft_id": "1122543501981372416",
+    "draft_order": {
+      "1051824627384803328": 2,
+      "1053406269446508544": 3,
+      "335176168149909504": 12,
+      "435238370524786688": 11,
+      "463136024457900032": 7,
+      "722475684605288448": 9,
+      "740417854251397120": 5,
+      "785599129941364736": 4,
+      "863940790378942464": 8,
+      "872553360128184320": 6,
+      "995150728773652480": 1,
+      "997211499074555904": 10
+    },
+    "last_message_id": "1137233705249800192",
+    "last_message_time": 1725500153413,
+    "last_picked": 1725500152405,
+    "league_id": "1122543500630851584",
+    "metadata": {
+      "description": "",
+      "name": "FF Throwdown",
+      "scoring_type": "ppr"
+    },
+    "season": "2024",
+    "season_type": "regular",
+    "settings": {
+      "alpha_sort": 0,
+      "autopause_enabled": 0,
+      "autopause_end_time": 840,
+      "autopause_start_time": 120,
+      "autostart": 0,
+      "cpu_autopick": 1,
+      "nomination_timer": 60,
+      "pick_timer": 90,
+      "player_type": 0,
+      "reversal_round": 0,
+      "rounds": 14,
+      "slots_bn": 5,
+      "slots_def": 1,
+      "slots_flex": 2,
+      "slots_qb": 1,
+      "slots_rb": 2,
+      "slots_te": 1,
+      "slots_wr": 2,
+      "teams": 12
+    },
+    "sport": "nfl",
+    "start_time": 1725496255880,
+    "status": "complete",
+    "type": "snake"
+  }
+]

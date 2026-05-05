@@ -1,0 +1,58 @@
+{
+  "created": 1724977986847,
+  "creators": [
+    "860709610481381376"
+  ],
+  "draft_id": "1135043579925352448",
+  "draft_order": null,
+  "last_message_id": "1135043579925352448",
+  "last_message_time": 1724977986847,
+  "last_picked": null,
+  "league_id": "1095494210154905600",
+  "metadata": {
+    "description": "",
+    "name": "Hard Rock Flo ",
+    "scoring_type": "ppr"
+  },
+  "season": "2024",
+  "season_type": "regular",
+  "settings": {
+    "alpha_sort": 0,
+    "autopause_enabled": 0,
+    "autopause_end_time": 960,
+    "autopause_start_time": 240,
+    "autostart": 0,
+    "cpu_autopick": 1,
+    "enforce_position_limits": 1,
+    "nomination_timer": 60,
+    "pick_timer": 60,
+    "player_type": 0,
+    "reversal_round": 0,
+    "rounds": 13,
+    "slots_bn": 4,
+    "slots_flex": 3,
+    "slots_qb": 1,
+    "slots_rb": 2,
+    "slots_te": 1,
+    "slots_wr": 2,
+    "teams": 12
+  },
+  "slot_to_roster_id": {
+    "1": 1,
+    "2": 2,
+    "3": 3,
+    "4": 4,
+    "5": 5,
+    "6": 6,
+    "7": 7,
+    "8": 8,
+    "9": 9,
+    "10": 10,
+    "11": 11,
+    "12": 12
+  },
+  "sport": "nfl",
+  "start_time": 1725409845000,
+  "status": "complete",
+  "type": "snake"
+}

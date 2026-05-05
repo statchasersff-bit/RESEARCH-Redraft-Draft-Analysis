@@ -1,0 +1,154 @@
+[
+  {
+    "avatar": "2a5987effdd4ed150228cd5f07f8c277",
+    "display_name": "TheBigDaddyMike",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1132508565991981056",
+    "metadata": {
+      "allow_pn": "on",
+      "allow_sms": "on",
+      "archived": "on",
+      "mention_pn": "on",
+      "team_name": "Spank My Butker Daddy"
+    },
+    "settings": null,
+    "user_id": "993214942729822208"
+  },
+  {
+    "avatar": "ee99ac77e114f2bca55637bd5a4db264",
+    "display_name": "IWINORDOLPHINS",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1132508565991981056",
+    "metadata": {
+      "allow_pn": "on",
+      "archived": "on",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "996498947298504704"
+  },
+  {
+    "avatar": "e7af4deab0289b4f5505646424895246",
+    "display_name": "JaylenGazz",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1132508565991981056",
+    "metadata": {
+      "allow_pn": "on",
+      "avatar": "https://sleepercdn.com/uploads/5edfb08e7bf3e9e60106b3d1ee3f1b0b.jpg",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "1015800581846052864"
+  },
+  {
+    "avatar": "b3338675f635c2c1f42b469621d38ec6",
+    "display_name": "Andre30",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1132508565991981056",
+    "metadata": {
+      "allow_pn": "off",
+      "league_report_pn": "on",
+      "mascot_message": "on",
+      "mention_pn": "on",
+      "player_like_pn": "on",
+      "player_nickname_update": "on",
+      "team_name_update": "on",
+      "trade_block_pn": "on",
+      "transaction_commissioner": "on",
+      "transaction_free_agent": "on",
+      "transaction_trade": "on",
+      "transaction_waiver": "on",
+      "user_message_pn": "on"
+    },
+    "settings": null,
+    "user_id": "1022142402255011840"
+  },
+  {
+    "avatar": "1f7b758ce89898dfd1eb4b422830bf52",
+    "display_name": "MonstersOfTheMidway6",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1132508565991981056",
+    "metadata": {
+      "allow_pn": "on",
+      "archived": "on",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "1042282284306841600"
+  },
+  {
+    "avatar": "b319fdf8b7b5b0359d3c78622ba4d70c",
+    "display_name": "elliotmeyer",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1132508565991981056",
+    "metadata": {
+      "allow_pn": "on",
+      "allow_sms": "on",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "1082434974676066304"
+  },
+  {
+    "avatar": "61c39b42e371b46c4137209c8b16e6d4",
+    "display_name": "xav3rro",
+    "is_bot": false,
+    "is_owner": true,
+    "league_id": "1132508565991981056",
+    "metadata": {
+      "allow_pn": "on",
+      "mention_pn": "on",
+      "team_name": "$700TOWATCHFOOTBALL"
+    },
+    "settings": null,
+    "user_id": "1122569295671685120"
+  },
+  {
+    "avatar": "e7af4deab0289b4f5505646424895246",
+    "display_name": "KingAmareon",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1132508565991981056",
+    "metadata": {
+      "allow_pn": "on",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "1128208074902298624"
+  },
+  {
+    "avatar": "ac142b6742dce4c308b3a28176792112",
+    "display_name": "InChismwetrust",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1132508565991981056",
+    "metadata": {
+      "allow_pn": "on",
+      "allow_sms": "on",
+      "avatar": "https://sleepercdn.com/uploads/48ac29f606e9eda8b7000a56194cdfd5.jpg",
+      "mention_pn": "on",
+      "team_name": "What up, my mahomie "
+    },
+    "settings": null,
+    "user_id": "1130661028867477504"
+  },
+  {
+    "avatar": "b319fdf8b7b5b0359d3c78622ba4d70c",
+    "display_name": "505waddleDolphins",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1132508565991981056",
+    "metadata": {
+      "allow_pn": "on",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "1133474647149797376"
+  }
+]

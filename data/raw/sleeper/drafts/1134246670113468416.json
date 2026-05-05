@@ -1,0 +1,72 @@
+{
+  "created": 1724787988730,
+  "creators": [
+    "723012598097833984"
+  ],
+  "draft_id": "1134246670113468416",
+  "draft_order": {
+    "1005285844929970176": 10,
+    "1112857307622289408": 2,
+    "1133500124954542080": 11,
+    "1135965952136458240": 12,
+    "1136089470371356672": 9,
+    "1136092223906529280": 5,
+    "343067503850754048": 3,
+    "467369926768717824": 8,
+    "593248553699168256": 1,
+    "607762362799308800": 7,
+    "723012598097833984": 6
+  },
+  "last_message_id": "1136875097882415104",
+  "last_message_time": 1725414654754,
+  "last_picked": 1725414654105,
+  "league_id": "1134246668989292544",
+  "metadata": {
+    "description": "",
+    "name": "Football is Back",
+    "scoring_type": "ppr"
+  },
+  "season": "2024",
+  "season_type": "regular",
+  "settings": {
+    "alpha_sort": 0,
+    "autopause_enabled": 0,
+    "autopause_end_time": 840,
+    "autopause_start_time": 120,
+    "autostart": 0,
+    "cpu_autopick": 1,
+    "enforce_position_limits": 1,
+    "nomination_timer": 60,
+    "pick_timer": 60,
+    "player_type": 0,
+    "reversal_round": 0,
+    "rounds": 15,
+    "slots_bn": 5,
+    "slots_def": 1,
+    "slots_flex": 2,
+    "slots_k": 1,
+    "slots_qb": 1,
+    "slots_rb": 2,
+    "slots_te": 1,
+    "slots_wr": 2,
+    "teams": 12
+  },
+  "slot_to_roster_id": {
+    "1": 2,
+    "2": 10,
+    "3": 11,
+    "4": 9,
+    "5": 8,
+    "6": 1,
+    "7": 4,
+    "8": 12,
+    "9": 6,
+    "10": 3,
+    "11": 5,
+    "12": 7
+  },
+  "sport": "nfl",
+  "start_time": 1725411634155,
+  "status": "complete",
+  "type": "snake"
+}

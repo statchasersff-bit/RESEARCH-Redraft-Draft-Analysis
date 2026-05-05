@@ -1,0 +1,169 @@
+[
+  {
+    "avatar": "6b4df5243613dae22762d1ae3393bf4c",
+    "display_name": "LottaHelp",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1137083484692078592",
+    "metadata": {
+      "allow_pn": "on",
+      "archived": "on",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "730254757008097280"
+  },
+  {
+    "avatar": "b3338675f635c2c1f42b469621d38ec6",
+    "display_name": "fleetyrocks1",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1137083484692078592",
+    "metadata": {
+      "allow_pn": "on",
+      "allow_sms": "on",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "739599743604445184"
+  },
+  {
+    "avatar": "82aec8e811b839b8ec25d7b458afd57b",
+    "display_name": "apex13p",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1137083484692078592",
+    "metadata": {
+      "allow_pn": "on",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "740651774511366144"
+  },
+  {
+    "avatar": "83fbbd8a695e8d371fc847f60746307e",
+    "display_name": "devanbuck",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1137083484692078592",
+    "metadata": {
+      "allow_pn": "on",
+      "avatar": "https://sleepercdn.com/uploads/824d1f859c7fc425b13cc912cb10079c.jpg",
+      "mention_pn": "on",
+      "team_name": "McConkey Kong"
+    },
+    "settings": null,
+    "user_id": "798818737854717952"
+  },
+  {
+    "avatar": "4f4090e5e9c3941414db40a871e3e909",
+    "display_name": "rhettcross2",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1137083484692078592",
+    "metadata": {
+      "allow_pn": "on",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "870857273847812096"
+  },
+  {
+    "avatar": "f08c083928104a10f1af087581096e6d",
+    "display_name": "AlMoney",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1137083484692078592",
+    "metadata": {
+      "allow_pn": "on",
+      "archived": "on",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "871048278932926464"
+  },
+  {
+    "avatar": "8eb8f8bf999945d523f2c4033f70473e",
+    "display_name": "Cswanson27",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1137083484692078592",
+    "metadata": {
+      "allow_pn": "on",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "873421279196311552"
+  },
+  {
+    "avatar": "8eb8f8bf999945d523f2c4033f70473e",
+    "display_name": "LurtisCloyd",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1137083484692078592",
+    "metadata": {
+      "allow_pn": "on",
+      "archived": "on",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "961385623649099776"
+  },
+  {
+    "avatar": "17ad31174a2027468481515a8044b6bd",
+    "display_name": "ImWithHo3bag",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1137083484692078592",
+    "metadata": {
+      "allow_pn": "on",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "1005302985653641216"
+  },
+  {
+    "avatar": "15d7cf259bc30eab8f6120f45f652fb6",
+    "display_name": "KCBandwagon",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1137083484692078592",
+    "metadata": {
+      "allow_pn": "on",
+      "archived": "on",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "1027059912234889216"
+  },
+  {
+    "avatar": "4b7a3910ac97cbda4df16be973251432",
+    "display_name": "JWillWoo",
+    "is_bot": false,
+    "is_owner": true,
+    "league_id": "1137083484692078592",
+    "metadata": {
+      "allow_pn": "on",
+      "archived": "on",
+      "avatar": "https://sleepercdn.com/uploads/df4bffddc65d0b959174cddfce255fa4.jpg",
+      "mention_pn": "on",
+      "team_name": "The Commish"
+    },
+    "settings": null,
+    "user_id": "1084002885165236224"
+  },
+  {
+    "avatar": "b3338675f635c2c1f42b469621d38ec6",
+    "display_name": "xxkeefchiefxx",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1137083484692078592",
+    "metadata": {
+      "allow_pn": "on",
+      "archived": "off",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "1129227645981450240"
+  }
+]

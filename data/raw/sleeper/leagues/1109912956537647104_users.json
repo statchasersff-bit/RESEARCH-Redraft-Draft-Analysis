@@ -1,0 +1,240 @@
+[
+  {
+    "avatar": "f60de95bf04bf6bb308ef8985c0f1543",
+    "display_name": "mugshot",
+    "is_bot": null,
+    "is_owner": false,
+    "league_id": "1109912956537647104",
+    "metadata": {
+      "allow_pn": "on",
+      "allow_sms": "on",
+      "archived": "off",
+      "mention_pn": "on",
+      "team_name": "The Notorious RBG"
+    },
+    "settings": null,
+    "user_id": "79762318351024128"
+  },
+  {
+    "avatar": "e84aaa635b6e4e7f20d2be9f5e883f31",
+    "display_name": "Jfein507",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1109912956537647104",
+    "metadata": {
+      "allow_pn": "on",
+      "archived": "off",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "481996733195218944"
+  },
+  {
+    "avatar": "619528ceabe9cf26920270a77f74864a",
+    "display_name": "hfrazho",
+    "is_bot": false,
+    "is_owner": false,
+    "league_id": "1109912956537647104",
+    "metadata": {
+      "allow_pn": "on",
+      "mention_pn": "on",
+      "team_name": "Tittsburgh Steelers  "
+    },
+    "settings": null,
+    "user_id": "576628411334692864"
+  },
+  {
+    "avatar": "e2798cec7106c58a58537a4f1a7a3a76",
+    "display_name": "ktball7395",
+    "is_bot": false,
+    "is_owner": true,
+    "league_id": "1109912956537647104",
+    "metadata": {
+      "allow_pn": "on",
+      "allow_sms": "on",
+      "archived": "on",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "737157531478204416"
+  },
+  {
+    "avatar": "fb6f4f325f26425f6549a133afa53f0f",
+    "display_name": "phinsgirl",
+    "is_bot": false,
+    "is_owner": false,
+    "league_id": "1109912956537647104",
+    "metadata": {
+      "allow_pn": "on",
+      "archived": "on",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "860027707377983488"
+  },
+  {
+    "avatar": "9a973a4a24b112df16ef4759a7b0f2ab",
+    "display_name": "AmyEastTN79",
+    "is_bot": false,
+    "is_owner": false,
+    "league_id": "1109912956537647104",
+    "metadata": {
+      "allow_pn": "on",
+      "allow_sms": "on",
+      "archived": "off",
+      "mention_pn": "on",
+      "team_name": "💸Don’tTellMyHusband💸"
+    },
+    "settings": null,
+    "user_id": "867534014821609472"
+  },
+  {
+    "avatar": "82aec8e811b839b8ec25d7b458afd57b",
+    "display_name": "sherylrfcb",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1109912956537647104",
+    "metadata": {
+      "allow_pn": "on",
+      "allow_sms": "on",
+      "avatar": "https://sleepercdn.com/images/mascots_v2/07_Cyberpunk_Girl/idle-mobile-small.gif",
+      "mention_pn": "on",
+      "team_name": "Chicks Dig Sports Too"
+    },
+    "settings": null,
+    "user_id": "869283939355906048"
+  },
+  {
+    "avatar": "b3338675f635c2c1f42b469621d38ec6",
+    "display_name": "rachball1",
+    "is_bot": false,
+    "is_owner": false,
+    "league_id": "1109912956537647104",
+    "metadata": {
+      "allow_pn": "on",
+      "allow_sms": "on",
+      "archived": "off",
+      "avatar": "https://sleepercdn.com/uploads/73dc7fd02edb20847e2cf755da46625e.jpg",
+      "league_report_pn": "on",
+      "mascot_message": "on",
+      "mention_pn": "on",
+      "player_like_pn": "on",
+      "player_nickname_update": "on",
+      "team_name": "Cookin With Mahomies",
+      "team_name_update": "on",
+      "trade_block_pn": "on",
+      "transaction_commissioner": "on",
+      "transaction_free_agent": "on",
+      "transaction_trade": "on",
+      "transaction_waiver": "on",
+      "user_message_pn": "on"
+    },
+    "settings": null,
+    "user_id": "919507304427380736"
+  },
+  {
+    "avatar": "8eb8f8bf999945d523f2c4033f70473e",
+    "display_name": "SMBrooks",
+    "is_bot": false,
+    "is_owner": false,
+    "league_id": "1109912956537647104",
+    "metadata": {
+      "allow_pn": "on",
+      "allow_sms": "on",
+      "avatar": "https://sleepercdn.com/uploads/bc05888ff363e671575727a1a87d8a03.jpg",
+      "mention_pn": "on",
+      "team_name": "No Phly Zone"
+    },
+    "settings": null,
+    "user_id": "967835502122500096"
+  },
+  {
+    "avatar": "4a0bff7588217073bf996d0ec6669c62",
+    "display_name": "MichelleVanFleet",
+    "is_bot": false,
+    "is_owner": false,
+    "league_id": "1109912956537647104",
+    "metadata": {
+      "allow_pn": "on",
+      "allow_sms": "on",
+      "avatar": "https://sleepercdn.com/uploads/4a0bff7588217073bf996d0ec6669c62.jpg",
+      "mention_pn": "on",
+      "team_name": "Victorious Secret"
+    },
+    "settings": null,
+    "user_id": "985676748660523008"
+  },
+  {
+    "avatar": "b319fdf8b7b5b0359d3c78622ba4d70c",
+    "display_name": "IamSag",
+    "is_bot": false,
+    "is_owner": false,
+    "league_id": "1109912956537647104",
+    "metadata": {
+      "allow_pn": "on",
+      "allow_sms": "on",
+      "mention_pn": "on",
+      "team_name": "Aleague ofMY own "
+    },
+    "settings": null,
+    "user_id": "986690483906826240"
+  },
+  {
+    "avatar": "a55429c01a4fd71cf573307437e91633",
+    "display_name": "gabbyg9109",
+    "is_bot": false,
+    "is_owner": false,
+    "league_id": "1109912956537647104",
+    "metadata": {
+      "allow_pn": "off",
+      "avatar": "https://sleepercdn.com/uploads/dac90f843479faf39ba67293090b62d9.jpg",
+      "join_voice_pn": "on",
+      "league_report_pn": "off",
+      "mascot_message": "off",
+      "mention_pn": "on",
+      "player_like_pn": "off",
+      "player_nickname_update": "off",
+      "team_name": "That’s So Ravens",
+      "team_name_update": "off",
+      "trade_block_pn": "off",
+      "transaction_commissioner": "off",
+      "transaction_free_agent": "off",
+      "transaction_trade": "off",
+      "transaction_waiver": "on",
+      "user_message_pn": "off"
+    },
+    "settings": null,
+    "user_id": "990311221289115648"
+  },
+  {
+    "avatar": "34e244c0c1710ba263c3e9b9781b7c78",
+    "display_name": "olbert99",
+    "is_bot": false,
+    "is_owner": false,
+    "league_id": "1109912956537647104",
+    "metadata": {
+      "allow_pn": "on",
+      "allow_sms": "on",
+      "mention_pn": "on",
+      "team_name": "Barking Sharks"
+    },
+    "settings": null,
+    "user_id": "991816392204759040"
+  },
+  {
+    "avatar": "15d7cf259bc30eab8f6120f45f652fb6",
+    "display_name": "ehemming",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1109912956537647104",
+    "metadata": {
+      "allow_pn": "on",
+      "allow_sms": "on",
+      "avatar": "https://sleepercdn.com/uploads/3c11e3caa6790c0beb545c171276aed5.jpg",
+      "mention_pn": "on",
+      "team_name": "The underPUPs"
+    },
+    "settings": null,
+    "user_id": "1127786210757382144"
+  }
+]

@@ -1,0 +1,58 @@
+[
+  {
+    "created": 1725290442794,
+    "creators": [
+      "773283242630778880"
+    ],
+    "draft_id": "1136354115207995392",
+    "draft_order": {
+      "1002688071982252032": 2,
+      "1003116114869645312": 4,
+      "1003143371218743296": 11,
+      "1114613036267958272": 5,
+      "468936119346524160": 9,
+      "728950493535174656": 1,
+      "754532861213913088": 7,
+      "773283242630778880": 12,
+      "777645023008305152": 8,
+      "785256433892614144": 10,
+      "808951380592164864": 6
+    },
+    "last_message_id": "1136380044269576192",
+    "last_message_time": 1725296624775,
+    "last_picked": 1725296612447,
+    "league_id": "1136354114163654656",
+    "metadata": {
+      "description": "",
+      "name": "$50 BUY IN 12 MAN PPR 1 FLEX",
+      "scoring_type": "ppr"
+    },
+    "season": "2024",
+    "season_type": "regular",
+    "settings": {
+      "alpha_sort": 0,
+      "autopause_enabled": 0,
+      "autopause_end_time": 900,
+      "autopause_start_time": 180,
+      "autostart": 0,
+      "cpu_autopick": 1,
+      "nomination_timer": 60,
+      "pick_timer": 30,
+      "player_type": 0,
+      "reversal_round": 0,
+      "rounds": 14,
+      "slots_bn": 5,
+      "slots_def": 1,
+      "slots_flex": 2,
+      "slots_qb": 1,
+      "slots_rb": 2,
+      "slots_te": 1,
+      "slots_wr": 2,
+      "teams": 12
+    },
+    "sport": "nfl",
+    "start_time": 1725294345570,
+    "status": "complete",
+    "type": "snake"
+  }
+]

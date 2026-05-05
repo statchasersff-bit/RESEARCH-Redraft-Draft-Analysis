@@ -1,0 +1,172 @@
+[
+  {
+    "avatar": "15d7cf259bc30eab8f6120f45f652fb6",
+    "display_name": "shaf1n",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1137097851076546560",
+    "metadata": {
+      "allow_pn": "on",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "731068630057480192"
+  },
+  {
+    "avatar": "b3338675f635c2c1f42b469621d38ec6",
+    "display_name": "Jaime13",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1137097851076546560",
+    "metadata": {
+      "allow_pn": "on",
+      "allow_sms": "on",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "738592037330382848"
+  },
+  {
+    "avatar": "9067d60363b38ef04dc1244118599574",
+    "display_name": "Casedia",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1137097851076546560",
+    "metadata": {
+      "allow_pn": "on",
+      "archived": "on",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "767827424858722304"
+  },
+  {
+    "avatar": "15d7cf259bc30eab8f6120f45f652fb6",
+    "display_name": "Jorry",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1137097851076546560",
+    "metadata": {
+      "allow_pn": "on",
+      "archived": "on",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "993580599556325376"
+  },
+  {
+    "avatar": "6db7e56af967401abbcb5ca62a18c865",
+    "display_name": "Delfuego78",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1137097851076546560",
+    "metadata": {
+      "allow_pn": "on",
+      "archived": "on",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "993611023737221120"
+  },
+  {
+    "avatar": "f6b4238500043f86b2a7a6743d1581a3",
+    "display_name": "igottapee",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1137097851076546560",
+    "metadata": {
+      "allow_pn": "on",
+      "archived": "on",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "1003698243116421120"
+  },
+  {
+    "avatar": "ebefdb983782dec8c9b8cd50b4a1e047",
+    "display_name": "borrowitdeep",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1137097851076546560",
+    "metadata": {
+      "allow_pn": "on",
+      "allow_sms": "on",
+      "archived": "on",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "1004637920638201856"
+  },
+  {
+    "avatar": "4a3935e4f8dd811cd057bd2766dc5a7d",
+    "display_name": "Htankos",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1137097851076546560",
+    "metadata": {
+      "allow_pn": "on",
+      "archived": "on",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "1005169734033235968"
+  },
+  {
+    "avatar": "b3338675f635c2c1f42b469621d38ec6",
+    "display_name": "DirtyDan360NS",
+    "is_bot": false,
+    "is_owner": true,
+    "league_id": "1137097851076546560",
+    "metadata": {
+      "allow_pn": "on",
+      "allow_sms": "on",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "1130658393586446336"
+  },
+  {
+    "avatar": "b3338675f635c2c1f42b469621d38ec6",
+    "display_name": "TonyG1993",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1137097851076546560",
+    "metadata": {
+      "allow_pn": "on",
+      "allow_sms": "on",
+      "archived": "on",
+      "mention_pn": "on",
+      "team_name": " Natural Born Kylers"
+    },
+    "settings": null,
+    "user_id": "1131407094713901056"
+  },
+  {
+    "avatar": "b319fdf8b7b5b0359d3c78622ba4d70c",
+    "display_name": "Tminkel",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1137097851076546560",
+    "metadata": {
+      "allow_pn": "on",
+      "allow_sms": "on",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "1137099870302543872"
+  },
+  {
+    "avatar": "e7af4deab0289b4f5505646424895246",
+    "display_name": "GeemasBigBoyz",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1137097851076546560",
+    "metadata": {
+      "allow_pn": "on",
+      "archived": "on",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "1137103090248847360"
+  }
+]

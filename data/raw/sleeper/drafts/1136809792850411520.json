@@ -1,0 +1,68 @@
+{
+  "created": 1725399084809,
+  "creators": [
+    "1000488762083733504"
+  ],
+  "draft_id": "1136809792850411520",
+  "draft_order": {
+    "1000488762083733504": 8,
+    "1002349792435068928": 6,
+    "1130167287987712000": 7,
+    "1133914934305406976": 1,
+    "519663214981992448": 3,
+    "609441209340989440": 10,
+    "729203632880349184": 4,
+    "958250559578906624": 2,
+    "996400838308335616": 9
+  },
+  "last_message_id": "1136863587906879488",
+  "last_message_time": 1725411910562,
+  "last_picked": 1725411909727,
+  "league_id": "1136809786294796288",
+  "metadata": {
+    "description": "",
+    "name": "This On Lock🔒 🏈🤺🏆💰",
+    "scoring_type": "ppr"
+  },
+  "season": "2024",
+  "season_type": "regular",
+  "settings": {
+    "alpha_sort": 0,
+    "autopause_enabled": 0,
+    "autopause_end_time": 840,
+    "autopause_start_time": 120,
+    "autostart": 0,
+    "cpu_autopick": 1,
+    "enforce_position_limits": 1,
+    "nomination_timer": 60,
+    "pick_timer": 60,
+    "player_type": 0,
+    "reversal_round": 0,
+    "rounds": 16,
+    "slots_bn": 6,
+    "slots_def": 1,
+    "slots_flex": 2,
+    "slots_k": 1,
+    "slots_qb": 1,
+    "slots_rb": 2,
+    "slots_te": 1,
+    "slots_wr": 2,
+    "teams": 10
+  },
+  "slot_to_roster_id": {
+    "1": 10,
+    "2": 2,
+    "3": 3,
+    "4": 7,
+    "5": 5,
+    "6": 6,
+    "7": 4,
+    "8": 1,
+    "9": 8,
+    "10": 9
+  },
+  "sport": "nfl",
+  "start_time": 1725408909519,
+  "status": "complete",
+  "type": "snake"
+}

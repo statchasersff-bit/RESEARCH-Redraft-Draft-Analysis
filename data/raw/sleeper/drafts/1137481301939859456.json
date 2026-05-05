@@ -1,0 +1,52 @@
+{
+  "created": 1725559185052,
+  "creators": [
+    "1070435105732218880"
+  ],
+  "draft_id": "1137481301939859456",
+  "draft_order": {
+    "1070435105732218880": 4
+  },
+  "last_message_id": "1137483416732995584",
+  "last_message_time": 1725559689270,
+  "last_picked": 1725559688853,
+  "league_id": "1137481300857712640",
+  "metadata": {
+    "description": "",
+    "name": "Jj",
+    "scoring_type": "ppr"
+  },
+  "season": "2024",
+  "season_type": "regular",
+  "settings": {
+    "autostart": 0,
+    "cpu_autopick": 1,
+    "pick_timer": 120,
+    "rounds": 15,
+    "slots_bn": 5,
+    "slots_def": 1,
+    "slots_flex": 2,
+    "slots_k": 1,
+    "slots_qb": 1,
+    "slots_rb": 2,
+    "slots_te": 1,
+    "slots_wr": 2,
+    "teams": 10
+  },
+  "slot_to_roster_id": {
+    "1": 2,
+    "2": 3,
+    "3": 4,
+    "4": 1,
+    "5": 5,
+    "6": 6,
+    "7": 7,
+    "8": 8,
+    "9": 9,
+    "10": 10
+  },
+  "sport": "nfl",
+  "start_time": 1725559218502,
+  "status": "complete",
+  "type": "snake"
+}

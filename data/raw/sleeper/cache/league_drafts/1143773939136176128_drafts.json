@@ -1,0 +1,42 @@
+[
+  {
+    "created": 1727059466970,
+    "creators": [
+      "994763102241542144"
+    ],
+    "draft_id": "1143773940374032384",
+    "draft_order": {
+      "994763102241542144": 10
+    },
+    "last_message_id": "1143775670439391232",
+    "last_message_time": 1727059879458,
+    "last_picked": 1727059878641,
+    "league_id": "1143773939136176128",
+    "metadata": {
+      "description": "",
+      "name": "Jibla ",
+      "scoring_type": "ppr"
+    },
+    "season": "2024",
+    "season_type": "regular",
+    "settings": {
+      "autostart": 0,
+      "cpu_autopick": 1,
+      "pick_timer": 120,
+      "rounds": 16,
+      "slots_bn": 6,
+      "slots_def": 1,
+      "slots_flex": 2,
+      "slots_k": 1,
+      "slots_qb": 1,
+      "slots_rb": 2,
+      "slots_te": 1,
+      "slots_wr": 2,
+      "teams": 10
+    },
+    "sport": "nfl",
+    "start_time": 1727059505824,
+    "status": "complete",
+    "type": "snake"
+  }
+]

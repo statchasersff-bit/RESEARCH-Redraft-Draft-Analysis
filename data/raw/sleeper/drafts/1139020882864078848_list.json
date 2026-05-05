@@ -1,0 +1,42 @@
+[
+  {
+    "created": 1725926249973,
+    "creators": [
+      "975278334768730112"
+    ],
+    "draft_id": "1139020883806638080",
+    "draft_order": {
+      "975278334768730112": 2
+    },
+    "last_message_id": "1139678308322254848",
+    "last_message_time": 1726082992204,
+    "last_picked": 1726082991605,
+    "league_id": "1139020882864078848",
+    "metadata": {
+      "description": "",
+      "name": "Nfl Madden 25",
+      "scoring_type": "ppr"
+    },
+    "season": "2024",
+    "season_type": "regular",
+    "settings": {
+      "autostart": 0,
+      "cpu_autopick": 1,
+      "pick_timer": 120,
+      "rounds": 15,
+      "slots_bn": 5,
+      "slots_def": 1,
+      "slots_flex": 2,
+      "slots_k": 1,
+      "slots_qb": 1,
+      "slots_rb": 2,
+      "slots_te": 1,
+      "slots_wr": 2,
+      "teams": 12
+    },
+    "sport": "nfl",
+    "start_time": 1726082478925,
+    "status": "complete",
+    "type": "snake"
+  }
+]

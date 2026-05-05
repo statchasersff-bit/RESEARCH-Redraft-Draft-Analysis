@@ -1,0 +1,73 @@
+{
+  "created": 1718982857721,
+  "creators": [
+    "928702387299184640"
+  ],
+  "draft_id": "1109898185893474304",
+  "draft_order": {
+    "304621545462956032": 5,
+    "519088292400353280": 1,
+    "656576597024935936": 4,
+    "696768343499177984": 9,
+    "710332074363523072": 10,
+    "718897622533869568": 8,
+    "732276123328692224": 3,
+    "841482470410002432": 6,
+    "868360290927038464": 11,
+    "924074054150152192": 2,
+    "962806616481456128": 7,
+    "984943584413638656": 12
+  },
+  "last_message_id": "1117941454686404608",
+  "last_message_time": 1720900522446,
+  "last_picked": 1720900521834,
+  "league_id": "1109898184928780288",
+  "metadata": {
+    "description": "",
+    "name": "Sunday Ticket With The Boys",
+    "scoring_type": "ppr"
+  },
+  "season": "2024",
+  "season_type": "regular",
+  "settings": {
+    "alpha_sort": 0,
+    "autopause_enabled": 1,
+    "autopause_end_time": 660,
+    "autopause_start_time": 240,
+    "autostart": 1,
+    "cpu_autopick": 1,
+    "enforce_position_limits": 1,
+    "nomination_timer": 60,
+    "pick_timer": 28800,
+    "player_type": 0,
+    "reversal_round": 0,
+    "rounds": 17,
+    "slots_bn": 7,
+    "slots_def": 1,
+    "slots_flex": 2,
+    "slots_k": 1,
+    "slots_qb": 1,
+    "slots_rb": 2,
+    "slots_te": 1,
+    "slots_wr": 2,
+    "teams": 12
+  },
+  "slot_to_roster_id": {
+    "1": 11,
+    "2": 2,
+    "3": 5,
+    "4": 12,
+    "5": 3,
+    "6": 6,
+    "7": 10,
+    "8": 7,
+    "9": 1,
+    "10": 4,
+    "11": 9,
+    "12": 8
+  },
+  "sport": "nfl",
+  "start_time": 1719662420695,
+  "status": "complete",
+  "type": "snake"
+}

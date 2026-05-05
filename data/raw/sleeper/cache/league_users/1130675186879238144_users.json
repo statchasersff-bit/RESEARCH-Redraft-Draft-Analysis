@@ -1,0 +1,195 @@
+[
+  {
+    "avatar": "5af0433f1524e3de7166b69d8f20e07e",
+    "display_name": "vikitaru",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1130675186879238144",
+    "metadata": {
+      "allow_pn": "off",
+      "archived": "on",
+      "league_report_pn": "off",
+      "mascot_message": "off",
+      "mention_pn": "on",
+      "player_like_pn": "off",
+      "player_nickname_update": "off",
+      "team_name_update": "off",
+      "trade_block_pn": "off",
+      "transaction_commissioner": "off",
+      "transaction_free_agent": "off",
+      "transaction_trade": "on",
+      "transaction_waiver": "off",
+      "user_message_pn": "off"
+    },
+    "settings": null,
+    "user_id": "337777938567020544"
+  },
+  {
+    "avatar": "b5f980efc36001cb4e056a9e146d0ca0",
+    "display_name": "dustyjames",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1130675186879238144",
+    "metadata": {
+      "allow_pn": "on",
+      "archived": "off",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "341080946612711424"
+  },
+  {
+    "avatar": "9b726369511cf814b6efa864de5b568e",
+    "display_name": "eddieha",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1130675186879238144",
+    "metadata": {
+      "allow_pn": "on",
+      "archived": "on",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "341760440168243200"
+  },
+  {
+    "avatar": "6dcbee5f295974c3ea459f3aa1e3ba02",
+    "display_name": "SugarShane41",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1130675186879238144",
+    "metadata": {
+      "allow_pn": "on",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "466305396844261376"
+  },
+  {
+    "avatar": "6fd60418ab05bb99436e38a12cd57110",
+    "display_name": "Mateo677",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1130675186879238144",
+    "metadata": {
+      "allow_pn": "on",
+      "archived": "on",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "467173988993331200"
+  },
+  {
+    "avatar": "93bf4ccf4ee12f405f5617b95b001ab4",
+    "display_name": "JDollar22",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1130675186879238144",
+    "metadata": {
+      "allow_pn": "on",
+      "archived": "off",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "599022998053244928"
+  },
+  {
+    "avatar": "a6cdea93d461bc7aff07562bea0b892c",
+    "display_name": "TexasPlayaa",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1130675186879238144",
+    "metadata": {
+      "allow_pn": "on",
+      "archived": "on",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "654901496420335616"
+  },
+  {
+    "avatar": "b3338675f635c2c1f42b469621d38ec6",
+    "display_name": "jsl111",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1130675186879238144",
+    "metadata": {
+      "allow_pn": "on",
+      "archived": "on",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "720358814548828160"
+  },
+  {
+    "avatar": "2b721eb18188255f805533b4d8de14df",
+    "display_name": "poppechulo",
+    "is_bot": false,
+    "is_owner": true,
+    "league_id": "1130675186879238144",
+    "metadata": {
+      "allow_pn": "off",
+      "archived": "on",
+      "league_report_pn": "on",
+      "mascot_message": "off",
+      "mention_pn": "on",
+      "player_like_pn": "off",
+      "player_nickname_update": "off",
+      "team_name": "ocean’s eleven",
+      "team_name_update": "off",
+      "trade_block_pn": "on",
+      "transaction_commissioner": "on",
+      "transaction_free_agent": "on",
+      "transaction_trade": "on",
+      "transaction_waiver": "on",
+      "user_message_pn": "off"
+    },
+    "settings": null,
+    "user_id": "730233396093128704"
+  },
+  {
+    "avatar": "10570e30c8e0ebeaf5e83984652eba8b",
+    "display_name": "Vce",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1130675186879238144",
+    "metadata": {
+      "allow_pn": "on",
+      "archived": "on",
+      "avatar": "https://sleepercdn.com/uploads/6a23e7a36f686c3df704d04e5d787381.jpg",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "867871931431563264"
+  },
+  {
+    "avatar": "ab56979983965842c9ddd9ee29143ca8",
+    "display_name": "1q2w3e0p",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1130675186879238144",
+    "metadata": {
+      "allow_pn": "on",
+      "archived": "on",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "982483033641033728"
+  },
+  {
+    "avatar": "afe83e8bd3db3994096fb7dc51f623fe",
+    "display_name": "Mrbendointhis",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1130675186879238144",
+    "metadata": {
+      "allow_pn": "on",
+      "archived": "on",
+      "avatar": "https://sleepercdn.com/uploads/6605f692602177388135f93401d48c89.jpg",
+      "mention_pn": "on",
+      "team_name": "Tea Baggers "
+    },
+    "settings": null,
+    "user_id": "988657855425318912"
+  }
+]

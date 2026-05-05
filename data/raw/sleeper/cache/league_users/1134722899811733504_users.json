@@ -1,0 +1,198 @@
+[
+  {
+    "avatar": "72a019046bb92d0bc55ad24503094a03",
+    "display_name": "fabulous53",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1134722899811733504",
+    "metadata": {
+      "allow_pn": "on",
+      "league_report_pn": "on",
+      "mascot_message": "on",
+      "mention_pn": "on",
+      "player_like_pn": "on",
+      "player_nickname_update": "on",
+      "team_name": "Ill be back",
+      "team_name_update": "on",
+      "trade_block_pn": "on",
+      "transaction_commissioner": "on",
+      "transaction_free_agent": "on",
+      "transaction_trade": "on",
+      "transaction_waiver": "on",
+      "user_message_pn": "off"
+    },
+    "settings": null,
+    "user_id": "432638538618503168"
+  },
+  {
+    "avatar": "82222736aad97889aa99d5501dbfdddf",
+    "display_name": "tedisdead",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1134722899811733504",
+    "metadata": {
+      "allow_pn": "on",
+      "archived": "off",
+      "avatar": "https://sleepercdn.com/uploads/26eb89f26f83662469ea5b0290487c95.jpg",
+      "league_report_pn": "off",
+      "mascot_message": "off",
+      "mention_pn": "on",
+      "player_like_pn": "on",
+      "player_nickname_update": "off",
+      "team_name": "Zapp Brannigan!",
+      "team_name_update": "off",
+      "trade_block_pn": "on",
+      "transaction_commissioner": "on",
+      "transaction_free_agent": "on",
+      "transaction_trade": "on",
+      "transaction_waiver": "on",
+      "user_message_pn": "on"
+    },
+    "settings": null,
+    "user_id": "464922722003054592"
+  },
+  {
+    "avatar": "8eb8f8bf999945d523f2c4033f70473e",
+    "display_name": "RipHussle",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1134722899811733504",
+    "metadata": {
+      "allow_pn": "on",
+      "archived": "off",
+      "avatar": "https://sleepercdn.com/uploads/2c04a379f381cb61c1c05fb5441bc9a9.jpg",
+      "mention_pn": "on",
+      "team_name": "HennyGivenSunday"
+    },
+    "settings": null,
+    "user_id": "735947604340387840"
+  },
+  {
+    "avatar": "375cf2d49a064bd05615580b10709783",
+    "display_name": "chickenman50",
+    "is_bot": false,
+    "is_owner": true,
+    "league_id": "1134722899811733504",
+    "metadata": {
+      "allow_pn": "on",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "758103603457523712"
+  },
+  {
+    "avatar": "31c6331901f7610e019653241d6d5cc9",
+    "display_name": "jcal3",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1134722899811733504",
+    "metadata": {
+      "allow_pn": "on",
+      "allow_sms": "off",
+      "archived": "off",
+      "avatar": "https://sleepercdn.com/uploads/3c1b86037c3dc5434581beea5029374e.jpg",
+      "mention_pn": "on",
+      "team_name": "Nico Suave"
+    },
+    "settings": null,
+    "user_id": "946319440260472832"
+  },
+  {
+    "avatar": "b3338675f635c2c1f42b469621d38ec6",
+    "display_name": "ShawnO88",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1134722899811733504",
+    "metadata": {
+      "allow_pn": "on",
+      "archived": "off",
+      "avatar": "https://sleepercdn.com/images/v3/avatars/avatar_default_aqua.webp",
+      "mention_pn": "on",
+      "team_name": "Joe Burrrrrr"
+    },
+    "settings": null,
+    "user_id": "1035206101970567168"
+  },
+  {
+    "avatar": "b255afd60bff94bce12b8da94290a7ff",
+    "display_name": "ChristianDani6",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1134722899811733504",
+    "metadata": {
+      "allow_pn": "on",
+      "allow_sms": "on",
+      "archived": "off",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "1087502804492636160"
+  },
+  {
+    "avatar": "82aec8e811b839b8ec25d7b458afd57b",
+    "display_name": "UnderBolted",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1134722899811733504",
+    "metadata": {
+      "allow_pn": "on",
+      "allow_sms": "on",
+      "archived": "on",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "1131743016353554432"
+  },
+  {
+    "avatar": "e7af4deab0289b4f5505646424895246",
+    "display_name": "brianb850",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1134722899811733504",
+    "metadata": {
+      "allow_pn": "off",
+      "allow_sms": "on",
+      "avatar": "https://sleepercdn.com/uploads/b2f7b0fa588f10fa12147e2d79493720.jpg",
+      "league_report_pn": "on",
+      "mascot_message": "on",
+      "mention_pn": "on",
+      "player_like_pn": "on",
+      "player_nickname_update": "on",
+      "team_name": "Go Steelers #7",
+      "team_name_update": "on",
+      "trade_block_pn": "on",
+      "transaction_commissioner": "on",
+      "transaction_free_agent": "on",
+      "transaction_trade": "on",
+      "transaction_waiver": "on",
+      "user_message_pn": "on"
+    },
+    "settings": null,
+    "user_id": "1133095126429102080"
+  },
+  {
+    "avatar": "82aec8e811b839b8ec25d7b458afd57b",
+    "display_name": "Jellis12",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1134722899811733504",
+    "metadata": {
+      "allow_pn": "off",
+      "allow_sms": "on",
+      "league_report_pn": "on",
+      "mascot_message": "on",
+      "mention_pn": "on",
+      "player_like_pn": "on",
+      "player_nickname_update": "on",
+      "team_name_update": "on",
+      "trade_block_pn": "on",
+      "transaction_commissioner": "on",
+      "transaction_free_agent": "on",
+      "transaction_trade": "on",
+      "transaction_waiver": "on",
+      "user_message_pn": "on"
+    },
+    "settings": null,
+    "user_id": "1135009734505123840"
+  }
+]

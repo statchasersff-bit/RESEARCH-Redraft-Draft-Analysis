@@ -1,0 +1,193 @@
+[
+  {
+    "avatar": "42e5020c7694a711a0c279ac61ee40dd",
+    "display_name": "ryleyalex",
+    "is_bot": false,
+    "is_owner": false,
+    "league_id": "1097171989971791872",
+    "metadata": {
+      "allow_pn": "on",
+      "archived": "off",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "559585232929886208"
+  },
+  {
+    "avatar": "71fdc5e56cdf1fd90f62ac8bfe8fbb7c",
+    "display_name": "SmashW24",
+    "is_bot": false,
+    "is_owner": false,
+    "league_id": "1097171989971791872",
+    "metadata": {
+      "allow_pn": "on",
+      "archived": "off",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "725899330132758528"
+  },
+  {
+    "avatar": "af35129104275ec48fefe2a1d01466fb",
+    "display_name": "alligarbage",
+    "is_bot": false,
+    "is_owner": false,
+    "league_id": "1097171989971791872",
+    "metadata": {
+      "allow_pn": "off",
+      "allow_sms": "on",
+      "archived": "on",
+      "league_report_pn": "on",
+      "mascot_message": "on",
+      "mention_pn": "on",
+      "player_like_pn": "on",
+      "player_nickname_update": "on",
+      "team_name": "OUT",
+      "team_name_update": "on",
+      "trade_block_pn": "on",
+      "transaction_commissioner": "on",
+      "transaction_free_agent": "on",
+      "transaction_trade": "on",
+      "transaction_waiver": "on",
+      "user_message_pn": "on"
+    },
+    "settings": null,
+    "user_id": "746508365118701568"
+  },
+  {
+    "avatar": "8cc4e6cc580d29ec6f73a15db24add36",
+    "display_name": "beccaebersol",
+    "is_bot": false,
+    "is_owner": true,
+    "league_id": "1097171989971791872",
+    "metadata": {
+      "allow_pn": "on",
+      "archived": "off",
+      "league_report_pn": "on",
+      "mascot_message": "on",
+      "mention_pn": "on",
+      "player_like_pn": "on",
+      "player_nickname_update": "on",
+      "team_name": "Brown Eyed Girl",
+      "team_name_update": "on",
+      "trade_block_pn": "on",
+      "transaction_commissioner": "on",
+      "transaction_free_agent": "on",
+      "transaction_trade": "on",
+      "transaction_waiver": "on",
+      "user_message_pn": "on"
+    },
+    "settings": null,
+    "user_id": "842833462124744704"
+  },
+  {
+    "avatar": "9139bd3d074a509e36f80af63406a9d9",
+    "display_name": "ellzbellz28",
+    "is_bot": false,
+    "is_owner": false,
+    "league_id": "1097171989971791872",
+    "metadata": {
+      "allow_pn": "on",
+      "archived": "off",
+      "mention_pn": "on",
+      "team_name": "aPukalypse Now"
+    },
+    "settings": null,
+    "user_id": "870738261155500032"
+  },
+  {
+    "avatar": "c138a0814a87881ddd1a93baa1a4793e",
+    "display_name": "DreamReaper",
+    "is_bot": false,
+    "is_owner": false,
+    "league_id": "1097171989971791872",
+    "metadata": {
+      "allow_pn": "off",
+      "archived": "off",
+      "league_report_pn": "off",
+      "mascot_message": "on",
+      "mention_pn": "on",
+      "player_like_pn": "off",
+      "player_nickname_update": "off",
+      "team_name_update": "on",
+      "trade_block_pn": "off",
+      "transaction_commissioner": "off",
+      "transaction_free_agent": "off",
+      "transaction_trade": "off",
+      "transaction_waiver": "off",
+      "user_message_pn": "off"
+    },
+    "settings": null,
+    "user_id": "959538577422012416"
+  },
+  {
+    "avatar": "412e4ba70229fd9c095369f5cdf85dd8",
+    "display_name": "JennAy01",
+    "is_bot": false,
+    "is_owner": true,
+    "league_id": "1097171989971791872",
+    "metadata": {
+      "allow_pn": "on",
+      "archived": "on",
+      "league_report_pn": "off",
+      "mascot_message": "on",
+      "mention_pn": "on",
+      "player_like_pn": "on",
+      "player_nickname_update": "on",
+      "team_name": "Run CMC ",
+      "team_name_update": "on",
+      "trade_block_pn": "on",
+      "transaction_commissioner": "on",
+      "transaction_free_agent": "on",
+      "transaction_trade": "on",
+      "transaction_waiver": "on",
+      "user_message_pn": "on"
+    },
+    "settings": null,
+    "user_id": "959585898750865408"
+  },
+  {
+    "avatar": "a951530a2af181708d374a39c56df48f",
+    "display_name": "alanaupnorth",
+    "is_bot": false,
+    "is_owner": false,
+    "league_id": "1097171989971791872",
+    "metadata": {
+      "allow_pn": "on",
+      "archived": "on",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "959829032365764608"
+  },
+  {
+    "avatar": "7a83a718b68dd5e0b9a7535335439df7",
+    "display_name": "bewheelk",
+    "is_bot": false,
+    "is_owner": true,
+    "league_id": "1097171989971791872",
+    "metadata": {
+      "allow_pn": "on",
+      "archived": "on",
+      "mention_pn": "on",
+      "team_name": "Fergalicious Time "
+    },
+    "settings": null,
+    "user_id": "998351532166918144"
+  },
+  {
+    "avatar": "1a8b6b689902119f932349e0317d2943",
+    "display_name": "OhSheriBayBay",
+    "is_bot": false,
+    "is_owner": false,
+    "league_id": "1097171989971791872",
+    "metadata": {
+      "allow_pn": "on",
+      "archived": "off",
+      "avatar": "https://sleepercdn.com/images/v3/avatars/avatar_default_pink.webp",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "1050587737226592256"
+  }
+]

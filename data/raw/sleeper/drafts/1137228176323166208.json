@@ -1,0 +1,73 @@
+{
+  "created": 1725498835205,
+  "creators": [
+    "737131132008665088"
+  ],
+  "draft_id": "1137228176323166208",
+  "draft_order": {
+    "1021915868869595136": 11,
+    "1123615717393272832": 10,
+    "1137533154338168832": 6,
+    "1138345316727590912": 8,
+    "483159398663843840": 3,
+    "737131132008665088": 4,
+    "849096851264229376": 5,
+    "863197038878281728": 9,
+    "872583707880550400": 2,
+    "982704593656254464": 7,
+    "993347551120203776": 12,
+    "997724095267540992": 1
+  },
+  "last_message_id": "1138540550037413888",
+  "last_message_time": 1725811729490,
+  "last_picked": 1725811708559,
+  "league_id": "1137228175102660608",
+  "metadata": {
+    "description": "",
+    "name": "$50• NEED 1 MORE 2 DRAFT! 9/8",
+    "scoring_type": "ppr"
+  },
+  "season": "2024",
+  "season_type": "regular",
+  "settings": {
+    "alpha_sort": 0,
+    "autopause_enabled": 0,
+    "autopause_end_time": 840,
+    "autopause_start_time": 120,
+    "autostart": 1,
+    "cpu_autopick": 1,
+    "enforce_position_limits": 1,
+    "nomination_timer": 60,
+    "pick_timer": 60,
+    "player_type": 0,
+    "reversal_round": 0,
+    "rounds": 15,
+    "slots_bn": 6,
+    "slots_def": 1,
+    "slots_flex": 2,
+    "slots_k": 1,
+    "slots_qb": 1,
+    "slots_rb": 2,
+    "slots_te": 1,
+    "slots_wr": 2,
+    "teams": 12
+  },
+  "slot_to_roster_id": {
+    "1": 10,
+    "2": 3,
+    "3": 2,
+    "4": 1,
+    "5": 7,
+    "6": 9,
+    "7": 11,
+    "8": 8,
+    "9": 4,
+    "10": 5,
+    "11": 6,
+    "12": 12
+  },
+  "sport": "nfl",
+  "start_time": 1725807657401,
+  "status": "complete",
+  "type": "snake"
+}

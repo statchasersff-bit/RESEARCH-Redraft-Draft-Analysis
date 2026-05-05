@@ -1,0 +1,191 @@
+[
+  {
+    "avatar": "82216ddbeaa8049884a4423ef6ac5a25",
+    "display_name": "Mex13",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1136804438749908992",
+    "metadata": {
+      "allow_pn": "on",
+      "archived": "on",
+      "mention_pn": "on",
+      "team_name": "Kareem Olave Myself 💦"
+    },
+    "settings": null,
+    "user_id": "341766306774650880"
+  },
+  {
+    "avatar": "48b7fe829c8d92da8812f74d1e2806e9",
+    "display_name": "MrMeatballs",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1136804438749908992",
+    "metadata": {
+      "allow_pn": "on",
+      "allow_sms": "off",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "342403982624473088"
+  },
+  {
+    "avatar": "eeb56fba97620d2b148a7aaca3e47327",
+    "display_name": "mvpsk",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1136804438749908992",
+    "metadata": {
+      "allow_pn": "on",
+      "archived": "on",
+      "avatar": "https://sleepercdn.com/uploads/50d0fb535e1a0467eaa4cc7bb1955d1b.jpg",
+      "mention_pn": "on",
+      "team_name": "Chase Jam"
+    },
+    "settings": null,
+    "user_id": "726558667297595392"
+  },
+  {
+    "avatar": "4dc5aaf133341d263275cc62d1d0674d",
+    "display_name": "ChiefShek93",
+    "is_bot": false,
+    "is_owner": true,
+    "league_id": "1136804438749908992",
+    "metadata": {
+      "allow_pn": "on",
+      "mention_pn": "on",
+      "team_name": "Saquonda Forever"
+    },
+    "settings": null,
+    "user_id": "730840329464434688"
+  },
+  {
+    "avatar": null,
+    "display_name": "BroAmbro",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1136804438749908992",
+    "metadata": {
+      "allow_pn": "on",
+      "archived": "on",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "741205875431190528"
+  },
+  {
+    "avatar": "8a378d49c6b3b5b2999585e975d2a4ce",
+    "display_name": "mtsadyk1",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1136804438749908992",
+    "metadata": {
+      "allow_pn": "off",
+      "allow_sms": "on",
+      "archived": "on",
+      "avatar": "https://sleepercdn.com/uploads/b8dc235634a6a36c8c9e4aabfd3c13ee.jpg",
+      "league_report_pn": "off",
+      "mascot_message": "off",
+      "mention_pn": "off",
+      "player_like_pn": "off",
+      "player_nickname_update": "off",
+      "team_name": "Harrison Butkers Kitchen",
+      "team_name_update": "off",
+      "trade_block_pn": "off",
+      "transaction_commissioner": "off",
+      "transaction_free_agent": "off",
+      "transaction_trade": "off",
+      "transaction_waiver": "off",
+      "user_message_pn": "off"
+    },
+    "settings": null,
+    "user_id": "968362946197778432"
+  },
+  {
+    "avatar": "5e5408211a58327be6d7a28a4a89a6dc",
+    "display_name": "Ceeminator",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1136804438749908992",
+    "metadata": {
+      "allow_pn": "on",
+      "allow_sms": "on",
+      "avatar": "https://sleepercdn.com/uploads/fde452c0bea401326f60d5687ff04d53.jpg",
+      "mention_pn": "on",
+      "team_name": "Doggystyle"
+    },
+    "settings": null,
+    "user_id": "1019860197365846016"
+  },
+  {
+    "avatar": "1cb29851e97380e12fa2fcd1142d202b",
+    "display_name": "sloozyj",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1136804438749908992",
+    "metadata": {
+      "allow_pn": "on",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "1051986956952952832"
+  },
+  {
+    "avatar": "b3338675f635c2c1f42b469621d38ec6",
+    "display_name": "yio77",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1136804438749908992",
+    "metadata": {
+      "allow_pn": "on",
+      "allow_sms": "on",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "1123895054659170304"
+  },
+  {
+    "avatar": "8eb8f8bf999945d523f2c4033f70473e",
+    "display_name": "TheRyanLeafDiscount",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1136804438749908992",
+    "metadata": {
+      "allow_pn": "on",
+      "avatar": "https://sleepercdn.com/uploads/18a35be5e2b89303414af383eb92008d.jpg",
+      "mention_pn": "on",
+      "team_name": "Waddle Waddle"
+    },
+    "settings": null,
+    "user_id": "1131385649304743936"
+  },
+  {
+    "avatar": "f0edbf4278f53f9425db175073df6584",
+    "display_name": "DEA335",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1136804438749908992",
+    "metadata": {
+      "allow_pn": "on",
+      "archived": "on",
+      "mention_pn": "on",
+      "team_name": "Paging Dr. Breece "
+    },
+    "settings": null,
+    "user_id": "1131998088077606912"
+  },
+  {
+    "avatar": "b319fdf8b7b5b0359d3c78622ba4d70c",
+    "display_name": "tlfresh3",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1136804438749908992",
+    "metadata": {
+      "allow_pn": "on",
+      "archived": "on",
+      "mention_pn": "on",
+      "team_name": "Amon a boat"
+    },
+    "settings": null,
+    "user_id": "1134376616848732160"
+  }
+]

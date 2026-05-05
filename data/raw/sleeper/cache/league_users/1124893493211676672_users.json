@@ -1,0 +1,179 @@
+[
+  {
+    "avatar": "b84d560a093e8732a51463235d47ba27",
+    "display_name": "herbsandspices",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1124893493211676672",
+    "metadata": {
+      "allow_pn": "on",
+      "archived": "on",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "341513508317331456"
+  },
+  {
+    "avatar": "19f07df77d9461bf0bda5d5700051d89",
+    "display_name": "brokebackcowboys",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1124893493211676672",
+    "metadata": {
+      "allow_pn": "on",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "474846617447428096"
+  },
+  {
+    "avatar": "0a58afd6aaea6a082231498e0328de2b",
+    "display_name": "alipp",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1124893493211676672",
+    "metadata": {
+      "allow_pn": "on",
+      "archived": "on",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "644592945617551360"
+  },
+  {
+    "avatar": "5c5331a9f5c02807df251d8380a38f09",
+    "display_name": "Fantasywiz1200",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1124893493211676672",
+    "metadata": {
+      "allow_pn": "on",
+      "archived": "on",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "710332074363523072"
+  },
+  {
+    "avatar": "3e98f56c666f6c34e6fe8557442dd20a",
+    "display_name": "Diabeto69",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1124893493211676672",
+    "metadata": {
+      "allow_pn": "on",
+      "archived": "off",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "740825013908824064"
+  },
+  {
+    "avatar": "42dc07ea07c1c494073f7ac1946af7fb",
+    "display_name": "kitSingh",
+    "is_bot": false,
+    "is_owner": true,
+    "league_id": "1124893493211676672",
+    "metadata": {
+      "allow_pn": "on",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "831349156512641024"
+  },
+  {
+    "avatar": "5d4af6557460492e943e3b8c77b2fb29",
+    "display_name": "DarthSebas",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1124893493211676672",
+    "metadata": {
+      "allow_pn": "on",
+      "archived": "on",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "837409933170442240"
+  },
+  {
+    "avatar": "4f4090e5e9c3941414db40a871e3e909",
+    "display_name": "takingallfades",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1124893493211676672",
+    "metadata": {
+      "allow_pn": "on",
+      "archived": "on",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "860343609650688000"
+  },
+  {
+    "avatar": "ebd5fdfbe904740d21e9501f0ace6503",
+    "display_name": "Gingerch3f",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1124893493211676672",
+    "metadata": {
+      "allow_pn": "on",
+      "archived": "on",
+      "mention_pn": "on",
+      "team_name": "Mordor's Marauders"
+    },
+    "settings": null,
+    "user_id": "866423147728138240"
+  },
+  {
+    "avatar": "e7af4deab0289b4f5505646424895246",
+    "display_name": "cmoney3379",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1124893493211676672",
+    "metadata": {
+      "allow_pn": "on",
+      "allow_sms": "on",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "884474865242300416"
+  },
+  {
+    "avatar": "82d05285881e4facc2a81cbacd60d77f",
+    "display_name": "The1PirateKing",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1124893493211676672",
+    "metadata": {
+      "allow_pn": "on",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "996606535948214272"
+  },
+  {
+    "avatar": "06db5e2a5f88e2a7d844affafa5b537f",
+    "display_name": "ILackLs",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1124893493211676672",
+    "metadata": {
+      "allow_pn": "off",
+      "archived": "on",
+      "league_report_pn": "off",
+      "mascot_message": "off",
+      "mention_pn": "on",
+      "player_like_pn": "off",
+      "player_nickname_update": "off",
+      "team_name_update": "off",
+      "trade_block_pn": "off",
+      "transaction_commissioner": "on",
+      "transaction_free_agent": "off",
+      "transaction_trade": "off",
+      "transaction_waiver": "off",
+      "user_message_pn": "off"
+    },
+    "settings": null,
+    "user_id": "1002668797582475264"
+  }
+]

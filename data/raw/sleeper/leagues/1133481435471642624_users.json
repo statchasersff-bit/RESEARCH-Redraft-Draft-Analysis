@@ -1,0 +1,197 @@
+[
+  {
+    "avatar": "nfl_det",
+    "display_name": "greekdawg",
+    "is_bot": null,
+    "is_owner": null,
+    "league_id": "1133481435471642624",
+    "metadata": {
+      "allow_pn": "on",
+      "archived": "on",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "100908832284622848"
+  },
+  {
+    "avatar": "bdc01f9ac17df79ad46720f01dd44824",
+    "display_name": "MrRD",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1133481435471642624",
+    "metadata": {
+      "allow_pn": "on",
+      "archived": "on",
+      "mention_pn": "on",
+      "team_name": "69 God"
+    },
+    "settings": null,
+    "user_id": "450350658365681664"
+  },
+  {
+    "avatar": "d2c3beed32667154102329cf1bc138ae",
+    "display_name": "OrangeCrush8442",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1133481435471642624",
+    "metadata": {
+      "allow_pn": "on",
+      "archived": "on",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "463508887727763456"
+  },
+  {
+    "avatar": "8493adde49ffc2ebee8d8f90d077f088",
+    "display_name": "ismellcap1",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1133481435471642624",
+    "metadata": {
+      "allow_pn": "on",
+      "archived": "on",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "475061788832952320"
+  },
+  {
+    "avatar": "793bd4728c80d3b2024116b162737b7d",
+    "display_name": "Belltoadcrazy",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1133481435471642624",
+    "metadata": {
+      "allow_pn": "on",
+      "archived": "on",
+      "league_report_pn": "off",
+      "mascot_message": "on",
+      "mention_pn": "on",
+      "player_like_pn": "on",
+      "player_nickname_update": "on",
+      "team_name_update": "on",
+      "trade_block_pn": "on",
+      "transaction_commissioner": "on",
+      "transaction_free_agent": "off",
+      "transaction_trade": "on",
+      "transaction_waiver": "off",
+      "user_message_pn": "on"
+    },
+    "settings": null,
+    "user_id": "491605601248342016"
+  },
+  {
+    "avatar": "3f5b9b9b6d62c3a0289703f49f1d9e4e",
+    "display_name": "MileHighMoney",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1133481435471642624",
+    "metadata": {
+      "allow_pn": "on",
+      "archived": "on",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "591066536618270720"
+  },
+  {
+    "avatar": "95f733f7e9cf81967596cdaa36e94f10",
+    "display_name": "El1gato1malo",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1133481435471642624",
+    "metadata": {
+      "allow_pn": "on",
+      "archived": "on",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "715894093032550400"
+  },
+  {
+    "avatar": "00dde01c84a96f750d46b6cc51ec540d",
+    "display_name": "WinnerCircle13",
+    "is_bot": false,
+    "is_owner": true,
+    "league_id": "1133481435471642624",
+    "metadata": {
+      "allow_pn": "on",
+      "archived": "on",
+      "avatar": "https://sleepercdn.com/uploads/21c201c8150bead9b00e4f3511208b79.jpg",
+      "mention_pn": "on",
+      "team_name": "Van Jalen"
+    },
+    "settings": null,
+    "user_id": "732004539489714176"
+  },
+  {
+    "avatar": "fb43c1e0674298186d35fd12f1bb64aa",
+    "display_name": "Wormenator",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1133481435471642624",
+    "metadata": {
+      "allow_pn": "on",
+      "archived": "on",
+      "league_report_pn": "on",
+      "mascot_message": "off",
+      "mention_pn": "on",
+      "player_like_pn": "on",
+      "player_nickname_update": "off",
+      "team_name_update": "off",
+      "trade_block_pn": "on",
+      "transaction_commissioner": "on",
+      "transaction_free_agent": "off",
+      "transaction_trade": "on",
+      "transaction_waiver": "on",
+      "user_message_pn": "on"
+    },
+    "settings": null,
+    "user_id": "854041904629805056"
+  },
+  {
+    "avatar": "352ad83223385173aaf9693bdee027fe",
+    "display_name": "jalenharrison23",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1133481435471642624",
+    "metadata": {
+      "allow_pn": "on",
+      "archived": "on",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "869682161274490880"
+  },
+  {
+    "avatar": "72f2f48d323a738cd78651d537e8f953",
+    "display_name": "DillWalsh",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1133481435471642624",
+    "metadata": {
+      "allow_pn": "on",
+      "archived": "on",
+      "avatar": "https://sleepercdn.com/uploads/836ef373c8e4332c905f933850d8eed0",
+      "mention_pn": "on",
+      "team_name": "LinKincaid Park"
+    },
+    "settings": null,
+    "user_id": "870075438138097664"
+  },
+  {
+    "avatar": "c71e95895a47e8e0f9b21f0faa9a3346",
+    "display_name": "Takadanobaba",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1133481435471642624",
+    "metadata": {
+      "allow_pn": "on",
+      "archived": "on",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "997001957258612736"
+  }
+]

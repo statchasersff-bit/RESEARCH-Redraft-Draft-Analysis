@@ -1,0 +1,73 @@
+[
+  {
+    "created": 1730168146165,
+    "creators": [
+      "496322599559622656",
+      "1009974433227939840"
+    ],
+    "draft_id": "1156812685997457408",
+    "draft_order": {
+      "1001319531215765504": 8,
+      "1009974433227939840": 2,
+      "1064668485038567424": 3,
+      "1133938442456453120": 7,
+      "1137242993162932224": 1,
+      "1151512718441136128": 6,
+      "1151945562519138304": 4,
+      "496322599559622656": 10,
+      "854785777429753856": 9,
+      "872632159645786112": 5
+    },
+    "last_message_id": "1158294057081401344",
+    "last_message_time": 1730521332577,
+    "last_picked": 1730521315014,
+    "league_id": "1156812684756733952",
+    "metadata": {
+      "description": "",
+      "highest_offer": "1",
+      "hovered_player_id": "4098",
+      "name": "$75 Auction Draft Start/Sit",
+      "nominated_player_id": "4098",
+      "nominating_slot": "9",
+      "nominating_user_id": "854785777429753856",
+      "offering_slot": "9",
+      "offering_user_id": "854785777429753856",
+      "paused_pick_timer": "8",
+      "scoring_type": "2qb"
+    },
+    "season": "2024",
+    "season_type": "regular",
+    "settings": {
+      "afk_rounds_10": 9,
+      "afk_rounds_2": 1,
+      "afk_rounds_3": 17,
+      "afk_rounds_5": 2,
+      "afk_rounds_9": 1,
+      "alpha_sort": 0,
+      "autopause_enabled": 0,
+      "autopause_end_time": 840,
+      "autopause_start_time": 120,
+      "autostart": 0,
+      "budget": 200,
+      "cpu_autopick": 1,
+      "enforce_position_limits": 1,
+      "nomination_timer": 10,
+      "pick_timer": 10,
+      "player_type": 0,
+      "reversal_round": 0,
+      "rounds": 17,
+      "slots_bn": 7,
+      "slots_flex": 3,
+      "slots_qb": 1,
+      "slots_rb": 2,
+      "slots_super_flex": 1,
+      "slots_te": 1,
+      "slots_wr": 2,
+      "teams": 10
+    },
+    "sport": "nfl",
+    "start_time": 1730512021036,
+    "status": "complete",
+    "type": "auction"
+  }
+]

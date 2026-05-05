@@ -1,0 +1,153 @@
+[
+  {
+    "avatar": "b1fa8bfa24ddd9a949bcc15b62ffaae2",
+    "display_name": "BrWnCuRsE",
+    "is_bot": null,
+    "is_owner": null,
+    "league_id": "1146847845291638784",
+    "metadata": {
+      "allow_pn": "on",
+      "archived": "on",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "86674462812291072"
+  },
+  {
+    "avatar": "db47d5f7be11ad6a9d094accc45e52b0",
+    "display_name": "Nativegamer101",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1146847845291638784",
+    "metadata": {
+      "allow_pn": "off",
+      "allow_sms": "on",
+      "league_report_pn": "on",
+      "mascot_message": "off",
+      "mention_pn": "on",
+      "player_like_pn": "on",
+      "player_nickname_update": "off",
+      "team_name_update": "off",
+      "trade_block_pn": "on",
+      "transaction_commissioner": "on",
+      "transaction_free_agent": "off",
+      "transaction_trade": "on",
+      "transaction_waiver": "on",
+      "user_message_pn": "off"
+    },
+    "settings": null,
+    "user_id": "496771686117404672"
+  },
+  {
+    "avatar": "1bf8ce9dbdda42d9d61c48776f5e0bfc",
+    "display_name": "fmn",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1146847845291638784",
+    "metadata": {
+      "allow_pn": "on",
+      "archived": "on",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "607685751630540800"
+  },
+  {
+    "avatar": "3633fda814c562708cbeffa6be43b704",
+    "display_name": "BigTopJash",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1146847845291638784",
+    "metadata": {
+      "allow_pn": "on",
+      "archived": "on",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "854602245042442240"
+  },
+  {
+    "avatar": "b319fdf8b7b5b0359d3c78622ba4d70c",
+    "display_name": "CGCGCG",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1146847845291638784",
+    "metadata": {
+      "allow_pn": "on",
+      "archived": "on",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "871169985521811456"
+  },
+  {
+    "avatar": "15d7cf259bc30eab8f6120f45f652fb6",
+    "display_name": "Jorry",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1146847845291638784",
+    "metadata": {
+      "allow_pn": "on",
+      "archived": "on",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "993580599556325376"
+  },
+  {
+    "avatar": "3a2719b647db0a1e7020e7cc29d30d5c",
+    "display_name": "amelse02",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1146847845291638784",
+    "metadata": {
+      "allow_pn": "on",
+      "allow_sms": "on",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "1006354281458442240"
+  },
+  {
+    "avatar": "4f4090e5e9c3941414db40a871e3e909",
+    "display_name": "caleb91",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1146847845291638784",
+    "metadata": {
+      "allow_pn": "on",
+      "archived": "on",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "1095529988989882368"
+  },
+  {
+    "avatar": "c7601f667f04b29a3c4324e4f2fb1865",
+    "display_name": "jzeal",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1146847845291638784",
+    "metadata": {
+      "allow_pn": "on",
+      "archived": "on",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "1144861221427187712"
+  },
+  {
+    "avatar": "f981a1f350128fc6d3149e640c90abac",
+    "display_name": "thegreekfreak31",
+    "is_bot": false,
+    "is_owner": true,
+    "league_id": "1146847845291638784",
+    "metadata": {
+      "allow_pn": "on",
+      "allow_sms": "on",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "1146583661442093056"
+  }
+]

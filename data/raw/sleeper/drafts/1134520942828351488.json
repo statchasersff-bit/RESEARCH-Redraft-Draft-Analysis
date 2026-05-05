@@ -1,0 +1,72 @@
+{
+  "created": 1724853380439,
+  "creators": [
+    "480060175525343232",
+    "744352805564882944"
+  ],
+  "draft_id": "1134520942828351488",
+  "draft_order": {
+    "447153762864197632": 4,
+    "462738206886981632": 12,
+    "480060175525343232": 3,
+    "525175614112030720": 6,
+    "575584981256433664": 2,
+    "606973937938681856": 8,
+    "695950871120420864": 11,
+    "710244279368372224": 9,
+    "744352805564882944": 10,
+    "838500591952068608": 5,
+    "849002728783982592": 1,
+    "863835203909599232": 7
+  },
+  "last_message_id": "1135445156414418944",
+  "last_message_time": 1725073730141,
+  "last_picked": 1725073729330,
+  "league_id": "1134520942031446016",
+  "metadata": {
+    "description": "",
+    "name": "Swag Daddies Club",
+    "scoring_type": "ppr"
+  },
+  "season": "2024",
+  "season_type": "regular",
+  "settings": {
+    "alpha_sort": 0,
+    "autopause_enabled": 0,
+    "autopause_end_time": 840,
+    "autopause_start_time": 120,
+    "autostart": 0,
+    "cpu_autopick": 1,
+    "enforce_position_limits": 1,
+    "nomination_timer": 60,
+    "pick_timer": 300,
+    "player_type": 0,
+    "reversal_round": 0,
+    "rounds": 15,
+    "slots_bn": 6,
+    "slots_flex": 2,
+    "slots_qb": 1,
+    "slots_rb": 2,
+    "slots_te": 1,
+    "slots_wr": 3,
+    "teams": 12
+  },
+  "slot_to_roster_id": {
+    "1": 11,
+    "2": 9,
+    "3": 2,
+    "4": 6,
+    "5": 8,
+    "6": 10,
+    "7": 12,
+    "8": 5,
+    "9": 3,
+    "10": 1,
+    "11": 4,
+    "12": 7
+  },
+  "sport": "nfl",
+  "start_time": 1725066008264,
+  "status": "complete",
+  "type": "snake"
+}

@@ -1,0 +1,58 @@
+[
+  {
+    "created": 1728347098327,
+    "creators": [
+      "1000488762083733504"
+    ],
+    "draft_id": "1149174657729126400",
+    "draft_order": {
+      "1000488762083733504": 6,
+      "1050587737226592256": 4,
+      "1133906317728600064": 3,
+      "599351185438208000": 10,
+      "739356351364534272": 1,
+      "857835167300075520": 2,
+      "958250559578906624": 5,
+      "979610977693908992": 7,
+      "982483033641033728": 8
+    },
+    "last_message_id": "1149926583264636928",
+    "last_message_time": 1728526371354,
+    "last_picked": 1728526370599,
+    "league_id": "1149174648460042240",
+    "metadata": {
+      "description": "",
+      "name": "Fantasy Foo Fighters! 🏈🤺🏆💰",
+      "scoring_type": "ppr"
+    },
+    "season": "2024",
+    "season_type": "regular",
+    "settings": {
+      "alpha_sort": 0,
+      "autopause_enabled": 0,
+      "autopause_end_time": 840,
+      "autopause_start_time": 120,
+      "autostart": 1,
+      "cpu_autopick": 1,
+      "enforce_position_limits": 1,
+      "nomination_timer": 60,
+      "pick_timer": 60,
+      "player_type": 0,
+      "reversal_round": 0,
+      "rounds": 16,
+      "slots_bn": 6,
+      "slots_def": 1,
+      "slots_flex": 2,
+      "slots_k": 1,
+      "slots_qb": 1,
+      "slots_rb": 2,
+      "slots_te": 1,
+      "slots_wr": 2,
+      "teams": 10
+    },
+    "sport": "nfl",
+    "start_time": 1728522016723,
+    "status": "complete",
+    "type": "snake"
+  }
+]

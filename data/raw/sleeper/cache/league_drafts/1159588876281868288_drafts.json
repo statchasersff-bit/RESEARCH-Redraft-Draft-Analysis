@@ -1,0 +1,52 @@
+[
+  {
+    "created": 1730830041774,
+    "creators": [
+      "871241037560123392"
+    ],
+    "draft_id": "1159588877359980544",
+    "draft_order": {
+      "1125607336720027648": 3,
+      "868224190761852928": 1,
+      "871241037560123392": 2
+    },
+    "last_message_id": "1159604768860266496",
+    "last_message_time": 1730833830612,
+    "last_picked": 1730833830340,
+    "league_id": "1159588876281868288",
+    "metadata": {
+      "description": "",
+      "name": "Join and Ill start once full",
+      "scoring_type": "ppr"
+    },
+    "season": "2024",
+    "season_type": "regular",
+    "settings": {
+      "alpha_sort": 0,
+      "autopause_enabled": 0,
+      "autopause_end_time": 960,
+      "autopause_start_time": 240,
+      "autostart": 0,
+      "cpu_autopick": 1,
+      "enforce_position_limits": 1,
+      "nomination_timer": 60,
+      "pick_timer": 30,
+      "player_type": 0,
+      "reversal_round": 0,
+      "rounds": 15,
+      "slots_bn": 5,
+      "slots_def": 1,
+      "slots_flex": 2,
+      "slots_k": 1,
+      "slots_qb": 1,
+      "slots_rb": 2,
+      "slots_te": 1,
+      "slots_wr": 2,
+      "teams": 4
+    },
+    "sport": "nfl",
+    "start_time": 1730833125072,
+    "status": "complete",
+    "type": "snake"
+  }
+]

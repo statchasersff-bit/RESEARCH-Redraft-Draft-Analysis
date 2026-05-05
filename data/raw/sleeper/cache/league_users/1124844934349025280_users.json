@@ -1,0 +1,181 @@
+[
+  {
+    "avatar": "nfl_det",
+    "display_name": "greekdawg",
+    "is_bot": null,
+    "is_owner": null,
+    "league_id": "1124844934349025280",
+    "metadata": {
+      "allow_pn": "on",
+      "archived": "on",
+      "league_report_pn": "off",
+      "mascot_message": "off",
+      "mention_pn": "on",
+      "player_like_pn": "off",
+      "player_nickname_update": "off",
+      "team_name_update": "off",
+      "trade_block_pn": "on",
+      "transaction_commissioner": "off",
+      "transaction_free_agent": "off",
+      "transaction_trade": "on",
+      "transaction_waiver": "off",
+      "user_message_pn": "on"
+    },
+    "settings": null,
+    "user_id": "100908832284622848"
+  },
+  {
+    "avatar": "45baf7ce7ed9cfd310cfc2fca07139f9",
+    "display_name": "BoDidly",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1124844934349025280",
+    "metadata": {
+      "allow_pn": "on",
+      "archived": "on",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "340593124973809664"
+  },
+  {
+    "avatar": "1a20e668b733079004df5abf33925fc7",
+    "display_name": "Belltoadcrazy",
+    "is_bot": false,
+    "is_owner": true,
+    "league_id": "1124844934349025280",
+    "metadata": {
+      "allow_pn": "on",
+      "archived": "on",
+      "league_report_pn": "off",
+      "mascot_message": "on",
+      "mention_pn": "on",
+      "player_like_pn": "on",
+      "player_nickname_update": "on",
+      "team_name_update": "on",
+      "trade_block_pn": "on",
+      "transaction_commissioner": "on",
+      "transaction_free_agent": "off",
+      "transaction_trade": "on",
+      "transaction_waiver": "off",
+      "user_message_pn": "on"
+    },
+    "settings": null,
+    "user_id": "491605601248342016"
+  },
+  {
+    "avatar": "d0e7d07b53d54e5aa298f753ad5da533",
+    "display_name": "Vater",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1124844934349025280",
+    "metadata": {
+      "allow_pn": "on",
+      "archived": "on",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "599755123371065344"
+  },
+  {
+    "avatar": "92fe305be9f90ea7c6d5c9e4e0441f54",
+    "display_name": "rick49321",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1124844934349025280",
+    "metadata": {
+      "allow_pn": "on",
+      "archived": "on",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "602206483702161408"
+  },
+  {
+    "avatar": "1424c1019f4310ef062fbd64702c32a2",
+    "display_name": "262BG",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1124844934349025280",
+    "metadata": {
+      "allow_pn": "on",
+      "archived": "on",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "728707610144047104"
+  },
+  {
+    "avatar": "5524f0be96fa97f25655415ebb14b5f9",
+    "display_name": "WhiskeyJack",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1124844934349025280",
+    "metadata": {
+      "allow_pn": "on",
+      "archived": "on",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "734767022667358208"
+  },
+  {
+    "avatar": "82aec8e811b839b8ec25d7b458afd57b",
+    "display_name": "Cnova33",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1124844934349025280",
+    "metadata": {
+      "allow_pn": "on",
+      "archived": "off",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "736610611319971840"
+  },
+  {
+    "avatar": "73bdca3eed8de44f7fb8d6808797a252",
+    "display_name": "jake1235",
+    "is_bot": false,
+    "is_owner": false,
+    "league_id": "1124844934349025280",
+    "metadata": {
+      "allow_pn": "on",
+      "archived": "on",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "739584219445153792"
+  },
+  {
+    "avatar": "97233e14b250d5a4bf1c918567d1c29d",
+    "display_name": "BigGameJames71",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1124844934349025280",
+    "metadata": {
+      "allow_pn": "on",
+      "archived": "on",
+      "mention_pn": "on",
+      "team_name": "Two Christians, One Goff"
+    },
+    "settings": null,
+    "user_id": "853529557129637888"
+  },
+  {
+    "avatar": "4d531426ebc73bf4c4a02fbb367ea225",
+    "display_name": "jimbo1964",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1124844934349025280",
+    "metadata": {
+      "allow_pn": "on",
+      "archived": "on",
+      "avatar": "https://sleepercdn.com/uploads/f3b9d39db1cef79c2b18a1a26311c270",
+      "mention_pn": "on",
+      "team_name": "Stack Attack"
+    },
+    "settings": null,
+    "user_id": "956962521917800448"
+  }
+]

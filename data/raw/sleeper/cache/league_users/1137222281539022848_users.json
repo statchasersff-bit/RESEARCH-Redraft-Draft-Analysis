@@ -1,0 +1,184 @@
+[
+  {
+    "avatar": "9e36fc6cdc85487a98c7e30fdca42613",
+    "display_name": "niklovin",
+    "is_bot": null,
+    "is_owner": null,
+    "league_id": "1137222281539022848",
+    "metadata": {
+      "allow_pn": "off",
+      "archived": "on",
+      "league_report_pn": "off",
+      "mascot_message": "off",
+      "mention_pn": "on",
+      "player_like_pn": "off",
+      "player_nickname_update": "off",
+      "team_name_update": "off",
+      "trade_block_pn": "off",
+      "transaction_commissioner": "off",
+      "transaction_free_agent": "off",
+      "transaction_trade": "on",
+      "transaction_waiver": "off",
+      "user_message_pn": "off"
+    },
+    "settings": null,
+    "user_id": "69981394738495488"
+  },
+  {
+    "avatar": "1e105f32456f4e636548f78d9e852fa0",
+    "display_name": "eskimotony",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1137222281539022848",
+    "metadata": {
+      "allow_pn": "on",
+      "archived": "on",
+      "mention_pn": "on",
+      "team_name": "❌️"
+    },
+    "settings": null,
+    "user_id": "454038690683940864"
+  },
+  {
+    "avatar": "0f9a1ee9fc41143ccd6c423605d3b218",
+    "display_name": "whaleclap",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1137222281539022848",
+    "metadata": {
+      "allow_pn": "on",
+      "archived": "on",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "466386110663094272"
+  },
+  {
+    "avatar": "49320ff30d1fc36bab26869cf6270c02",
+    "display_name": "DoubleEntAndre",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1137222281539022848",
+    "metadata": {
+      "allow_pn": "on",
+      "archived": "on",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "470362614640144384"
+  },
+  {
+    "avatar": "608075f398ac0269defee79911f6934c",
+    "display_name": "lilxackk",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1137222281539022848",
+    "metadata": {
+      "allow_pn": "on",
+      "archived": "on",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "471582170146664448"
+  },
+  {
+    "avatar": "3e98f56c666f6c34e6fe8557442dd20a",
+    "display_name": "kieren1",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1137222281539022848",
+    "metadata": {
+      "allow_pn": "on",
+      "archived": "on",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "602899836303380480"
+  },
+  {
+    "avatar": "b319fdf8b7b5b0359d3c78622ba4d70c",
+    "display_name": "tuckb7",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1137222281539022848",
+    "metadata": {
+      "allow_pn": "on",
+      "archived": "on",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "734463218805780480"
+  },
+  {
+    "avatar": "e7af4deab0289b4f5505646424895246",
+    "display_name": "jkarp17",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1137222281539022848",
+    "metadata": {
+      "allow_pn": "on",
+      "archived": "on",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "734640771923345408"
+  },
+  {
+    "avatar": "8355fddc0441c220599686fd4400a2c2",
+    "display_name": "DegenGuap",
+    "is_bot": false,
+    "is_owner": true,
+    "league_id": "1137222281539022848",
+    "metadata": {
+      "allow_pn": "on",
+      "archived": "on",
+      "mention_pn": "on",
+      "team_name": "✔️"
+    },
+    "settings": null,
+    "user_id": "971964889109467136"
+  },
+  {
+    "avatar": "8eb8f8bf999945d523f2c4033f70473e",
+    "display_name": "rorylion",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1137222281539022848",
+    "metadata": {
+      "allow_pn": "on",
+      "archived": "on",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "1000166013784694784"
+  },
+  {
+    "avatar": "de7de358d18942fcf5e7f719582ecacf",
+    "display_name": "Bucksweep",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1137222281539022848",
+    "metadata": {
+      "allow_pn": "on",
+      "allow_sms": "on",
+      "archived": "on",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "1000546995003539456"
+  },
+  {
+    "avatar": "173e3952f126008573a945ab2bc0cfd8",
+    "display_name": "Broton",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1137222281539022848",
+    "metadata": {
+      "allow_pn": "on",
+      "archived": "off",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "1135695655646924800"
+  }
+]

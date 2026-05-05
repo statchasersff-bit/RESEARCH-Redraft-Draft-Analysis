@@ -1,0 +1,160 @@
+[
+  {
+    "avatar": "2ade3b6858e37b3f22f212ff776608be",
+    "display_name": "calsmith19",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1124816877420290048",
+    "metadata": {
+      "allow_pn": "on",
+      "archived": "off",
+      "mention_pn": "on",
+      "team_name": "Loud & Stroud"
+    },
+    "settings": null,
+    "user_id": "483159398663843840"
+  },
+  {
+    "avatar": "ea2468d622d5b27a4ad2d7a4611f5f48",
+    "display_name": "DaveBrody",
+    "is_bot": false,
+    "is_owner": true,
+    "league_id": "1124816877420290048",
+    "metadata": {
+      "allow_pn": "on",
+      "allow_sms": "off",
+      "mention_pn": "on",
+      "team_name": "Kupp Jong Un"
+    },
+    "settings": null,
+    "user_id": "731417925390557184"
+  },
+  {
+    "avatar": "22beb3c0bfb23235d1cb2102f27f1e8c",
+    "display_name": "BeachBabe",
+    "is_bot": false,
+    "is_owner": false,
+    "league_id": "1124816877420290048",
+    "metadata": {
+      "allow_pn": "on",
+      "mention_pn": "on",
+      "team_name": "Arts & Krafts"
+    },
+    "settings": null,
+    "user_id": "738982895930216448"
+  },
+  {
+    "avatar": "9462e37a063e1843fe26f37fbd316075",
+    "display_name": "gtzeiter",
+    "is_bot": false,
+    "is_owner": false,
+    "league_id": "1124816877420290048",
+    "metadata": {
+      "allow_pn": "on",
+      "allow_sms": "on",
+      "avatar": "https://sleepercdn.com/uploads/945be3e15d3ff49e287b2b5cbdbf3f19.jpg",
+      "mention_pn": "on",
+      "team_name": "Turd Ferguson"
+    },
+    "settings": null,
+    "user_id": "739262596854775808"
+  },
+  {
+    "avatar": "6c00ad22bdafad8e707f3c089a13c764",
+    "display_name": "Robuu34",
+    "is_bot": false,
+    "is_owner": false,
+    "league_id": "1124816877420290048",
+    "metadata": {
+      "allow_pn": "on",
+      "mention_pn": "on",
+      "team_name": "Free the League"
+    },
+    "settings": null,
+    "user_id": "739263499452162048"
+  },
+  {
+    "avatar": "82aec8e811b839b8ec25d7b458afd57b",
+    "display_name": "itsfridaybaby",
+    "is_bot": false,
+    "is_owner": false,
+    "league_id": "1124816877420290048",
+    "metadata": {
+      "allow_pn": "on",
+      "mention_pn": "on",
+      "team_name": "God Win Hunting"
+    },
+    "settings": null,
+    "user_id": "870592364908040192"
+  },
+  {
+    "avatar": "4f4090e5e9c3941414db40a871e3e909",
+    "display_name": "Alpinestar925",
+    "is_bot": false,
+    "is_owner": false,
+    "league_id": "1124816877420290048",
+    "metadata": {
+      "allow_pn": "on",
+      "allow_sms": "on",
+      "mention_pn": "on",
+      "team_name": "Morning chubb"
+    },
+    "settings": null,
+    "user_id": "1002263399100715008"
+  },
+  {
+    "avatar": "4f4090e5e9c3941414db40a871e3e909",
+    "display_name": "mariotelli",
+    "is_bot": false,
+    "is_owner": false,
+    "league_id": "1124816877420290048",
+    "metadata": {
+      "allow_pn": "on",
+      "allow_sms": "on",
+      "mascot_message": "off",
+      "mention_pn": "on",
+      "player_like_pn": "on",
+      "player_nickname_update": "off",
+      "team_name": "LaPorta Potty",
+      "team_name_update": "off",
+      "trade_block_pn": "on",
+      "transaction_commissioner": "on",
+      "transaction_free_agent": "on",
+      "transaction_trade": "on",
+      "transaction_waiver": "on",
+      "user_message_pn": "on"
+    },
+    "settings": null,
+    "user_id": "1002409795904794624"
+  },
+  {
+    "avatar": "b3338675f635c2c1f42b469621d38ec6",
+    "display_name": "noominator",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1124816877420290048",
+    "metadata": {
+      "allow_pn": "on",
+      "allow_sms": "on",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "1135362007831928832"
+  },
+  {
+    "avatar": "b319fdf8b7b5b0359d3c78622ba4d70c",
+    "display_name": "11Essex",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1124816877420290048",
+    "metadata": {
+      "allow_pn": "on",
+      "allow_sms": "on",
+      "avatar": "https://sleepercdn.com/images/v3/avatars/avatar_default_aqua.webp",
+      "mention_pn": "on",
+      "team_name": "Drafted while Drivin "
+    },
+    "settings": null,
+    "user_id": "1135398111251365888"
+  }
+]

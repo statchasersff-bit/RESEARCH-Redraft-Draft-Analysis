@@ -1,0 +1,61 @@
+[
+  {
+    "created": 1723091175156,
+    "creators": [
+      "84302400294633472"
+    ],
+    "draft_id": "1127129718156902400",
+    "draft_order": {
+      "1127151237436186624": 8,
+      "1127415903697760256": 5,
+      "1128476373603053568": 10,
+      "1128518626983682048": 12,
+      "476840939894075392": 9,
+      "735011533767237632": 6,
+      "735376442199777280": 3,
+      "84302400294633472": 4,
+      "867877335167352832": 7,
+      "876656690584584192": 2,
+      "976542425420230656": 11,
+      "988423617237065728": 1
+    },
+    "last_message_id": "1133637372639268864",
+    "last_message_time": 1724642720902,
+    "last_picked": 1724642720322,
+    "league_id": "1127129717380882432",
+    "metadata": {
+      "description": "",
+      "name": "Fantasy Fanatics",
+      "scoring_type": "ppr"
+    },
+    "season": "2024",
+    "season_type": "regular",
+    "settings": {
+      "alpha_sort": 0,
+      "autopause_enabled": 0,
+      "autopause_end_time": 1020,
+      "autopause_start_time": 300,
+      "autostart": 0,
+      "cpu_autopick": 1,
+      "enforce_position_limits": 1,
+      "nomination_timer": 60,
+      "pick_timer": 90,
+      "player_type": 0,
+      "reversal_round": 0,
+      "rounds": 15,
+      "slots_bn": 5,
+      "slots_def": 1,
+      "slots_flex": 2,
+      "slots_k": 1,
+      "slots_qb": 1,
+      "slots_rb": 2,
+      "slots_te": 1,
+      "slots_wr": 2,
+      "teams": 12
+    },
+    "sport": "nfl",
+    "start_time": 1724637647349,
+    "status": "complete",
+    "type": "snake"
+  }
+]

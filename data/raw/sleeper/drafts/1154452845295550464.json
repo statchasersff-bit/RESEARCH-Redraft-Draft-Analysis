@@ -1,0 +1,61 @@
+{
+  "created": 1729605516300,
+  "creators": [
+    "477256723908784128"
+  ],
+  "draft_id": "1154452845295550464",
+  "draft_order": {
+    "1000166013784694784": 10,
+    "1004647605265145856": 9,
+    "477256723908784128": 6,
+    "602916397395279872": 2,
+    "738062876274778112": 1
+  },
+  "last_message_id": "1155220956340588544",
+  "last_message_time": 1729788648260,
+  "last_picked": 1729788647572,
+  "league_id": "1154452844096045056",
+  "metadata": {
+    "description": "",
+    "name": "Heads Rollin’ 5",
+    "scoring_type": "ppr"
+  },
+  "season": "2024",
+  "season_type": "regular",
+  "settings": {
+    "alpha_sort": 0,
+    "autopause_enabled": 0,
+    "autopause_end_time": 900,
+    "autopause_start_time": 180,
+    "autostart": 0,
+    "cpu_autopick": 1,
+    "nomination_timer": 60,
+    "pick_timer": 30,
+    "player_type": 0,
+    "reversal_round": 0,
+    "rounds": 14,
+    "slots_bn": 6,
+    "slots_flex": 2,
+    "slots_qb": 1,
+    "slots_rb": 2,
+    "slots_te": 1,
+    "slots_wr": 2,
+    "teams": 10
+  },
+  "slot_to_roster_id": {
+    "1": 7,
+    "2": 2,
+    "3": 5,
+    "4": 6,
+    "5": 8,
+    "6": 1,
+    "7": 9,
+    "8": 10,
+    "9": 4,
+    "10": 3
+  },
+  "sport": "nfl",
+  "start_time": 1729783155489,
+  "status": "complete",
+  "type": "snake"
+}

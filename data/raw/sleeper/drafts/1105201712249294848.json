@@ -1,0 +1,62 @@
+{
+  "created": 1717863131140,
+  "creators": [
+    "704220888010145792"
+  ],
+  "draft_id": "1105201712249294848",
+  "draft_order": {
+    "100908832284622848": 5,
+    "419633975233875968": 2,
+    "522513197997666304": 9,
+    "562961099163267072": 1,
+    "567216326543413248": 10,
+    "704220888010145792": 6,
+    "783618211471069184": 7,
+    "833045045924986880": 3,
+    "857104994640441344": 4,
+    "999483752906719232": 8
+  },
+  "last_message_id": "1118081726573469696",
+  "last_message_time": 1720933965870,
+  "last_picked": 1720933965399,
+  "league_id": "1105201709632016384",
+  "metadata": {
+    "description": "",
+    "name": "Cheech & Chong’s Fantasy Pack",
+    "scoring_type": "2qb"
+  },
+  "season": "2024",
+  "season_type": "regular",
+  "settings": {
+    "alpha_sort": 0,
+    "autostart": 0,
+    "cpu_autopick": 1,
+    "pick_timer": 120,
+    "reversal_round": 0,
+    "rounds": 18,
+    "slots_bn": 8,
+    "slots_flex": 2,
+    "slots_qb": 1,
+    "slots_rb": 2,
+    "slots_super_flex": 1,
+    "slots_te": 1,
+    "slots_wr": 3,
+    "teams": 10
+  },
+  "slot_to_roster_id": {
+    "1": 2,
+    "2": 10,
+    "3": 5,
+    "4": 8,
+    "5": 6,
+    "6": 1,
+    "7": 3,
+    "8": 9,
+    "9": 4,
+    "10": 7
+  },
+  "sport": "nfl",
+  "start_time": 1720927826298,
+  "status": "complete",
+  "type": "snake"
+}

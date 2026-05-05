@@ -1,0 +1,187 @@
+[
+  {
+    "avatar": "92fe305be9f90ea7c6d5c9e4e0441f54",
+    "display_name": "rick49321",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1146881860958715904",
+    "metadata": {
+      "allow_pn": "on",
+      "archived": "on",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "602206483702161408"
+  },
+  {
+    "avatar": "2d969c198cc88552895b18babac3c8f2",
+    "display_name": "Reger",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1146881860958715904",
+    "metadata": {
+      "allow_pn": "on",
+      "allow_sms": "on",
+      "archived": "on",
+      "avatar": "https://sleepercdn.com/uploads/e337016f236b0860e9610d50f2783256.jpg",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "606301708296978432"
+  },
+  {
+    "avatar": "2c92d01a150fa20bbc571859a4840be3",
+    "display_name": "robdogeraser",
+    "is_bot": false,
+    "is_owner": true,
+    "league_id": "1146881860958715904",
+    "metadata": {
+      "allow_pn": "on",
+      "archived": "on",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "695570010357178368"
+  },
+  {
+    "avatar": "2ad5b471bfefd719caa56d36ced54f8e",
+    "display_name": "spinjoe3",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1146881860958715904",
+    "metadata": {
+      "allow_pn": "on",
+      "archived": "on",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "711310116036644864"
+  },
+  {
+    "avatar": null,
+    "display_name": "CammyBuckets",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1146881860958715904",
+    "metadata": {
+      "allow_pn": "off",
+      "archived": "on",
+      "league_report_pn": "off",
+      "mascot_message": "off",
+      "mention_pn": "on",
+      "player_like_pn": "off",
+      "player_nickname_update": "off",
+      "team_name_update": "off",
+      "trade_block_pn": "off",
+      "transaction_commissioner": "off",
+      "transaction_free_agent": "off",
+      "transaction_trade": "off",
+      "transaction_waiver": "off",
+      "user_message_pn": "on"
+    },
+    "settings": null,
+    "user_id": "719405507307171840"
+  },
+  {
+    "avatar": "b319fdf8b7b5b0359d3c78622ba4d70c",
+    "display_name": "petecal97",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1146881860958715904",
+    "metadata": {
+      "allow_pn": "on",
+      "archived": "on",
+      "mention_pn": "on",
+      "team_name": "Jay+Joe+Jahmyr+Ja’Marr"
+    },
+    "settings": null,
+    "user_id": "736673101693202432"
+  },
+  {
+    "avatar": "e7af4deab0289b4f5505646424895246",
+    "display_name": "bagteam",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1146881860958715904",
+    "metadata": {
+      "allow_pn": "on",
+      "allow_sms": "on",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "776168115028561920"
+  },
+  {
+    "avatar": "d5af9d46c546e9baba2b1386fd845610",
+    "display_name": "Benma78",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1146881860958715904",
+    "metadata": {
+      "allow_pn": "on",
+      "archived": "on",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "794742320498061312"
+  },
+  {
+    "avatar": "155c1664d67580d26bcf37ef09959c72",
+    "display_name": "GigaPeePee",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1146881860958715904",
+    "metadata": {
+      "allow_pn": "on",
+      "archived": "on",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "1004975091907702784"
+  },
+  {
+    "avatar": "116d4a7c2c7f3bc00922639c2e38b182",
+    "display_name": "Cliffhanger12",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1146881860958715904",
+    "metadata": {
+      "allow_pn": "on",
+      "archived": "on",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "1012014255991836672"
+  },
+  {
+    "avatar": "72bb76213a06ffd4fae6a94d883dd772",
+    "display_name": "otterofempathy",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1146881860958715904",
+    "metadata": {
+      "allow_pn": "on",
+      "archived": "on",
+      "mention_pn": "on",
+      "team_name": "Otterly Decapitated"
+    },
+    "settings": null,
+    "user_id": "1037102495480680448"
+  },
+  {
+    "avatar": "cd556269978e54f66755d1cbdea427a1",
+    "display_name": "DoktorEw",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1146881860958715904",
+    "metadata": {
+      "allow_pn": "on",
+      "allow_sms": "on",
+      "avatar": "https://sleepercdn.com/uploads/8fecf2988e16a2c0c5321e0537e67724.jpg",
+      "mention_pn": "on",
+      "team_name": "Sparkle Motion"
+    },
+    "settings": null,
+    "user_id": "1088987686163087360"
+  }
+]

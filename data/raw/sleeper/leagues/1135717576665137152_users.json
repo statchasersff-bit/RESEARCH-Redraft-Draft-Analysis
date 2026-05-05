@@ -1,0 +1,201 @@
+[
+  {
+    "avatar": "88cf6688af44be9506ce3f1107f7b299",
+    "display_name": "AKosherPickle",
+    "is_bot": false,
+    "is_owner": false,
+    "league_id": "1135717576665137152",
+    "metadata": {
+      "allow_pn": "on",
+      "archived": "on",
+      "mention_pn": "on",
+      "team_name": "Diabetic Hippos - Type 2"
+    },
+    "settings": null,
+    "user_id": "471166043071442944"
+  },
+  {
+    "avatar": "35c5cd386fb450e8557b75f93fde2c01",
+    "display_name": "DiirtyBirdz17",
+    "is_bot": false,
+    "is_owner": false,
+    "league_id": "1135717576665137152",
+    "metadata": {
+      "allow_pn": "on",
+      "archived": "on",
+      "mention_pn": "on",
+      "team_name": "He Hate Me"
+    },
+    "settings": null,
+    "user_id": "474056439858458624"
+  },
+  {
+    "avatar": "6826a5c17e9f62ea91cef68483010f19",
+    "display_name": "Carlololol",
+    "is_bot": false,
+    "is_owner": false,
+    "league_id": "1135717576665137152",
+    "metadata": {
+      "allow_pn": "on",
+      "allow_sms": "on",
+      "mention_pn": "on",
+      "team_name": "Quon Solo"
+    },
+    "settings": null,
+    "user_id": "860982295975280640"
+  },
+  {
+    "avatar": "8eb8f8bf999945d523f2c4033f70473e",
+    "display_name": "Phyzekel",
+    "is_bot": false,
+    "is_owner": false,
+    "league_id": "1135717576665137152",
+    "metadata": {
+      "allow_pn": "off",
+      "archived": "on",
+      "league_report_pn": "off",
+      "mascot_message": "on",
+      "mention_pn": "on",
+      "player_like_pn": "off",
+      "player_nickname_update": "on",
+      "team_name": "Gibbs Me My Money",
+      "team_name_update": "on",
+      "trade_block_pn": "off",
+      "transaction_commissioner": "on",
+      "transaction_free_agent": "off",
+      "transaction_trade": "off",
+      "transaction_waiver": "on",
+      "user_message_pn": "off"
+    },
+    "settings": null,
+    "user_id": "863118548464152576"
+  },
+  {
+    "avatar": "e7af4deab0289b4f5505646424895246",
+    "display_name": "Tdizell15",
+    "is_bot": false,
+    "is_owner": false,
+    "league_id": "1135717576665137152",
+    "metadata": {
+      "allow_pn": "on",
+      "archived": "on",
+      "mention_pn": "on",
+      "team_name": "Olave Garden "
+    },
+    "settings": null,
+    "user_id": "863859545397637120"
+  },
+  {
+    "avatar": "cf3b42d38ddd7fa98489fcb9a78049d9",
+    "display_name": "SamPW",
+    "is_bot": false,
+    "is_owner": false,
+    "league_id": "1135717576665137152",
+    "metadata": {
+      "allow_pn": "on",
+      "avatar": "https://sleepercdn.com/uploads/df2f94c7c81fa10a9f12b4d70b55fe70.jpg",
+      "mention_pn": "on",
+      "team_name": "White is coming"
+    },
+    "settings": null,
+    "user_id": "868930899012694016"
+  },
+  {
+    "avatar": "f08c083928104a10f1af087581096e6d",
+    "display_name": "AlMoney",
+    "is_bot": false,
+    "is_owner": false,
+    "league_id": "1135717576665137152",
+    "metadata": {
+      "allow_pn": "on",
+      "archived": "on",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "871048278932926464"
+  },
+  {
+    "avatar": "616ac916434ff2a241ccda7e47b2ea4b",
+    "display_name": "NeoMiami33",
+    "is_bot": false,
+    "is_owner": false,
+    "league_id": "1135717576665137152",
+    "metadata": {
+      "allow_pn": "on",
+      "allow_sms": "on",
+      "archived": "on",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "999004652815409152"
+  },
+  {
+    "avatar": "522cfe8ca8a0722a526cdbfc03994b4a",
+    "display_name": "Moankey",
+    "is_bot": false,
+    "is_owner": true,
+    "league_id": "1135717576665137152",
+    "metadata": {
+      "allow_pn": "on",
+      "avatar": "https://sleepercdn.com/uploads/ff454a00bbe82029588ecf23aa8277f2.jpg",
+      "mention_pn": "on",
+      "team_name": "All men must Hurts"
+    },
+    "settings": null,
+    "user_id": "1002318762885869568"
+  },
+  {
+    "avatar": "4f4090e5e9c3941414db40a871e3e909",
+    "display_name": "ckoronich",
+    "is_bot": false,
+    "is_owner": false,
+    "league_id": "1135717576665137152",
+    "metadata": {
+      "allow_pn": "on",
+      "allow_sms": "on",
+      "archived": "on",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "1008299256538648576"
+  },
+  {
+    "avatar": "2ccb762c34b6aa3aba28134c0b407597",
+    "display_name": "FLDirtyBird",
+    "is_bot": false,
+    "is_owner": false,
+    "league_id": "1135717576665137152",
+    "metadata": {
+      "allow_pn": "on",
+      "archived": "on",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "1134675122637414400"
+  },
+  {
+    "avatar": "191f5f43d4cfce721b9c484948334cca",
+    "display_name": "NoExpNecessary",
+    "is_bot": false,
+    "is_owner": false,
+    "league_id": "1135717576665137152",
+    "metadata": {
+      "allow_pn": "off",
+      "league_report_pn": "off",
+      "mascot_message": "on",
+      "mention_pn": "on",
+      "player_like_pn": "on",
+      "player_nickname_update": "off",
+      "team_name": "No Exp Necessary ",
+      "team_name_update": "off",
+      "trade_block_pn": "off",
+      "transaction_commissioner": "off",
+      "transaction_free_agent": "off",
+      "transaction_trade": "off",
+      "transaction_waiver": "off",
+      "user_message_pn": "off"
+    },
+    "settings": null,
+    "user_id": "1135750685502443520"
+  }
+]

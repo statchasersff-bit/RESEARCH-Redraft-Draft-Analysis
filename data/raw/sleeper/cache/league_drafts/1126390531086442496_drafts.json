@@ -1,0 +1,65 @@
+[
+  {
+    "created": 1722914939428,
+    "creators": [
+      "959585898750865408"
+    ],
+    "draft_id": "1126390531958886400",
+    "draft_order": {
+      "1050095156424228864": 2,
+      "343885299677511680": 6,
+      "729985061411241984": 4,
+      "730139208932536320": 1,
+      "869685603401416704": 8,
+      "959585898750865408": 10,
+      "985676748660523008": 3,
+      "990335576773636096": 7,
+      "993946303715471360": 9,
+      "994851763993853952": 5
+    },
+    "last_message_id": "1131812971887542272",
+    "last_message_time": 1724207749867,
+    "last_picked": 1724207716317,
+    "league_id": "1126390531086442496",
+    "metadata": {
+      "description": "",
+      "name": "WOFF High Rollers",
+      "scoring_type": "ppr"
+    },
+    "season": "2024",
+    "season_type": "regular",
+    "settings": {
+      "alpha_sort": 0,
+      "autopause_enabled": 0,
+      "autopause_end_time": 900,
+      "autopause_start_time": 180,
+      "autostart": 0,
+      "cpu_autopick": 1,
+      "enforce_position_limits": 1,
+      "nomination_timer": 60,
+      "pick_timer": 120,
+      "player_type": 0,
+      "position_limit_def": 2,
+      "position_limit_k": 2,
+      "position_limit_qb": 3,
+      "position_limit_rb": 7,
+      "position_limit_te": 3,
+      "position_limit_wr": 7,
+      "reversal_round": 0,
+      "rounds": 20,
+      "slots_bn": 10,
+      "slots_def": 1,
+      "slots_flex": 2,
+      "slots_k": 1,
+      "slots_qb": 1,
+      "slots_rb": 2,
+      "slots_te": 1,
+      "slots_wr": 2,
+      "teams": 10
+    },
+    "sport": "nfl",
+    "start_time": 1724202323463,
+    "status": "complete",
+    "type": "snake"
+  }
+]

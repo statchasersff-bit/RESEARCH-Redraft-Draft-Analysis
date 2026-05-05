@@ -1,0 +1,251 @@
+[
+  {
+    "avatar": "4d0ff328edb93f9530f3c12ea4a255ad",
+    "display_name": "drewxblood",
+    "is_bot": null,
+    "is_owner": false,
+    "league_id": "1121588900209782784",
+    "metadata": {
+      "allow_pn": "on",
+      "avatar": "https://sleepercdn.com/uploads/426feebbe544478a3e571fe723296722.jpg",
+      "mention_pn": "on",
+      "team_name": "Stroud of Turin"
+    },
+    "settings": null,
+    "user_id": "79290605708394496"
+  },
+  {
+    "avatar": "2b9dc1b5efc94643333b872f442a07e7",
+    "display_name": "eddieha",
+    "is_bot": false,
+    "is_owner": false,
+    "league_id": "1121588900209782784",
+    "metadata": {
+      "allow_pn": "on",
+      "allow_sms": "on",
+      "archived": "off",
+      "league_report_pn": "on",
+      "mascot_message": "on",
+      "mention_pn": "on",
+      "player_like_pn": "on",
+      "player_nickname_update": "on",
+      "team_name_update": "on",
+      "trade_block_pn": "on",
+      "transaction_commissioner": "on",
+      "transaction_free_agent": "on",
+      "transaction_trade": "on",
+      "transaction_waiver": "on",
+      "user_message_pn": "off"
+    },
+    "settings": null,
+    "user_id": "341760440168243200"
+  },
+  {
+    "avatar": "803718948adca95f32d7e1d20fb1b901",
+    "display_name": "Batschi",
+    "is_bot": false,
+    "is_owner": false,
+    "league_id": "1121588900209782784",
+    "metadata": {
+      "allow_pn": "on",
+      "mascot_item_type_id_leg_1": "furrari",
+      "mascot_item_type_id_leg_10": "cheesehead",
+      "mascot_item_type_id_leg_11": "cheesehead",
+      "mascot_item_type_id_leg_12": "cheesehead",
+      "mascot_item_type_id_leg_13": "cheesehead",
+      "mascot_item_type_id_leg_14": "cheesehead",
+      "mascot_item_type_id_leg_15": "cheesehead",
+      "mascot_item_type_id_leg_16": "cheesehead",
+      "mascot_item_type_id_leg_17": "cheesehead",
+      "mascot_item_type_id_leg_18": "cheesehead",
+      "mascot_item_type_id_leg_2": "furrari",
+      "mascot_item_type_id_leg_3": "furrari",
+      "mascot_item_type_id_leg_4": "furrari",
+      "mascot_item_type_id_leg_5": "furrari",
+      "mascot_item_type_id_leg_6": "furrari",
+      "mascot_item_type_id_leg_7": "furrari",
+      "mascot_item_type_id_leg_8": "cheesehead",
+      "mascot_item_type_id_leg_9": "cheesehead",
+      "mascot_message_emotion_leg_1": "idle",
+      "mascot_message_emotion_leg_8": "taunting",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "376529727546122240"
+  },
+  {
+    "avatar": "9cf0ba07b858634478ff0edec78d0412",
+    "display_name": "Ws6judge",
+    "is_bot": false,
+    "is_owner": false,
+    "league_id": "1121588900209782784",
+    "metadata": {
+      "allow_pn": "on",
+      "allow_sms": "on",
+      "archived": "off",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "460461357993553920"
+  },
+  {
+    "avatar": "100629f9bd5c738552af2d48c5c15d8a",
+    "display_name": "ndh",
+    "is_bot": false,
+    "is_owner": false,
+    "league_id": "1121588900209782784",
+    "metadata": {
+      "allow_pn": "on",
+      "archived": "off",
+      "mention_pn": "on",
+      "team_name": "Full Tilt"
+    },
+    "settings": null,
+    "user_id": "464803913166483456"
+  },
+  {
+    "avatar": "c836e099c248672c4f33e8b183301724",
+    "display_name": "solstice418",
+    "is_bot": false,
+    "is_owner": false,
+    "league_id": "1121588900209782784",
+    "metadata": {
+      "allow_pn": "on",
+      "archived": "on",
+      "avatar": "https://sleepercdn.com/uploads/9294d66658647d8ba15fbe118adb97e1.jpg",
+      "mention_pn": "on",
+      "team_name": "Cobra Kyler "
+    },
+    "settings": null,
+    "user_id": "465962031871160320"
+  },
+  {
+    "avatar": "aebe47e302e42a4847b5c66d57f320af",
+    "display_name": "xBigDEnergyx",
+    "is_bot": false,
+    "is_owner": true,
+    "league_id": "1121588900209782784",
+    "metadata": {
+      "allow_pn": "on",
+      "archived": "off",
+      "league_report_pn": "on",
+      "mascot_message": "on",
+      "mention_pn": "on",
+      "player_like_pn": "on",
+      "player_nickname_update": "on",
+      "team_name_update": "on",
+      "trade_block_pn": "on",
+      "transaction_commissioner": "on",
+      "transaction_free_agent": "on",
+      "transaction_trade": "on",
+      "transaction_waiver": "on",
+      "user_message_pn": "on"
+    },
+    "settings": null,
+    "user_id": "470080196305743872"
+  },
+  {
+    "avatar": "1d5722b1429bebb7a3f905e1ee2d3782",
+    "display_name": "QuadSquad",
+    "is_bot": false,
+    "is_owner": false,
+    "league_id": "1121588900209782784",
+    "metadata": {
+      "allow_pn": "on",
+      "allow_sms": "on",
+      "avatar": "https://sleepercdn.com/uploads/56b74ccdd5117a5a7d713d5ab2d66b7d.jpg",
+      "league_report_pn": "off",
+      "mascot_message": "off",
+      "mention_pn": "on",
+      "player_like_pn": "on",
+      "player_nickname_update": "off",
+      "team_name": "Season of the Burrow",
+      "team_name_update": "off",
+      "trade_block_pn": "on",
+      "transaction_commissioner": "on",
+      "transaction_free_agent": "on",
+      "transaction_trade": "on",
+      "transaction_waiver": "on",
+      "user_message_pn": "on"
+    },
+    "settings": null,
+    "user_id": "472254114214965248"
+  },
+  {
+    "avatar": "9cf0ba07b858634478ff0edec78d0412",
+    "display_name": "tknir",
+    "is_bot": false,
+    "is_owner": false,
+    "league_id": "1121588900209782784",
+    "metadata": {
+      "allow_pn": "on",
+      "archived": "off",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "606256735535046656"
+  },
+  {
+    "avatar": "4f4090e5e9c3941414db40a871e3e909",
+    "display_name": "korytk",
+    "is_bot": false,
+    "is_owner": false,
+    "league_id": "1121588900209782784",
+    "metadata": {
+      "allow_pn": "on",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "717255505185173504"
+  },
+  {
+    "avatar": "6376577c03fc72b95c0424939d6e273f",
+    "display_name": "asapaltima",
+    "is_bot": false,
+    "is_owner": false,
+    "league_id": "1121588900209782784",
+    "metadata": {
+      "allow_pn": "on",
+      "archived": "off",
+      "mascot_message": "on",
+      "mention_pn": "on",
+      "player_like_pn": "on",
+      "player_nickname_update": "on",
+      "team_name": "THAT LSU GRIDDY",
+      "team_name_update": "on",
+      "trade_block_pn": "on",
+      "transaction_commissioner": "on",
+      "transaction_free_agent": "on",
+      "transaction_trade": "on",
+      "transaction_waiver": "on",
+      "user_message_pn": "on"
+    },
+    "settings": null,
+    "user_id": "733414850881028096"
+  },
+  {
+    "avatar": "ab56979983965842c9ddd9ee29143ca8",
+    "display_name": "1q2w3e0p",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1121588900209782784",
+    "metadata": {
+      "allow_pn": "off",
+      "archived": "on",
+      "league_report_pn": "on",
+      "mascot_message": "on",
+      "mention_pn": "on",
+      "player_like_pn": "on",
+      "player_nickname_update": "on",
+      "team_name_update": "on",
+      "trade_block_pn": "on",
+      "transaction_commissioner": "on",
+      "transaction_free_agent": "on",
+      "transaction_trade": "on",
+      "transaction_waiver": "on",
+      "user_message_pn": "on"
+    },
+    "settings": null,
+    "user_id": "982483033641033728"
+  }
+]

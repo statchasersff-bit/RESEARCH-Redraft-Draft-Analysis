@@ -1,0 +1,47 @@
+[
+  {
+    "created": 1726836076220,
+    "creators": [
+      "1142835739286179840"
+    ],
+    "draft_id": "1142836971681804288",
+    "draft_order": {
+      "1003119144495128576": 5,
+      "1140691616898998272": 6,
+      "1142835739286179840": 2,
+      "1142996840128872448": 1,
+      "955691919605051392": 3,
+      "997719442039648256": 9
+    },
+    "last_message_id": "1143736647240339456",
+    "last_message_time": 1727050575602,
+    "last_picked": 1727050473499,
+    "league_id": "1142836970641563648",
+    "metadata": {
+      "description": "",
+      "name": "W chat",
+      "scoring_type": "ppr"
+    },
+    "season": "2024",
+    "season_type": "regular",
+    "settings": {
+      "autostart": 0,
+      "cpu_autopick": 1,
+      "pick_timer": 120,
+      "rounds": 15,
+      "slots_bn": 5,
+      "slots_def": 1,
+      "slots_flex": 2,
+      "slots_k": 1,
+      "slots_qb": 1,
+      "slots_rb": 2,
+      "slots_te": 1,
+      "slots_wr": 2,
+      "teams": 10
+    },
+    "sport": "nfl",
+    "start_time": 1727128811000,
+    "status": "complete",
+    "type": "snake"
+  }
+]

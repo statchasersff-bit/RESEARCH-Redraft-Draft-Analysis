@@ -1,0 +1,167 @@
+[
+  {
+    "avatar": "861ff7354f35ac1b8fd2c7dd56bafd73",
+    "display_name": "pmzet",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1138882195776512000",
+    "metadata": {
+      "allow_pn": "on",
+      "archived": "on",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "472677951763116032"
+  },
+  {
+    "avatar": "1fe089e517448d9fe207b8607ca8e81b",
+    "display_name": "1SGROD",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1138882195776512000",
+    "metadata": {
+      "allow_pn": "on",
+      "archived": "on",
+      "avatar": "https://sleepercdn.com/uploads/61957ad087c81c054ad42f46be343fb9.jpg",
+      "mention_pn": "on",
+      "team_name": "Los Pollos Hermanos"
+    },
+    "settings": null,
+    "user_id": "495089427693957120"
+  },
+  {
+    "avatar": "de02be2cbb6ca424cae4a30df447255e",
+    "display_name": "AaaAron24",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1138882195776512000",
+    "metadata": {
+      "allow_pn": "off",
+      "league_report_pn": "off",
+      "mascot_message": "on",
+      "mention_pn": "on",
+      "player_like_pn": "on",
+      "player_nickname_update": "on",
+      "team_name_update": "on",
+      "trade_block_pn": "on",
+      "transaction_commissioner": "on",
+      "transaction_free_agent": "on",
+      "transaction_trade": "on",
+      "transaction_waiver": "on",
+      "user_message_pn": "off"
+    },
+    "settings": null,
+    "user_id": "573940474343108608"
+  },
+  {
+    "avatar": "2104f999b3075e94dc1bc19e87c4ce6f",
+    "display_name": "TBflip",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1138882195776512000",
+    "metadata": {
+      "allow_pn": "on",
+      "archived": "on",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "601465719535751168"
+  },
+  {
+    "avatar": "5c5331a9f5c02807df251d8380a38f09",
+    "display_name": "Fantasywiz12616",
+    "is_bot": false,
+    "is_owner": true,
+    "league_id": "1138882195776512000",
+    "metadata": {
+      "allow_pn": "on",
+      "archived": "on",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "710332074363523072"
+  },
+  {
+    "avatar": "b362b6399cb70c38db222e06f3252555",
+    "display_name": "PughHefner",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1138882195776512000",
+    "metadata": {
+      "allow_pn": "on",
+      "archived": "on",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "731001820226363392"
+  },
+  {
+    "avatar": "9a973a4a24b112df16ef4759a7b0f2ab",
+    "display_name": "AmyEastTN79",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1138882195776512000",
+    "metadata": {
+      "allow_pn": "on",
+      "archived": "on",
+      "mention_pn": "on",
+      "team_name": "ISwearThisIsTheLastOne"
+    },
+    "settings": null,
+    "user_id": "867534014821609472"
+  },
+  {
+    "avatar": "be0732cd438be473804189b8821c52c2",
+    "display_name": "MizzleLizzo",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1138882195776512000",
+    "metadata": {
+      "allow_pn": "on",
+      "archived": "on",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "979610977693908992"
+  },
+  {
+    "avatar": "8eb8f8bf999945d523f2c4033f70473e",
+    "display_name": "rorylion",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1138882195776512000",
+    "metadata": {
+      "allow_pn": "on",
+      "archived": "on",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "1000166013784694784"
+  },
+  {
+    "avatar": "e2b0e6406ecfe45fd6e4baaf9fc59c59",
+    "display_name": "MakItRain",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1138882195776512000",
+    "metadata": {
+      "allow_pn": "off",
+      "allow_sms": "on",
+      "archived": "on",
+      "league_report_pn": "off",
+      "mascot_message": "off",
+      "mention_pn": "on",
+      "player_like_pn": "on",
+      "player_nickname_update": "off",
+      "team_name_update": "off",
+      "trade_block_pn": "off",
+      "transaction_commissioner": "off",
+      "transaction_free_agent": "off",
+      "transaction_trade": "off",
+      "transaction_waiver": "off",
+      "user_message_pn": "off"
+    },
+    "settings": null,
+    "user_id": "1126320389791096832"
+  }
+]

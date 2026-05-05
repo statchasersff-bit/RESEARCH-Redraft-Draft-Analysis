@@ -1,0 +1,59 @@
+[
+  {
+    "created": 1725240723636,
+    "creators": [
+      "891035448909336576"
+    ],
+    "draft_id": "1136145577941520384",
+    "draft_order": {
+      "1002669065393000448": 4,
+      "1012411119589269504": 6,
+      "1033447802367725568": 3,
+      "1131384084611301376": 5,
+      "1135755091472171008": 7,
+      "1136401568363864064": 8,
+      "859545940506329088": 9,
+      "891035448909336576": 10,
+      "993598628952338432": 2,
+      "996846350375428096": 1
+    },
+    "last_message_id": "1137263604241068032",
+    "last_message_time": 1725507281888,
+    "last_picked": 1725507281128,
+    "league_id": "1136145577043185664",
+    "metadata": {
+      "description": "",
+      "name": "Sleepless",
+      "scoring_type": "ppr"
+    },
+    "season": "2024",
+    "season_type": "regular",
+    "settings": {
+      "alpha_sort": 0,
+      "autopause_enabled": 0,
+      "autopause_end_time": 1020,
+      "autopause_start_time": 300,
+      "autostart": 1,
+      "cpu_autopick": 1,
+      "enforce_position_limits": 1,
+      "nomination_timer": 60,
+      "pick_timer": 60,
+      "player_type": 0,
+      "reversal_round": 0,
+      "rounds": 15,
+      "slots_bn": 5,
+      "slots_def": 1,
+      "slots_flex": 2,
+      "slots_k": 1,
+      "slots_qb": 1,
+      "slots_rb": 2,
+      "slots_te": 1,
+      "slots_wr": 2,
+      "teams": 10
+    },
+    "sport": "nfl",
+    "start_time": 1725505224085,
+    "status": "complete",
+    "type": "snake"
+  }
+]

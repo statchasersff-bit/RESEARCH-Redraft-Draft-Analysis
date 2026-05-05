@@ -1,0 +1,150 @@
+[
+  {
+    "avatar": "b1fa8bfa24ddd9a949bcc15b62ffaae2",
+    "display_name": "BrWnCuRsE",
+    "is_bot": null,
+    "is_owner": true,
+    "league_id": "1150650168870752256",
+    "metadata": {
+      "allow_pn": "on",
+      "archived": "on",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "86674462812291072"
+  },
+  {
+    "avatar": "a71e91db913892d265d8141ee6971555",
+    "display_name": "TheTribeHasSpoken",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1150650168870752256",
+    "metadata": {
+      "allow_pn": "on",
+      "archived": "on",
+      "mention_pn": "on",
+      "team_name": "Castaways"
+    },
+    "settings": null,
+    "user_id": "585188842538049536"
+  },
+  {
+    "avatar": "6e3e4eea003b732d4e365a9c0e8ab30c",
+    "display_name": "ega4bstn",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1150650168870752256",
+    "metadata": {
+      "allow_pn": "on",
+      "archived": "on",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "675856084065411072"
+  },
+  {
+    "avatar": "58517c148beebe7af3028415a00cbfa3",
+    "display_name": "TheManFace",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1150650168870752256",
+    "metadata": {
+      "allow_pn": "on",
+      "allow_sms": "on",
+      "archived": "on",
+      "avatar": "https://sleepercdn.com/uploads/a7e5d56a062a93ff88cc3631ab75ac10.jpg",
+      "mention_pn": "on",
+      "team_name": "Giddy Up!"
+    },
+    "settings": null,
+    "user_id": "706989861902565376"
+  },
+  {
+    "avatar": "78fd14846ef602c67713c2ea00d6af7b",
+    "display_name": "HeirJordans",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1150650168870752256",
+    "metadata": {
+      "allow_pn": "on",
+      "archived": "on",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "854785777429753856"
+  },
+  {
+    "avatar": "bbb41d476c5f588ffa2ff41de9b2ab4e",
+    "display_name": "BigCheese375",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1150650168870752256",
+    "metadata": {
+      "allow_pn": "on",
+      "allow_sms": "on",
+      "archived": "on",
+      "mention_pn": "on",
+      "team_name": "The Ranger Way"
+    },
+    "settings": null,
+    "user_id": "866933376198791168"
+  },
+  {
+    "avatar": "d2b24e81248be0c4d8300949cff41c94",
+    "display_name": "josephwinn77",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1150650168870752256",
+    "metadata": {
+      "allow_pn": "on",
+      "archived": "on",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "870984534588600320"
+  },
+  {
+    "avatar": "8f189b7ad9cae73ae99d0ff944618088",
+    "display_name": "izzyness",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1150650168870752256",
+    "metadata": {
+      "allow_pn": "on",
+      "archived": "on",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "995577654524968960"
+  },
+  {
+    "avatar": "f0edbf4278f53f9425db175073df6584",
+    "display_name": "V00DO0",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1150650168870752256",
+    "metadata": {
+      "allow_pn": "on",
+      "archived": "on",
+      "avatar": "https://sleepercdn.com/uploads/af0f2bed4da3b1f6e36c5404d79ee0e9.jpg",
+      "mention_pn": "on",
+      "team_name": "Painty voodoo"
+    },
+    "settings": null,
+    "user_id": "1003870604627386368"
+  },
+  {
+    "avatar": "4a9e69a6b16e30fe34aaad88aeb0045d",
+    "display_name": "jesssaaa",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1150650168870752256",
+    "metadata": {
+      "allow_pn": "on",
+      "archived": "on",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "1133938442456453120"
+  }
+]

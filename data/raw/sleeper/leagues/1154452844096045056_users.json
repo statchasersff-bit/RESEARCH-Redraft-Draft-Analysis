@@ -1,0 +1,71 @@
+[
+  {
+    "avatar": "694db09fd474fe0ab8d767b31dd093c2",
+    "display_name": "garyt5037",
+    "is_bot": false,
+    "is_owner": true,
+    "league_id": "1154452844096045056",
+    "metadata": {
+      "allow_pn": "on",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "477256723908784128"
+  },
+  {
+    "avatar": "67afb25d6a1e59a718c8cfad54b1483e",
+    "display_name": "bill888",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1154452844096045056",
+    "metadata": {
+      "allow_pn": "on",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "602916397395279872"
+  },
+  {
+    "avatar": "8eb8f8bf999945d523f2c4033f70473e",
+    "display_name": "djonfire1",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1154452844096045056",
+    "metadata": {
+      "allow_pn": "on",
+      "archived": "on",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "738062876274778112"
+  },
+  {
+    "avatar": "8eb8f8bf999945d523f2c4033f70473e",
+    "display_name": "rorylion",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1154452844096045056",
+    "metadata": {
+      "allow_pn": "on",
+      "archived": "on",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "1000166013784694784"
+  },
+  {
+    "avatar": "49d20ed4cc397173a297da2fe99c7a06",
+    "display_name": "Jazzo98",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1154452844096045056",
+    "metadata": {
+      "allow_pn": "on",
+      "allow_sms": "on",
+      "archived": "on",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "1004647605265145856"
+  }
+]

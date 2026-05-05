@@ -1,0 +1,60 @@
+[
+  {
+    "created": 1723843361921,
+    "creators": [
+      "468895814777827328"
+    ],
+    "draft_id": "1130284618101596160",
+    "draft_order": {
+      "1129616778860036096": 2,
+      "1136532675575107584": 6,
+      "1136660230735060992": 4,
+      "1136740399743139840": 7,
+      "468895814777827328": 11,
+      "473744879634083840": 10,
+      "611753968216948736": 5,
+      "729407813431988224": 8,
+      "759784094912679936": 12,
+      "845484778844196864": 3,
+      "854785777429753856": 1,
+      "877620046682312704": 9
+    },
+    "last_message_id": "1136886941648969728",
+    "last_message_time": 1725417478529,
+    "last_picked": 1725417477583,
+    "league_id": "1130284617547997184",
+    "metadata": {
+      "description": "",
+      "name": "Show me your 2 TD'S",
+      "scoring_type": "2qb"
+    },
+    "season": "2024",
+    "season_type": "regular",
+    "settings": {
+      "alpha_sort": 0,
+      "autopause_enabled": 0,
+      "autopause_end_time": 900,
+      "autopause_start_time": 180,
+      "autostart": 1,
+      "cpu_autopick": 1,
+      "enforce_position_limits": 1,
+      "nomination_timer": 60,
+      "pick_timer": 120,
+      "player_type": 0,
+      "reversal_round": 0,
+      "rounds": 15,
+      "slots_bn": 6,
+      "slots_flex": 2,
+      "slots_qb": 1,
+      "slots_rb": 2,
+      "slots_super_flex": 1,
+      "slots_te": 1,
+      "slots_wr": 2,
+      "teams": 12
+    },
+    "sport": "nfl",
+    "start_time": 1725411638134,
+    "status": "complete",
+    "type": "snake"
+  }
+]

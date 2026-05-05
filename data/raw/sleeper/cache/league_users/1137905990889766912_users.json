@@ -1,0 +1,180 @@
+[
+  {
+    "avatar": "861ff7354f35ac1b8fd2c7dd56bafd73",
+    "display_name": "pmzet",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1137905990889766912",
+    "metadata": {
+      "allow_pn": "on",
+      "archived": "on",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "472677951763116032"
+  },
+  {
+    "avatar": "2ade3b6858e37b3f22f212ff776608be",
+    "display_name": "calsmith19",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1137905990889766912",
+    "metadata": {
+      "allow_pn": "on",
+      "allow_sms": "on",
+      "archived": "off",
+      "mention_pn": "on",
+      "team_name": "Breece for Impact"
+    },
+    "settings": null,
+    "user_id": "483159398663843840"
+  },
+  {
+    "avatar": "8ad79d429d2a40dbcfdbcea08ed0323b",
+    "display_name": "Beerupfalcons",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1137905990889766912",
+    "metadata": {
+      "allow_pn": "on",
+      "archived": "on",
+      "mention_pn": "on",
+      "team_name": "Dirtys Infirmary ⚕️"
+    },
+    "settings": null,
+    "user_id": "736434807411736576"
+  },
+  {
+    "avatar": "1a91af0a2ba533535e3033bb2b4b8cb5",
+    "display_name": "SteelerNationGB",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1137905990889766912",
+    "metadata": {
+      "allow_pn": "off",
+      "archived": "on",
+      "league_report_pn": "on",
+      "mascot_message": "on",
+      "mention_pn": "on",
+      "player_like_pn": "on",
+      "player_nickname_update": "on",
+      "team_name_update": "on",
+      "trade_block_pn": "on",
+      "transaction_commissioner": "on",
+      "transaction_free_agent": "on",
+      "transaction_trade": "on",
+      "transaction_waiver": "on",
+      "user_message_pn": "on"
+    },
+    "settings": null,
+    "user_id": "783845241424838656"
+  },
+  {
+    "avatar": "3633fda814c562708cbeffa6be43b704",
+    "display_name": "BigTopJash",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1137905990889766912",
+    "metadata": {
+      "allow_pn": "on",
+      "archived": "on",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "854602245042442240"
+  },
+  {
+    "avatar": "28b3834129b5c9b184e6031b7154440f",
+    "display_name": "ScHmIdTy3207",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1137905990889766912",
+    "metadata": {
+      "allow_pn": "on",
+      "archived": "on",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "854833280686616576"
+  },
+  {
+    "avatar": "d93e001af0f68dd90df2ae94bad4a3ab",
+    "display_name": "RedSox23",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1137905990889766912",
+    "metadata": {
+      "allow_pn": "on",
+      "archived": "on",
+      "league_report_pn": "off",
+      "mascot_message": "off",
+      "mention_pn": "on",
+      "player_like_pn": "on",
+      "player_nickname_update": "off",
+      "team_name_update": "off",
+      "trade_block_pn": "off",
+      "transaction_commissioner": "on",
+      "transaction_free_agent": "off",
+      "transaction_trade": "on",
+      "transaction_waiver": "on",
+      "user_message_pn": "on"
+    },
+    "settings": null,
+    "user_id": "869812155644628992"
+  },
+  {
+    "avatar": "b319fdf8b7b5b0359d3c78622ba4d70c",
+    "display_name": "GiantMen",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1137905990889766912",
+    "metadata": {
+      "allow_pn": "on",
+      "archived": "on",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "872253478138015744"
+  },
+  {
+    "avatar": "b2e068df4bfeb9418ac15512b9e4defa",
+    "display_name": "ReekNotTheon",
+    "is_bot": false,
+    "is_owner": true,
+    "league_id": "1137905990889766912",
+    "metadata": {
+      "allow_pn": "off",
+      "archived": "on",
+      "league_report_pn": "off",
+      "mascot_message": "on",
+      "mention_pn": "on",
+      "player_like_pn": "off",
+      "player_nickname_update": "off",
+      "team_name": "Dobbins For MVP",
+      "team_name_update": "off",
+      "trade_block_pn": "off",
+      "transaction_commissioner": "off",
+      "transaction_free_agent": "off",
+      "transaction_trade": "off",
+      "transaction_waiver": "off",
+      "user_message_pn": "off"
+    },
+    "settings": null,
+    "user_id": "979203009441832960"
+  },
+  {
+    "avatar": "883956711e66bbdadf9778d8ae460c78",
+    "display_name": "FlySaquonFly26",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1137905990889766912",
+    "metadata": {
+      "allow_pn": "on",
+      "archived": "on",
+      "mention_pn": "on",
+      "team_name": "Stroud and Proud"
+    },
+    "settings": null,
+    "user_id": "1127345594516832256"
+  }
+]

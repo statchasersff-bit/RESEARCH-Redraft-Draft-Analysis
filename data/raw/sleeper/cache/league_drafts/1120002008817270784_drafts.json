@@ -1,0 +1,61 @@
+[
+  {
+    "created": 1721391796834,
+    "creators": [
+      "731523935711158272"
+    ],
+    "draft_id": "1120002008817270785",
+    "draft_order": {
+      "1000858935600943104": 4,
+      "1000859531171192832": 7,
+      "1001298025530077184": 8,
+      "1001302063063638016": 6,
+      "1132887507886112768": 11,
+      "1133891110537011200": 5,
+      "731523935711158272": 2,
+      "731544574002069504": 12,
+      "731583054631563264": 9,
+      "732458121846435840": 10,
+      "737475277256568832": 3,
+      "999038338893930496": 1
+    },
+    "last_message_id": "1134349354988584960",
+    "last_message_time": 1724812470723,
+    "last_picked": 1724812442553,
+    "league_id": "1120002008817270784",
+    "metadata": {
+      "description": "",
+      "name": "Los Pingus de Fantasy Football",
+      "scoring_type": "ppr"
+    },
+    "season": "2024",
+    "season_type": "regular",
+    "settings": {
+      "alpha_sort": 0,
+      "autopause_enabled": 0,
+      "autopause_end_time": 840,
+      "autopause_start_time": 120,
+      "autostart": 0,
+      "cpu_autopick": 1,
+      "enforce_position_limits": 1,
+      "nomination_timer": 60,
+      "pick_timer": 30,
+      "player_type": 0,
+      "reversal_round": 0,
+      "rounds": 15,
+      "slots_bn": 5,
+      "slots_def": 1,
+      "slots_flex": 2,
+      "slots_k": 1,
+      "slots_qb": 1,
+      "slots_rb": 2,
+      "slots_te": 1,
+      "slots_wr": 2,
+      "teams": 12
+    },
+    "sport": "nfl",
+    "start_time": 1724806880203,
+    "status": "complete",
+    "type": "snake"
+  }
+]

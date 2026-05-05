@@ -1,0 +1,72 @@
+{
+  "created": 1724647950083,
+  "creators": [
+    "466072274970079232",
+    "610557117773983744"
+  ],
+  "draft_id": "1133659305464659968",
+  "draft_order": {
+    "1098381804010164224": 1,
+    "1101568579872448512": 12,
+    "264526551800868864": 8,
+    "466072274970079232": 3,
+    "553035661574467584": 11,
+    "610557117773983744": 7,
+    "612467184165404672": 4,
+    "735269437711732736": 9,
+    "848029078253604864": 2,
+    "864257912103620608": 6,
+    "869812155644628992": 10,
+    "982483033641033728": 5
+  },
+  "last_message_id": "1133679627886669824",
+  "last_message_time": 1724652795338,
+  "last_picked": 1724652767668,
+  "league_id": "1133659304155885568",
+  "metadata": {
+    "description": "",
+    "name": "12 Pack",
+    "scoring_type": "ppr"
+  },
+  "season": "2024",
+  "season_type": "regular",
+  "settings": {
+    "alpha_sort": 0,
+    "autopause_enabled": 0,
+    "autopause_end_time": 840,
+    "autopause_start_time": 120,
+    "autostart": 0,
+    "cpu_autopick": 1,
+    "enforce_position_limits": 1,
+    "nomination_timer": 60,
+    "pick_timer": 30,
+    "player_type": 0,
+    "reversal_round": 0,
+    "rounds": 15,
+    "slots_bn": 6,
+    "slots_flex": 3,
+    "slots_qb": 1,
+    "slots_rb": 2,
+    "slots_te": 1,
+    "slots_wr": 2,
+    "teams": 12
+  },
+  "slot_to_roster_id": {
+    "1": 12,
+    "2": 8,
+    "3": 2,
+    "4": 3,
+    "5": 6,
+    "6": 4,
+    "7": 1,
+    "8": 5,
+    "9": 10,
+    "10": 9,
+    "11": 7,
+    "12": 11
+  },
+  "sport": "nfl",
+  "start_time": 1724649848633,
+  "status": "complete",
+  "type": "snake"
+}

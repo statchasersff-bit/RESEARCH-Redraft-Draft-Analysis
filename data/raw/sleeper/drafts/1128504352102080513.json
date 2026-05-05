@@ -1,0 +1,71 @@
+{
+  "created": 1723418913439,
+  "creators": [
+    "454751922428047360"
+  ],
+  "draft_id": "1128504352102080513",
+  "draft_order": {
+    "1034944980093079552": 12,
+    "1121559393511829504": 5,
+    "339218474402324480": 9,
+    "391059905995345920": 11,
+    "454751922428047360": 6,
+    "465291807962427392": 4,
+    "469930027593494528": 10,
+    "678503604495134720": 1,
+    "740691722304167936": 3,
+    "870749947040075776": 2,
+    "970591604694208512": 8,
+    "982483033641033728": 7
+  },
+  "last_message_id": "1129939910741225472",
+  "last_message_time": 1723761177290,
+  "last_picked": 1723761176601,
+  "league_id": "1128504352102080512",
+  "metadata": {
+    "description": "",
+    "name": "$25 Redraft- Slow Drafters ",
+    "scoring_type": "half_ppr"
+  },
+  "season": "2024",
+  "season_type": "regular",
+  "settings": {
+    "alpha_sort": 0,
+    "autopause_enabled": 1,
+    "autopause_end_time": 840,
+    "autopause_start_time": 120,
+    "autostart": 0,
+    "cpu_autopick": 1,
+    "enforce_position_limits": 1,
+    "nomination_timer": 60,
+    "pick_timer": 14400,
+    "player_type": 0,
+    "reversal_round": 0,
+    "rounds": 15,
+    "slots_bn": 6,
+    "slots_flex": 3,
+    "slots_qb": 1,
+    "slots_rb": 2,
+    "slots_te": 1,
+    "slots_wr": 2,
+    "teams": 12
+  },
+  "slot_to_roster_id": {
+    "1": 10,
+    "2": 7,
+    "3": 6,
+    "4": 5,
+    "5": 8,
+    "6": 1,
+    "7": 12,
+    "8": 9,
+    "9": 4,
+    "10": 3,
+    "11": 2,
+    "12": 11
+  },
+  "sport": "nfl",
+  "start_time": 1723425651730,
+  "status": "complete",
+  "type": "snake"
+}

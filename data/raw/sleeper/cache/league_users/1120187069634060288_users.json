@@ -1,0 +1,151 @@
+[
+  {
+    "avatar": "5c5331a9f5c02807df251d8380a38f09",
+    "display_name": "Fantasywiz1200",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1120187069634060288",
+    "metadata": {
+      "allow_pn": "on",
+      "archived": "on",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "710332074363523072"
+  },
+  {
+    "avatar": "b319fdf8b7b5b0359d3c78622ba4d70c",
+    "display_name": "OilerFan21",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1120187069634060288",
+    "metadata": {
+      "allow_pn": "on",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "732712183326175232"
+  },
+  {
+    "avatar": "3ab3a3d07c504c53ce5a342fa4c4baa4",
+    "display_name": "SoreLoserUncle",
+    "is_bot": false,
+    "is_owner": true,
+    "league_id": "1120187069634060288",
+    "metadata": {
+      "allow_pn": "on",
+      "archived": "on",
+      "mention_pn": "on",
+      "team_name": "Shaven 4 Impact"
+    },
+    "settings": null,
+    "user_id": "740208217933647872"
+  },
+  {
+    "avatar": "fcabd16b25eb131bf0b7f19a2d75ff94",
+    "display_name": "BBQDadx3",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1120187069634060288",
+    "metadata": {
+      "allow_pn": "on",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "804046915665764352"
+  },
+  {
+    "avatar": "3f4e3cef9c412c2e6d1924be56b65efd",
+    "display_name": "HogGang",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1120187069634060288",
+    "metadata": {
+      "allow_pn": "on",
+      "league_report_pn": "on",
+      "mascot_message": "on",
+      "mention_pn": "on",
+      "player_like_pn": "on",
+      "player_nickname_update": "on",
+      "team_name_update": "on",
+      "trade_block_pn": "on",
+      "transaction_commissioner": "off",
+      "transaction_free_agent": "off",
+      "transaction_trade": "on",
+      "transaction_waiver": "off",
+      "user_message_pn": "on"
+    },
+    "settings": null,
+    "user_id": "862554671829606400"
+  },
+  {
+    "avatar": "d2396152d919a372c57e0eaecbf45b78",
+    "display_name": "CommishCaptain",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1120187069634060288",
+    "metadata": {
+      "allow_pn": "on",
+      "archived": "on",
+      "league_report_pn": "on",
+      "mascot_message": "on",
+      "mention_pn": "on",
+      "player_like_pn": "on",
+      "player_nickname_update": "off",
+      "team_name": "CeeDee Lamb of God",
+      "team_name_update": "off",
+      "trade_block_pn": "off",
+      "transaction_commissioner": "off",
+      "transaction_free_agent": "off",
+      "transaction_trade": "off",
+      "transaction_waiver": "off",
+      "user_message_pn": "on"
+    },
+    "settings": null,
+    "user_id": "864291943486750720"
+  },
+  {
+    "avatar": "b41ade70886a878bf7add650ffc88ff2",
+    "display_name": "kennypickoff",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1120187069634060288",
+    "metadata": {
+      "allow_pn": "on",
+      "archived": "on",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "980631979722915840"
+  },
+  {
+    "avatar": "f4777b146ddb2cb2fe62c7d79fc44c11",
+    "display_name": "Hurts1ofU",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1120187069634060288",
+    "metadata": {
+      "allow_pn": "on",
+      "archived": "on",
+      "avatar": "https://sleepercdn.com/uploads/808e87bc057f0b2411c7fe0b8efd03e1.jpg",
+      "mention_pn": "on",
+      "team_name": "Hairy Balls of Fire"
+    },
+    "settings": null,
+    "user_id": "1104915662021033984"
+  },
+  {
+    "avatar": "3cf231b3af5caa8c6b14121f8166b6e8",
+    "display_name": "Drealbling",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1120187069634060288",
+    "metadata": {
+      "allow_pn": "on",
+      "archived": "on",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "1105958740353818624"
+  }
+]

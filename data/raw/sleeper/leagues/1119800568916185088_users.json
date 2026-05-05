@@ -1,0 +1,219 @@
+[
+  {
+    "avatar": "1d5722b1429bebb7a3f905e1ee2d3782",
+    "display_name": "jmizz",
+    "is_bot": false,
+    "is_owner": true,
+    "league_id": "1119800568916185088",
+    "metadata": {
+      "allow_pn": "on",
+      "archived": "off",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "503221693381079040"
+  },
+  {
+    "avatar": "e7af4deab0289b4f5505646424895246",
+    "display_name": "RaulitoStark",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1119800568916185088",
+    "metadata": {
+      "allow_pn": "off",
+      "archived": "off",
+      "avatar": "https://sleepercdn.com/uploads/9176c0a40da93de602f284fba5e6cd30.jpg",
+      "league_report_pn": "off",
+      "mascot_message": "off",
+      "mention_pn": "on",
+      "player_like_pn": "off",
+      "player_nickname_update": "off",
+      "team_name": "Not Peyton Manning",
+      "team_name_update": "off",
+      "trade_block_pn": "off",
+      "transaction_commissioner": "off",
+      "transaction_free_agent": "off",
+      "transaction_trade": "off",
+      "transaction_waiver": "off",
+      "user_message_pn": "off"
+    },
+    "settings": null,
+    "user_id": "749178657788035072"
+  },
+  {
+    "avatar": "8eb8f8bf999945d523f2c4033f70473e",
+    "display_name": "BitchesOnly",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1119800568916185088",
+    "metadata": {
+      "allow_pn": "off",
+      "archived": "on",
+      "league_report_pn": "on",
+      "mascot_message": "on",
+      "mention_pn": "on",
+      "player_like_pn": "on",
+      "player_nickname_update": "on",
+      "team_name_update": "on",
+      "trade_block_pn": "on",
+      "transaction_commissioner": "on",
+      "transaction_free_agent": "on",
+      "transaction_trade": "on",
+      "transaction_waiver": "on",
+      "user_message_pn": "on"
+    },
+    "settings": null,
+    "user_id": "796508104811487232"
+  },
+  {
+    "avatar": "f0edbf4278f53f9425db175073df6584",
+    "display_name": "DaMafiaMan",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1119800568916185088",
+    "metadata": {
+      "allow_pn": "on",
+      "allow_sms": "on",
+      "archived": "on",
+      "mention_pn": "on",
+      "team_name": "Going Deeb"
+    },
+    "settings": null,
+    "user_id": "850245814520512512"
+  },
+  {
+    "avatar": "15d7cf259bc30eab8f6120f45f652fb6",
+    "display_name": "MRBENCHWARMER",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1119800568916185088",
+    "metadata": {
+      "allow_pn": "on",
+      "allow_sms": "on",
+      "archived": "on",
+      "league_report_pn": "on",
+      "mascot_message": "off",
+      "mention_pn": "on",
+      "player_like_pn": "on",
+      "player_nickname_update": "off",
+      "team_name_update": "off",
+      "trade_block_pn": "on",
+      "transaction_commissioner": "off",
+      "transaction_free_agent": "off",
+      "transaction_trade": "on",
+      "transaction_waiver": "off",
+      "user_message_pn": "on"
+    },
+    "settings": null,
+    "user_id": "850450173460074496"
+  },
+  {
+    "avatar": "b319fdf8b7b5b0359d3c78622ba4d70c",
+    "display_name": "jim2065",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1119800568916185088",
+    "metadata": {
+      "allow_pn": "on",
+      "archived": "on",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "868711631465689088"
+  },
+  {
+    "avatar": "2c5c7e49ae3d7f2d3dea74314bbc5fb9",
+    "display_name": "GMDaniels",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1119800568916185088",
+    "metadata": {
+      "allow_pn": "on",
+      "archived": "on",
+      "mention_pn": "on",
+      "team_name": "Blue Mountain State "
+    },
+    "settings": null,
+    "user_id": "870139764421107712"
+  },
+  {
+    "avatar": "8eb8f8bf999945d523f2c4033f70473e",
+    "display_name": "Fantasyboy28",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1119800568916185088",
+    "metadata": {
+      "allow_pn": "on",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "990353431241998336"
+  },
+  {
+    "avatar": "e7af4deab0289b4f5505646424895246",
+    "display_name": "BleedinBlue1",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1119800568916185088",
+    "metadata": {
+      "allow_pn": "off",
+      "archived": "on",
+      "league_report_pn": "off",
+      "mascot_message": "off",
+      "mention_pn": "on",
+      "player_like_pn": "on",
+      "player_nickname_update": "off",
+      "team_name_update": "off",
+      "trade_block_pn": "on",
+      "transaction_commissioner": "on",
+      "transaction_free_agent": "off",
+      "transaction_trade": "on",
+      "transaction_waiver": "off",
+      "user_message_pn": "on"
+    },
+    "settings": null,
+    "user_id": "993562497539981312"
+  },
+  {
+    "avatar": "8eb8f8bf999945d523f2c4033f70473e",
+    "display_name": "Agilray",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1119800568916185088",
+    "metadata": {
+      "allow_pn": "on",
+      "archived": "on",
+      "mention_pn": "on",
+      "team_name": "FANTASY 🏈 🐐 "
+    },
+    "settings": null,
+    "user_id": "1106026557866455040"
+  },
+  {
+    "avatar": "22c54b2d54dabaea6bf3a9216428741b",
+    "display_name": "luhtrav",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1119800568916185088",
+    "metadata": {
+      "allow_pn": "on",
+      "archived": "on",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "1119742437339103232"
+  },
+  {
+    "avatar": "dabb9dc2d5d08d43a267cf870a2804e6",
+    "display_name": "imhimsmd",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1119800568916185088",
+    "metadata": {
+      "allow_pn": "on",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "1119771841834364928"
+  }
+]

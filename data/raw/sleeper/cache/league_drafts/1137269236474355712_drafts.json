@@ -1,0 +1,50 @@
+[
+  {
+    "created": 1725508625253,
+    "creators": [
+      "1133555795444088832"
+    ],
+    "draft_id": "1137269238755999744",
+    "draft_order": {
+      "1133555795444088832": 8
+    },
+    "last_message_id": "1137273227106869248",
+    "last_message_time": 1725509576158,
+    "last_picked": 1725509575357,
+    "league_id": "1137269236474355712",
+    "metadata": {
+      "description": "",
+      "name": "2024 chill ppr fantasy football",
+      "scoring_type": "ppr"
+    },
+    "season": "2024",
+    "season_type": "regular",
+    "settings": {
+      "alpha_sort": 0,
+      "autostart": 0,
+      "cpu_autopick": 1,
+      "pick_timer": 120,
+      "position_limit_def": 3,
+      "position_limit_k": 3,
+      "position_limit_qb": 4,
+      "position_limit_rb": 6,
+      "position_limit_te": 4,
+      "position_limit_wr": 7,
+      "reversal_round": 0,
+      "rounds": 16,
+      "slots_bn": 5,
+      "slots_def": 1,
+      "slots_flex": 2,
+      "slots_k": 1,
+      "slots_qb": 1,
+      "slots_rb": 2,
+      "slots_te": 1,
+      "slots_wr": 3,
+      "teams": 12
+    },
+    "sport": "nfl",
+    "start_time": 1725509195929,
+    "status": "complete",
+    "type": "snake"
+  }
+]

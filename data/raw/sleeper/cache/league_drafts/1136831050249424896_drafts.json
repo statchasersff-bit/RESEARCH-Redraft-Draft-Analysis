@@ -1,0 +1,47 @@
+[
+  {
+    "created": 1725404152980,
+    "creators": [],
+    "draft_id": "1136831050249424897",
+    "draft_order": {
+      "342717908079722496": 1,
+      "342727848865374208": 5,
+      "342728682055540736": 8,
+      "342741640089206784": 7,
+      "342769998554599424": 4,
+      "342777052488855552": 9,
+      "342803498397626368": 6,
+      "342804925560020992": 11,
+      "342838561185222656": 3,
+      "342996709531459584": 2,
+      "343099321077469184": 10
+    },
+    "last_message_id": "1136872794953637888",
+    "last_message_time": 1725414105693,
+    "last_picked": 1725414104753,
+    "league_id": "1136831050249424896",
+    "metadata": {
+      "name": "Megalabowl",
+      "scoring_type": "half_ppr"
+    },
+    "season": "2024",
+    "season_type": "regular",
+    "settings": {
+      "cpu_autopick": 1,
+      "pick_timer": 120,
+      "rounds": 14,
+      "slots_bn": 5,
+      "slots_def": 1,
+      "slots_flex": 2,
+      "slots_qb": 1,
+      "slots_rb": 2,
+      "slots_te": 1,
+      "slots_wr": 2,
+      "teams": 12
+    },
+    "sport": "nfl",
+    "start_time": 1725408045735,
+    "status": "complete",
+    "type": "snake"
+  }
+]

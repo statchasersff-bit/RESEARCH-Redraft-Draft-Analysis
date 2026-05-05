@@ -1,0 +1,61 @@
+[
+  {
+    "created": 1719441162733,
+    "creators": [
+      "998689660010487808"
+    ],
+    "draft_id": "1111820456459399168",
+    "draft_order": {
+      "1013596478876614656": 3,
+      "1083100068233809920": 7,
+      "464127249906397184": 11,
+      "600123244229484544": 12,
+      "637840954178666496": 6,
+      "651208857179238400": 10,
+      "679120927459454976": 9,
+      "769350824550903808": 8,
+      "863555721655107584": 1,
+      "979610977693908992": 5,
+      "998689660010487808": 2
+    },
+    "last_message_id": "1115794262978744320",
+    "last_message_time": 1720388592050,
+    "last_picked": 1720388591212,
+    "league_id": "1111820455628906496",
+    "metadata": {
+      "description": "",
+      "name": "Charity Case👨🏾‍🍳",
+      "scoring_type": "2qb"
+    },
+    "season": "2024",
+    "season_type": "regular",
+    "settings": {
+      "alpha_sort": 0,
+      "autopause_enabled": 1,
+      "autopause_end_time": 900,
+      "autopause_start_time": 180,
+      "autostart": 0,
+      "cpu_autopick": 1,
+      "enforce_position_limits": 1,
+      "nomination_timer": 60,
+      "pick_timer": 14400,
+      "player_type": 0,
+      "reversal_round": 0,
+      "rounds": 24,
+      "slots_bn": 13,
+      "slots_flex": 1,
+      "slots_qb": 1,
+      "slots_rb": 2,
+      "slots_rec_flex": 1,
+      "slots_super_flex": 1,
+      "slots_te": 1,
+      "slots_wr": 3,
+      "slots_wrrb_flex": 1,
+      "teams": 12
+    },
+    "sport": "nfl",
+    "start_time": 1719449006585,
+    "status": "complete",
+    "type": "snake"
+  }
+]

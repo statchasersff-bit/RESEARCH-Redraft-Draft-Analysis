@@ -1,0 +1,71 @@
+{
+  "created": 1724115481427,
+  "creators": [
+    "507048073710563328",
+    "522488612411846656"
+  ],
+  "draft_id": "1131425970054922240",
+  "draft_order": {
+    "461958661686685696": 2,
+    "462852660089843712": 3,
+    "467439978343821312": 6,
+    "472677951763116032": 11,
+    "507048073710563328": 9,
+    "522488612411846656": 1,
+    "733037341668696064": 5,
+    "735261915642781696": 8,
+    "739296865954181120": 10,
+    "863916492327088128": 4,
+    "868360290927038464": 12
+  },
+  "last_message_id": "1131479153095491584",
+  "last_message_time": 1724128161265,
+  "last_picked": 1724128160261,
+  "league_id": "1131425968813547520",
+  "metadata": {
+    "description": "",
+    "name": "DRAFT ASAP - Homelander’s Homecoming Snake Draft",
+    "scoring_type": "ppr"
+  },
+  "season": "2024",
+  "season_type": "regular",
+  "settings": {
+    "alpha_sort": 0,
+    "autopause_enabled": 0,
+    "autopause_end_time": 900,
+    "autopause_start_time": 180,
+    "autostart": 0,
+    "cpu_autopick": 1,
+    "enforce_position_limits": 1,
+    "nomination_timer": 60,
+    "pick_timer": 60,
+    "player_type": 0,
+    "reversal_round": 0,
+    "rounds": 15,
+    "slots_bn": 6,
+    "slots_flex": 3,
+    "slots_qb": 1,
+    "slots_rb": 2,
+    "slots_te": 1,
+    "slots_wr": 2,
+    "teams": 12
+  },
+  "slot_to_roster_id": {
+    "1": 1,
+    "2": 3,
+    "3": 2,
+    "4": 4,
+    "5": 6,
+    "6": 10,
+    "7": 12,
+    "8": 11,
+    "9": 5,
+    "10": 7,
+    "11": 9,
+    "12": 8
+  },
+  "sport": "nfl",
+  "start_time": 1724124713637,
+  "status": "complete",
+  "type": "snake"
+}

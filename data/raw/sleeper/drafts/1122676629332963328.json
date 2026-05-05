@@ -1,0 +1,70 @@
+{
+  "created": 1722029476049,
+  "creators": [
+    "710332074363523072"
+  ],
+  "draft_id": "1122676629332963328",
+  "draft_order": {
+    "1104915662021033984": 10,
+    "525760044892860416": 6,
+    "710332074363523072": 2,
+    "716679913058426880": 7,
+    "717525996714151936": 3,
+    "732712183326175232": 9,
+    "740208217933647872": 1,
+    "853004021487767552": 4,
+    "869707573174145024": 5,
+    "87026635932844032": 8
+  },
+  "last_message_id": "1122688909885833216",
+  "last_message_time": 1722032403969,
+  "last_picked": 1722032403275,
+  "league_id": "1122676626996686848",
+  "metadata": {
+    "description": "",
+    "name": "ItsFFREEfuccit",
+    "scoring_type": "2qb"
+  },
+  "season": "2024",
+  "season_type": "regular",
+  "settings": {
+    "alpha_sort": 0,
+    "autopause_enabled": 0,
+    "autopause_end_time": 1020,
+    "autopause_start_time": 300,
+    "autostart": 0,
+    "cpu_autopick": 1,
+    "enforce_position_limits": 1,
+    "nomination_timer": 60,
+    "pick_timer": 30,
+    "player_type": 0,
+    "reversal_round": 0,
+    "rounds": 17,
+    "slots_bn": 6,
+    "slots_def": 1,
+    "slots_flex": 2,
+    "slots_k": 1,
+    "slots_qb": 1,
+    "slots_rb": 2,
+    "slots_super_flex": 1,
+    "slots_te": 1,
+    "slots_wr": 2,
+    "teams": 10
+  },
+  "slot_to_roster_id": {
+    "1": 3,
+    "2": 1,
+    "3": 4,
+    "4": 10,
+    "5": 5,
+    "6": 8,
+    "7": 7,
+    "8": 6,
+    "9": 9,
+    "10": 2
+  },
+  "sport": "nfl",
+  "start_time": 1722030631515,
+  "status": "complete",
+  "type": "snake"
+}

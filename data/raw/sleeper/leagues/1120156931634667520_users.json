@@ -1,0 +1,140 @@
+[
+  {
+    "avatar": "773ef8c6eb2c65a5d004ad013bc7b4d2",
+    "display_name": "NYGGGMEN",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1120156931634667520",
+    "metadata": {
+      "allow_pn": "on",
+      "archived": "on",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "339138514413182976"
+  },
+  {
+    "avatar": "28c10cc8e49e9adaf274d5a0dcdbd767",
+    "display_name": "PowerRanger26",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1120156931634667520",
+    "metadata": {
+      "allow_pn": "on",
+      "archived": "on",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "499455001815412736"
+  },
+  {
+    "avatar": "5c5331a9f5c02807df251d8380a38f09",
+    "display_name": "Fantasywiz1200",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1120156931634667520",
+    "metadata": {
+      "allow_pn": "on",
+      "archived": "on",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "710332074363523072"
+  },
+  {
+    "avatar": "8d6b1d95def8f0acedb4a8df95b56d56",
+    "display_name": "Cesar28",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1120156931634667520",
+    "metadata": {
+      "allow_pn": "on",
+      "archived": "off",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "716679913058426880"
+  },
+  {
+    "avatar": "fcabd16b25eb131bf0b7f19a2d75ff94",
+    "display_name": "BBQDadx3",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1120156931634667520",
+    "metadata": {
+      "allow_pn": "on",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "804046915665764352"
+  },
+  {
+    "avatar": "3e98f56c666f6c34e6fe8557442dd20a",
+    "display_name": "Buckie59",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1120156931634667520",
+    "metadata": {
+      "allow_pn": "on",
+      "allow_sms": "on",
+      "archived": "on",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "853004021487767552"
+  },
+  {
+    "avatar": "236c4012f1faf654f85f69684e627070",
+    "display_name": "icouldplaylocal",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1120156931634667520",
+    "metadata": {
+      "allow_pn": "on",
+      "archived": "on",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "858505827194089472"
+  },
+  {
+    "avatar": "15d7cf259bc30eab8f6120f45f652fb6",
+    "display_name": "J43i",
+    "is_bot": false,
+    "is_owner": true,
+    "league_id": "1120156931634667520",
+    "metadata": {
+      "allow_pn": "on",
+      "mention_pn": "on",
+      "team_name": "Jamarr Binks"
+    },
+    "settings": null,
+    "user_id": "1061827838870982656"
+  },
+  {
+    "avatar": "72a019046bb92d0bc55ad24503094a03",
+    "display_name": "trustintheprocess",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1120156931634667520",
+    "metadata": {
+      "allow_pn": "on",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "1120826265163931648"
+  },
+  {
+    "avatar": "b319fdf8b7b5b0359d3c78622ba4d70c",
+    "display_name": "fraudyniners",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1120156931634667520",
+    "metadata": {
+      "allow_pn": "on",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "1129649950343725056"
+  }
+]

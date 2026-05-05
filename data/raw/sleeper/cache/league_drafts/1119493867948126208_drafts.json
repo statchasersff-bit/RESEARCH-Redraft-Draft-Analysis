@@ -1,0 +1,60 @@
+[
+  {
+    "created": 1721270646797,
+    "creators": [
+      "457001369958608896",
+      "606598564948279296"
+    ],
+    "draft_id": "1119493868766048256",
+    "draft_order": {
+      "100908832284622848": 6,
+      "374403908799352832": 12,
+      "457001369958608896": 3,
+      "462852660089843712": 10,
+      "552632375143772160": 2,
+      "568282778618945536": 7,
+      "606598564948279296": 8,
+      "712114507706597376": 5,
+      "731593303455301632": 1,
+      "741132650638635008": 4,
+      "852279013379530752": 9,
+      "963325378112569344": 11
+    },
+    "last_message_id": "1119536599588495360",
+    "last_message_time": 1721280834628,
+    "last_picked": 1721280803553,
+    "league_id": "1119493867948126208",
+    "metadata": {
+      "description": "",
+      "name": "$25 bestball fastdraft #1",
+      "scoring_type": "ppr"
+    },
+    "season": "2024",
+    "season_type": "regular",
+    "settings": {
+      "alpha_sort": 0,
+      "autopause_enabled": 0,
+      "autopause_end_time": 1020,
+      "autopause_start_time": 300,
+      "autostart": 0,
+      "cpu_autopick": 1,
+      "enforce_position_limits": 1,
+      "nomination_timer": 60,
+      "pick_timer": 30,
+      "player_type": 0,
+      "reversal_round": 0,
+      "rounds": 19,
+      "slots_bn": 10,
+      "slots_flex": 2,
+      "slots_qb": 1,
+      "slots_rb": 2,
+      "slots_te": 1,
+      "slots_wr": 3,
+      "teams": 12
+    },
+    "sport": "nfl",
+    "start_time": 1721278310048,
+    "status": "complete",
+    "type": "snake"
+  }
+]

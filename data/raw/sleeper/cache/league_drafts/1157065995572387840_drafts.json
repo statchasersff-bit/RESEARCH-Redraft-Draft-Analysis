@@ -1,0 +1,63 @@
+[
+  {
+    "created": 1730228540071,
+    "creators": [
+      "875988377097388032"
+    ],
+    "draft_id": "1157065996360880128",
+    "draft_order": {
+      "1129247897289216000": 9,
+      "1135674622201987072": 16,
+      "1157396971309699072": 15,
+      "1157692340837126144": 3,
+      "1158452437917810688": 5,
+      "1158530104042061824": 10,
+      "1158602705120677888": 11,
+      "1159225803507576832": 17,
+      "1159528065073225728": 14,
+      "846444753464709120": 4,
+      "868224190761852928": 2,
+      "875988377097388032": 1,
+      "916843394696273920": 13
+    },
+    "last_message_id": "1160449390072520704",
+    "last_message_time": 1731035204001,
+    "last_picked": 1731035200494,
+    "league_id": "1157065995572387840",
+    "metadata": {
+      "description": "",
+      "name": "Mega league ppr",
+      "scoring_type": "2qb"
+    },
+    "season": "2024",
+    "season_type": "regular",
+    "settings": {
+      "alpha_sort": 0,
+      "autopause_enabled": 0,
+      "autopause_end_time": 900,
+      "autopause_start_time": 180,
+      "autostart": 0,
+      "cpu_autopick": 1,
+      "enforce_position_limits": 1,
+      "nomination_timer": 60,
+      "pick_timer": 60,
+      "player_type": 0,
+      "reversal_round": 0,
+      "rounds": 15,
+      "slots_bn": 5,
+      "slots_def": 1,
+      "slots_flex": 1,
+      "slots_k": 1,
+      "slots_qb": 1,
+      "slots_rb": 2,
+      "slots_super_flex": 1,
+      "slots_te": 1,
+      "slots_wr": 2,
+      "teams": 20
+    },
+    "sport": "nfl",
+    "start_time": 1731033070052,
+    "status": "complete",
+    "type": "linear"
+  }
+]

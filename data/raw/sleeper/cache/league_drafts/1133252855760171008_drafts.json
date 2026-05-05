@@ -1,0 +1,64 @@
+[
+  {
+    "created": 1724551044934,
+    "creators": [
+      "993419893703819264"
+    ],
+    "draft_id": "1133252855760171009",
+    "draft_order": {
+      "1126320389791096832": 8,
+      "474086263968755712": 12,
+      "697314505801162752": 9,
+      "741302376291586048": 7,
+      "744999641166282752": 1,
+      "854785777429753856": 4,
+      "859209225610588160": 10,
+      "861099367795392512": 2,
+      "872205881754996736": 6,
+      "982483033641033728": 5,
+      "992247432119480320": 11,
+      "993419893703819264": 3
+    },
+    "last_message_id": "1142325806039855104",
+    "last_message_time": 1726714204848,
+    "last_picked": 1726714203972,
+    "league_id": "1133252855760171008",
+    "metadata": {
+      "description": "",
+      "name": "FOOTBALL GODS ⚡️",
+      "scoring_type": "2qb"
+    },
+    "season": "2024",
+    "season_type": "regular",
+    "settings": {
+      "alpha_sort": 0,
+      "autopause_enabled": 0,
+      "autopause_end_time": 900,
+      "autopause_start_time": 180,
+      "autostart": 0,
+      "cpu_autopick": 1,
+      "enforce_position_limits": 1,
+      "nomination_timer": 60,
+      "pick_timer": 30,
+      "player_type": 0,
+      "position_limit_def": 2,
+      "position_limit_te": 3,
+      "reversal_round": 0,
+      "rounds": 17,
+      "slots_bn": 6,
+      "slots_def": 1,
+      "slots_flex": 2,
+      "slots_k": 1,
+      "slots_qb": 1,
+      "slots_rb": 2,
+      "slots_super_flex": 1,
+      "slots_te": 1,
+      "slots_wr": 2,
+      "teams": 12
+    },
+    "sport": "nfl",
+    "start_time": 1726707906552,
+    "status": "complete",
+    "type": "snake"
+  }
+]

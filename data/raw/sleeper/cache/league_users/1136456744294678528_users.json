@@ -1,0 +1,190 @@
+[
+  {
+    "avatar": "793bd4728c80d3b2024116b162737b7d",
+    "display_name": "Belltoadcrazy",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1136456744294678528",
+    "metadata": {
+      "allow_pn": "on",
+      "archived": "on",
+      "league_report_pn": "off",
+      "mascot_message": "on",
+      "mention_pn": "on",
+      "player_like_pn": "on",
+      "player_nickname_update": "on",
+      "team_name_update": "on",
+      "trade_block_pn": "on",
+      "transaction_commissioner": "on",
+      "transaction_free_agent": "off",
+      "transaction_trade": "on",
+      "transaction_waiver": "off",
+      "user_message_pn": "on"
+    },
+    "settings": null,
+    "user_id": "491605601248342016"
+  },
+  {
+    "avatar": "8c8e40691c9472fbe2378d4a197e0ca0",
+    "display_name": "thatdoggikid",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1136456744294678528",
+    "metadata": {
+      "allow_pn": "on",
+      "archived": "on",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "547239713299021824"
+  },
+  {
+    "avatar": "0d214f42b7d36a66d11251c3ffd61541",
+    "display_name": "jblzy",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1136456744294678528",
+    "metadata": {
+      "allow_pn": "on",
+      "archived": "on",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "552662842719023104"
+  },
+  {
+    "avatar": "32e4215e9810e2aa9e9311b97f7eef65",
+    "display_name": "Fanballers",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1136456744294678528",
+    "metadata": {
+      "allow_pn": "on",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "608868652086792192"
+  },
+  {
+    "avatar": "087309f1c45cb9e4f59fbd9ae5247108",
+    "display_name": "danjonesy",
+    "is_bot": false,
+    "is_owner": true,
+    "league_id": "1136456744294678528",
+    "metadata": {
+      "allow_pn": "on",
+      "archived": "off",
+      "avatar": "https://sleepercdn.com/uploads/d0c02d4107dc72de26fad16e98dda0d6.jpg",
+      "mascot_item_type_id_leg_1": "titan-up",
+      "mascot_item_type_id_leg_10": "titan-up",
+      "mascot_item_type_id_leg_11": "titan-up",
+      "mascot_item_type_id_leg_12": "titan-up",
+      "mascot_item_type_id_leg_13": "titan-up",
+      "mascot_item_type_id_leg_14": "titan-up",
+      "mascot_item_type_id_leg_15": "titan-up",
+      "mascot_item_type_id_leg_16": "titan-up",
+      "mascot_item_type_id_leg_17": "titan-up",
+      "mascot_item_type_id_leg_18": "titan-up",
+      "mascot_item_type_id_leg_2": "titan-up",
+      "mascot_item_type_id_leg_3": "titan-up",
+      "mascot_item_type_id_leg_4": "titan-up",
+      "mascot_item_type_id_leg_5": "titan-up",
+      "mascot_item_type_id_leg_6": "titan-up",
+      "mascot_item_type_id_leg_7": "titan-up",
+      "mascot_item_type_id_leg_8": "titan-up",
+      "mascot_item_type_id_leg_9": "titan-up",
+      "mascot_message_emotion_leg_1": "idle",
+      "mention_pn": "on",
+      "team_name": "Air Jordan"
+    },
+    "settings": null,
+    "user_id": "698802263199649792"
+  },
+  {
+    "avatar": "dae9a8fe0fcb6f6d06aee1ba7680630e",
+    "display_name": "SundSlimo",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1136456744294678528",
+    "metadata": {
+      "allow_pn": "off",
+      "archived": "on",
+      "avatar": "https://sleepercdn.com/uploads/782a0abdf71016fb5c686cc13f74120b.jpg",
+      "league_report_pn": "off",
+      "mascot_message": "off",
+      "mention_pn": "on",
+      "player_like_pn": "off",
+      "player_nickname_update": "off",
+      "team_name": "Jerry Krause",
+      "team_name_update": "off",
+      "trade_block_pn": "off",
+      "transaction_commissioner": "on",
+      "transaction_free_agent": "on",
+      "transaction_trade": "on",
+      "transaction_waiver": "on",
+      "user_message_pn": "off"
+    },
+    "settings": null,
+    "user_id": "698956479276863488"
+  },
+  {
+    "avatar": "c8ee7f1135f8cb129a0b3786818e4f9e",
+    "display_name": "RJonesii35",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1136456744294678528",
+    "metadata": {
+      "allow_pn": "on",
+      "archived": "on",
+      "avatar": "https://sleepercdn.com/uploads/f3e09cd5aef4355521760c04aed44a7d.jpg",
+      "mention_pn": "on",
+      "team_name": "Big Pippen"
+    },
+    "settings": null,
+    "user_id": "699374497052053504"
+  },
+  {
+    "avatar": "2d329463c2e3afcd9e5d94efb46e5e1b",
+    "display_name": "6oku",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1136456744294678528",
+    "metadata": {
+      "allow_pn": "on",
+      "archived": "off",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "711697074571284480"
+  },
+  {
+    "avatar": "de0be2578ef7a25dc96033f128741654",
+    "display_name": "FrankieMingle",
+    "is_bot": false,
+    "is_owner": false,
+    "league_id": "1136456744294678528",
+    "metadata": {
+      "allow_pn": "on",
+      "archived": "off",
+      "avatar": "https://sleepercdn.com/uploads/9cac528fddb047c4e20c9b9b4e2bf1c2.jpg",
+      "mention_pn": "on",
+      "team_name": "Dennis rodman"
+    },
+    "settings": null,
+    "user_id": "817853305140121600"
+  },
+  {
+    "avatar": "515d83f0b2bea363e4af1c492de2733c",
+    "display_name": "FlyEaglesFly0",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1136456744294678528",
+    "metadata": {
+      "allow_pn": "on",
+      "archived": "on",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "899086173350477824"
+  }
+]

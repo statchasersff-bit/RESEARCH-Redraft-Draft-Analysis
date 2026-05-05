@@ -1,0 +1,60 @@
+[
+  {
+    "created": 1704587004952,
+    "creators": [
+      "78936562976833536"
+    ],
+    "draft_id": "1049517603008004097",
+    "draft_order": {
+      "1034334986427617280": 2,
+      "341080946612711424": 7,
+      "474012849551699968": 3,
+      "562847132309848064": 11,
+      "685614253197029376": 1,
+      "716759169742503936": 10,
+      "731824861143470080": 5,
+      "735950081567657984": 8,
+      "78936562976833536": 4,
+      "976655832123240448": 9,
+      "979610977693908992": 6,
+      "988657855425318912": 12
+    },
+    "last_message_id": "1126682864893816832",
+    "last_message_time": 1722984637047,
+    "last_picked": 1722984635769,
+    "league_id": "1049517603008004096",
+    "metadata": {
+      "description": "",
+      "name": "The Keith Richardson invitational (KRI)",
+      "scoring_type": "2qb"
+    },
+    "season": "2024",
+    "season_type": "regular",
+    "settings": {
+      "alpha_sort": 0,
+      "autopause_enabled": 1,
+      "autopause_end_time": 780,
+      "autopause_start_time": 180,
+      "autostart": 0,
+      "cpu_autopick": 1,
+      "enforce_position_limits": 1,
+      "nomination_timer": 60,
+      "pick_timer": 14400,
+      "player_type": 0,
+      "reversal_round": 0,
+      "rounds": 18,
+      "slots_bn": 8,
+      "slots_flex": 2,
+      "slots_qb": 1,
+      "slots_rb": 2,
+      "slots_super_flex": 1,
+      "slots_te": 1,
+      "slots_wr": 3,
+      "teams": 12
+    },
+    "sport": "nfl",
+    "start_time": 1722454250312,
+    "status": "complete",
+    "type": "snake"
+  }
+]

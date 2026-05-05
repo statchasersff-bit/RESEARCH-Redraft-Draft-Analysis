@@ -1,0 +1,166 @@
+[
+  {
+    "avatar": "8eb8f8bf999945d523f2c4033f70473e",
+    "display_name": "jbhudson",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1136138438933782528",
+    "metadata": {
+      "allow_pn": "on",
+      "archived": "on",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "740313596801765376"
+  },
+  {
+    "avatar": "2311cd925d1d18d1c9fa984888a13083",
+    "display_name": "chickenman50",
+    "is_bot": false,
+    "is_owner": true,
+    "league_id": "1136138438933782528",
+    "metadata": {
+      "allow_pn": "on",
+      "archived": "on",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "758103603457523712"
+  },
+  {
+    "avatar": "0e77d4423f6fda6dd02f57a23e0c5c94",
+    "display_name": "DaEgg",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1136138438933782528",
+    "metadata": {
+      "allow_pn": "on",
+      "archived": "off",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "996187507035475968"
+  },
+  {
+    "avatar": "8eb8f8bf999945d523f2c4033f70473e",
+    "display_name": "Easye1399",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1136138438933782528",
+    "metadata": {
+      "allow_pn": "on",
+      "archived": "on",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "996925054027972608"
+  },
+  {
+    "avatar": "3502df5bcfa509259dea768a83814339",
+    "display_name": "P777",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1136138438933782528",
+    "metadata": {
+      "allow_pn": "on",
+      "archived": "on",
+      "league_report_pn": "on",
+      "mascot_message": "off",
+      "mention_pn": "on",
+      "player_like_pn": "on",
+      "player_nickname_update": "off",
+      "team_name_update": "off",
+      "trade_block_pn": "on",
+      "transaction_commissioner": "on",
+      "transaction_free_agent": "on",
+      "transaction_trade": "on",
+      "transaction_waiver": "on",
+      "user_message_pn": "on"
+    },
+    "settings": null,
+    "user_id": "1000129449410535424"
+  },
+  {
+    "avatar": "8eb8f8bf999945d523f2c4033f70473e",
+    "display_name": "rorylion",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1136138438933782528",
+    "metadata": {
+      "allow_pn": "off",
+      "archived": "on",
+      "league_report_pn": "on",
+      "mascot_message": "on",
+      "mention_pn": "on",
+      "player_like_pn": "on",
+      "player_nickname_update": "on",
+      "team_name_update": "on",
+      "trade_block_pn": "on",
+      "transaction_commissioner": "on",
+      "transaction_free_agent": "on",
+      "transaction_trade": "on",
+      "transaction_waiver": "on",
+      "user_message_pn": "off"
+    },
+    "settings": null,
+    "user_id": "1000166013784694784"
+  },
+  {
+    "avatar": "be1a4cdc06dcd8e9b801c64231b7a9ff",
+    "display_name": "CrazyAsianJoe",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1136138438933782528",
+    "metadata": {
+      "allow_pn": "on",
+      "archived": "on",
+      "mention_pn": "on",
+      "team_name": "Rice Rice Baby"
+    },
+    "settings": null,
+    "user_id": "1001390309185540096"
+  },
+  {
+    "avatar": "a3c1a80cfe9219229fddfa951930ecb8",
+    "display_name": "XenoMax",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1136138438933782528",
+    "metadata": {
+      "allow_pn": "on",
+      "archived": "on",
+      "avatar": "https://sleepercdn.com/uploads/06d3f58cd50d1c02d9dd6855ce555162.jpg",
+      "mention_pn": "on",
+      "team_name": "Hall & Goats"
+    },
+    "settings": null,
+    "user_id": "1002780563650048000"
+  },
+  {
+    "avatar": "15d7cf259bc30eab8f6120f45f652fb6",
+    "display_name": "diddyous",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1136138438933782528",
+    "metadata": {
+      "allow_pn": "on",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "1045615567794765824"
+  },
+  {
+    "avatar": "b3338675f635c2c1f42b469621d38ec6",
+    "display_name": "Dogg99",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1136138438933782528",
+    "metadata": {
+      "allow_pn": "on",
+      "mention_pn": "on",
+      "team_name": "Baby Back Gibbs"
+    },
+    "settings": null,
+    "user_id": "1057406102322708480"
+  }
+]

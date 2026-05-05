@@ -1,0 +1,45 @@
+[
+  {
+    "created": 1726159442491,
+    "creators": [
+      "734181481773174784"
+    ],
+    "draft_id": "1139998964109049856",
+    "draft_order": {
+      "1002047459603881984": 7,
+      "1002253422348918784": 11,
+      "734181481773174784": 5,
+      "993228676550426624": 2
+    },
+    "last_message_id": "1140075080228081664",
+    "last_message_time": 1726177589998,
+    "last_picked": 1726177589467,
+    "league_id": "1139998958534877184",
+    "metadata": {
+      "description": "",
+      "name": "200 Grand-2",
+      "scoring_type": "half_ppr"
+    },
+    "season": "2024",
+    "season_type": "regular",
+    "settings": {
+      "autostart": 0,
+      "cpu_autopick": 1,
+      "pick_timer": 120,
+      "rounds": 15,
+      "slots_bn": 5,
+      "slots_def": 1,
+      "slots_flex": 2,
+      "slots_k": 1,
+      "slots_qb": 1,
+      "slots_rb": 2,
+      "slots_te": 1,
+      "slots_wr": 2,
+      "teams": 12
+    },
+    "sport": "nfl",
+    "start_time": 1726175675775,
+    "status": "complete",
+    "type": "snake"
+  }
+]

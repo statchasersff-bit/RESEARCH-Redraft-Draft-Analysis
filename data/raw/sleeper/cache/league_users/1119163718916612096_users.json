@@ -1,0 +1,197 @@
+[
+  {
+    "avatar": "nfl_det",
+    "display_name": "greekdawg",
+    "is_bot": null,
+    "is_owner": null,
+    "league_id": "1119163718916612096",
+    "metadata": {
+      "allow_pn": "on",
+      "archived": "on",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "100908832284622848"
+  },
+  {
+    "avatar": "dbc24ffbfc27ae38b3d4f9f9a51d9b9c",
+    "display_name": "twinsanity",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1119163718916612096",
+    "metadata": {
+      "allow_pn": "on",
+      "archived": "on",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "374403908799352832"
+  },
+  {
+    "avatar": "9c8aecf4b02f8676176e66e5b44df3b2",
+    "display_name": "Nickbok24",
+    "is_bot": false,
+    "is_owner": true,
+    "league_id": "1119163718916612096",
+    "metadata": {
+      "allow_pn": "on",
+      "archived": "off",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "457001369958608896"
+  },
+  {
+    "avatar": "3c0b6501bd30f3cfd63850c76977067a",
+    "display_name": "Jblanco83",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1119163718916612096",
+    "metadata": {
+      "allow_pn": "off",
+      "archived": "on",
+      "league_report_pn": "off",
+      "mascot_message": "off",
+      "mention_pn": "on",
+      "player_like_pn": "off",
+      "player_nickname_update": "off",
+      "team_name_update": "off",
+      "trade_block_pn": "off",
+      "transaction_commissioner": "on",
+      "transaction_free_agent": "off",
+      "transaction_trade": "off",
+      "transaction_waiver": "off",
+      "user_message_pn": "off"
+    },
+    "settings": null,
+    "user_id": "457025092015091712"
+  },
+  {
+    "avatar": "50bea8ff18ee21c83a08eb33982ef54f",
+    "display_name": "KZR",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1119163718916612096",
+    "metadata": {
+      "allow_pn": "on",
+      "archived": "on",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "466351304818552832"
+  },
+  {
+    "avatar": "58bc0e6bd63fcc7efc94ef58a6165c81",
+    "display_name": "onnigcamp",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1119163718916612096",
+    "metadata": {
+      "allow_pn": "on",
+      "archived": "on",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "567216326543413248"
+  },
+  {
+    "avatar": "7fb450a5b9acf255a2a563067dcd7bbe",
+    "display_name": "alanpedroza",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1119163718916612096",
+    "metadata": {
+      "allow_pn": "on",
+      "archived": "on",
+      "mention_pn": "on",
+      "team_name": "The Jungle 🐅"
+    },
+    "settings": null,
+    "user_id": "595109793421656064"
+  },
+  {
+    "avatar": "354ebd187836b165fcb70f03ea876b58",
+    "display_name": "Murray4434",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1119163718916612096",
+    "metadata": {
+      "allow_pn": "on",
+      "archived": "on",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "739858549068488704"
+  },
+  {
+    "avatar": "6fcd7d9d8ea39da84f959b3c3f13efd3",
+    "display_name": "mrthiccdaddy",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1119163718916612096",
+    "metadata": {
+      "allow_pn": "on",
+      "archived": "on",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "740834354137313280"
+  },
+  {
+    "avatar": "34149c8631dfc29db3e5bfad1a353879",
+    "display_name": "xTELLYx",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1119163718916612096",
+    "metadata": {
+      "allow_pn": "off",
+      "archived": "on",
+      "avatar": "https://sleepercdn.com/uploads/984d066a9ca37978b308457832b79ebd.jpg",
+      "league_report_pn": "off",
+      "mascot_message": "off",
+      "mention_pn": "off",
+      "player_like_pn": "off",
+      "player_nickname_update": "off",
+      "team_name": "𝐓𝐞𝐥𝐥𝐲'𝐬 𝐖𝐨𝐫𝐥𝐝 🌎",
+      "team_name_update": "off",
+      "trade_block_pn": "off",
+      "transaction_commissioner": "off",
+      "transaction_free_agent": "off",
+      "transaction_trade": "off",
+      "transaction_waiver": "off",
+      "user_message_pn": "off"
+    },
+    "settings": null,
+    "user_id": "814319458003845120"
+  },
+  {
+    "avatar": "fa18f14ffd5645bdfd68514b595b9736",
+    "display_name": "CeeGoods",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1119163718916612096",
+    "metadata": {
+      "allow_pn": "on",
+      "archived": "off",
+      "mention_pn": "on",
+      "team_name": "Cooked 👨🏾‍🍳"
+    },
+    "settings": null,
+    "user_id": "841401429070577664"
+  },
+  {
+    "avatar": "0d83f8973945eb70478b38df46818dda",
+    "display_name": "BertJameson",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1119163718916612096",
+    "metadata": {
+      "allow_pn": "on",
+      "archived": "on",
+      "mention_pn": "on",
+      "team_name": "Cuntsmasher 3000"
+    },
+    "settings": null,
+    "user_id": "963325378112569344"
+  }
+]

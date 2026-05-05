@@ -1,0 +1,191 @@
+[
+  {
+    "avatar": "nfl_det",
+    "display_name": "greekdawg",
+    "is_bot": null,
+    "is_owner": null,
+    "league_id": "1130309745354665984",
+    "metadata": {
+      "allow_pn": "on",
+      "archived": "on",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "100908832284622848"
+  },
+  {
+    "avatar": "dc58aa6f125782ee9f5f2705b054e064",
+    "display_name": "mattshapshak",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1130309745354665984",
+    "metadata": {
+      "allow_pn": "on",
+      "archived": "on",
+      "mention_pn": "on",
+      "team_name": "Eliminated"
+    },
+    "settings": null,
+    "user_id": "442273528767574016"
+  },
+  {
+    "avatar": "3f5b9b9b6d62c3a0289703f49f1d9e4e",
+    "display_name": "MileHighMoney",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1130309745354665984",
+    "metadata": {
+      "allow_pn": "on",
+      "archived": "on",
+      "avatar": "https://sleepercdn.com/uploads/a05ecd93d5cf6313d8c07f91af763c9a.jpg",
+      "mention_pn": "on",
+      "team_name": "Love Hurts "
+    },
+    "settings": null,
+    "user_id": "591066536618270720"
+  },
+  {
+    "avatar": "dc3b39f77ffd6b27487d8ba41ec99767",
+    "display_name": "jdome31",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1130309745354665984",
+    "metadata": {
+      "allow_pn": "off",
+      "archived": "on",
+      "league_report_pn": "off",
+      "mascot_message": "off",
+      "mention_pn": "on",
+      "player_like_pn": "on",
+      "player_nickname_update": "off",
+      "team_name": "Elim",
+      "team_name_update": "off",
+      "trade_block_pn": "on",
+      "transaction_commissioner": "on",
+      "transaction_free_agent": "off",
+      "transaction_trade": "on",
+      "transaction_waiver": "off",
+      "user_message_pn": "off"
+    },
+    "settings": null,
+    "user_id": "604058045642772480"
+  },
+  {
+    "avatar": "20cd4c6cc441bf3d46cb8b5738470242",
+    "display_name": "fantasysuicidee",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1130309745354665984",
+    "metadata": {
+      "allow_pn": "on",
+      "archived": "on",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "715623704297562112"
+  },
+  {
+    "avatar": "2687735b4cbd9e6beea3cabe0d57cb4f",
+    "display_name": "Mdavis212",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1130309745354665984",
+    "metadata": {
+      "allow_pn": "on",
+      "archived": "on",
+      "mention_pn": "on",
+      "team_name": "out"
+    },
+    "settings": null,
+    "user_id": "717896443842588672"
+  },
+  {
+    "avatar": "10b3f27d9f94b36d502ad4590d8aac50",
+    "display_name": "brandonnn208",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1130309745354665984",
+    "metadata": {
+      "allow_pn": "on",
+      "archived": "off",
+      "mention_pn": "on",
+      "team_name": "$10 (100,20)"
+    },
+    "settings": null,
+    "user_id": "724328705224179712"
+  },
+  {
+    "avatar": "f0edbf4278f53f9425db175073df6584",
+    "display_name": "Kobeb248",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1130309745354665984",
+    "metadata": {
+      "allow_pn": "on",
+      "archived": "on",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "726324805208436736"
+  },
+  {
+    "avatar": "00dde01c84a96f750d46b6cc51ec540d",
+    "display_name": "WinnerCircle13",
+    "is_bot": false,
+    "is_owner": true,
+    "league_id": "1130309745354665984",
+    "metadata": {
+      "allow_pn": "on",
+      "archived": "on",
+      "avatar": "https://sleepercdn.com/uploads/7e8e1a7afab8602d1253b98157dbc529.jpg",
+      "mention_pn": "on",
+      "team_name": "Sam Bam Thank you Mam"
+    },
+    "settings": null,
+    "user_id": "732004539489714176"
+  },
+  {
+    "avatar": "4d531426ebc73bf4c4a02fbb367ea225",
+    "display_name": "jimbo1964",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1130309745354665984",
+    "metadata": {
+      "allow_pn": "on",
+      "archived": "on",
+      "avatar": "https://sleepercdn.com/uploads/2b22a2bf0e0ae6c2ced56bcdfba53f7f",
+      "mention_pn": "on",
+      "team_name": "Kittle Corn"
+    },
+    "settings": null,
+    "user_id": "956962521917800448"
+  },
+  {
+    "avatar": "bb16a7a17ecff55823bc472a1fdc1b56",
+    "display_name": "Kanpai",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1130309745354665984",
+    "metadata": {
+      "allow_pn": "on",
+      "archived": "on",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "997001957258612736"
+  },
+  {
+    "avatar": "2b19f4d42f1c0cf7973a4819c7421dfd",
+    "display_name": "jmeushaw",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1130309745354665984",
+    "metadata": {
+      "allow_pn": "on",
+      "archived": "on",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "1001546345347383296"
+  }
+]

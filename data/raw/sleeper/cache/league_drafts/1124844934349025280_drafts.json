@@ -1,0 +1,57 @@
+[
+  {
+    "created": 1722546440638,
+    "creators": [
+      "491605601248342016"
+    ],
+    "draft_id": "1124844935980744704",
+    "draft_order": {
+      "100908832284622848": 7,
+      "340593124973809664": 2,
+      "491605601248342016": 3,
+      "599755123371065344": 9,
+      "602206483702161408": 5,
+      "728707610144047104": 6,
+      "734767022667358208": 8,
+      "736610611319971840": 4,
+      "853529557129637888": 1,
+      "956962521917800448": 10
+    },
+    "last_message_id": "1124860698841853952",
+    "last_message_time": 1722550198807,
+    "last_picked": 1722550198112,
+    "league_id": "1124844934349025280",
+    "metadata": {
+      "description": "",
+      "name": "Toad redraft 30",
+      "scoring_type": "ppr"
+    },
+    "season": "2024",
+    "season_type": "regular",
+    "settings": {
+      "alpha_sort": 0,
+      "autopause_enabled": 0,
+      "autopause_end_time": 840,
+      "autopause_start_time": 120,
+      "autostart": 0,
+      "cpu_autopick": 1,
+      "enforce_position_limits": 1,
+      "nomination_timer": 60,
+      "pick_timer": 30,
+      "player_type": 0,
+      "reversal_round": 0,
+      "rounds": 17,
+      "slots_bn": 7,
+      "slots_flex": 4,
+      "slots_qb": 1,
+      "slots_rb": 2,
+      "slots_te": 1,
+      "slots_wr": 2,
+      "teams": 10
+    },
+    "sport": "nfl",
+    "start_time": 1722547966483,
+    "status": "complete",
+    "type": "snake"
+  }
+]

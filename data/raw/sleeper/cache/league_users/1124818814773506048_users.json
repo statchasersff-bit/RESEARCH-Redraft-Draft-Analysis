@@ -1,0 +1,156 @@
+[
+  {
+    "avatar": "7e2ad4c3bda220c1f569d9fededd92c9",
+    "display_name": "Jmagee77",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1124818814773506048",
+    "metadata": {
+      "allow_pn": "on",
+      "archived": "on",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "471350622633848832"
+  },
+  {
+    "avatar": "3958015f8c780853b081b2650e60b750",
+    "display_name": "chriscuts69",
+    "is_bot": false,
+    "is_owner": true,
+    "league_id": "1124818814773506048",
+    "metadata": {
+      "allow_pn": "on",
+      "allow_sms": "on",
+      "avatar": "https://sleepercdn.com/uploads/751ba3f052ca9c3126c45b2013e587cd.jpg",
+      "mention_pn": "on",
+      "team_name": "The Cumback Kiid"
+    },
+    "settings": null,
+    "user_id": "737861954009518080"
+  },
+  {
+    "avatar": "e7af4deab0289b4f5505646424895246",
+    "display_name": "GiacomoAtoadaso",
+    "is_bot": false,
+    "is_owner": false,
+    "league_id": "1124818814773506048",
+    "metadata": {
+      "allow_pn": "on",
+      "mention_pn": "on",
+      "team_name": "Your Barbers Barber"
+    },
+    "settings": null,
+    "user_id": "738112772214300672"
+  },
+  {
+    "avatar": "8eb8f8bf999945d523f2c4033f70473e",
+    "display_name": "anfinkelstein",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1124818814773506048",
+    "metadata": {
+      "allow_pn": "on",
+      "archived": "on",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "755625736819486720"
+  },
+  {
+    "avatar": "b319fdf8b7b5b0359d3c78622ba4d70c",
+    "display_name": "mikal54",
+    "is_bot": false,
+    "is_owner": false,
+    "league_id": "1124818814773506048",
+    "metadata": {
+      "allow_pn": "on",
+      "allow_sms": "on",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "995792978729848832"
+  },
+  {
+    "avatar": "15d7cf259bc30eab8f6120f45f652fb6",
+    "display_name": "delbon",
+    "is_bot": false,
+    "is_owner": false,
+    "league_id": "1124818814773506048",
+    "metadata": {
+      "allow_pn": "on",
+      "allow_sms": "on",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "995841349104648192"
+  },
+  {
+    "avatar": "b319fdf8b7b5b0359d3c78622ba4d70c",
+    "display_name": "jtc0613",
+    "is_bot": false,
+    "is_owner": false,
+    "league_id": "1124818814773506048",
+    "metadata": {
+      "allow_pn": "on",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "996131886328119296"
+  },
+  {
+    "avatar": "f0edbf4278f53f9425db175073df6584",
+    "display_name": "tbrisseau",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1124818814773506048",
+    "metadata": {
+      "allow_pn": "on",
+      "allow_sms": "on",
+      "avatar": "https://sleepercdn.com/uploads/9fa34696260e6a0710dd059309da5f6e.jpg",
+      "mention_pn": "on",
+      "team_name": "Hawk Tuah"
+    },
+    "settings": null,
+    "user_id": "1133484690461261824"
+  },
+  {
+    "avatar": "e7af4deab0289b4f5505646424895246",
+    "display_name": "apitzel9",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1124818814773506048",
+    "metadata": {
+      "allow_pn": "off",
+      "allow_sms": "on",
+      "league_report_pn": "on",
+      "mascot_message": "on",
+      "mention_pn": "on",
+      "player_like_pn": "on",
+      "player_nickname_update": "on",
+      "team_name_update": "on",
+      "trade_block_pn": "on",
+      "transaction_commissioner": "on",
+      "transaction_free_agent": "on",
+      "transaction_trade": "on",
+      "transaction_waiver": "on",
+      "user_message_pn": "on"
+    },
+    "settings": null,
+    "user_id": "1133486782311587840"
+  },
+  {
+    "avatar": "f0edbf4278f53f9425db175073df6584",
+    "display_name": "jbent19",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1124818814773506048",
+    "metadata": {
+      "allow_pn": "on",
+      "allow_sms": "on",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "1133486965179039744"
+  }
+]

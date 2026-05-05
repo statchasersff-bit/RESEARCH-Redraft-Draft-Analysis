@@ -1,0 +1,67 @@
+{
+  "created": 1722543937483,
+  "creators": [
+    "873543788591738880"
+  ],
+  "draft_id": "1124834436949479425",
+  "draft_order": {
+    "1005168700221231105": 10,
+    "1129513422435016704": 5,
+    "1136129533729931264": 8,
+    "471435119702306816": 9,
+    "609520796406198272": 1,
+    "741371441559302144": 6,
+    "780185023503515648": 2,
+    "854785777429753856": 4,
+    "873543788591738880": 3,
+    "98992666771341312": 7
+  },
+  "last_message_id": "1137230259696623616",
+  "last_message_time": 1725499331929,
+  "last_picked": 1725498896692,
+  "league_id": "1124834436949479424",
+  "metadata": {
+    "description": "",
+    "name": "The Just In Time League",
+    "scoring_type": "ppr"
+  },
+  "season": "2024",
+  "season_type": "regular",
+  "settings": {
+    "alpha_sort": 0,
+    "autopause_enabled": 0,
+    "autopause_end_time": 1020,
+    "autopause_start_time": 300,
+    "autostart": 0,
+    "cpu_autopick": 1,
+    "enforce_position_limits": 1,
+    "nomination_timer": 60,
+    "pick_timer": 60,
+    "player_type": 0,
+    "reversal_round": 0,
+    "rounds": 16,
+    "slots_bn": 6,
+    "slots_flex": 4,
+    "slots_qb": 1,
+    "slots_rb": 2,
+    "slots_te": 1,
+    "slots_wr": 2,
+    "teams": 10
+  },
+  "slot_to_roster_id": {
+    "1": 5,
+    "2": 8,
+    "3": 1,
+    "4": 2,
+    "5": 10,
+    "6": 7,
+    "7": 3,
+    "8": 9,
+    "9": 4,
+    "10": 6
+  },
+  "sport": "nfl",
+  "start_time": 1725494450937,
+  "status": "complete",
+  "type": "snake"
+}

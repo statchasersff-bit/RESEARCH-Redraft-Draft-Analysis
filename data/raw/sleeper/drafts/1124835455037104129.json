@@ -1,0 +1,73 @@
+{
+  "created": 1722544180214,
+  "creators": [
+    "854768177782042624"
+  ],
+  "draft_id": "1124835455037104129",
+  "draft_order": {
+    "1129987709390405632": 1,
+    "461236927358562304": 5,
+    "472915796499099648": 12,
+    "575912744956588032": 2,
+    "611369433939771392": 6,
+    "740271379143901184": 8,
+    "810041700939579392": 10,
+    "854768177782042624": 11,
+    "854785777429753856": 3,
+    "854791668279382016": 7,
+    "996461021445378048": 4,
+    "996508668021657600": 9
+  },
+  "last_message_id": "1133990034014838784",
+  "last_message_time": 1724726801926,
+  "last_picked": 1724726711059,
+  "league_id": "1124835455037104128",
+  "metadata": {
+    "description": "",
+    "name": "Mega Mattress Mart",
+    "scoring_type": "half_ppr"
+  },
+  "season": "2024",
+  "season_type": "regular",
+  "settings": {
+    "alpha_sort": 0,
+    "autopause_enabled": 0,
+    "autopause_end_time": 900,
+    "autopause_start_time": 180,
+    "autostart": 1,
+    "cpu_autopick": 1,
+    "enforce_position_limits": 1,
+    "nomination_timer": 60,
+    "pick_timer": 90,
+    "player_type": 0,
+    "reversal_round": 0,
+    "rounds": 15,
+    "slots_bn": 5,
+    "slots_def": 1,
+    "slots_flex": 2,
+    "slots_k": 1,
+    "slots_qb": 1,
+    "slots_rb": 2,
+    "slots_te": 1,
+    "slots_wr": 2,
+    "teams": 12
+  },
+  "slot_to_roster_id": {
+    "1": 9,
+    "2": 11,
+    "3": 4,
+    "4": 3,
+    "5": 7,
+    "6": 8,
+    "7": 12,
+    "8": 5,
+    "9": 10,
+    "10": 6,
+    "11": 1,
+    "12": 2
+  },
+  "sport": "nfl",
+  "start_time": 1724721304171,
+  "status": "complete",
+  "type": "snake"
+}

@@ -1,0 +1,156 @@
+[
+  {
+    "avatar": "a285fc0055b4edc6cf6be237b541f608",
+    "display_name": "bamaranks",
+    "is_bot": false,
+    "is_owner": true,
+    "league_id": "1150158428573310976",
+    "metadata": {
+      "allow_pn": "on",
+      "allow_sms": "on",
+      "archived": "off",
+      "avatar": "https://sleepercdn.com/uploads/e88286495b6e5dba3161184d218253aa.jpg",
+      "mention_pn": "on",
+      "team_name": "Geaux Saints Geaux "
+    },
+    "settings": null,
+    "user_id": "481606018141253632"
+  },
+  {
+    "avatar": "94598e70a69020773a2006026523700a",
+    "display_name": "NINOBROWN1",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1150158428573310976",
+    "metadata": {
+      "allow_pn": "on",
+      "allow_sms": "on",
+      "archived": "on",
+      "mention_pn": "on",
+      "team_name": "Nino Brown"
+    },
+    "settings": null,
+    "user_id": "604800628983685120"
+  },
+  {
+    "avatar": "67e801e887caf122f66d1dbd7bb06137",
+    "display_name": "alohamade",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1150158428573310976",
+    "metadata": {
+      "allow_pn": "on",
+      "archived": "off",
+      "avatar": "https://sleepercdn.com/uploads/7bdf57514f82eae71a5e47771ac9e3ea.jpg",
+      "mention_pn": "on",
+      "team_name": "Mooney Toons"
+    },
+    "settings": null,
+    "user_id": "875476474419912704"
+  },
+  {
+    "avatar": "e50fe1ef62e1b412fb41735f0154d7b5",
+    "display_name": "GrittyGrinders",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1150158428573310976",
+    "metadata": {
+      "allow_pn": "on",
+      "allow_sms": "on",
+      "archived": "on",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "1000488762083733504"
+  },
+  {
+    "avatar": "a6d049340c59f04115f9c4c1f01f01b2",
+    "display_name": "Hayden927",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1150158428573310976",
+    "metadata": {
+      "allow_pn": "on",
+      "archived": "off",
+      "avatar": "https://sleepercdn.com/uploads/a27f47e24dd49ff89f03addcb7f934f8.jpg",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "1001970171612938240"
+  },
+  {
+    "avatar": "f0edbf4278f53f9425db175073df6584",
+    "display_name": "liamphan",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1150158428573310976",
+    "metadata": {
+      "allow_pn": "on",
+      "allow_sms": "on",
+      "archived": "on",
+      "mention_pn": "on",
+      "team_name": "The J Team"
+    },
+    "settings": null,
+    "user_id": "1004151040268181504"
+  },
+  {
+    "avatar": "4f4090e5e9c3941414db40a871e3e909",
+    "display_name": "GPMxLOSE",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1150158428573310976",
+    "metadata": {
+      "allow_pn": "on",
+      "allow_sms": "on",
+      "archived": "on",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "1020218486892650496"
+  },
+  {
+    "avatar": "71e2eea7de74cd120fdee262a4c821c4",
+    "display_name": "Rissaup",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1150158428573310976",
+    "metadata": {
+      "allow_pn": "on",
+      "allow_sms": "on",
+      "archived": "on",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "1140217483107024896"
+  },
+  {
+    "avatar": "9ed00c07f03895358b6da9b75e4c460e",
+    "display_name": "agsilencer",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1150158428573310976",
+    "metadata": {
+      "allow_pn": "on",
+      "avatar": "https://sleepercdn.com/uploads/efdb3088819534aecbbd715950753125.jpg",
+      "mention_pn": "on",
+      "team_name": "The A-Team"
+    },
+    "settings": null,
+    "user_id": "1150263587693981696"
+  },
+  {
+    "avatar": "ac85a7d5e34a21553b15a46962a8cfea",
+    "display_name": "sbaah77",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1150158428573310976",
+    "metadata": {
+      "allow_pn": "on",
+      "allow_sms": "on",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "1150777767210938368"
+  }
+]

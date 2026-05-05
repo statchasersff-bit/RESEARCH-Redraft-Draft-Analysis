@@ -105,3 +105,9 @@ Located in `scripts/src/`:
 - `fetch_sleeper_redraft_data.ts` — fetches and caches Sleeper API data
 - `analyze_redraft_strategy.ts` — validates leagues, builds team profiles, runs analysis
 - `update_redraft_strategy.ts` — orchestrates the full pipeline (entry point)
+
+## Gotchas
+
+- **API server path**: `redraft.ts` resolves `data/output` with `../../../` from `dist/` (3 levels up to workspace root). Using 4+ levels overshoots outside workspace.
+- **Pipeline performance**: Step 3 fetches 530 leagues in parallel batches of 50 (not sequentially). The `analyzeAll` round-value loop had a dead O(n³) `flatMap` inside a filter callback — removed. Pipeline now completes in ~45s total.
+- **`redraft:update` re-runs are safe**: all Sleeper API responses are cached under `data/raw/sleeper/`. Only use `--refresh` to force re-fetch from the live API.

@@ -1,0 +1,162 @@
+[
+  {
+    "avatar": "15d7cf259bc30eab8f6120f45f652fb6",
+    "display_name": "NickTheGreat2121",
+    "is_bot": false,
+    "is_owner": true,
+    "league_id": "1144006430585004032",
+    "metadata": {
+      "allow_pn": "on",
+      "allow_sms": "on",
+      "archived": "on",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "832023522799890432"
+  },
+  {
+    "avatar": "15d7cf259bc30eab8f6120f45f652fb6",
+    "display_name": "beastbrody111",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1144006430585004032",
+    "metadata": {
+      "allow_pn": "on",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "866777403421265920"
+  },
+  {
+    "avatar": "a2fbe0364da8744eb16b372abd52b821",
+    "display_name": "GTMike11",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1144006430585004032",
+    "metadata": {
+      "allow_pn": "off",
+      "allow_sms": "on",
+      "avatar": "https://sleepercdn.com/uploads/a9fe885c98939d15127878fbbdc63da1.jpg",
+      "league_report_pn": "on",
+      "mascot_message": "on",
+      "mention_pn": "on",
+      "player_like_pn": "on",
+      "player_nickname_update": "on",
+      "team_name_update": "on",
+      "trade_block_pn": "on",
+      "transaction_commissioner": "on",
+      "transaction_free_agent": "on",
+      "transaction_trade": "on",
+      "transaction_waiver": "on",
+      "user_message_pn": "on"
+    },
+    "settings": null,
+    "user_id": "875915621509042176"
+  },
+  {
+    "avatar": "b319fdf8b7b5b0359d3c78622ba4d70c",
+    "display_name": "loganismyslogan",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1144006430585004032",
+    "metadata": {
+      "allow_pn": "on",
+      "archived": "on",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "885548330455904256"
+  },
+  {
+    "avatar": "4f4090e5e9c3941414db40a871e3e909",
+    "display_name": "stefonDiggsmoney3",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1144006430585004032",
+    "metadata": {
+      "allow_pn": "on",
+      "archived": "on",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "1118678669683183616"
+  },
+  {
+    "avatar": "be4873080fe797b2a3f406bf9cda092b",
+    "display_name": "ruchman89",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1144006430585004032",
+    "metadata": {
+      "allow_pn": "on",
+      "archived": "on",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "1130672224496873472"
+  },
+  {
+    "avatar": "82aec8e811b839b8ec25d7b458afd57b",
+    "display_name": "shene24",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1144006430585004032",
+    "metadata": {
+      "allow_pn": "off",
+      "league_report_pn": "off",
+      "mascot_message": "off",
+      "mention_pn": "on",
+      "player_like_pn": "on",
+      "player_nickname_update": "off",
+      "team_name_update": "off",
+      "trade_block_pn": "on",
+      "transaction_commissioner": "on",
+      "transaction_free_agent": "on",
+      "transaction_trade": "on",
+      "transaction_waiver": "on",
+      "user_message_pn": "off"
+    },
+    "settings": null,
+    "user_id": "1130944639155994624"
+  },
+  {
+    "avatar": "3e98f56c666f6c34e6fe8557442dd20a",
+    "display_name": "steelcurtian10",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1144006430585004032",
+    "metadata": {
+      "allow_pn": "on",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "1142130433556226048"
+  },
+  {
+    "avatar": "f0edbf4278f53f9425db175073df6584",
+    "display_name": "OJCruz37",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1144006430585004032",
+    "metadata": {
+      "allow_pn": "on",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "1143476444325240832"
+  },
+  {
+    "avatar": "a4d51e4bca3a71aba10b60426125f7fa",
+    "display_name": "HannahHobbs2003",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1144006430585004032",
+    "metadata": {
+      "allow_pn": "on",
+      "archived": "on",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "1143763310988025856"
+  }
+]

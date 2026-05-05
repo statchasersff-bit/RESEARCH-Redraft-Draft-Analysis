@@ -1,0 +1,164 @@
+[
+  {
+    "avatar": "9fa6ad693bfe0d476fd72aa1daf829f3",
+    "display_name": "Mybossthinksimworkin",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1135344020324036608",
+    "metadata": {
+      "allow_pn": "on",
+      "archived": "on",
+      "mention_pn": "on",
+      "team_name": "First Downs Syndrome"
+    },
+    "settings": null,
+    "user_id": "736958371839766528"
+  },
+  {
+    "avatar": "64d427a2b56d10fac57774c56f1e0519",
+    "display_name": "ReyDilliard",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1135344020324036608",
+    "metadata": {
+      "allow_pn": "off",
+      "archived": "on",
+      "avatar": "https://sleepercdn.com/uploads/7dc59312a71240fe9932db6d23b14749.jpg",
+      "league_report_pn": "on",
+      "mascot_message": "on",
+      "mention_pn": "on",
+      "player_like_pn": "on",
+      "player_nickname_update": "on",
+      "team_name": "Seattle Cattle",
+      "team_name_update": "on",
+      "trade_block_pn": "on",
+      "transaction_commissioner": "on",
+      "transaction_free_agent": "on",
+      "transaction_trade": "on",
+      "transaction_waiver": "on",
+      "user_message_pn": "on"
+    },
+    "settings": null,
+    "user_id": "737063003475832832"
+  },
+  {
+    "avatar": "4f4090e5e9c3941414db40a871e3e909",
+    "display_name": "JJCox20",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1135344020324036608",
+    "metadata": {
+      "allow_pn": "on",
+      "archived": "on",
+      "avatar": "https://sleepercdn.com/uploads/d6627df2fc5c0f5799649be1eea63439",
+      "mention_pn": "on",
+      "team_name": "Snyder PTSD"
+    },
+    "settings": null,
+    "user_id": "741044939948998656"
+  },
+  {
+    "avatar": "8eb8f8bf999945d523f2c4033f70473e",
+    "display_name": "zachbuster",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1135344020324036608",
+    "metadata": {
+      "allow_pn": "on",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "958250559578906624"
+  },
+  {
+    "avatar": "f0edbf4278f53f9425db175073df6584",
+    "display_name": "bezrr",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1135344020324036608",
+    "metadata": {
+      "allow_pn": "on",
+      "archived": "on",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "992332384374722560"
+  },
+  {
+    "avatar": "e7af4deab0289b4f5505646424895246",
+    "display_name": "logan010321",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1135344020324036608",
+    "metadata": {
+      "allow_pn": "on",
+      "archived": "off",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "997386292822401024"
+  },
+  {
+    "avatar": "e50fe1ef62e1b412fb41735f0154d7b5",
+    "display_name": "GrittyGrinders",
+    "is_bot": false,
+    "is_owner": true,
+    "league_id": "1135344020324036608",
+    "metadata": {
+      "allow_pn": "on",
+      "archived": "on",
+      "mention_pn": "on",
+      "team_name": "MightHurts"
+    },
+    "settings": null,
+    "user_id": "1000488762083733504"
+  },
+  {
+    "avatar": "3c7d8b7db5404c9dd3a87cbe8dcd3713",
+    "display_name": "Bclapz",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1135344020324036608",
+    "metadata": {
+      "allow_pn": "on",
+      "archived": "on",
+      "avatar": "https://sleepercdn.com/uploads/0e94b04d0cfa66ced9f2481fdd512008.jpg",
+      "mention_pn": "on",
+      "team_name": "Gawlee Godwin 😯"
+    },
+    "settings": null,
+    "user_id": "1009287756424245248"
+  },
+  {
+    "avatar": "a69bcdc607d0c2810e4c1f6ea4b2fc73",
+    "display_name": "jayysickko",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1135344020324036608",
+    "metadata": {
+      "allow_pn": "on",
+      "allow_sms": "on",
+      "archived": "on",
+      "mention_pn": "on",
+      "team_name": "WaverWireDemon🤷🏾‍♂️"
+    },
+    "settings": null,
+    "user_id": "1009367116623482880"
+  },
+  {
+    "avatar": "68e000cb44590df04c92217d6e673e76",
+    "display_name": "jeffthedealer",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1135344020324036608",
+    "metadata": {
+      "allow_pn": "on",
+      "allow_sms": "on",
+      "archived": "on",
+      "mention_pn": "on",
+      "team_name": "Yuck Fou"
+    },
+    "settings": null,
+    "user_id": "1131714107557855232"
+  }
+]

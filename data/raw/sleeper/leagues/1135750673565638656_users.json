@@ -1,0 +1,144 @@
+[
+  {
+    "avatar": "4f4090e5e9c3941414db40a871e3e909",
+    "display_name": "Monster70",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1135750673565638656",
+    "metadata": {
+      "allow_pn": "on",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "970745386128207872"
+  },
+  {
+    "avatar": "4f4090e5e9c3941414db40a871e3e909",
+    "display_name": "tgwaldrop94",
+    "is_bot": false,
+    "is_owner": true,
+    "league_id": "1135750673565638656",
+    "metadata": {
+      "allow_pn": "on",
+      "mention_pn": "on",
+      "team_name": "From A to Zeke"
+    },
+    "settings": null,
+    "user_id": "998309888314904576"
+  },
+  {
+    "avatar": "15d7cf259bc30eab8f6120f45f652fb6",
+    "display_name": "StWalle",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1135750673565638656",
+    "metadata": {
+      "allow_pn": "on",
+      "allow_sms": "on",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "998344917795627008"
+  },
+  {
+    "avatar": "f0edbf4278f53f9425db175073df6584",
+    "display_name": "tallmike1",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1135750673565638656",
+    "metadata": {
+      "allow_pn": "on",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "998856777821241344"
+  },
+  {
+    "avatar": "4de202f8be36912b6a81be2a14132b47",
+    "display_name": "OGtheScientist",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1135750673565638656",
+    "metadata": {
+      "allow_pn": "on",
+      "archived": "on",
+      "avatar": "https://sleepercdn.com/uploads/1b5db8accd4062612cee8a872e50d2ba.jpg",
+      "mention_pn": "on",
+      "team_name": "The Mushroom Caps"
+    },
+    "settings": null,
+    "user_id": "1002669065393000448"
+  },
+  {
+    "avatar": "0dd3474272433f9c858dc0837d67eea2",
+    "display_name": "Preatigeworldwide",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1135750673565638656",
+    "metadata": {
+      "allow_pn": "on",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "1005044857250926592"
+  },
+  {
+    "avatar": "f0edbf4278f53f9425db175073df6584",
+    "display_name": "mclovinishere",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1135750673565638656",
+    "metadata": {
+      "allow_pn": "on",
+      "archived": "off",
+      "mention_pn": "on",
+      "team_name": "Racing With Ruggs"
+    },
+    "settings": null,
+    "user_id": "1122846083891183616"
+  },
+  {
+    "avatar": "15d7cf259bc30eab8f6120f45f652fb6",
+    "display_name": "footmuncher05",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1135750673565638656",
+    "metadata": {
+      "allow_pn": "on",
+      "allow_sms": "on",
+      "avatar": "https://sleepercdn.com/uploads/00805f2603907c23a1b3e564b8b7114a.jpg",
+      "mention_pn": "on",
+      "team_name": "Destructible Bunnies"
+    },
+    "settings": null,
+    "user_id": "1135752396795457536"
+  },
+  {
+    "avatar": "b319fdf8b7b5b0359d3c78622ba4d70c",
+    "display_name": "ToInfinitiandBijan",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1135750673565638656",
+    "metadata": {
+      "allow_pn": "on",
+      "allow_sms": "on",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "1135752408132759552"
+  },
+  {
+    "avatar": "e7af4deab0289b4f5505646424895246",
+    "display_name": "ZachsWifey",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1135750673565638656",
+    "metadata": {
+      "allow_pn": "on",
+      "allow_sms": "on",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "1135761234307022848"
+  }
+]
