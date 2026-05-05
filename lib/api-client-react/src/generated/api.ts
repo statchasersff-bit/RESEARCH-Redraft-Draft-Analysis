@@ -21,6 +21,8 @@ import type {
   RedraftFirstFiveBuilds,
   RedraftFirstTwoPicks,
   RedraftLeagueAudit,
+  RedraftNegativeStrategies,
+  RedraftPlayoffMissRisk,
   RedraftRecommendations,
   RedraftRoundValue,
   RedraftSummary,
@@ -720,6 +722,167 @@ export function useGetRedraftLeagueAudit<
   request?: SecondParameter<typeof customFetch>;
 }): UseQueryResult<TData, TError> & { queryKey: QueryKey } {
   const queryOptions = getGetRedraftLeagueAuditQueryOptions(options);
+
+  const query = useQuery(queryOptions) as UseQueryResult<TData, TError> & {
+    queryKey: QueryKey;
+  };
+
+  return { ...query, queryKey: queryOptions.queryKey };
+}
+
+/**
+ * Returns flagged negative and strong-negative strategies with explanations, grouped by format context
+ * @summary Get strategies that consistently underperform (miss playoffs)
+ */
+export const getGetRedraftNegativeStrategiesUrl = () => {
+  return `/api/redraft/negative-strategies`;
+};
+
+export const getRedraftNegativeStrategies = async (
+  options?: RequestInit,
+): Promise<RedraftNegativeStrategies> => {
+  return customFetch<RedraftNegativeStrategies>(
+    getGetRedraftNegativeStrategiesUrl(),
+    {
+      ...options,
+      method: "GET",
+    },
+  );
+};
+
+export const getGetRedraftNegativeStrategiesQueryKey = () => {
+  return [`/api/redraft/negative-strategies`] as const;
+};
+
+export const getGetRedraftNegativeStrategiesQueryOptions = <
+  TData = Awaited<ReturnType<typeof getRedraftNegativeStrategies>>,
+  TError = ErrorType<ApiError>,
+>(options?: {
+  query?: UseQueryOptions<
+    Awaited<ReturnType<typeof getRedraftNegativeStrategies>>,
+    TError,
+    TData
+  >;
+  request?: SecondParameter<typeof customFetch>;
+}) => {
+  const { query: queryOptions, request: requestOptions } = options ?? {};
+
+  const queryKey =
+    queryOptions?.queryKey ?? getGetRedraftNegativeStrategiesQueryKey();
+
+  const queryFn: QueryFunction<
+    Awaited<ReturnType<typeof getRedraftNegativeStrategies>>
+  > = ({ signal }) =>
+    getRedraftNegativeStrategies({ signal, ...requestOptions });
+
+  return { queryKey, queryFn, ...queryOptions } as UseQueryOptions<
+    Awaited<ReturnType<typeof getRedraftNegativeStrategies>>,
+    TError,
+    TData
+  > & { queryKey: QueryKey };
+};
+
+export type GetRedraftNegativeStrategiesQueryResult = NonNullable<
+  Awaited<ReturnType<typeof getRedraftNegativeStrategies>>
+>;
+export type GetRedraftNegativeStrategiesQueryError = ErrorType<ApiError>;
+
+/**
+ * @summary Get strategies that consistently underperform (miss playoffs)
+ */
+
+export function useGetRedraftNegativeStrategies<
+  TData = Awaited<ReturnType<typeof getRedraftNegativeStrategies>>,
+  TError = ErrorType<ApiError>,
+>(options?: {
+  query?: UseQueryOptions<
+    Awaited<ReturnType<typeof getRedraftNegativeStrategies>>,
+    TError,
+    TData
+  >;
+  request?: SecondParameter<typeof customFetch>;
+}): UseQueryResult<TData, TError> & { queryKey: QueryKey } {
+  const queryOptions = getGetRedraftNegativeStrategiesQueryOptions(options);
+
+  const query = useQuery(queryOptions) as UseQueryResult<TData, TError> & {
+    queryKey: QueryKey;
+  };
+
+  return { ...query, queryKey: queryOptions.queryKey };
+}
+
+/**
+ * Returns miss probability, relative risk vs baseline, and percentile rank for every strategy
+ * @summary Get playoff miss risk data for all strategies
+ */
+export const getGetRedraftPlayoffMissRiskUrl = () => {
+  return `/api/redraft/playoff-miss-risk`;
+};
+
+export const getRedraftPlayoffMissRisk = async (
+  options?: RequestInit,
+): Promise<RedraftPlayoffMissRisk> => {
+  return customFetch<RedraftPlayoffMissRisk>(
+    getGetRedraftPlayoffMissRiskUrl(),
+    {
+      ...options,
+      method: "GET",
+    },
+  );
+};
+
+export const getGetRedraftPlayoffMissRiskQueryKey = () => {
+  return [`/api/redraft/playoff-miss-risk`] as const;
+};
+
+export const getGetRedraftPlayoffMissRiskQueryOptions = <
+  TData = Awaited<ReturnType<typeof getRedraftPlayoffMissRisk>>,
+  TError = ErrorType<ApiError>,
+>(options?: {
+  query?: UseQueryOptions<
+    Awaited<ReturnType<typeof getRedraftPlayoffMissRisk>>,
+    TError,
+    TData
+  >;
+  request?: SecondParameter<typeof customFetch>;
+}) => {
+  const { query: queryOptions, request: requestOptions } = options ?? {};
+
+  const queryKey =
+    queryOptions?.queryKey ?? getGetRedraftPlayoffMissRiskQueryKey();
+
+  const queryFn: QueryFunction<
+    Awaited<ReturnType<typeof getRedraftPlayoffMissRisk>>
+  > = ({ signal }) => getRedraftPlayoffMissRisk({ signal, ...requestOptions });
+
+  return { queryKey, queryFn, ...queryOptions } as UseQueryOptions<
+    Awaited<ReturnType<typeof getRedraftPlayoffMissRisk>>,
+    TError,
+    TData
+  > & { queryKey: QueryKey };
+};
+
+export type GetRedraftPlayoffMissRiskQueryResult = NonNullable<
+  Awaited<ReturnType<typeof getRedraftPlayoffMissRisk>>
+>;
+export type GetRedraftPlayoffMissRiskQueryError = ErrorType<ApiError>;
+
+/**
+ * @summary Get playoff miss risk data for all strategies
+ */
+
+export function useGetRedraftPlayoffMissRisk<
+  TData = Awaited<ReturnType<typeof getRedraftPlayoffMissRisk>>,
+  TError = ErrorType<ApiError>,
+>(options?: {
+  query?: UseQueryOptions<
+    Awaited<ReturnType<typeof getRedraftPlayoffMissRisk>>,
+    TError,
+    TData
+  >;
+  request?: SecondParameter<typeof customFetch>;
+}): UseQueryResult<TData, TError> & { queryKey: QueryKey } {
+  const queryOptions = getGetRedraftPlayoffMissRiskQueryOptions(options);
 
   const query = useQuery(queryOptions) as UseQueryResult<TData, TError> & {
     queryKey: QueryKey;

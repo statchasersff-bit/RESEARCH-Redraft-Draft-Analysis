@@ -9,6 +9,7 @@ import { FormatSection } from "@/components/analytics/FormatSection";
 import { RecommendationCards } from "@/components/analytics/RecommendationCards";
 import { LeagueAuditTable } from "@/components/analytics/LeagueAuditTable";
 import { RoundValueTable } from "@/components/analytics/RoundValueTable";
+import { NegativeStrategies } from "@/components/analytics/NegativeStrategies";
 import { NoDataState } from "@/components/analytics/NoDataState";
 import { Skeleton } from "@/components/ui/skeleton";
 import {
@@ -20,6 +21,8 @@ import {
   useGetRedraftRoundValue,
   useGetRedraftRecommendations,
   useGetRedraftLeagueAudit,
+  useGetRedraftNegativeStrategies,
+  useGetRedraftPlayoffMissRisk,
 } from "@workspace/api-client-react";
 import { ChevronDown } from "lucide-react";
 
@@ -111,6 +114,8 @@ export default function Dashboard() {
   const { data: roundValue, isLoading: roundValueLoading } = useGetRedraftRoundValue();
   const { data: recommendations, isLoading: recsLoading } = useGetRedraftRecommendations();
   const { data: audit, isLoading: auditLoading } = useGetRedraftLeagueAudit();
+  const { data: negativeStrategies, isLoading: negativeLoading } = useGetRedraftNegativeStrategies();
+  const { data: playoffMissRisk, isLoading: missRiskLoading } = useGetRedraftPlayoffMissRisk();
 
   // Show no-data state when summary returns 404
   const isNoData = summaryError && (summaryError as { status?: number })?.status === 404;
@@ -334,6 +339,19 @@ export default function Dashboard() {
                 )}
               </>
             )}
+          </section>
+
+          {/* ── Negative Strategies ─────────────────────────────────────── */}
+          <section data-testid="negative-strategies">
+            <SectionHeader
+              title="Draft Strategies That Miss the Playoffs"
+              sub="Strategies that consistently underperformed in this sample. Avoid unless league-specific conditions justify them."
+            />
+            <NegativeStrategies
+              negativeData={negativeStrategies as any}
+              missRiskData={playoffMissRisk as any}
+              isLoading={negativeLoading || missRiskLoading}
+            />
           </section>
 
           {/* ── League Audit ─────────────────────────────────────────────── */}

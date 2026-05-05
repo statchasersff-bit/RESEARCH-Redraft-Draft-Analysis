@@ -187,6 +187,46 @@ paths:
               schema:
                 $ref: "#/components/schemas/ApiError"
 
+  /redraft/negative-strategies:
+    get:
+      operationId: getRedraftNegativeStrategies
+      tags: [redraft]
+      summary: Get strategies that consistently underperform (miss playoffs)
+      description: Returns flagged negative and strong-negative strategies with explanations, grouped by format context
+      responses:
+        "200":
+          description: Negative strategies data
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/RedraftNegativeStrategies"
+        "404":
+          description: No data available yet
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/ApiError"
+
+  /redraft/playoff-miss-risk:
+    get:
+      operationId: getRedraftPlayoffMissRisk
+      tags: [redraft]
+      summary: Get playoff miss risk data for all strategies
+      description: Returns miss probability, relative risk vs baseline, and percentile rank for every strategy
+      responses:
+        "200":
+          description: Playoff miss risk data
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/RedraftPlayoffMissRisk"
+        "404":
+          description: No data available yet
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/ApiError"
+
 components:
   schemas:
     HealthStatus:
@@ -572,4 +612,115 @@ components:
       required:
         - generated_at
         - total_leagues
+        - entries
+
+    NegativeStrategyEntry:
+      type: object
+      properties:
+        strategy_name:
+          type: string
+        format_context:
+          type: string
+        sample_size:
+          type: integer
+        playoff_rate:
+          type: number
+        playoff_rate_lift:
+          type: number
+        championship_rate:
+          type: number
+        top_3_pf_rate:
+          type: number
+        average_points_for:
+          type: number
+        confidence_level:
+          type: string
+        severity:
+          type: string
+          enum: [negative, strong_negative]
+        explanation:
+          type: string
+      required:
+        - strategy_name
+        - sample_size
+        - playoff_rate
+        - playoff_rate_lift
+        - severity
+        - explanation
+
+    RedraftNegativeStrategies:
+      type: object
+      properties:
+        generated_at:
+          type: string
+        overall:
+          type: array
+          items:
+            $ref: "#/components/schemas/NegativeStrategyEntry"
+        by_league_size:
+          type: object
+          additionalProperties:
+            type: array
+            items:
+              $ref: "#/components/schemas/NegativeStrategyEntry"
+        by_qb_format:
+          type: object
+          additionalProperties:
+            type: array
+            items:
+              $ref: "#/components/schemas/NegativeStrategyEntry"
+        by_tep:
+          type: object
+          additionalProperties:
+            type: array
+            items:
+              $ref: "#/components/schemas/NegativeStrategyEntry"
+        by_full_format:
+          type: object
+          additionalProperties:
+            type: array
+            items:
+              $ref: "#/components/schemas/NegativeStrategyEntry"
+      required:
+        - generated_at
+        - overall
+
+    PlayoffMissRiskEntry:
+      type: object
+      properties:
+        strategy_name:
+          type: string
+        format_context:
+          type: string
+        sample_size:
+          type: integer
+        probability_of_missing_playoffs:
+          type: number
+        relative_risk_vs_baseline:
+          type: number
+        percentile_rank:
+          type: number
+        confidence_level:
+          type: string
+      required:
+        - strategy_name
+        - sample_size
+        - probability_of_missing_playoffs
+        - relative_risk_vs_baseline
+        - percentile_rank
+
+    RedraftPlayoffMissRisk:
+      type: object
+      properties:
+        generated_at:
+          type: string
+        baseline_miss_rate:
+          type: number
+        entries:
+          type: array
+          items:
+            $ref: "#/components/schemas/PlayoffMissRiskEntry"
+      required:
+        - generated_at
+        - baseline_miss_rate
         - entries

@@ -683,7 +683,14 @@ export interface AnalysisResult {
   firstFiveBuilds: unknown;
   roundValue: unknown;
   recommendations: unknown;
-  audit: LeagueAuditEntry[];
+  audit: {
+    generated_at: string;
+    total_leagues: number;
+    succeeded: number;
+    skipped: number;
+    failed: number;
+    entries: LeagueAuditEntry[];
+  };
   teams: TeamRecord[];
 }
 

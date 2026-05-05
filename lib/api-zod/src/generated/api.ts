@@ -954,3 +954,126 @@ export const GetRedraftLeagueAuditResponse = zod.object({
     }),
   ),
 });
+
+/**
+ * Returns flagged negative and strong-negative strategies with explanations, grouped by format context
+ * @summary Get strategies that consistently underperform (miss playoffs)
+ */
+export const GetRedraftNegativeStrategiesResponse = zod.object({
+  generated_at: zod.string(),
+  overall: zod.array(
+    zod.object({
+      strategy_name: zod.string(),
+      format_context: zod.string().optional(),
+      sample_size: zod.number(),
+      playoff_rate: zod.number(),
+      playoff_rate_lift: zod.number(),
+      championship_rate: zod.number().optional(),
+      top_3_pf_rate: zod.number().optional(),
+      average_points_for: zod.number().optional(),
+      confidence_level: zod.string().optional(),
+      severity: zod.enum(["negative", "strong_negative"]),
+      explanation: zod.string(),
+    }),
+  ),
+  by_league_size: zod
+    .record(
+      zod.string(),
+      zod.array(
+        zod.object({
+          strategy_name: zod.string(),
+          format_context: zod.string().optional(),
+          sample_size: zod.number(),
+          playoff_rate: zod.number(),
+          playoff_rate_lift: zod.number(),
+          championship_rate: zod.number().optional(),
+          top_3_pf_rate: zod.number().optional(),
+          average_points_for: zod.number().optional(),
+          confidence_level: zod.string().optional(),
+          severity: zod.enum(["negative", "strong_negative"]),
+          explanation: zod.string(),
+        }),
+      ),
+    )
+    .optional(),
+  by_qb_format: zod
+    .record(
+      zod.string(),
+      zod.array(
+        zod.object({
+          strategy_name: zod.string(),
+          format_context: zod.string().optional(),
+          sample_size: zod.number(),
+          playoff_rate: zod.number(),
+          playoff_rate_lift: zod.number(),
+          championship_rate: zod.number().optional(),
+          top_3_pf_rate: zod.number().optional(),
+          average_points_for: zod.number().optional(),
+          confidence_level: zod.string().optional(),
+          severity: zod.enum(["negative", "strong_negative"]),
+          explanation: zod.string(),
+        }),
+      ),
+    )
+    .optional(),
+  by_tep: zod
+    .record(
+      zod.string(),
+      zod.array(
+        zod.object({
+          strategy_name: zod.string(),
+          format_context: zod.string().optional(),
+          sample_size: zod.number(),
+          playoff_rate: zod.number(),
+          playoff_rate_lift: zod.number(),
+          championship_rate: zod.number().optional(),
+          top_3_pf_rate: zod.number().optional(),
+          average_points_for: zod.number().optional(),
+          confidence_level: zod.string().optional(),
+          severity: zod.enum(["negative", "strong_negative"]),
+          explanation: zod.string(),
+        }),
+      ),
+    )
+    .optional(),
+  by_full_format: zod
+    .record(
+      zod.string(),
+      zod.array(
+        zod.object({
+          strategy_name: zod.string(),
+          format_context: zod.string().optional(),
+          sample_size: zod.number(),
+          playoff_rate: zod.number(),
+          playoff_rate_lift: zod.number(),
+          championship_rate: zod.number().optional(),
+          top_3_pf_rate: zod.number().optional(),
+          average_points_for: zod.number().optional(),
+          confidence_level: zod.string().optional(),
+          severity: zod.enum(["negative", "strong_negative"]),
+          explanation: zod.string(),
+        }),
+      ),
+    )
+    .optional(),
+});
+
+/**
+ * Returns miss probability, relative risk vs baseline, and percentile rank for every strategy
+ * @summary Get playoff miss risk data for all strategies
+ */
+export const GetRedraftPlayoffMissRiskResponse = zod.object({
+  generated_at: zod.string(),
+  baseline_miss_rate: zod.number(),
+  entries: zod.array(
+    zod.object({
+      strategy_name: zod.string(),
+      format_context: zod.string().optional(),
+      sample_size: zod.number(),
+      probability_of_missing_playoffs: zod.number(),
+      relative_risk_vs_baseline: zod.number(),
+      percentile_rank: zod.number(),
+      confidence_level: zod.string().optional(),
+    }),
+  ),
+});

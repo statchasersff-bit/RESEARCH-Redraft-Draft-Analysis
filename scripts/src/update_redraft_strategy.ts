@@ -13,6 +13,7 @@ import path from "path";
 import { fileURLToPath } from "url";
 import { readInputCsv, fetchAllDataForLeague, fetchNflPlayers } from "./fetch_sleeper_redraft_data.js";
 import { analyzeAll } from "./analyze_redraft_strategy.js";
+import { analyzeNegativeStrategies } from "./analyze_negative_strategies.js";
 import type { FetchedLeagueData } from "./fetch_sleeper_redraft_data.js";
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
@@ -96,12 +97,13 @@ async function main() {
   writeOutput("redraft_strategy_recommendations.json", result.recommendations);
   writeOutput("redraft_strategy_league_audit.json", result.audit);
 
-  const auditData = result.audit as {
-    total_leagues: number;
-    succeeded: number;
-    skipped: number;
-    failed: number;
-  };
+  // Step 6: Negative strategy analysis
+  console.log("\nStep 6: Analyzing negative strategies (playoff avoidance)...");
+  const { negativeStrategies, playoffMissRisk } = analyzeNegativeStrategies(result.teams);
+  writeOutput("redraft_negative_strategies.json", negativeStrategies);
+  writeOutput("redraft_playoff_miss_risk.json", playoffMissRisk);
+
+  const auditData = result.audit;
 
   console.log(`
 ══════════════════════════════════════════════
@@ -113,6 +115,7 @@ async function main() {
   Failed            : ${auditData.failed}
 
   Output: data/output/
+  (includes negative strategies + playoff miss risk)
 ══════════════════════════════════════════════
 `);
 }

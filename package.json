@@ -8,7 +8,9 @@
     "typecheck:libs": "tsc --build",
     "typecheck": "pnpm run typecheck:libs && pnpm -r --filter \"./artifacts/**\" --filter \"./scripts\" --if-present run typecheck",
     "redraft:update": "tsx scripts/src/update_redraft_strategy.ts",
-    "redraft:update:refresh": "tsx scripts/src/update_redraft_strategy.ts --refresh"
+    "redraft:update:refresh": "tsx scripts/src/update_redraft_strategy.ts --refresh",
+    "discover:redraft": "tsx scripts/src/discover_sleeper_redraft_leagues.ts",
+    "discover:redraft:refresh": "tsx scripts/src/discover_sleeper_redraft_leagues.ts --refresh"
   },
   "private": true,
   "devDependencies": {

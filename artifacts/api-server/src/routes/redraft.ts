@@ -40,5 +40,7 @@ router.get("/redraft/first-five-builds", serveOutput("redraft_first_five_builds.
 router.get("/redraft/round-value", serveOutput("redraft_round_value.json"));
 router.get("/redraft/recommendations", serveOutput("redraft_strategy_recommendations.json"));
 router.get("/redraft/league-audit", serveOutput("redraft_strategy_league_audit.json"));
+router.get("/redraft/negative-strategies", serveOutput("redraft_negative_strategies.json"));
+router.get("/redraft/playoff-miss-risk", serveOutput("redraft_playoff_miss_risk.json"));
 
 export default router;

@@ -22,8 +22,10 @@ Full-stack fantasy football analytics platform. Analyzes Sleeper redraft league 
 - `pnpm run typecheck` — full typecheck across all packages
 - `pnpm run build` — typecheck + build all packages
 - `pnpm --filter @workspace/api-spec run codegen` — regenerate API hooks and Zod schemas from OpenAPI spec
-- `pnpm run redraft:update` — fetch Sleeper data + analyze + export JSON outputs
+- `pnpm run redraft:update` — fetch Sleeper data + analyze + export JSON outputs (Steps 1–6)
 - `pnpm run redraft:update:refresh` — same as above but forces re-fetch (ignores cache)
+- `pnpm run discover:redraft` — discover redraft leagues from Sleeper (reads `data/input/sleeper_discovery_config.json`, pre-seeded with username "Makitrain", season "2024")
+- `pnpm run discover:redraft:refresh` — same as above but forces re-fetch of Sleeper API calls
 
 ## Data Pipeline
 
@@ -47,6 +49,8 @@ All outputs written to `data/output/`:
 - `redraft_round_value.json` — positional value by draft round
 - `redraft_strategy_recommendations.json` — plain-English recommendations
 - `redraft_strategy_league_audit.json` — per-league processing audit log
+- `redraft_negative_strategies.json` — strategies that consistently miss playoffs (Step 6)
+- `redraft_playoff_miss_risk.json` — miss probability + relative risk for every strategy (Step 6)
 
 ## Artifacts
 
@@ -64,6 +68,8 @@ All endpoints at `/api/redraft/`:
 - `GET /api/redraft/round-value`
 - `GET /api/redraft/recommendations`
 - `GET /api/redraft/league-audit`
+- `GET /api/redraft/negative-strategies`
+- `GET /api/redraft/playoff-miss-risk`
 
 Returns 404 with message to run `pnpm run redraft:update` if no data available yet.
 

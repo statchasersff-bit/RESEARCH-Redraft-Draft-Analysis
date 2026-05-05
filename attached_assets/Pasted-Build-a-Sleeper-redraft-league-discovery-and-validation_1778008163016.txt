@@ -1,0 +1,381 @@
+Build a Sleeper redraft league discovery and validation pipeline.
+
+GOAL
+I want to provide only my Sleeper username and season. The script should discover valid Sleeper redraft leagues from my network and export a clean CSV of league IDs that can later be used for redraft draft strategy analysis.
+
+NETWORK DISCOVERY FLOW
+My Sleeper username
+→ my Sleeper user_id
+→ my Sleeper leagues for the selected season
+→ users in those leagues
+→ all leagues those users are in for that same season
+→ validate/filter leagues
+→ export clean data files
+
+INPUT CONFIG
+Create:
+
+data/input/sleeper_discovery_config.json
+
+Example:
+
+{
+  "sleeper_username": "MY_SLEEPER_USERNAME",
+  "season": "2025",
+  "max_network_depth": 1,
+  "include_seed_user_leagues": true,
+  "include_leaguemate_leagues": true
+}
+
+Also support CLI overrides:
+
+npx tsx scripts/discover_sleeper_redraft_leagues.ts --username MY_SLEEPER_USERNAME --season 2025
+
+MAIN SCRIPT
+Create:
+
+scripts/discover_sleeper_redraft_leagues.ts
+
+The script should:
+
+1. Read username and season from config or CLI.
+2. Convert Sleeper username to user_id using:
+
+GET https://api.sleeper.app/v1/user/{username}
+
+3. Pull my leagues for that season using:
+
+GET https://api.sleeper.app/v1/user/{user_id}/leagues/nfl/{season}
+
+4. Treat those as seed leagues.
+
+5. For each seed league:
+   - Pull league users:
+     GET https://api.sleeper.app/v1/league/{league_id}/users
+   - Collect every unique user_id.
+
+6. For each discovered user_id:
+   - Pull that user’s leagues for the same season:
+     GET https://api.sleeper.app/v1/user/{user_id}/leagues/nfl/{season}
+
+7. Deduplicate all discovered league_ids.
+
+8. Validate every discovered league.
+
+9. Export valid leagues to CSV.
+
+10. Export rejected leagues and discovery summary.
+
+CACHE REQUIREMENT
+Use local caching so the script does not hammer Sleeper’s API.
+
+Cache all API responses under:
+
+data/raw/sleeper/cache/
+
+Cache:
+- user profile responses
+- user leagues responses
+- league users responses
+- league metadata
+- league drafts
+- draft picks
+- rosters
+- matchups
+- winners bracket
+- losers bracket
+
+If cached file exists, use it unless --refresh is passed.
+
+Support:
+
+npx tsx scripts/discover_sleeper_redraft_leagues.ts --username MY_SLEEPER_USERNAME --season 2025 --refresh
+
+Add a small delay between uncached API calls.
+
+LEAGUE VALIDATION RULES
+Only keep leagues that match all of the following:
+
+GENERAL
+- sport = nfl
+- season = selected season
+- league status should indicate the season is complete or far enough along to have final standings
+- total_rosters must be exactly 10 or exactly 12
+- league must have users
+- league must have rosters
+- league must have at least one draft
+- draft must be snake draft
+- draft must be complete
+- draft picks must be available
+- matchup or standings data must be available
+
+REJECT FORMATS
+Reject:
+- Dynasty
+- Keeper
+- Best Ball
+- IDP
+- 2QB
+- Auction drafts
+- 8-team leagues
+- 14-team leagues
+- 16-team leagues
+- Any league smaller than 10 or larger than 12
+- Any league with very unusual roster settings
+- Any league with very unusual scoring settings
+
+DYNASTY / KEEPER / BEST BALL DETECTION
+Reject if:
+- settings.type indicates dynasty
+- league name or metadata strongly indicates dynasty
+- league name or metadata strongly indicates keeper
+- league name or metadata strongly indicates best ball
+- roster settings indicate taxi squads
+- draft settings or league settings indicate keeper/dynasty/best ball
+
+IDP REJECTION
+Reject any league with IDP roster positions, including:
+- DL
+- LB
+- DB
+- IDP
+- IDP_FLEX
+- FLEX_IDP
+- DL/LB/DB variants
+
+Also reject leagues with meaningful IDP scoring categories.
+
+QB FORMAT CLASSIFICATION
+Classify every valid league as:
+
+1QB:
+- No SUPER_FLEX or OP roster slot
+- Exactly one starting QB slot
+
+Superflex:
+- roster_positions includes SUPER_FLEX or OP
+
+Reject:
+- 2QB leagues with two required QB starting slots
+- leagues with both 2QB and Superflex if not standard
+
+SCORING FORMAT CLASSIFICATION
+Use scoring settings.
+
+Classify base reception scoring:
+- Standard = rec is 0 or missing
+- Half PPR = rec is 0.5
+- PPR = rec is 1
+
+Reject:
+- Any other base reception value
+
+PASSING TD FORMAT
+Use pass_td scoring setting.
+
+Keep only:
+- pass_td = 4
+- pass_td = 6
+
+Classify as:
+- 4pt Pass TD
+- 6pt Pass TD
+
+Reject any other passing TD value.
+
+TIGHT END PREMIUM CLASSIFICATION
+Use Sleeper scoring settings.
+
+Classify:
+- No TEP
+- TEP +0.5
+- TEP +0.75
+
+Rules:
+- No TEP = TE reception bonus is 0 or missing
+- TEP +0.5 = TE reception bonus is exactly 0.5
+- TEP +0.75 = TE reception bonus is exactly 0.75
+
+Look for relevant Sleeper scoring keys such as:
+- bonus_rec_te
+- rec_te_bonus
+- te_rec_bonus
+- any equivalent TE reception premium field
+
+Reject:
+- TEP +1.0
+- TEP +1.5
+- Any TEP value other than +0.5 or +0.75
+- Any weird TE premium that is not reception-based
+
+STANDARD SCORING FILTER
+Only include leagues with mostly standard offensive fantasy scoring.
+
+Allowed:
+- Standard, Half PPR, or PPR
+- Passing TD = 4 or 6
+- No TEP, TEP +0.5, or TEP +0.75
+- Normal rushing/receiving/passing yard scoring
+- Normal turnovers
+- Normal touchdowns
+
+Reject leagues with unusual scoring such as:
+- Points per carry
+- First down bonuses
+- Completion bonuses
+- Incompletion penalties beyond normal
+- Heavy return yardage scoring
+- Big-play bonuses
+- 100-yard/200-yard bonuses
+- 300-yard/400-yard passing bonuses
+- Long touchdown bonuses
+- Custom position bonuses besides allowed TEP
+- Unusual kicker or defense scoring that strongly changes league format
+- Any bonus-heavy setup that makes the league non-standard
+
+ROSTER SETTINGS FILTER
+Allowed roster settings should be normal redraft formats.
+
+Reject leagues with:
+- IDP starters
+- Two required QB starters
+- Too many bench spots
+- Too few bench spots
+- More than one kicker
+- More than one defense
+- Very unusual flex structure
+- More than 12 teams
+- Fewer than 10 teams
+
+LEAGUE CLASSIFICATION FIELDS
+Every valid league should be tagged with:
+
+- season
+- league_id
+- league_name
+- total_rosters
+- league_size_bucket: "10-team" or "12-team"
+- qb_format: "1QB" or "Superflex"
+- scoring_format: "Standard", "Half PPR", or "PPR"
+- tep_format: "No TEP", "TEP +0.5", or "TEP +0.75"
+- pass_td_format: "4pt Pass TD" or "6pt Pass TD"
+- roster_positions
+- draft_id
+- draft_type
+- source_type
+- discovered_from_user_id
+- discovered_from_username if available
+- discovered_from_seed_league_id if available
+- validation_status
+- validation_notes
+
+OUTPUT FILES
+
+1. Valid leagues CSV:
+
+data/input/discovered_redraft_leagues_{season}.csv
+
+Columns:
+- season
+- league_id
+- league_name
+- total_rosters
+- league_size_bucket
+- qb_format
+- scoring_format
+- tep_format
+- pass_td_format
+- draft_id
+- draft_type
+- source_type
+- discovered_from_user_id
+- discovered_from_username
+- discovered_from_seed_league_id
+- validation_status
+- validation_notes
+
+2. Valid leagues JSON:
+
+data/output/discovered_redraft_leagues_{season}.json
+
+3. Rejected leagues JSON:
+
+data/output/rejected_redraft_leagues_{season}.json
+
+For each rejected league include:
+- season
+- league_id
+- league_name
+- total_rosters
+- reason_rejected
+- validation_notes
+- relevant_settings
+- roster_positions
+- scoring_settings
+
+4. Discovery summary JSON:
+
+data/output/sleeper_discovery_summary_{season}.json
+
+Include:
+- sleeper_username
+- sleeper_user_id
+- season
+- seed_leagues_found
+- seed_redraft_leagues_used
+- unique_users_discovered
+- total_leagues_discovered
+- valid_redraft_leagues
+- rejected_leagues
+- valid_10_team_count
+- valid_12_team_count
+- valid_1qb_count
+- valid_superflex_count
+- valid_no_tep_count
+- valid_tep_05_count
+- valid_tep_075_count
+- valid_4pt_pass_td_count
+- valid_6pt_pass_td_count
+- generated_at
+
+5. Format breakdown CSV:
+
+data/output/redraft_format_breakdown_{season}.csv
+
+Columns:
+- league_size_bucket
+- qb_format
+- scoring_format
+- tep_format
+- pass_td_format
+- league_count
+- team_count
+
+IMPORTANT
+The discovery script should only gather and validate leagues. It does not need to analyze draft strategy yet.
+
+QUALITY CONTROLS
+Log progress clearly:
+- username found
+- seed leagues found
+- users discovered
+- total leagues discovered
+- valid leagues
+- rejected leagues
+- final export paths
+
+Do not crash if a league fails. Mark it rejected or failed with a reason.
+
+Use TypeScript.
+
+Add package script:
+
+"scripts": {
+  "discover:redraft": "tsx scripts/discover_sleeper_redraft_leagues.ts"
+}
+
+When complete, I should be able to run:
+
+npm run discover:redraft -- --username MY_SLEEPER_USERNAME --season 2025
+
+And get a clean discovered league CSV ready for the draft strategy analyzer.

@@ -1,0 +1,113 @@
+NEGATIVE STRATEGY ANALYSIS (PLAYOFF AVOIDANCE)
+
+In addition to identifying top-performing draft strategies, also identify strategies that consistently underperform.
+
+For every strategy bucket, calculate:
+
+- playoff_rate
+- playoff_rate_lift_vs_baseline
+- championship_rate
+- top_3_pf_rate
+- average_points_for
+
+Define baseline playoff rate across all teams.
+
+Example:
+- In 12-team leagues, baseline playoff rate ≈ 50%
+- In 10-team leagues, baseline playoff rate ≈ 60%
+
+Then calculate:
+
+playoff_rate_lift = strategy_playoff_rate - baseline_playoff_rate
+
+FLAG STRATEGIES AS “NEGATIVE” IF:
+
+- sample_size >= 50 teams
+AND
+- playoff_rate_lift <= -8 percentage points
+
+FLAG AS “STRONG NEGATIVE” IF:
+
+- sample_size >= 100 teams
+AND
+- playoff_rate_lift <= -12 percentage points
+
+Create new output:
+
+data/output/redraft_negative_strategies.json
+
+Structure:
+
+{
+  "overall": [],
+  "by_league_size": {},
+  "by_qb_format": {},
+  "by_tep": {},
+  "by_full_format": {}
+}
+
+Each negative strategy entry should include:
+
+- strategy_name
+- format_context (e.g. "12-team Superflex PPR No TEP")
+- sample_size
+- playoff_rate
+- playoff_rate_lift
+- championship_rate
+- top_3_pf_rate
+- average_points_for
+- confidence_level
+- explanation
+
+EXPLANATION GENERATION
+
+Generate a short explanation using the data:
+
+Examples:
+- "Teams that drafted 0 RBs in the first 5 rounds had significantly lower weekly scoring, leading to poor playoff odds."
+- "Early QB selections in 1QB leagues reduced positional advantage elsewhere."
+- "Double TE early-round builds underperformed in non-TEP formats."
+
+DO NOT guess explanations. Base them on:
+- positional distribution
+- scoring output
+- round allocation
+
+UI / GUIDE REQUIREMENT
+
+Add a dedicated section:
+
+“Draft Strategies That Miss the Playoffs”
+
+Include:
+- Top 5 worst strategies overall
+- Top 3 worst strategies per format
+- Clear warning labels
+
+Example wording:
+
+“These strategies consistently underperformed across the sample and should generally be avoided unless league-specific conditions justify them.”
+
+IMPORTANT
+
+Do NOT include strategies with:
+- sample_size < 50
+
+Mark low sample sizes as:
+“Too small to draw conclusions.”
+
+OUTPUT REQUIREMENT
+
+Also add:
+
+data/output/redraft_playoff_miss_risk.json
+
+For each strategy include:
+
+- probability_of_missing_playoffs
+- relative_risk_vs_baseline
+- percentile_rank
+
+This allows phrasing like:
+
+"Teams using this strategy missed the playoffs 68% of the time vs a 50% baseline."

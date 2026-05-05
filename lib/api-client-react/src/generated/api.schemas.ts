@@ -176,3 +176,66 @@ export interface RedraftLeagueAudit {
   failed?: number;
   entries: LeagueAuditEntry[];
 }
+
+export type NegativeStrategyEntrySeverity =
+  (typeof NegativeStrategyEntrySeverity)[keyof typeof NegativeStrategyEntrySeverity];
+
+export const NegativeStrategyEntrySeverity = {
+  negative: "negative",
+  strong_negative: "strong_negative",
+} as const;
+
+export interface NegativeStrategyEntry {
+  strategy_name: string;
+  format_context?: string;
+  sample_size: number;
+  playoff_rate: number;
+  playoff_rate_lift: number;
+  championship_rate?: number;
+  top_3_pf_rate?: number;
+  average_points_for?: number;
+  confidence_level?: string;
+  severity: NegativeStrategyEntrySeverity;
+  explanation: string;
+}
+
+export type RedraftNegativeStrategiesByLeagueSize = {
+  [key: string]: NegativeStrategyEntry[];
+};
+
+export type RedraftNegativeStrategiesByQbFormat = {
+  [key: string]: NegativeStrategyEntry[];
+};
+
+export type RedraftNegativeStrategiesByTep = {
+  [key: string]: NegativeStrategyEntry[];
+};
+
+export type RedraftNegativeStrategiesByFullFormat = {
+  [key: string]: NegativeStrategyEntry[];
+};
+
+export interface RedraftNegativeStrategies {
+  generated_at: string;
+  overall: NegativeStrategyEntry[];
+  by_league_size?: RedraftNegativeStrategiesByLeagueSize;
+  by_qb_format?: RedraftNegativeStrategiesByQbFormat;
+  by_tep?: RedraftNegativeStrategiesByTep;
+  by_full_format?: RedraftNegativeStrategiesByFullFormat;
+}
+
+export interface PlayoffMissRiskEntry {
+  strategy_name: string;
+  format_context?: string;
+  sample_size: number;
+  probability_of_missing_playoffs: number;
+  relative_risk_vs_baseline: number;
+  percentile_rank: number;
+  confidence_level?: string;
+}
+
+export interface RedraftPlayoffMissRisk {
+  generated_at: string;
+  baseline_miss_rate: number;
+  entries: PlayoffMissRiskEntry[];
+}
