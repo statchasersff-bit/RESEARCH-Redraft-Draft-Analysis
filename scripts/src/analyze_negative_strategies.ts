@@ -92,20 +92,11 @@ function generateExplanation(
   if (strategy === "Elite QB") {
     return `Using a top-4 pick on a QB reduced positional advantage at RB/WR, leading to a ${Math.abs(Number(lift))}pp drop in playoff rate vs baseline. The scoring upside rarely offset the positional opportunity cost in this sample.`;
   }
-  if (strategy === "Anchor TE") {
-    return `Targeting a TE in rounds 1–3 correlated with underperformance, likely because elite TEs rarely provide enough relative value to justify sacrificing a premium RB or WR selection. Playoff rate was ${Math.abs(Number(lift))}pp below baseline.`;
-  }
-  if (strategy === "Fragile RB") {
-    return `Teams with exactly 2 RBs in rounds 1–5 and no RBs in rounds 6–8 frequently struggled with RB depth. Without mid-round RB insurance, injury exposure was high, resulting in a playoff rate ${Math.abs(Number(lift))}pp below the overall baseline.`;
-  }
-  if (strategy === "Double Hero RB") {
-    return `Building with exactly 2 early RBs and loading up on WRs in round 6 produced below-average results in this sample. Playoff rate was ${missRate}% miss rate vs ${baselineMissRate}% baseline, suggesting this specific distribution often leaves teams thin in at least one key position.`;
-  }
   if (strategy === "WR Heavy") {
     return `Taking 3+ WRs in rounds 1–5 without matching RB depth correlated with lower scoring output (${ptsDiff > "0" ? "+" : ""}${ptsDiff} pts vs baseline) and a playoff rate ${Math.abs(Number(lift))}pp below baseline. WR scarcity is lower than RB, so overloading early reduces marginal value.`;
   }
   if (strategy === "Elite TE") {
-    return `Selecting a TE in rounds 1–4 was associated with reduced overall roster quality. Teams using this approach missed the playoffs ${missRate}% of the time, ${Math.abs(Number(lift))}pp worse than the ${baselineMissRate}% baseline miss rate.`;
+    return `Selecting a TE in rounds 1–2 was associated with reduced overall roster quality. Teams using this approach missed the playoffs ${missRate}% of the time, ${Math.abs(Number(lift))}pp worse than the ${baselineMissRate}% baseline miss rate.`;
   }
 
   return `Teams using ${strategy} missed the playoffs ${missRate}% of the time vs the ${baselineMissRate}% baseline — a ${Math.abs(Number(lift))}pp gap. Average scoring was ${ptsDiff > "0" ? "+" : ""}${ptsDiff} pts vs the sample mean.`;
@@ -186,8 +177,8 @@ function buildNegativeEntries(
 // ─── Main Export ──────────────────────────────────────────────────────────────
 
 const ALL_STRATEGIES = [
-  "Zero RB", "Hero RB", "Robust RB", "WR Heavy", "Elite QB", "Elite TE",
-  "Balanced Start", "Fragile RB", "Late QB", "Late TE", "Anchor TE", "Double Hero RB",
+  "Zero RB", "Hero RB", "Robust RB", "WR Heavy", "Balanced",
+  "Elite QB", "Elite TE", "Late QB", "Late TE",
 ];
 
 export function analyzeNegativeStrategies(teams: TeamRecord[]): {

@@ -1,0 +1,24 @@
+{
+  "generated_at": "2026-05-10T03:25:00.005Z",
+  "overall": [],
+  "by_league_size": {
+    "10-team": [],
+    "12-team": []
+  },
+  "by_qb_format": {
+    "1QB": [],
+    "Superflex": []
+  },
+  "by_tep": {
+    "Standard": [],
+    "Half PPR": [],
+    "PPR": []
+  },
+  "by_full_format": {
+    "12-team PPR 1QB": [],
+    "12-team PPR Superflex": [],
+    "12-team Half PPR 1QB": [],
+    "10-team PPR 1QB": [],
+    "10-team Half PPR 1QB": []
+  }
+}

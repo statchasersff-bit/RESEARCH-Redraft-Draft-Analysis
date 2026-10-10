@@ -239,3 +239,149 @@ export interface RedraftPlayoffMissRisk {
   baseline_miss_rate: number;
   entries: PlayoffMissRiskEntry[];
 }
+
+export interface FilteredSlotGroup {
+  slot_group: string;
+  sample_size: number;
+  best_strategies: StrategyMetrics[];
+  worst_strategies?: StrategyMetrics[];
+  best_first_two_pick_combos?: StrategyMetrics[];
+  recommended_draft_blueprint?: string;
+}
+
+export type FilteredSliceBaseline = {
+  playoff_rate: number;
+  championship_rate: number;
+  top_3_pf_rate?: number;
+  average_points_for?: number;
+};
+
+export type FilteredSliceBySlot = {
+  early?: FilteredSlotGroup;
+  middle?: FilteredSlotGroup;
+  late?: FilteredSlotGroup;
+};
+
+export interface FilteredSlice {
+  label: string;
+  sample_size: number;
+  league_count: number;
+  baseline?: FilteredSliceBaseline;
+  best_strategies: StrategyMetrics[];
+  worst_strategies?: StrategyMetrics[];
+  best_first_round_positions?: StrategyMetrics[];
+  best_first_two_pick_combos?: StrategyMetrics[];
+  best_first_five_builds?: StrategyMetrics[];
+  by_slot?: FilteredSliceBySlot;
+  key_takeaways?: string[];
+}
+
+export type RedraftFilterCombosCombos = { [key: string]: FilteredSlice };
+
+export interface RedraftFilterCombos {
+  generated_at: string;
+  combos: RedraftFilterCombosCombos;
+}
+
+export type RedraftFilterTrendsTrends = {
+  [key: string]: { [key: string]: unknown };
+};
+
+export interface RedraftFilterTrends {
+  generated_at: string;
+  trends: RedraftFilterTrendsTrends;
+}
+
+export interface DraftPickExample {
+  name: string;
+  position: string;
+  team: string;
+}
+
+export interface DraftRoundExample {
+  round: number;
+  picks: DraftPickExample[];
+}
+
+export interface DraftExample {
+  strategy: string;
+  draft_id: string;
+  roster_id: number;
+  rounds: DraftRoundExample[];
+}
+
+export interface BoardPick {
+  round: number;
+  slot: number;
+  roster_id: number;
+  pick_no: number;
+  player_id: string;
+  name: string;
+  position: string;
+  nfl_team: string;
+}
+
+export interface BoardStrategy {
+  strategy: string;
+  roster_id: number;
+  slot: number;
+}
+
+export interface RedraftDraftBoard {
+  draft_id: string;
+  label: string;
+  index: number;
+  total: number;
+  num_teams: number;
+  num_rounds: number;
+  strategies: BoardStrategy[];
+  picks: BoardPick[];
+}
+
+export interface RedraftDraftExamples {
+  examples: DraftExample[];
+}
+
+export type GetRedraftDraftBoardParams = {
+  /**
+   * Index of the draft example to return (0-based, within the filtered set)
+   */
+  index?: number;
+  /**
+   * Filter boards by league size (10 or 12 teams)
+   */
+  size?: GetRedraftDraftBoardSize;
+  /**
+   * Filter boards by scoring format
+   */
+  scoring?: GetRedraftDraftBoardScoring;
+  /**
+   * Filter boards by QB format
+   */
+  qb_type?: GetRedraftDraftBoardQbType;
+};
+
+export type GetRedraftDraftBoardSize =
+  (typeof GetRedraftDraftBoardSize)[keyof typeof GetRedraftDraftBoardSize];
+
+export const GetRedraftDraftBoardSize = {
+  NUMBER_10: "10",
+  NUMBER_12: "12",
+} as const;
+
+export type GetRedraftDraftBoardScoring =
+  (typeof GetRedraftDraftBoardScoring)[keyof typeof GetRedraftDraftBoardScoring];
+
+export const GetRedraftDraftBoardScoring = {
+  ppr: "ppr",
+  half_ppr: "half_ppr",
+  standard: "standard",
+} as const;
+
+export type GetRedraftDraftBoardQbType =
+  (typeof GetRedraftDraftBoardQbType)[keyof typeof GetRedraftDraftBoardQbType];
+
+export const GetRedraftDraftBoardQbType = {
+  one_qb: "one_qb",
+  superflex: "superflex",
+} as const;

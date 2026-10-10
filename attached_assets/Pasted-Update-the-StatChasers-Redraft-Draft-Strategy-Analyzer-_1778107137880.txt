@@ -1,0 +1,368 @@
+Update the StatChasers Redraft Draft Strategy Analyzer so the year filter supports multi-year selection and year-over-year comparison.
+
+CURRENT STATE
+We have draft strategy data for:
+- 2024
+- 2025
+
+Users can currently select one year at a time.
+
+GOAL
+Add a header filter that allows users to select:
+- 2024 only
+- 2025 only
+- 2024 + 2025 combined
+- Compare 2024 vs 2025
+
+This should work across all tabs:
+- Overall
+- First Two Picks
+- First Five Rounds
+- Round Value
+- Miss Risk
+
+HEADER FILTER UI
+Add a “Season” filter in the header filter area.
+
+Options:
+- 2025
+- 2024
+- 2024 + 2025
+- Compare Years
+
+Recommended UI:
+- Use selectable chips or a dropdown.
+- Make the selected season context obvious in the data context pill.
+
+Example context pill:
+“41,670 teams • 1QB • PPR • No TEP • 12-Team • 2025”
+
+For combined:
+“82,110 teams • 1QB • PPR • No TEP • 12-Team • 2024–2025”
+
+For compare:
+“Comparing 2024 vs 2025 • 1QB • PPR • No TEP • 12-Team”
+
+DATA BEHAVIOR
+
+1. Single year mode
+When user selects 2024 or 2025:
+- Show only that year’s data.
+- All baseline calculations should use only that selected year.
+- All strategy rankings, miss risk, round value, and recommendations should be recalculated for that year only.
+
+2. Combined mode
+When user selects 2024 + 2025:
+- Combine the two seasons into one larger sample.
+- Recalculate baselines from the combined sample.
+- Recalculate strategy results from the combined sample.
+- Do not average the two years together equally.
+- Weight by team/sample count.
+- Example:
+  If 2024 has 20,000 teams and 2025 has 40,000 teams, 2025 should naturally have more influence.
+
+3. Compare Years mode
+When user selects Compare Years:
+- Do not simply combine seasons.
+- Show year-over-year differences.
+
+For each strategy, show:
+- 2024 playoff rate
+- 2025 playoff rate
+- change in playoff rate
+- 2024 championship rate
+- 2025 championship rate
+- change in championship rate
+- 2024 top-3 PF rate
+- 2025 top-3 PF rate
+- change in top-3 PF rate
+- 2024 sample
+- 2025 sample
+- sample quality
+- trend label
+
+TREND LABELS
+Create trend labels:
+
+Improving:
+- playoff rate increased by at least +3.0pp
+AND sample size is reliable in both years
+
+Declining:
+- playoff rate decreased by at least -3.0pp
+AND sample size is reliable in both years
+
+Stable:
+- playoff rate change is between -3.0pp and +3.0pp
+AND sample size is reliable in both years
+
+Noisy:
+- either year has insufficient sample size
+
+Volatile:
+- playoff rate moved by at least 5.0pp, but sample size is only directional/reliable, not strong/elite
+
+Use “pp” for percentage points. Do not use “%” when describing differences.
+
+SAMPLE QUALITY RULES
+Use these labels:
+
+Elite Sample:
+- sample >= 5,000
+
+Strong Sample:
+- sample >= 1,000
+
+Reliable:
+- sample >= 250
+
+Limited Sample:
+- sample >= 50
+
+Too Small:
+- sample < 50
+
+For year-over-year comparison, the comparison quality should be based on the weaker of the two years.
+
+Example:
+2024 sample = 900, 2025 sample = 4,000
+Comparison quality = Reliable, because 2024 is below 1,000 but above 250.
+
+IMPORTANT LOW SAMPLE RULE
+Hide rows where either year has sample < 50 by default.
+
+Add toggle:
+“Show low-sample trends”
+
+When enabled, show them but mark as “Too Small — directional only.”
+
+OUTPUT DATA / JSON
+Update the backend output so the UI can load:
+
+1. Single-year results:
+data/output/redraft_strategy_summary_2024.json
+data/output/redraft_strategy_summary_2025.json
+
+2. Combined results:
+data/output/redraft_strategy_summary_2024_2025.json
+
+3. Compare output:
+data/output/redraft_strategy_trends_2024_2025.json
+
+The trends file should include sections for:
+- overall_strategies
+- first_two_pick_combos
+- first_five_round_builds
+- round_value
+- miss_risk
+
+Each comparison row should include:
+- strategy
+- format_context
+- sample_2024
+- sample_2025
+- playoff_rate_2024
+- playoff_rate_2025
+- playoff_rate_change_pp
+- champ_rate_2024
+- champ_rate_2025
+- champ_rate_change_pp
+- top3_pf_rate_2024
+- top3_pf_rate_2025
+- top3_pf_rate_change_pp
+- avg_pts_2024
+- avg_pts_2025
+- avg_pts_change
+- miss_rate_2024
+- miss_rate_2025
+- miss_rate_change_pp
+- comparison_quality
+- trend_label
+- trend_note
+
+IMPORTANT FORMAT SEGMENTATION
+All year comparisons must respect the currently selected filters:
+- league size: 10-team or 12-team
+- QB format: 1QB or Superflex
+- scoring: Standard, Half PPR, PPR
+- TE premium: No TEP, TEP +0.5, TEP +0.75
+- pass TD: 4pt or 6pt
+
+Do not compare mixed formats unless the user explicitly selected “All” for that filter.
+
+Example:
+If the user is viewing:
+12-Team • 1QB • PPR • No TEP
+
+Then Compare Years must compare:
+2024 12-Team 1QB PPR No TEP
+vs
+2025 12-Team 1QB PPR No TEP
+
+Do not blend Superflex, TEP, 10-team, or other formats into that comparison.
+
+COMPARE YEARS UI
+When Compare Years is selected, change the tables.
+
+Instead of the normal columns, use comparison columns.
+
+For Overall tab:
+Columns:
+- Strategy
+- 2024 Playoff
+- 2025 Playoff
+- Change
+- 2024 Sample
+- 2025 Sample
+- Trend
+- Sample Quality
+
+Optional expandable row details:
+- Championship change
+- Top-3 PF change
+- Avg points change
+- Miss risk change
+
+For First Two Picks:
+Same structure, but strategy is first-two-pick combo.
+
+For First Five Rounds:
+Same structure, but default minimum sample should be 250 in both years.
+Add toggle for low sample.
+
+For Round Value:
+Columns:
+- Round
+- Position
+- 2024 Playoff
+- 2025 Playoff
+- Change
+- 2024 Sample
+- 2025 Sample
+- Trend
+
+For Miss Risk:
+Columns:
+- Strategy
+- 2024 Miss Rate
+- 2025 Miss Rate
+- Change
+- 2024 Sample
+- 2025 Sample
+- Trend
+
+For Miss Risk, note:
+- Positive change means more risky
+- Negative change means safer
+
+Use wording:
+- “+4.2pp riskier”
+- “-3.1pp safer”
+
+Do not use:
+- “+4.2% riskier”
+
+VISUAL DESIGN
+Use StatChasers styling.
+
+For Change column:
+- Green if strategy improved
+- Red if strategy declined
+- Gray if stable
+- Orange if noisy/low sample
+
+For Miss Risk:
+- Green if miss rate decreased
+- Red if miss rate increased
+
+Add small helper text:
+“Changes are shown in percentage points (pp), not relative percent.”
+
+TREND INSIGHTS SECTION
+Add a “Year-over-Year Insights” section above the comparison tables.
+
+Generate 3–5 insight cards:
+- Biggest riser
+- Biggest faller
+- Most stable strategy
+- Most improved first-two-pick combo
+- Biggest increase in miss risk
+
+Only create insight cards from rows with comparison quality of Reliable or better.
+
+Example:
+“WR/RB improved from 51.2% to 55.1% playoff rate (+3.9pp) in this format.”
+
+CHARTS
+Add an optional trend chart for Compare Years mode.
+
+Preferred:
+- grouped bar chart
+- one bar for 2024
+- one bar for 2025
+- sorted by 2025 playoff rate or largest change
+
+For Miss Risk:
+- grouped bars showing 2024 miss rate vs 2025 miss rate
+
+Keep charts simple. Do not add too many metrics to one chart.
+
+RELIABILITY / TRUST RULES
+Do not show “best trend” or “worst trend” from low sample rows.
+
+Do not make strong recommendations when:
+- either year sample is below 250
+- comparison quality is Limited Sample or Too Small
+
+Use wording:
+- “directional trend”
+- “sample too small for a strong conclusion”
+- “stable across both seasons”
+- “improved in 2025”
+- “declined in 2025”
+
+Avoid wording:
+- “proves”
+- “guarantees”
+- “always”
+
+BACKEND LOGIC
+Update the analysis script so it can accept:
+- --season 2024
+- --season 2025
+- --seasons 2024,2025
+- --compare 2024,2025
+
+Example commands:
+
+npm run redraft:update -- --season 2025
+
+npm run redraft:update -- --season 2024
+
+npm run redraft:update -- --seasons 2024,2025
+
+npm run redraft:update -- --compare 2024,2025
+
+Add package scripts if helpful:
+"redraft:update:2025": "tsx scripts/update_redraft_strategy.ts --season 2025",
+"redraft:update:2024": "tsx scripts/update_redraft_strategy.ts --season 2024",
+"redraft:update:combined": "tsx scripts/update_redraft_strategy.ts --seasons 2024,2025",
+"redraft:trends": "tsx scripts/update_redraft_strategy.ts --compare 2024,2025"
+
+IMPORTANT UX COPY
+Add this helper copy near the season selector:
+
+“Single-year views show that season only. Combined views pool all selected seasons. Compare mode shows how strategies changed year over year.”
+
+FINAL ACCEPTANCE CRITERIA
+When complete:
+1. I can select 2024 only.
+2. I can select 2025 only.
+3. I can select 2024 + 2025 combined.
+4. I can select Compare Years.
+5. All tabs respect the selected season mode.
+6. Compare mode shows 2024 vs 2025 changes.
+7. Differences use “pp” for percentage points.
+8. Low-sample rows are hidden by default.
+9. Format filters still apply correctly.
+10. The UI clearly explains whether data is single-year, combined, or comparison mode.

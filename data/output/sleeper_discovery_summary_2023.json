@@ -1,0 +1,21 @@
+{
+  "sleeper_username": "1postmanpwr",
+  "sleeper_user_id": "470365112541114368",
+  "season": "2023",
+  "seed_leagues_found": 16,
+  "seed_redraft_leagues_used": 16,
+  "unique_users_discovered": 38815,
+  "total_leagues_discovered": 38815,
+  "valid_redraft_leagues": 4388,
+  "rejected_leagues": 34427,
+  "valid_10_team_count": 2223,
+  "valid_12_team_count": 2165,
+  "valid_1qb_count": 3757,
+  "valid_superflex_count": 631,
+  "valid_no_tep_count": 4183,
+  "valid_tep_05_count": 200,
+  "valid_tep_075_count": 5,
+  "valid_4pt_pass_td_count": 3732,
+  "valid_6pt_pass_td_count": 656,
+  "generated_at": "2026-05-07T12:56:19.804Z"
+}

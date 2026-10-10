@@ -1,0 +1,123 @@
+Fix the desktop layout for the Risk / Reward Quadrant chart.
+
+CURRENT ISSUE
+The chart now looks too compressed vertically and has a large empty area below it inside the card. On desktop, the plot area is too short and the card height is too tall, making the visualization feel awkward.
+
+GOAL
+The chart card should tightly wrap the chart content and feel balanced on desktop and mobile.
+
+SPECIFIC FIXES
+
+1. Remove excessive bottom whitespace
+The card currently has a large blank area under the chart. Reduce the chart card/container height so it wraps the content naturally.
+
+Do not set a large fixed min-height on:
+- chart card
+- chart wrapper
+- Recharts ResponsiveContainer parent
+- SVG container
+
+If a min-height exists, reduce or remove it.
+
+2. Use responsive chart heights
+Set chart height by breakpoint:
+
+Desktop:
+- chart plot height: 320px to 380px
+- total card height should be roughly 440px to 500px including header and insight text
+
+Tablet:
+- chart plot height: 300px to 340px
+
+Mobile:
+- chart plot height: 260px to 310px
+
+Avoid using a tiny desktop chart height like 220px.
+
+3. Improve chart aspect ratio
+The desktop chart should be wider and moderately tall.
+
+Target:
+- desktop aspect ratio around 16:9 or 4:3
+- not a short strip chart
+- not a tall portrait chart
+
+4. Fix ResponsiveContainer parent
+If using Recharts, make sure the parent wrapper has an explicit height.
+
+Example:
+
+<div className="sc-quadrant-chart-wrap">
+  <ResponsiveContainer width="100%" height="100%">
+    ...
+  </ResponsiveContainer>
+</div>
+
+CSS:
+
+.sc-quadrant-chart-wrap {
+  width: 100%;
+  height: 360px;
+}
+
+@media (max-width: 768px) {
+  .sc-quadrant-chart-wrap {
+    height: 300px;
+  }
+}
+
+5. Reduce card padding, not chart height
+Keep chart readable. If space needs to be reduced, reduce padding around the chart, not the chart itself.
+
+Suggested card padding:
+Desktop:
+- 20px to 24px
+
+Mobile:
+- 14px to 16px
+
+6. Keep quadrant labels inside but subtle
+The quadrant labels are okay, but make sure they do not sit too close to chart edges.
+
+Add small internal padding or offset:
+- top-left label: x + 8, y + 16
+- top-right label: x - 8, y + 16
+- bottom-left label: x + 8, y - 12
+- bottom-right label: x - 8, y - 12
+
+7. Improve axis readability
+The chart currently feels compressed. Use a slightly taller plot area so Y-axis labels and gridlines breathe.
+
+Keep:
+- X-axis label: Season Avg Points
+- Y-axis label: Playoff Rate
+
+But make labels small and clean.
+
+8. Card should not reserve unused vertical space
+Inspect the component/CSS for:
+- min-height
+- fixed height
+- padding-bottom
+- margin-bottom
+- aspect-ratio
+- chart placeholder height
+
+Remove anything causing the card to stay tall after the chart was shortened.
+
+9. Preferred final desktop layout
+
+Card:
+- Header: compact title/subtitle
+- Chart: 340–360px tall
+- Optional key insight: short text below chart
+- No huge blank area
+
+10. Acceptance criteria
+After fix:
+- No large empty blank area below the plot.
+- Desktop chart is not overly short.
+- Card height matches content.
+- Plot area uses most of the card.
+- Mobile remains readable.
+- The chart feels like a balanced dashboard card, not a compressed strip inside a huge container.

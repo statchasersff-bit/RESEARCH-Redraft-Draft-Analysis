@@ -14,7 +14,7 @@ export function Header() {
         <div className="flex items-center">
           <Badge variant="outline" className="font-medium flex items-center gap-1 border-border/50">
             <Info className="h-3 w-3" />
-            2025 Guide
+            2025 Analysis
           </Badge>
         </div>
       </div>

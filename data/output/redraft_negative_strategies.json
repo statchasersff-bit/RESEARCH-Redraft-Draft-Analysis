@@ -1,136 +1,24 @@
 {
-  "generated_at": "2026-05-05T19:50:45.159Z",
-  "overall": [
-    {
-      "strategy_name": "Zero RB",
-      "format_context": "Overall",
-      "sample_size": 532,
-      "playoff_rate": 0.442,
-      "playoff_rate_lift": -9.8,
-      "championship_rate": 0.096,
-      "top_3_pf_rate": 0.209,
-      "average_points_for": 1615.59,
-      "confidence_level": "High",
-      "severity": "negative",
-      "explanation": "Teams that drafted 0 RBs in rounds 1–5 missed the playoffs 55.8% of the time (vs 46.0% baseline). Without early-round RB production, rosters tended to score 7.1 fewer points per season on average."
-    }
-  ],
+  "generated_at": "2026-05-10T03:25:00.005Z",
+  "overall": [],
   "by_league_size": {
-    "10-team": [
-      {
-        "strategy_name": "Zero RB",
-        "format_context": "10-team",
-        "sample_size": 163,
-        "playoff_rate": 0.503,
-        "playoff_rate_lift": -9.5,
-        "championship_rate": 0.135,
-        "top_3_pf_rate": 0.264,
-        "average_points_for": 1540.11,
-        "confidence_level": "Medium",
-        "severity": "negative",
-        "explanation": "Teams that drafted 0 RBs in rounds 1–5 missed the playoffs 49.7% of the time (vs 40.2% baseline). Without early-round RB production, rosters tended to score 5.7 fewer points per season on average."
-      }
-    ],
-    "12-team": [
-      {
-        "strategy_name": "Zero RB",
-        "format_context": "12-team",
-        "sample_size": 369,
-        "playoff_rate": 0.415,
-        "playoff_rate_lift": -8.7,
-        "championship_rate": 0.079,
-        "top_3_pf_rate": 0.184,
-        "average_points_for": 1648.93,
-        "confidence_level": "High",
-        "severity": "negative",
-        "explanation": "Teams that drafted 0 RBs in rounds 1–5 missed the playoffs 58.5% of the time (vs 49.9% baseline). Without early-round RB production, rosters tended to score 1.5 fewer points per season on average."
-      }
-    ]
+    "10-team": [],
+    "12-team": []
   },
   "by_qb_format": {
-    "1QB": [
-      {
-        "strategy_name": "Zero RB",
-        "format_context": "1QB",
-        "sample_size": 283,
-        "playoff_rate": 0.428,
-        "playoff_rate_lift": -12.2,
-        "championship_rate": 0.085,
-        "top_3_pf_rate": 0.208,
-        "average_points_for": 1422.85,
-        "confidence_level": "High",
-        "severity": "strong_negative",
-        "explanation": "Teams that drafted 0 RBs in rounds 1–5 missed the playoffs 57.2% of the time (vs 45.0% baseline). Without early-round RB production, rosters tended to score 95.7 fewer points per season on average."
-      }
-    ],
+    "1QB": [],
     "Superflex": []
   },
   "by_tep": {
     "Standard": [],
-    "Half PPR": [
-      {
-        "strategy_name": "Hero RB",
-        "format_context": "Half PPR",
-        "sample_size": 121,
-        "playoff_rate": 0.438,
-        "playoff_rate_lift": -8.4,
-        "championship_rate": 0.05,
-        "top_3_pf_rate": 0.215,
-        "average_points_for": 1479.81,
-        "confidence_level": "Medium",
-        "severity": "negative",
-        "explanation": "Teams using Hero RB missed the playoffs 56.2% of the time vs the 47.8% baseline — a 8.4pp gap. Average scoring was -22.7 pts vs the sample mean."
-      }
-    ],
-    "PPR": [
-      {
-        "strategy_name": "Zero RB",
-        "format_context": "PPR",
-        "sample_size": 511,
-        "playoff_rate": 0.444,
-        "playoff_rate_lift": -9.7,
-        "championship_rate": 0.096,
-        "top_3_pf_rate": 0.207,
-        "average_points_for": 1622.12,
-        "confidence_level": "High",
-        "severity": "negative",
-        "explanation": "Teams that drafted 0 RBs in rounds 1–5 missed the playoffs 55.6% of the time (vs 45.9% baseline). Without early-round RB production, rosters tended to score 7 fewer points per season on average."
-      }
-    ]
+    "Half PPR": [],
+    "PPR": []
   },
   "by_full_format": {
-    "12-team PPR 1QB": [
-      {
-        "strategy_name": "Zero RB",
-        "format_context": "12-team PPR 1QB",
-        "sample_size": 153,
-        "playoff_rate": 0.405,
-        "playoff_rate_lift": -10.2,
-        "championship_rate": 0.072,
-        "top_3_pf_rate": 0.183,
-        "average_points_for": 1447.76,
-        "confidence_level": "Medium",
-        "severity": "negative",
-        "explanation": "Teams that drafted 0 RBs in rounds 1–5 missed the playoffs 59.5% of the time (vs 49.2% baseline). Without early-round RB production, rosters tended to score 110.7 fewer points per season on average."
-      }
-    ],
+    "12-team PPR 1QB": [],
     "12-team PPR Superflex": [],
     "12-team Half PPR 1QB": [],
-    "10-team PPR 1QB": [
-      {
-        "strategy_name": "Zero RB",
-        "format_context": "10-team PPR 1QB",
-        "sample_size": 112,
-        "playoff_rate": 0.455,
-        "playoff_rate_lift": -14.3,
-        "championship_rate": 0.098,
-        "top_3_pf_rate": 0.232,
-        "average_points_for": 1386.86,
-        "confidence_level": "Medium",
-        "severity": "strong_negative",
-        "explanation": "Teams that drafted 0 RBs in rounds 1–5 missed the playoffs 54.5% of the time (vs 40.1% baseline). Without early-round RB production, rosters tended to score 92.9 fewer points per season on average."
-      }
-    ],
+    "10-team PPR 1QB": [],
     "10-team Half PPR 1QB": []
   }
 }

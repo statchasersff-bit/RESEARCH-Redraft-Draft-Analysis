@@ -15,7 +15,7 @@ paths = [ "/" ]
 localPort = 22582
 
 [services.development]
-run = "pnpm --filter @workspace/stat-chasers run dev"
+run = "node /home/runner/workspace/artifacts/stat-chasers/node_modules/vite/bin/vite.js --config /home/runner/workspace/artifacts/stat-chasers/vite.config.static.ts --host 0.0.0.0"
 
 [services.production]
 build = [ "pnpm", "--filter", "@workspace/stat-chasers", "run", "build" ]

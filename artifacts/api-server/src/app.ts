@@ -1,4 +1,5 @@
 import express, { type Express } from "express";
+import compression from "compression";
 import cors from "cors";
 import pinoHttp from "pino-http";
 import router from "./routes";
@@ -6,6 +7,7 @@ import { logger } from "./lib/logger";
 
 const app: Express = express();
 
+app.use(compression());
 app.use(
   pinoHttp({
     logger,

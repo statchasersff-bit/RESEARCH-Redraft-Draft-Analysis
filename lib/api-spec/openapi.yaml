@@ -227,6 +227,111 @@ paths:
               schema:
                 $ref: "#/components/schemas/ApiError"
 
+  /redraft/filter-combos:
+    get:
+      operationId: getRedraftFilterCombos
+      tags: [redraft]
+      summary: Get pre-computed analysis for all filter combinations
+      description: Returns strategy analysis pre-computed for every combination of QB format, scoring, TEP, and team size filters
+      responses:
+        "200":
+          description: Filter combos data
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/RedraftFilterCombos"
+        "404":
+          description: No data available yet
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/ApiError"
+
+  /redraft/filter-trends:
+    get:
+      operationId: getRedraftFilterTrends
+      tags: [redraft]
+      summary: Get year-over-year strategy trends (2024 vs 2025)
+      description: Returns comparison data for all 36 filter combos (QB × Scoring × TEP × Size) showing how each strategy changed between seasons
+      responses:
+        "200":
+          description: Filter trends data
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/RedraftFilterTrends"
+        "404":
+          description: No data available yet
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/ApiError"
+
+  /redraft/draft-board:
+    get:
+      operationId: getRedraftDraftBoard
+      tags: [redraft]
+      summary: Get full draft board for the example draft
+      description: Returns all picks for the example draft, organised by round and slot, with strategy–to–slot mappings for highlighting
+      parameters:
+        - in: query
+          name: index
+          schema:
+            type: integer
+            default: 0
+          description: Index of the draft example to return (0-based, within the filtered set)
+        - in: query
+          name: size
+          schema:
+            type: string
+            enum: ["10", "12"]
+          description: Filter boards by league size (10 or 12 teams)
+        - in: query
+          name: scoring
+          schema:
+            type: string
+            enum: [ppr, half_ppr, standard]
+          description: Filter boards by scoring format
+        - in: query
+          name: qb_type
+          schema:
+            type: string
+            enum: [one_qb, superflex]
+          description: Filter boards by QB format
+      responses:
+        "200":
+          description: Draft board data
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/RedraftDraftBoard"
+        "404":
+          description: No data available yet
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/ApiError"
+
+  /redraft/draft-examples:
+    get:
+      operationId: getRedraftDraftExamples
+      tags: [redraft]
+      summary: Get real draft examples for each strategy
+      description: Returns one real draft example per strategy extracted from the analyzed dataset
+      responses:
+        "200":
+          description: Draft examples data
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/RedraftDraftExamples"
+        "404":
+          description: No data available yet
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/ApiError"
+
 components:
   schemas:
     HealthStatus:
@@ -724,3 +829,226 @@ components:
         - generated_at
         - baseline_miss_rate
         - entries
+
+    FilteredSlotGroup:
+      type: object
+      properties:
+        slot_group:
+          type: string
+        sample_size:
+          type: integer
+        best_strategies:
+          type: array
+          items:
+            $ref: "#/components/schemas/StrategyMetrics"
+        worst_strategies:
+          type: array
+          items:
+            $ref: "#/components/schemas/StrategyMetrics"
+        best_first_two_pick_combos:
+          type: array
+          items:
+            $ref: "#/components/schemas/StrategyMetrics"
+        recommended_draft_blueprint:
+          type: string
+      required:
+        - slot_group
+        - sample_size
+        - best_strategies
+
+    FilteredSlice:
+      type: object
+      properties:
+        label:
+          type: string
+        sample_size:
+          type: integer
+        league_count:
+          type: integer
+        baseline:
+          type: object
+          properties:
+            playoff_rate:
+              type: number
+            championship_rate:
+              type: number
+            top_3_pf_rate:
+              type: number
+            average_points_for:
+              type: number
+          required:
+            - playoff_rate
+            - championship_rate
+        best_strategies:
+          type: array
+          items:
+            $ref: "#/components/schemas/StrategyMetrics"
+        worst_strategies:
+          type: array
+          items:
+            $ref: "#/components/schemas/StrategyMetrics"
+        best_first_round_positions:
+          type: array
+          items:
+            $ref: "#/components/schemas/StrategyMetrics"
+        best_first_two_pick_combos:
+          type: array
+          items:
+            $ref: "#/components/schemas/StrategyMetrics"
+        best_first_five_builds:
+          type: array
+          items:
+            $ref: "#/components/schemas/StrategyMetrics"
+        by_slot:
+          type: object
+          properties:
+            early:
+              $ref: "#/components/schemas/FilteredSlotGroup"
+            middle:
+              $ref: "#/components/schemas/FilteredSlotGroup"
+            late:
+              $ref: "#/components/schemas/FilteredSlotGroup"
+        key_takeaways:
+          type: array
+          items:
+            type: string
+      required:
+        - label
+        - sample_size
+        - league_count
+        - best_strategies
+
+    RedraftFilterCombos:
+      type: object
+      properties:
+        generated_at:
+          type: string
+        combos:
+          type: object
+          additionalProperties:
+            $ref: "#/components/schemas/FilteredSlice"
+      required:
+        - generated_at
+        - combos
+
+    RedraftFilterTrends:
+      type: object
+      properties:
+        generated_at:
+          type: string
+        trends:
+          type: object
+          additionalProperties:
+            type: object
+      required:
+        - generated_at
+        - trends
+
+    DraftPickExample:
+      type: object
+      properties:
+        name:
+          type: string
+        position:
+          type: string
+        team:
+          type: string
+      required:
+        - name
+        - position
+        - team
+
+    DraftRoundExample:
+      type: object
+      properties:
+        round:
+          type: integer
+        picks:
+          type: array
+          items:
+            $ref: "#/components/schemas/DraftPickExample"
+      required:
+        - round
+        - picks
+
+    DraftExample:
+      type: object
+      properties:
+        strategy:
+          type: string
+        draft_id:
+          type: string
+        roster_id:
+          type: integer
+        rounds:
+          type: array
+          items:
+            $ref: "#/components/schemas/DraftRoundExample"
+      required:
+        - strategy
+        - draft_id
+        - roster_id
+        - rounds
+
+    BoardPick:
+      type: object
+      properties:
+        round:
+          type: integer
+        slot:
+          type: integer
+        roster_id:
+          type: integer
+        name:
+          type: string
+        position:
+          type: string
+        nfl_team:
+          type: string
+      required: [round, slot, roster_id, name, position, nfl_team]
+
+    BoardStrategy:
+      type: object
+      properties:
+        strategy:
+          type: string
+        roster_id:
+          type: integer
+        slot:
+          type: integer
+      required: [strategy, roster_id, slot]
+
+    RedraftDraftBoard:
+      type: object
+      properties:
+        draft_id:
+          type: string
+        label:
+          type: string
+        index:
+          type: integer
+        total:
+          type: integer
+        num_teams:
+          type: integer
+        num_rounds:
+          type: integer
+        strategies:
+          type: array
+          items:
+            $ref: "#/components/schemas/BoardStrategy"
+        picks:
+          type: array
+          items:
+            $ref: "#/components/schemas/BoardPick"
+      required: [draft_id, label, index, total, num_teams, num_rounds, strategies, picks]
+
+    RedraftDraftExamples:
+      type: object
+      properties:
+        examples:
+          type: array
+          items:
+            $ref: "#/components/schemas/DraftExample"
+      required:
+        - examples

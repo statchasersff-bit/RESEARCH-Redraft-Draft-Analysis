@@ -1,0 +1,43 @@
+Please see below instructions I used for another tool on replit to get the domain names I wanted. Can we do this here too? I'd like the main domain to be /draft-analysis-redraft
+then depending on what header filters someone select it will add a :season/:QB-Format/:scoring/:TE-Premium/:Team-Size
+
+
+The Library: wouter
+The app uses a lightweight routing library called wouter (instead of the more common React Router). It intercepts navigation events in the browser and swaps out which React component is displayed — without ever reloading the page. This is called client-side routing.
+
+How the URL Structure is Defined
+In App.tsx, all the possible URL patterns are declared in a <Switch> block:
+
+/                               → Landing page
+/rookie-guide                   → Landing page
+/rookie-guide/:year             → The Big Board (e.g. /rookie-guide/2026)
+/rookie-guide/:year/compare     → Player comparison tool
+/rookie-guide/:year/draft-room  → Draft room utility
+/rookie-guide/:year/:slug       → Individual player profile
+
+The :year and :slug parts are wildcards — wouter captures whatever is in that position of the URL and passes it as a variable to the component. So /rookie-guide/2026/nicholas-singleton gives the profile page year = "2026" and slug = "nicholas-singleton".
+
+How Clicking a Player Changes the URL
+When you click a player's name on the Big Board, two things happen:
+
+In player-card.tsx:
+
+const [, navigate] = useLocation();  // grab the navigate function from wouter
+navigate(`/rookie-guide/${year}/${player.slug}`);  // fire it with the player's slug
+
+player.slug is a pre-computed, URL-safe version of the player's name — spaces replaced with hyphens, all lowercase (e.g. "Nicholas Singleton" → "nicholas-singleton"). This is generated on the server when the player data is built.
+
+The same pattern exists in player-drawer.tsx for the "View Full Profile" button — it calls the same navigate() function with the same URL pattern.
+
+How the Slug is Generated
+Back on the server in server/routes.ts, each player gets a slug when the enriched player data is assembled:
+
+slug: player.name.toLowerCase().replace(/[^a-z0-9]+/g, "-").replace(/^-|-$/g, "")
+
+So "Omar Cooper Jr." becomes "omar-cooper-jr", and that slug is stored on the player object. Both the URL and the data lookup use the same slug, so they always match.
+
+How the Profile Page Loads the Right Player
+When wouter matches /rookie-guide/2026/nicholas-singleton, it renders the PlayerProfilePage component and passes slug = "nicholas-singleton". The profile page then queries /api/rookies/nicholas-singleton (or in WordPress static mode, filters the pre-loaded rookies.json array for the player whose slug matches). That's how it knows which player to show.
+
+Why the Page Doesn't Reload
+This is the key difference from traditional websites. The browser's URL bar changes (wouter uses the browser's built-in History API — pushState) but no new HTML page is requested from the server. React simply unmounts the Big Board component and mounts the Player Profile component in its place, using data it already has or fetches in the background.

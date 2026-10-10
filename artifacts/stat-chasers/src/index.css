@@ -76,36 +76,36 @@
   --elevate-1: rgba(0,0,0, .03);
   --elevate-2: rgba(0,0,0, .08);
 
-  --background: 210 20% 98%; 
+  --background: 0 0% 100%;
   --foreground: 214 68% 14%; 
   
-  --border: 214 30% 90%;
+  --border: 0 0% 89%;
   
   --card: 0 0% 100%;
   --card-foreground: 214 68% 14%;
-  --card-border: 214 30% 90%;
+  --card-border: 0 0% 89%;
 
   --sidebar: 0 0% 100%;
   --sidebar-foreground: 214 68% 14%;
-  --sidebar-border: 214 30% 90%;
+  --sidebar-border: 0 0% 89%;
   --sidebar-primary: 214 68% 14%;
   --sidebar-primary-foreground: 0 0% 100%;
-  --sidebar-accent: 210 20% 96%;
+  --sidebar-accent: 0 0% 95%;
   --sidebar-accent-foreground: 214 68% 14%;
   --sidebar-ring: 214 68% 14%;
 
   --popover: 0 0% 100%;
   --popover-foreground: 214 68% 14%;
-  --popover-border: 214 30% 90%;
+  --popover-border: 0 0% 89%;
 
   --primary: 214 68% 14%;
   --primary-foreground: 0 0% 100%;
 
-  --secondary: 210 20% 96%;
+  --secondary: 0 0% 95%;
   --secondary-foreground: 214 68% 14%;
 
-  --muted: 210 20% 96%;
-  --muted-foreground: 215 16% 47%;
+  --muted: 0 0% 95%;
+  --muted-foreground: 0 0% 45%;
 
   --accent: 46 68% 47%;
   --accent-foreground: 0 0% 100%;
@@ -113,13 +113,13 @@
   --destructive: 0 84% 60%;
   --destructive-foreground: 0 0% 100%;
 
-  --input: 214 30% 90%;
+  --input: 0 0% 89%;
   --ring: 214 68% 14%;
   
   --chart-1: 214 68% 14%;
   --chart-2: 46 68% 47%;
-  --chart-3: 215 16% 47%;
-  --chart-4: 210 20% 96%;
+  --chart-3: 0 0% 45%;
+  --chart-4: 0 0% 95%;
   --chart-5: 0 0% 80%;
 
   --app-font-sans: 'Inter', sans-serif;
@@ -130,6 +130,19 @@
   --shadow-sm: 0px 2px 4px rgba(0,0,0,0.05);
   --shadow: 0px 4px 6px rgba(0,0,0,0.05);
   --shadow-md: 0px 8px 12px rgba(0,0,0,0.05);
+
+  /* Draft-board tile tokens (light) */
+  --adp-tile: #f4f7fb;
+  --adp-surface: #e8eef6;
+  --adp-overlay: rgba(15,32,51,0.05);
+  --adp-hairline: rgba(15,32,51,0.12);
+  --rs-app-text: #102033;
+  --rs-app-text-muted: #64748b;
+
+  /* Filter-bar tokens (light) */
+  --rs-app-card-soft: #f1f5f9;
+  --rs-app-blue: #0b3978;
+  --rs-app-border: rgba(148,163,184,0.18);
 }
 
 .dark {
@@ -178,6 +191,19 @@
   --chart-3: 215 16% 70%;
   --chart-4: 214 30% 20%;
   --chart-5: 0 0% 30%;
+
+  /* Draft-board tile tokens (dark) */
+  --adp-tile: #0e1828;
+  --adp-surface: #0a1424;
+  --adp-overlay: rgba(255,255,255,0.03);
+  --adp-hairline: rgba(255,255,255,0.08);
+  --rs-app-text: #e6edf7;
+  --rs-app-text-muted: #94a3b8;
+
+  /* Filter-bar tokens (dark) */
+  --rs-app-card-soft: rgba(255,255,255,0.03);
+  --rs-app-blue: #0b3978;
+  --rs-app-border: rgba(255,255,255,0.06);
 }
 
 @layer base {
@@ -188,4 +214,158 @@
   body {
     @apply font-sans antialiased bg-background text-foreground;
   }
+}
+
+/* ── WordPress host-theme isolation ─────────────────────────────────────── *
+ * WordPress themes override h1–h6, a, p, ul, img globally.
+ * These rules restore browser defaults inside our root so Tailwind wins.  */
+.rs-app-root {
+  font-family: 'Inter', sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  color: hsl(214 68% 14%);
+  box-sizing: border-box;
+}
+
+.rs-app-root *,
+.rs-app-root *::before,
+.rs-app-root *::after {
+  box-sizing: border-box;
+}
+
+/* Reset headings — the #1 WordPress bleed source.
+ * !important is required: some themes use `body h2 { font-size: X !important }` */
+.rs-app-root h1,
+.rs-app-root h2,
+.rs-app-root h3,
+.rs-app-root h4,
+.rs-app-root h5,
+.rs-app-root h6 {
+  font-size: inherit !important;
+  font-weight: inherit !important;
+  line-height: inherit !important;
+  margin: 0 !important;
+  padding: 0 !important;
+  color: inherit !important;
+  letter-spacing: inherit !important;
+  text-transform: none !important;
+  border: none !important;
+}
+
+.rs-app-root p {
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
+.rs-app-root a {
+  color: inherit !important;
+  text-decoration: none !important;
+}
+
+.rs-app-root ul,
+.rs-app-root ol {
+  margin: 0 !important;
+  padding: 0 !important;
+  list-style: none !important;
+}
+
+.rs-app-root img {
+  max-width: 100% !important;
+  height: auto !important;
+  display: block !important;
+}
+
+.rs-app-root button,
+.rs-app-root input,
+.rs-app-root select,
+.rs-app-root textarea {
+  font-family: inherit !important;
+  font-size: inherit !important;
+}
+
+/* ── App shell: full-width in any host (WordPress/Divi/standalone) ─────── *
+ * All custom component classes are scoped under .rs-app-root so they can
+ * never be overridden by — nor bleed into — the host WordPress/Divi CSS. */
+.rs-app-root .rs-app-draft-guide-app {
+  width: 100%;
+  max-width: none;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  /* Clip horizontal overflow so WordPress theme can't cause page-wide scroll.
+     clip (unlike hidden) does NOT create a scroll container, so sticky still works. */
+  overflow-x: clip;
+}
+
+.rs-app-root .rs-app-draft-guide-hero {
+  width: 100%;
+  max-width: none;
+}
+
+.rs-app-root .rs-app-draft-guide-hero__inner,
+.rs-app-root .rs-app-draft-analysis-shell {
+  width: 100%;
+  max-width: 1380px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 1px;
+  padding-right: 1px;
+  box-sizing: border-box;
+}
+
+/* ── Premium KPI cards (colored glow, accent icon) ─────────────────────── *
+ * Light theme: soft white surface. Dark theme: navy surface (overrides below).
+ * Plain CSS (not @apply utilities) so it is never purged. */
+.rs-app-root .rs-app-premium-kpi {
+  position: relative;
+  overflow: hidden;
+  background: linear-gradient(135deg, #ffffff, #f5f8fd);
+  border: 1px solid rgba(15, 31, 58, 0.10);
+  box-shadow:
+    inset 0 1px 0 rgba(255, 255, 255, 0.65),
+    0 8px 20px rgba(15, 23, 42, 0.08);
+  transition: transform 160ms ease, border-color 160ms ease, box-shadow 160ms ease;
+}
+.rs-app-root .rs-app-premium-kpi::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: radial-gradient(circle at 12% 28%, var(--kpi-glow, rgba(96, 165, 250, 0.12)), transparent 34%);
+  pointer-events: none;
+}
+.rs-app-root .rs-app-premium-kpi:hover {
+  transform: translateY(-2px);
+  border-color: rgba(37, 99, 235, 0.30);
+  box-shadow:
+    inset 0 1px 0 rgba(255, 255, 255, 0.75),
+    0 12px 26px rgba(15, 23, 42, 0.12);
+}
+
+/* Dark mode toggles .dark on the .rs-app-root wrapper (shadcn convention). */
+.rs-app-root.dark .rs-app-premium-kpi {
+  background: linear-gradient(135deg, rgba(20, 28, 42, 0.98), rgba(14, 20, 31, 0.98));
+  border-color: rgba(96, 165, 250, 0.12);
+  box-shadow:
+    inset 0 1px 0 rgba(255, 255, 255, 0.04),
+    0 14px 30px rgba(0, 0, 0, 0.22);
+}
+.rs-app-root.dark .rs-app-premium-kpi:hover {
+  border-color: rgba(96, 165, 250, 0.28);
+  box-shadow:
+    inset 0 1px 0 rgba(255, 255, 255, 0.05),
+    0 18px 38px rgba(0, 0, 0, 0.28);
+}
+.rs-app-root .rs-app-premium-kpi-icon {
+  width: 44px;
+  height: 44px;
+  border-radius: 14px;
+  background: var(--kpi-icon-bg, rgba(37, 99, 235, 0.14));
+  border: 1px solid var(--kpi-icon-border, rgba(96, 165, 250, 0.14));
+  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.05);
+  /* Light theme: the icon glyph (accent color, set inline) sits on a pale tint,
+     so deepen it slightly for contrast against the white card. */
+  filter: saturate(1.15) brightness(0.9);
+}
+.rs-app-root.dark .rs-app-premium-kpi-icon {
+  filter: none;
 }

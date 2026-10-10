@@ -1,0 +1,21 @@
+{
+  "sleeper_username": "jawhorse",
+  "sleeper_user_id": "463151018994036736",
+  "season": "2021",
+  "seed_leagues_found": 21,
+  "seed_redraft_leagues_used": 21,
+  "unique_users_discovered": 24626,
+  "total_leagues_discovered": 24626,
+  "valid_redraft_leagues": 2539,
+  "rejected_leagues": 22087,
+  "valid_10_team_count": 1025,
+  "valid_12_team_count": 1514,
+  "valid_1qb_count": 1927,
+  "valid_superflex_count": 612,
+  "valid_no_tep_count": 2313,
+  "valid_tep_05_count": 220,
+  "valid_tep_075_count": 6,
+  "valid_4pt_pass_td_count": 1793,
+  "valid_6pt_pass_td_count": 746,
+  "generated_at": "2026-05-09T21:23:34.482Z"
+}

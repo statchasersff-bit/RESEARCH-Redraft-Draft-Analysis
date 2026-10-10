@@ -1,0 +1,140 @@
+Fix the Year-over-Year volatility / consistency logic.
+
+CURRENT BUG
+The system is incorrectly labeling strategies as “Most Consistent” even when they have large year-to-year swings.
+
+Example:
+Zero RB:
+2023: 52.7%
+2024: 38.6%
+2025: 38.1%
+
+This should NOT be considered consistent because:
+- 2023 to 2024 changed by -14.1pp
+- total range is 14.6pp
+- this is high volatility
+
+GOAL
+Consistency should be based on actual year-to-year movement in playoff rate, not sample size or average playoff rate.
+
+VOLATILITY CALCULATION
+For each strategy with qualified samples in all selected years, calculate:
+
+1. yearly_playoff_rates
+Example:
+[52.7, 38.6, 38.1]
+
+2. year_to_year_changes_pp
+Example:
+2023 → 2024 = -14.1pp
+2024 → 2025 = -0.5pp
+
+3. max_year_to_year_swing_pp
+Maximum absolute year-to-year change.
+Example:
+max(abs(-14.1), abs(-0.5)) = 14.1pp
+
+4. total_range_pp
+Highest playoff rate minus lowest playoff rate.
+Example:
+52.7 - 38.1 = 14.6pp
+
+5. volatility_score
+Use this formula:
+
+volatility_score = (max_year_to_year_swing_pp * 0.70) + (total_range_pp * 0.30)
+
+For Zero RB:
+(14.1 * 0.70) + (14.6 * 0.30) = 14.25
+
+So Zero RB should be High Volatility, not Most Consistent.
+
+CONSISTENCY LABELS
+Use volatility_score:
+
+- Very Stable: 0.0pp to 2.0pp
+- Stable: >2.0pp to 4.0pp
+- Moderate Volatility: >4.0pp to 7.0pp
+- High Volatility: >7.0pp
+
+MOST CONSISTENT CARD LOGIC
+The “Most Consistent” card should select the qualified strategy with the LOWEST volatility_score.
+
+Requirements:
+- Must have data for every selected season
+- Each season must have at least 50 samples
+- Prefer strategies where every season has at least 250 samples
+- If no strategy has enough sample, show “No reliable consistency winner”
+
+LEAST CONSISTENT CARD LOGIC
+The “Least Consistent” card should select the qualified strategy with the HIGHEST volatility_score.
+
+Requirements:
+- Must have data for every selected season
+- Each season must have at least 50 samples
+
+DISPLAY FIXES
+For consistency cards, show:
+
+Most Consistent:
+- Strategy name
+- Stability label
+- Volatility score
+- Year values
+- Total range
+- Max yearly swing
+
+Example:
+Most Consistent
+Balanced Start
+Stable
+Volatility Score: 2.8pp
+2023: 51.2% → 2024: 52.4% → 2025: 50.1%
+Range: 2.3pp
+Max Swing: 2.3pp
+
+Least Consistent:
+- Strategy name
+- Volatility label
+- Volatility score
+- Year values
+- Total range
+- Max yearly swing
+
+Example:
+Least Consistent
+Zero RB
+High Volatility
+Volatility Score: 14.3pp
+2023: 52.7% → 2024: 38.6% → 2025: 38.1%
+Range: 14.6pp
+Max Swing: 14.1pp
+
+IMPORTANT WORDING
+Do not say:
+“Smallest year-to-year movement”
+unless the selected strategy actually has the lowest volatility_score.
+
+Do not show:
+“Most Consistent” with a “High Volatility” label.
+
+That is contradictory.
+
+If a strategy has High Volatility, it cannot be the Most Consistent card.
+
+DEBUG OUTPUT
+Add debug fields to the trend JSON for each strategy:
+
+- yearly_playoff_rates
+- year_to_year_changes_pp
+- max_year_to_year_swing_pp
+- total_range_pp
+- volatility_score
+- volatility_label
+- qualifies_for_consistency_card
+
+ACCEPTANCE CRITERIA
+Zero RB with 52.7%, 38.6%, 38.1% should be labeled High Volatility.
+Zero RB should not be selected as Most Consistent.
+Most Consistent should be the strategy with the lowest volatility_score among qualified strategies.
+Least Consistent should be the strategy with the highest volatility_score among qualified strategies.

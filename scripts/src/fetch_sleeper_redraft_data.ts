@@ -244,6 +244,45 @@ export async function fetchAllDataForLeague(
   };
 }
 
+// ─── Lean Fetch (skips matchups + users — 3x fewer file reads) ───────────────
+
+export async function fetchCoreDataForLeague(
+  input: LeagueInput
+): Promise<FetchedLeagueData> {
+  const { league_id } = input;
+
+  const [league, rosters, drafts] = await Promise.all([
+    fetchLeague(league_id),
+    fetchLeagueRosters(league_id),
+    fetchLeagueDrafts(league_id),
+  ]);
+
+  const [winnersBracket] = await Promise.all([
+    fetchWinnersBracket(league_id).catch(() => null),
+  ]);
+
+  const draftsArr = Array.isArray(drafts) ? drafts : [];
+  const draftDetails = await Promise.all(
+    draftsArr.map((d) => fetchDraft(d.draft_id).catch(() => null))
+  );
+  const draftPicks = await Promise.all(
+    draftsArr.map((d) => fetchDraftPicks(d.draft_id).catch(() => []))
+  ) as unknown[][];
+
+  return {
+    input,
+    league,
+    users: [],
+    rosters,
+    matchups: {},
+    winnersBracket,
+    losersBracket: null,
+    drafts: draftsArr,
+    draftDetails,
+    draftPicks,
+  };
+}
+
 // ─── Standalone Entry ─────────────────────────────────────────────────────────
 
 if (process.argv[1] && process.argv[1].endsWith("fetch_sleeper_redraft_data.ts")) {

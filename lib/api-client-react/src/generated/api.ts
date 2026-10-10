@@ -15,9 +15,14 @@ import type {
 
 import type {
   ApiError,
+  GetRedraftDraftBoardParams,
   HealthStatus,
   RedraftByFormat,
   RedraftBySlot,
+  RedraftDraftBoard,
+  RedraftDraftExamples,
+  RedraftFilterCombos,
+  RedraftFilterTrends,
   RedraftFirstFiveBuilds,
   RedraftFirstTwoPicks,
   RedraftLeagueAudit,
@@ -883,6 +888,338 @@ export function useGetRedraftPlayoffMissRisk<
   request?: SecondParameter<typeof customFetch>;
 }): UseQueryResult<TData, TError> & { queryKey: QueryKey } {
   const queryOptions = getGetRedraftPlayoffMissRiskQueryOptions(options);
+
+  const query = useQuery(queryOptions) as UseQueryResult<TData, TError> & {
+    queryKey: QueryKey;
+  };
+
+  return { ...query, queryKey: queryOptions.queryKey };
+}
+
+/**
+ * Returns strategy analysis pre-computed for every combination of QB format, scoring, TEP, and team size filters
+ * @summary Get pre-computed analysis for all filter combinations
+ */
+export const getGetRedraftFilterCombosUrl = () => {
+  return `/api/redraft/filter-combos`;
+};
+
+export const getRedraftFilterCombos = async (
+  options?: RequestInit,
+): Promise<RedraftFilterCombos> => {
+  return customFetch<RedraftFilterCombos>(getGetRedraftFilterCombosUrl(), {
+    ...options,
+    method: "GET",
+  });
+};
+
+export const getGetRedraftFilterCombosQueryKey = () => {
+  return [`/api/redraft/filter-combos`] as const;
+};
+
+export const getGetRedraftFilterCombosQueryOptions = <
+  TData = Awaited<ReturnType<typeof getRedraftFilterCombos>>,
+  TError = ErrorType<ApiError>,
+>(options?: {
+  query?: UseQueryOptions<
+    Awaited<ReturnType<typeof getRedraftFilterCombos>>,
+    TError,
+    TData
+  >;
+  request?: SecondParameter<typeof customFetch>;
+}) => {
+  const { query: queryOptions, request: requestOptions } = options ?? {};
+
+  const queryKey =
+    queryOptions?.queryKey ?? getGetRedraftFilterCombosQueryKey();
+
+  const queryFn: QueryFunction<
+    Awaited<ReturnType<typeof getRedraftFilterCombos>>
+  > = ({ signal }) => getRedraftFilterCombos({ signal, ...requestOptions });
+
+  return { queryKey, queryFn, ...queryOptions } as UseQueryOptions<
+    Awaited<ReturnType<typeof getRedraftFilterCombos>>,
+    TError,
+    TData
+  > & { queryKey: QueryKey };
+};
+
+export type GetRedraftFilterCombosQueryResult = NonNullable<
+  Awaited<ReturnType<typeof getRedraftFilterCombos>>
+>;
+export type GetRedraftFilterCombosQueryError = ErrorType<ApiError>;
+
+/**
+ * @summary Get pre-computed analysis for all filter combinations
+ */
+
+export function useGetRedraftFilterCombos<
+  TData = Awaited<ReturnType<typeof getRedraftFilterCombos>>,
+  TError = ErrorType<ApiError>,
+>(options?: {
+  query?: UseQueryOptions<
+    Awaited<ReturnType<typeof getRedraftFilterCombos>>,
+    TError,
+    TData
+  >;
+  request?: SecondParameter<typeof customFetch>;
+}): UseQueryResult<TData, TError> & { queryKey: QueryKey } {
+  const queryOptions = getGetRedraftFilterCombosQueryOptions(options);
+
+  const query = useQuery(queryOptions) as UseQueryResult<TData, TError> & {
+    queryKey: QueryKey;
+  };
+
+  return { ...query, queryKey: queryOptions.queryKey };
+}
+
+/**
+ * Returns comparison data for all 36 filter combos (QB × Scoring × TEP × Size) showing how each strategy changed between seasons
+ * @summary Get year-over-year strategy trends (2024 vs 2025)
+ */
+export const getGetRedraftFilterTrendsUrl = () => {
+  return `/api/redraft/filter-trends`;
+};
+
+export const getRedraftFilterTrends = async (
+  options?: RequestInit,
+): Promise<RedraftFilterTrends> => {
+  return customFetch<RedraftFilterTrends>(getGetRedraftFilterTrendsUrl(), {
+    ...options,
+    method: "GET",
+  });
+};
+
+export const getGetRedraftFilterTrendsQueryKey = () => {
+  return [`/api/redraft/filter-trends`] as const;
+};
+
+export const getGetRedraftFilterTrendsQueryOptions = <
+  TData = Awaited<ReturnType<typeof getRedraftFilterTrends>>,
+  TError = ErrorType<ApiError>,
+>(options?: {
+  query?: UseQueryOptions<
+    Awaited<ReturnType<typeof getRedraftFilterTrends>>,
+    TError,
+    TData
+  >;
+  request?: SecondParameter<typeof customFetch>;
+}) => {
+  const { query: queryOptions, request: requestOptions } = options ?? {};
+
+  const queryKey =
+    queryOptions?.queryKey ?? getGetRedraftFilterTrendsQueryKey();
+
+  const queryFn: QueryFunction<
+    Awaited<ReturnType<typeof getRedraftFilterTrends>>
+  > = ({ signal }) => getRedraftFilterTrends({ signal, ...requestOptions });
+
+  return { queryKey, queryFn, ...queryOptions } as UseQueryOptions<
+    Awaited<ReturnType<typeof getRedraftFilterTrends>>,
+    TError,
+    TData
+  > & { queryKey: QueryKey };
+};
+
+export type GetRedraftFilterTrendsQueryResult = NonNullable<
+  Awaited<ReturnType<typeof getRedraftFilterTrends>>
+>;
+export type GetRedraftFilterTrendsQueryError = ErrorType<ApiError>;
+
+/**
+ * @summary Get year-over-year strategy trends (2024 vs 2025)
+ */
+
+export function useGetRedraftFilterTrends<
+  TData = Awaited<ReturnType<typeof getRedraftFilterTrends>>,
+  TError = ErrorType<ApiError>,
+>(options?: {
+  query?: UseQueryOptions<
+    Awaited<ReturnType<typeof getRedraftFilterTrends>>,
+    TError,
+    TData
+  >;
+  request?: SecondParameter<typeof customFetch>;
+}): UseQueryResult<TData, TError> & { queryKey: QueryKey } {
+  const queryOptions = getGetRedraftFilterTrendsQueryOptions(options);
+
+  const query = useQuery(queryOptions) as UseQueryResult<TData, TError> & {
+    queryKey: QueryKey;
+  };
+
+  return { ...query, queryKey: queryOptions.queryKey };
+}
+
+/**
+ * Returns all picks for the example draft, organised by round and slot, with strategy–to–slot mappings for highlighting
+ * @summary Get full draft board for the example draft
+ */
+export const getGetRedraftDraftBoardUrl = (
+  params?: GetRedraftDraftBoardParams,
+) => {
+  const normalizedParams = new URLSearchParams();
+
+  Object.entries(params || {}).forEach(([key, value]) => {
+    if (value !== undefined) {
+      normalizedParams.append(key, value === null ? "null" : value.toString());
+    }
+  });
+
+  const stringifiedParams = normalizedParams.toString();
+
+  return stringifiedParams.length > 0
+    ? `/api/redraft/draft-board?${stringifiedParams}`
+    : `/api/redraft/draft-board`;
+};
+
+export const getRedraftDraftBoard = async (
+  params?: GetRedraftDraftBoardParams,
+  options?: RequestInit,
+): Promise<RedraftDraftBoard> => {
+  return customFetch<RedraftDraftBoard>(getGetRedraftDraftBoardUrl(params), {
+    ...options,
+    method: "GET",
+  });
+};
+
+export const getGetRedraftDraftBoardQueryKey = (
+  params?: GetRedraftDraftBoardParams,
+) => {
+  return [`/api/redraft/draft-board`, ...(params ? [params] : [])] as const;
+};
+
+export const getGetRedraftDraftBoardQueryOptions = <
+  TData = Awaited<ReturnType<typeof getRedraftDraftBoard>>,
+  TError = ErrorType<ApiError>,
+>(
+  params?: GetRedraftDraftBoardParams,
+  options?: {
+    query?: UseQueryOptions<
+      Awaited<ReturnType<typeof getRedraftDraftBoard>>,
+      TError,
+      TData
+    >;
+    request?: SecondParameter<typeof customFetch>;
+  },
+) => {
+  const { query: queryOptions, request: requestOptions } = options ?? {};
+
+  const queryKey =
+    queryOptions?.queryKey ?? getGetRedraftDraftBoardQueryKey(params);
+
+  const queryFn: QueryFunction<
+    Awaited<ReturnType<typeof getRedraftDraftBoard>>
+  > = ({ signal }) =>
+    getRedraftDraftBoard(params, { signal, ...requestOptions });
+
+  return { queryKey, queryFn, ...queryOptions } as UseQueryOptions<
+    Awaited<ReturnType<typeof getRedraftDraftBoard>>,
+    TError,
+    TData
+  > & { queryKey: QueryKey };
+};
+
+export type GetRedraftDraftBoardQueryResult = NonNullable<
+  Awaited<ReturnType<typeof getRedraftDraftBoard>>
+>;
+export type GetRedraftDraftBoardQueryError = ErrorType<ApiError>;
+
+/**
+ * @summary Get full draft board for the example draft
+ */
+
+export function useGetRedraftDraftBoard<
+  TData = Awaited<ReturnType<typeof getRedraftDraftBoard>>,
+  TError = ErrorType<ApiError>,
+>(
+  params?: GetRedraftDraftBoardParams,
+  options?: {
+    query?: UseQueryOptions<
+      Awaited<ReturnType<typeof getRedraftDraftBoard>>,
+      TError,
+      TData
+    >;
+    request?: SecondParameter<typeof customFetch>;
+  },
+): UseQueryResult<TData, TError> & { queryKey: QueryKey } {
+  const queryOptions = getGetRedraftDraftBoardQueryOptions(params, options);
+
+  const query = useQuery(queryOptions) as UseQueryResult<TData, TError> & {
+    queryKey: QueryKey;
+  };
+
+  return { ...query, queryKey: queryOptions.queryKey };
+}
+
+/**
+ * Returns one real draft example per strategy extracted from the analyzed dataset
+ * @summary Get real draft examples for each strategy
+ */
+export const getGetRedraftDraftExamplesUrl = () => {
+  return `/api/redraft/draft-examples`;
+};
+
+export const getRedraftDraftExamples = async (
+  options?: RequestInit,
+): Promise<RedraftDraftExamples> => {
+  return customFetch<RedraftDraftExamples>(getGetRedraftDraftExamplesUrl(), {
+    ...options,
+    method: "GET",
+  });
+};
+
+export const getGetRedraftDraftExamplesQueryKey = () => {
+  return [`/api/redraft/draft-examples`] as const;
+};
+
+export const getGetRedraftDraftExamplesQueryOptions = <
+  TData = Awaited<ReturnType<typeof getRedraftDraftExamples>>,
+  TError = ErrorType<ApiError>,
+>(options?: {
+  query?: UseQueryOptions<
+    Awaited<ReturnType<typeof getRedraftDraftExamples>>,
+    TError,
+    TData
+  >;
+  request?: SecondParameter<typeof customFetch>;
+}) => {
+  const { query: queryOptions, request: requestOptions } = options ?? {};
+
+  const queryKey =
+    queryOptions?.queryKey ?? getGetRedraftDraftExamplesQueryKey();
+
+  const queryFn: QueryFunction<
+    Awaited<ReturnType<typeof getRedraftDraftExamples>>
+  > = ({ signal }) => getRedraftDraftExamples({ signal, ...requestOptions });
+
+  return { queryKey, queryFn, ...queryOptions } as UseQueryOptions<
+    Awaited<ReturnType<typeof getRedraftDraftExamples>>,
+    TError,
+    TData
+  > & { queryKey: QueryKey };
+};
+
+export type GetRedraftDraftExamplesQueryResult = NonNullable<
+  Awaited<ReturnType<typeof getRedraftDraftExamples>>
+>;
+export type GetRedraftDraftExamplesQueryError = ErrorType<ApiError>;
+
+/**
+ * @summary Get real draft examples for each strategy
+ */
+
+export function useGetRedraftDraftExamples<
+  TData = Awaited<ReturnType<typeof getRedraftDraftExamples>>,
+  TError = ErrorType<ApiError>,
+>(options?: {
+  query?: UseQueryOptions<
+    Awaited<ReturnType<typeof getRedraftDraftExamples>>,
+    TError,
+    TData
+  >;
+  request?: SecondParameter<typeof customFetch>;
+}): UseQueryResult<TData, TError> & { queryKey: QueryKey } {
+  const queryOptions = getGetRedraftDraftExamplesQueryOptions(options);
 
   const query = useQuery(queryOptions) as UseQueryResult<TData, TError> & {
     queryKey: QueryKey;

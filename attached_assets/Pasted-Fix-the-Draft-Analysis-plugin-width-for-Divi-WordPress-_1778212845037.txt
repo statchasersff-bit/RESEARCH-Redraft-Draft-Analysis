@@ -1,0 +1,82 @@
+Fix the Draft Analysis plugin width for Divi/WordPress.
+
+The plugin itself should support full-width rendering even when embedded inside a Divi Code Module.
+
+Add a defensive full-width breakout wrapper around the entire plugin.
+
+CSS:
+
+.sc-draft-analysis-fullbleed {
+  width: 100vw;
+  max-width: 100vw;
+  margin-left: calc(50% - 50vw);
+  margin-right: calc(50% - 50vw);
+  box-sizing: border-box;
+  overflow-x: hidden;
+}
+
+.sc-draft-analysis-app {
+  width: 100%;
+  max-width: none;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.sc-draft-analysis-inner {
+  width: 100%;
+  max-width: 1280px;
+  margin: 0 auto;
+  padding-left: clamp(16px, 4vw, 48px);
+  padding-right: clamp(16px, 4vw, 48px);
+  box-sizing: border-box;
+}
+
+Wrap the app like this:
+
+<div className="sc-draft-analysis-fullbleed">
+  <div className="sc-draft-analysis-app">
+    <div className="sc-draft-analysis-inner">
+      APP CONTENT HERE
+    </div>
+  </div>
+</div>
+
+Also add Divi-specific overrides:
+
+.et_pb_code_inner:has(.sc-draft-analysis-fullbleed),
+.et_pb_module:has(.sc-draft-analysis-fullbleed),
+.et_pb_column:has(.sc-draft-analysis-fullbleed),
+.et_pb_row:has(.sc-draft-analysis-fullbleed),
+.et_pb_section:has(.sc-draft-analysis-fullbleed) {
+  max-width: none !important;
+}
+
+.et_pb_code_inner:has(.sc-draft-analysis-fullbleed) {
+  width: 100% !important;
+}
+
+Important:
+The fullbleed wrapper should span the browser width.
+The inner content should stay readable at max-width 1280px.
+Do not make text run edge-to-edge.
+
+Also update the hero headline text:
+The Ultimate Redraft Draft Strategy Analysis
+
+Replace any remaining “Guide” wording with “Analysis.”
+
+DIVI SETTINGS TO CHECK:
+The page section/row containing the Code Module should be:
+- Row Width: 100%
+- Max Width: 100%
+- Gutter Width: 1
+- Custom Width: 100%
+- Custom Max Width: 100%
+
+If Divi still constrains it, add this CSS to the Divi Code Module Advanced > Custom CSS > Main Element:
+
+width: 100vw !important;
+max-width: 100vw !important;
+margin-left: calc(50% - 50vw) !important;
+margin-right: calc(50% - 50vw) !important;

@@ -22,7 +22,7 @@ function ConfidenceBadge({ level }: { level: string }) {
   const map: Record<string, string> = {
     High: "bg-green-100 text-green-800 border-green-200",
     Medium: "bg-blue-100 text-blue-800 border-blue-200",
-    Low: "bg-yellow-100 text-yellow-800 border-yellow-200",
+    Low: "bg-slate-100 text-slate-500 border-slate-200",
     "Very Low": "bg-gray-100 text-gray-600 border-gray-200",
   };
   return (
@@ -43,7 +43,7 @@ export function RecommendationCards({ group, label }: Props) {
 
   return (
     <div className="space-y-4">
-      <p className="text-sm font-medium text-foreground bg-muted/50 rounded-lg px-4 py-3 border-l-4 border-accent">
+      <p className="text-sm font-medium text-foreground bg-muted/50 rounded-lg px-4 py-3 border-l-4 border-[#0B1F3A]/30">
         {group.headline}
       </p>
       {group.recommendations.length === 0 ? (
@@ -80,16 +80,16 @@ export function RecommendationCards({ group, label }: Props) {
                       <span className="font-semibold text-foreground">{(rec.metrics.playoff_rate * 100).toFixed(1)}%</span>
                     </div>
                   )}
+                  {rec.metrics.top_3_pf_rate != null && (
+                    <div className="text-xs">
+                      <span className="text-muted-foreground">Top 3 PF %: </span>
+                      <span className="font-semibold text-foreground">{(rec.metrics.top_3_pf_rate * 100).toFixed(1)}%</span>
+                    </div>
+                  )}
                   {rec.metrics.championship_rate != null && (
                     <div className="text-xs">
                       <span className="text-muted-foreground">Champ Rate: </span>
                       <span className="font-semibold text-foreground">{(rec.metrics.championship_rate * 100).toFixed(1)}%</span>
-                    </div>
-                  )}
-                  {rec.metrics.average_points_for != null && (
-                    <div className="text-xs">
-                      <span className="text-muted-foreground">Avg Pts: </span>
-                      <span className="font-semibold text-foreground">{rec.metrics.average_points_for.toFixed(1)}</span>
                     </div>
                   )}
                 </div>

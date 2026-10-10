@@ -36,6 +36,7 @@ export interface TeamRecord {
   scoring_format: string;
   roster_format: string;
   draft_type: string;
+  tep: boolean;
 
   // Outcomes
   regular_season_wins: number;
@@ -46,6 +47,7 @@ export interface TeamRecord {
   average_weekly_score: number;
   median_weekly_score: number;
   top_3_points_for: boolean;
+  expected_playoff_rate: number; // theoretical rate = playoff_spots / league_size
   playoff_made: boolean;
   championship_made: boolean;
   champion: boolean;
@@ -284,7 +286,7 @@ interface ValidationResult {
   draft_type?: string;
 }
 
-function validateLeague(
+export function validateLeague(
   league: SleeperLeague,
   drafts: Array<{ draft_id: string }>,
   draftDetails: (SleeperDraft | null)[]
@@ -307,6 +309,14 @@ function validateLeague(
     return { valid: false, reason: `League size ${leagueSize} out of range (8-14)` };
   }
 
+  // For 10- and 12-team leagues, require exactly 6 playoff spots (standard format)
+  if (leagueSize === 12 || leagueSize === 10) {
+    const playoffTeams = settings["playoff_teams"] ?? 0;
+    if (playoffTeams !== 6) {
+      return { valid: false, reason: `${leagueSize}-team league with ${playoffTeams} playoff spots (require 6)` };
+    }
+  }
+
   // Must have draft
   if (!drafts || drafts.length === 0) {
     return { valid: false, reason: "No draft found" };
@@ -322,6 +332,40 @@ function validateLeague(
   const roster_format = classifyRosterFormat(league.roster_positions || []);
   const draft_type = draft.type || "snake";
 
+  // Validate roster positions against required settings
+  const positions = league.roster_positions || [];
+  const qbCount    = positions.filter((p) => p === "QB").length;
+  const rbCount    = positions.filter((p) => p === "RB").length;
+  const teCount    = positions.filter((p) => p === "TE").length;
+  const flexCount  = positions.filter((p) => p === "FLEX" || p === "WR/RB/TE").length;
+  const sfCount    = positions.filter((p) => p === "SUPER_FLEX" || p === "OP").length;
+
+  if (roster_format === "1QB") {
+    // Require: exactly 1 QB, 2 RB, 1 TE, 1-3 WRT flex
+    if (qbCount !== 1)
+      return { valid: false, reason: `1QB roster: ${qbCount} QB slots (require 1)` };
+    if (rbCount !== 2)
+      return { valid: false, reason: `1QB roster: ${rbCount} RB slots (require 2)` };
+    if (teCount !== 1)
+      return { valid: false, reason: `1QB roster: ${teCount} TE slots (require 1)` };
+    if (flexCount < 1 || flexCount > 3)
+      return { valid: false, reason: `1QB roster: ${flexCount} FLEX slots (require 1-3)` };
+  } else if (roster_format === "Superflex" || roster_format === "2QB") {
+    // Require: qb+sf == 2 (covers 2QB, 2 SUPER_FLEX, or 1 QB + 1 SUPER_FLEX)
+    const qbSfTotal = qbCount + sfCount;
+    if (qbSfTotal !== 2)
+      return { valid: false, reason: `Superflex roster: ${qbSfTotal} QB/SF slots (require 2)` };
+    if (rbCount !== 2)
+      return { valid: false, reason: `Superflex roster: ${rbCount} RB slots (require 2)` };
+    if (teCount !== 1)
+      return { valid: false, reason: `Superflex roster: ${teCount} TE slots (require 1)` };
+    if (flexCount < 1 || flexCount > 3)
+      return { valid: false, reason: `Superflex roster: ${flexCount} FLEX slots (require 1-3)` };
+  } else {
+    // "Other" format — non-standard, exclude from analysis
+    return { valid: false, reason: `Non-standard roster format (no QB/SF classification)` };
+  }
+
   return {
     valid: true,
     season_type,
@@ -334,7 +378,7 @@ function validateLeague(
 
 // ─── Team Builder ─────────────────────────────────────────────────────────────
 
-function buildTeamRecords(
+export function buildTeamRecords(
   fetched: FetchedLeagueData,
   validation: ValidationResult,
   nflPlayers: Record<string, { full_name?: string; position?: string; team?: string }>
@@ -351,6 +395,10 @@ function buildTeamRecords(
     roster_format = "Unknown",
     draft_type = "snake",
   } = validation;
+
+  // TEP: Tight End Premium — bonus reception points for TEs
+  const scoringSettings = league.scoring_settings || {};
+  const tep = (scoringSettings["bonus_rec_te"] ?? 0) > 0;
 
   // Build weekly scores per roster
   const weeklyScores: Record<number, number[]> = {};
@@ -493,55 +541,31 @@ function buildTeamRecords(
     // Strategy classification
     const rb5 = posCount(first5, "RB");
     const wr5 = posCount(first5, "WR");
-    const qb5 = posCount(first5, "QB");
-    const te5 = posCount(first5, "TE");
-
-    const round6_8positions = enrichedPicks.filter((p) => p.round >= 6 && p.round <= 8).map((p) => p.position);
-    const rb6_8 = posCount(round6_8positions, "RB");
-    const wr6 = enrichedPicks.filter((p) => p.round === 6).map((p) => p.position).filter((p) => p === "WR").length;
 
     const first_qb_round = firstRoundOf("QB");
-
-    const strategies: string[] = [];
-
-    // Zero RB
-    if (rb5 === 0) strategies.push("Zero RB");
-
-    // Hero RB
-    if (rb5 === 1) strategies.push("Hero RB");
-
-    // Robust RB
-    if (rb5 >= 3) strategies.push("Robust RB");
-
-    // WR Heavy
-    if (wr5 >= 3) strategies.push("WR Heavy");
-
-    // Elite QB
-    if (first_qb_round !== null && first_qb_round <= 4) strategies.push("Elite QB");
-
-    // Elite TE
     const first_te_round = firstRoundOf("TE");
-    if (first_te_round !== null && first_te_round <= 4) strategies.push("Elite TE");
 
-    // Balanced Start
-    if (rb5 >= 1 && wr5 >= 1 && qb5 <= 1 && te5 <= 1 && (rb5 + wr5) >= 4) {
-      strategies.push("Balanced Start");
+    // Core strategy — exactly one per team (mutually exclusive)
+    let coreStrategy: string;
+    if (rb5 === 0) {
+      coreStrategy = "Zero RB";
+    } else if (rb5 >= 3) {
+      coreStrategy = "Robust RB";
+    } else if (rb5 === 1) {
+      coreStrategy = "Hero RB";
+    } else if (wr5 >= 3) {
+      coreStrategy = "WR Heavy";
+    } else {
+      coreStrategy = "Balanced";
     }
 
-    // Fragile RB
-    if (rb5 === 2 && rb6_8 === 0) strategies.push("Fragile RB");
+    const strategies: string[] = [coreStrategy];
 
-    // Late QB
+    // Positional timing overlays — independent of core strategy
+    if (first_qb_round !== null && first_qb_round <= 4) strategies.push("Elite QB");
+    if (first_te_round !== null && first_te_round <= 2) strategies.push("Elite TE");
     if (first_qb_round === null || first_qb_round >= 8) strategies.push("Late QB");
-
-    // Late TE
     if (first_te_round === null || first_te_round >= 8) strategies.push("Late TE");
-
-    // Anchor TE
-    if (first_te_round !== null && first_te_round <= 3) strategies.push("Anchor TE");
-
-    // Double Hero RB
-    if (rb5 === 2 && wr6 >= 3) strategies.push("Double Hero RB");
 
     const firstPick = enrichedPicks[0];
     const secondPick = enrichedPicks[1];
@@ -555,6 +579,7 @@ function buildTeamRecords(
       scoring_format,
       roster_format,
       draft_type,
+      tep,
 
       regular_season_wins: settings.wins || 0,
       regular_season_losses: settings.losses || 0,
@@ -564,6 +589,7 @@ function buildTeamRecords(
       average_weekly_score: Math.round(avg_weekly * 100) / 100,
       median_weekly_score: Math.round(median(weekly) * 100) / 100,
       top_3_points_for: top3RosterIds.has(rosterId),
+      expected_playoff_rate: league_size > 0 ? (Number(league.settings?.["playoff_teams"] ?? 0)) / league_size : 0,
       playoff_made: playoffRosters.has(rosterId),
       championship_made: finalistRosters.has(rosterId),
       champion: champion === rosterId,
@@ -624,7 +650,7 @@ function computeBaseline(teams: TeamRecord[]): Baseline {
   const n = teams.length;
   if (n === 0) return { playoff_rate: 0, finals_rate: 0, championship_rate: 0, top_3_pf_rate: 0, average_points_for: 0 };
   return {
-    playoff_rate: teams.filter((t) => t.playoff_made).length / n,
+    playoff_rate: teams.reduce((a, t) => a + t.expected_playoff_rate, 0) / n,
     finals_rate: teams.filter((t) => t.championship_made).length / n,
     championship_rate: teams.filter((t) => t.champion).length / n,
     top_3_pf_rate: teams.filter((t) => t.top_3_points_for).length / n,
@@ -651,9 +677,14 @@ function generateRecommendation(
     const direction = lift >= 0 ? "above" : "below";
     const absLift = Math.abs(lift);
 
+    const pfLift = m.top_3_pf_rate - baseline.top_3_pf_rate;
+    const pfLiftStr = pfLift >= 0 ? `+${(pfLift * 100).toFixed(1)}pp` : `${(pfLift * 100).toFixed(1)}pp`;
+    const pfNote = Math.abs(pfLift * 100) >= 2
+      ? ` Teams using this build also finished in the top 3 for points scored ${(m.top_3_pf_rate * 100).toFixed(1)}% of the time (${pfLiftStr} vs baseline).`
+      : ` Top 3 PF rate was in line with the field at ${(m.top_3_pf_rate * 100).toFixed(1)}%.`;
     return {
       headline: `${m.strategy} correlated with ${(m.playoff_rate * 100).toFixed(1)}% playoff rate`,
-      body: `In this sample, ${m.strategy} teams made the playoffs at a ${(m.playoff_rate * 100).toFixed(1)}% rate — ${absLift.toFixed(1)} percentage points ${direction} the overall baseline of ${(baseline.playoff_rate * 100).toFixed(1)}%. Championship rate: ${(m.championship_rate * 100).toFixed(1)}%. Sample size: ${m.sample_size}. Confidence: ${m.confidence_level}.`,
+      body: `In this sample, ${m.strategy} teams made the playoffs at a ${(m.playoff_rate * 100).toFixed(1)}% rate — ${absLift.toFixed(1)} percentage points ${direction} the overall baseline of ${(baseline.playoff_rate * 100).toFixed(1)}%.${pfNote} Championship rate: ${(m.championship_rate * 100).toFixed(1)}%. Sample size: ${m.sample_size}. Confidence: ${m.confidence_level}.`,
       sample_size: m.sample_size,
       confidence: m.confidence_level,
       metrics: {
@@ -698,7 +729,6 @@ export function analyzeAll(
   fetchedLeagues: Array<{ data: FetchedLeagueData | null; input: { league_id: string; season: string; notes: string }; error?: string }>,
   nflPlayers: Record<string, { full_name?: string; position?: string; team?: string }>
 ): AnalysisResult {
-  const now = new Date().toISOString();
   const auditEntries: LeagueAuditEntry[] = [];
   const allTeams: TeamRecord[] = [];
   const processedSeasons = new Set<string>();
@@ -772,14 +802,27 @@ export function analyzeAll(
     });
   }
 
+  return computeAnalysisFromTeams(allTeams, auditEntries, fetchedLeagues.length, processedSeasons, leaguesAnalyzed);
+}
+
+// ─── Streaming-friendly aggregation (call after collecting all TeamRecords) ───
+
+export function computeAnalysisFromTeams(
+  allTeams: TeamRecord[],
+  auditEntries: LeagueAuditEntry[],
+  totalLeagues: number,
+  processedSeasons: Set<string>,
+  leaguesAnalyzed: number
+): AnalysisResult {
+  const now = new Date().toISOString();
   const baseline = computeBaseline(allTeams);
   const n = allTeams.length;
 
   // ─── Strategy buckets ─────────────────────────────────────────────────────
 
   const ALL_STRATEGIES = [
-    "Zero RB", "Hero RB", "Robust RB", "WR Heavy", "Elite QB", "Elite TE",
-    "Balanced Start", "Fragile RB", "Late QB", "Late TE", "Anchor TE", "Double Hero RB",
+    "Zero RB", "Hero RB", "Robust RB", "WR Heavy", "Balanced",
+    "Elite QB", "Elite TE", "Late QB", "Late TE",
   ];
 
   const strategyMetrics = ALL_STRATEGIES.map((strat) =>
@@ -791,7 +834,7 @@ export function analyzeAll(
   ).sort((a, b) => b.playoff_rate - a.playoff_rate);
 
   const bestStrategies = strategyMetrics.filter((m) => m.sample_size >= 25).slice(0, 5);
-  const worstStrategies = [...strategyMetrics].filter((m) => m.sample_size >= 25).reverse().slice(0, 3);
+  const worstStrategies = [...strategyMetrics].filter((m) => m.sample_size >= 25).reverse().slice(0, 5);
 
   // ─── First round positions ────────────────────────────────────────────────
 
@@ -1051,7 +1094,7 @@ export function analyzeAll(
 
   const auditOutput = {
     generated_at: now,
-    total_leagues: fetchedLeagues.length,
+    total_leagues: totalLeagues,
     succeeded: auditEntries.filter((a) => a.status === "success").length,
     skipped: auditEntries.filter((a) => a.status === "skipped").length,
     failed: auditEntries.filter((a) => a.status === "failed").length,
@@ -1075,7 +1118,7 @@ export function analyzeAll(
       worst_overall_strategies: worstStrategies,
       best_first_round_positions: sortByPlayoffRate(firstRoundPositions),
       best_first_two_pick_combos: sortByPlayoffRate(comboMetrics.filter((m) => m.sample_size >= 5)).slice(0, 8),
-      best_first_five_builds: buildMetrics.filter((m) => m.sample_size >= 5).sort((a, b) => b.playoff_rate - a.playoff_rate).slice(0, 10),
+      best_first_five_builds: buildMetrics.filter((m) => m.sample_size >= 50).sort((a, b) => b.playoff_rate_lift - a.playoff_rate_lift).slice(0, 10),
       key_takeaways: keyTakeaways,
     },
     bySlot: {
@@ -1102,4 +1145,503 @@ export function analyzeAll(
     audit: auditOutput,
     teams: allTeams,
   };
+}
+
+// ─── Filtered Combo Analysis ──────────────────────────────────────────────────
+
+const ALL_STRATEGIES_LIST = [
+  "Zero RB", "Hero RB", "Robust RB", "WR Heavy", "Balanced",
+  "Elite QB", "Elite TE", "Late QB", "Late TE",
+];
+
+const ALL_COMBOS_LIST = [
+  "RB/RB", "RB/WR", "WR/RB", "WR/WR",
+];
+
+function computeFilteredSlice(teams: TeamRecord[], label: string) {
+  const n = teams.length;
+  const baseline = computeBaseline(teams);
+
+  const stratMetrics = ALL_STRATEGIES_LIST.map((s) =>
+    computeMetrics(teams.filter((t) => t.strategies.includes(s)), s, baseline)
+  ).sort((a, b) => b.playoff_rate - a.playoff_rate);
+
+  const comboMetrics = ALL_COMBOS_LIST.map((c) =>
+    computeMetrics(teams.filter((t) => t.first_two_pick_combo === c), c, baseline)
+  );
+
+  const buildCounts: Record<string, TeamRecord[]> = {};
+  for (const team of teams) {
+    if (!buildCounts[team.first_five_pick_combo]) buildCounts[team.first_five_pick_combo] = [];
+    buildCounts[team.first_five_pick_combo].push(team);
+  }
+  const allBuildMetrics = Object.entries(buildCounts)
+    .map(([c, ts]) => computeMetrics(ts, c, baseline))
+    .sort((a, b) => b.playoff_rate_lift - a.playoff_rate_lift);
+  const buildMetrics = allBuildMetrics
+    .filter((m) => m.sample_size >= 50)
+    .slice(0, 10);
+  const first_five_build_map: Record<string, { playoff_rate: number; top_3_pf_rate: number; sample_size: number; playoff_rate_lift: number }> = {};
+  for (const m of allBuildMetrics) {
+    if (m.sample_size >= 30) {
+      first_five_build_map[m.strategy] = {
+        playoff_rate: Math.round(m.playoff_rate * 1000) / 1000,
+        top_3_pf_rate: Math.round(m.top_3_pf_rate * 1000) / 1000,
+        sample_size: m.sample_size,
+        playoff_rate_lift: Math.round(m.playoff_rate_lift * 1000) / 1000,
+      };
+    }
+  }
+
+  const firstRoundPositions = ["RB", "WR", "QB", "TE"].map((pos) =>
+    computeMetrics(teams.filter((t) => t.first_pick_position === pos), pos, baseline)
+  );
+
+  // Cache per-slot data for both bySlot output and recommendations
+  const slotStratMetrics: Record<string, StrategyMetrics[]> = {};
+  const slotBaselines: Record<string, Baseline> = {};
+
+  const bySlot: Record<string, unknown> = {};
+  for (const group of ["Early", "Middle", "Late"]) {
+    const gt = teams.filter((t) => t.draft_slot_group === group);
+    const gb = computeBaseline(gt);
+    const gs = ALL_STRATEGIES_LIST.map((s) =>
+      computeMetrics(gt.filter((t) => t.strategies.includes(s)), s, gb)
+    ).sort((a, b) => b.playoff_rate - a.playoff_rate);
+    const gc = ALL_COMBOS_LIST.map((c) =>
+      computeMetrics(gt.filter((t) => t.first_two_pick_combo === c), c, gb)
+    );
+    const best = gs.filter((m) => m.sample_size >= 10)[0];
+    slotStratMetrics[group] = gs;
+    slotBaselines[group] = gb;
+    bySlot[group.toLowerCase()] = {
+      slot_group: group,
+      sample_size: gt.length,
+      best_strategies: gs.filter((m) => m.sample_size >= 10).slice(0, 5),
+      worst_strategies: [...gs].filter((m) => m.sample_size >= 10).reverse().slice(0, 3),
+      best_first_two_pick_combos: sortByPlayoffRate(gc.filter((m) => m.sample_size >= 5)).slice(0, 5),
+      recommended_draft_blueprint: best
+        ? `${best.strategy} — playoff rate: ${(best.playoff_rate * 100).toFixed(1)}% (n=${best.sample_size})`
+        : "Insufficient data",
+    };
+  }
+
+  // Recommendations (overall + by draft slot)
+  const recommendations = {
+    overall: generateRecommendation(stratMetrics, baseline, "overall"),
+    early_slot: generateRecommendation(slotStratMetrics["Early"] ?? [], slotBaselines["Early"] ?? baseline, "early-slot"),
+    middle_slot: generateRecommendation(slotStratMetrics["Middle"] ?? [], slotBaselines["Middle"] ?? baseline, "middle-slot"),
+    late_slot: generateRecommendation(slotStratMetrics["Late"] ?? [], slotBaselines["Late"] ?? baseline, "late-slot"),
+  };
+
+  // Negative strategies
+  const NEGATIVE_THRESHOLD = -8;
+  const STRONG_NEGATIVE_THRESHOLD = -15;
+  const NEGATIVE_MIN_SAMPLE = 50;
+  const negativeEntries = stratMetrics
+    .filter((m) => m.sample_size >= NEGATIVE_MIN_SAMPLE && m.playoff_rate_lift <= NEGATIVE_THRESHOLD)
+    .map((m) => ({
+      strategy_name: m.strategy,
+      format_context: label,
+      sample_size: m.sample_size,
+      playoff_rate: m.playoff_rate,
+      playoff_rate_lift: m.playoff_rate_lift,
+      championship_rate: m.championship_rate,
+      top_3_pf_rate: m.top_3_pf_rate,
+      average_points_for: m.average_points_for,
+      confidence_level: m.confidence_level,
+      severity: m.playoff_rate_lift <= STRONG_NEGATIVE_THRESHOLD ? ("strong_negative" as const) : ("negative" as const),
+      explanation: `In this filtered sample (${label}), ${m.strategy} teams made the playoffs at ${(m.playoff_rate * 100).toFixed(1)}%, which is ${Math.abs(m.playoff_rate_lift).toFixed(1)} percentage points below the ${(baseline.playoff_rate * 100).toFixed(1)}% baseline. Sample: ${m.sample_size} teams. Confidence: ${m.confidence_level}.`,
+    }));
+
+  // Miss risk
+  const missRateBaseline = 1 - baseline.playoff_rate;
+  const sortedByMiss = stratMetrics
+    .filter((m) => m.sample_size >= 25)
+    .map((m) => 1 - m.playoff_rate)
+    .sort((a, b) => a - b);
+  const missRiskEntries = stratMetrics
+    .filter((m) => m.sample_size >= 25)
+    .map((m) => {
+      const missProbability = 1 - m.playoff_rate;
+      const rank = sortedByMiss.filter((v) => v <= missProbability).length;
+      return {
+        strategy_name: m.strategy,
+        format_context: label,
+        sample_size: m.sample_size,
+        probability_of_missing_playoffs: Math.round(missProbability * 1000) / 1000,
+        relative_risk_vs_baseline: Math.round((missRateBaseline > 0 ? missProbability / missRateBaseline : 1) * 100) / 100,
+        percentile_rank: Math.round((rank / sortedByMiss.length) * 100),
+        confidence_level: m.confidence_level,
+      };
+    })
+    .sort((a, b) => a.probability_of_missing_playoffs - b.probability_of_missing_playoffs);
+
+  const takeaways: string[] = [];
+  const bestStrat = stratMetrics.filter((m) => m.sample_size >= 25)[0];
+  if (bestStrat) {
+    takeaways.push(`${bestStrat.strategy} had the highest playoff rate at ${(bestStrat.playoff_rate * 100).toFixed(1)}% (n=${bestStrat.sample_size}).`);
+  }
+  const bestCombo = sortByPlayoffRate(comboMetrics.filter((m) => m.sample_size >= 25))[0];
+  if (bestCombo) {
+    takeaways.push(`${bestCombo.strategy} was the best first-two-pick combo at ${(bestCombo.playoff_rate * 100).toFixed(1)}% (n=${bestCombo.sample_size}).`);
+  }
+  takeaways.push(`Baseline playoff rate: ${(baseline.playoff_rate * 100).toFixed(1)}%, championship rate: ${(baseline.championship_rate * 100).toFixed(1)}%.`);
+  if (n > 0 && n < 250) {
+    takeaways.push(`Low sample size (n=${n}) — treat findings as directional.`);
+  }
+
+  const league_count = new Set(teams.map((t) => t.league_id)).size;
+
+  // Round value for this filtered combo (rounds 1–8, same data as first_eight_round_positions)
+  const RV_POSITIONS = ["RB", "WR", "QB", "TE", "K", "DEF"];
+  const filteredRounds: Array<{ round: number; positions: unknown[] }> = [];
+  for (let round = 1; round <= 8; round++) {
+    const positions = RV_POSITIONS.map((pos) => {
+      const matching = teams.filter((t) => t.first_eight_round_positions[round - 1] === pos);
+      return computeMetrics(matching, pos, baseline);
+    });
+    filteredRounds.push({ round, positions });
+  }
+
+  return {
+    label,
+    sample_size: n,
+    league_count,
+    baseline: {
+      playoff_rate: Math.round(baseline.playoff_rate * 1000) / 1000,
+      championship_rate: Math.round(baseline.championship_rate * 1000) / 1000,
+      top_3_pf_rate: Math.round(baseline.top_3_pf_rate * 1000) / 1000,
+      average_points_for: Math.round(baseline.average_points_for * 100) / 100,
+    },
+    best_strategies: stratMetrics.filter((m) => m.sample_size >= 25).slice(0, 5),
+    worst_strategies: [...stratMetrics].filter((m) => m.sample_size >= 25).reverse().slice(0, 5),
+    best_first_round_positions: sortByPlayoffRate(firstRoundPositions.filter((m) => m.sample_size >= 10)),
+    best_first_two_pick_combos: sortByPlayoffRate(comboMetrics.filter((m) => m.sample_size >= 10)).slice(0, 8),
+    best_first_five_builds: buildMetrics,
+    first_five_build_map,
+    by_slot: bySlot,
+    key_takeaways: takeaways,
+    recommendations,
+    negative_strategies: { overall: negativeEntries },
+    miss_risk: {
+      baseline_miss_rate: Math.round(missRateBaseline * 1000) / 1000,
+      entries: missRiskEntries,
+    },
+    round_value: { rounds: filteredRounds },
+  };
+}
+
+// ─── Year-over-Year Trend Helpers ─────────────────────────────────────────────
+
+function getSampleQuality(n: number): string {
+  if (n >= 5000) return "Elite";
+  if (n >= 1000) return "Strong";
+  if (n >= 250) return "Reliable";
+  if (n >= 50) return "Limited";
+  return "Too Small";
+}
+
+function getTrendLabel(changePp: number, sample2024: number, sample2025: number): string {
+  const minSample = Math.min(sample2024, sample2025);
+  if (minSample < 50) return "Noisy";
+  if (Math.abs(changePp) >= 5 && minSample < 250) return "Volatile";
+  if (minSample < 250) return "Limited Data";
+  if (changePp >= 3) return "Higher YoY";
+  if (changePp <= -3) return "Lower YoY";
+  return "Consistent YoY";
+}
+
+function pp(a: number, b: number): number {
+  return Math.round((b - a) * 1000) / 10;
+}
+
+// ─── Trends Output: 36-combo year-over-year comparison ────────────────────────
+
+export function computeTrendsOutput(allTeams: TeamRecord[]) {
+  const now = new Date().toISOString();
+
+  const QB_FORMATS = [
+    { key: "superflex", label: "Superflex", filter: (t: TeamRecord) => t.roster_format === "Superflex" },
+    { key: "one_qb", label: "1QB", filter: (t: TeamRecord) => t.roster_format === "1QB" },
+  ];
+  const SCORINGS = [
+    { key: "ppr", label: "PPR", filter: (t: TeamRecord) => t.scoring_format === "PPR" },
+    { key: "half_ppr", label: "Half PPR", filter: (t: TeamRecord) => t.scoring_format === "Half PPR" },
+    { key: "standard", label: "Standard", filter: (t: TeamRecord) => t.scoring_format === "Standard" },
+  ];
+  const TEP_OPTS = [
+    { key: "tep", label: "TEP", filter: (t: TeamRecord) => t.tep === true },
+    { key: "no_tep", label: "No TEP", filter: (t: TeamRecord) => t.tep === false },
+  ];
+  const SIZES = [
+    { key: "10", label: "10-Team", filter: (t: TeamRecord) => t.league_size === 10 },
+    { key: "12", label: "12-Team", filter: (t: TeamRecord) => t.league_size === 12 },
+    { key: "all", label: "All Sizes", filter: (t: TeamRecord) => t.league_size === 10 || t.league_size === 12 },
+  ];
+  const RV_POSITIONS = ["RB", "WR", "QB", "TE"];
+
+  const trends: Record<string, unknown> = {};
+
+  for (const qb of QB_FORMATS) {
+    for (const scoring of SCORINGS) {
+      for (const tep of TEP_OPTS) {
+        for (const size of SIZES) {
+          const key = `${qb.key}__${scoring.key}__${tep.key}__${size.key}`;
+          const baseFilter = (t: TeamRecord) =>
+            qb.filter(t) && scoring.filter(t) && tep.filter(t) && size.filter(t);
+          const teams2021 = allTeams.filter((t) => baseFilter(t) && t.season === "2021");
+          const teams2022 = allTeams.filter((t) => baseFilter(t) && t.season === "2022");
+          const teams2023 = allTeams.filter((t) => baseFilter(t) && t.season === "2023");
+          const teams2024 = allTeams.filter((t) => baseFilter(t) && t.season === "2024");
+          const teams2025 = allTeams.filter((t) => baseFilter(t) && t.season === "2025");
+
+          const baseline2021 = computeBaseline(teams2021);
+          const baseline2022 = computeBaseline(teams2022);
+          const baseline2023 = computeBaseline(teams2023);
+          const baseline2024 = computeBaseline(teams2024);
+          const baseline2025 = computeBaseline(teams2025);
+
+          const overall_strategies = ALL_STRATEGIES_LIST.map((s) => {
+            const m21 = computeMetrics(teams2021.filter((t) => t.strategies.includes(s)), s, baseline2021);
+            const m22 = computeMetrics(teams2022.filter((t) => t.strategies.includes(s)), s, baseline2022);
+            const m23 = computeMetrics(teams2023.filter((t) => t.strategies.includes(s)), s, baseline2023);
+            const m24 = computeMetrics(teams2024.filter((t) => t.strategies.includes(s)), s, baseline2024);
+            const m25 = computeMetrics(teams2025.filter((t) => t.strategies.includes(s)), s, baseline2025);
+            const changePp = pp(m24.playoff_rate, m25.playoff_rate);
+            return {
+              strategy: s,
+              sample_2021: m21.sample_size,
+              sample_2022: m22.sample_size,
+              sample_2023: m23.sample_size,
+              sample_2024: m24.sample_size,
+              sample_2025: m25.sample_size,
+              playoff_rate_2021: Math.round(m21.playoff_rate * 1000) / 1000,
+              playoff_rate_2022: Math.round(m22.playoff_rate * 1000) / 1000,
+              playoff_rate_2023: Math.round(m23.playoff_rate * 1000) / 1000,
+              playoff_rate_2024: Math.round(m24.playoff_rate * 1000) / 1000,
+              playoff_rate_2025: Math.round(m25.playoff_rate * 1000) / 1000,
+              playoff_rate_change_pp: changePp,
+              top_3_pf_rate_2021: Math.round(m21.top_3_pf_rate * 1000) / 1000,
+              top_3_pf_rate_2022: Math.round(m22.top_3_pf_rate * 1000) / 1000,
+              top_3_pf_rate_2023: Math.round(m23.top_3_pf_rate * 1000) / 1000,
+              top_3_pf_rate_2024: Math.round(m24.top_3_pf_rate * 1000) / 1000,
+              top_3_pf_rate_2025: Math.round(m25.top_3_pf_rate * 1000) / 1000,
+              top_3_pf_rate_change_pp: pp(m24.top_3_pf_rate, m25.top_3_pf_rate),
+              championship_rate_2021: Math.round(m21.championship_rate * 1000) / 1000,
+              championship_rate_2022: Math.round(m22.championship_rate * 1000) / 1000,
+              championship_rate_2023: Math.round(m23.championship_rate * 1000) / 1000,
+              championship_rate_2024: Math.round(m24.championship_rate * 1000) / 1000,
+              championship_rate_2025: Math.round(m25.championship_rate * 1000) / 1000,
+              championship_rate_change_pp: pp(m24.championship_rate, m25.championship_rate),
+              miss_rate_2021: Math.round((1 - m21.playoff_rate) * 1000) / 1000,
+              miss_rate_2022: Math.round((1 - m22.playoff_rate) * 1000) / 1000,
+              miss_rate_2023: Math.round((1 - m23.playoff_rate) * 1000) / 1000,
+              miss_rate_2024: Math.round((1 - m24.playoff_rate) * 1000) / 1000,
+              miss_rate_2025: Math.round((1 - m25.playoff_rate) * 1000) / 1000,
+              miss_rate_change_pp: pp(1 - m24.playoff_rate, 1 - m25.playoff_rate),
+              avg_pts_2021: Math.round(m21.average_points_for * 10) / 10,
+              avg_pts_2022: Math.round(m22.average_points_for * 10) / 10,
+              avg_pts_2023: Math.round(m23.average_points_for * 10) / 10,
+              avg_pts_2024: Math.round(m24.average_points_for * 10) / 10,
+              avg_pts_2025: Math.round(m25.average_points_for * 10) / 10,
+              avg_pts_change: Math.round((m25.average_points_for - m24.average_points_for) * 10) / 10,
+              comparison_quality: getSampleQuality(Math.min(m23.sample_size, m24.sample_size, m25.sample_size)),
+              trend_label: getTrendLabel(changePp, m24.sample_size, m25.sample_size),
+            };
+          });
+
+          const first_two_pick_combos = ALL_COMBOS_LIST.map((c) => {
+            const m21 = computeMetrics(teams2021.filter((t) => t.first_two_pick_combo === c), c, baseline2021);
+            const m22 = computeMetrics(teams2022.filter((t) => t.first_two_pick_combo === c), c, baseline2022);
+            const m23 = computeMetrics(teams2023.filter((t) => t.first_two_pick_combo === c), c, baseline2023);
+            const m24 = computeMetrics(teams2024.filter((t) => t.first_two_pick_combo === c), c, baseline2024);
+            const m25 = computeMetrics(teams2025.filter((t) => t.first_two_pick_combo === c), c, baseline2025);
+            const changePp = pp(m24.playoff_rate, m25.playoff_rate);
+            return {
+              combo: c,
+              sample_2021: m21.sample_size,
+              sample_2022: m22.sample_size,
+              sample_2023: m23.sample_size,
+              sample_2024: m24.sample_size,
+              sample_2025: m25.sample_size,
+              playoff_rate_2021: Math.round(m21.playoff_rate * 1000) / 1000,
+              playoff_rate_2022: Math.round(m22.playoff_rate * 1000) / 1000,
+              playoff_rate_2023: Math.round(m23.playoff_rate * 1000) / 1000,
+              playoff_rate_2024: Math.round(m24.playoff_rate * 1000) / 1000,
+              playoff_rate_2025: Math.round(m25.playoff_rate * 1000) / 1000,
+              playoff_rate_change_pp: changePp,
+              top_3_pf_rate_2021: Math.round(m21.top_3_pf_rate * 1000) / 1000,
+              top_3_pf_rate_2022: Math.round(m22.top_3_pf_rate * 1000) / 1000,
+              top_3_pf_rate_2023: Math.round(m23.top_3_pf_rate * 1000) / 1000,
+              top_3_pf_rate_2024: Math.round(m24.top_3_pf_rate * 1000) / 1000,
+              top_3_pf_rate_2025: Math.round(m25.top_3_pf_rate * 1000) / 1000,
+              top_3_pf_rate_change_pp: pp(m24.top_3_pf_rate, m25.top_3_pf_rate),
+              championship_rate_2021: Math.round(m21.championship_rate * 1000) / 1000,
+              championship_rate_2022: Math.round(m22.championship_rate * 1000) / 1000,
+              championship_rate_2023: Math.round(m23.championship_rate * 1000) / 1000,
+              championship_rate_2024: Math.round(m24.championship_rate * 1000) / 1000,
+              championship_rate_2025: Math.round(m25.championship_rate * 1000) / 1000,
+              championship_rate_change_pp: pp(m24.championship_rate, m25.championship_rate),
+              comparison_quality: getSampleQuality(Math.min(m23.sample_size, m24.sample_size, m25.sample_size)),
+              trend_label: getTrendLabel(changePp, m24.sample_size, m25.sample_size),
+            };
+          });
+
+          const miss_risk = ALL_STRATEGIES_LIST.map((s) => {
+            const m21 = computeMetrics(teams2021.filter((t) => t.strategies.includes(s)), s, baseline2021);
+            const m22 = computeMetrics(teams2022.filter((t) => t.strategies.includes(s)), s, baseline2022);
+            const m23 = computeMetrics(teams2023.filter((t) => t.strategies.includes(s)), s, baseline2023);
+            const m24 = computeMetrics(teams2024.filter((t) => t.strategies.includes(s)), s, baseline2024);
+            const m25 = computeMetrics(teams2025.filter((t) => t.strategies.includes(s)), s, baseline2025);
+            const mr21 = 1 - m21.playoff_rate;
+            const mr22 = 1 - m22.playoff_rate;
+            const mr23 = 1 - m23.playoff_rate;
+            const mr24 = 1 - m24.playoff_rate;
+            const mr25 = 1 - m25.playoff_rate;
+            const changePp = pp(mr24, mr25);
+            return {
+              strategy: s,
+              miss_rate_2021: Math.round(mr21 * 1000) / 1000,
+              miss_rate_2022: Math.round(mr22 * 1000) / 1000,
+              miss_rate_2023: Math.round(mr23 * 1000) / 1000,
+              miss_rate_2024: Math.round(mr24 * 1000) / 1000,
+              miss_rate_2025: Math.round(mr25 * 1000) / 1000,
+              miss_rate_change_pp: changePp,
+              sample_2021: m21.sample_size,
+              sample_2022: m22.sample_size,
+              sample_2023: m23.sample_size,
+              sample_2024: m24.sample_size,
+              sample_2025: m25.sample_size,
+              comparison_quality: getSampleQuality(Math.min(m23.sample_size, m24.sample_size, m25.sample_size)),
+              trend_label: getTrendLabel(-changePp, m24.sample_size, m25.sample_size),
+            };
+          });
+
+          const round_value: Array<{ round: number; positions: unknown[] }> = [];
+          for (let round = 1; round <= 8; round++) {
+            const positions = RV_POSITIONS.map((pos) => {
+              const m21 = computeMetrics(
+                teams2021.filter((t) => t.first_eight_round_positions[round - 1] === pos),
+                pos, baseline2021
+              );
+              const m22 = computeMetrics(
+                teams2022.filter((t) => t.first_eight_round_positions[round - 1] === pos),
+                pos, baseline2022
+              );
+              const m23 = computeMetrics(
+                teams2023.filter((t) => t.first_eight_round_positions[round - 1] === pos),
+                pos, baseline2023
+              );
+              const m24 = computeMetrics(
+                teams2024.filter((t) => t.first_eight_round_positions[round - 1] === pos),
+                pos, baseline2024
+              );
+              const m25 = computeMetrics(
+                teams2025.filter((t) => t.first_eight_round_positions[round - 1] === pos),
+                pos, baseline2025
+              );
+              const changePp = pp(m24.playoff_rate, m25.playoff_rate);
+              return {
+                position: pos,
+                sample_2021: m21.sample_size,
+                sample_2022: m22.sample_size,
+                sample_2023: m23.sample_size,
+                sample_2024: m24.sample_size,
+                sample_2025: m25.sample_size,
+                playoff_rate_2021: Math.round(m21.playoff_rate * 1000) / 1000,
+                playoff_rate_2022: Math.round(m22.playoff_rate * 1000) / 1000,
+                playoff_rate_2023: Math.round(m23.playoff_rate * 1000) / 1000,
+                playoff_rate_2024: Math.round(m24.playoff_rate * 1000) / 1000,
+                playoff_rate_2025: Math.round(m25.playoff_rate * 1000) / 1000,
+                playoff_rate_change_pp: changePp,
+                comparison_quality: getSampleQuality(Math.min(m23.sample_size, m24.sample_size, m25.sample_size)),
+                trend_label: getTrendLabel(changePp, m24.sample_size, m25.sample_size),
+              };
+            });
+            round_value.push({ round, positions });
+          }
+
+          trends[key] = {
+            label: `${qb.label} · ${scoring.label} · ${tep.label} · ${size.label}`,
+            sample_2021: teams2021.length,
+            sample_2022: teams2022.length,
+            sample_2023: teams2023.length,
+            sample_2024: teams2024.length,
+            sample_2025: teams2025.length,
+            baseline_playoff_rate_2021: Math.round(baseline2021.playoff_rate * 1000) / 1000,
+            baseline_playoff_rate_2022: Math.round(baseline2022.playoff_rate * 1000) / 1000,
+            baseline_playoff_rate_2023: Math.round(baseline2023.playoff_rate * 1000) / 1000,
+            baseline_playoff_rate_2024: Math.round(baseline2024.playoff_rate * 1000) / 1000,
+            baseline_playoff_rate_2025: Math.round(baseline2025.playoff_rate * 1000) / 1000,
+            baseline_miss_rate_2021: Math.round((1 - baseline2021.playoff_rate) * 1000) / 1000,
+            baseline_miss_rate_2022: Math.round((1 - baseline2022.playoff_rate) * 1000) / 1000,
+            baseline_miss_rate_2023: Math.round((1 - baseline2023.playoff_rate) * 1000) / 1000,
+            baseline_miss_rate_2024: Math.round((1 - baseline2024.playoff_rate) * 1000) / 1000,
+            baseline_miss_rate_2025: Math.round((1 - baseline2025.playoff_rate) * 1000) / 1000,
+            overall_strategies,
+            first_two_pick_combos,
+            miss_risk,
+            round_value,
+          };
+        }
+      }
+    }
+  }
+
+  return { generated_at: now, trends };
+}
+
+export function computeAllFilteredCombos(allTeams: TeamRecord[]) {
+  const now = new Date().toISOString();
+
+  const QB_FORMATS = [
+    { key: "superflex", label: "Superflex", filter: (t: TeamRecord) => t.roster_format === "Superflex" },
+    { key: "one_qb", label: "1QB", filter: (t: TeamRecord) => t.roster_format === "1QB" },
+  ];
+  const SCORINGS = [
+    { key: "ppr", label: "PPR", filter: (t: TeamRecord) => t.scoring_format === "PPR" },
+    { key: "half_ppr", label: "Half PPR", filter: (t: TeamRecord) => t.scoring_format === "Half PPR" },
+    { key: "standard", label: "Standard", filter: (t: TeamRecord) => t.scoring_format === "Standard" },
+  ];
+  const TEP_OPTS = [
+    { key: "tep", label: "TEP", filter: (t: TeamRecord) => t.tep === true },
+    { key: "no_tep", label: "No TEP", filter: (t: TeamRecord) => t.tep === false },
+  ];
+  const SIZES = [
+    { key: "10", label: "10-Team", filter: (t: TeamRecord) => t.league_size === 10 },
+    { key: "12", label: "12-Team", filter: (t: TeamRecord) => t.league_size === 12 },
+    { key: "all", label: "All Sizes", filter: (t: TeamRecord) => t.league_size === 10 || t.league_size === 12 },
+  ];
+  const SEASONS = [
+    { key: "all", label: "All Seasons", filter: (_t: TeamRecord) => true },
+    { key: "2021", label: "2021", filter: (t: TeamRecord) => t.season === "2021" },
+    { key: "2022", label: "2022", filter: (t: TeamRecord) => t.season === "2022" },
+    { key: "2023", label: "2023", filter: (t: TeamRecord) => t.season === "2023" },
+    { key: "2024", label: "2024", filter: (t: TeamRecord) => t.season === "2024" },
+    { key: "2025", label: "2025", filter: (t: TeamRecord) => t.season === "2025" },
+  ];
+
+  const combos: Record<string, unknown> = {};
+
+  for (const qb of QB_FORMATS) {
+    for (const scoring of SCORINGS) {
+      for (const tep of TEP_OPTS) {
+        for (const size of SIZES) {
+          for (const season of SEASONS) {
+            const key = `${qb.key}__${scoring.key}__${tep.key}__${size.key}__${season.key}`;
+            const filtered = allTeams.filter(
+              (t) => qb.filter(t) && scoring.filter(t) && tep.filter(t) && size.filter(t) && season.filter(t)
+            );
+            combos[key] = computeFilteredSlice(
+              filtered,
+              `${qb.label} · ${scoring.label} · ${tep.label} · ${size.label} · ${season.label}`
+            );
+          }
+        }
+      }
+    }
+  }
+
+  return { generated_at: now, combos };
 }

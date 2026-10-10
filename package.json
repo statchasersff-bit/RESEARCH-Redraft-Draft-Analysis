@@ -9,6 +9,8 @@
     "typecheck": "pnpm run typecheck:libs && pnpm -r --filter \"./artifacts/**\" --filter \"./scripts\" --if-present run typecheck",
     "redraft:update": "pnpm --filter @workspace/scripts run redraft:update",
     "redraft:update:refresh": "pnpm --filter @workspace/scripts run redraft:update:refresh",
+    "redraft:fetch": "pnpm --filter @workspace/scripts run redraft:fetch",
+    "redraft:analyze": "pnpm --filter @workspace/scripts run redraft:analyze",
     "discover:redraft": "pnpm --filter @workspace/scripts run discover:redraft",
     "discover:redraft:refresh": "pnpm --filter @workspace/scripts run discover:redraft:refresh"
   },

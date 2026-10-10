@@ -1,0 +1,4 @@
+data/output/rejected_redraft_leagues_2022.json filter=lfs diff=lfs merge=lfs -text
+data/output/rejected_redraft_leagues_2023.json filter=lfs diff=lfs merge=lfs -text
+data/output/rejected_redraft_leagues_2024.json filter=lfs diff=lfs merge=lfs -text
+data/output/rejected_redraft_leagues_2025.json filter=lfs diff=lfs merge=lfs -text

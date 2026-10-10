@@ -1,0 +1,128 @@
+REFERENCE STYLE
+Use the attached 2026 Dynasty Rookie Rankings hero as inspiration:
+- Large editorial headline
+- Premium serif-style headline feel
+- Small gold underline/accent
+- Strong intro copy
+- Clean white background
+- Left-aligned layout
+- Lots of breathing room
+
+IMPORTANT DIFFERENCE
+Do NOT use gray text in the main headline.
+The full headline should use dark navy/near-black text.
+
+DO NOT INCLUDE
+- No CTA buttons
+- No stat chips
+- No extra badges
+- No cards inside the hero
+
+HERO CONTENT
+
+Kicker:
+STAT CHASERS DRAFT ANALYSIS
+
+Headline:
+The Ultimate Redraft Draft Strategy Guide
+
+Subtitle / bold intro:
+What real Sleeper draft data reveals about the strategies that actually make the playoffs.
+
+Body paragraph 1:
+Analyze thousands of redraft teams across multiple seasons, league formats, draft slots, scoring settings, and roster builds — all powered by real Sleeper league data.
+
+Body paragraph 2:
+Compare 1QB vs Superflex, 10-team vs 12-team, TEP vs non-TEP, and year-over-year strategy trends to find the draft builds that consistently create an edge.
+
+DESIGN REQUIREMENTS
+
+Hero layout:
+- White background
+- Left aligned
+- Max width around 1180px to 1280px
+- Padding desktop: 70px top, 60px bottom
+- Padding mobile: 42px top, 36px bottom
+
+Typography:
+- Headline should be large and editorial.
+- Reuse the same headline font/style from the dynasty rookie rankings hero if available.
+- Desktop headline size: clamp(44px, 6vw, 82px)
+- Mobile headline size: clamp(36px, 12vw, 54px)
+- Line height: 0.95 to 1.05
+- Font weight: 800 or 900
+- Color: #070B1A or existing StatChasers navy/near-black
+
+Gold accent:
+Add a short gold underline under the kicker or headline.
+Use StatChasers gold:
+#C9A227 or existing gold variable if available.
+
+Accent style:
+- Width: 60px
+- Height: 4px
+- Border radius: 999px
+- Margin-top: 12px
+- Margin-bottom: 28px
+
+Kicker:
+- Uppercase
+- Letter spacing: 0.12em
+- Font size: 12px to 13px
+- Font weight: 800
+- Color: StatChasers blue/navy
+
+Subtitle:
+- Bold
+- Font size: 24px to 30px desktop
+- Font size: 20px to 24px mobile
+- Line height: 1.15
+- Color: same dark navy/near-black as headline
+- Max width: 820px
+- Margin-bottom: 26px
+
+Body copy:
+- Font size: 18px to 20px desktop
+- Font size: 16px to 18px mobile
+- Line height: 1.65
+- Color: #475569 or existing body text color
+- Max width: 850px
+- Paragraph spacing: 18px to 22px
+
+IMPLEMENTATION
+Add the hero above the Draft Data section.
+
+Use class names like:
+- sc-draft-guide-hero
+- sc-draft-guide-hero__inner
+- sc-draft-guide-hero__kicker
+- sc-draft-guide-hero__title
+- sc-draft-guide-hero__accent
+- sc-draft-guide-hero__subtitle
+- sc-draft-guide-hero__copy
+
+Do not affect the existing draft data tables, filters, tabs, or charts.
+
+RESPONSIVE REQUIREMENTS
+Desktop:
+- Hero content left aligned
+- Plenty of whitespace
+- No centered text
+- No buttons
+- No stat chips
+
+Mobile:
+- Keep left aligned
+- Headline should wrap cleanly
+- Reduce padding appropriately
+- Avoid huge empty space
+
+ACCEPTANCE CRITERIA
+- Hero appears above the Draft Data section.
+- Full headline is dark, not gray.
+- No buttons appear.
+- No stat chips appear.
+- Design feels similar to the dynasty rankings hero but tailored to redraft draft strategy.
+- Gold accent appears cleanly under the kicker/headline.
+- Copy clearly explains this is a data-driven Sleeper draft strategy guide.
+- Mobile layout is clean and left-aligned.

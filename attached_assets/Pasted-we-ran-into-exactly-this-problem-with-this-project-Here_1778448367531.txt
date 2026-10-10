@@ -1,0 +1,39 @@
+we ran into exactly this problem with this project. Here's what was causing it and how we fixed it — which should help you diagnose your other project too.
+
+The Root Cause: CSS Conflicts with the WordPress Theme
+When you build a React app standalone on Replit, your CSS loads in a clean environment — no other styles interfering. But when you embed it as a WordPress plugin, the WordPress theme already has global CSS rules for things like:
+
+body, h1, h2, p, a, ul, li tags
+Font families and sizes
+Box model defaults (margin, padding, line-height)
+Button and input styles
+Color variables
+Those theme styles bleed into your plugin's div and override or fight your app's styles. The result is exactly what you're describing — elements look right on Replit but broken on the WordPress site.
+
+How We Fixed It in This Project
+We added a CSS scoping step to the build script (script/build-wp.ts). After Vite builds the CSS bundle, the script rewrites every CSS rule to be prefixed with the plugin's container ID:
+
+/* Before scoping (how Vite outputs it) */
+.bg-white { background: white; }
+h2 { font-size: 1.5rem; }
+/* After scoping (what gets installed in WordPress) */
+#statchasers-rookie-guide-root .bg-white { background: white; }
+#statchasers-rookie-guide-root h2 { font-size: 1.5rem; }
+
+This means the app's styles only apply inside its own container div — the WordPress theme can't interfere with them, and the app's styles can't accidentally affect the rest of the WordPress page.
+
+The container div itself is output by the PHP shortcode file:
+
+<div id="statchasers-rookie-guide-root"></div>
+
+Other Things That Can Cause Missing Design Elements
+Beyond CSS conflicts, a few other things commonly break between Replit preview and WordPress:
+
+Asset paths — if images, fonts, or icons use absolute paths like /headshots/player.webp, they'll 404 on WordPress because the files aren't at the root of the site. The fix is relative paths and a runtime base URL injected by the PHP file.
+
+Google Fonts or CDN fonts — if your app loads fonts from an external URL that your Replit preview has but the WordPress host blocks (some hosts restrict external requests), fonts fall back to system defaults and everything looks different.
+
+WordPress's own styles resetting things — WordPress loads a stylesheet called wp-block-library and sometimes theme stylesheets that reset margins, paddings, and font sizes globally.
+
+Quick Diagnostic
+On your WordPress site, open browser DevTools, inspect a broken element, and look at the Computed styles panel. If you see styles being struck through (overridden), that tells you it's a CSS conflict. If you see a 404 in the Network tab for a .css or font file, that's an asset path issue.

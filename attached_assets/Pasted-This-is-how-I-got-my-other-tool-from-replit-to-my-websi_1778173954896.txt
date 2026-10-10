@@ -1,0 +1,63 @@
+This is how I got my other tool from replit to my website. Can we do something like that for this project/tool?
+
+Here's a plain-English walkthrough of the full pipeline — from the live Replit app to an embeddable WordPress plugin.
+
+The Core Challenge
+The app on Replit runs as two pieces working together:
+
+A backend Express server that does all the heavy computation (loading player data, calculating STS scores, consensus rankings, tiers, UDFA lookups, etc.) and serves it via API endpoints like /api/rookies
+A React frontend that calls those endpoints and renders the UI
+WordPress can't run a Node.js server. So we had to pre-compute everything the server does and bake it into static files the React app can load on its own — no backend needed.
+
+Step 1 — Data Export
+We built script/build-wp.ts, which boots the entire server-side data pipeline (the same code that runs on Replit) and then dumps every API response to static JSON files:
+
+rookies.json — all 166 players, fully enriched with STS scores, consensus ranks, tiers, draft info, UDFA assignments, dynasty takes, etc.
+sources.json — the expert ranking source metadata
+meta.json — edition info (post-combine, post-draft)
+years.json — available draft classes
+These files capture the exact same data the API would serve — just frozen in time at build moment.
+
+Step 2 — Static Data Mode in the Frontend
+Normally the React app fetches from /api/rookies. For WordPress, we added a build flag: VITE_STATIC_DATA=true.
+
+When that flag is set, the query client switches its fetching strategy:
+
+Instead of GET /api/rookies → it reads from ./data/rookies.json
+Individual player lookups (/api/rookies/:slug) are resolved client-side by filtering the already-loaded player array
+This means the entire app runs without ever needing to talk to a server.
+
+Step 3 — WordPress-Compatible React Build
+Vite (the build tool) was configured to output with relative asset paths (base: "./") instead of absolute paths. This is critical because in WordPress the plugin files sit inside wp-content/plugins/statchasers-rookie-guide/assets/, not at the root of the site.
+
+We also added a small helper (assetUrl()) that reads a JavaScript global window.__SCRG_BASE_URL__ at runtime. The WordPress PHP file injects that global, pointing to the plugin's asset directory URL. This lets the app find its headshot images and data files regardless of where WordPress is installed.
+
+The React app also mounts to either #root (standalone) or #statchasers-rookie-guide-root (WordPress), checking both.
+
+Step 4 — CSS Scoping
+WordPress themes inject their own global CSS. To prevent WordPress styles from bleeding into the app, the build script automatically prefixes every CSS rule with the app's container ID (#statchasers-rookie-guide-root). This scopes all styling to just the plugin's div.
+
+Step 5 — The WordPress Plugin PHP File
+A single PHP file (statchasers-rookie-guide.php) does three things:
+
+Registers the shortcode [statchasers_rookie_guide] — this is what you paste into any WordPress page
+Enqueues the built JS and CSS from the plugin's assets/ folder via WordPress's proper asset system
+Outputs the container div and injects window.__SCRG_BASE_URL__ so the app knows where to find its files
+Step 6 — Assembly & Packaging
+The build script copies everything into a clean plugin directory structure:
+
+statchasers-rookie-guide/
+├── statchasers-rookie-guide.php    ← the WordPress plugin entry point
+└── assets/
+    ├── assets/                     ← Vite-built JS + CSS bundles
+    ├── data/                       ← pre-baked JSON (rookies, meta, etc.)
+    └── headshots/                  ← all 166 player .webp images
+
+That directory gets zipped into statchasers-rookie-guide.zip.
+
+Installation on WordPress
+Go to WordPress Admin → Plugins → Add New → Upload Plugin
+Upload the zip and activate it
+Create or edit any page and add the shortcode: [statchasers_rookie_guide]
+The entire app — big board, player profiles, compare tool, draft room, NFL Combine table — runs fully client-side inside that page, with zero dependency on Replit or any external server
+In short: the Replit environment is the development and build environment. When you run the build script, it computes everything the server would normally do at request time, packages it into static files, and wraps it in a standard WordPress plugin that any WordPress site can install and use.

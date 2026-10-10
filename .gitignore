@@ -3,6 +3,29 @@
 # compiled output
 dist
 tmp
+
+# Large regenerable Sleeper scrape cache. The raw cache was ~1.48M files / 29GB
+# sitting in the working tree, which crashed the git / Replit / Claude file
+# crawlers. It now lives in .data-store/ (a hidden dir on the same persistent
+# volume) and is symlinked back as data/raw so the pipeline still works.
+# Regenerate any time via `pnpm redraft:fetch` / `pnpm discover:redraft`.
+.data-store/
+/data/raw
+/data/logs
+
+# Un-ignore the pre-built static bundle for stat-chasers so the workflow
+# can serve it immediately without a build step on every restart.
+# The large data/raw cache is ignored above; data/output and data/input hold
+# the small curated build inputs and stay tracked.
+!artifacts/stat-chasers/dist/
+!artifacts/stat-chasers/dist/public/
+!artifacts/stat-chasers/dist/public/index.html
+!artifacts/stat-chasers/dist/public/favicon.png
+!artifacts/stat-chasers/dist/public/favicon.svg
+!artifacts/stat-chasers/dist/public/opengraph.jpg
+!artifacts/stat-chasers/dist/public/assets/
+!artifacts/stat-chasers/dist/public/assets/index.js
+!artifacts/stat-chasers/dist/public/assets/index.css
 out-tsc
 *.tsbuildinfo
 .expo
@@ -47,3 +70,6 @@ Thumbs.db
 # Replit
 .cache/
 .local/
+
+# Personal Claude Code settings (not shared)
+.claude/settings.local.json

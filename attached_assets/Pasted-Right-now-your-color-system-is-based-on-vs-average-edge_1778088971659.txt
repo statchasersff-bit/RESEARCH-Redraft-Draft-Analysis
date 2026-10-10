@@ -1,0 +1,286 @@
+Right now your color system is based on:
+
+“vs average edge”
+
+BUT the chart is displaying:
+
+raw Top-3 PF %
+
+So visually:
+
+everything looks terrible/red
+even though 34.3% Top-3 PF is actually excellent
+
+users subconsciously interpret:
+
+“all strategies are bad”
+
+That breaks the chart psychologically.
+
+The Core UX Problem
+
+You’re mixing:
+
+absolute metric display
+WITH
+relative performance coloring
+
+without showing the baseline clearly enough.
+
+BEST FIX (HIGHLY RECOMMENDED)
+Color relative to baseline, not absolute color buckets.
+
+Example:
+If:
+
+League average Top-3 PF = 25%
+
+Then:
+
+Strategy	Top-3 PF	Color
+Robust RB	34.3%	Strong green
+Late TE	27.5%	Light green
+Fragile RB	26.8%	Slight green
+Balanced	26.6%	Slight green
+Late QB	25.9%	Neutral
+WR Heavy	22.6%	Slight red
+Zero RB	15.5%	Strong red
+
+THAT makes intuitive sense.
+
+The Chart Currently Lacks:
+A visible average zone
+
+You mention:
+
+Shaded band = league average zone
+
+But it’s barely visible.
+
+That’s the issue.
+
+FIX THIS
+Make the average zone MUCH more obvious.
+
+Example:
+
+vertical shaded band
+subtle gold/gray region
+clearly labeled
+
+Like:
+
+League Avg: 25.0%
+
+Then the colors make sense.
+
+BETTER COLOR LOGIC
+Use RELATIVE TIERS
+Strong Positive
+> +5pp above average
+
+Dark green
+
+Slight Positive
+0 to +5pp
+
+Light green
+
+Neutral
+within ±1pp
+
+Gray
+
+Slight Negative
+0 to -5pp
+
+Light red
+
+Strong Negative
+< -5pp
+
+Dark red
+
+This becomes FAR more intuitive.
+
+ANOTHER ISSUE:
+Red bars psychologically imply failure
+
+Even when:
+
+22.6% Top-3 PF
+
+may still be decent.
+
+Users don’t think statistically.
+They think emotionally.
+
+MY STRONG RECOMMENDATION
+NEVER use solid red for charts unless:
+truly dangerous
+clearly below average
+
+Otherwise:
+
+use neutral gray
+or muted tones
+BEST VISUAL STRUCTURE
+Above average:
+
+Green gradient
+
+Near average:
+
+Neutral slate/gray
+
+Below average:
+
+Soft red
+
+Major trap:
+
+Deep red
+
+This dramatically improves interpretation.
+
+ALSO:
+The chart should explicitly show average value
+
+Right now users must infer.
+
+Add:
+
+League Average Top-3 PF: 25.1%
+
+directly above chart.
+
+HUGE IMPROVEMENT:
+Dynamic labels
+
+Instead of:
+
+34.3%
+
+Show:
+
++9.2pp
+
+or:
+
++9.2 vs Avg
+
+This instantly aligns:
+
+metric
+color
+interpretation
+THE LEGEND IS ALSO WRONG FOR THIS CHART
+
+Currently:
+
+Strong positive (7pp+)
+
+But the actual bars don’t visually match that interpretation.
+
+BETTER LEGEND
+Relative to League Average
+
+🟢 Major Edge (>5pp)
+🟩 Positive Edge (1–5pp)
+⬜ Neutral
+🟥 Negative Edge (1–5pp below)
+🔴 Major Trap (>5pp below)
+
+Now the chart logic is obvious.
+
+ANOTHER IMPORTANT POINT
+
+Top-3 PF is inherently:
+
+compressed
+harder to separate
+
+because:
+
+only 25% of teams can finish Top-3 PF in 12-team
+
+So the range:
+
+15% → 34%
+
+is actually MASSIVE.
+
+But visually it doesn’t feel massive.
+
+FIX:
+Tighten X-axis aggressively
+
+Current:
+
+10% → 40%
+
+Better:
+
+15% → 35%
+
+This dramatically improves readability.
+
+MOST IMPORTANT IMPROVEMENT
+
+Honestly?
+
+Show BOTH:
+raw %
+edge vs average
+
+Example:
+
+34.3%
+(+9.2pp)
+
+That instantly solves the interpretation problem.
+
+EVEN BETTER:
+Use “Top-3 Rate Edge”
+
+Instead of plotting raw Top-3 PF:
+plot:
+
+difference from average
+
+Now:
+
+zero line = average
+positive = green
+negative = red
+
+THIS is probably the cleanest solution.
+
+Example:
+
+Robust RB: +9.2pp
+Late TE: +2.4pp
+Zero RB: -9.5pp
+
+That’s MUCH more intuitive visually.
+
+MY HONEST RECOMMENDATION
+
+For charts:
+
+Prefer “edge vs baseline” metrics over raw metrics.
+
+Because:
+
+colors make sense
+users understand immediately
+interpretation becomes instant
+visual hierarchy improves massively
+
+Right now the chart is fighting itself:
+
+raw values
+relative colors
+unclear baseline
+
+Once those align, the chart becomes excellent.

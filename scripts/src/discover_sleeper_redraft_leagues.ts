@@ -41,6 +41,7 @@ interface DiscoveryConfig {
   sleeper_username: string;
   season: string;
   max_network_depth: number;
+  max_depth2_users: number;
   include_seed_user_leagues: boolean;
   include_leaguemate_leagues: boolean;
 }
@@ -50,6 +51,7 @@ function loadConfig(): DiscoveryConfig {
     sleeper_username: "",
     season: "2024",
     max_network_depth: 1,
+    max_depth2_users: Infinity,
     include_seed_user_leagues: true,
     include_leaguemate_leagues: true,
   };
@@ -95,12 +97,21 @@ function cachePath(subdir: string, filename: string): string {
 
 async function fetchJson<T>(url: string): Promise<T> {
   await sleep(API_DELAY_MS);
-  const res = await fetch(url);
-  if (!res.ok) {
-    if (res.status === 404) throw new Error(`Not found: ${url}`);
-    throw new Error(`HTTP ${res.status} for ${url}`);
+  const controller = new AbortController();
+  const timer = setTimeout(() => controller.abort(), 30_000);
+  try {
+    const res = await fetch(url, { signal: controller.signal });
+    if (!res.ok) {
+      if (res.status === 404) throw new Error(`Not found: ${url}`);
+      throw new Error(`HTTP ${res.status} for ${url}`);
+    }
+    return res.json() as Promise<T>;
+  } catch (err) {
+    if ((err as Error).name === "AbortError") throw new Error(`Timeout fetching ${url}`);
+    throw err;
+  } finally {
+    clearTimeout(timer);
   }
-  return res.json() as Promise<T>;
 }
 
 async function cachedFetch<T>(
@@ -111,7 +122,12 @@ async function cachedFetch<T>(
 ): Promise<T | null> {
   const file = cachePath(subdir, filename);
   if (!REFRESH && fs.existsSync(file)) {
-    return JSON.parse(fs.readFileSync(file, "utf-8")) as T;
+    try {
+      return JSON.parse(fs.readFileSync(file, "utf-8")) as T;
+    } catch {
+      // Corrupted cache file — delete and re-fetch
+      fs.unlinkSync(file);
+    }
   }
   try {
     const data = await fetchJson<T>(url);
@@ -630,97 +646,270 @@ async function main() {
   console.log(`Season   : ${config.season}`);
   console.log(`Refresh  : ${REFRESH}\n`);
 
-  // Step 2: Resolve user_id
-  console.log(`Step 1: Looking up Sleeper user "${config.sleeper_username}"...`);
-  const seedUser = await fetchUser(config.sleeper_username);
-  console.log(`  ✓ user_id = ${seedUser.user_id}\n`);
+  // ── Session checkpoint paths ──────────────────────────────────────────────────
+  const sessionCkptDir = path.join(ROOT, "data", "tmp");
+  const ckptSession = path.join(sessionCkptDir, `discover_ckpt_session_${config.season}.json`);
+  const ckptStep5b = path.join(sessionCkptDir, `discover_ckpt_step5b_${config.season}.json`);
+  if (!fs.existsSync(sessionCkptDir)) fs.mkdirSync(sessionCkptDir, { recursive: true });
 
-  // Step 3: Get seed leagues
-  console.log(`Step 2: Fetching ${config.sleeper_username}'s leagues for ${config.season}...`);
-  const seedLeagues = await fetchUserLeagues(seedUser.user_id, config.season);
-  console.log(`  Found ${seedLeagues.length} leagues.\n`);
-
-  if (seedLeagues.length === 0) {
-    console.log("  No leagues found for this user/season. Nothing to discover.");
-    process.exit(0);
-  }
-
-  // Step 4: Discover users from seed leagues
+  // Session state — hoisted so Step 5b resume path can access them
+  let seedUserId = "";
+  let seedUsername = config.sleeper_username;
+  let seedLeaguesLength = 0;
+  let allLeagueIdsSize = 0;
   const allLeagueIds = new Set<string>();
   const leagueDiscoverySource: Record<
     string,
     { source_type: string; discovered_from_user_id: string; discovered_from_username: string; discovered_from_seed_league_id: string }
   > = {};
+  const uniqueUserIds = new Set<string>();
+  const userIdToUsername: Record<string, string> = {};
 
-  if (config.include_seed_user_leagues) {
-    for (const league of seedLeagues) {
-      allLeagueIds.add(league.league_id);
-      leagueDiscoverySource[league.league_id] = {
-        source_type: "seed_user",
-        discovered_from_user_id: seedUser.user_id,
-        discovered_from_username: seedUser.username || config.sleeper_username,
-        discovered_from_seed_league_id: league.league_id,
+  async function collectUsersFromLeagues(leagueIds: string[]): Promise<void> {
+    const CONCURRENCY = 50;
+    for (let i = 0; i < leagueIds.length; i += CONCURRENCY) {
+      const batch = leagueIds.slice(i, i + CONCURRENCY);
+      await Promise.all(batch.map(async (leagueId) => {
+        const users = await fetchLeagueUsers(leagueId);
+        for (const user of users) {
+          if (user.user_id && !uniqueUserIds.has(user.user_id)) {
+            uniqueUserIds.add(user.user_id);
+            userIdToUsername[user.user_id] = user.username || user.display_name || user.user_id;
+          }
+        }
+      }));
+      if (leagueIds.length > 50 && (i + CONCURRENCY) % 200 === 0) {
+        console.log(`  Users from ${Math.min(i + CONCURRENCY, leagueIds.length)}/${leagueIds.length} leagues collected...`);
+      }
+    }
+  }
+
+  async function fetchLeaguesForUsers(userIds: string[], sourceType: string): Promise<number> {
+    const CONCURRENCY = 50;
+    let newLeagueCount = 0;
+    for (let i = 0; i < userIds.length; i += CONCURRENCY) {
+      const batch = userIds.slice(i, i + CONCURRENCY);
+      await Promise.all(batch.map(async (userId) => {
+        const username = userIdToUsername[userId] || userId;
+        const leagues = await fetchUserLeagues(userId, config.season);
+        for (const league of leagues) {
+          if (!allLeagueIds.has(league.league_id)) {
+            allLeagueIds.add(league.league_id);
+            leagueDiscoverySource[league.league_id] = {
+              source_type: sourceType,
+              discovered_from_user_id: userId,
+              discovered_from_username: username,
+              discovered_from_seed_league_id: "",
+            };
+            newLeagueCount++;
+          }
+        }
+      }));
+      if (userIds.length > 50 && (i + CONCURRENCY) % 500 === 0) {
+        console.log(`  Fetched leagues for ${Math.min(i + CONCURRENCY, userIds.length)}/${userIds.length} users, ${newLeagueCount} new so far...`);
+      }
+    }
+    return newLeagueCount;
+  }
+
+  // ── Fast resume: skip Steps 1–5 if session checkpoint exists ─────────────────
+  let needsStep5b = false;
+  const hasFastResume = !REFRESH && fs.existsSync(ckptSession);
+
+  if (hasFastResume) {
+    try {
+      const session = JSON.parse(fs.readFileSync(ckptSession, "utf-8")) as {
+        seedUserId: string; seedUsername: string; seedLeaguesLength: number;
+        allLeagueIdsList: string[];
+        leagueDiscoverySource: Record<string, { source_type: string; discovered_from_user_id: string; discovered_from_username: string; discovered_from_seed_league_id: string }>;
+        depth1UserIds?: string[];
+        depth2Complete?: boolean;
       };
+      seedUserId = session.seedUserId;
+      seedUsername = session.seedUsername;
+      seedLeaguesLength = session.seedLeaguesLength;
+      for (const id of session.allLeagueIdsList) allLeagueIds.add(id);
+      Object.assign(leagueDiscoverySource, session.leagueDiscoverySource);
+
+      if (session.depth2Complete === false) {
+        // Depth-1 done but Step 5b was interrupted — will resume below
+        needsStep5b = true;
+        // Restore depth-1 user IDs so we can compute delta for depth-2 users
+        if (session.depth1UserIds) {
+          for (const uid of session.depth1UserIds) uniqueUserIds.add(uid);
+        }
+        console.log(`  Partial resume: restored ${allLeagueIds.size} depth-1 leagues — will resume Step 5b\n`);
+      } else {
+        // Fully complete — skip to Step 6
+        allLeagueIdsSize = allLeagueIds.size;
+        console.log(`  Fast resume: restored ${allLeagueIds.size} leagues from session checkpoint (skipped Steps 1–5)\n`);
+      }
+    } catch {
+      console.log("  Session checkpoint load failed — running full discovery\n");
+      allLeagueIds.clear();
+      uniqueUserIds.clear();
     }
-    console.log(`Step 3: Seeded ${allLeagueIds.size} leagues from ${config.sleeper_username}'s own leagues.\n`);
   }
 
-  // Step 5: Discover leaguemate leagues
-  if (config.include_leaguemate_leagues && config.max_network_depth >= 1) {
-    console.log("Step 4: Discovering leaguemate leagues...");
+  if (!hasFastResume || allLeagueIds.size === 0) {
+    // ── Full run: Steps 1–5 ───────────────────────────────────────────────────
+    console.log(`Step 1: Looking up Sleeper user "${config.sleeper_username}"...`);
+    const seedUser = await fetchUser(config.sleeper_username);
+    seedUserId = seedUser.user_id;
+    seedUsername = seedUser.username || config.sleeper_username;
+    uniqueUserIds.add(seedUserId);
+    userIdToUsername[seedUserId] = seedUsername;
+    console.log(`  ✓ user_id = ${seedUserId}\n`);
 
-    const uniqueUserIds = new Set<string>();
-    const userIdToUsername: Record<string, string> = {
-      [seedUser.user_id]: seedUser.username || config.sleeper_username,
-    };
+    // Step 2: Get seed leagues
+    console.log(`Step 2: Fetching ${config.sleeper_username}'s leagues for ${config.season}...`);
+    const seedLeagues = await fetchUserLeagues(seedUserId, config.season);
+    seedLeaguesLength = seedLeagues.length;
+    console.log(`  Found ${seedLeaguesLength} leagues.\n`);
 
-    for (const league of seedLeagues) {
-      const leagueUsers = await fetchLeagueUsers(league.league_id);
-      for (const user of leagueUsers) {
-        if (user.user_id && user.user_id !== seedUser.user_id) {
-          uniqueUserIds.add(user.user_id);
-          userIdToUsername[user.user_id] = user.username || user.display_name || user.user_id;
-        }
-      }
+    if (seedLeaguesLength === 0) {
+      console.log("  No leagues found for this user/season. Nothing to discover.");
+      process.exit(0);
     }
 
-    console.log(`  Discovered ${uniqueUserIds.size} unique leaguemates.\n`);
-    console.log("Step 5: Fetching leaguemate leagues...");
-
-    let leaguemateLeagueCount = 0;
-    const userList = Array.from(uniqueUserIds);
-
-    for (let i = 0; i < userList.length; i++) {
-      const userId = userList[i];
-      const username = userIdToUsername[userId] || userId;
-
-      if ((i + 1) % 10 === 0) {
-        console.log(`  Processed ${i + 1}/${userList.length} users...`);
+    // Step 3: Seed leagues
+    if (config.include_seed_user_leagues) {
+      for (const league of seedLeagues) {
+        allLeagueIds.add(league.league_id);
+        leagueDiscoverySource[league.league_id] = {
+          source_type: "seed_user",
+          discovered_from_user_id: seedUserId,
+          discovered_from_username: seedUsername,
+          discovered_from_seed_league_id: league.league_id,
+        };
       }
-
-      const leagues = await fetchUserLeagues(userId, config.season);
-      for (const league of leagues) {
-        if (!allLeagueIds.has(league.league_id)) {
-          allLeagueIds.add(league.league_id);
-          // Try to find which seed league connected us to this user
-          const seedLeague = seedLeagues.find(async (_) => {
-            return true; // we'll use a simpler approach below
-          });
-          leagueDiscoverySource[league.league_id] = {
-            source_type: "leaguemate",
-            discovered_from_user_id: userId,
-            discovered_from_username: username,
-            discovered_from_seed_league_id: "",
-          };
-          leaguemateLeagueCount++;
-        }
-      }
+      console.log(`Step 3: Seeded ${allLeagueIds.size} leagues from ${config.sleeper_username}'s own leagues.\n`);
     }
 
-    console.log(`  Found ${leaguemateLeagueCount} additional unique leaguemate leagues.\n`);
+    // Step 4+5: Depth-1
+    if (config.include_leaguemate_leagues && config.max_network_depth >= 1) {
+      console.log("Step 4: Collecting users from seed leagues...");
+      const seedLeagueIds = seedLeagues.map((l) => l.league_id);
+      await collectUsersFromLeagues(seedLeagueIds);
+      const depth1Users = Array.from(uniqueUserIds).filter((id) => id !== seedUserId);
+      console.log(`  Found ${depth1Users.length} unique depth-1 leaguemates.\n`);
+
+      console.log("Step 5: Fetching depth-1 leaguemate leagues...");
+      const depth1Count = await fetchLeaguesForUsers(depth1Users, "leaguemate");
+      console.log(`  Found ${depth1Count} additional leagues at depth 1.\n`);
+    }
+
+    if (config.include_leaguemate_leagues && config.max_network_depth >= 2) {
+      // Save pre-5b checkpoint: depth-1 leagues + user IDs, depth2Complete: false
+      // This lets us resume Step 5b without re-fetching depth-1 from scratch
+      fs.writeFileSync(ckptSession, JSON.stringify({
+        seedUserId,
+        seedUsername,
+        seedLeaguesLength,
+        allLeagueIdsList: [...allLeagueIds],
+        leagueDiscoverySource,
+        depth1UserIds: [...uniqueUserIds],
+        depth2Complete: false,
+      }));
+      needsStep5b = true;
+    } else {
+      // depth-1 only: save final session checkpoint now
+      allLeagueIdsSize = allLeagueIds.size;
+      fs.writeFileSync(ckptSession, JSON.stringify({
+        seedUserId,
+        seedUsername,
+        seedLeaguesLength,
+        allLeagueIdsList: [...allLeagueIds],
+        leagueDiscoverySource,
+        depth2Complete: true,
+      }));
+    }
   }
 
-  console.log(`Total unique leagues discovered: ${allLeagueIds.size}\n`);
+  // ── Step 5b: Depth-2 expansion (fresh run or resumed) ────────────────────────
+  if (needsStep5b && config.include_leaguemate_leagues && config.max_network_depth >= 2) {
+    // Restore step5b progress if available (saves re-scanning already-processed leagues)
+    const processedStep5bIds = new Set<string>();
+    const depth1UserSnapshot = new Set(uniqueUserIds); // users known before depth-2 collection
+
+    if (!REFRESH && fs.existsSync(ckptStep5b)) {
+      try {
+        const p5b = JSON.parse(fs.readFileSync(ckptStep5b, "utf-8")) as {
+          processedLeagueIds: string[];
+          uniqueUserIds: string[];
+          userIdToUsername: Record<string, string>;
+        };
+        for (const uid of p5b.uniqueUserIds) uniqueUserIds.add(uid);
+        Object.assign(userIdToUsername, p5b.userIdToUsername);
+        for (const lid of p5b.processedLeagueIds) processedStep5bIds.add(lid);
+        console.log(`  Resuming Step 5b: ${processedStep5bIds.size} leagues already processed, ${uniqueUserIds.size} users so far\n`);
+      } catch {
+        console.log("  Step 5b checkpoint load failed — starting Step 5b from scratch\n");
+        processedStep5bIds.clear();
+      }
+    }
+
+    const remainingLeagueIds = Array.from(allLeagueIds).filter((id) => !processedStep5bIds.has(id));
+    console.log(`Step 5b: Depth-2 expansion — collecting users from ${remainingLeagueIds.length} leagues (${processedStep5bIds.size} already done)...`);
+
+    const CONCURRENCY_5B = 50;
+    const CKPT_EVERY = 2000;
+    for (let i = 0; i < remainingLeagueIds.length; i += CONCURRENCY_5B) {
+      const batch = remainingLeagueIds.slice(i, i + CONCURRENCY_5B);
+      await Promise.all(batch.map(async (leagueId) => {
+        const users = await fetchLeagueUsers(leagueId);
+        for (const user of users) {
+          if (user.user_id && !uniqueUserIds.has(user.user_id)) {
+            uniqueUserIds.add(user.user_id);
+            userIdToUsername[user.user_id] = user.username || user.display_name || user.user_id;
+          }
+        }
+        processedStep5bIds.add(leagueId);
+      }));
+      if ((i + CONCURRENCY_5B) % CKPT_EVERY === 0) {
+        fs.writeFileSync(ckptStep5b, JSON.stringify({
+          processedLeagueIds: [...processedStep5bIds],
+          uniqueUserIds: [...uniqueUserIds],
+          userIdToUsername,
+        }));
+      }
+      if (remainingLeagueIds.length > 50 && (i + CONCURRENCY_5B) % 200 === 0) {
+        const totalDone = processedStep5bIds.size;
+        const totalAll = allLeagueIds.size;
+        console.log(`  Users from ${totalDone}/${totalAll} leagues collected...`);
+      }
+    }
+
+    const newUserCount = uniqueUserIds.size - depth1UserSnapshot.size;
+    console.log(`  Found ${newUserCount} new users at depth 2 (${uniqueUserIds.size} total).\n`);
+
+    const allDepth2Users = Array.from(uniqueUserIds).filter((id) => !depth1UserSnapshot.has(id));
+    const depth2Users = config.max_depth2_users < Infinity
+      ? allDepth2Users.slice(0, config.max_depth2_users)
+      : allDepth2Users;
+    if (depth2Users.length < allDepth2Users.length) {
+      console.log(`  Capping depth-2 to ${depth2Users.length} of ${allDepth2Users.length} users (max_depth2_users limit).\n`);
+    }
+    console.log(`  Fetching leagues for ${depth2Users.length} new depth-2 users...`);
+    const depth2Count = await fetchLeaguesForUsers(depth2Users, "depth2");
+    console.log(`  Found ${depth2Count} additional leagues at depth 2.\n`);
+
+    allLeagueIdsSize = allLeagueIds.size;
+
+    // Save final session checkpoint with depth2Complete: true
+    fs.writeFileSync(ckptSession, JSON.stringify({
+      seedUserId,
+      seedUsername,
+      seedLeaguesLength,
+      allLeagueIdsList: [...allLeagueIds],
+      leagueDiscoverySource,
+      depth2Complete: true,
+    }));
+    // Clean up step5b progress checkpoint — no longer needed
+    if (fs.existsSync(ckptStep5b)) fs.unlinkSync(ckptStep5b);
+  }
+
+  console.log(`Total unique leagues discovered: ${allLeagueIdsSize}\n`);
 
   // Step 6: Validate all leagues — two-phase with parallelism
   console.log("Step 6: Validating leagues...\n");
@@ -732,21 +921,37 @@ async function main() {
   // ── Phase 6a: Pre-filter using already-cached user_leagues data ──────────────
   // user_leagues cache already contains full league settings for most leagues.
   // We can reject obvious invalids without any extra API calls.
+  // IMPORTANT: only read *_<season>.json files to avoid loading all prior seasons
+  // into memory (the cache can be several GB across multiple seasons).
   const quickMeta: Record<string, SleeperLeague> = {};
   const userLeaguesCacheDir = path.join(CACHE_DIR, "user_leagues");
   const leagueMetaCacheDir = path.join(CACHE_DIR, "league_meta");
+  const leagueIdsInRun = allLeagueIds; // Set<string> of IDs discovered this run
 
-  for (const cacheDir of [userLeaguesCacheDir, leagueMetaCacheDir]) {
-    if (!fs.existsSync(cacheDir)) continue;
-    for (const file of fs.readdirSync(cacheDir)) {
+  // 1. user_leagues: only read files for the current season
+  if (fs.existsSync(userLeaguesCacheDir)) {
+    for (const file of fs.readdirSync(userLeaguesCacheDir)) {
+      if (!file.endsWith(`_${config.season}.json`)) continue;
       try {
-        const raw = JSON.parse(fs.readFileSync(path.join(cacheDir, file), "utf-8"));
-        // user_leagues files are arrays; league_meta files are single objects
+        const raw = JSON.parse(fs.readFileSync(path.join(userLeaguesCacheDir, file), "utf-8"));
         const leagues: SleeperLeague[] = Array.isArray(raw) ? raw : [raw];
         for (const l of leagues) {
-          if (l && l.league_id) quickMeta[l.league_id] = l;
+          if (l && l.league_id && leagueIdsInRun.has(l.league_id)) quickMeta[l.league_id] = l;
         }
       } catch { /* skip corrupt cache entries */ }
+    }
+  }
+
+  // 2. league_meta: only read files whose ID is in our discovered set
+  if (fs.existsSync(leagueMetaCacheDir)) {
+    for (const leagueId of leagueIdsInRun) {
+      if (quickMeta[leagueId]) continue; // already have it from user_leagues
+      const fp = path.join(leagueMetaCacheDir, `${leagueId}.json`);
+      if (!fs.existsSync(fp)) continue;
+      try {
+        const raw = JSON.parse(fs.readFileSync(fp, "utf-8"));
+        if (raw && raw.league_id) quickMeta[raw.league_id] = raw as SleeperLeague;
+      } catch { /* skip */ }
     }
   }
 
@@ -817,8 +1022,41 @@ async function main() {
 
   // ── Phase 6b: Full validation with concurrency ────────────────────────────────
   // Process leagues in parallel batches (CONCURRENCY at a time).
-  const CONCURRENCY = 20;
-  let processed = 0;
+  // Checkpoint files let the run resume if it is killed mid-way.
+  const CONCURRENCY = 10;
+  const CHECKPOINT_INTERVAL = 100;
+  const ckptDir = path.join(ROOT, "data", "tmp");
+  const ckptValid = path.join(ckptDir, `discover_ckpt_valid_${config.season}.json`);
+  const ckptRejected = path.join(ckptDir, `discover_ckpt_rejected_${config.season}.json`);
+  const ckptProcessed = path.join(ckptDir, `discover_ckpt_processed_${config.season}.json`);
+
+  if (!fs.existsSync(ckptDir)) fs.mkdirSync(ckptDir, { recursive: true });
+
+  // Checkpoint stores ONLY Phase 6b (full-validation) results so that Phase 6a
+  // quick-rejects (which are re-computed fresh on every run) are never double-counted.
+  const phase6bValid: ValidLeagueEntry[] = [];
+  const phase6bRejected: RejectedLeagueEntry[] = [];
+  const alreadyProcessed = new Set<string>();
+
+  if (fs.existsSync(ckptProcessed) && fs.existsSync(ckptValid) && fs.existsSync(ckptRejected)) {
+    try {
+      const ids: string[] = JSON.parse(fs.readFileSync(ckptProcessed, "utf-8"));
+      const prevValid: ValidLeagueEntry[] = JSON.parse(fs.readFileSync(ckptValid, "utf-8"));
+      const prevRejected: RejectedLeagueEntry[] = JSON.parse(fs.readFileSync(ckptRejected, "utf-8"));
+      for (const id of ids) alreadyProcessed.add(id);
+      phase6bValid.push(...prevValid);
+      phase6bRejected.push(...prevRejected);
+      console.log(`  Resumed from checkpoint: ${alreadyProcessed.size} already done, ${phase6bValid.length} valid so far`);
+    } catch {
+      console.log("  Checkpoint load failed — starting from scratch");
+      alreadyProcessed.clear();
+      phase6bValid.length = 0;
+      phase6bRejected.length = 0;
+    }
+  }
+
+  const remaining = needsFullValidation.filter((id) => !alreadyProcessed.has(id));
+  let processed = alreadyProcessed.size;
 
   async function validateOneFull(leagueId: string): Promise<void> {
     try {
@@ -830,7 +1068,7 @@ async function main() {
       ]);
 
       if (!league) {
-        rejectedLeagues.push({
+        phase6bRejected.push({
           season: config.season,
           league_id: leagueId,
           league_name: "Unknown",
@@ -867,7 +1105,7 @@ async function main() {
       };
 
       if (result.valid) {
-        validLeagues.push({
+        phase6bValid.push({
           season: league.season || config.season,
           league_id: leagueId,
           league_name: league.name || "Unknown",
@@ -889,7 +1127,7 @@ async function main() {
         });
       } else {
         const s = league.settings || {};
-        rejectedLeagues.push({
+        phase6bRejected.push({
           season: league.season || config.season,
           league_id: leagueId,
           league_name: league.name || "Unknown",
@@ -908,7 +1146,7 @@ async function main() {
         });
       }
     } catch (err) {
-      rejectedLeagues.push({
+      phase6bRejected.push({
         season: config.season,
         league_id: leagueId,
         league_name: "Unknown",
@@ -921,17 +1159,29 @@ async function main() {
       });
     } finally {
       processed++;
+      alreadyProcessed.add(leagueId);
       if (processed % 100 === 0 || processed === needsFullValidation.length) {
         console.log(`  Full-validated ${processed}/${needsFullValidation.length}...`);
       }
     }
   }
 
-  // Run in batches of CONCURRENCY
-  for (let i = 0; i < needsFullValidation.length; i += CONCURRENCY) {
-    const batch = needsFullValidation.slice(i, i + CONCURRENCY);
+  // Run in batches of CONCURRENCY, saving checkpoints every CHECKPOINT_INTERVAL
+  for (let i = 0; i < remaining.length; i += CONCURRENCY) {
+    const batch = remaining.slice(i, i + CONCURRENCY);
     await Promise.all(batch.map((id) => validateOneFull(id)));
+
+    // Save checkpoint every CHECKPOINT_INTERVAL leagues (Phase 6b results only)
+    if (processed % CHECKPOINT_INTERVAL < CONCURRENCY || i + CONCURRENCY >= remaining.length) {
+      fs.writeFileSync(ckptValid, JSON.stringify(phase6bValid));
+      fs.writeFileSync(ckptRejected, JSON.stringify(phase6bRejected));
+      fs.writeFileSync(ckptProcessed, JSON.stringify([...alreadyProcessed]));
+    }
   }
+
+  // Merge Phase 6b results into the main arrays (Phase 6a results already in them)
+  validLeagues.push(...phase6bValid);
+  rejectedLeagues.push(...phase6bRejected);
 
   console.log(`\n  Valid: ${validLeagues.length}, Rejected: ${rejectedLeagues.length}\n`);
 
@@ -980,12 +1230,12 @@ async function main() {
   // Discovery summary JSON
   const now = new Date().toISOString();
   const summary = {
-    sleeper_username: config.sleeper_username,
-    sleeper_user_id: seedUser.user_id,
+    sleeper_username: seedUsername,
+    sleeper_user_id: seedUserId,
     season: config.season,
-    seed_leagues_found: seedLeagues.length,
-    seed_redraft_leagues_used: seedLeagues.length,
-    unique_users_discovered: allLeagueIds.size,
+    seed_leagues_found: seedLeaguesLength,
+    seed_redraft_leagues_used: seedLeaguesLength,
+    unique_users_discovered: allLeagueIdsSize,
     total_leagues_discovered: leagueIdList.length,
     valid_redraft_leagues: validLeagues.length,
     rejected_leagues: rejectedLeagues.length,
@@ -1004,6 +1254,40 @@ async function main() {
   fs.writeFileSync(summaryPath, JSON.stringify(summary, null, 2));
   console.log(`  ✓ ${summaryPath}`);
 
+  // Step 8: Auto-merge new valid leagues into sleeper_redraft_leagues.csv
+  console.log("Step 8: Merging into sleeper_redraft_leagues.csv...");
+  const mainCsvPath = path.join(INPUT_DIR, "sleeper_redraft_leagues.csv");
+  const existingIds = new Set<string>();
+
+  if (fs.existsSync(mainCsvPath)) {
+    const lines = fs.readFileSync(mainCsvPath, "utf-8").trim().split("\n").slice(1);
+    for (const line of lines) {
+      const parts = line.split(",");
+      if (parts[1]) existingIds.add(parts[1].trim());
+    }
+  }
+
+  const newToMerge = validLeagues.filter((l) => !existingIds.has(l.league_id));
+
+  if (newToMerge.length > 0) {
+    const appendRows = newToMerge.map((l) => {
+      const notes = (l.league_name || "").replace(/"/g, '""');
+      return `${l.season},${l.league_id},"${notes}"`;
+    });
+    const existing = fs.existsSync(mainCsvPath)
+      ? fs.readFileSync(mainCsvPath, "utf-8").trimEnd()
+      : "season,league_id,notes";
+    fs.writeFileSync(mainCsvPath, existing + "\n" + appendRows.join("\n") + "\n");
+    console.log(`  ✓ Added ${newToMerge.length} new leagues (${existingIds.size} already existed)\n`);
+  } else {
+    console.log(`  ✓ No new leagues to add (all ${validLeagues.length} already in CSV)\n`);
+  }
+
+  // Clean up checkpoint files on successful completion
+  for (const f of [ckptValid, ckptRejected, ckptProcessed, ckptSession]) {
+    try { if (fs.existsSync(f)) fs.unlinkSync(f); } catch { /* ignore */ }
+  }
+
   // Done
   console.log(`
 ══════════════════════════════════════════════
@@ -1013,10 +1297,11 @@ async function main() {
   Season           : ${config.season}
   Leagues found    : ${leagueIdList.length}
   Valid leagues    : ${validLeagues.length}
+  New to merge     : ${newToMerge.length}
   Rejected         : ${rejectedLeagues.length}
 
-  Valid league CSV ready at:
-  data/input/discovered_redraft_leagues_${config.season}.csv
+  Merged into:
+  data/input/sleeper_redraft_leagues.csv
 
   To analyze draft strategies, run:
   pnpm run redraft:update

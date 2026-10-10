@@ -1,7 +1,8 @@
 {
-  "sleeper_username": "Makitrain",
-  "season": "2024",
-  "max_network_depth": 1,
+  "sleeper_username": "blake89sr",
+  "season": "2025",
+  "max_network_depth": 2,
+  "max_depth2_users": 4000,
   "include_seed_user_leagues": true,
   "include_leaguemate_leagues": true
 }

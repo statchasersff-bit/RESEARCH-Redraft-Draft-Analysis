@@ -1,0 +1,96 @@
+Add a new bottom section to the Redraft Draft Strategy Analysis page for compare years called:
+
+NFL Rule Changes
+
+Purpose:
+This section should summarize one key contextual takeaway from the 2021–2025 data: most strategy results are fairly stable year to year, but RB-heavy strategies appear to show a meaningful shift beginning in 2024.
+
+Place this section near the bottom of the page, after the year-over-year comparison/heatmap section.
+
+SECTION CONTENT
+
+Title:
+NFL Rule Changes
+
+Subtitle:
+Why RB-heavy strategies may have rebounded after 2023
+
+Body copy:
+Across the 2021–2025 sample, most redraft strategy archetypes did not show a clean year-over-year trend. WR-heavy, Late TE, and Balanced builds were relatively stable, while several other strategies moved around without forming an obvious long-term pattern.
+
+The biggest exception was RB-heavy construction. Robust RB struggled from 2021–2023, then jumped sharply in 2024 and remained strong in 2025. Zero RB showed the opposite pattern, performing well earlier in the sample before falling off in 2024 and 2025.
+
+One possible explanation is the changing NFL rule environment. In 2023, the league expanded Impermissible Use of the Helmet rules, making it a foul for players to use the helmet to butt, ram, spear, or make forcible contact to an opponent’s head or neck area. In 2024, the NFL eliminated the swivel hip-drop tackle, penalizing defenders who wrap the runner, unweight themselves, swivel/drop the hips, and land on or trap the runner’s legs.
+
+Because running backs absorb high collision volume and are especially exposed to lower-body injuries, these rule changes may have contributed to better RB availability and more stable RB production. That could help explain why RB-first strategies became more successful in 2024–2025 compared to 2021–2023.
+
+Important note:
+This does not prove causation. The shift could also be influenced by ADP changes, player pool strength, offensive trends, injuries, scoring environment, or market overcorrections. But the timing is notable enough that it should be included as context when interpreting the strategy data.
+
+Add a final takeaway callout:
+The fantasy environment may be shifting back toward RB-first constructions after several years where WR-heavy and Zero RB approaches carried more appeal.
+
+DESIGN REQUIREMENTS
+
+Use StatChasers styling:
+- White or very light background
+- Navy heading
+- Gold accent line
+- Clean readable card or editorial block
+- Left-aligned text
+- Max-width around 1100px to 1280px
+- Generous spacing
+- No overly bright colors
+
+Suggested structure:
+<section className="sc-analysis-note">
+  <div className="sc-analysis-note__inner">
+    <p className="sc-analysis-note__kicker">STAT CHASERS ANALYSIS</p>
+    <h2>Why RB-heavy strategies may have rebounded after 2023</h2>
+    <div className="sc-analysis-note__accent"></div>
+    <p>...</p>
+    <p>...</p>
+    <div className="sc-analysis-note__callout">
+      <strong>Key takeaway:</strong> ...
+    </div>
+  </div>
+</section>
+
+OPTIONAL DATA INSERTS
+If possible, dynamically insert the actual strategy numbers from the selected format/year comparison.
+
+Example:
+Robust RB:
+2021–2023 average playoff rate: X%
+2024–2025 average playoff rate: Y%
+
+Zero RB:
+2021–2023 average playoff rate: X%
+2024–2025 average playoff rate: Y%
+
+If dynamic insertion is not easy, use the static explanatory text above.
+
+TONE RULES
+Do not overstate causation.
+
+Use language like:
+- “may have”
+- “one possible explanation”
+- “could help explain”
+- “the timing is notable”
+- “does not prove causation”
+
+Avoid language like:
+- “caused”
+- “proves”
+- “guarantees”
+- “RBs are now always better”
+
+ACCEPTANCE CRITERIA
+- Section appears near the bottom of the page.
+- It clearly explains that most 2021–2025 strategy trends are stable/noisy.
+- It highlights the notable post-2023 RB-heavy strategy shift.
+- It explains the 2023 helmet rule expansion and 2024 swivel hip-drop tackle rule.
+- It connects those rules cautiously to possible RB availability/stability.
+- It includes a clear no-causation disclaimer.
+- It ends with a concise key takeaway.

@@ -1,0 +1,21 @@
+{
+  "sleeper_username": "moontunes",
+  "sleeper_user_id": "467553853835833344",
+  "season": "2025",
+  "seed_leagues_found": 5,
+  "seed_redraft_leagues_used": 5,
+  "unique_users_discovered": 42496,
+  "total_leagues_discovered": 42496,
+  "valid_redraft_leagues": 4134,
+  "rejected_leagues": 38362,
+  "valid_10_team_count": 1120,
+  "valid_12_team_count": 3014,
+  "valid_1qb_count": 3027,
+  "valid_superflex_count": 1107,
+  "valid_no_tep_count": 3433,
+  "valid_tep_05_count": 670,
+  "valid_tep_075_count": 31,
+  "valid_4pt_pass_td_count": 2760,
+  "valid_6pt_pass_td_count": 1374,
+  "generated_at": "2026-06-19T12:08:40.862Z"
+}

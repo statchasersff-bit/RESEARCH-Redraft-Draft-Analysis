@@ -1,0 +1,335 @@
+Refactor the Redraft Draft Strategy Analysis framework to use a simpler, cleaner, and more intuitive strategy classification system.
+
+GOAL
+The strategy system should reflect recognizable fantasy football draft identities that users actually understand and intentionally use.
+
+The current system is becoming overly fragmented and analytical.
+
+We want:
+- simpler strategy buckets
+- stronger sample sizes
+- less overlap
+- cleaner UX
+- more intuitive charts/tables
+- easier storytelling and SEO
+
+IMPORTANT CONCEPT
+Separate:
+1. Core Draft Strategies
+FROM
+2. Positional Timing Strategies
+FROM
+3. Draft Opening Analysis
+
+Do NOT combine everything into one giant classification layer.
+
+==================================================
+CORE DRAFT STRATEGIES
+==================================================
+
+Use ONLY these core strategy archetypes:
+
+1. Zero RB
+Definition:
+No RBs drafted in rounds 1–5.
+
+Description:
+Prioritizes WRs and elite positional advantages early while targeting RB value later.
+
+--------------------------------------------------
+
+2. Hero RB
+Definition:
+Exactly 1 RB drafted in rounds 1–5.
+
+Description:
+Builds around one anchor RB while heavily investing elsewhere early.
+
+--------------------------------------------------
+
+3. Robust RB
+Definition:
+3+ RBs drafted in rounds 1–5.
+
+Description:
+Aggressively prioritizes RB volume and depth early.
+
+--------------------------------------------------
+
+4. WR Heavy
+Definition:
+3+ WRs drafted in rounds 1–5.
+
+Description:
+Focuses on WR depth, upside, and weekly consistency.
+
+--------------------------------------------------
+
+5. Balanced
+Definition:
+Fallback/default bucket.
+
+A team becomes Balanced if it does NOT qualify for:
+- Zero RB
+- Hero RB
+- Robust RB
+- WR Heavy
+
+Description:
+Mixes RB and WR investments without extreme positional prioritization early.
+
+IMPORTANT:
+Balanced is NOT a manually detected archetype.
+Balanced is the fallback category after evaluating the other four archetypes.
+
+==================================================
+REMOVE THESE STRATEGIES
+==================================================
+
+Remove entirely:
+- Fragile RB
+- Double Hero RB
+- Anchor WR
+- Pocket Pair RB
+- Double Elite WR
+- Early Round Onesie
+
+These create:
+- unnecessary overlap
+- weaker samples
+- confusing UX
+- fragmented analysis
+
+==================================================
+POSITIONAL TIMING STRATEGIES
+==================================================
+
+Keep these as a SEPARATE analysis dimension.
+
+They are NOT mutually exclusive with core strategies.
+
+A team can be:
+- Hero RB + Late QB
+- WR Heavy + Elite TE
+etc.
+
+Use ONLY:
+
+1. Elite QB
+Definition:
+First QB drafted in rounds 1–4.
+
+--------------------------------------------------
+
+2. Late QB
+Definition:
+First QB not drafted until round 8 or later.
+
+--------------------------------------------------
+
+3. Elite TE
+Definition:
+First TE drafted in rounds 1–2.
+
+--------------------------------------------------
+
+4. Late TE
+Definition:
+First TE not drafted until round 8 or later.
+
+==================================================
+FIRST TWO PICK COMBINATIONS
+==================================================
+
+Keep:
+- RB/RB
+- WR/WR
+- RB/WR
+- WR/RB
+
+BUT:
+These should ONLY appear in:
+- First Two Picks tab
+- Opening Round analysis
+- early-round structure visualizations
+
+They should NOT appear in:
+- Core Strategy tabs
+- Core Strategy charts
+- Strategy glossary
+
+IMPORTANT:
+Treat these as:
+“draft openings”
+NOT:
+“full draft identities”
+
+==================================================
+BACKEND CLASSIFICATION ORDER
+==================================================
+
+Use this exact order for core archetypes:
+
+1. Zero RB
+2. Robust RB
+3. Hero RB
+4. WR Heavy
+5. Balanced
+
+This ensures deterministic classification.
+
+PSEUDOCODE:
+
+if rb_rounds_1_5 == 0:
+    strategy = "Zero RB"
+
+elif rb_rounds_1_5 >= 3:
+    strategy = "Robust RB"
+
+elif rb_rounds_1_5 == 1:
+    strategy = "Hero RB"
+
+elif wr_rounds_1_5 >= 3:
+    strategy = "WR Heavy"
+
+else:
+    strategy = "Balanced"
+
+IMPORTANT:
+Each team should receive EXACTLY ONE core strategy archetype.
+
+Positional timing strategies remain independent overlays.
+
+==================================================
+UI / UX CHANGES
+==================================================
+
+Update all:
+- tables
+- charts
+- filters
+- legends
+- glossary
+- insight cards
+- hero copy
+- tooltips
+
+to reflect the simplified strategy system.
+
+==================================================
+STRATEGY GLOSSARY
+==================================================
+
+Update glossary to include ONLY:
+
+Core Draft Strategies:
+- Zero RB
+- Hero RB
+- Robust RB
+- WR Heavy
+- Balanced
+
+Positional Timing:
+- Elite QB
+- Late QB
+- Elite TE
+- Late TE
+
+First Two Pick Combos:
+- RB/RB
+- WR/WR
+- RB/WR
+- WR/RB
+
+Use clean card layouts.
+Do not overwhelm the page.
+
+==================================================
+CHART CHANGES
+==================================================
+
+Risk/Reward quadrant:
+Use ONLY core strategies:
+- Zero RB
+- Hero RB
+- Robust RB
+- WR Heavy
+- Balanced
+
+Do NOT mix:
+- WR/RB
+- RB/RB
+- Elite QB
+etc.
+into the same chart.
+
+Those belong in separate analyses.
+
+==================================================
+INSIGHT GENERATION
+==================================================
+
+Update automated insights to use:
+- core archetypes
+- positional timing
+- opening combos
+
+as distinct concepts.
+
+Good example:
+“Robust RB produced the highest playoff qualification rate in 12-team PPR leagues.”
+
+Good example:
+“Late QB builds outperformed Elite QB teams in Superflex playoff rate.”
+
+Good example:
+“WR/WR starts produced stronger average scoring than RB/RB starts.”
+
+==================================================
+SEO / COPY
+==================================================
+
+Keep terminology simple and recognizable.
+
+Avoid:
+- overly niche analytics terminology
+- overly granular archetype labels
+
+Prioritize:
+- recognizable fantasy football concepts
+- intuitive labels users already know
+
+==================================================
+ACCEPTANCE CRITERIA
+==================================================
+
+1. Only 5 core strategy archetypes exist:
+- Zero RB
+- Hero RB
+- Robust RB
+- WR Heavy
+- Balanced
+
+2. Each team receives exactly ONE core archetype.
+
+3. Positional timing remains independent:
+- Elite QB
+- Late QB
+- Elite TE
+- Late TE
+
+4. First-two-pick combos are separated into their own analysis layer.
+
+5. Removed:
+- Fragile RB
+- Double Hero RB
+- Anchor WR
+- Pocket Pair RB
+- Double Elite WR
+- Early Round Onesie
+
+6. Charts/tables become cleaner and easier to understand.
+
+7. Samples become larger and more statistically reliable.
+
+8. Strategy glossary reflects the simplified framework.

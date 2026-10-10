@@ -1,0 +1,100 @@
+Fix the WordPress embed/container width issue for the Draft Analysis Guide plugin.
+
+CURRENT ISSUE
+The plugin is not taking the full available page width on WordPress. The app content appears constrained/narrow and left-positioned inside the page instead of spanning the full content area.
+
+GOAL
+The Draft Analysis Guide should fill the available page width inside WordPress/Divi and align cleanly with the site header/content width.
+
+IMPORTANT
+Do not make individual text blocks insanely wide. The overall app shell should be full width, but inner readable content like hero text should still have a max-width.
+
+FIX REQUIREMENTS
+
+1. Add a full-width app shell
+Create/update the outermost wrapper:
+
+.sc-draft-guide-app {
+  width: 100%;
+  max-width: none;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+2. Add a controlled inner container
+Use an inner container for readable content:
+
+.sc-draft-guide-inner {
+  width: 100%;
+  max-width: 1280px;
+  margin: 0 auto;
+  padding-left: clamp(16px, 4vw, 48px);
+  padding-right: clamp(16px, 4vw, 48px);
+  box-sizing: border-box;
+}
+
+3. Make hero section full-width but content-limited
+Hero wrapper:
+
+.sc-draft-guide-hero {
+  width: 100%;
+  max-width: none;
+  background: #fff;
+}
+
+Hero inner:
+
+.sc-draft-guide-hero__inner {
+  width: 100%;
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 70px clamp(16px, 4vw, 48px) 60px;
+  box-sizing: border-box;
+}
+
+4. Remove accidental width limits
+Search the plugin CSS for any of these on parent containers and remove/override them:
+
+max-width: 960px;
+max-width: 1000px;
+max-width: 1080px;
+width: fit-content;
+display: inline-block;
+margin-left: 0 without margin-right auto;
+transform scaling;
+fixed pixel widths on main wrappers
+
+5. Add WordPress/Divi overrides if needed
+Because this is embedded in WordPress/Divi, add defensive CSS:
+
+.entry-content .sc-draft-guide-app,
+.et_pb_module .sc-draft-guide-app,
+.et_pb_code_inner .sc-draft-guide-app {
+  width: 100%;
+  max-width: none;
+}
+
+.et_pb_code_inner:has(.sc-draft-guide-app) {
+  width: 100%;
+  max-width: none;
+}
+
+6. If the Divi section/row is constraining it
+Add instructions in comments:
+The Divi row containing this code module should be set to:
+- Row Width: 100%
+- Max Width: 100%
+- Gutter Width: 1
+- Section: Regular or Fullwidth
+- Custom CSS if needed: width: 100%; max-width: 100%;
+
+7. Prevent text selection highlight issue
+The blue background in the screenshot appears to be text selection, not styling. Do not add blue highlight backgrounds to text.
+
+8. Acceptance criteria
+- Plugin fills the full WordPress content area.
+- Hero aligns with the rest of the Draft Data section.
+- No narrow left-column appearance.
+- Inner content remains readable with max-width around 1280px.
+- Mobile layout remains clean.

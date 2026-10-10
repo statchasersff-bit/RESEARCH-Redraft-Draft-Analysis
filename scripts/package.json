@@ -6,10 +6,20 @@
   "scripts": {
     "hello": "tsx ./src/hello.ts",
     "typecheck": "tsc -p tsconfig.json --noEmit",
-    "redraft:update": "tsx src/update_redraft_strategy.ts",
-    "redraft:update:refresh": "tsx src/update_redraft_strategy.ts --refresh",
-    "discover:redraft": "tsx src/discover_sleeper_redraft_leagues.ts",
-    "discover:redraft:refresh": "tsx src/discover_sleeper_redraft_leagues.ts --refresh"
+    "redraft:update": "NODE_OPTIONS='--max-old-space-size=8192' tsx src/update_redraft_strategy.ts",
+    "redraft:update:refresh": "NODE_OPTIONS='--max-old-space-size=8192' tsx src/update_redraft_strategy.ts --refresh",
+    "redraft:fetch": "NODE_OPTIONS='--max-old-space-size=8192' tsx src/update_redraft_strategy.ts --fetch-only",
+    "redraft:analyze": "NODE_OPTIONS='--max-old-space-size=8192' tsx src/update_redraft_strategy.ts --analyze-only",
+    "discover:redraft": "NODE_OPTIONS='--max-old-space-size=8192' tsx src/discover_sleeper_redraft_leagues.ts",
+    "discover:redraft:refresh": "NODE_OPTIONS='--max-old-space-size=8192' tsx src/discover_sleeper_redraft_leagues.ts --refresh",
+    "warm:cache": "tsx src/warm_matchup_cache.ts",
+    "expand:depth3:discover": "tsx src/expand_network_depth3.ts discover",
+    "expand:depth3:validate": "tsx src/expand_network_depth3.ts validate",
+    "expand:depth3:populate": "tsx src/expand_network_depth3.ts populate",
+    "build:wp": "tsx src/build_wp_plugin.ts",
+    "prepare:static": "tsx src/prepare_static_preview.ts",
+    "prepare:public": "tsx src/prepare_static_preview.ts artifacts/stat-chasers/public/data",
+    "patch:strategies": "NODE_OPTIONS='--max-old-space-size=8192' tsx src/patch_strategies_refactor.ts"
   },
   "devDependencies": {
     "@types/node": "catalog:",

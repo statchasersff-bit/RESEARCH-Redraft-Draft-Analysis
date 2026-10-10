@@ -1,0 +1,21 @@
+{
+  "sleeper_username": "jawhorse",
+  "sleeper_user_id": "463151018994036736",
+  "season": "2022",
+  "seed_leagues_found": 10,
+  "seed_redraft_leagues_used": 10,
+  "unique_users_discovered": 31056,
+  "total_leagues_discovered": 31056,
+  "valid_redraft_leagues": 3237,
+  "rejected_leagues": 27819,
+  "valid_10_team_count": 1224,
+  "valid_12_team_count": 2013,
+  "valid_1qb_count": 2375,
+  "valid_superflex_count": 862,
+  "valid_no_tep_count": 2949,
+  "valid_tep_05_count": 279,
+  "valid_tep_075_count": 9,
+  "valid_4pt_pass_td_count": 2261,
+  "valid_6pt_pass_td_count": 976,
+  "generated_at": "2026-05-09T15:26:37.699Z"
+}

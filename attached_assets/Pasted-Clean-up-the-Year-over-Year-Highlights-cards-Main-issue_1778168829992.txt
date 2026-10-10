@@ -1,0 +1,118 @@
+Clean up the Year-over-Year Highlights cards.
+
+Main issues:
+- Too much text inside each card
+- Years/samples are hard to scan
+- Badges like “Mid” and “High” are unclear
+- Card titles feel inconsistent
+- The cards need to feel more like executive summary insights
+
+Update the section as follows:
+
+1. Rename section header
+Use:
+“Year-over-Year Highlights”
+
+Add a small subtitle:
+“Biggest strategy trends across selected seasons.”
+
+Keep baseline shift on the right, but make it smaller:
+“Baseline shift: 0.0pp”
+
+2. Simplify each card structure
+Each card should follow this layout:
+
+Top row:
+- Icon
+- Insight label
+- Sample quality badge
+
+Middle:
+- Strategy name
+- Main metric, large
+
+Bottom:
+- Compact season trend row
+- Short explanation
+
+3. Replace confusing labels
+Replace:
+- “Mid” with “Medium Confidence”
+- “High” with “High Confidence”
+
+Or better:
+Use sample quality:
+- Strong Sample
+- Reliable
+- Limited Sample
+
+4. Make the season data visual
+Instead of paragraph text like:
+“2023: 48.1% · 2024: 59.3% · 2025: 54.1%”
+
+Use compact chips:
+
+2023 48.1% | 2024 59.3% | 2025 54.1%
+
+Each year/value pair should be in a small pill or mini stat box.
+
+5. Hide sample counts by default
+Do not show:
+“5,313 (2023) · 3,632 (2024) · 8,648 (2025)”
+
+inside the main card body.
+
+Instead:
+- show total sample only
+- put yearly sample counts in tooltip or expandable details
+
+Example:
+“n = 17,593 teams”
+
+Tooltip:
+2023: 5,313
+2024: 3,632
+2025: 8,648
+
+6. Improve card copy
+Card 1:
+Label:
+“Highest Avg Playoff Rate”
+
+Strategy:
+“Robust RB”
+
+Main stat:
+“53.8%”
+
+Explanation:
+“Best average playoff rate across selected seasons.”
+
+Card 2:
+Label:
+“Least Consistent”
+
+Strategy:
+“Elite TE”
+
+Main stat:
+“High volatility”
+
+Explanation:
+“Largest year-to-year movement among qualified strategies.”
+
+Card 3:
+Label:
+“Most Consistent”
+
+Strategy:
+“Zero RB”
+
+Main stat:
+“Stable trend”
+
+Explanation:
+“Smallest year-to-year movement among qualified strategies.”
+
+Important:
+Make sure “Most Consistent” does not imply “best.” It only means most stable.

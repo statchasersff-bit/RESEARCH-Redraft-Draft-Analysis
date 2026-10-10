@@ -6,7 +6,10 @@ import {
   TableHeader,
   TableRow,
 } from "@/components/ui/table";
-import { CheckCircle, XCircle, AlertCircle } from "lucide-react";
+import { CheckCircle, XCircle, AlertCircle, ChevronLeft, ChevronRight } from "lucide-react";
+import { useState } from "react";
+
+const PAGE_SIZE = 15;
 
 interface AuditEntry {
   league_id: string;
@@ -41,6 +44,8 @@ function statusRowClass(status: string) {
 }
 
 export function LeagueAuditTable({ data }: Props) {
+  const [page, setPage] = useState(0);
+
   if (!data) {
     return (
       <p className="text-sm text-muted-foreground py-4 text-center">
@@ -48,6 +53,11 @@ export function LeagueAuditTable({ data }: Props) {
       </p>
     );
   }
+
+  const totalPages = Math.ceil(data.entries.length / PAGE_SIZE);
+  const pageEntries = data.entries.slice(page * PAGE_SIZE, (page + 1) * PAGE_SIZE);
+  const start = page * PAGE_SIZE + 1;
+  const end = Math.min((page + 1) * PAGE_SIZE, data.entries.length);
 
   return (
     <div className="space-y-4">
@@ -84,9 +94,9 @@ export function LeagueAuditTable({ data }: Props) {
             </TableRow>
           </TableHeader>
           <TableBody>
-            {data.entries.map((entry, i) => (
+            {pageEntries.map((entry, i) => (
               <TableRow
-                key={i}
+                key={page * PAGE_SIZE + i}
                 className={`transition-colors ${statusRowClass(entry.status)}`}
                 data-testid={`audit-row-${i}`}
               >
@@ -111,6 +121,35 @@ export function LeagueAuditTable({ data }: Props) {
           </TableBody>
         </Table>
       </div>
+
+      {totalPages > 1 && (
+        <div className="flex items-center justify-between text-sm text-muted-foreground">
+          <span>
+            Showing {start}–{end} of {data.entries.length} leagues
+          </span>
+          <div className="flex items-center gap-1">
+            <button
+              onClick={() => setPage((p) => Math.max(0, p - 1))}
+              disabled={page === 0}
+              className="inline-flex items-center gap-1 px-2.5 py-1.5 rounded border border-border bg-card hover:bg-muted disabled:opacity-40 disabled:cursor-not-allowed transition-colors"
+            >
+              <ChevronLeft className="h-3.5 w-3.5" />
+              Prev
+            </button>
+            <span className="px-3 py-1.5 text-xs font-medium">
+              {page + 1} / {totalPages}
+            </span>
+            <button
+              onClick={() => setPage((p) => Math.min(totalPages - 1, p + 1))}
+              disabled={page === totalPages - 1}
+              className="inline-flex items-center gap-1 px-2.5 py-1.5 rounded border border-border bg-card hover:bg-muted disabled:opacity-40 disabled:cursor-not-allowed transition-colors"
+            >
+              Next
+              <ChevronRight className="h-3.5 w-3.5" />
+            </button>
+          </div>
+        </div>
+      )}
     </div>
   );
 }

@@ -74,13 +74,13 @@ export function FormatSection({ data }: Props) {
 
       {!group || group.sample_size === 0 ? (
         <p className="text-sm text-muted-foreground py-4 text-center">
-          No data for this format — run the pipeline with more leagues.
+          No data for this format. Run the pipeline with more leagues.
         </p>
       ) : (
         <div className="space-y-6">
           <div>
             <h4 className="text-sm font-semibold text-muted-foreground uppercase tracking-wide mb-3">
-              Best Strategies — {group.format}
+              Best Strategies: {group.format}
             </h4>
             <StrategyTable rows={(group.best_strategies ?? []) as any} highlightFirst />
           </div>

@@ -1,37 +1,100 @@
-import { useGetRedraftSummary } from "@workspace/api-client-react";
-import { Skeleton } from "@/components/ui/skeleton";
-
 export function Hero() {
-  const { data: summary, isLoading, isError } = useGetRedraftSummary();
-
   return (
-    <div className="bg-primary py-16 lg:py-24 text-primary-foreground border-b-4 border-accent">
-      <div className="container mx-auto px-4 max-w-4xl text-center">
-        <div className="inline-block bg-primary-foreground/10 px-3 py-1 rounded-full text-xs font-semibold tracking-wider text-accent mb-6 uppercase">
-          Premium Analytics Report
-        </div>
-        <h1 className="text-4xl lg:text-5xl font-extrabold tracking-tight mb-6">
-          The Optimal Redraft Draft Strategy:
-          <span className="block text-accent mt-2">What 5 Years of Sleeper Drafts Reveal</span>
-        </h1>
-        <p className="text-lg lg:text-xl text-primary-foreground/80 max-w-3xl mx-auto leading-relaxed">
-          We analyzed real Sleeper redraft leagues to find which draft builds actually lead to playoff teams, high-scoring rosters, and championships.
+    <div
+      className="rs-app-draft-guide-hero w-full bg-white border-b border-border"
+      style={{
+        paddingTop: "clamp(16px, 2.4vw, 28px)",
+        paddingBottom: "clamp(28px, 4vw, 52px)",
+      }}
+    >
+      <div className="rs-app-draft-guide-hero__inner">
+        {/* Kicker */}
+        <p
+          className="rs-app-draft-guide-hero__kicker"
+          style={{
+            fontSize: "12px",
+            fontWeight: 800,
+            letterSpacing: "0.12em",
+            textTransform: "uppercase",
+            color: "#0B1F3A",
+            marginBottom: "0",
+          }}
+        >
+          Stat Chasers Draft Analysis
         </p>
-        
-        <div className="mt-8 flex items-center justify-center gap-4 text-sm font-medium text-primary-foreground/70">
-          <div className="flex flex-col items-center">
-            <span className="text-2xl font-bold text-white">
-              {isLoading ? <Skeleton className="h-8 w-24 mb-1 bg-white/20" /> : summary?.total_leagues_analyzed?.toLocaleString() || "0"}
-            </span>
-            <span>Leagues</span>
-          </div>
-          <div className="w-px h-8 bg-white/20 mx-4"></div>
-          <div className="flex flex-col items-center">
-            <span className="text-2xl font-bold text-white">
-              {isLoading ? <Skeleton className="h-8 w-24 mb-1 bg-white/20" /> : summary?.total_teams_analyzed?.toLocaleString() || "0"}
-            </span>
-            <span>Teams</span>
-          </div>
+
+        {/* Gold accent */}
+        <div
+          className="rs-app-draft-guide-hero__accent"
+          style={{
+            width: "60px",
+            height: "4px",
+            borderRadius: "999px",
+            backgroundColor: "#C9A227",
+            marginTop: "6px",
+            marginBottom: "12px",
+          }}
+        />
+
+        {/* Headline */}
+        <h1
+          className="rs-app-draft-guide-hero__title"
+          style={{
+            fontSize: "clamp(28px, 4.5vw, 56px)",
+            fontWeight: 900,
+            lineHeight: 1.0,
+            color: "#070B1A",
+            fontFamily: "Georgia, 'Times New Roman', serif",
+            letterSpacing: "-0.01em",
+            marginBottom: "12px",
+            maxWidth: "1100px",
+          }}
+        >
+          The Ultimate Redraft Draft Strategy Analysis
+        </h1>
+
+        {/* Subtitle */}
+        <p
+          className="rs-app-draft-guide-hero__subtitle"
+          style={{
+            fontSize: "clamp(15px, 1.8vw, 20px)",
+            fontWeight: 700,
+            lineHeight: 1.15,
+            color: "#070B1A",
+            maxWidth: "900px",
+            marginBottom: "10px",
+          }}
+        >
+          What real Sleeper draft data reveals about which redraft strategies actually make the playoffs.
+        </p>
+
+        {/* Body copy */}
+        <div
+          className="rs-app-draft-guide-hero__copy"
+          style={{ maxWidth: "850px" }}
+        >
+          <p
+            style={{
+              fontSize: "clamp(16px, 1.5vw, 19px)",
+              lineHeight: 1.65,
+              color: "#475569",
+              marginBottom: "8px",
+            }}
+          >
+            Analyze thousands of redraft teams across multiple seasons, league formats, draft slots,
+            scoring settings, and roster builds. All powered by real Sleeper league data.
+          </p>
+          <p
+            style={{
+              fontSize: "clamp(16px, 1.5vw, 19px)",
+              lineHeight: 1.65,
+              color: "#475569",
+              marginBottom: 0,
+            }}
+          >
+            Compare 1QB vs Superflex, 10-team vs 12-team, TEP vs non-TEP, and year-over-year
+            strategy trends to find the draft builds that consistently create an edge.
+          </p>
         </div>
       </div>
     </div>

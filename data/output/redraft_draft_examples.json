@@ -1,0 +1,439 @@
+{
+  "examples": [
+    {
+      "strategy": "Robust RB",
+      "draft_id": "1107794017615716352",
+      "roster_id": 2,
+      "rounds": [
+        {
+          "round": 1,
+          "picks": [
+            {
+              "name": "Bijan Robinson",
+              "position": "RB",
+              "team": "ATL"
+            }
+          ]
+        },
+        {
+          "round": 2,
+          "picks": [
+            {
+              "name": "Jahmyr Gibbs",
+              "position": "RB",
+              "team": "DET"
+            }
+          ]
+        },
+        {
+          "round": 3,
+          "picks": [
+            {
+              "name": "Nico Collins",
+              "position": "WR",
+              "team": "HOU"
+            }
+          ]
+        },
+        {
+          "round": 4,
+          "picks": [
+            {
+              "name": "De'Von Achane",
+              "position": "RB",
+              "team": "MIA"
+            }
+          ]
+        },
+        {
+          "round": 5,
+          "picks": [
+            {
+              "name": "Malik Nabers",
+              "position": "WR",
+              "team": "NYG"
+            }
+          ]
+        },
+        {
+          "round": 6,
+          "picks": [
+            {
+              "name": "Dak Prescott",
+              "position": "QB",
+              "team": "DAL"
+            }
+          ]
+        },
+        {
+          "round": 7,
+          "picks": [
+            {
+              "name": "Brock Bowers",
+              "position": "TE",
+              "team": "LV"
+            }
+          ]
+        },
+        {
+          "round": 8,
+          "picks": [
+            {
+              "name": "Jake Ferguson",
+              "position": "TE",
+              "team": "DAL"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "strategy": "Zero RB",
+      "draft_id": "1107794017615716352",
+      "roster_id": 6,
+      "rounds": [
+        {
+          "round": 1,
+          "picks": [
+            {
+              "name": "Justin Jefferson",
+              "position": "WR",
+              "team": "MIN"
+            }
+          ]
+        },
+        {
+          "round": 2,
+          "picks": [
+            {
+              "name": "Puka Nacua",
+              "position": "WR",
+              "team": "LAR"
+            }
+          ]
+        },
+        {
+          "round": 3,
+          "picks": [
+            {
+              "name": "Josh Allen",
+              "position": "QB",
+              "team": "BUF"
+            }
+          ]
+        },
+        {
+          "round": 4,
+          "picks": [
+            {
+              "name": "Mike Evans",
+              "position": "WR",
+              "team": "TB"
+            }
+          ]
+        },
+        {
+          "round": 5,
+          "picks": [
+            {
+              "name": "DK Metcalf",
+              "position": "WR",
+              "team": "SEA"
+            }
+          ]
+        },
+        {
+          "round": 6,
+          "picks": [
+            {
+              "name": "Amari Cooper",
+              "position": "WR",
+              "team": "CLE"
+            }
+          ]
+        },
+        {
+          "round": 7,
+          "picks": [
+            {
+              "name": "Evan Engram",
+              "position": "TE",
+              "team": "JAX"
+            }
+          ]
+        },
+        {
+          "round": 8,
+          "picks": [
+            {
+              "name": "Rhamondre Stevenson",
+              "position": "RB",
+              "team": "NE"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "strategy": "Hero RB",
+      "draft_id": "1107794017615716352",
+      "roster_id": 1,
+      "rounds": [
+        {
+          "round": 1,
+          "picks": [
+            {
+              "name": "CeeDee Lamb",
+              "position": "WR",
+              "team": "DAL"
+            }
+          ]
+        },
+        {
+          "round": 2,
+          "picks": [
+            {
+              "name": "Chris Olave",
+              "position": "WR",
+              "team": "NO"
+            }
+          ]
+        },
+        {
+          "round": 3,
+          "picks": [
+            {
+              "name": "Travis Kelce",
+              "position": "TE",
+              "team": "KC"
+            }
+          ]
+        },
+        {
+          "round": 4,
+          "picks": [
+            {
+              "name": "Patrick Mahomes",
+              "position": "QB",
+              "team": "KC"
+            }
+          ]
+        },
+        {
+          "round": 5,
+          "picks": [
+            {
+              "name": "James Cook",
+              "position": "RB",
+              "team": "BUF"
+            }
+          ]
+        },
+        {
+          "round": 6,
+          "picks": [
+            {
+              "name": "Christian Kirk",
+              "position": "WR",
+              "team": "JAX"
+            }
+          ]
+        },
+        {
+          "round": 7,
+          "picks": [
+            {
+              "name": "David Montgomery",
+              "position": "RB",
+              "team": "DET"
+            }
+          ]
+        },
+        {
+          "round": 8,
+          "picks": [
+            {
+              "name": "Chris Godwin",
+              "position": "WR",
+              "team": "TB"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "strategy": "WR Heavy",
+      "draft_id": "1107794017615716352",
+      "roster_id": 8,
+      "rounds": [
+        {
+          "round": 1,
+          "picks": [
+            {
+              "name": "Ja'Marr Chase",
+              "position": "WR",
+              "team": "CIN"
+            }
+          ]
+        },
+        {
+          "round": 2,
+          "picks": [
+            {
+              "name": "Marvin Harrison",
+              "position": "WR",
+              "team": "ARI"
+            }
+          ]
+        },
+        {
+          "round": 3,
+          "picks": [
+            {
+              "name": "Travis Etienne",
+              "position": "RB",
+              "team": "JAX"
+            }
+          ]
+        },
+        {
+          "round": 4,
+          "picks": [
+            {
+              "name": "DJ Moore",
+              "position": "WR",
+              "team": "CHI"
+            }
+          ]
+        },
+        {
+          "round": 5,
+          "picks": [
+            {
+              "name": "Dalton Kincaid",
+              "position": "TE",
+              "team": "BUF"
+            }
+          ]
+        },
+        {
+          "round": 6,
+          "picks": [
+            {
+              "name": "Kenneth Walker",
+              "position": "RB",
+              "team": "SEA"
+            }
+          ]
+        },
+        {
+          "round": 7,
+          "picks": [
+            {
+              "name": "Anthony Richardson",
+              "position": "QB",
+              "team": "IND"
+            }
+          ]
+        },
+        {
+          "round": 8,
+          "picks": [
+            {
+              "name": "Calvin Ridley",
+              "position": "WR",
+              "team": "TEN"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "strategy": "Balanced Start",
+      "draft_id": "1107794017615716352",
+      "roster_id": 12,
+      "rounds": [
+        {
+          "round": 1,
+          "picks": [
+            {
+              "name": "Christian McCaffrey",
+              "position": "RB",
+              "team": "SF"
+            }
+          ]
+        },
+        {
+          "round": 2,
+          "picks": [
+            {
+              "name": "Davante Adams",
+              "position": "WR",
+              "team": "LV"
+            }
+          ]
+        },
+        {
+          "round": 3,
+          "picks": [
+            {
+              "name": "Derrick Henry",
+              "position": "RB",
+              "team": "BAL"
+            }
+          ]
+        },
+        {
+          "round": 4,
+          "picks": [
+            {
+              "name": "Deebo Samuel",
+              "position": "WR",
+              "team": "SF"
+            }
+          ]
+        },
+        {
+          "round": 5,
+          "picks": [
+            {
+              "name": "Trey McBride",
+              "position": "TE",
+              "team": "ARI"
+            }
+          ]
+        },
+        {
+          "round": 6,
+          "picks": [
+            {
+              "name": "James Conner",
+              "position": "RB",
+              "team": "ARI"
+            }
+          ]
+        },
+        {
+          "round": 7,
+          "picks": [
+            {
+              "name": "Aaron Jones",
+              "position": "RB",
+              "team": "MIN"
+            }
+          ]
+        },
+        {
+          "round": 8,
+          "picks": [
+            {
+              "name": "Brock Purdy",
+              "position": "QB",
+              "team": "SF"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

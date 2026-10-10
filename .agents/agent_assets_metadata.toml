@@ -1,0 +1,70 @@
+uploads = []
+generated = []
+
+[[outputs]]
+id = "O76LWFPCErk0le1MADszT"
+uri = "file://dist/wp-plugin/statchasers-redraft.zip"
+type = "unspecified"
+title = "StatChasers Redraft Plugin — 2021 Added"
+
+[[outputs]]
+id = "AB2e2Z7if-d4Rf2i8s-L9"
+uri = "file://statchasers-redraft-1.0.5.zip"
+type = "unspecified"
+title = "StatChasers Redraft Plugin v1.0.5"
+
+[[outputs]]
+id = "aXsB1glAGhUDCDe2zRkvB"
+uri = "file://statchasers-redraft-1.0.6.zip"
+type = "unspecified"
+title = "StatChasers Redraft Plugin v1.0.6 (CSS fix)"
+
+[[outputs]]
+id = "X18fTIpFSgBO_mjkIL08q"
+uri = "file://statchasers-redraft-1.0.7.zip"
+type = "unspecified"
+title = "StatChasers Redraft Plugin v1.0.7 (CSS fix with !important)"
+
+[[outputs]]
+id = "oNBOeB03Ldbug60pod4_V"
+uri = "file://statchasers-redraft-1.0.8.zip"
+type = "unspecified"
+title = "StatChasers Redraft Plugin v1.0.8 (CSS scoped)"
+
+[[outputs]]
+id = "MR1WKeJi8OhTcY_dlINHl"
+uri = "file://statchasers-redraft-1.0.9.zip"
+type = "unspecified"
+title = "StatChasers Redraft Plugin v1.0.9 (proper CSS scoping)"
+
+[[outputs]]
+id = "9qj8t7mHig5FTEyFXBKZI"
+uri = "file://statchasers-redraft-1.0.10.zip"
+type = "unspecified"
+title = "StatChasers Redraft Plugin v1.0.10 (unlayered + scoped CSS)"
+
+[[outputs]]
+id = "c-dzrqU5L4ZKWJZYZ343k"
+uri = "file://statchasers-redraft-1.0.11.zip"
+type = "unspecified"
+title = "StatChasers Redraft Plugin v1.0.11 (mobile fixes)"
+
+[[outputs]]
+id = "Y_NdBDjDYQJ21CCH6kiUa"
+uri = "file://statchasers-redraft-1.0.12.zip"
+type = "unspecified"
+title = "StatChasers Redraft Plugin v1.0.12"
+
+[[outputs]]
+id = "fclq6KQth7RXjwbDvTPQB"
+uri = "file://attached_assets/statchasers-dashboard-overview.png"
+type = "image"
+title = "StatChasers dashboard overview"
+description = "Saved dashboard reference image."
+
+[[outputs]]
+id = "RCJMEVPwWCCRa3t_KGI0j"
+uri = "file://attached_assets/statchasers-dashboard-detail.png"
+type = "image"
+title = "StatChasers dashboard detail"
+description = "Saved dashboard detail reference image."

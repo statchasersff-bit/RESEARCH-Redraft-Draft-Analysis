@@ -1,0 +1,47 @@
+league_size_bucket,qb_format,scoring_format,tep_format,pass_td_format,league_count,team_count
+12-team,Superflex,PPR,No TEP,6pt Pass TD,268,3216
+12-team,1QB,PPR,No TEP,4pt Pass TD,1415,16980
+12-team,Superflex,PPR,No TEP,4pt Pass TD,175,2100
+12-team,Superflex,PPR,TEP +0.75,6pt Pass TD,11,132
+12-team,Superflex,PPR,TEP +0.5,6pt Pass TD,290,3480
+12-team,1QB,PPR,No TEP,6pt Pass TD,251,3012
+10-team,1QB,Half PPR,No TEP,4pt Pass TD,69,690
+10-team,Superflex,PPR,No TEP,6pt Pass TD,76,760
+10-team,1QB,PPR,No TEP,4pt Pass TD,591,5910
+12-team,1QB,Half PPR,No TEP,4pt Pass TD,219,2628
+10-team,1QB,Half PPR,No TEP,6pt Pass TD,22,220
+12-team,Superflex,Half PPR,No TEP,4pt Pass TD,31,372
+12-team,1QB,PPR,TEP +0.5,6pt Pass TD,182,2184
+10-team,Superflex,Half PPR,No TEP,4pt Pass TD,11,110
+12-team,Superflex,PPR,TEP +0.75,4pt Pass TD,6,72
+10-team,Superflex,PPR,TEP +0.5,4pt Pass TD,13,130
+12-team,1QB,PPR,TEP +0.5,4pt Pass TD,42,504
+10-team,1QB,PPR,TEP +0.5,4pt Pass TD,5,50
+10-team,1QB,PPR,No TEP,6pt Pass TD,121,1210
+12-team,Superflex,Half PPR,TEP +0.5,4pt Pass TD,6,72
+10-team,Superflex,Half PPR,TEP +0.5,6pt Pass TD,2,20
+10-team,1QB,Half PPR,TEP +0.5,6pt Pass TD,4,40
+10-team,Superflex,PPR,No TEP,4pt Pass TD,111,1110
+12-team,1QB,Standard,No TEP,4pt Pass TD,10,120
+12-team,1QB,Half PPR,TEP +0.5,4pt Pass TD,9,108
+12-team,1QB,PPR,TEP +0.75,6pt Pass TD,5,60
+12-team,Superflex,PPR,TEP +0.5,4pt Pass TD,32,384
+10-team,1QB,PPR,TEP +0.5,6pt Pass TD,17,170
+10-team,Superflex,PPR,TEP +0.5,6pt Pass TD,56,560
+10-team,1QB,PPR,TEP +0.75,6pt Pass TD,3,30
+10-team,1QB,Half PPR,TEP +0.5,4pt Pass TD,4,40
+12-team,1QB,Half PPR,No TEP,6pt Pass TD,39,468
+12-team,1QB,PPR,TEP +0.75,4pt Pass TD,3,36
+12-team,1QB,Standard,No TEP,6pt Pass TD,7,84
+12-team,1QB,Standard,TEP +0.75,6pt Pass TD,1,12
+10-team,Superflex,Half PPR,No TEP,6pt Pass TD,4,40
+12-team,Superflex,Half PPR,No TEP,6pt Pass TD,6,72
+10-team,1QB,Standard,No TEP,4pt Pass TD,3,30
+10-team,1QB,Standard,No TEP,6pt Pass TD,3,30
+10-team,Superflex,Standard,TEP +0.5,4pt Pass TD,2,20
+12-team,1QB,Standard,TEP +0.75,4pt Pass TD,1,12
+10-team,Superflex,Standard,No TEP,6pt Pass TD,1,10
+12-team,1QB,Half PPR,TEP +0.5,6pt Pass TD,1,12
+12-team,Superflex,Half PPR,TEP +0.5,6pt Pass TD,4,48
+10-team,Superflex,Half PPR,TEP +0.5,4pt Pass TD,1,10
+10-team,Superflex,PPR,TEP +0.75,4pt Pass TD,1,10

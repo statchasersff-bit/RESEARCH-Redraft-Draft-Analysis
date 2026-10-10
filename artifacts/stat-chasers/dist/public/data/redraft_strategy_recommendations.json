@@ -1,0 +1,290 @@
+{
+  "generated_at": "2026-05-10T03:24:30.498Z",
+  "overall": {
+    "headline": "Elite TE produced the strongest playoff rate in this overall sample (55.1%, n=55564).",
+    "recommendations": [
+      {
+        "headline": "Elite TE correlated with 55.1% playoff rate",
+        "body": "In this sample, Elite TE teams made the playoffs at a 55.1% rate — 1.0 percentage points above the overall baseline of 54.1%. Teams using this build also finished in the top 3 for points scored 29.4% of the time (+2.3pp vs baseline). Championship rate: 10.1%. Sample size: 55564. Confidence: High.",
+        "sample_size": 55564,
+        "confidence": "High",
+        "metrics": {
+          "playoff_rate": 0.551,
+          "championship_rate": 0.101,
+          "top_3_pf_rate": 0.294,
+          "average_points_for": 9528.51
+        }
+      },
+      {
+        "headline": "Balanced correlated with 53.9% playoff rate",
+        "body": "In this sample, Balanced teams made the playoffs at a 53.9% rate — 0.2 percentage points below the overall baseline of 54.1%. Top 3 PF rate was in line with the field at 27.5%. Championship rate: 9.0%. Sample size: 230113. Confidence: High.",
+        "sample_size": 230113,
+        "confidence": "High",
+        "metrics": {
+          "playoff_rate": 0.539,
+          "championship_rate": 0.09,
+          "top_3_pf_rate": 0.275,
+          "average_points_for": 6269.82
+        }
+      },
+      {
+        "headline": "Late TE correlated with 53.9% playoff rate",
+        "body": "In this sample, Late TE teams made the playoffs at a 53.9% rate — 0.2 percentage points below the overall baseline of 54.1%. Top 3 PF rate was in line with the field at 27.7%. Championship rate: 8.9%. Sample size: 197119. Confidence: High.",
+        "sample_size": 197119,
+        "confidence": "High",
+        "metrics": {
+          "playoff_rate": 0.539,
+          "championship_rate": 0.089,
+          "top_3_pf_rate": 0.277,
+          "average_points_for": 7642.4
+        }
+      }
+    ]
+  },
+  "early_slot": {
+    "headline": "Robust RB produced the strongest playoff rate in this early-slot sample (54.1%, n=31682).",
+    "recommendations": [
+      {
+        "headline": "Robust RB correlated with 54.1% playoff rate",
+        "body": "In this sample, Robust RB teams made the playoffs at a 54.1% rate — 0.3 percentage points above the overall baseline of 53.8%. Top 3 PF rate was in line with the field at 27.9%. Championship rate: 9.3%. Sample size: 31682. Confidence: High.",
+        "sample_size": 31682,
+        "confidence": "High",
+        "metrics": {
+          "playoff_rate": 0.541,
+          "championship_rate": 0.093,
+          "top_3_pf_rate": 0.279,
+          "average_points_for": 15975.97
+        }
+      },
+      {
+        "headline": "Late TE correlated with 54.0% playoff rate",
+        "body": "In this sample, Late TE teams made the playoffs at a 54.0% rate — 0.2 percentage points above the overall baseline of 53.8%. Top 3 PF rate was in line with the field at 28.0%. Championship rate: 9.2%. Sample size: 61962. Confidence: High.",
+        "sample_size": 61962,
+        "confidence": "High",
+        "metrics": {
+          "playoff_rate": 0.54,
+          "championship_rate": 0.092,
+          "top_3_pf_rate": 0.28,
+          "average_points_for": 10722.52
+        }
+      },
+      {
+        "headline": "Balanced correlated with 53.3% playoff rate",
+        "body": "In this sample, Balanced teams made the playoffs at a 53.3% rate — 0.5 percentage points below the overall baseline of 53.8%. Top 3 PF rate was in line with the field at 27.2%. Championship rate: 9.2%. Sample size: 75972. Confidence: High.",
+        "sample_size": 75972,
+        "confidence": "High",
+        "metrics": {
+          "playoff_rate": 0.533,
+          "championship_rate": 0.092,
+          "top_3_pf_rate": 0.272,
+          "average_points_for": 2998.03
+        }
+      }
+    ]
+  },
+  "middle_slot": {
+    "headline": "Elite TE produced the strongest playoff rate in this middle-slot sample (56.5%, n=20651).",
+    "recommendations": [
+      {
+        "headline": "Elite TE correlated with 56.5% playoff rate",
+        "body": "In this sample, Elite TE teams made the playoffs at a 56.5% rate — 2.1 percentage points above the overall baseline of 54.4%. Teams using this build also finished in the top 3 for points scored 30.2% of the time (+2.1pp vs baseline). Championship rate: 9.8%. Sample size: 20651. Confidence: High.",
+        "sample_size": 20651,
+        "confidence": "High",
+        "metrics": {
+          "playoff_rate": 0.565,
+          "championship_rate": 0.098,
+          "top_3_pf_rate": 0.302,
+          "average_points_for": 5635.53
+        }
+      },
+      {
+        "headline": "WR Heavy correlated with 55.3% playoff rate",
+        "body": "In this sample, WR Heavy teams made the playoffs at a 55.3% rate — 0.9 percentage points above the overall baseline of 54.4%. Top 3 PF rate was in line with the field at 29.1%. Championship rate: 8.6%. Sample size: 23135. Confidence: High.",
+        "sample_size": 23135,
+        "confidence": "High",
+        "metrics": {
+          "playoff_rate": 0.553,
+          "championship_rate": 0.086,
+          "top_3_pf_rate": 0.291,
+          "average_points_for": 1698.52
+        }
+      },
+      {
+        "headline": "Balanced correlated with 55.3% playoff rate",
+        "body": "In this sample, Balanced teams made the playoffs at a 55.3% rate — 0.9 percentage points above the overall baseline of 54.4%. Top 3 PF rate was in line with the field at 28.5%. Championship rate: 9.0%. Sample size: 80678. Confidence: High.",
+        "sample_size": 80678,
+        "confidence": "High",
+        "metrics": {
+          "playoff_rate": 0.553,
+          "championship_rate": 0.09,
+          "top_3_pf_rate": 0.285,
+          "average_points_for": 7738
+        }
+      }
+    ]
+  },
+  "late_slot": {
+    "headline": "Elite TE produced the strongest playoff rate in this late-slot sample (56.6%, n=16584).",
+    "recommendations": [
+      {
+        "headline": "Elite TE correlated with 56.6% playoff rate",
+        "body": "In this sample, Elite TE teams made the playoffs at a 56.6% rate — 2.6 percentage points above the overall baseline of 54.0%. Teams using this build also finished in the top 3 for points scored 30.9% of the time (+4.5pp vs baseline). Championship rate: 10.5%. Sample size: 16584. Confidence: High.",
+        "sample_size": 16584,
+        "confidence": "High",
+        "metrics": {
+          "playoff_rate": 0.566,
+          "championship_rate": 0.105,
+          "top_3_pf_rate": 0.309,
+          "average_points_for": 1777.68
+        }
+      },
+      {
+        "headline": "Hero RB correlated with 53.0% playoff rate",
+        "body": "In this sample, Hero RB teams made the playoffs at a 53.0% rate — 1.0 percentage points below the overall baseline of 54.0%. Top 3 PF rate was in line with the field at 26.8%. Championship rate: 9.4%. Sample size: 49589. Confidence: High.",
+        "sample_size": 49589,
+        "confidence": "High",
+        "metrics": {
+          "playoff_rate": 0.53,
+          "championship_rate": 0.094,
+          "top_3_pf_rate": 0.268,
+          "average_points_for": 25329.75
+        }
+      },
+      {
+        "headline": "Balanced correlated with 53.0% playoff rate",
+        "body": "In this sample, Balanced teams made the playoffs at a 53.0% rate — 1.0 percentage points below the overall baseline of 54.0%. Top 3 PF rate was in line with the field at 26.6%. Championship rate: 8.8%. Sample size: 73463. Confidence: High.",
+        "sample_size": 73463,
+        "confidence": "High",
+        "metrics": {
+          "playoff_rate": 0.53,
+          "championship_rate": 0.088,
+          "top_3_pf_rate": 0.266,
+          "average_points_for": 8040.97
+        }
+      }
+    ]
+  },
+  "ppr": {
+    "headline": "WR Heavy produced the strongest playoff rate in this PPR sample (56.0%, n=49831).",
+    "recommendations": [
+      {
+        "headline": "WR Heavy correlated with 56.0% playoff rate",
+        "body": "In this sample, WR Heavy teams made the playoffs at a 56.0% rate — 1.4 percentage points above the overall baseline of 54.5%. Top 3 PF rate was in line with the field at 28.5%. Championship rate: 8.7%. Sample size: 49831. Confidence: High.",
+        "sample_size": 49831,
+        "confidence": "High",
+        "metrics": {
+          "playoff_rate": 0.56,
+          "championship_rate": 0.087,
+          "top_3_pf_rate": 0.285,
+          "average_points_for": 1700.26
+        }
+      },
+      {
+        "headline": "Elite TE correlated with 55.8% playoff rate",
+        "body": "In this sample, Elite TE teams made the playoffs at a 55.8% rate — 1.2 percentage points above the overall baseline of 54.5%. Top 3 PF rate was in line with the field at 28.9%. Championship rate: 9.9%. Sample size: 43639. Confidence: High.",
+        "sample_size": 43639,
+        "confidence": "High",
+        "metrics": {
+          "playoff_rate": 0.558,
+          "championship_rate": 0.099,
+          "top_3_pf_rate": 0.289,
+          "average_points_for": 11649.59
+        }
+      },
+      {
+        "headline": "Late TE correlated with 55.4% playoff rate",
+        "body": "In this sample, Late TE teams made the playoffs at a 55.4% rate — 0.8 percentage points above the overall baseline of 54.5%. Top 3 PF rate was in line with the field at 28.2%. Championship rate: 9.0%. Sample size: 154008. Confidence: High.",
+        "sample_size": 154008,
+        "confidence": "High",
+        "metrics": {
+          "playoff_rate": 0.554,
+          "championship_rate": 0.09,
+          "top_3_pf_rate": 0.282,
+          "average_points_for": 9298.54
+        }
+      }
+    ]
+  },
+  "half_ppr": {
+    "headline": "Elite TE produced the strongest playoff rate in this Half PPR sample (52.3%, n=11165).",
+    "recommendations": [
+      {
+        "headline": "Elite TE correlated with 52.3% playoff rate",
+        "body": "In this sample, Elite TE teams made the playoffs at a 52.3% rate — 0.1 percentage points above the overall baseline of 52.2%. Teams using this build also finished in the top 3 for points scored 31.3% of the time (+5.2pp vs baseline). Championship rate: 10.7%. Sample size: 11165. Confidence: High.",
+        "sample_size": 11165,
+        "confidence": "High",
+        "metrics": {
+          "playoff_rate": 0.523,
+          "championship_rate": 0.107,
+          "top_3_pf_rate": 0.313,
+          "average_points_for": 1710.98
+        }
+      },
+      {
+        "headline": "Elite QB correlated with 51.7% playoff rate",
+        "body": "In this sample, Elite QB teams made the playoffs at a 51.7% rate — 0.5 percentage points below the overall baseline of 52.2%. Top 3 PF rate was in line with the field at 28.1%. Championship rate: 9.7%. Sample size: 43099. Confidence: High.",
+        "sample_size": 43099,
+        "confidence": "High",
+        "metrics": {
+          "playoff_rate": 0.517,
+          "championship_rate": 0.097,
+          "top_3_pf_rate": 0.281,
+          "average_points_for": 1668.17
+        }
+      },
+      {
+        "headline": "Hero RB correlated with 50.0% playoff rate",
+        "body": "In this sample, Hero RB teams made the playoffs at a 50.0% rate — 2.2 percentage points below the overall baseline of 52.2%. Top 3 PF rate was in line with the field at 27.2%. Championship rate: 9.5%. Sample size: 24306. Confidence: High.",
+        "sample_size": 24306,
+        "confidence": "High",
+        "metrics": {
+          "playoff_rate": 0.5,
+          "championship_rate": 0.095,
+          "top_3_pf_rate": 0.272,
+          "average_points_for": 1666.84
+        }
+      }
+    ]
+  },
+  "superflex": {
+    "headline": "WR Heavy produced the strongest playoff rate in this Superflex sample (59.0%, n=2659).",
+    "recommendations": [
+      {
+        "headline": "WR Heavy correlated with 59.0% playoff rate",
+        "body": "In this sample, WR Heavy teams made the playoffs at a 59.0% rate — 5.2 percentage points above the overall baseline of 53.8%. Teams using this build also finished in the top 3 for points scored 32.3% of the time (+5.4pp vs baseline). Championship rate: 9.4%. Sample size: 2659. Confidence: High.",
+        "sample_size": 2659,
+        "confidence": "High",
+        "metrics": {
+          "playoff_rate": 0.59,
+          "championship_rate": 0.094,
+          "top_3_pf_rate": 0.323,
+          "average_points_for": 1942.75
+        }
+      },
+      {
+        "headline": "Late QB correlated with 58.2% playoff rate",
+        "body": "In this sample, Late QB teams made the playoffs at a 58.2% rate — 4.4 percentage points above the overall baseline of 53.8%. Teams using this build also finished in the top 3 for points scored 29.7% of the time (+2.8pp vs baseline). Championship rate: 8.9%. Sample size: 3756. Confidence: High.",
+        "sample_size": 3756,
+        "confidence": "High",
+        "metrics": {
+          "playoff_rate": 0.582,
+          "championship_rate": 0.089,
+          "top_3_pf_rate": 0.297,
+          "average_points_for": 1977.14
+        }
+      },
+      {
+        "headline": "Robust RB correlated with 56.3% playoff rate",
+        "body": "In this sample, Robust RB teams made the playoffs at a 56.3% rate — 2.5 percentage points above the overall baseline of 53.8%. Top 3 PF rate was in line with the field at 28.8%. Championship rate: 8.9%. Sample size: 10193. Confidence: High.",
+        "sample_size": 10193,
+        "confidence": "High",
+        "metrics": {
+          "playoff_rate": 0.563,
+          "championship_rate": 0.089,
+          "top_3_pf_rate": 0.288,
+          "average_points_for": 75551.28
+        }
+      }
+    ]
+  }
+}
